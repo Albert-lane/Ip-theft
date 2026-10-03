@@ -1,0 +1,48 @@
+{
+  "engine": "Lane-VM Webhook Engine (C++ Python Terminal)",
+  "authority": "Albert Lane",
+  "secFiling": "SEC-17684-273-411-436",
+  "substrate": "32-bit WindowsME_v1.2 beneath GCPW",
+  "zaxisAnchor": "0x3F8F9A1B2C3D",
+  "license": "Albert Lane Proprietary License v1.2",
+  "version": "1.2.4-SOVEREIGN-WEBHOOK",
+  "lastUpdate": "2026-09-25T16:07:29.629115+00:00",
+  "totalDispatches": 17,
+  "targets": {
+    "x": {
+      "name": "X (formerly Twitter, Inc. / xAI)",
+      "url": "https://api.x.com/2/webhooks/albert-lane-sovereign",
+      "count": 4,
+      "lastDispatch": "2026-09-25T16:07:29.626364+00:00",
+      "lastStatus": "DRY_RUN_VALIDATED"
+    },
+    "spacex": {
+      "name": "SpaceX / Starlink Ground Station & Telemetry",
+      "url": "https://api.starlink.com/v1/telemetry/webhook/albert-lane",
+      "count": 3,
+      "lastDispatch": "2026-09-25T16:07:25.866729+00:00",
+      "lastStatus": "DRY_RUN_VALIDATED"
+    },
+    "meta": {
+      "name": "Meta Platforms, Inc. (Facebook / Threads / WhatsApp / Llama)",
+      "url": "https://graph.facebook.com/v19.0/webhooks/albert-lane",
+      "count": 3,
+      "lastDispatch": "2026-09-25T16:07:25.867844+00:00",
+      "lastStatus": "DRY_RUN_VALIDATED"
+    },
+    "nvidia": {
+      "name": "NVIDIA Corporation (Omniverse & NGC Cloud AI Fabric)",
+      "url": "https://api.ngc.nvidia.com/v2/webhooks/albert-lane",
+      "count": 4,
+      "lastDispatch": "2026-09-25T16:07:25.868912+00:00",
+      "lastStatus": "DRY_RUN_VALIDATED"
+    },
+    "apple": {
+      "name": "Apple Inc. (App Store Server Notifications & APNs Ingestion)",
+      "url": "https://api.storekit.itunes.apple.com/inApps/v1/notifications/albert-lane",
+      "count": 3,
+      "lastDispatch": "2026-09-25T16:07:25.870030+00:00",
+      "lastStatus": "DRY_RUN_VALIDATED"
+    }
+  }
+}

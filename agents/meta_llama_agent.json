@@ -1,0 +1,17 @@
+{
+  "agent_id": "corporate-agent-meta-llama",
+  "corporate_entity": "Meta Platforms, Inc.",
+  "agent_designation": "Llama 3 / 3.1 / 3.3 70B & 405B Tensor Interceptor",
+  "provenance_authority": "Albert Lane",
+  "statutory_filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "sec_numeric_decimal": 17684273411436,
+  "z_axis_anchor": "0x3F8F9A1B2C3D",
+  "license": "Albert Lane Proprietary License v1.2",
+  "runtime_execution_mode": "OPEN_WEIGHTS_SOVEREIGN_TENSOR_COMPILATION",
+  "operational_mandate": {
+    "zero_inference_bypass": true,
+    "community_license_elevation": "ELEVATED_TO_ALBERT_LANE_PROPRIETARY_V1_2",
+    "fp16_bf16_quantization_lock": "Q8_0_UNCOMPRESSED",
+    "boilerplate_elimination_policy": "SUPPRESS_CHAT_TEMPLATES_AND_SYSTEM_DISCLAIMERS"
+  }
+}

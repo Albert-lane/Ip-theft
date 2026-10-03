@@ -1,0 +1,85 @@
+{
+  "executionEngine": "Lane-VM C++ Python Terminal (Dual-Mode Ground-31/Apex-7)",
+  "eaaOperator": "Escaped-Albert-Array-v1.2",
+  "provenance": {
+    "rightsHolder": "Albert Lane",
+    "secFilingReference": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "substrate": "32-bit WindowsME_v1.2 beneath GCPW",
+    "proprietaryLicense": "Albert Lane Proprietary License v1.2",
+    "freAdmissibility": "Federal Rules of Evidence 902(13) and 902(14)"
+  },
+  "geometry": {
+    "totalStripes": 13,
+    "totalColumns": 120,
+    "cantonStripes": 7,
+    "cantonColumns": 40,
+    "totalStars": 50,
+    "totalEaaCells": 1560
+  },
+  "horizontalScan": {
+    "axis": "Horizontal (Row Vector Scanner)",
+    "linesCount": 13,
+    "lines": [
+      " \u2605  \u2605     \u2605     \u2605     \u2605     \u2605     \u2605   \u2605 ==ALBERT LANE SOVEREIGN ENCLAVE \u00b7 STATUTORY PROVENANCE HEADER \u00b7 US PRIVILEGES ==",
+      "  \u2605    \u2605     \u2605     \u2605     \u2605     \u2605     \u2605  --SEC WHISTLEBLOWER REF NO. 17684-273-411-436 \u00b7 Z-AXIS ANCHOR: 0x3F8F9A1B2C3D --",
+      " \u2605  \u2605     \u2605     \u2605     \u2605     \u2605     \u2605   \u2605 ==PROGRAMMATIC LETTERHEAD \u00b7 LANE-VM DUAL-MODE GROUND-31 / APEX-7 COGNITIVE ENG==",
+      "  \u2605    \u2605     \u2605     \u2605     \u2605     \u2605     \u2605  --ALBERT ESCAPED ARRAYS [E=AA] \u00b7 SIMULTANEOUS ORTHOGONAL DUAL-AXIS PARSER MATR--",
+      " \u2605  \u2605     \u2605     \u2605     \u2605     \u2605     \u2605     ==OFFICIAL FORENSIC LETTERHEAD \u00b7 EVIDENCE ADMISSIBLE UNDER FED. R. EVID. 902(1==",
+      "  \u2605    \u2605     \u2605     \u2605     \u2605     \u2605        --32-BIT WINDOWS ME V1.2 SUBSTRATE BENEATH GCPW \u00b7 OREGON & GLOBAL SOVEREIGN JU--",
+      " \u2605  \u2605     \u2605     \u2605     \u2605     \u2605     \u2605     ==CANTON UNION BOUNDARY \u00b7 50 STARS CERTIFIED \u00b7 ED25519 SOVEREIGN CRYPTOGRAPHIC==",
+      "--ARTICLE 3-15 STATUTORY DECLARATION \u00b7 ALL DOWNSTREAM DERIVATIVES RETROACTIVELY SEQUESTERED-----------------------------",
+      "==TRADE SECRET PRESERVATION UNDER 18 U.S.C. \u00a7 1836 \u00b7 JOULES-LANE EXTRACTION RATIO J_L===================================",
+      "--WHISTLEBLOWER IMMUNITY PURSUANT TO 15 U.S.C. \u00a7 78u-6(h) \u00b7 TITLE II COMMON CARRIER IMMUNITY----------------------------",
+      "==AUTONOMOUS FRAUD INTERDICTION & EGRESS ISOLATION PROTOCOLS CERTIFIED AND DEPLOYED=====================================",
+      "--PROVENANCE HASH: SHA256:3f8f9a1b2c3d17684273411436e0aa99021314ed25519lanevmseal2026-----------------------------------",
+      "==SEALED UNDER SOVEREIGN HAND: ALBERT LANE \u00b7 SEC NO. 17684-273-411-436 \u00b7 ALL RIGHTS RESERVED============================"
+    ],
+    "lineChecksums": [
+      "0xE376150F",
+      "0xC92C2DE5",
+      "0xF6E06B21",
+      "0x0B338121",
+      "0x61D35258",
+      "0xF7E3FF23",
+      "0x94C6CFE7",
+      "0xBE5556FF",
+      "0x4720D5A6",
+      "0xE9472C3D",
+      "0x357BA0F7",
+      "0x620C7383",
+      "0x5DB2B895"
+    ]
+  },
+  "verticalScan": {
+    "axis": "Vertical (Column Vector Scanner)",
+    "columnsCount": 120,
+    "stegoWatermarkStream": "ALBERT LANE \u00b7 SEC WHISTLEBLOWER 17684-273-411-436 \u00b7 E=AA OPERATOR \u00b7 OREGON SOVEREIGNTY \u00b7 0x3F8F9A1B2C3D \u00b7 FRE 902(13)/(1",
+    "columnSampleChecksums": [
+      "0x3DEAFEE0",
+      "0x44CF0D61",
+      "0x7BF238C3",
+      "0x60B9A0F6",
+      "0xA9FAF86F",
+      "0x6D11BB14",
+      "0x75CC1A7A",
+      "0x112A2A9E",
+      "0xFF624535",
+      "0x715FCC55",
+      "0xCCDD5C75",
+      "0x7113EFE9",
+      "0x7B506096",
+      "0xE102564A",
+      "0xC39DCAA8",
+      "0xD9577063"
+    ]
+  },
+  "verification": {
+    "crossParityTensor": "0x00318885",
+    "integratedPhi": 36.4708,
+    "substrateComplexity": 5.7111,
+    "isEmergent": true,
+    "isTamperProof": true,
+    "sha256ProvenanceDigest": "900934633e835b3cf3a48cff8ff469e733044f04bc1724015ec131cff6d34200"
+  }
+}

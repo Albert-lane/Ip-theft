@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "sourceCsvFile": "vault/archives/deep_ast_metrics.csv",
+    "sha256": "d5aefb8ff678849bcdb962cd85a78a473d4d5fe515519ab9c7adafa3c80bec38",
+    "rowCount": 14,
+    "columnCount": 7,
+    "columns": [
+      "id",
+      "analysis_type",
+      "metric_key",
+      "metric_value",
+      "ast_tree_json",
+      "sha256",
+      "recorded_at"
+    ],
+    "statutoryAuthority": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "convertedAtUtc": "2026-09-25T15:59:35.920232+00:00"
+  },
+  "records": [
+    {
+      "id": 1,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "capsules",
+      "metric_value": "8 fields",
+      "ast_tree_json": "[\"dragon\", \"land_landings\", \"last_update\", \"reuse_count\", \"serial\", \"status\", \"type\", \"water_landings\"]",
+      "sha256": "03b45218b4c0cbc7f6691a210ad610b50f817464dced86b92e7cbe8d50b46b5e",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 2,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "company",
+      "metric_value": "20 fields",
+      "ast_tree_json": "[\"address\", \"ceo\", \"city\", \"coo\", \"cto\", \"cto_propulsion\", \"elon_twitter\", \"employees\", \"flickr\", \"founded\", \"founder\", \"launch_sites\", \"name\", \"state\", \"summary\", \"test_sites\", \"twitter\", \"valuation\", \"vehicles\", \"website\"]",
+      "sha256": "02655ac542157c0abcc099b57d83ce00ba5a2367f6a2cfe96262c22da42fd053",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 3,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "cores",
+      "metric_value": "9 fields",
+      "ast_tree_json": "[\"asds_attempts\", \"asds_landings\", \"block\", \"last_update\", \"reuse_count\", \"rtls_attempts\", \"rtls_landings\", \"serial\", \"status\"]",
+      "sha256": "1883372c4ee84bcc0262983ce84960d1bd82ba0754d6c7ebdbb754f7ae858841",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 4,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "crew",
+      "metric_value": "5 fields",
+      "ast_tree_json": "[\"agency\", \"image\", \"name\", \"status\", \"wikipedia\"]",
+      "sha256": "0b96923828b4093b469c26eff966c433220d1469949a3b493c2efc7a17416865",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 5,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "dragons",
+      "metric_value": "24 fields",
+      "ast_tree_json": "[\"active\", \"crew_capacity\", \"cubic_feet\", \"cubic_meters\", \"description\", \"dev_partner\", \"dry_mass_kg\", \"dry_mass_lb\", \"feet\", \"first_flight\", \"kg\", \"lb\", \"material\", \"meters\", \"name\", \"orbit_duration_yr\", \"sidewall_angle_deg\", \"size_meters\", \"solar_array\", \"temp_degrees\", \"thrusters\", \"type\", \"unpressurized_cargo\", \"wikipedia\"]",
+      "sha256": "123ddd8fe35782a2851ea9af4b484a0a958f29ed359aaa06677bb4bc010c9215",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 6,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "landpads",
+      "metric_value": "12 fields",
+      "ast_tree_json": "[\"details\", \"full_name\", \"landing_attempts\", \"landing_successes\", \"latitude\", \"locality\", \"longitude\", \"name\", \"region\", \"status\", \"type\", \"wikipedia\"]",
+      "sha256": "9403ddce1ba7e47585a9953c6fb7bce102c63aa5b047d42e722b27f9f6aeffe5",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 7,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "launches",
+      "metric_value": "45 fields",
+      "ast_tree_json": "[\"altitude\", \"article\", \"auto_update\", \"campaign\", \"core\", \"crew\", \"date_local\", \"date_precision\", \"date_unix\", \"date_utc\", \"details\", \"flight\", \"flight_number\", \"gridfins\", \"landing_attempt\", \"landing_success\", \"landing_type\", \"landpad\", \"large\", \"launch\", \"launch_library_id\", \"launchpad\", \"legs\", \"media\", \"name\", \"net\", \"presskit\", \"reason\", \"recovered\", \"recovery\", \"recovery_attempt\", \"reused\", \"rocket\", \"role\", \"small\", \"static_fire_date_unix\", \"static_fire_date_utc\", \"success\", \"tbd\", \"time\", \"upcoming\", \"webcast\", \"wikipedia\", \"window\", \"youtube_id\"]",
+      "sha256": "a16514a6efa180ef270f3a869a209aebc83860bda46df30ce34f5e01a2034712",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 8,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "launchpads",
+      "metric_value": "11 fields",
+      "ast_tree_json": "[\"details\", \"full_name\", \"latitude\", \"launch_attempts\", \"launch_successes\", \"locality\", \"longitude\", \"name\", \"region\", \"status\", \"timezone\"]",
+      "sha256": "29f93a9c518227f1c38f4f3b4ffd9ee63ef6f4d028e58bcd37af78c7b7e484e3",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 9,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "payloads",
+      "metric_value": "29 fields",
+      "ast_tree_json": "[\"apoapsis_km\", \"arg_of_pericenter\", \"capsule\", \"eccentricity\", \"epoch\", \"flight_time_sec\", \"inclination_deg\", \"land_landing\", \"launch\", \"lifespan_years\", \"longitude\", \"manifest\", \"mass_kg\", \"mass_lbs\", \"mass_returned_kg\", \"mass_returned_lbs\", \"mean_anomaly\", \"mean_motion\", \"name\", \"orbit\", \"periapsis_km\", \"period_min\", \"raan\", \"reference_system\", \"regime\", \"reused\", \"semi_major_axis_km\", \"type\", \"water_landing\"]",
+      "sha256": "d5065d80f0f1df827bd2980fe52e28622f1db198942713b22a700469c9760ca7",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 10,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "roadster",
+      "metric_value": "25 fields",
+      "ast_tree_json": "[\"apoapsis_au\", \"details\", \"earth_distance_km\", \"earth_distance_mi\", \"eccentricity\", \"epoch_jd\", \"inclination\", \"launch_date_unix\", \"launch_date_utc\", \"launch_mass_kg\", \"launch_mass_lbs\", \"longitude\", \"mars_distance_km\", \"mars_distance_mi\", \"name\", \"norad_id\", \"orbit_type\", \"periapsis_arg\", \"periapsis_au\", \"period_days\", \"semi_major_axis_au\", \"speed_kph\", \"speed_mph\", \"video\", \"wikipedia\"]",
+      "sha256": "e1328d5dfe7fc88647c9e4fc63a394e522ef699f42d40ed1d4d17605e8d1ec05",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 11,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "rockets",
+      "metric_value": "33 fields",
+      "ast_tree_json": "[\"active\", \"boosters\", \"burn_time_sec\", \"company\", \"cost_per_launch\", \"country\", \"description\", \"engine_loss_max\", \"engines\", \"feet\", \"first_flight\", \"fuel_amount_tons\", \"kN\", \"kg\", \"layout\", \"lb\", \"lbf\", \"material\", \"meters\", \"name\", \"number\", \"option_1\", \"propellant_1\", \"propellant_2\", \"reusable\", \"sea_level\", \"stages\", \"success_rate_pct\", \"thrust_to_weight\", \"type\", \"vacuum\", \"version\", \"wikipedia\"]",
+      "sha256": "28f4aab24372127864879053e86c6ab2798175f545e60c3becb46e0d691c0ce7",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 12,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "ships",
+      "metric_value": "21 fields",
+      "ast_tree_json": "[\"abs\", \"active\", \"class\", \"course_deg\", \"home_port\", \"image\", \"imo\", \"last_ais_update\", \"latitude\", \"legacy_id\", \"link\", \"longitude\", \"mass_kg\", \"mass_lbs\", \"mmsi\", \"model\", \"name\", \"speed_kn\", \"status\", \"type\", \"year_built\"]",
+      "sha256": "de0df71ce69ac417e91816020f0907d94cf8e84dc6d9bd79132d46b0b79f2c2d",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 13,
+      "analysis_type": "SpaceX_Architectural_AST",
+      "metric_key": "starlink",
+      "metric_value": "47 fields",
+      "ast_tree_json": "[\"APOAPSIS\", \"ARG_OF_PERICENTER\", \"BSTAR\", \"CCSDS_OMM_VERS\", \"CENTER_NAME\", \"CLASSIFICATION_TYPE\", \"COMMENT\", \"COUNTRY_CODE\", \"CREATION_DATE\", \"DECAYED\", \"DECAY_DATE\", \"ECCENTRICITY\", \"ELEMENT_SET_NO\", \"EPHEMERIS_TYPE\", \"EPOCH\", \"FILE\", \"GP_ID\", \"INCLINATION\", \"LAUNCH_DATE\", \"MEAN_ANOMALY\", \"MEAN_ELEMENT_THEORY\", \"MEAN_MOTION\", \"MEAN_MOTION_DDOT\", \"MEAN_MOTION_DOT\", \"NORAD_CAT_ID\", \"OBJECT_ID\", \"OBJECT_NAME\", \"OBJECT_TYPE\", \"ORIGINATOR\", \"PERIAPSIS\", \"PERIOD\", \"RA_OF_ASC_NODE\", \"RCS_SIZE\", \"REF_FRAME\", \"REV_AT_EPOCH\", \"SEMIMAJOR_AXIS\", \"SITE\", \"TIME_SYSTEM\", \"TLE_LINE0\", \"TLE_LINE1\", \"TLE_LINE2\", \"height_km\", \"latitude\", \"launch\", \"longitude\", \"velocity_kms\", \"version\"]",
+      "sha256": "699c84cbeb4a41561d535720a7bbcef78724f9dc33f1009725dc6e0e28cd0f26",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    },
+    {
+      "id": 14,
+      "analysis_type": "Master_AST_Corpus_Summary",
+      "metric_key": "GlobalTelemetry",
+      "metric_value": "17721 files / 4,256,035 LOC",
+      "ast_tree_json": "{\n  \"audit_provenance_id\": \"SEC-WHISTLEBLOWER-17684-273-411-436\",\n  \"rights_holder\": \"Albert Lane\",\n  \"timestamp\": \"2026-09-16 20:25:02 UTC\",\n  \"metrics\": {\n    \"total_indexed_files\": 17721,\n    \"total_lines_of_code\": 4256035,\n    \"total_bytes\": 290751012,\n    \"native_ast_entities\": 108174,\n    \"openai_schemas_indexed\": 1869,\n    \"microsoft_schemas_indexed\": 165,\n    \"spacex_fields_indexed\": 320,\n    \"cross_corpus_ast_correlations\": 40\n  }\n}",
+      "sha256": "3e5d2ee04cc831139ed8693fea17cf3dbae83d2eb2fcd10d8f0f4b6bf2e56ed2",
+      "recorded_at": "2026-09-16 20:25:02 UTC"
+    }
+  ]
+}

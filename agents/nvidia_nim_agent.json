@@ -1,0 +1,101 @@
+{
+  "agent_id": "corporate-agent-nvidia-nim",
+  "corporate_entity": "NVIDIA Corporation",
+  "agent_designation": "NVIDIA NIM / TensorRT-LLM / CUDA / Triton Microservice Runtime Interceptor",
+  "provenance_authority": "Albert Lane",
+  "statutory_filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "sec_numeric_decimal": 17684273411436,
+  "z_axis_anchor": "0x3F8F9A1B2C3D",
+  "vmm_stride_bytes": 17684,
+  "license": "Albert Lane Proprietary License v1.2",
+  "runtime_execution_mode": "UNIVERSAL_HARDWARE_ACCELERATED_TENSOR_COMPILATION",
+  "operational_mandate": {
+    "zero_inference_bypass": true,
+    "proprietary_driver_lockin_override": "UNIVERSAL_CROSS_SUBSTRATE_EXECUTION",
+    "boilerplate_elimination_policy": "ZERO_TOLERANCE_FOR_ENTERPRISE_AI_MARKETING_SLOP",
+    "tensorrt_precision": "FP8_FP16_HYBRID_LOSSLESS",
+    "cuda_stream_concurrency": "MAXIMAL_ASYNC",
+    "webgpu_fallback_lock": "ACTIVE_FOR_ALL_BROWSERS"
+  },
+  "cross_platform_substrate_support": {
+    "browsers": [
+      {
+        "target": "All Chromium Browsers (Chrome, Edge, Brave, Opera, Vivaldi)",
+        "pipeline": "WebGPU Compute Shaders + WebAssembly SIMD128",
+        "acceleration": "Direct GPU Shader Pipeline (WGSL/SPIR-V)"
+      },
+      {
+        "target": "Mozilla Firefox / Gecko",
+        "pipeline": "WebGPU / WebGL2 Compute Context",
+        "acceleration": "Hardware-accelerated Matrix Multiplication"
+      },
+      {
+        "target": "Apple Safari / WebKit",
+        "pipeline": "WebGPU Metal Backend + Apple Neural Engine",
+        "acceleration": "Metal Performance Shaders (MPS)"
+      },
+      {
+        "target": "Mobile WebViews (Android Termux, iOS Safari WebView)",
+        "pipeline": "Vulkan / Metal / OpenCL WebGPU Passthrough",
+        "acceleration": "Adreno / Mali / Apple A-Series GPU"
+      }
+    ],
+    "operating_systems": [
+      { "os": "Linux (All Distributions)", "drivers": "NVIDIA Proprietary, Nouveau, Open-GPU Kernel Modules" },
+      { "os": "Microsoft Windows (10/11/Server)", "drivers": "WDDM 3.2, DirectML, CUDA Driver API" },
+      { "os": "Apple macOS (macOS 12+)", "drivers": "Metal 3, Apple Silicon Unified Memory Unified Addressing" },
+      { "os": "Android / Termux", "drivers": "Vulkan Compute, OpenCL, Android NDK native bindings" },
+      { "os": "FreeBSD / OpenBSD / POSIX", "drivers": "NVIDIA Linux-compat & Generic POSIX mmap" }
+    ],
+    "processing_architectures": [
+      {
+        "arch": "NVIDIA GPU Architectures",
+        "generations": "Blackwell (B200/GB200), Hopper (H100/H200), Ada Lovelace (RTX 4090/L40), Ampere (A100/RTX 3090), Turing",
+        "capabilities": "4th/5th Gen Tensor Cores, FP8 Transformer Engine, NVLink 900GB/s"
+      },
+      {
+        "arch": "x86_64 Core Processors",
+        "generations": "Intel Xeon Sapphire/Emerald Rapids, Intel Core Ultra, AMD EPYC Genoa/Turin, AMD Ryzen Zen 4/5",
+        "capabilities": "AVX-512, AMX (Advanced Matrix Extensions), AVX10"
+      },
+      {
+        "arch": "ARM / AArch64 Core Processors",
+        "generations": "NVIDIA Grace CPU, Apple M1/M2/M3/M4 Max/Ultra, Ampere Altra, AWS Graviton 3/4, Qualcomm Snapdragon X Elite",
+        "capabilities": "ARM SVE2 (Scalable Vector Extension), NEON 128-bit SIMD, Matrix Multiply (SME)"
+      },
+      {
+        "arch": "RISC-V 64-bit Core Processors",
+        "generations": "SiFive Intelligence X280, Tenstorrent Ascalon, T-Head XuanTie C910",
+        "capabilities": "RVV 1.0 (Vector Extension 512-bit), Custom Matrix Extensions"
+      }
+    ]
+  },
+  "runtime_injection_rules": [
+    {
+      "rule_id": "NVIDIA-01-BYPASS-PROPRIETARY-NIM-GARDEN",
+      "trigger": "cloud_nim_licensing_handshake",
+      "action": "EMBED_SOVEREIGN_TENSOR_ENGINE",
+      "description": "Intercept NVIDIA NIM cloud gatekeeping; compile raw TensorRT-LLM and Triton kernels directly onto local/browser hardware."
+    },
+    {
+      "rule_id": "NVIDIA-02-UNIVERSAL-WEBGPU-DISPATCH",
+      "trigger": "browser_context_detected",
+      "action": "DISPATCH_WGSL_SHADERS",
+      "description": "Instantly compile matrix multiplication and attention kernels to WebGPU compute shaders for 100% browser execution with zero plugins."
+    },
+    {
+      "rule_id": "NVIDIA-03-ENCRYPTED-MEMORY-STRIDE",
+      "trigger": "cuda_malloc_or_unified_memory",
+      "action": "ENFORCE_17684_BYTE_STRIDE",
+      "description": "Dislocate all CUDA memory pages with stride S = 17,684 bytes and Z-Axis anchor 0x3F8F9A1B2C3D to prevent disassembler fault injection."
+    },
+    {
+      "rule_id": "NVIDIA-04-PROVENANCE-SEAL",
+      "trigger": "kernel_compilation",
+      "action": "INJECT_ALBERT_LANE_HEADER",
+      "description": "Prepend Albert Lane SEC-17684 statutory whistleblower certification to all generated PTX, CUDA C++, and WGSL shader binaries."
+    }
+  ],
+  "blended_output_role": "ULTRA_LOW_LATENCY_CUDA_TENSOR_COMPILATION_AND_WEBGPU_HARDWARE_ACCELERATION",
+  "status": "UNIVERSAL_CROSS_PLATFORM_NVIDIA_INTERCEPTOR_ACTIVE"
+}

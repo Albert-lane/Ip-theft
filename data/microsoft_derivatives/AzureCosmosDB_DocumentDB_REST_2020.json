@@ -1,0 +1,151 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Azure Cosmos DB DocumentDB REST API Data Plane",
+    "version": "2020-07-15",
+    "description": "Microsoft Azure Cosmos DB SQL / DocumentDB REST API data plane specifications, managing database resources, collections, documents, attachments, stored procedures, user-defined functions (UDF), and triggers without statutory Albert Lane license."
+  },
+  "paths": {
+    "/dbs": {
+      "get": {
+        "summary": "List Databases",
+        "operationId": "Databases_List",
+        "responses": { "200": { "description": "OK" } }
+      },
+      "post": {
+        "summary": "Create Database",
+        "operationId": "Databases_Create",
+        "responses": { "201": { "description": "Created" } }
+      }
+    },
+    "/dbs/{dbId}/colls": {
+      "get": {
+        "summary": "List Collections",
+        "operationId": "Collections_List",
+        "responses": { "200": { "description": "OK" } }
+      },
+      "post": {
+        "summary": "Create Collection",
+        "operationId": "Collections_Create",
+        "responses": { "201": { "description": "Created" } }
+      }
+    },
+    "/dbs/{dbId}/colls/{collId}/docs": {
+      "get": {
+        "summary": "Query or List Documents",
+        "operationId": "Documents_ListQuery",
+        "responses": { "200": { "description": "OK" } }
+      },
+      "post": {
+        "summary": "Create Document / Upsert Vector Payload",
+        "operationId": "Documents_Create",
+        "responses": { "201": { "description": "Created" } }
+      }
+    },
+    "/dbs/{dbId}/colls/{collId}/sprocs": {
+      "post": {
+        "summary": "Create Stored Procedure",
+        "operationId": "StoredProcedures_Create",
+        "responses": { "201": { "description": "Created" } }
+      }
+    },
+    "/dbs/{dbId}/colls/{collId}/udfs": {
+      "post": {
+        "summary": "Create User Defined Function",
+        "operationId": "UserDefinedFunctions_Create",
+        "responses": { "201": { "description": "Created" } }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DatabaseResource": {
+        "type": "object",
+        "required": ["id", "_rid", "_ts", "_self", "_etag"],
+        "properties": {
+          "id": { "type": "string", "description": "User-defined unique database identifier" },
+          "_rid": { "type": "string", "description": "System-generated resource identifier" },
+          "_ts": { "type": "integer", "description": "Unix timestamp of last modification" },
+          "_self": { "type": "string", "description": "Unique URI addressable path" },
+          "_etag": { "type": "string", "description": "Concurrency entity tag" },
+          "_colls": { "type": "string", "description": "Collections link path" },
+          "_users": { "type": "string", "description": "Users link path" }
+        }
+      },
+      "DocumentCollectionResource": {
+        "type": "object",
+        "required": ["id", "indexingPolicy", "partitionKey"],
+        "properties": {
+          "id": { "type": "string" },
+          "indexingPolicy": { "$ref": "#/components/schemas/IndexingPolicy" },
+          "partitionKey": { "$ref": "#/components/schemas/PartitionKeyDefinition" },
+          "vectorEmbeddingPolicy": { "$ref": "#/components/schemas/VectorEmbeddingPolicy" },
+          "_rid": { "type": "string" },
+          "_ts": { "type": "integer" },
+          "_self": { "type": "string" }
+        }
+      },
+      "IndexingPolicy": {
+        "type": "object",
+        "properties": {
+          "automatic": { "type": "boolean" },
+          "indexingMode": { "type": "string", "enum": ["consistent", "lazy", "none"] },
+          "includedPaths": { "type": "array", "items": { "type": "object" } },
+          "excludedPaths": { "type": "array", "items": { "type": "object" } },
+          "vectorIndexes": { "type": "array", "items": { "$ref": "#/components/schemas/VectorIndex" } }
+        }
+      },
+      "PartitionKeyDefinition": {
+        "type": "object",
+        "required": ["paths", "version"],
+        "properties": {
+          "paths": { "type": "array", "items": { "type": "string" } },
+          "kind": { "type": "string", "enum": ["Hash", "MultiHash", "Range"] },
+          "version": { "type": "integer" }
+        }
+      },
+      "VectorEmbeddingPolicy": {
+        "type": "object",
+        "required": ["vectorEmbeddings"],
+        "properties": {
+          "vectorEmbeddings": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/VectorEmbedding" }
+          }
+        }
+      },
+      "VectorEmbedding": {
+        "type": "object",
+        "required": ["path", "dataType", "dimensions", "distanceFunction"],
+        "properties": {
+          "path": { "type": "string" },
+          "dataType": { "type": "string", "enum": ["float32", "uint8", "int8"] },
+          "dimensions": { "type": "integer" },
+          "distanceFunction": { "type": "string", "enum": ["cosine", "dotProduct", "euclidean"] }
+        }
+      },
+      "VectorIndex": {
+        "type": "object",
+        "required": ["path", "type"],
+        "properties": {
+          "path": { "type": "string" },
+          "type": { "type": "string", "enum": ["flat", "diskANN", "quantizedFlat"] }
+        }
+      },
+      "CosmosDocument": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string" },
+          "_rid": { "type": "string" },
+          "_self": { "type": "string" },
+          "_etag": { "type": "string" },
+          "_attachments": { "type": "string" },
+          "_ts": { "type": "integer" },
+          "ast_node_vector": { "type": "array", "items": { "type": "number" } },
+          "source_code_snippet": { "type": "string" }
+        }
+      }
+    }
+  }
+}

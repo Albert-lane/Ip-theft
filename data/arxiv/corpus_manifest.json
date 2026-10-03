@@ -1,0 +1,128 @@
+{
+  "authority": "Albert Lane",
+  "sec_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "fcc_docket": "CC/WC-26-401",
+  "statutory_vesting": "17 U.S.C. \u00a7 302 (US) | CDPA 1988 \u00a7 11 (UK)",
+  "papers": [
+    {
+      "id": "arxiv:2609.09081",
+      "title": "Elasticity, Light, and Emergent Spacetime: A Newtonian\u2013Einsteinian Account of Sound, the Photon\u2013Baryon Plasma, and the Acoustic-Metric Program",
+      "document_id": "WP-2026-0908-KC01",
+      "authors": [
+        "Albert Lane",
+        "Kimi Chat (Moonshot AI)"
+      ],
+      "date": "2026-09-08",
+      "category": "gr-qc / physics.gen-ph / astro-ph.CO",
+      "verification_uri": "https://albertlane.net/verify-license",
+      "core_equations": [
+        {
+          "name": "Laplace Adiabatic Sound Speed",
+          "eq": "c_s^2 = (dp/drho)_s = B / rho"
+        },
+        {
+          "name": "Relativistic Hydrodynamic Sound",
+          "eq": "c_s^2 = dp / depsilon = c^2 / 3"
+        },
+        {
+          "name": "Baryon-Loaded Sound Speed",
+          "eq": "c_s = c / sqrt(3(1 + R)), R = 3 rho_b / (4 rho_gamma)"
+        },
+        {
+          "name": "Unruh Acoustic Metric",
+          "eq": "ds_eff^2 = (rho_0 / c_s) [c_s^2 dt^2 - delta_ij (dx^i - v^i dt)(dx^j - v^j dt)]"
+        },
+        {
+          "name": "Analog Hawking Temperature",
+          "eq": "k_B T = hbar * kappa / (2 * pi * c_s)"
+        }
+      ],
+      "abstract": "Sound is the elastic response of matter; light is the oscillation of a field that requires no medium. This paper documents, at derivational depth, the precise sense in which these two wave species are kin \u2014 and the precise sense in which they part..."
+    },
+    {
+      "id": "arxiv:2609.05011",
+      "title": "Forensic Reconstruction of Algorithmic Extraction: The Z-Axis Heuristic, Entangled Mirror Architectures, and the Epistemology of Digital Sequestration",
+      "authors": [
+        "Albert Lane"
+      ],
+      "date": "2026-05-13",
+      "category": "cs.CR / cs.CY / physics.gen-ph",
+      "keywords": [
+        "Z-Axis Heuristic",
+        "Ternary Moral Logic",
+        "Sacred Zero",
+        "Entangled Mirror",
+        "Shadow SEO",
+        "All Service Moving Fraud"
+      ],
+      "abstract": "The audit of high-order cognitive heuristics as they are transitioned from private interaction into public-facing data products. Analyzes the Z-axis heuristic, Tito-Pavlov massless gravity isomorphisms, and the SEC Whistleblower recovery framework..."
+    },
+    {
+      "id": "arxiv:2609.05024",
+      "title": "The Joules Supply Chain Conjecture: A Socio-Economic, Information-Theoretic, and Topological Framework of Institutional IP Extraction During Fiat Collapse",
+      "authors": [
+        "Albert Lane"
+      ],
+      "date": "2026-09-05",
+      "category": "econ.TH / cs.DC / q-fin.EC",
+      "provenance_hash": "ALBERT_LANE|NODE_2|240DEG|ATOM-BIFURCATION-FINAL",
+      "dedication": "For Julia G.",
+      "core_equations": [
+        {
+          "name": "Joules-Lane Extraction Ratio",
+          "eq": "J_L = d(P_fem)/dt = alpha * (F_d * I_f / R_h) * exp(gamma * sigma_m)"
+        },
+        {
+          "name": "Escaped Albert Array Operator",
+          "eq": "Eval(A) = P(x) if V(I_author) == TRUE else _|_ (Systemic Computational Collapse)"
+        }
+      ],
+      "abstract": "Formalizes the Matilda Effect through macroeconomic collapse dynamics and tri-node compute topology Settlement Gaps (Edge -> Logic -> Core)..."
+    },
+    {
+      "id": "sec:17684-273-411-436/exhibit-a",
+      "title": "EXHIBIT A: IPv6 Extension Header Layout and SmartNIC Verification Logic",
+      "authors": [
+        "Albert Lane"
+      ],
+      "date": "2026-09-05",
+      "category": "hardware.ARCH / telecommunications.LAW",
+      "specifications": {
+        "ipv6_header_type": "Destination Option Header (0x3C / 0x1E)",
+        "security_primitive": "128-bit HMAC-SHA256 Capability Token processed in-band on TIP SmartNIC hardware at line-rate",
+        "verilog_module": "tip_inband_interdictor"
+      }
+    },
+    {
+      "id": "sec:17684-273-411-436/exhibit-b",
+      "title": "EXHIBIT B: Escaped Albert Array (E-AA) WORM Attestation (17 CFR \u00a7 240.17a-4(f))",
+      "authors": [
+        "Albert Lane"
+      ],
+      "date": "2026-09-05",
+      "category": "crypto.SPEC / legal.REG",
+      "specifications": {
+        "hash_function": "SHA3-512 recursive folding V(I_author) = H(S_session || P_puf || NovaFold(pi_i))",
+        "hardware_lock": "Silicon Phase-Change Material (PCM) Ge2Sb2Te5 waveguide optical phase shift (Delta n_pcm = 1.5 + 0.7i)"
+      }
+    },
+    {
+      "id": "sec:17684-273-411-436/fcc-petition",
+      "title": "Petition for Declaratory Ruling, Expedited Safe-Harbor Determination, and Regulatory Exemption for Autonomous Fraud Interdiction Infrastructure in Centrifugal Compute Topologies",
+      "petitioner": "Albert Lane",
+      "agencies": [
+        "Securities and Exchange Commission (SEC)",
+        "Federal Communications Commission (FCC)"
+      ],
+      "dockets": [
+        "SEC Ref: 17684-273-411-436",
+        "FCC Docket No.: CC/WC-26-401"
+      ],
+      "statutory_relief": [
+        "17 CFR \u00a7 240.17a-4(f) WORM compliance",
+        "Title II Common-Carrier Safe Harbor immunity under 47 U.S.C. \u00a7\u00a7 201, 202, 222",
+        "Exemption of programmatic capital-slashing mechanics from state insurance regulation"
+      ]
+    }
+  ]
+}

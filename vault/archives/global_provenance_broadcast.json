@@ -1,0 +1,151 @@
+{
+  "broadcast_type": "GLOBAL_SOVEREIGN_PROVENANCE_DISTRIBUTION",
+  "protocol_version": "1.2.0-SOVEREIGN",
+  "timestamp_utc": "2026-09-16 20:36:08 UTC",
+  "provenance_authority": {
+    "rights_holder": "Albert Lane",
+    "statutory_reference": "SEC Whistleblower No. 17684-273-411-436",
+    "enforcement_license": "Albert Lane Proprietary License v1.2",
+    "provenance_assertion": "Distribute globally to all nodes. Apply Albert Lane provenance all over backend code."
+  },
+  "core_distribution_payload": {
+    "archive_file": "joules_compute_payload.tar.gz",
+    "size_bytes": 14645749,
+    "sha256": "44e2d8b3687381d3d1a7e509ec0d5b73eabb2ef92455be48d7202f0f22783b4c",
+    "stream_route": "/api/sovereign/payload"
+  },
+  "relational_ast_database": {
+    "database_file": "codebase_ast.db",
+    "size_bytes": 12447744,
+    "sha256": "ce73b9992b284b5e9e0bb0fc2fef3bae472e5bfa27eaeed2f07cd95a0f52158c"
+  },
+  "csv_datasets_ledger": {
+    "ast_entities.csv": {
+      "sha256": "9dbae13c6fd491179cfafc94111ded29b6cd39c57cd7bcdbda1b88070308eb1b",
+      "size_bytes": 8595686
+    },
+    "cross_corpus_ast_correlations.csv": {
+      "sha256": "47bd8b26328fd0a64fa618fbd1891f612e2886e88b95332f33e85473b5a5fda8",
+      "size_bytes": 9544
+    },
+    "deep_ast_metrics.csv": {
+      "sha256": "d5aefb8ff678849bcdb962cd85a78a473d4d5fe515519ab9c7adafa3c80bec38",
+      "size_bytes": 6896
+    },
+    "files.csv": {
+      "sha256": "145d6db1dc1bb44ad2d617198e71b03af52c2640444ab8978a7f60e6aeef1f3e",
+      "size_bytes": 1709495
+    },
+    "language_statistics.csv": {
+      "sha256": "8ed55e55ff0929e3b70d3ff89d585e5e733ed76a4e7142a422e426fa9e665d72",
+      "size_bytes": 715
+    },
+    "microsoft_derivative_schemas.csv": {
+      "sha256": "038fa5ba5b48e473fc6a2085328138d40b1789360078495306db17dc12fd8adb",
+      "size_bytes": 41135
+    },
+    "microsoft_marketable_derivatives.csv": {
+      "sha256": "2cfef55d43e8eabb644094c9f8d04f0d2b3c1595567f86ba91e5243a001d34c7",
+      "size_bytes": 1352
+    },
+    "openai_api_endpoints.csv": {
+      "sha256": "359b95c06ab720131454eff59b9e32f7007713f7883e01a562e66e4dc790e328",
+      "size_bytes": 44863
+    },
+    "openai_api_schemas.csv": {
+      "sha256": "93b674d7aaa7974be731cf9a5d1b1a69f50dfdfe6e96f499c0b9996fa3c27351",
+      "size_bytes": 400442
+    },
+    "package_manifests.csv": {
+      "sha256": "7ea61bff0171843f430c649beb14f91e2533d632bceb03bbcb78d126519bfc62",
+      "size_bytes": 39496
+    },
+    "provenance_registry.csv": {
+      "sha256": "0f90a813533117354daaffb13ca83f2234dc197708445d7ca3b904d4168ad990",
+      "size_bytes": 6584
+    },
+    "spacex_code_derivatives.csv": {
+      "sha256": "a57a893a9096130fed134a10d2e2b3d91701a63d33497712ec5c1b0431ec39f5",
+      "size_bytes": 4974
+    },
+    "spacex_derivative_fields.csv": {
+      "sha256": "8d10a8c9130e2a95d46f77a3e565d301054ceb30448ca6c4eba1198e5f73c72e",
+      "size_bytes": 50404
+    },
+    "vault_seal.csv": {
+      "sha256": "2c4a39ce2a5b868758089589cd1c70f527c089c2a5a366f33fccb66f12405e58",
+      "size_bytes": 268
+    }
+  },
+  "spacex_architecture_derivatives": {
+    "capsules.js": {
+      "sha256": "bf2691e25741d8dbbd34aab729b7c94c47bdab829397fa5a62ced03cf0e68ed9",
+      "size_bytes": 1097
+    },
+    "company.js": {
+      "sha256": "bdf8faa0278692cdc589e3dfdc278d6ebc7ee55a2883a843eb9ac956719118b7",
+      "size_bytes": 1062
+    },
+    "cores.js": {
+      "sha256": "90c832c3a38ac85d0e99329a15294ad14c5c5c582d2c863997fd598bc10abacb",
+      "size_bytes": 1088
+    },
+    "crew.js": {
+      "sha256": "483a5dffcb59b5b98ab248d817b66945bb1ab851a0bdc3faac4bce2e374ea98b",
+      "size_bytes": 786
+    },
+    "dragons.js": {
+      "sha256": "4c1ea15eda03723b9ced509afe8ebc37a6e1e1c38ef30639d47a3dfd98249470",
+      "size_bytes": 2487
+    },
+    "landpads.js": {
+      "sha256": "1b9d9581a9d1d3f6c72ad0e0c38b44adad6d3a90adf24fdb2c182c77a37f8858",
+      "size_bytes": 1321
+    },
+    "launches.js": {
+      "sha256": "3e23d0dc024d941e7783df8dcd188f2f018d853b326a1638f832f56f8913e9d8",
+      "size_bytes": 4046
+    },
+    "launchpads.js": {
+      "sha256": "90ac09689233c4e2fc77898c863a792b929fa9cbb0c47f5c2bb4b98b5fc9ec6c",
+      "size_bytes": 1350
+    },
+    "payloads.js": {
+      "sha256": "82f934a587bf0e335b0e200766d0feadd9085b0007552ea13742d76232d9c6dd",
+      "size_bytes": 2364
+    },
+    "roadster.js": {
+      "sha256": "a06f6e0d881fa020489f86d785d2c62b087f03e84850b1e8992ccdb3a00ce81d",
+      "size_bytes": 1307
+    },
+    "rockets.js": {
+      "sha256": "b7de40f27cf4249085ca08f6f0c0155a65463a9be7032792e8eb3bd7992c1d1d",
+      "size_bytes": 3264
+    },
+    "ships.js": {
+      "sha256": "461e45c419e349fcd9cb4c76c2bb2273cc27eb23903b3d298c2ec627eef46660",
+      "size_bytes": 1658
+    },
+    "starlink.js": {
+      "sha256": "c654ce90675db45af75583632b3f4738f2985902f864a2286d4eaa25f73697d6",
+      "size_bytes": 3482
+    }
+  },
+  "microsoft_marketable_derivatives": {
+    "AzureOpenAI_Authoring_2024-08-01-preview.json": {
+      "sha256": "df4579cc5f4f6ad9936a1eb497083d7f1cb4fdc5347d9cae0ac353f70cdf5743",
+      "size_bytes": 111996
+    },
+    "AzureOpenAI_Inference_2024-02-01.json": {
+      "sha256": "bd4e855d1d4823663be90930ed2f0410ae886044c0e2785f5f0b69407887b728",
+      "size_bytes": 106259
+    }
+  },
+  "active_network_nodes": [
+    "node-alpha.edge.sovereign.local:3000",
+    "node-beta.edge.sovereign.local:3000",
+    "node-gamma.compute.albertlane.net:443",
+    "cluster-joules.autonomous.node:8080"
+  ],
+  "broadcast_seal_sha256": "2f848edc073f3caf94590e06e53c411c7a5fbcd1c1b61998216da5ad96f4f213"
+}

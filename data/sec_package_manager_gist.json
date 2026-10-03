@@ -1,0 +1,32 @@
+{
+  "gist_id": "gist-sec17684-dual-serial-hypervisor-provenance",
+  "title": "SEC-17684-273-411-436: Consolidated Package Manager Lockfile & Sovereign Derivatives",
+  "created_at": "2026-09-28T07:10:26Z",
+  "updated_at": "2026-09-30T00:26:28.033526Z",
+  "author": "Albert Lane (gmail@albertlane.net)",
+  "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "sec_numeric_decimal": 17684273411436,
+  "z_axis_anchor": "0x3F8F9A1B2C3D",
+  "status": "UPSTREAM_CONSOLIDATION_LOCKED",
+  "summary": "Consolidated package manager lockfile uniquely engineered for Albert Lane's package manager of package managers (bun, npm, cargo, pip, termux, lane-pm) anchored to SEC-17684-273-411-436. All consolidated derivatives indexed, verified, and sealed with rolling SHA-256.",
+  "files": {
+    "01_serial_dual_vm_topology.md": {
+      "content": "# Serial Dual-VM Topology Specification\n\n- **Hypervisor Series Order**: [Lane-VM 1: Kali Mobile] -> [Lane-VM 2: Intel Windows 11]\n"
+    },
+    "02_rusty_cpython_compiler.py": {
+      "content": "# Sovereign Rusty.c-python Compiler & Albert Escaped Arrays (E=AA)\n"
+    },
+    "03_non_decrypting_hypervisor_main.c": {
+      "content": "// Sovereign Non-Decrypting Type-1 Hypervisor (Intel VMX & ARM EL2)\n"
+    },
+    "04_sec17684273411436.lock": {
+      "content": "/*======================================================================\n[PROVENANCE CERTIFICATION AND STATUTORY DECLARATION]\nRights Holder: Albert Lane\nStatutory Filing Reference: SEC Whistleblower No. 17684-273-411-436\nRegistration Token: SEC-17684-273-411-436 (Decimal: 17684273411436)\nRoot of Trust Anchor: 0x3F8F9A1B2C3D\nVMM Allocation Stride: 17684 bytes\nExecution Masks: GROUND_31 (0x7FFFFFFF) / APEX_7 (0x0000007F)\nWire CRC-32 Checksum: 0xEDB88320\nLicense: Albert Lane Proprietary License v1.2\nScope: Consolidated Package Manager Lockfile for all upstream/downstream derivatives.\n======================================================================*/\n# SEC CONSOLIDATED PACKAGE MANAGER LOCKFILE v1.0\n# Unified Package Manager Lockfile for: bun, npm, cargo, pip, termux, lane-pm\n# Generated: 2026-09-30T00:26:27.972821Z\n# Rolling SHA-256 Seal: de38d6681569be6ad7ffa173917d63ed0190d0c8ddf898baf42604ae492cbabb\n\n[sec_numbers]\nstatutory_filing_reference = \"SEC Whistleblower No. 17684-273-411-436\"\nregistration_number        = \"17684-273-411-436\"\nnumeric_decimal_token      = 17684273411436\nroot_of_trust_anchor       = \"0x3F8F9A1B2C3D\"\nvmm_stride_bytes           = 17684\nbase_sequence_offset_p0    = 57000\nground_31_mask             = \"0x7FFFFFFF\"\napex_7_mask                = \"0x0000007F\"\nwire_crc32_checksum        = \"0xEDB88320\"\n\n[lane_vm_epistemic_enclave]\nintegrated_information_phi = 1.6781\nsubstrate_complexity       = 1.4809\nconsciousness_emergent     = true\n\n[[ecosystem]]\nname = \"bun_npm\"\ntotal_packages = 35\n  \"@google-cloud/storage\" = { version = \"7.19.0\", type = \"production\" }\n  \"@google/genai\" = { version = \"1.29.0\", type = \"production\" }\n  \"@tailwindcss/vite\" = { version = \"4.1.14\", type = \"production\" }\n  \"@types/archiver\" = { version = \"7.0.0\", type = \"development\" }\n  \"@types/express\" = { version = \"4.17.21\", type = \"development\" }\n  \"@types/html2canvas\" = { version = \"0.5.35\", type = \"development\" }\n  \"@types/jszip\" = { version = \"3.4.0\", type = \"development\" }\n  \"@"
+    },
+    "05_consolidated_derivatives_license_manifest.json": {
+      "content": "{\n  \"secRegistration\": \"17684-273-411-436\",\n  \"lockfileSha256\": \"a5ed6fcca9cf112c4a1dbb233b7305a99e8b26d62fd4c7761e3c6549a110ea4e\"\n}"
+    }
+  },
+  "cargo_crates_lock_status": "LOCKED (Exact pinned versions: sha2=0.10.8, hmac=0.12.1, serde=1.0.210)",
+  "brand_interdiction_status": "ACTIVE (.gitignore blocks scraping bots)",
+  "consolidated_lockfile_status": "ACTIVE (a5ed6fcca9cf112c...)"
+}

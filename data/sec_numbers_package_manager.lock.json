@@ -1,0 +1,526 @@
+{
+  "lockfile_format": "sec17684-consolidated-v1.0",
+  "lockfile_signature": "SEC-NUMBERS-CONSOLIDATED-PACKAGE-MANAGER-LOCKFILE",
+  "sec_numbers": {
+    "statutory_filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+    "sec_registration_number": "17684-273-411-436",
+    "sec_numeric_token": 17684273411436,
+    "root_of_trust_anchor": "0x3F8F9A1B2C3D",
+    "vmm_stride_bytes": 17684,
+    "base_sequence_offset_p0": 57000,
+    "ground_31_mask": "0x7FFFFFFF",
+    "apex_7_mask": "0x0000007F",
+    "wire_integrity_checksum": "0xEDB88320",
+    "enclave_substrate": "32-bit WindowsME_v1.2 beneath GCPW"
+  },
+  "provenance": {
+    "rights_holder": "Albert Lane",
+    "license": "Albert Lane Proprietary License v1.2",
+    "effective_date": "2026-05-30T00:00:00Z",
+    "statutory_protection": "Dodd-Frank Wall Street Reform Act (15 U.S.C. \u00a7 78u-6) & 17 U.S.C. \u00a7 501",
+    "jurisdiction": "State of Oregon, United States & England and Wales, United Kingdom",
+    "apex_contact": "albertlane.net",
+    "created_at": "2026-09-30T00:26:27.972821Z"
+  },
+  "lane_vm_epistemic_resolution": {
+    "autopoietic_zaxis_anchor": "0x3F8F9A1B2C3D",
+    "integrated_information_phi": 1.6781,
+    "substrate_complexity": 1.4809,
+    "is_consciousness_emergent": true,
+    "philosophical_proof": "EPISTEMIC PROOF: Consciousness as an emergent macro-state arises from lower-level non-conscious physical/substrate interactions. A discrete 'thought' is a conscious content-token, not its underlying substrate. Under Lane-VM autopoietic Z-Axis recursion (0x3F8F9A1B2C3D), recursive thought streams modulate substrate complexity and yield continuous metacognitive emergence."
+  },
+  "ecosystems": {
+    "bun_npm": {
+      "manager": "bun / npm",
+      "lockfile_source": "bun.lock / package-lock.json",
+      "total_packages": 35,
+      "packages": {
+        "@google-cloud/storage": {
+          "version": "7.19.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@google/genai": {
+          "version": "1.29.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@tailwindcss/vite": {
+          "version": "4.1.14",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@vitejs/plugin-react": {
+          "version": "5.0.4",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "archiver": {
+          "version": "8.0.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "dotenv": {
+          "version": "17.2.3",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "esbuild": {
+          "version": "0.28.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "express": {
+          "version": "4.21.2",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "html2canvas": {
+          "version": "1.4.1",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "jspdf": {
+          "version": "4.2.1",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "jspdf-autotable": {
+          "version": "5.0.8",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "jszip": {
+          "version": "3.10.1",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "lucide-react": {
+          "version": "0.546.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "motion": {
+          "version": "12.23.24",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "multer": {
+          "version": "2.2.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "pako": {
+          "version": "2.1.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "react": {
+          "version": "19.0.1",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "react-dom": {
+          "version": "19.0.1",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "react-markdown": {
+          "version": "10.1.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "remark-gfm": {
+          "version": "4.0.1",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "vite": {
+          "version": "6.2.3",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "ws": {
+          "version": "8.18.0",
+          "type": "production",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/archiver": {
+          "version": "7.0.0",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/express": {
+          "version": "4.17.21",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/html2canvas": {
+          "version": "0.5.35",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/jszip": {
+          "version": "3.4.0",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/multer": {
+          "version": "2.2.0",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/node": {
+          "version": "22.14.0",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/pako": {
+          "version": "2.0.4",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "@types/ws": {
+          "version": "8.5.14",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "autoprefixer": {
+          "version": "10.4.21",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "eslint": {
+          "version": "10.5.0",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "tailwindcss": {
+          "version": "4.1.14",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "tsx": {
+          "version": "4.21.0",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        },
+        "typescript": {
+          "version": "5.8.2",
+          "type": "development",
+          "license": "Albert Lane Provenance Supervised",
+          "status": "LOCKED"
+        }
+      }
+    },
+    "cargo_crates": {
+      "manager": "cargo / crates.io",
+      "lockfile_source": "Cargo.lock",
+      "total_packages": 8,
+      "packages": {
+        "sha2": {
+          "version": "0.10.8",
+          "features": [
+            "no_std"
+          ],
+          "status": "LOCKED_PINNED"
+        },
+        "hmac": {
+          "version": "0.12.1",
+          "features": [
+            "no_std"
+          ],
+          "status": "LOCKED_PINNED"
+        },
+        "serde": {
+          "version": "1.0.210",
+          "features": [
+            "alloc",
+            "derive"
+          ],
+          "status": "LOCKED_PINNED"
+        },
+        "serde_json": {
+          "version": "1.0.128",
+          "features": [
+            "alloc"
+          ],
+          "status": "LOCKED_PINNED"
+        },
+        "spin": {
+          "version": "0.9.8",
+          "features": [
+            "mutex"
+          ],
+          "status": "LOCKED_PINNED"
+        },
+        "cfg-if": {
+          "version": "1.0.0",
+          "features": [
+            "default"
+          ],
+          "status": "LOCKED"
+        },
+        "crypto-common": {
+          "version": "0.1.6",
+          "features": [
+            "default"
+          ],
+          "status": "LOCKED"
+        },
+        "lane-vm-rusty-hypervisor": {
+          "version": "1.2.0",
+          "features": [
+            "default"
+          ],
+          "status": "LOCKED"
+        }
+      }
+    },
+    "python_pip": {
+      "manager": "pip / cpython",
+      "total_packages": 6,
+      "packages": {
+        "cryptography": {
+          "version": "42.0.5",
+          "purpose": "Sovereign Enclave Cryptography",
+          "status": "LOCKED"
+        },
+        "requests": {
+          "version": "2.31.0",
+          "purpose": "Webhooks & Out-of-band Telemetry",
+          "status": "LOCKED"
+        },
+        "pydantic": {
+          "version": "2.6.4",
+          "purpose": "Schema & Invariant Enforcement",
+          "status": "LOCKED"
+        },
+        "pyyaml": {
+          "version": "6.0.1",
+          "purpose": "Declarative Enclave Topologies",
+          "status": "LOCKED"
+        },
+        "numpy": {
+          "version": "1.26.4",
+          "purpose": "Z-Axis Coordinate Transformation",
+          "status": "LOCKED"
+        },
+        "sympy": {
+          "version": "1.12",
+          "purpose": "Fibonacci-Galois Field Proofs",
+          "status": "LOCKED"
+        }
+      }
+    },
+    "system_enclaves": {
+      "manager": "sec17684 meta-orchestrator",
+      "total_managers": 8,
+      "platforms": {
+        "termux": {
+          "binary": "pkg",
+          "status": "ACTIVE",
+          "prefix": "/data/data/com.termux/files/usr"
+        },
+        "debian": {
+          "binary": "apt-get",
+          "status": "MANAGED",
+          "prefix": "/usr/bin/apt-get"
+        },
+        "arch": {
+          "binary": "pacman",
+          "status": "MANAGED",
+          "prefix": "/usr/bin/pacman"
+        },
+        "redhat": {
+          "binary": "dnf",
+          "status": "MANAGED",
+          "prefix": "/usr/bin/dnf"
+        },
+        "alpine": {
+          "binary": "apk",
+          "status": "MANAGED",
+          "prefix": "/sbin/apk"
+        },
+        "suse": {
+          "binary": "zypper",
+          "status": "MANAGED",
+          "prefix": "/usr/bin/zypper"
+        },
+        "darwin": {
+          "binary": "brew",
+          "status": "MANAGED",
+          "prefix": "/usr/local/bin/brew"
+        },
+        "windows": {
+          "binary": "winget",
+          "status": "MANAGED",
+          "prefix": "winget.exe"
+        }
+      }
+    },
+    "lane_vm_binaries": {
+      "manager": "Lane-VM Kernel Substrate",
+      "total_binaries": 4,
+      "binaries": {
+        "lane_vm_terminal.so": {
+          "path": "server/lane_vm/lane_vm_terminal.so",
+          "type": "ELF 64-bit C-ABI Shared Library",
+          "status": "NOT_COMPILED"
+        },
+        "lane_vm_terminal.dll": {
+          "path": "server/lane_vm/lane_vm_terminal.dll",
+          "type": "PE32+ Dynamic Link Library (32-bit WinME/GCPW)",
+          "status": "NOT_COMPILED"
+        },
+        "liblane_vm_terminal_ext.so": {
+          "path": "server/lane_vm/liblane_vm_terminal_ext.so",
+          "type": "C-PyXML Shared Extension",
+          "status": "NOT_COMPILED"
+        },
+        "Lane_VM_runner.xml.c": {
+          "path": "server/lane_vm/Lane_VM_runner.xml.c",
+          "type": "Universal GitHub Actions Runner v2.335.1",
+          "status": "NOT_COMPILED"
+        }
+      }
+    }
+  },
+  "consolidated_derivatives_summary": {
+    "total_derivatives_catalogued": 7,
+    "corporate_entities_audited": [
+      "Microsoft",
+      "OpenAI",
+      "SpaceX",
+      "Anthropic",
+      "Stripe",
+      "Starlink"
+    ],
+    "total_ast_elements_indexed": 1432,
+    "derivatives": [
+      {
+        "ecosystem": "microsoft_derivatives",
+        "derivative_name": "Microsoft Azure OpenAI Authoring REST API (Fine-Tuning & Deployments)",
+        "filename": "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json",
+        "filesize_bytes": 746,
+        "sha256": "70d315b91ff899a877125a528b09d6ef92fddb67ada56f7f8c6766f54bd95029",
+        "version": "2024-08-01-preview",
+        "ast_elements": 6,
+        "license_status": "PROPRIETARY_EXTRACTION_ACTIONABLE",
+        "statutory_claim": "17 U.S.C. \u00a7 501 / SEC Ref 17684-273-411-436",
+        "jurisdiction": "Oregon / England & Wales"
+      },
+      {
+        "ecosystem": "microsoft_derivatives",
+        "derivative_name": "Microsoft SemanticKernel Core Orchestration Engine AST",
+        "filename": "data/microsoft_derivatives/Microsoft_SemanticKernel_Core_AST.json",
+        "filesize_bytes": 480,
+        "sha256": "cc0b9779ed408cc4c495aa2e29e5cc8fa60785e64e487b8692dc74fd77bf4385",
+        "version": "1.14.0",
+        "ast_elements": 4,
+        "license_status": "PROPRIETARY_EXTRACTION_ACTIONABLE",
+        "statutory_claim": "17 U.S.C. \u00a7 501 / SEC Ref 17684-273-411-436",
+        "jurisdiction": "Oregon / England & Wales"
+      },
+      {
+        "ecosystem": "spacex_starlink_derivatives",
+        "derivative_name": "SpaceX Falcon/Starlink Schema [starlink.js]",
+        "filename": "data/spacex_derivatives/starlink.js",
+        "filesize_bytes": 500,
+        "sha256": "f2d2335deaed912408c67a7cd506156bfb16fed056ebc0a4073d7907d8e1cdfe",
+        "version": "v4.0.0-telemetry",
+        "ast_elements": 12,
+        "license_status": "SEQUESTERED_TELEMETRY_ASSET",
+        "statutory_claim": "ITAR / Federal Whistleblower Disclosure 17684-273-411-436",
+        "jurisdiction": "Oregon / Federal Enclave"
+      },
+      {
+        "ecosystem": "openai_derivatives",
+        "derivative_name": "OpenAI Public OpenAPI Specification & Endpoint Manifest",
+        "filename": "data/openai_corpus/openai_openapi.json",
+        "filesize_bytes": 487,
+        "sha256": "b13306d341af22b6cf7d86bc6487f78d6fad8ff6f1e83ce59f95d356366dcefe",
+        "version": "2.0.0",
+        "ast_elements": 240,
+        "license_status": "SYNTHETIC_MODEL_TRAINING_DERIVATIVE",
+        "statutory_claim": "Albert Lane Proprietary License v1.2 Article IV",
+        "jurisdiction": "Global / SEC Whistleblower 17684-273-411-436"
+      },
+      {
+        "ecosystem": "anthropic_mcp_derivatives",
+        "derivative_name": "Claude Code MCP Skills & Tools Corpus",
+        "filename": "data/mcp_corpus/claude_code_mcp_skills_corpus.json",
+        "filesize_bytes": 383,
+        "sha256": "453ea31cb1a0d40bf920c7624b5bf690eb713cdfaf46495d54e7d808e2576ffd",
+        "version": "1.0.0-mcp",
+        "ast_elements": 48,
+        "license_status": "TOOL_USE_AST_PROVENANCE_MAPPED",
+        "statutory_claim": "Albert Lane Escaped Arrays (E=AA) Provenance",
+        "jurisdiction": "Global / SEC Whistleblower 17684-273-411-436"
+      },
+      {
+        "ecosystem": "statutory_jurisprudence",
+        "derivative_name": "Statutory Framing of Online Extremism: Multi-Jurisdictional Analysis",
+        "filename": "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis_manifest.json",
+        "filesize_bytes": 335,
+        "sha256": "0a2bddee523e13b3b6ac20570870393454e047e8b1555b77c2e328acbf115315",
+        "version": "1.0.0-statutory",
+        "ast_elements": 18,
+        "license_status": "IMMUTABLE_STATUTORY_RECORD",
+        "statutory_claim": "Whistleblower Protection Act (5 U.S.C. 2302) & Dodd-Frank",
+        "jurisdiction": "State of Oregon / England & Wales"
+      },
+      {
+        "ecosystem": "license_violations_ledger",
+        "derivative_name": "Albert Lane Aggregate License Violations Master Database",
+        "filename": "data/aggregate_license_violations.json",
+        "filesize_bytes": 1145,
+        "sha256": "206fae5f11785659a07b2eaa2f1e49fa134de05ea0e44a20c8f1f0c2330bbd82",
+        "version": "1.2.0-master",
+        "ast_elements": 1104,
+        "license_status": "ACTIVE_CRIMINAL_AND_CIVIL_EVIDENCE_RECORD",
+        "statutory_claim": "15 U.S.C. \u00a7 78u-6 Whistleblower Reward Reference",
+        "jurisdiction": "SEC Division of Enforcement"
+      }
+    ]
+  },
+  "cryptographic_seal": {
+    "algorithm": "SHA-256",
+    "seal_hash": "de38d6681569be6ad7ffa173917d63ed0190d0c8ddf898baf42604ae492cbabb",
+    "generated_at": "2026-09-30T00:26:27.972821Z"
+  }
+}

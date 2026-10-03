@@ -1,0 +1,88 @@
+{
+  "archive_id": "VAULT-PROVENANCE-20260916201614",
+  "timestamp_utc": "2026-09-16 20:16:14 UTC",
+  "rights_holder": "Albert Lane",
+  "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "license": "Albert Lane Proprietary License v1.2",
+  "total_archived_files": 13,
+  "artifacts": [
+    {
+      "source_path": "data/report.json",
+      "vault_archive_path": "vault/archives/report.json",
+      "size_bytes": 8610,
+      "sha256": "4c9903bb2985964641300b60408f4bc07758657bd5007d03d3f8b2ac48187f72"
+    },
+    {
+      "source_path": "data/repository_metrics.json",
+      "vault_archive_path": "vault/archives/repository_metrics.json",
+      "size_bytes": 14973888,
+      "sha256": "4f2063a8c97c8e601d751020abeb30581753a86c0f34b8c09c2e75087b28c0a8"
+    },
+    {
+      "source_path": "data/ast_analysis.json",
+      "vault_archive_path": "vault/archives/ast_analysis.json",
+      "size_bytes": 13227481,
+      "sha256": "72fb468658c05203da5605e30624a0618bfc29728b3ae5af97b0566deea40fa4"
+    },
+    {
+      "source_path": "data/codebase_ast.db",
+      "vault_archive_path": "vault/archives/codebase_ast.db",
+      "size_bytes": 12263424,
+      "sha256": "2d72b3e49b648929328f5a48755b5b936ecc8d226de6304d699cef1d20e69248"
+    },
+    {
+      "source_path": "data/openai_corpus/openai_openapi.json",
+      "vault_archive_path": "vault/archives/openai_openapi.json",
+      "size_bytes": 4189420,
+      "sha256": "a468c605c9140f3b166aa964d8fe5d1fa2d70cda4666d367b56f8ca88ded177b"
+    },
+    {
+      "source_path": "data/csv/files.csv",
+      "vault_archive_path": "vault/archives/files.csv",
+      "size_bytes": 1709495,
+      "sha256": "145d6db1dc1bb44ad2d617198e71b03af52c2640444ab8978a7f60e6aeef1f3e"
+    },
+    {
+      "source_path": "data/csv/language_statistics.csv",
+      "vault_archive_path": "vault/archives/language_statistics.csv",
+      "size_bytes": 715,
+      "sha256": "8ed55e55ff0929e3b70d3ff89d585e5e733ed76a4e7142a422e426fa9e665d72"
+    },
+    {
+      "source_path": "data/csv/ast_entities.csv",
+      "vault_archive_path": "vault/archives/ast_entities.csv",
+      "size_bytes": 8595686,
+      "sha256": "9dbae13c6fd491179cfafc94111ded29b6cd39c57cd7bcdbda1b88070308eb1b"
+    },
+    {
+      "source_path": "data/csv/package_manifests.csv",
+      "vault_archive_path": "vault/archives/package_manifests.csv",
+      "size_bytes": 39496,
+      "sha256": "7ea61bff0171843f430c649beb14f91e2533d632bceb03bbcb78d126519bfc62"
+    },
+    {
+      "source_path": "data/csv/provenance_registry.csv",
+      "vault_archive_path": "vault/archives/provenance_registry.csv",
+      "size_bytes": 6584,
+      "sha256": "0f90a813533117354daaffb13ca83f2234dc197708445d7ca3b904d4168ad990"
+    },
+    {
+      "source_path": "data/csv/vault_seal.csv",
+      "vault_archive_path": "vault/archives/vault_seal.csv",
+      "size_bytes": 268,
+      "sha256": "2c4a39ce2a5b868758089589cd1c70f527c089c2a5a366f33fccb66f12405e58"
+    },
+    {
+      "source_path": "data/csv/openai_api_schemas.csv",
+      "vault_archive_path": "vault/archives/openai_api_schemas.csv",
+      "size_bytes": 400442,
+      "sha256": "93b674d7aaa7974be731cf9a5d1b1a69f50dfdfe6e96f499c0b9996fa3c27351"
+    },
+    {
+      "source_path": "data/csv/openai_api_endpoints.csv",
+      "vault_archive_path": "vault/archives/openai_api_endpoints.csv",
+      "size_bytes": 44863,
+      "sha256": "359b95c06ab720131454eff59b9e32f7007713f7883e01a562e66e4dc790e328"
+    }
+  ]
+}

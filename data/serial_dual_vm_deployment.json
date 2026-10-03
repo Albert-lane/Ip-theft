@@ -1,0 +1,91 @@
+{
+  "deployment_id": "SERIES-HYPERVISOR-1790606554",
+  "status": "DEPLOYMENT_SUCCESS",
+  "timestamp": 1790606554.6154282,
+  "rights_holder": "Albert Lane",
+  "statutory_authority": "SEC-17684-273-411-436",
+  "z_axis_anchor": "0x3f8f9a1b2c3d",
+  "dual_lane_vm_topology": {
+    "series_order": [
+      "Lane-VM-1:Kali-Mobile",
+      "Lane-VM-2:Intel-Win11"
+    ],
+    "kali_mobile_enclave": {
+      "vm_id": 101,
+      "cores": 2,
+      "threads": 2,
+      "role": "Cryptographic Provenance Ratchet & Rolling Node",
+      "status": "ACTIVE"
+    },
+    "intel_win11_substrate": {
+      "vm_id": 102,
+      "cores": 4,
+      "threads": 8,
+      "ram": "16384",
+      "disk": "64G",
+      "role": "Execution Substrate (Encrypted under Kali)",
+      "encrypted_provenance_id": "ebc868fa18d4fe84a80d769aaf0d91059c56fc962e8e36f776d7bc8708a3c1c1",
+      "encryption_state": {
+        "disk_encryption": "AES-XTS-256-RATCHETED",
+        "memory_encryption": "INTEL_TME_MKTME_PROVENANCE",
+        "disk_seal": "80ba70bb6032ec3c",
+        "mem_seal": "81caeaa559beda97",
+        "kali_ratchet_ref": "7523b13db2efe06b"
+      },
+      "status": "ACTIVE"
+    }
+  },
+  "ratchet_trace_sample": [
+    {
+      "step": 0,
+      "ratchet_seal": "f334ecb8cd45924e54ed768cac2024ee25418848f1b6bd287580bed567b85c1a",
+      "nonce": 2
+    },
+    {
+      "step": 1,
+      "ratchet_seal": "b6467a6888d05634140bedd8f121bb09454d647d1944eb14c8b36115e1ce35d2",
+      "nonce": 3
+    },
+    {
+      "step": 2,
+      "ratchet_seal": "12bf301aef37febe437e4065dffd2abcaf1589138ff4d87f123b2525091e5af8",
+      "nonce": 4
+    },
+    {
+      "step": 3,
+      "ratchet_seal": "51fdee4a7e5371778919f4734fdeb0287792c8caba41d111ecb6f4400d9b7f70",
+      "nonce": 5
+    },
+    {
+      "step": 4,
+      "ratchet_seal": "574b858ec75fdd7e0f63d006a1d2462d0d2ef3aae458996330eef735b9c650cf",
+      "nonce": 6
+    },
+    {
+      "step": 5,
+      "ratchet_seal": "eca32afca0027755115a1253ef144967a9c32ca824f9de6fbdd7213b2ecf70e2",
+      "nonce": 7
+    },
+    {
+      "step": 6,
+      "ratchet_seal": "4ac68504e1cc5027ef56d0e7500d3498a35dcacf81833d6e2c83e088379cf7ca",
+      "nonce": 8
+    },
+    {
+      "step": 7,
+      "ratchet_seal": "917096a8d61724859324017268eb96f651a1377d5080bc1fc16c4d3eb38a4c2c",
+      "nonce": 9
+    },
+    {
+      "step": 8,
+      "ratchet_seal": "fbd251fbae5afae0bdad69f6b8daf5bb64515236505fc770cafa0588a0237ab8",
+      "nonce": 10
+    },
+    {
+      "step": 9,
+      "ratchet_seal": "d0cc90ceb18deb9454eaef0d1d3c752c60dccf3a2ea555710a07fbdfb02a4272",
+      "nonce": 11
+    }
+  ],
+  "unified_series_seal": "faa093acd74c86496151fec9e0e8f024d09402bff1723dd7fc16ce3ee3543e1a"
+}

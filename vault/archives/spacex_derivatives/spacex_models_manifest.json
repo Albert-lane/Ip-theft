@@ -1,0 +1,106 @@
+[
+  {
+    "model_name": "starlink",
+    "file_name": "starlink.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/starlink.js",
+    "size_bytes": 3482,
+    "sha256": "c654ce90675db45af75583632b3f4738f2985902f864a2286d4eaa25f73697d6",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "launches",
+    "file_name": "launches.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/launches.js",
+    "size_bytes": 4046,
+    "sha256": "3e23d0dc024d941e7783df8dcd188f2f018d853b326a1638f832f56f8913e9d8",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "rockets",
+    "file_name": "rockets.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/rockets.js",
+    "size_bytes": 3264,
+    "sha256": "b7de40f27cf4249085ca08f6f0c0155a65463a9be7032792e8eb3bd7992c1d1d",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "payloads",
+    "file_name": "payloads.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/payloads.js",
+    "size_bytes": 2364,
+    "sha256": "82f934a587bf0e335b0e200766d0feadd9085b0007552ea13742d76232d9c6dd",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "capsules",
+    "file_name": "capsules.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/capsules.js",
+    "size_bytes": 1097,
+    "sha256": "bf2691e25741d8dbbd34aab729b7c94c47bdab829397fa5a62ced03cf0e68ed9",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "cores",
+    "file_name": "cores.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/cores.js",
+    "size_bytes": 1088,
+    "sha256": "90c832c3a38ac85d0e99329a15294ad14c5c5c582d2c863997fd598bc10abacb",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "crew",
+    "file_name": "crew.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/crew.js",
+    "size_bytes": 786,
+    "sha256": "483a5dffcb59b5b98ab248d817b66945bb1ab851a0bdc3faac4bce2e374ea98b",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "dragons",
+    "file_name": "dragons.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/dragons.js",
+    "size_bytes": 2487,
+    "sha256": "4c1ea15eda03723b9ced509afe8ebc37a6e1e1c38ef30639d47a3dfd98249470",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "landpads",
+    "file_name": "landpads.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/landpads.js",
+    "size_bytes": 1321,
+    "sha256": "1b9d9581a9d1d3f6c72ad0e0c38b44adad6d3a90adf24fdb2c182c77a37f8858",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "launchpads",
+    "file_name": "launchpads.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/launchpads.js",
+    "size_bytes": 1350,
+    "sha256": "90ac09689233c4e2fc77898c863a792b929fa9cbb0c47f5c2bb4b98b5fc9ec6c",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "roadster",
+    "file_name": "roadster.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/roadster.js",
+    "size_bytes": 1307,
+    "sha256": "a06f6e0d881fa020489f86d785d2c62b087f03e84850b1e8992ccdb3a00ce81d",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "ships",
+    "file_name": "ships.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/ships.js",
+    "size_bytes": 1658,
+    "sha256": "461e45c419e349fcd9cb4c76c2bb2273cc27eb23903b3d298c2ec627eef46660",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  },
+  {
+    "model_name": "company",
+    "file_name": "company.js",
+    "source_url": "https://raw.githubusercontent.com/r-spacex/SpaceX-API/master/models/company.js",
+    "size_bytes": 1062,
+    "sha256": "bdf8faa0278692cdc589e3dfdc278d6ebc7ee55a2883a843eb9ac956719118b7",
+    "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+  }
+]

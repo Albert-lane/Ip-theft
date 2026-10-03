@@ -1,0 +1,188 @@
+{
+  "archive_id": "VAULT-PROVENANCE-20260923190512",
+  "timestamp_utc": "2026-09-23 19:05:06 UTC",
+  "rights_holder": "Albert Lane",
+  "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "license": "Albert Lane Proprietary License v1.2",
+  "sequestration_status": "SEQUESTERED_FEDERAL_PROTECTION",
+  "latest_tamper_hash": "96a86e08052ea43831cbb856007a50dfdd955cecdb1e157370e7b31364f6d9bc",
+  "total_archived_files": 22,
+  "artifacts": [
+    {
+      "source_path": "data/report.json",
+      "vault_archive_path": "vault/archives/report.json",
+      "size_bytes": 11214,
+      "sha256": "361962d538770e3a2d647427e42d84a28824e549c0de97b21cbb3bdaaca62c9b",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/repository_metrics.json",
+      "vault_archive_path": "vault/archives/repository_metrics.json",
+      "size_bytes": 15080130,
+      "sha256": "68a59b872a913dbec03e0cb17c69e09d83a1769df6fed31d0e6cb24a9409d6f2",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/ast_analysis.json",
+      "vault_archive_path": "vault/archives/ast_analysis.json",
+      "size_bytes": 13322104,
+      "sha256": "dd23525376734ec4a40c542d4242114a3fe0aafd04f92be272c851d0e9a53e0c",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/codebase_ast.db",
+      "vault_archive_path": "vault/archives/codebase_ast.db",
+      "size_bytes": 13950976,
+      "sha256": "c213356d04167b239e70cf23bef1bdeede4e48ef8fc0e5a6236a14bc7c8f68bf",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/openai_corpus/openai_openapi.json",
+      "vault_archive_path": "vault/archives/openai_openapi.json",
+      "size_bytes": 4189865,
+      "sha256": "e5f6eeef666c35722f1be239e3fced655db5c201220f79d07ec134a41f1ea5f5",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/mcp_corpus/mcp_specification_schema.json",
+      "vault_archive_path": "vault/archives/mcp_specification_schema.json",
+      "size_bytes": 69476,
+      "sha256": "85da894b4561c50f8c727cf5c0145480bbe53d9095fe06c909d1a80f9ddaf066",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/mcp_corpus/claude_code_mcp_skills_corpus.json",
+      "vault_archive_path": "vault/archives/claude_code_mcp_skills_corpus.json",
+      "size_bytes": 8352,
+      "sha256": "d82874c8b2fdece3e39dd640ee5b60e8c54839c12710d936f5d565dd7d15a7d8",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/files.csv",
+      "vault_archive_path": "vault/archives/files.csv",
+      "size_bytes": 2665586,
+      "sha256": "2797c7f10c8990481a81909c5cdb9ac896999cf77aa980af5e96b00e71ec7c44",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/language_statistics.csv",
+      "vault_archive_path": "vault/archives/language_statistics.csv",
+      "size_bytes": 1762,
+      "sha256": "b72b0d98244c0332f9eebccddb94c41fb8a3d89de4b60949f300138e63eae28c",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/ast_entities.csv",
+      "vault_archive_path": "vault/archives/ast_entities.csv",
+      "size_bytes": 14437103,
+      "sha256": "ed866c624d3d8112df3f2de21f64ab3f6ca22030d4179965d57b987505bacd11",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/package_manifests.csv",
+      "vault_archive_path": "vault/archives/package_manifests.csv",
+      "size_bytes": 69433,
+      "sha256": "4dff6a01ccb9d9f54ce36b6cce4ae9eff92843b1ecc2bb3f2faa8c4ae592aafb",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/provenance_registry.csv",
+      "vault_archive_path": "vault/archives/provenance_registry.csv",
+      "size_bytes": 55373,
+      "sha256": "48e2a96d30411b694195dc53ff1f372b3138d6b3f4719c5b3fe66fb3df9ca44a",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/vault_seal.csv",
+      "vault_archive_path": "vault/archives/vault_seal.csv",
+      "size_bytes": 2713,
+      "sha256": "2264d92a372002317948f108baf74c0ba6aa198f150fa9404c61ae4282952a7d",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/openai_api_schemas.csv",
+      "vault_archive_path": "vault/archives/openai_api_schemas.csv",
+      "size_bytes": 501389,
+      "sha256": "3edeaad9e2197ffe323622e718738c1af881a1b7db7e27ed9fb31e1dbc40ea29",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/openai_api_endpoints.csv",
+      "vault_archive_path": "vault/archives/openai_api_endpoints.csv",
+      "size_bytes": 63568,
+      "sha256": "2ced12f9810ddc421beed5307d75d2dcdf04bb98bbb9a064b2971d51854b84a1",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/mcp_corpus_schemas.csv",
+      "vault_archive_path": "vault/archives/mcp_corpus_schemas.csv",
+      "size_bytes": 27729,
+      "sha256": "75b25730f89a6b166f531872c1c3e9dd10a26ba892fa8f2aa64336e247aeadd5",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/mcp_skills_tools.csv",
+      "vault_archive_path": "vault/archives/mcp_skills_tools.csv",
+      "size_bytes": 6721,
+      "sha256": "562c214d984335a9e765a02428c75b9cb395f9a967b2331e7cefee7289d7ca00",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/mcp_ast_correlations.csv",
+      "vault_archive_path": "vault/archives/mcp_ast_correlations.csv",
+      "size_bytes": 14245,
+      "sha256": "109d4a96ad41a44f1b0e7a0545f5677515310eaca03c5dc2e8bd499a59181f65",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/cross_corpus_ast_correlations.csv",
+      "vault_archive_path": "vault/archives/cross_corpus_ast_correlations.csv",
+      "size_bytes": 28649,
+      "sha256": "9737eefcb788567d6d9e864613abe6320fd801bab1e42c142ffcff19a66a9103",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/microsoft_marketable_derivatives.csv",
+      "vault_archive_path": "vault/archives/microsoft_marketable_derivatives.csv",
+      "size_bytes": 1352,
+      "sha256": "2cfef55d43e8eabb644094c9f8d04f0d2b3c1595567f86ba91e5243a001d34c7",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/spacex_code_derivatives.csv",
+      "vault_archive_path": "vault/archives/spacex_code_derivatives.csv",
+      "size_bytes": 4974,
+      "sha256": "a57a893a9096130fed134a10d2e2b3d91701a63d33497712ec5c1b0431ec39f5",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    },
+    {
+      "source_path": "data/csv/ip_defense_blocklist.csv",
+      "vault_archive_path": "vault/archives/ip_defense_blocklist.csv",
+      "size_bytes": 7652,
+      "sha256": "1f0bcf6bb8d42b91dd935f41b07788ba5f7337e4e866cafcc2aa6590e8bdac3b",
+      "sec_provenance_binding": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane",
+      "last_synced_utc": "2026-09-23 19:05:06 UTC"
+    }
+  ]
+}

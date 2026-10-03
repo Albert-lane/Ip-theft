@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "sourceCsvFile": "data/csv/vault_seal.csv",
+    "sha256": "2264d92a372002317948f108baf74c0ba6aa198f150fa9404c61ae4282952a7d",
+    "rowCount": 14,
+    "columnCount": 7,
+    "columns": [
+      "id",
+      "rights_holder",
+      "filing_reference",
+      "license",
+      "sealed_at",
+      "total_entities",
+      "tamper_hash"
+    ],
+    "statutoryAuthority": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "convertedAtUtc": "2026-09-25T15:59:32.603613+00:00"
+  },
+  "records": [
+    {
+      "id": 1,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-16 20:04:27 UTC",
+      "total_entities": 108174,
+      "tamper_hash": "9a11c685c5002c588613223f6a0ad34f74b72791c48b431a8bd6a28622fdc105"
+    },
+    {
+      "id": 2,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-16 20:16:14 UTC",
+      "total_entities": 110043,
+      "tamper_hash": "f6a2eb2168ef06b2627b288bdb7deb16bf690415ad75ffce66ceaaf8a11182e8"
+    },
+    {
+      "id": 3,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-16 20:25:09 UTC",
+      "total_entities": 54,
+      "tamper_hash": "3f48177465ab286e5e968ecd4acde50f67381eab1e5be520867b8c8927e28bc6"
+    },
+    {
+      "id": 4,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 14:31:20 UTC",
+      "total_entities": 108313,
+      "tamper_hash": "a899e0b80bb7c3116ba303456147e804b04bf75fd4c829750124696040926b73"
+    },
+    {
+      "id": 5,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 15:55:58 UTC",
+      "total_entities": 108316,
+      "tamper_hash": "3f9219f495c2478b6e5883787740a4e9dc7a0a3856482424444c40e47d3e95ad"
+    },
+    {
+      "id": 6,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 15:57:58 UTC",
+      "total_entities": 108317,
+      "tamper_hash": "35ee44df0e12f03854e47945c109bf5944ccb3182a5f5c41421e52adabba9599"
+    },
+    {
+      "id": 7,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 16:05:23 UTC",
+      "total_entities": 108324,
+      "tamper_hash": "4cd2d93e86cef4ce1a4911ae518fb3ebf7d8f9304be07f6ebf0fa699ceac8fd5"
+    },
+    {
+      "id": 8,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 16:06:08 UTC",
+      "total_entities": 108323,
+      "tamper_hash": "93f9e1383faefc4953b494f1870342ef6a0ba5a9d7ba3251de70b9204b91fe42"
+    },
+    {
+      "id": 9,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 16:06:14 UTC",
+      "total_entities": 108323,
+      "tamper_hash": "9c30b8841c8a4b76f83e83a978cdccfd0c883ef7a6d91e495b024cbc980a8735"
+    },
+    {
+      "id": 10,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 16:17:01 UTC",
+      "total_entities": 108323,
+      "tamper_hash": "1bfbadb8b8567ea1a5a5ba4aaa75ddf11be16ff293cb5144588f808749d453cd"
+    },
+    {
+      "id": 11,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 16:17:19 UTC",
+      "total_entities": 108329,
+      "tamper_hash": "c1d279cfa661dda6617c5782cea4cab19d7b0bf39a591a6eac2ab3e0c2eb0b9c"
+    },
+    {
+      "id": 12,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-17 16:18:19 UTC",
+      "total_entities": 108329,
+      "tamper_hash": "1eec57cc1e6e12ffb4a7ebe21739a57830cb4d5687db6b16bfb002cc54c8c51e"
+    },
+    {
+      "id": 13,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-23 00:34:02 UTC",
+      "total_entities": 108371,
+      "tamper_hash": "d31209569b16dac6f3604258749135517ee422dd17e3f69c267e257850ef3fea"
+    },
+    {
+      "id": 14,
+      "rights_holder": "Albert Lane",
+      "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+      "license": "Albert Lane Proprietary License v1.2",
+      "sealed_at": "2026-09-23 19:05:06 UTC",
+      "total_entities": 108384,
+      "tamper_hash": "96a86e08052ea43831cbb856007a50dfdd955cecdb1e157370e7b31364f6d9bc"
+    }
+  ]
+}

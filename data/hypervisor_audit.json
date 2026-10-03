@@ -1,0 +1,89 @@
+{
+  "audit_title": "DATPA-Hardened Traceability & Non-Decrypting Attestation",
+  "authority": "SEC-17684-273-411-436",
+  "z_axis_anchor": "0x3f8f9a1b2c3d",
+  "timestamp": 1790606554.9455142,
+  "records_count": 8,
+  "records": [
+    {
+      "timestamp_ns": 1790606554944590592,
+      "vm_id": 101,
+      "vm_name": "Kali-Mobile-Enclave",
+      "event_type": "VM_PROVISIONED",
+      "details": "Kali Mobile Enclave initialized with 2 Cores. Rolling cryptographic ratchet armed.",
+      "rolling_ratchet": "d444897cabfbf41e12c48a5ad8ef2d662e228179cee2b40200bd67600473c172",
+      "page_table_root": "eefb285686a59159",
+      "provenance_ref": "SEC-17684-273-411-436"
+    },
+    {
+      "timestamp_ns": 1790606554944594432,
+      "vm_id": 102,
+      "vm_name": "Intel-Windows11-Enterprise",
+      "event_type": "VM_PROVISIONED",
+      "details": "Intel + Windows 11 deployed in serial topology on top of Kali Mobile. 4 Cores, 8 Threads allocated.",
+      "rolling_ratchet": "e25b9f8fa9f61adb6dfa2c806a966e052e6169084626dcc639544b68a001f2a3",
+      "page_table_root": "3bdc19a3be79c949",
+      "provenance_ref": "SEC-17684-273-411-436"
+    },
+    {
+      "timestamp_ns": 1790606554944654336,
+      "vm_id": 101,
+      "vm_name": "Kali-Mobile-Enclave",
+      "event_type": "KALI_RATCHET_ADVANCE",
+      "details": "Cycle 0: Rolling key generated for Windows 11 serialization: 44bc3f5d02933e02...",
+      "rolling_ratchet": "44bc3f5d02933e021b2efe6c76d83979882843a56d67ad010672291086ad0348",
+      "page_table_root": "eefb285686a59159",
+      "provenance_ref": "SEC-17684-273-411-436"
+    },
+    {
+      "timestamp_ns": 1790606554944656384,
+      "vm_id": 102,
+      "vm_name": "Intel-Windows11-Enterprise",
+      "event_type": "WIN11_PROVENANCE_LOCKED",
+      "details": "Cycle 0: Windows 11 substrate encrypted under Kali ratchet. 4 cores/8 threads verified.",
+      "rolling_ratchet": "1bd0e06406b56df35d9d643ac57cf26e80a73692aa47960becdb3a36258cd775",
+      "page_table_root": "3bdc19a3be79c949",
+      "provenance_ref": "SEC-17684-273-411-436"
+    },
+    {
+      "timestamp_ns": 1790606554944964096,
+      "vm_id": 101,
+      "vm_name": "Kali-Mobile-Enclave",
+      "event_type": "KALI_RATCHET_ADVANCE",
+      "details": "Cycle 25: Rolling key generated for Windows 11 serialization: 7a05130be33310c2...",
+      "rolling_ratchet": "7a05130be33310c2b0f73a0f9b85c59a4fa48cd8e287c1a2d85062a46f02139c",
+      "page_table_root": "eefb285686a59159",
+      "provenance_ref": "SEC-17684-273-411-436"
+    },
+    {
+      "timestamp_ns": 1790606554944966400,
+      "vm_id": 102,
+      "vm_name": "Intel-Windows11-Enterprise",
+      "event_type": "WIN11_PROVENANCE_LOCKED",
+      "details": "Cycle 25: Windows 11 substrate encrypted under Kali ratchet. 4 cores/8 threads verified.",
+      "rolling_ratchet": "2deba73f722757b8887b7037854396c6435dbb9feffdfdfaff2b8ab210999049",
+      "page_table_root": "3bdc19a3be79c949",
+      "provenance_ref": "SEC-17684-273-411-436"
+    },
+    {
+      "timestamp_ns": 1790606554945221120,
+      "vm_id": 101,
+      "vm_name": "Kali-Mobile-Enclave",
+      "event_type": "KALI_RATCHET_ADVANCE",
+      "details": "Cycle 49: Rolling key generated for Windows 11 serialization: 8e4f008743e4d0df...",
+      "rolling_ratchet": "8e4f008743e4d0df0d6fcb07c788ff1752631f40825cd71190f396aed95501b6",
+      "page_table_root": "eefb285686a59159",
+      "provenance_ref": "SEC-17684-273-411-436"
+    },
+    {
+      "timestamp_ns": 1790606554945222656,
+      "vm_id": 102,
+      "vm_name": "Intel-Windows11-Enterprise",
+      "event_type": "WIN11_PROVENANCE_LOCKED",
+      "details": "Cycle 49: Windows 11 substrate encrypted under Kali ratchet. 4 cores/8 threads verified.",
+      "rolling_ratchet": "3f1ef97af2747bc8e398db620ad0d36f739b2d71662f31aeb70c861cc467cda4",
+      "page_table_root": "3bdc19a3be79c949",
+      "provenance_ref": "SEC-17684-273-411-436"
+    }
+  ]
+}

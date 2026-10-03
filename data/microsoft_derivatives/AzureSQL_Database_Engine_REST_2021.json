@@ -1,0 +1,97 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Azure SQL Database Management & Data Plane API",
+    "version": "2021-11-01",
+    "description": "Microsoft Azure SQL Database relational database engine REST interface, managing logical servers, elastic pools, database instances, transparent data encryption, firewall rules, and query execution stores."
+  },
+  "paths": {
+    "/subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.Sql/servers/{server}/databases": {
+      "get": {
+        "summary": "List Databases by Server",
+        "operationId": "Databases_ListByServer",
+        "responses": { "200": { "description": "OK" } }
+      },
+      "put": {
+        "summary": "Create or Update Database",
+        "operationId": "Databases_CreateOrUpdate",
+        "responses": { "200": { "description": "OK" }, "201": { "description": "Created" } }
+      }
+    },
+    "/subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.Sql/servers/{server}/elasticPools": {
+      "get": {
+        "summary": "List Elastic Pools",
+        "operationId": "ElasticPools_ListByServer",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.Sql/servers/{server}/databases/{db}/transparentDataEncryption": {
+      "get": {
+        "summary": "Get TDE Configuration",
+        "operationId": "TransparentDataEncryption_Get",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.Sql/servers/{server}/databases/{db}/queryStore": {
+      "get": {
+        "summary": "Query Execution Telemetry Store",
+        "operationId": "QueryStore_Get",
+        "responses": { "200": { "description": "OK" } }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Database": {
+        "type": "object",
+        "required": ["id", "name", "type", "location"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "location": { "type": "string" },
+          "properties": { "$ref": "#/components/schemas/DatabaseProperties" }
+        }
+      },
+      "DatabaseProperties": {
+        "type": "object",
+        "properties": {
+          "collation": { "type": "string" },
+          "maxSizeBytes": { "type": "integer" },
+          "status": { "type": "string", "enum": ["Online", "Restoring", "RecoveryPending", "Suspect"] },
+          "databaseId": { "type": "string" },
+          "creationDate": { "type": "string", "format": "date-time" },
+          "currentServiceObjectiveName": { "type": "string" },
+          "requestedServiceObjectiveName": { "type": "string" },
+          "defaultSecondaryLocation": { "type": "string" },
+          "catalogCollation": { "type": "string" },
+          "zoneRedundant": { "type": "boolean" },
+          "licenseType": { "type": "string", "enum": ["LicenseIncluded", "BasePrice"] },
+          "maxLogSizeBytes": { "type": "integer" },
+          "earliestRestoreDate": { "type": "string", "format": "date-time" },
+          "readScale": { "type": "string", "enum": ["Enabled", "Disabled"] },
+          "highAvailabilityReplicaCount": { "type": "integer" }
+        }
+      },
+      "QueryStoreOptions": {
+        "type": "object",
+        "properties": {
+          "state": { "type": "string", "enum": ["ReadWrite", "ReadOnly", "Off"] },
+          "dataFlushIntervalInSeconds": { "type": "integer" },
+          "statisticsCollectionIntervalInMinutes": { "type": "integer" },
+          "maxStorageSizeMB": { "type": "integer" },
+          "queryStoreCaptureMode": { "type": "string", "enum": ["All", "Auto", "None"] },
+          "sizeBasedCleanupMode": { "type": "string", "enum": ["Auto", "Off"] }
+        }
+      },
+      "TransparentDataEncryption": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "status": { "type": "string", "enum": ["Enabled", "Disabled"] }
+        }
+      }
+    }
+  }
+}

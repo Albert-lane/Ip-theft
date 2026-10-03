@@ -1,0 +1,14 @@
+{
+  "info": {
+    "title": "Microsoft SemanticKernel Core Orchestration Engine AST",
+    "version": "1.14.0",
+    "description": "Semantic Kernel plugin functions, kernel memory, and planner AST models mapped to Albert Escaped Arrays (E=AA).",
+    "x-provenance-status": "SEQUESTERED_PROPRIETARY_EXTRACTION"
+  },
+  "paths": {
+    "/plugins": { "get": {} },
+    "/functions/invoke": { "post": {} },
+    "/memory/query": { "post": {} },
+    "/planner/execute": { "post": {} }
+  }
+}

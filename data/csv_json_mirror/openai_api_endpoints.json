@@ -1,0 +1,2789 @@
+{
+  "metadata": {
+    "sourceCsvFile": "vault/archives/openai_api_endpoints.csv",
+    "sha256": "2ced12f9810ddc421beed5307d75d2dcdf04bb98bbb9a064b2971d51854b84a1",
+    "rowCount": 346,
+    "columnCount": 6,
+    "columns": [
+      "id",
+      "path",
+      "http_method",
+      "operation_id",
+      "sha256",
+      "provenance_reference"
+    ],
+    "statutoryAuthority": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "convertedAtUtc": "2026-09-25T15:59:36.592283+00:00"
+  },
+  "records": [
+    {
+      "id": 299,
+      "path": "/agents",
+      "http_method": "GET",
+      "operation_id": "listAgents",
+      "sha256": "98276088a13a86961229f71d27040127d1231d54e5ca6fed06c78be4363cd3e0",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 300,
+      "path": "/agents",
+      "http_method": "POST",
+      "operation_id": "createAgent",
+      "sha256": "2f688b62e581b366a7069f90659a0b9231a0090240d28d5c477f183f34022f21",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 304,
+      "path": "/agents/environments/templates",
+      "http_method": "GET",
+      "operation_id": "listAgentEnvironmentTemplates",
+      "sha256": "3785c1c4409ed7510943319a4c115a19d695b0497d3084112f6772657fc5e7f5",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 305,
+      "path": "/agents/environments/templates",
+      "http_method": "POST",
+      "operation_id": "createAgentEnvironmentTemplate",
+      "sha256": "ceb6e6450a1aa91b58bb69f754a0812649503477f874c0a8952c6b31ec892925",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 308,
+      "path": "/agents/environments/templates/{environment_template_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteAgentEnvironmentTemplate",
+      "sha256": "8645021199a665c1d69bd3e582bd5498f66f85de643a61a4a3693cd7a392f1c3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 306,
+      "path": "/agents/environments/templates/{environment_template_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentEnvironmentTemplate",
+      "sha256": "ce825bb66ae65b73cd605e1070423235eb724c3971e3a96a7a3ccdc1f5478996",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 307,
+      "path": "/agents/environments/templates/{environment_template_id}",
+      "http_method": "POST",
+      "operation_id": "updateAgentEnvironmentTemplate",
+      "sha256": "a3862546ebf1064eff7d64191e478483e416e839543e10e2e6ecd7c4b049c9c4",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 290,
+      "path": "/agents/environments/{environment_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentEnvironment",
+      "sha256": "17506a57d17ee9e9a0108d6fd5d05332a874263db76d22f61666c3ae3c4106dc",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 291,
+      "path": "/agents/environments/{environment_id}/files",
+      "http_method": "GET",
+      "operation_id": "listAgentEnvironmentFiles",
+      "sha256": "6c537b171b54c9a12ce3c71c9e49443e6942c7159c9c41325c0874105d482f53",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 292,
+      "path": "/agents/environments/{environment_id}/files",
+      "http_method": "POST",
+      "operation_id": "createAgentEnvironmentFile",
+      "sha256": "49bfc01a02bd1d2430d2d5455febf9522d8143639b5348939b7bc8f6cac8f64e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 309,
+      "path": "/agents/sessions",
+      "http_method": "GET",
+      "operation_id": "listAgentSessions",
+      "sha256": "3990ba711283a09bb1fa08cf120f09a9dd93710288d9056cac5d0a648ce9f171",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 310,
+      "path": "/agents/sessions",
+      "http_method": "POST",
+      "operation_id": "createAgentSession",
+      "sha256": "e27b2273e3e0b622b2f210c294942c42424b1c5e74f7f3ffd3f6c0778bef39fe",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 313,
+      "path": "/agents/sessions/{session_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteAgentSession",
+      "sha256": "bad5119c620a7af1f4b0d1e791aa447069ef2ee8f3c2703b1e0a80cf3f46c3c5",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 311,
+      "path": "/agents/sessions/{session_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentSession",
+      "sha256": "fac08b622ed31350e869c9779b0bd69b8502e4832bebc3a559c8fba0c56fca59",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 312,
+      "path": "/agents/sessions/{session_id}",
+      "http_method": "POST",
+      "operation_id": "updateAgentSession",
+      "sha256": "0dbc3ec64a865e4457f01967bdb84f32680236964e96c4fe87df2c88cf4a714f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 314,
+      "path": "/agents/sessions/{session_id}/artifacts",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionArtifacts",
+      "sha256": "3b29dc1e7c365ce5bac625b47645b0290981785532d8a4b59148c3a11652d730",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 316,
+      "path": "/agents/sessions/{session_id}/artifacts/{artifact_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteAgentSessionArtifact",
+      "sha256": "867b208e9e4dc5544e49a1679f216dd80572850640ef22119c1143a2fc2572c7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 315,
+      "path": "/agents/sessions/{session_id}/artifacts/{artifact_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentSessionArtifact",
+      "sha256": "15f907a1a23ddb0b88ce8dc3d99a743bf4d3fac6d5da42a688da8c3841fff99e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 317,
+      "path": "/agents/sessions/{session_id}/artifacts/{artifact_id}/content",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentSessionArtifactContent",
+      "sha256": "d9da061bc409e967dbb56b23e9809b8ae04cd3ef3e7b0e942f752ead4a6d56e7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 318,
+      "path": "/agents/sessions/{session_id}/events",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionEvents",
+      "sha256": "40e42a31d460903d65fe858ce24468618b349f1fa928a440ee35766c6e9775b2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 319,
+      "path": "/agents/sessions/{session_id}/events",
+      "http_method": "POST",
+      "operation_id": "createAgentSessionEvents",
+      "sha256": "e5839c2cf3c9519888f13e52def6d0daafd50074fe93e2408aa3d90af1eaf2f0",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 320,
+      "path": "/agents/sessions/{session_id}/items",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionItems",
+      "sha256": "4930b3aa419af3c1d8845532a21181a97b90ed94f2339f97e5666624761a28ff",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 293,
+      "path": "/agents/sessions/{session_id}/subagents",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionSubagents",
+      "sha256": "069d69b37b2c54fa09be2c9e60a4402ccbf0df491d799cbbd5f0d375a85e25e6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 294,
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentSessionSubagent",
+      "sha256": "60c6ab2eb3f2d9aeab4b3d7ba8f2c61130621f5323c7919eb0502aace678d75e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 295,
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/items",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionSubagentItems",
+      "sha256": "78204e4a521e6c0ad7bb99d1c4b2db8bca244d4a8c426e6a3673e896130dfb7e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 296,
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/turns",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionSubagentTurns",
+      "sha256": "653aad76ba0da5ed4377ab12404bdfa6bf62b17899592b6c90028ae33784f4ff",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 297,
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/turns/{turn_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentSessionSubagentTurn",
+      "sha256": "a7fdcb052e33b8a0e5f04bcb4bbd3e668aab2770182c15376146ece67adba06d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 298,
+      "path": "/agents/sessions/{session_id}/subagents/{subagent_id}/turns/{turn_id}/items",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionSubagentTurnItems",
+      "sha256": "dc51b058bb7fc38b9dd91f2e4b8b0402c2a6ed90e5e8c6e03c3065b0ceb246ae",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 321,
+      "path": "/agents/sessions/{session_id}/turns",
+      "http_method": "GET",
+      "operation_id": "listAgentSessionTurns",
+      "sha256": "622aafa73aec4f593d7af3b846fb6b24a74a8cc2f62a5b20922a81d1b70fd245",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 322,
+      "path": "/agents/sessions/{session_id}/turns/{turn_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgentSessionTurn",
+      "sha256": "7e45e62416c8761b4cae18470198016b4a464c40586a83810f5217f99244b7fd",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 303,
+      "path": "/agents/{agent_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteAgent",
+      "sha256": "38c6af2a47e9db769fe554ae58a2d7284eb963f5964f13b81964f27692f8af49",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 301,
+      "path": "/agents/{agent_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveAgent",
+      "sha256": "77be97ad99d757a322eb7eab2f7e10c970354aafd2597d3d104bf435695b13d7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 302,
+      "path": "/agents/{agent_id}",
+      "http_method": "POST",
+      "operation_id": "updateAgent",
+      "sha256": "c81cd480ffe9ea6d2d3c5c9039d5b6767bf757a3ed59286914820cc3a3225b94",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 1,
+      "path": "/assistants",
+      "http_method": "GET",
+      "operation_id": "listAssistants",
+      "sha256": "961bdc191ac216fd235ec1a6d365f1e1e5a0419f3736568038cbadf5e716f1f6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 2,
+      "path": "/assistants",
+      "http_method": "POST",
+      "operation_id": "createAssistant",
+      "sha256": "dc430b3c69300f7e3224dddee7cd2fcd68b3ae3844572d548aa7e5942d645be5",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 5,
+      "path": "/assistants/{assistant_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteAssistant",
+      "sha256": "372a89e093a581ba2ee0e564f83611fd85ea44ec57515384da38ac867f6bdbc8",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 3,
+      "path": "/assistants/{assistant_id}",
+      "http_method": "GET",
+      "operation_id": "getAssistant",
+      "sha256": "384462cffdbf771aff4fdc1bd90c5c9ec13c2c77ac6223fb0e91fc5b76f894ec",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 4,
+      "path": "/assistants/{assistant_id}",
+      "http_method": "POST",
+      "operation_id": "modifyAssistant",
+      "sha256": "149ae4c45b8042c69981d66853dee296fc9404f85de036645349b306545d930b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 6,
+      "path": "/audio/speech",
+      "http_method": "POST",
+      "operation_id": "createSpeech",
+      "sha256": "53c97197ef0634723f73abb025793a34c0dd3560a461965c8a3b0fa79cb15af6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 7,
+      "path": "/audio/transcriptions",
+      "http_method": "POST",
+      "operation_id": "createTranscription",
+      "sha256": "f27d70d07d509be8423d68965fff8a60a182e3dac170573c980aaa4baf4a998f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 8,
+      "path": "/audio/translations",
+      "http_method": "POST",
+      "operation_id": "createTranslation",
+      "sha256": "d751f55110ec64e6b06ceb7e14938e2d62b0f783e7c2e8e8164c4f6d1bf667f8",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 10,
+      "path": "/audio/voice_consents",
+      "http_method": "GET",
+      "operation_id": "listVoiceConsents",
+      "sha256": "5c41b89f0e8814d30a0e7d279db87a2446afb1b57ee268a5c4e4a0651b34263b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 9,
+      "path": "/audio/voice_consents",
+      "http_method": "POST",
+      "operation_id": "createVoiceConsent",
+      "sha256": "9fcfe582bd5691eaf5c2eec3a861e17511306d31855d335976a8001122304409",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 13,
+      "path": "/audio/voice_consents/{consent_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteVoiceConsent",
+      "sha256": "46e39c9642a70a77db07b61e0787a2d31fbd213a35b86d6ae62d238587a891e3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 11,
+      "path": "/audio/voice_consents/{consent_id}",
+      "http_method": "GET",
+      "operation_id": "getVoiceConsent",
+      "sha256": "9aceeb7ed9b4f5999ee64da555f781e39941f5081b678ab89c6d31dee6c95d4a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 12,
+      "path": "/audio/voice_consents/{consent_id}",
+      "http_method": "POST",
+      "operation_id": "updateVoiceConsent",
+      "sha256": "847bfc8a8902a22e5477ce098c2a835164bfa3d5b3b55cc13b99cfa62f0a06d4",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 14,
+      "path": "/audio/voices",
+      "http_method": "POST",
+      "operation_id": "createVoice",
+      "sha256": "15bff4c69ab3a443d4b569ca39c4ec115899dba3567ee6a6173eb5bb40d687b9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 16,
+      "path": "/batches",
+      "http_method": "GET",
+      "operation_id": "listBatches",
+      "sha256": "eabc59abb4923b38349d230087471b1f3006bb47fd7fc82aaed52c0ba9c50c7c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 15,
+      "path": "/batches",
+      "http_method": "POST",
+      "operation_id": "createBatch",
+      "sha256": "56f570d18c92cffe8f0e1a7ca96f3e7153bbd7ff9e77b336694be8223ada2f0c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 17,
+      "path": "/batches/{batch_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveBatch",
+      "sha256": "2a26fcf224dcd3449133a58706c7b401af54cb0ca746d1a24288c1e50e696b62",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 18,
+      "path": "/batches/{batch_id}/cancel",
+      "http_method": "POST",
+      "operation_id": "cancelBatch",
+      "sha256": "6adcbc91855cab485f00440ed34ecfed4acbd06d99da80a529f07e82c26d1e53",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 19,
+      "path": "/chat/completions",
+      "http_method": "GET",
+      "operation_id": "listChatCompletions",
+      "sha256": "140ff106674b2a715cd7e96f0783448d967cbb2a3fea11da5bc4a1ca23acc434",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 20,
+      "path": "/chat/completions",
+      "http_method": "POST",
+      "operation_id": "createChatCompletion",
+      "sha256": "d972fd756019cfe91c7bbdebd75fc07dc43ed7f72561bf8523a54193e255d801",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 23,
+      "path": "/chat/completions/{completion_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteChatCompletion",
+      "sha256": "acb528112d6f912aacd6036db512a7c3d526903d790bd824096be4b8ede5dcfd",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 21,
+      "path": "/chat/completions/{completion_id}",
+      "http_method": "GET",
+      "operation_id": "getChatCompletion",
+      "sha256": "0d0756bf995057374649f73495f3411da1dfd88e0488d4a2d56aa76ad55fe98d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 22,
+      "path": "/chat/completions/{completion_id}",
+      "http_method": "POST",
+      "operation_id": "updateChatCompletion",
+      "sha256": "a5ad988d842775af908d80820e3528cb2284811ac9e23966288347b7cf8aed14",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 24,
+      "path": "/chat/completions/{completion_id}/messages",
+      "http_method": "GET",
+      "operation_id": "getChatCompletionMessages",
+      "sha256": "0638125c647614c658367f5f1168f51f736fb381ef07e2b2a8f272813ed10f46",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 285,
+      "path": "/chatkit/sessions",
+      "http_method": "POST",
+      "operation_id": "CreateChatSessionMethod",
+      "sha256": "30924c6d6bebd2ba263ec31e3737a901b3e03e7b35124fc989bd60e4306ff634",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 284,
+      "path": "/chatkit/sessions/{session_id}/cancel",
+      "http_method": "POST",
+      "operation_id": "CancelChatSessionMethod",
+      "sha256": "05ec8c9fc5e5a89ffed3fc8cb96c826dc7244b9b0ae9f9ee74e7ef3974ea0ddf",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 289,
+      "path": "/chatkit/threads",
+      "http_method": "GET",
+      "operation_id": "ListThreadsMethod",
+      "sha256": "594057b319a26a0fb3043c8ab048f1180e6825a1bbe3389ba0d3a3251228faef",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 288,
+      "path": "/chatkit/threads/{thread_id}",
+      "http_method": "DELETE",
+      "operation_id": "DeleteThreadMethod",
+      "sha256": "30f14e6c0b3c2e21d017da182f630a63958fad74abdcd004954039e309d23fa3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 287,
+      "path": "/chatkit/threads/{thread_id}",
+      "http_method": "GET",
+      "operation_id": "GetThreadMethod",
+      "sha256": "95849667f06fd46562cdb6f918d25aa3f6b5fbfe61ceaa8bb55d768a2a5a81da",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 286,
+      "path": "/chatkit/threads/{thread_id}/items",
+      "http_method": "GET",
+      "operation_id": "ListThreadItemsMethod",
+      "sha256": "40773bccde24c711a0441229f00e7a18801787729ca2abbbbdec8e0e925923b3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 25,
+      "path": "/completions",
+      "http_method": "POST",
+      "operation_id": "createCompletion",
+      "sha256": "5df65112c53f3e148a657dbcda188d74fb64f4fbabe199e6a013bbbea44fc162",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 26,
+      "path": "/containers",
+      "http_method": "GET",
+      "operation_id": "ListContainers",
+      "sha256": "d3501094fd3fe77894df81119e27d8c90f6dd1c6f66b2d8dbc5ca8243ed61bc4",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 27,
+      "path": "/containers",
+      "http_method": "POST",
+      "operation_id": "CreateContainer",
+      "sha256": "2eb3f995c20de40104e99d4bfbf9b1c550ffc19343457ea750d04cdd33ddd1df",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 29,
+      "path": "/containers/{container_id}",
+      "http_method": "DELETE",
+      "operation_id": "DeleteContainer",
+      "sha256": "706e7e01da5e6106798298ce10e9dff342687847674c649abefe5f546e030187",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 28,
+      "path": "/containers/{container_id}",
+      "http_method": "GET",
+      "operation_id": "RetrieveContainer",
+      "sha256": "df11d471772f588c5eef59659bf140baad08becce50996484ae163fe1bbdebb2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 31,
+      "path": "/containers/{container_id}/files",
+      "http_method": "GET",
+      "operation_id": "ListContainerFiles",
+      "sha256": "c300a062b29b5143d018107b2b03596bec32af56bb27c7529dbeccd858654875",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 30,
+      "path": "/containers/{container_id}/files",
+      "http_method": "POST",
+      "operation_id": "CreateContainerFile",
+      "sha256": "293570ffbcba10a71a2eafa6a8ebc62b6a2a01f63eaa17a0f99ccbd82e972c3d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 33,
+      "path": "/containers/{container_id}/files/{file_id}",
+      "http_method": "DELETE",
+      "operation_id": "DeleteContainerFile",
+      "sha256": "89639808de798d7570361727c555bc30587c1b4b068bbdcecc6246e91fea8ef2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 32,
+      "path": "/containers/{container_id}/files/{file_id}",
+      "http_method": "GET",
+      "operation_id": "RetrieveContainerFile",
+      "sha256": "2b5681343342c1c14bea942fbe925307ef7c54a010c7e35003396e05c1c537e1",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 34,
+      "path": "/containers/{container_id}/files/{file_id}/content",
+      "http_method": "GET",
+      "operation_id": "RetrieveContainerFileContent",
+      "sha256": "7b9c3e11cf233b1f181e7b54403fe20d6d821ab7e988092dfe178797ec826950",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 260,
+      "path": "/content_provenance_checks",
+      "http_method": "POST",
+      "operation_id": "Createcontentprovenancecheck",
+      "sha256": "2f0d7995220613e9987a8f24fafa823a9c51432bfd50997fad0b5957c873942c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 247,
+      "path": "/conversations",
+      "http_method": "POST",
+      "operation_id": "createConversation",
+      "sha256": "38b0136bd1982ecfb1fbc6056b5a7ee963f16a1f2b0cad75946e21c9e9b019f7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 249,
+      "path": "/conversations/{conversation_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteConversation",
+      "sha256": "4ee795ee437e662b1f6db911ca3618d2a597c348512894bf7355a2c18fa30768",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 248,
+      "path": "/conversations/{conversation_id}",
+      "http_method": "GET",
+      "operation_id": "getConversation",
+      "sha256": "a56cb8635eb019b6be10b14c026beb6dd50226b0a8011675000ed4b974073856",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 250,
+      "path": "/conversations/{conversation_id}",
+      "http_method": "POST",
+      "operation_id": "updateConversation",
+      "sha256": "a92bd11561a85ecd51ab6e27585e0021bf522f5b4e4637b2f28a067a5031abf1",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 36,
+      "path": "/conversations/{conversation_id}/items",
+      "http_method": "GET",
+      "operation_id": "listConversationItems",
+      "sha256": "cbaa3941bf4affcb0f0868cd70f558fb675fdf2a669d780038915e915e1ac2ce",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 35,
+      "path": "/conversations/{conversation_id}/items",
+      "http_method": "POST",
+      "operation_id": "createConversationItems",
+      "sha256": "2b99c0a817364c63e97644a21120528ab9d934d3d72eb30fab8b26339c9ab653",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 38,
+      "path": "/conversations/{conversation_id}/items/{item_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteConversationItem",
+      "sha256": "836c04d34da6a44be0596edc80d649a3e159787b4ff701a788d55841935a8474",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 37,
+      "path": "/conversations/{conversation_id}/items/{item_id}",
+      "http_method": "GET",
+      "operation_id": "getConversationItem",
+      "sha256": "4fd60bd12ddc507f95b34f5b3bff4efd918bfc18db5ef89a7aea040e82802fdd",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 39,
+      "path": "/embeddings",
+      "http_method": "POST",
+      "operation_id": "createEmbedding",
+      "sha256": "796acfe32179a81a7e3a5969eae0d368c4a83bdc0143db7a9c60030d7270d412",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 40,
+      "path": "/evals",
+      "http_method": "GET",
+      "operation_id": "listEvals",
+      "sha256": "19ce3b8a139d4a4350bc209f58f9004e8e22154575fd32a4694ecad8d51c46da",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 41,
+      "path": "/evals",
+      "http_method": "POST",
+      "operation_id": "createEval",
+      "sha256": "74c8edabc224635f34de6b1bb10bdba934957991e9a789b28df8e2e774aeb4b5",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 44,
+      "path": "/evals/{eval_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteEval",
+      "sha256": "09c7733f759b1d2b23e4e4cc1651733890b28c118805a0f5e55b148b1178bea9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 42,
+      "path": "/evals/{eval_id}",
+      "http_method": "GET",
+      "operation_id": "getEval",
+      "sha256": "abd088f361b1cb5567f4fd4403e8e6e987f52d8a341fde9df52ba5049eb814dc",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 43,
+      "path": "/evals/{eval_id}",
+      "http_method": "POST",
+      "operation_id": "updateEval",
+      "sha256": "6d8b58060f0af9bb16ac6470ae92fddd5e309d74c5234add3dbec129819ae5e9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 45,
+      "path": "/evals/{eval_id}/runs",
+      "http_method": "GET",
+      "operation_id": "getEvalRuns",
+      "sha256": "ab9f13505f07d06bd9a19ade99e9a088e4217f49a9017ccae95fd9bef1a02cbc",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 46,
+      "path": "/evals/{eval_id}/runs",
+      "http_method": "POST",
+      "operation_id": "createEvalRun",
+      "sha256": "14ac3bad5f0d51440d5665de6d2003886084d74d2f8ed8e58f0fa9d498c90ba7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 49,
+      "path": "/evals/{eval_id}/runs/{run_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteEvalRun",
+      "sha256": "fdd6f80db69b74456cc2d8ee8cac3fa50d8b9d2e39504db535ac3cc1f1ee2c77",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 47,
+      "path": "/evals/{eval_id}/runs/{run_id}",
+      "http_method": "GET",
+      "operation_id": "getEvalRun",
+      "sha256": "8738da788d5f475583236516f9007e09c17df4af10b0f1b6e7f41cd7501979aa",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 48,
+      "path": "/evals/{eval_id}/runs/{run_id}",
+      "http_method": "POST",
+      "operation_id": "cancelEvalRun",
+      "sha256": "dc12c23370c0d8ec76ab5fb486350050c96f3dd9da9554d321da46d1da56e3fa",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 50,
+      "path": "/evals/{eval_id}/runs/{run_id}/output_items",
+      "http_method": "GET",
+      "operation_id": "getEvalRunOutputItems",
+      "sha256": "01443d5e641060ab711b6b4025bcd62e07dd3def8c6ee5b8386d511d578956d3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 51,
+      "path": "/evals/{eval_id}/runs/{run_id}/output_items/{output_item_id}",
+      "http_method": "GET",
+      "operation_id": "getEvalRunOutputItem",
+      "sha256": "1c0a268685305398ad9e9b743afa5a8b28dd0020145bbccafe917e8adda40250",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 52,
+      "path": "/files",
+      "http_method": "GET",
+      "operation_id": "listFiles",
+      "sha256": "9fd648e6ba95faf761d5fa7b95d6640e1d9d274f6f5b8ded0527c1a9ceddec64",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 53,
+      "path": "/files",
+      "http_method": "POST",
+      "operation_id": "createFile",
+      "sha256": "efd6bc2299030f0d07dc538dd8824b00003e746342c438bbba91cf165c1469de",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 54,
+      "path": "/files/{file_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteFile",
+      "sha256": "750d8254cb7a06ecac2601cbcd1c3d21dd49bd5503460aa226011e8211d45fd3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 55,
+      "path": "/files/{file_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveFile",
+      "sha256": "bd0aceb2c399463d71fc2d4de2d658337cfb3038d57ecab4d522dd5586fa6a04",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 56,
+      "path": "/files/{file_id}/content",
+      "http_method": "GET",
+      "operation_id": "downloadFile",
+      "sha256": "9d00c95af07471e11e0b2d1dd2daf06e49302b89275f983a662d7d9fb496c5cb",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 57,
+      "path": "/fine_tuning/alpha/graders/run",
+      "http_method": "POST",
+      "operation_id": "runGrader",
+      "sha256": "aef21eead353bcef3dcf89d63d2f5590a1802ffa3c9a89f15f1b931007220e62",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 58,
+      "path": "/fine_tuning/alpha/graders/validate",
+      "http_method": "POST",
+      "operation_id": "validateGrader",
+      "sha256": "ce6119e01557ddceffb154c857c91e80a421d8e5a04a40d29d00e2487918074a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 59,
+      "path": "/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions",
+      "http_method": "GET",
+      "operation_id": "listFineTuningCheckpointPermissions",
+      "sha256": "dbf33a5d7363c331a9df2e2402305aabd0cbc78e84702e7224f6b7fc42716ce2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 60,
+      "path": "/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions",
+      "http_method": "POST",
+      "operation_id": "createFineTuningCheckpointPermission",
+      "sha256": "6fc335c970a6ef59de70e4739690e7b55f391fc730a241bb2dbd864db7bc575d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 61,
+      "path": "/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions/{permission_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteFineTuningCheckpointPermission",
+      "sha256": "fbb7ca78b8534261a9a6602879ee89c4b19cfd4cc47c91a3b23929f9b119ff6f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 63,
+      "path": "/fine_tuning/jobs",
+      "http_method": "GET",
+      "operation_id": "listPaginatedFineTuningJobs",
+      "sha256": "afa3629a35be14a04e8da9455580b1b76b38e2d4cd3b5f5c03ddcfcaa192e5a9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 62,
+      "path": "/fine_tuning/jobs",
+      "http_method": "POST",
+      "operation_id": "createFineTuningJob",
+      "sha256": "0000d7aa890cd9f6a028357bfc0573e646a718973de9f3e5f085e10e1b4dd3fd",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 64,
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveFineTuningJob",
+      "sha256": "f1e3d0209846a3e56ae59ce12deb555c0a3332eb3cd99782f937244d30a31dba",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 65,
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/cancel",
+      "http_method": "POST",
+      "operation_id": "cancelFineTuningJob",
+      "sha256": "86fe091e85b4771a752bc2d19b628b9c83088c056063fd61d72bde874a423550",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 66,
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/checkpoints",
+      "http_method": "GET",
+      "operation_id": "listFineTuningJobCheckpoints",
+      "sha256": "2ed530ec2cb627f7042ed7c91e74bf571a7c7f2ae161fb4b1cf4151bb9915038",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 67,
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/events",
+      "http_method": "GET",
+      "operation_id": "listFineTuningEvents",
+      "sha256": "7df8a5e54aef5be8501094ef578b315d165b5fbe95cd6a1ed1eb80ea85fbf4ec",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 68,
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/pause",
+      "http_method": "POST",
+      "operation_id": "pauseFineTuningJob",
+      "sha256": "bbe7a2110058ea108183162d1b86e12eae1d48f79519f91b1000537d2ff7fda2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 69,
+      "path": "/fine_tuning/jobs/{fine_tuning_job_id}/resume",
+      "http_method": "POST",
+      "operation_id": "resumeFineTuningJob",
+      "sha256": "d493fbdae70585cbb22f05712c169094b68aa0815866270444641489d5167609",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 70,
+      "path": "/images/edits",
+      "http_method": "POST",
+      "operation_id": "createImageEdit",
+      "sha256": "1816d909f507d445ff7b94ad9e64b269c030c855ce88a9499a8d3e5e5ea79557",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 71,
+      "path": "/images/generations",
+      "http_method": "POST",
+      "operation_id": "createImage",
+      "sha256": "000f81b999292d81c52d575a1ce7a06e21eb94056012190d5d2502b3846a4e0c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 72,
+      "path": "/images/variations",
+      "http_method": "POST",
+      "operation_id": "createImageVariation",
+      "sha256": "64ffaa16efb60b8aa8efe9098866d35dbde94bb30f1a8d8673d88447014be91d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 73,
+      "path": "/live/sessions",
+      "http_method": "POST",
+      "operation_id": "create-live",
+      "sha256": "e186b00e4eb7fd2122ac580f21f54fafc422ffdf3cf8497dc27b9119064a2cc6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 74,
+      "path": "/live/sessions/{session_id}/accept",
+      "http_method": "POST",
+      "operation_id": "accept-live-session",
+      "sha256": "26e5e6fb23f53278abfef8211a137442eea43d6f38170aeb0597ab33d304b678",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 252,
+      "path": "/live/sessions/{session_id}/content",
+      "http_method": "GET",
+      "operation_id": "download-live-recording",
+      "sha256": "aaccae12f3dc9ab0a47ec950ecebd8a55d92aa8f947fa5d1ac9124a4fd11e62b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 75,
+      "path": "/live/sessions/{session_id}/fork",
+      "http_method": "POST",
+      "operation_id": "fork-live-session",
+      "sha256": "38df871ad1b39f8a13d417fbc6f621d84c3790458ecdb44606c5608d01092de9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 76,
+      "path": "/live/sessions/{session_id}/hangup",
+      "http_method": "POST",
+      "operation_id": "hangup-live-session",
+      "sha256": "767ac7a1c4acd235852318fc6c4250606c94d3e419adcf15bb170e76fc2e1594",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 77,
+      "path": "/live/sessions/{session_id}/refer",
+      "http_method": "POST",
+      "operation_id": "refer-live-session",
+      "sha256": "3b391d7ff44004a69c6cd3a168f8ee97656ecafb85659420cf4b7fc1e4f4caff",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 78,
+      "path": "/live/sessions/{session_id}/reject",
+      "http_method": "POST",
+      "operation_id": "reject-live-session",
+      "sha256": "9c5e123f83bef34e4be87273138db3a25062d78a6f29975955edfd5adf45d6bf",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 79,
+      "path": "/models",
+      "http_method": "GET",
+      "operation_id": "listModels",
+      "sha256": "f22abc767efa070a5e5e675ee3c2c62367bc5a98566ca7490ff2f9923dac84fa",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 81,
+      "path": "/models/{model}",
+      "http_method": "DELETE",
+      "operation_id": "deleteModel",
+      "sha256": "6b6b95e8ffea863889bc24e19c3fcadb93bdcfee33cd14faa5293f9b9a37a9a3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 80,
+      "path": "/models/{model}",
+      "http_method": "GET",
+      "operation_id": "retrieveModel",
+      "sha256": "f271b020fc828c4a024a34edcd02b05763b0d765391321953258e6e67ec68517",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 82,
+      "path": "/moderations",
+      "http_method": "POST",
+      "operation_id": "createModeration",
+      "sha256": "a220edd09bce377733ef73d9eb41566d4021209595f9c7eb4ecf8db32819024c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 83,
+      "path": "/organization/admin_api_keys",
+      "http_method": "GET",
+      "operation_id": "admin-api-keys-list",
+      "sha256": "d904b175ebe1011e537ca7e79997438d147c699d5f0c4bbce759cb165c6a5613",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 84,
+      "path": "/organization/admin_api_keys",
+      "http_method": "POST",
+      "operation_id": "admin-api-keys-create",
+      "sha256": "6516859690f68e6b7977561f919dd3c2bc22ff64449c13769e9aaf20b8c8e7f2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 86,
+      "path": "/organization/admin_api_keys/{key_id}",
+      "http_method": "DELETE",
+      "operation_id": "admin-api-keys-delete",
+      "sha256": "1b698ce2789bf6ea802749bcb25972e2e85d15f918ebe592932f4e076e41dbc2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 85,
+      "path": "/organization/admin_api_keys/{key_id}",
+      "http_method": "GET",
+      "operation_id": "admin-api-keys-get",
+      "sha256": "9fbc087064e352dcc855ae197359ef275a21d36323240a08d6c6ebf016cdb1ad",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 87,
+      "path": "/organization/audit_logs",
+      "http_method": "GET",
+      "operation_id": "list-audit-logs",
+      "sha256": "76506bba3832d0985754d6246a2cd78a915750877b3cd142a695f2679e96a557",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 88,
+      "path": "/organization/certificates",
+      "http_method": "GET",
+      "operation_id": "listOrganizationCertificates",
+      "sha256": "47a3ab0490478a481f15a2a783657ceea6992dc02e269d58db297e9b281edc9d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 89,
+      "path": "/organization/certificates",
+      "http_method": "POST",
+      "operation_id": "uploadCertificate",
+      "sha256": "add9624d5a01efc1707bdd7b8df62cd8ef3993fc0fc054fee997288c5d1db785",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 90,
+      "path": "/organization/certificates/activate",
+      "http_method": "POST",
+      "operation_id": "activateOrganizationCertificates",
+      "sha256": "42470fb2548ded938d9045ee61067bcd3d6987ac535fe62be3ea41f34ac2cafd",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 91,
+      "path": "/organization/certificates/deactivate",
+      "http_method": "POST",
+      "operation_id": "deactivateOrganizationCertificates",
+      "sha256": "79c73acc638f9e89c7970e2a2637c43b2fe8a15623a015513de530027381beb4",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 94,
+      "path": "/organization/certificates/{certificate_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteCertificate",
+      "sha256": "29808169200ca626ba797256cfe60d77dc0b2e9ffa98aa97ca51740006ffe81d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 92,
+      "path": "/organization/certificates/{certificate_id}",
+      "http_method": "GET",
+      "operation_id": "getCertificate",
+      "sha256": "d53f8eda95804cbf47dd6d8561fb5e95fc39796e4b9b32e8e65d42ba489775c3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 93,
+      "path": "/organization/certificates/{certificate_id}",
+      "http_method": "POST",
+      "operation_id": "modifyCertificate",
+      "sha256": "cf63de5c8abb15c70866e0e4815c0513784648530c368a69e35f924caa9f9f6f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 95,
+      "path": "/organization/costs",
+      "http_method": "GET",
+      "operation_id": "usage-costs",
+      "sha256": "83515f435fa01147c3f5b5efd61dd6b0f4c1bdc70ac4728c2b3ea5a708993133",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 96,
+      "path": "/organization/data_retention",
+      "http_method": "GET",
+      "operation_id": "retrieve-organization-data-retention",
+      "sha256": "d3203bdb38ee7f5a5c7c1d314271e50ddd00072eb17faeaef30864d7b4f7ca0d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 97,
+      "path": "/organization/data_retention",
+      "http_method": "POST",
+      "operation_id": "update-organization-data-retention",
+      "sha256": "c8a891468970fde9fbedce4754f348bfc65ef81e884a235ef29d45daedf42ad6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 98,
+      "path": "/organization/groups",
+      "http_method": "GET",
+      "operation_id": "list-groups",
+      "sha256": "7747271e4cff2c90387c801969d774f427edac1453437fc1163a055895cc3ef9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 99,
+      "path": "/organization/groups",
+      "http_method": "POST",
+      "operation_id": "create-group",
+      "sha256": "aba0c127f79984b389092dff99899a8b31da7631a2d431a1103723ac3fece4af",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 102,
+      "path": "/organization/groups/{group_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-group",
+      "sha256": "2e5656be711f02dc15a0528579379035765daad8748c3e1d9098c3e6615787b7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 100,
+      "path": "/organization/groups/{group_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-group",
+      "sha256": "0b568c65ec18e613b02f466c22f09c4ff2daeb5014f1d022cadd3b72c9264dad",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 101,
+      "path": "/organization/groups/{group_id}",
+      "http_method": "POST",
+      "operation_id": "update-group",
+      "sha256": "ee35865c9f8da82b0678ee6d4713f40a3bb2011325cf36ad8a12f57a4a0a5a93",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 103,
+      "path": "/organization/groups/{group_id}/roles",
+      "http_method": "GET",
+      "operation_id": "list-group-role-assignments",
+      "sha256": "b6a19ed44a2eecb7358f8db2dba69ffa97cd078b43574d2cdbfdd103c399876a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 104,
+      "path": "/organization/groups/{group_id}/roles",
+      "http_method": "POST",
+      "operation_id": "assign-group-role",
+      "sha256": "bd2673fdc04f06c25669cc98af97d7d2f49f13c0b3475854e9d83996f6edba42",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 106,
+      "path": "/organization/groups/{group_id}/roles/{role_id}",
+      "http_method": "DELETE",
+      "operation_id": "unassign-group-role",
+      "sha256": "38dc83b728a8943502d7577fbcdec069bdea9367b157dc1d0f2af99149776679",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 105,
+      "path": "/organization/groups/{group_id}/roles/{role_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-group-role",
+      "sha256": "74d32c4267543843a3b542e964e3ec1197034b1252ec756c17139373aa9acde7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 107,
+      "path": "/organization/groups/{group_id}/users",
+      "http_method": "GET",
+      "operation_id": "list-group-users",
+      "sha256": "00ccc52ed8ff9d2419f26d4bf9e223aecc2da19bb7aa8662abe0b54893396031",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 108,
+      "path": "/organization/groups/{group_id}/users",
+      "http_method": "POST",
+      "operation_id": "add-group-user",
+      "sha256": "7fc3e2a5361b4135451f4dfc0789483779f999d5d98cb6509aca5e24b526dc8c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 110,
+      "path": "/organization/groups/{group_id}/users/{user_id}",
+      "http_method": "DELETE",
+      "operation_id": "remove-group-user",
+      "sha256": "a0ef348c7358fb27aa40878a93f35e974aaaf43cbc8c098c94100de5e9f60f9c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 109,
+      "path": "/organization/groups/{group_id}/users/{user_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-group-user",
+      "sha256": "57c3c834d08f4f53aaeea70e1551774de567b1151d292ca23e21d5edebbdb978",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 111,
+      "path": "/organization/invites",
+      "http_method": "GET",
+      "operation_id": "list-invites",
+      "sha256": "c5d95479c3113d719f95babc4e0b3bb71f16f637064ceaa15677330529075a52",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 112,
+      "path": "/organization/invites",
+      "http_method": "POST",
+      "operation_id": "inviteUser",
+      "sha256": "a17d8b56ed9ab8dda7fbb806ac8e6355566ec405b9bd439adc1bdf2755f2b3e1",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 114,
+      "path": "/organization/invites/{invite_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-invite",
+      "sha256": "c31b7a0d614694bdb8711142d86e26141802519ebc27d9963440b011ca2ca9f0",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 113,
+      "path": "/organization/invites/{invite_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-invite",
+      "sha256": "19c5fa5942cabbe0d101ceb5ceff7dbcdfa243392117056aaf299050a146bc9e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 115,
+      "path": "/organization/projects",
+      "http_method": "GET",
+      "operation_id": "list-projects",
+      "sha256": "f31fab92c1a98824d4a62ece9805eafb1cb745454fe741d13fc56207af067ebe",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 116,
+      "path": "/organization/projects",
+      "http_method": "POST",
+      "operation_id": "create-project",
+      "sha256": "150fa83dbb64adb9b8dd5f8b1cb46329750da9900b508092a00b04a8d35ec664",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 117,
+      "path": "/organization/projects/{project_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project",
+      "sha256": "d2a6be0ff52a353d9f6be9ea4bfc82d3f9aaddfe515478f211c3da16dca7b98a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 118,
+      "path": "/organization/projects/{project_id}",
+      "http_method": "POST",
+      "operation_id": "modify-project",
+      "sha256": "a0615d843a4cd4352a408876f0b0a50002804d67ff8cc39b4679c4b7ba293a3c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 119,
+      "path": "/organization/projects/{project_id}/api_keys",
+      "http_method": "GET",
+      "operation_id": "list-project-api-keys",
+      "sha256": "a3165ab5072106725a3a43ae96f211dc99ec5cdf6b426be32c88f9a2490dcab0",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 121,
+      "path": "/organization/projects/{project_id}/api_keys/{api_key_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-project-api-key",
+      "sha256": "51e49a7b616f898d032aeb49c72c5154367fbe2d95b9623544aec70b34242ae6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 120,
+      "path": "/organization/projects/{project_id}/api_keys/{api_key_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-api-key",
+      "sha256": "0f942ef4a29495ff47c204b1ec1482f9763332852ccce54e9ef1f2f53b23154f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 122,
+      "path": "/organization/projects/{project_id}/archive",
+      "http_method": "POST",
+      "operation_id": "archive-project",
+      "sha256": "e39a57254f60cc38a35d20cc038257704cf2b2e3da6b0fbc85bd99a3569215be",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 123,
+      "path": "/organization/projects/{project_id}/certificates",
+      "http_method": "GET",
+      "operation_id": "listProjectCertificates",
+      "sha256": "6f55d56bc26070fb09c727bce3282ee5a8242fc69a3e6a87bb5cdd5569a09c3b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 124,
+      "path": "/organization/projects/{project_id}/certificates/activate",
+      "http_method": "POST",
+      "operation_id": "activateProjectCertificates",
+      "sha256": "24ebb1732d7602ad67540d2c8623e7ad483ab38e4a0d9f0217285daba075b688",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 125,
+      "path": "/organization/projects/{project_id}/certificates/deactivate",
+      "http_method": "POST",
+      "operation_id": "deactivateProjectCertificates",
+      "sha256": "eb625da2f3c0775a607fc251e8d88b0eced77b6bf800959f065a59ebe42157a3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 126,
+      "path": "/organization/projects/{project_id}/data_retention",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-data-retention",
+      "sha256": "227f9cc9519260389fc6191d377837c143d145e3df76c8351508ac94e8a2dd87",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 127,
+      "path": "/organization/projects/{project_id}/data_retention",
+      "http_method": "POST",
+      "operation_id": "update-project-data-retention",
+      "sha256": "d7ce6663ae7198e792891ecb9b578ab339470336576130f140182613303298c6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 128,
+      "path": "/organization/projects/{project_id}/groups",
+      "http_method": "GET",
+      "operation_id": "list-project-groups",
+      "sha256": "e2666423dffa10c97a091ede51863caf6cd65f993c7a156dc5f5f1bd415dfcf9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 129,
+      "path": "/organization/projects/{project_id}/groups",
+      "http_method": "POST",
+      "operation_id": "add-project-group",
+      "sha256": "fe0670c1e94948448d17be3a09eeefeaca4657016d2041e9c3f631eadbd861f5",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 131,
+      "path": "/organization/projects/{project_id}/groups/{group_id}",
+      "http_method": "DELETE",
+      "operation_id": "remove-project-group",
+      "sha256": "6d5d6a01c270f3c9425a668a25f09a381da8730b575d1d9a180f0a853a638030",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 130,
+      "path": "/organization/projects/{project_id}/groups/{group_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-group",
+      "sha256": "5338db9645b7dd2950862e685718538d9ef4d2566958b7754e5b2797046a187f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 132,
+      "path": "/organization/projects/{project_id}/hosted_tool_permissions",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-hosted-tool-permissions",
+      "sha256": "80006a78f79222a9b3d45bdd9e627ced391be85ddde42d2efbc597ea6c672167",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 133,
+      "path": "/organization/projects/{project_id}/hosted_tool_permissions",
+      "http_method": "POST",
+      "operation_id": "update-project-hosted-tool-permissions",
+      "sha256": "2b86df6b292c4d993ab254fd1a4316ac679f8f1b705767162dbb404fd468be2b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 136,
+      "path": "/organization/projects/{project_id}/model_permissions",
+      "http_method": "DELETE",
+      "operation_id": "delete-project-model-permissions",
+      "sha256": "25fa9c8d59dfec8718552d9923a91b995124a55eb408c680f55ae59b551c9a37",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 134,
+      "path": "/organization/projects/{project_id}/model_permissions",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-model-permissions",
+      "sha256": "37d0ef5e75be0260d6f3b50490029da4aec6588409180ba463058f2529bb1019",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 135,
+      "path": "/organization/projects/{project_id}/model_permissions",
+      "http_method": "POST",
+      "operation_id": "update-project-model-permissions",
+      "sha256": "86aae833b56f10d0c7ff2b925c8ced16cf0ce43a300f8cf52c84d2591e88748b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 137,
+      "path": "/organization/projects/{project_id}/rate_limits",
+      "http_method": "GET",
+      "operation_id": "list-project-rate-limits",
+      "sha256": "7eecacfb26d25e618bc51aa592dbb014bf1eab94a751901407a219d2bd3f8060",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 138,
+      "path": "/organization/projects/{project_id}/rate_limits/{rate_limit_id}",
+      "http_method": "POST",
+      "operation_id": "update-project-rate-limits",
+      "sha256": "ebbc443b89d4ccfa2c8e97a49b098e987e83ab85e865e367c50cf0a4e9baee87",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 139,
+      "path": "/organization/projects/{project_id}/service_accounts",
+      "http_method": "GET",
+      "operation_id": "list-project-service-accounts",
+      "sha256": "f7ee136c443c2b9deeb03ae923b9762063f4573b792dc51916094cc3ed6375b5",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 140,
+      "path": "/organization/projects/{project_id}/service_accounts",
+      "http_method": "POST",
+      "operation_id": "create-project-service-account",
+      "sha256": "a3a65fa0d6b664ad82226a0566a0022c4b1bc2e4d4548d2350b1f6b640d917bd",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 143,
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-project-service-account",
+      "sha256": "e76e05fe1e115f7aa9c92b9da4a7470fd7fee2f2e62f0fb19378ed488986d5ed",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 141,
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-service-account",
+      "sha256": "58ea0895ce902a3d92fa4e401dcc099e89394ca9a21aca0ec891ec472cc03dda",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 142,
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}",
+      "http_method": "POST",
+      "operation_id": "update-project-service-account",
+      "sha256": "f071b25dca3dfcc950a561a70d976ce3a61b15fb4d70cd3b8a7b0079b2a02f08",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 259,
+      "path": "/organization/projects/{project_id}/service_accounts/{service_account_id}/api_keys",
+      "http_method": "POST",
+      "operation_id": "CreateanAPIkeyforaserviceaccount",
+      "sha256": "23334a3cdebcc41407536cd3955eeea6af3c4250172beeb80505c53499ec06de",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 144,
+      "path": "/organization/projects/{project_id}/spend_alerts",
+      "http_method": "GET",
+      "operation_id": "list-project-spend-alerts",
+      "sha256": "5e4171e3d9e1b4917a5e84782cce26d3b7be5b00eeaa863dd94fbbd9f7ccafb2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 145,
+      "path": "/organization/projects/{project_id}/spend_alerts",
+      "http_method": "POST",
+      "operation_id": "create-project-spend-alert",
+      "sha256": "b4ce0c1e7f36737bfb1187c4ce180dc3b7b9a7a2b0ed0f24ddc92a0e5c00be19",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 148,
+      "path": "/organization/projects/{project_id}/spend_alerts/{alert_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-project-spend-alert",
+      "sha256": "64e17a3c61621bc80a26bacb807637c3a8c39a065a7aefb8a4e6ee7c52af142e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 146,
+      "path": "/organization/projects/{project_id}/spend_alerts/{alert_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-spend-alert",
+      "sha256": "d8ceb29cf1180f10903e39d6d4614757a872c63f8411a0401ea2dcecb7747467",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 147,
+      "path": "/organization/projects/{project_id}/spend_alerts/{alert_id}",
+      "http_method": "POST",
+      "operation_id": "update-project-spend-alert",
+      "sha256": "05aad800f9f24748bc526474f9ee6c2dbdaa3e3ff52f0d1d13f7aa84a1474538",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 257,
+      "path": "/organization/projects/{project_id}/spend_limit",
+      "http_method": "DELETE",
+      "operation_id": "Deleteprojectspendlimit",
+      "sha256": "99163a52e3e178d18699742a530592d4ce679486a25aaed54b50597cc7c37c2a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 256,
+      "path": "/organization/projects/{project_id}/spend_limit",
+      "http_method": "GET",
+      "operation_id": "Getprojectspendlimit",
+      "sha256": "aa9b9a80df09ea160495908d41488e161bfd35ee776ec61c8ad58a7346ec2d99",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 258,
+      "path": "/organization/projects/{project_id}/spend_limit",
+      "http_method": "POST",
+      "operation_id": "Updateprojectspendlimit",
+      "sha256": "334b674b1928623df4b1c7e27aa01c09ba3a850c2b19b08dd861d01717eca761",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 149,
+      "path": "/organization/projects/{project_id}/users",
+      "http_method": "GET",
+      "operation_id": "list-project-users",
+      "sha256": "feb4d8b4f49f5d28a0b63acc2bbd7c911705a9c9849d3681f1a63d5967dab255",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 150,
+      "path": "/organization/projects/{project_id}/users",
+      "http_method": "POST",
+      "operation_id": "create-project-user",
+      "sha256": "c455b989c93cb50918c633afe613fa64785e22faa3649064a7893bb8bc4a8128",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 153,
+      "path": "/organization/projects/{project_id}/users/{user_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-project-user",
+      "sha256": "cd17c361d070760864f852110a559cd68e1c926dcf9a4b2708e3453a1922eb72",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 151,
+      "path": "/organization/projects/{project_id}/users/{user_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-user",
+      "sha256": "f58114589b826a34ebd546afb1032d0bb1b74d017677ee244e83747ea2b638dd",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 152,
+      "path": "/organization/projects/{project_id}/users/{user_id}",
+      "http_method": "POST",
+      "operation_id": "modify-project-user",
+      "sha256": "3dbbfc9480533c4ff985f55c4b620b8495ce0966c27872bb4148430121e46361",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 154,
+      "path": "/organization/roles",
+      "http_method": "GET",
+      "operation_id": "list-roles",
+      "sha256": "45af2017942b9f71c8471dce5d0f80a261ccde2f8d5104184a4e45f89fd4aa6a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 155,
+      "path": "/organization/roles",
+      "http_method": "POST",
+      "operation_id": "create-role",
+      "sha256": "7ee368594418305fe5c62375e90b9c801da4e17eb7b5d2f0e3effc5bc4135f9c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 158,
+      "path": "/organization/roles/{role_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-role",
+      "sha256": "0dd463eeaa0469a845973248e066a9e5f99737074855e2453568ec4af0f2e293",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 156,
+      "path": "/organization/roles/{role_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-role",
+      "sha256": "2cce04f64923841ab22cd6bfbecb108674f63de6671f160717aff4ccb1a314c6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 157,
+      "path": "/organization/roles/{role_id}",
+      "http_method": "POST",
+      "operation_id": "update-role",
+      "sha256": "060acc8457cbeadfdc09350779d6048718e5df2e1f94e180ae307ed9c5ec1c87",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 159,
+      "path": "/organization/spend_alerts",
+      "http_method": "GET",
+      "operation_id": "list-organization-spend-alerts",
+      "sha256": "2df144592e764b437833d6d1399d3c8954ec0343740d82e25db99ffb264c6349",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 160,
+      "path": "/organization/spend_alerts",
+      "http_method": "POST",
+      "operation_id": "create-organization-spend-alert",
+      "sha256": "9f3f55092c4f6f450ab839722d9ce869e451d29869a0d758f815f9a04260a61d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 163,
+      "path": "/organization/spend_alerts/{alert_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-organization-spend-alert",
+      "sha256": "916f8f4bfe8ee50f0b2339ec3d97d99cdc0e29e6c6d7587dc29fc041e07fc2e1",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 161,
+      "path": "/organization/spend_alerts/{alert_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-organization-spend-alert",
+      "sha256": "e9222e076699d14ed502b9dc92c7adb3e75eef687d362a3e6af61b57489cd15e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 162,
+      "path": "/organization/spend_alerts/{alert_id}",
+      "http_method": "POST",
+      "operation_id": "update-organization-spend-alert",
+      "sha256": "2f33521c16e90e897da10e3b0e3e0b145a103eeff8df6688d44badf7b3ea0d72",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 255,
+      "path": "/organization/spend_limit",
+      "http_method": "DELETE",
+      "operation_id": "Deleteorganizationspendlimit",
+      "sha256": "66cd92e9bdfb5dc8eeeb03763d5697237cf61a9ce53e8fab74f4acaedb91b028",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 253,
+      "path": "/organization/spend_limit",
+      "http_method": "GET",
+      "operation_id": "Getorganizationspendlimit",
+      "sha256": "7dbaa1ef3abaf94293deb3c5867f3a03e6c2c28726e2af9397aea66d432e468b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 254,
+      "path": "/organization/spend_limit",
+      "http_method": "POST",
+      "operation_id": "Updateorganizationspendlimit",
+      "sha256": "6dc1f6c057e20136ba3da9946b8be093c5b8d9e313190c76c94b7c6b0544fdfe",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 164,
+      "path": "/organization/usage/audio_speeches",
+      "http_method": "GET",
+      "operation_id": "usage-audio-speeches",
+      "sha256": "273e9016a1c1151696ad8561365ec71af69ba20c6ead4627df8342d95fda93ae",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 165,
+      "path": "/organization/usage/audio_transcriptions",
+      "http_method": "GET",
+      "operation_id": "usage-audio-transcriptions",
+      "sha256": "2a833a60cb4152bf256ef4113c10f0e6f8f5dbb684c560451208be0b75561508",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 166,
+      "path": "/organization/usage/code_interpreter_sessions",
+      "http_method": "GET",
+      "operation_id": "usage-code-interpreter-sessions",
+      "sha256": "1e4adb6c5dc379834324376ec930cb9c90efdfcf2f8b4e3fee6028fae84c7236",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 167,
+      "path": "/organization/usage/completions",
+      "http_method": "GET",
+      "operation_id": "usage-completions",
+      "sha256": "c0747ff06a34b98fd8f97b08a18b6f1ed47076ea5cdad81efc3683529c97ce79",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 168,
+      "path": "/organization/usage/embeddings",
+      "http_method": "GET",
+      "operation_id": "usage-embeddings",
+      "sha256": "499270cb8abde3d5478fd428b68d888f165affa6ad2cdde48cabddc15621724d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 169,
+      "path": "/organization/usage/file_search_calls",
+      "http_method": "GET",
+      "operation_id": "usage-file-search-calls",
+      "sha256": "43d7471c3c5e7ffc27c6dfc07c8b5307015869adf9206b459664cf5abed752ea",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 170,
+      "path": "/organization/usage/images",
+      "http_method": "GET",
+      "operation_id": "usage-images",
+      "sha256": "3653c444d8c256ba5609acdd292523a281c70465c8ee89172fe3290458666abb",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 171,
+      "path": "/organization/usage/moderations",
+      "http_method": "GET",
+      "operation_id": "usage-moderations",
+      "sha256": "72cbd6018722de6dc7e383887fbcb534f76aebc3f5a128de614598a98dfebb58",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 172,
+      "path": "/organization/usage/vector_stores",
+      "http_method": "GET",
+      "operation_id": "usage-vector-stores",
+      "sha256": "783de6b73fbc94bcfc50fb542ccf5b76a969826c072b905869f4bc7952fdd0be",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 173,
+      "path": "/organization/usage/web_search_calls",
+      "http_method": "GET",
+      "operation_id": "usage-web-search-calls",
+      "sha256": "c5711b1f834e12b6bc4d50c9c44f1a715872b0da33e07379aa91cd3790d0ceb1",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 174,
+      "path": "/organization/users",
+      "http_method": "GET",
+      "operation_id": "list-users",
+      "sha256": "ccd0c28c79a8d305b6ed05fa1c80313af6c7641a2466c39c21d0f25cd743d0a9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 177,
+      "path": "/organization/users/{user_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-user",
+      "sha256": "f9bfb4092cf4ba216cc2a68a588e7b7e579ad7a19afbc0cfbfe8bd9de5e4ba44",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 175,
+      "path": "/organization/users/{user_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-user",
+      "sha256": "fbd7d947971d9f1f3334be314bc626ca2145bd1b1cbf9c4224a254508bb1122e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 176,
+      "path": "/organization/users/{user_id}",
+      "http_method": "POST",
+      "operation_id": "modify-user",
+      "sha256": "4f52e01c39dc9133dc11a96e650a4c25990573e446b4845fb80fcc0cd777048d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 178,
+      "path": "/organization/users/{user_id}/roles",
+      "http_method": "GET",
+      "operation_id": "list-user-role-assignments",
+      "sha256": "a1f5818a47a46f4cefa17cdd81605b75ca9c040de8af46f179d62acd38bb3a1b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 179,
+      "path": "/organization/users/{user_id}/roles",
+      "http_method": "POST",
+      "operation_id": "assign-user-role",
+      "sha256": "cb8e4740acebe46500a2d97663dc31b9305ffcedafeecb4128fe24d82f73e34a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 181,
+      "path": "/organization/users/{user_id}/roles/{role_id}",
+      "http_method": "DELETE",
+      "operation_id": "unassign-user-role",
+      "sha256": "e2874e5a48183538d5bdda9249bf44ef3dbd52ee1074b52347b3410d166a9b64",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 180,
+      "path": "/organization/users/{user_id}/roles/{role_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-user-role",
+      "sha256": "1484766b432bfcdaabc4973e6f03c182c3af648d9f863e32718756abe823b64a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 182,
+      "path": "/projects/{project_id}/groups/{group_id}/roles",
+      "http_method": "GET",
+      "operation_id": "list-project-group-role-assignments",
+      "sha256": "a59faa0d52c02ab6b753e5b4e8a0d4a5649fc8c0c575bc2e1fb6e26217748503",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 183,
+      "path": "/projects/{project_id}/groups/{group_id}/roles",
+      "http_method": "POST",
+      "operation_id": "assign-project-group-role",
+      "sha256": "1bc19c4356af54f806a2674dc1f3e3bd8b353d1379a5b795693140e0202a3e7d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 185,
+      "path": "/projects/{project_id}/groups/{group_id}/roles/{role_id}",
+      "http_method": "DELETE",
+      "operation_id": "unassign-project-group-role",
+      "sha256": "75a2ba61f3b07f824221a426f6d81702126028c198ba43e31a0419b7a12a0197",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 184,
+      "path": "/projects/{project_id}/groups/{group_id}/roles/{role_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-group-role",
+      "sha256": "475fde07225a938262e42c3a83151697a6b31f2e9cab8c185bd0584ad3934ad9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 186,
+      "path": "/projects/{project_id}/roles",
+      "http_method": "GET",
+      "operation_id": "list-project-roles",
+      "sha256": "4be3fc84ce64657c61a3e0aaa81a3a60eb4d0498ec4888958fbd4fca7e6fe20f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 187,
+      "path": "/projects/{project_id}/roles",
+      "http_method": "POST",
+      "operation_id": "create-project-role",
+      "sha256": "97897887e4cc1ef131a0c09fd2140485189d5eb5eef059e032ff2452d80cb7e3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 190,
+      "path": "/projects/{project_id}/roles/{role_id}",
+      "http_method": "DELETE",
+      "operation_id": "delete-project-role",
+      "sha256": "c9b5a815000543bc4f5495077dadafe1246b09e0312cd2457f3797a8a9b7afe6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 188,
+      "path": "/projects/{project_id}/roles/{role_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-role",
+      "sha256": "63185b704a6290a54fd8df08cb7a52b2442c9bf05833eb8c3cf5860505365e95",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 189,
+      "path": "/projects/{project_id}/roles/{role_id}",
+      "http_method": "POST",
+      "operation_id": "update-project-role",
+      "sha256": "470fcf0ba1622a20c09e2d8f306eddd4d8b6f0b03d7099b58ff2c67d4600abef",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 191,
+      "path": "/projects/{project_id}/users/{user_id}/roles",
+      "http_method": "GET",
+      "operation_id": "list-project-user-role-assignments",
+      "sha256": "118ebc59d2e438e99effcdc2fe05e7b6bb1593943521f0bc1203e6d5e3bd4dcc",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 192,
+      "path": "/projects/{project_id}/users/{user_id}/roles",
+      "http_method": "POST",
+      "operation_id": "assign-project-user-role",
+      "sha256": "37cce373d5e828770042fe1ce4b63fc008ec2905a78560977c51e6f37e434a5c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 194,
+      "path": "/projects/{project_id}/users/{user_id}/roles/{role_id}",
+      "http_method": "DELETE",
+      "operation_id": "unassign-project-user-role",
+      "sha256": "097fd984bfa08cbaf48c661681e3bc621c55f8b6f8571fa03a182768068b9186",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 193,
+      "path": "/projects/{project_id}/users/{user_id}/roles/{role_id}",
+      "http_method": "GET",
+      "operation_id": "retrieve-project-user-role",
+      "sha256": "cf18a26a63f0f2690ec6707b0f5570f44a2cca1d91f3eac5a0c7d5b1655be5da",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 195,
+      "path": "/realtime/calls",
+      "http_method": "POST",
+      "operation_id": "create-realtime-call",
+      "sha256": "1a5715c46ca85ca3147ae683e970d960fae22ed80f308b88003cb6132bdf23a0",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 196,
+      "path": "/realtime/calls/{call_id}/accept",
+      "http_method": "POST",
+      "operation_id": "accept-realtime-call",
+      "sha256": "235682bde570d0ae0404c07b5c0052df7eb6b62bcf13aae8d1d70a5f4ba5175b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 197,
+      "path": "/realtime/calls/{call_id}/hangup",
+      "http_method": "POST",
+      "operation_id": "hangup-realtime-call",
+      "sha256": "49d24751f49e4ecb3cab450c3c5adb55240ac70c74a2f472c97cc11e3fb5b727",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 198,
+      "path": "/realtime/calls/{call_id}/refer",
+      "http_method": "POST",
+      "operation_id": "refer-realtime-call",
+      "sha256": "d24cf3db91352941c1d7cae5778e6597c57e2f3c22589225721d7dce5298de64",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 199,
+      "path": "/realtime/calls/{call_id}/reject",
+      "http_method": "POST",
+      "operation_id": "reject-realtime-call",
+      "sha256": "b4264a1c2b0e0ccd75d35d18491550e3025bcfadf61dbed506321e3516f41fed",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 200,
+      "path": "/realtime/client_secrets",
+      "http_method": "POST",
+      "operation_id": "create-realtime-client-secret",
+      "sha256": "a5bf4f7661c3fd929e479567abb65a5e4329f9136ee3c7fdd9d732fefaa8c8f9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 201,
+      "path": "/realtime/sessions",
+      "http_method": "POST",
+      "operation_id": "create-realtime-session",
+      "sha256": "8a21f835206778bb0dcad3bbb58c204b931e9093ddef2a91faa518b623128437",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 202,
+      "path": "/realtime/transcription_sessions",
+      "http_method": "POST",
+      "operation_id": "create-realtime-transcription-session",
+      "sha256": "ed677f39646fc02943b3906f0a1c798750e1c6bd958b79323f7988e73936e306",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 203,
+      "path": "/realtime/translations/client_secrets",
+      "http_method": "POST",
+      "operation_id": "create-realtime-translation-client-secret",
+      "sha256": "28d63bcda3c765a59420fee5a76dd6e7b3cf47cf1d2c697e23565def579f7575",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 204,
+      "path": "/responses",
+      "http_method": "POST",
+      "operation_id": "createResponse",
+      "sha256": "769ee231843494e7349e0ce770a6667637af633e82b96a475c0b4ab6b1c9bbce",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 272,
+      "path": "/responses/compact",
+      "http_method": "POST",
+      "operation_id": "Compactconversation",
+      "sha256": "2df9ab35d11a012d7e5d6612c1f95abc9f33f6173ef6366ee9e9cd488cadc77d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 344,
+      "path": "/responses/compact?beta=true",
+      "http_method": "POST",
+      "operation_id": "beta_Compactconversation",
+      "sha256": "c5c3fdf1d42b5d3ba81c88e9bb7b649f8fb439409c9176dcb9cf6f90b736355d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 271,
+      "path": "/responses/input_tokens",
+      "http_method": "POST",
+      "operation_id": "Getinputtokencounts",
+      "sha256": "840e8486423e904b9cb94fb4029fc64233036688353a3ae5781c0e1884efb575",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 346,
+      "path": "/responses/input_tokens?beta=true",
+      "http_method": "POST",
+      "operation_id": "beta_Getinputtokencounts",
+      "sha256": "66b23011442df66d207c9ec94db1ba40ccd9e1f0af465786b29d7b31c6954639",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 206,
+      "path": "/responses/{response_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteResponse",
+      "sha256": "a9834938e6a28e20cf484ddb161f84c4cb16e1417bc808c8a0722e92a50ed862",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 205,
+      "path": "/responses/{response_id}",
+      "http_method": "GET",
+      "operation_id": "getResponse",
+      "sha256": "c518d2f671ecde3a258cb6e2657e47fa4f666091d4977d106ef67677d13aa318",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 207,
+      "path": "/responses/{response_id}/cancel",
+      "http_method": "POST",
+      "operation_id": "cancelResponse",
+      "sha256": "4b24656ce2fd4e6c33bdf755894ad11c610210a9b1794ca31e1c59dd25f065f1",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 343,
+      "path": "/responses/{response_id}/cancel?beta=true",
+      "http_method": "POST",
+      "operation_id": "beta_cancelResponse",
+      "sha256": "8fbe2805935fcde63317a2fec01da642a194c84046114ba5573c921112f68295",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 208,
+      "path": "/responses/{response_id}/input_items",
+      "http_method": "GET",
+      "operation_id": "listInputItems",
+      "sha256": "1ae944bb9d9dbda79538b136768ba673a10be9aaa05b34c601e3606390461368",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 345,
+      "path": "/responses/{response_id}/input_items?beta=true",
+      "http_method": "GET",
+      "operation_id": "beta_listInputItems",
+      "sha256": "80a27e3aba4771d04c2a62a33a963fa8836123af3400550453a4335f71bc9233",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 342,
+      "path": "/responses/{response_id}?beta=true",
+      "http_method": "DELETE",
+      "operation_id": "beta_deleteResponse",
+      "sha256": "65fe4864a02f58685e4dee557f20d201c0c3e60d35e548d63550930bb662aa2a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 341,
+      "path": "/responses/{response_id}?beta=true",
+      "http_method": "GET",
+      "operation_id": "beta_getResponse",
+      "sha256": "4e463537cec50387f0966081b7649271f9a11a42dc0dac994675a3aaa4446faf",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 340,
+      "path": "/responses?beta=true",
+      "http_method": "POST",
+      "operation_id": "beta_createResponse",
+      "sha256": "75e3f130c531de4d28ad5378c460b69ad20b0dae3b4121aea48d8137d034116f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 251,
+      "path": "/safety/alerts/{id}",
+      "http_method": "GET",
+      "operation_id": "Getprojectsafetyalert",
+      "sha256": "fc661e8721753df6bed5bb0019150d2b650e4358ff1d91180e016c4b8bae9294",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 274,
+      "path": "/skills",
+      "http_method": "GET",
+      "operation_id": "ListSkills",
+      "sha256": "61f80711e3b07fe9d3633edcae549f1069a667f8834a72cbef7d2a48c155c99e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 273,
+      "path": "/skills",
+      "http_method": "POST",
+      "operation_id": "CreateSkill",
+      "sha256": "4fc5c57184c10889d005955310ebd6e91b489af7686d8e07c94f9385fe14b703",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 275,
+      "path": "/skills/{skill_id}",
+      "http_method": "DELETE",
+      "operation_id": "DeleteSkill",
+      "sha256": "76746ed8f195e32bdaaf88d825a84bc9b7b44d604e13567c4dce8687d7e81358",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 276,
+      "path": "/skills/{skill_id}",
+      "http_method": "GET",
+      "operation_id": "GetSkill",
+      "sha256": "751f589ec9784880e4b7b1ad801ce9981ca68fce77c996ba01977db1c31ebd0b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 277,
+      "path": "/skills/{skill_id}",
+      "http_method": "POST",
+      "operation_id": "UpdateSkillDefaultVersion",
+      "sha256": "f29d04cfa9691f17a2154a33b99cc6076f9ea3fb7514f9253ca8e1f4869b135d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 278,
+      "path": "/skills/{skill_id}/content",
+      "http_method": "GET",
+      "operation_id": "GetSkillContent",
+      "sha256": "e6eefbbd91c038f289e2af73f726693ecd6a6f0ac72aa98a79b550f2e00a9ad5",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 280,
+      "path": "/skills/{skill_id}/versions",
+      "http_method": "GET",
+      "operation_id": "ListSkillVersions",
+      "sha256": "3bff83df23665d0c9820236210c99d72b275c5f87eb7fc68cfcbdbf867408561",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 279,
+      "path": "/skills/{skill_id}/versions",
+      "http_method": "POST",
+      "operation_id": "CreateSkillVersion",
+      "sha256": "d7ab2ec640770878924d3139d3ede1fcb0f588c1d90ece10736a06d9e56cfb44",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 282,
+      "path": "/skills/{skill_id}/versions/{version}",
+      "http_method": "DELETE",
+      "operation_id": "DeleteSkillVersion",
+      "sha256": "47b226a71ed46f863e72eaf3bcbb65da254eaa1357ba16d0509e2cbee264e0b3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 281,
+      "path": "/skills/{skill_id}/versions/{version}",
+      "http_method": "GET",
+      "operation_id": "GetSkillVersion",
+      "sha256": "c597ae3cd3b4aaa3fd00b70495122fc18b33cdd9a1d37520a1a74af06b39bb9e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 283,
+      "path": "/skills/{skill_id}/versions/{version}/content",
+      "http_method": "GET",
+      "operation_id": "GetSkillVersionContent",
+      "sha256": "8d5dc39d28736dc9b1c8d900f38d9fc70eb40e6fa9746c61f1090da4ed70ead6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 209,
+      "path": "/threads",
+      "http_method": "POST",
+      "operation_id": "createThread",
+      "sha256": "0062b113cb7576954b2c28dea283c0e92733bea709f68ce239c9e1e4c5fed585",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 210,
+      "path": "/threads/runs",
+      "http_method": "POST",
+      "operation_id": "createThreadAndRun",
+      "sha256": "20475cbba6a7712c26e3385e2e98a9f471c06989a528845eb13cc18bb811b6dc",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 213,
+      "path": "/threads/{thread_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteThread",
+      "sha256": "4ae230c2b82bdd3649f093bea22b54b7e230d1db67f76deb5ed032c48aea3499",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 211,
+      "path": "/threads/{thread_id}",
+      "http_method": "GET",
+      "operation_id": "getThread",
+      "sha256": "240cb2bb89ec8ff8a7c2a12534d80ddf255d09ac9b62a4b2dd7c83136d913176",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 212,
+      "path": "/threads/{thread_id}",
+      "http_method": "POST",
+      "operation_id": "modifyThread",
+      "sha256": "41b384f89d5a625cb4a92b4d043d0b5e8216460c862692b5f2268e39d3f0cb17",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 214,
+      "path": "/threads/{thread_id}/messages",
+      "http_method": "GET",
+      "operation_id": "listMessages",
+      "sha256": "54090ca69ba8664b2aa9b322929f16eca0f27215fede77cc13aac69bad1a4697",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 215,
+      "path": "/threads/{thread_id}/messages",
+      "http_method": "POST",
+      "operation_id": "createMessage",
+      "sha256": "062e96a481bd73cf660db90ff076e02b4ec0209186148a41bc55559dd1f2b0eb",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 218,
+      "path": "/threads/{thread_id}/messages/{message_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteMessage",
+      "sha256": "9a5fa00e3dd7f3b83d12135005db9671718ff21e3d269cf80375adcef15ab9d9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 216,
+      "path": "/threads/{thread_id}/messages/{message_id}",
+      "http_method": "GET",
+      "operation_id": "getMessage",
+      "sha256": "4ecf379bb0090b6e44349b3e0f87d706c4dc6fb9e6d676fa91f9f30ce09c05f2",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 217,
+      "path": "/threads/{thread_id}/messages/{message_id}",
+      "http_method": "POST",
+      "operation_id": "modifyMessage",
+      "sha256": "17c9bf567dbfb889a4876cf202604852d1ad3f1ac503a786541eb53c3162a548",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 219,
+      "path": "/threads/{thread_id}/runs",
+      "http_method": "GET",
+      "operation_id": "listRuns",
+      "sha256": "8e5070ae5fcf546151a3ccd14e7251ac63439dc88931f0f9484e7a5d247f9f67",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 220,
+      "path": "/threads/{thread_id}/runs",
+      "http_method": "POST",
+      "operation_id": "createRun",
+      "sha256": "b9beffbb36b83c8610c522112061f3a96a4e4ab9d5868aad15ba10c242c04c8e",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 221,
+      "path": "/threads/{thread_id}/runs/{run_id}",
+      "http_method": "GET",
+      "operation_id": "getRun",
+      "sha256": "aafd0d97e0af728cb1030fd7c7dd985555a4e172bebbeadd8e8605a1369568fe",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 222,
+      "path": "/threads/{thread_id}/runs/{run_id}",
+      "http_method": "POST",
+      "operation_id": "modifyRun",
+      "sha256": "7fd46b5a37233cb5e9bbc65c95852fadb30d1e52cdb826c96fa1fe6e3dae356a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 223,
+      "path": "/threads/{thread_id}/runs/{run_id}/cancel",
+      "http_method": "POST",
+      "operation_id": "cancelRun",
+      "sha256": "426602dff8b50ce62fa49eebbcab93d396794827e3953717b381deb5b8e7f749",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 224,
+      "path": "/threads/{thread_id}/runs/{run_id}/steps",
+      "http_method": "GET",
+      "operation_id": "listRunSteps",
+      "sha256": "cce253e8db56d9d935a76b41adb66fe955226f3b7158371957a9aecb83c54b75",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 225,
+      "path": "/threads/{thread_id}/runs/{run_id}/steps/{step_id}",
+      "http_method": "GET",
+      "operation_id": "getRunStep",
+      "sha256": "4e53770831312d6d04d8256b7edc0422d0fbe458cd7420b1a57c775b20a757d3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 226,
+      "path": "/threads/{thread_id}/runs/{run_id}/submit_tool_outputs",
+      "http_method": "POST",
+      "operation_id": "submitToolOuputsToRun",
+      "sha256": "2cc4e4b781366d108c9f3ca20ad859f3dc207194b2327ba39cc08448667dacce",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 227,
+      "path": "/uploads",
+      "http_method": "POST",
+      "operation_id": "createUpload",
+      "sha256": "819e5e62776d5a77b8959415caf03eaa1a4edd932f139bc9deed6b942fea13e3",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 228,
+      "path": "/uploads/{upload_id}/cancel",
+      "http_method": "POST",
+      "operation_id": "cancelUpload",
+      "sha256": "7d3f00dcc073270f92ba4cd19d2aa90470e727769b656ca61553ce5638ebc4f9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 229,
+      "path": "/uploads/{upload_id}/complete",
+      "http_method": "POST",
+      "operation_id": "completeUpload",
+      "sha256": "286fb7171e0d753f5ff59830ec837d76059844fdbbd6131290c28355e8846771",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 230,
+      "path": "/uploads/{upload_id}/parts",
+      "http_method": "POST",
+      "operation_id": "addUploadPart",
+      "sha256": "ec76dbfbdf36b1fb1aeff13e10959175031dbe49a541feec911507c5c3a93cc9",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 323,
+      "path": "/vaults",
+      "http_method": "GET",
+      "operation_id": "listVaults",
+      "sha256": "3c2d3460a77996eb6c51d3ea624ad966e010bd4b18fe4ec081711c1c03a51de4",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 324,
+      "path": "/vaults",
+      "http_method": "POST",
+      "operation_id": "createVault",
+      "sha256": "99fb9cb90cd1c36051e16e5d4e46e6a709d0374c14f3fe48d892c858ee736e25",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 326,
+      "path": "/vaults/{vault_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteVault",
+      "sha256": "8d7199a1e7c624ed5797e149fbd381d7bfbb960f4d27262f1d0946cc46f54396",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 325,
+      "path": "/vaults/{vault_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveVault",
+      "sha256": "b6a458d8847da0309426954d27503697642ed4954c6882432d3f13974fd69eac",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 327,
+      "path": "/vaults/{vault_id}/credentials",
+      "http_method": "GET",
+      "operation_id": "listVaultCredentials",
+      "sha256": "c6985c965026bff4039f38c9702ed583b8c010340a714d97f71c970744a40258",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 328,
+      "path": "/vaults/{vault_id}/credentials",
+      "http_method": "POST",
+      "operation_id": "createVaultCredential",
+      "sha256": "b71ac122d15fd8bc90ab1938aea59b370307ef0dca995e397bd2a814406d69df",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 331,
+      "path": "/vaults/{vault_id}/credentials/{credential_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteVaultCredential",
+      "sha256": "617dd11b88ca05bc556ca711fd3e630f9268fb2f564d0cdcc52a1f6e60ef9ed0",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 329,
+      "path": "/vaults/{vault_id}/credentials/{credential_id}",
+      "http_method": "GET",
+      "operation_id": "retrieveVaultCredential",
+      "sha256": "1dc72592f243caa19fb1e4bab532db08a65160e31b3a5b4797bb3702e4af8821",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 330,
+      "path": "/vaults/{vault_id}/credentials/{credential_id}",
+      "http_method": "POST",
+      "operation_id": "rotateVaultCredential",
+      "sha256": "6b8918778499a2754cec76cf453f744d700d09e26db293c674d8f2edea5cc92d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 231,
+      "path": "/vector_stores",
+      "http_method": "GET",
+      "operation_id": "listVectorStores",
+      "sha256": "56406022cfcde82d53158e09234fb31f791fbdc4594182c4011fdd542577bd2f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 232,
+      "path": "/vector_stores",
+      "http_method": "POST",
+      "operation_id": "createVectorStore",
+      "sha256": "d60e368ff44585ce11d386fb94a0b78f822c6c6bc47ba50b4427594a381d13d6",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 235,
+      "path": "/vector_stores/{vector_store_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteVectorStore",
+      "sha256": "ccbfb21ed87fb5b26e79e500837104205be4f9f382936ede967dac527c2ed350",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 233,
+      "path": "/vector_stores/{vector_store_id}",
+      "http_method": "GET",
+      "operation_id": "getVectorStore",
+      "sha256": "6559ba497df3b892759643b4c47e310b6731a92020210a83a57eab7f8db629ef",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 234,
+      "path": "/vector_stores/{vector_store_id}",
+      "http_method": "POST",
+      "operation_id": "modifyVectorStore",
+      "sha256": "7bf63ed47b28de3ce1335de7c75bdc97eca6b600647384438eac5ba4e1f4b40c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 236,
+      "path": "/vector_stores/{vector_store_id}/file_batches",
+      "http_method": "POST",
+      "operation_id": "createVectorStoreFileBatch",
+      "sha256": "37b4964f3c2fe2e2433c59ab42f9fffb35069912da0b4f7ff8cb901de2aff1f0",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 237,
+      "path": "/vector_stores/{vector_store_id}/file_batches/{batch_id}",
+      "http_method": "GET",
+      "operation_id": "getVectorStoreFileBatch",
+      "sha256": "c1e99730c4d3a86ed4f6b77f134ce0fbb028842f944283a3fd87c3998a4ac1ff",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 238,
+      "path": "/vector_stores/{vector_store_id}/file_batches/{batch_id}/cancel",
+      "http_method": "POST",
+      "operation_id": "cancelVectorStoreFileBatch",
+      "sha256": "e93bb8288d0edd703483a7e793909056d6a6841f266ca7d37b2d714bc5204b29",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 239,
+      "path": "/vector_stores/{vector_store_id}/file_batches/{batch_id}/files",
+      "http_method": "GET",
+      "operation_id": "listFilesInVectorStoreBatch",
+      "sha256": "f4d797d4da94ca2dc9d60d0eeb329a0a373cb6bc66fe9d71efc0270026d75629",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 240,
+      "path": "/vector_stores/{vector_store_id}/files",
+      "http_method": "GET",
+      "operation_id": "listVectorStoreFiles",
+      "sha256": "31d629c2968cbdb17fe00956d3e85782deb387ab6109c5e3060967bf09f8f6eb",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 241,
+      "path": "/vector_stores/{vector_store_id}/files",
+      "http_method": "POST",
+      "operation_id": "createVectorStoreFile",
+      "sha256": "3589070be76f43f50e0647c36eac0511e208fc784ea1ffbe51552c38016a03fc",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 243,
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}",
+      "http_method": "DELETE",
+      "operation_id": "deleteVectorStoreFile",
+      "sha256": "00eefa4f5c6a96fe67211f3114878cd1a889e0315d8f7c7023077082621d3456",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 242,
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}",
+      "http_method": "GET",
+      "operation_id": "getVectorStoreFile",
+      "sha256": "022c3933df89557a21959d8ffc0b3d19f8008e163c3f66ed249601d7829907af",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 244,
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}",
+      "http_method": "POST",
+      "operation_id": "updateVectorStoreFileAttributes",
+      "sha256": "c811e313152f9d85b816e6e8ae3f672e0f1a6db269275b38c143bf781d152060",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 245,
+      "path": "/vector_stores/{vector_store_id}/files/{file_id}/content",
+      "http_method": "GET",
+      "operation_id": "retrieveVectorStoreFileContent",
+      "sha256": "0d37f112b5e8faaa3f11e169cab64b96bd96a3c8264ce1093ac7df6c23fc3443",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 246,
+      "path": "/vector_stores/{vector_store_id}/search",
+      "http_method": "POST",
+      "operation_id": "searchVectorStore",
+      "sha256": "7905fe709cfa52a23228d8507d36fd17a852fde5f2431d766df78081b4114ecb",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 262,
+      "path": "/videos",
+      "http_method": "GET",
+      "operation_id": "ListVideos",
+      "sha256": "21ff6c38836968ded486722a9ca2001e46f64b5c17e66649d06d0504f4f48c10",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 261,
+      "path": "/videos",
+      "http_method": "POST",
+      "operation_id": "createVideo",
+      "sha256": "d372e7a396a7360dc0c38227e3849099ee6d3ffe33c1077e4fe13d0af6e37941",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 263,
+      "path": "/videos/characters",
+      "http_method": "POST",
+      "operation_id": "CreateVideoCharacter",
+      "sha256": "1986ef2dad90ca01541cb7c94567ef6f9e7b0e1d6477eb5f2f08e4478ea69cea",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 264,
+      "path": "/videos/characters/{character_id}",
+      "http_method": "GET",
+      "operation_id": "GetVideoCharacter",
+      "sha256": "d023be282b3ec7bb618c18d132565b3e638dca395d98b3c8f8d592543a721ddb",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 265,
+      "path": "/videos/edits",
+      "http_method": "POST",
+      "operation_id": "CreateVideoEdit",
+      "sha256": "368474a493cbad37ad89b562b9dc29a141434f446958f3c3e246cc59688bcd76",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 266,
+      "path": "/videos/extensions",
+      "http_method": "POST",
+      "operation_id": "CreateVideoExtend",
+      "sha256": "62e679eeefa4cfac3f1d6b4335e1e881042b1af0df7a79b68589a63905a79b46",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 268,
+      "path": "/videos/{video_id}",
+      "http_method": "DELETE",
+      "operation_id": "DeleteVideo",
+      "sha256": "cc5e1e4cbddeda5dc2c80de47b0225d7c2c7ccf784a24e95ec2342ef2bfc3d9c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 267,
+      "path": "/videos/{video_id}",
+      "http_method": "GET",
+      "operation_id": "GetVideo",
+      "sha256": "d7449b2361e2a3067529fe2189c4b928e6b09ab56a2a0ae427c330362aaba515",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 269,
+      "path": "/videos/{video_id}/content",
+      "http_method": "GET",
+      "operation_id": "RetrieveVideoContent",
+      "sha256": "3c6f2bc95e5083256f87de166e37bf006fb0527d2d9114c5a383b355456a8076",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 270,
+      "path": "/videos/{video_id}/remix",
+      "http_method": "POST",
+      "operation_id": "CreateVideoRemix",
+      "sha256": "3419007353a1ed57aa2dd74b63dfb7d5b6327805333e366119dcc19805c50c2c",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 332,
+      "path": "/webhook_endpoints",
+      "http_method": "GET",
+      "operation_id": "ListWebhookEndpoints",
+      "sha256": "37894567cdaa3d9e26d0a095c08c7622d0c1b5943dd166a313a235baf168cd02",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 333,
+      "path": "/webhook_endpoints",
+      "http_method": "POST",
+      "operation_id": "CreateWebhookEndpoint",
+      "sha256": "78b9c95becba84fe0bd84de46a85705df0781043fce802767f5573ce4aaa658b",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 336,
+      "path": "/webhook_endpoints/{webhook_endpoint_id}",
+      "http_method": "DELETE",
+      "operation_id": "DeleteWebhookEndpoint",
+      "sha256": "e8c1b816ab929009f528e7f85c087510c6ebd4768da7fb0116f14a4d7299569d",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 334,
+      "path": "/webhook_endpoints/{webhook_endpoint_id}",
+      "http_method": "GET",
+      "operation_id": "RetrieveWebhookEndpoint",
+      "sha256": "80fd043530fb9252f22cfa7a81f42f585fa74e5d52d9266541819d330d36887a",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 335,
+      "path": "/webhook_endpoints/{webhook_endpoint_id}",
+      "http_method": "POST",
+      "operation_id": "UpdateWebhookEndpoint",
+      "sha256": "4b5a50c30cff3ac8599ab61f163e05f6852374a3c8dfedd916bd60bd09c1deb4",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 337,
+      "path": "/webhook_endpoints/{webhook_endpoint_id}/rotate_secret",
+      "http_method": "POST",
+      "operation_id": "RotateWebhookEndpointSigningSecret",
+      "sha256": "37fb60d70e3196d65e71ba0ab90fca1f6361b20f44e356e83c1a08a960ccc23f",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 338,
+      "path": "/webhook_endpoints/{webhook_endpoint_id}/test",
+      "http_method": "POST",
+      "operation_id": "TestWebhookEndpoint",
+      "sha256": "33d9a7ecccce053bb5d70ec762efc190cef423bebe2456a7d8aeed3f48c7bed7",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "id": 339,
+      "path": "/webhook_event_types",
+      "http_method": "GET",
+      "operation_id": "ListWebhookEventTypes",
+      "sha256": "1796fb839141982a70ac9b50cf2c1eab5e929bfd32f0768e0d37c44cc8bba799",
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    }
+  ]
+}

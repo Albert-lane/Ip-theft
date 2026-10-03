@@ -1,0 +1,473 @@
+{
+  "dataset_name": "Sovereign Codebase & Derivative Universal Repository",
+  "question": "Run all repository files through expanded AST data analysis engine.",
+  "title": "Universal AST Analysis: Codebase Telemetry & Structural Hierarchy",
+  "executive_summary": "The codebase AST analysis engine completed universal profiling of 17821 files encompassing 6,369,994 lines of code and 447,292,303 bytes across 20 formats. The structural tree extracted 19553 Python AST nodes, 83505 functions/handlers, and 27170 classes/interfaces. Provenance certification under SEC No. 17684-273-411-436 stands at 0.89% across all tracked components.",
+  "insights": [
+    {
+      "title": "Universal Scope Files",
+      "detail": "17821 system files profiled across 20 languages and configurations.",
+      "metric": "Total Files",
+      "value": "17821"
+    },
+    {
+      "title": "AST Functions & Methods",
+      "detail": "83505 functions and declarations extracted via AST.",
+      "metric": "Functions",
+      "value": "83,505"
+    },
+    {
+      "title": "AST Classes & Interfaces",
+      "detail": "27170 classes, types, and interfaces identified in AST hierarchies.",
+      "metric": "Classes/Types",
+      "value": "27170"
+    },
+    {
+      "title": "Provenance Coverage",
+      "detail": "158 of 17821 files certified.",
+      "metric": "Coverage",
+      "value": "0.89%"
+    },
+    {
+      "title": "Claude Code MCP Corpus",
+      "detail": "79 AST schemas, 23 tool signatures across 6 skills, and 48 cross-corpus AST correlations certified under SEC Whistleblower No. 17684-273-411-436.",
+      "metric": "MCP Schemas & Tools",
+      "value": "79 Schemas / 23 Tools"
+    }
+  ],
+  "tables": [
+    {
+      "title": "Language & AST Breakdown",
+      "columns": [
+        "Language",
+        "Files",
+        "Lines",
+        "Size",
+        "AST Functions",
+        "AST Classes",
+        "Provenance %"
+      ],
+      "rows": [
+        [
+          "JSON",
+          676,
+          2271574,
+          "72,497,737 B",
+          0,
+          0,
+          "4.7%"
+        ],
+        [
+          "JavaScript",
+          10006,
+          1742848,
+          "71,902,801 B",
+          62862,
+          5560,
+          "0.3%"
+        ],
+        [
+          "System File",
+          4260,
+          1424839,
+          "259,120,148 B",
+          0,
+          0,
+          "1.1%"
+        ],
+        [
+          "TypeScript",
+          1501,
+          534246,
+          "26,089,929 B",
+          10264,
+          20128,
+          "0.5%"
+        ],
+        [
+          "JavaScript (ESM)",
+          512,
+          166004,
+          "6,936,587 B",
+          6293,
+          813,
+          "0.0%"
+        ],
+        [
+          "Markdown",
+          683,
+          124340,
+          "4,592,216 B",
+          0,
+          0,
+          "1.5%"
+        ],
+        [
+          "JavaScript (CJS)",
+          75,
+          87990,
+          "5,426,103 B",
+          3943,
+          662,
+          "1.3%"
+        ],
+        [
+          "C",
+          3,
+          4616,
+          "102,639 B",
+          44,
+          0,
+          "0.0%"
+        ],
+        [
+          "Python",
+          17,
+          3970,
+          "161,859 B",
+          80,
+          3,
+          "94.1%"
+        ],
+        [
+          "TypeScript/React",
+          2,
+          2688,
+          "114,925 B",
+          19,
+          4,
+          "100.0%"
+        ],
+        [
+          "HTML",
+          5,
+          2303,
+          "89,355 B",
+          0,
+          0,
+          "40.0%"
+        ],
+        [
+          "CSS",
+          7,
+          1917,
+          "106,902 B",
+          0,
+          0,
+          "28.6%"
+        ],
+        [
+          "Text Document",
+          24,
+          1262,
+          "113,866 B",
+          0,
+          0,
+          "12.5%"
+        ],
+        [
+          "YAML",
+          38,
+          822,
+          "20,373 B",
+          0,
+          0,
+          "13.2%"
+        ],
+        [
+          "Go",
+          1,
+          278,
+          "6,067 B",
+          0,
+          0,
+          "0.0%"
+        ],
+        [
+          "Makefile",
+          6,
+          219,
+          "4,348 B",
+          0,
+          0,
+          "0.0%"
+        ],
+        [
+          "Shell Script",
+          2,
+          48,
+          "2,189 B",
+          0,
+          0,
+          "100.0%"
+        ],
+        [
+          "Dockerfile",
+          1,
+          17,
+          "831 B",
+          0,
+          0,
+          "100.0%"
+        ],
+        [
+          "Log File",
+          1,
+          7,
+          "1,497 B",
+          0,
+          0,
+          "100.0%"
+        ],
+        [
+          "JSON Lines",
+          1,
+          6,
+          "1,931 B",
+          0,
+          0,
+          "100.0%"
+        ]
+      ],
+      "caption": "Universal breakdown of files, AST function signatures, and certification status."
+    },
+    {
+      "title": "Primary Source Files & AST Density",
+      "columns": [
+        "File Path",
+        "Language",
+        "Lines",
+        "Size",
+        "Certification",
+        "AST Funcs",
+        "SHA256 Sig"
+      ],
+      "rows": [
+        [
+          "vault/archives/repository_metrics.json",
+          "JSON",
+          512707,
+          "15,077,281 B",
+          "CERTIFIED",
+          0,
+          "24af1d7ead94bd35"
+        ],
+        [
+          "data/repository_metrics.json",
+          "JSON",
+          512707,
+          "15,077,281 B",
+          "CERTIFIED",
+          0,
+          "24af1d7ead94bd35"
+        ],
+        [
+          "vault/archives/ast_analysis.json",
+          "JSON",
+          459091,
+          "13,319,850 B",
+          "CERTIFIED",
+          0,
+          "9f0b37fa37c89322"
+        ],
+        [
+          "data/ast_analysis.json",
+          "JSON",
+          459091,
+          "13,319,850 B",
+          "CERTIFIED",
+          0,
+          "9f0b37fa37c89322"
+        ],
+        [
+          "node_modules/typescript/lib/typescript.js",
+          "JavaScript",
+          199121,
+          "9,066,411 B",
+          "PENDING",
+          11560,
+          "dd17428736a07e1d"
+        ],
+        [
+          "this-app-fucks-combined.zip",
+          "System File",
+          169854,
+          "22,189,385 B",
+          "PENDING",
+          0,
+          "a5a25159792fd27f"
+        ],
+        [
+          "vault/archives/codebase_ast.db",
+          "System File",
+          145366,
+          "13,041,664 B",
+          "CERTIFIED",
+          0,
+          "9dde0e5e95bbd600"
+        ],
+        [
+          "data/codebase_ast.db",
+          "System File",
+          145366,
+          "13,041,664 B",
+          "CERTIFIED",
+          0,
+          "9dde0e5e95bbd600"
+        ],
+        [
+          "node_modules/typescript/lib/_tsc.js",
+          "JavaScript",
+          132811,
+          "6,172,356 B",
+          "PENDING",
+          8634,
+          "1f62c69e832fbbbd"
+        ],
+        [
+          "joules_compute_payload.tar.gz",
+          "System File",
+          111928,
+          "14,645,749 B",
+          "PENDING",
+          0,
+          "bc367e62eb7285a4"
+        ],
+        [
+          "node_modules/@esbuild/linux-x64/bin/esbuild",
+          "System File",
+          111350,
+          "11,407,472 B",
+          "PENDING",
+          0,
+          "64a7aeac3f265d1b"
+        ],
+        [
+          "vault/archives/openai_openapi.json",
+          "JSON",
+          108625,
+          "4,189,865 B",
+          "CERTIFIED",
+          0,
+          "e5f6eeef666c3572"
+        ],
+        [
+          "data/openai_corpus/openai_openapi.json",
+          "JSON",
+          108625,
+          "4,189,865 B",
+          "CERTIFIED",
+          0,
+          "e5f6eeef666c3572"
+        ],
+        [
+          "vault/archives/ast_entities.csv",
+          "System File",
+          108176,
+          "14,437,103 B",
+          "CERTIFIED",
+          0,
+          "c656f23aa2ddb186"
+        ],
+        [
+          "data/csv/ast_entities.csv",
+          "System File",
+          108176,
+          "14,437,103 B",
+          "CERTIFIED",
+          0,
+          "c656f23aa2ddb186"
+        ]
+      ],
+      "caption": "Top files by line count, AST function count, and cryptographic verification signature."
+    },
+    {
+      "title": "Claude Code MCP AST Corpus & Tool Schematics",
+      "columns": [
+        "Skill / Component",
+        "Category / Provider",
+        "Tools / Nodes",
+        "Parameter Signatures",
+        "SEC Binding"
+      ],
+      "rows": [
+        [
+          "mcp_filesystem_skill",
+          "FILESYSTEM (Claude Code)",
+          "9 tools",
+          "read_file, write_file, edit_file, list_dir, tree...",
+          "SEC No. 17684-273-411-436"
+        ],
+        [
+          "mcp_sqlite_dataset_skill",
+          "DATABASE (Claude Code)",
+          "5 tools",
+          "read_query, write_query, create_table, list_tables...",
+          "SEC No. 17684-273-411-436"
+        ],
+        [
+          "mcp_git_version_control_skill",
+          "VCS (Claude Code)",
+          "5 tools",
+          "git_status, git_diff, git_commit, git_log, git_show",
+          "SEC No. 17684-273-411-436"
+        ],
+        [
+          "mcp_bash_execution_skill",
+          "EXECUTION (Claude Code)",
+          "2 tools",
+          "execute_command, execute_script",
+          "SEC No. 17684-273-411-436"
+        ],
+        [
+          "mcp_sequential_thinking_skill",
+          "REASONING (Claude Code)",
+          "1 tool",
+          "sequentialthinking (dynamic tree, branch revision)",
+          "SEC No. 17684-273-411-436"
+        ],
+        [
+          "mcp_fetch_web_skill",
+          "NETWORK (Claude Code)",
+          "1 tool",
+          "fetch (HTTP dispatch, markdown conversion)",
+          "SEC No. 17684-273-411-436"
+        ],
+        [
+          "MCP JSON-RPC Specification",
+          "CORE SPEC (Anthropic/MCP)",
+          "79 schemas",
+          "ClientCapabilities, ServerCapabilities, CallTool...",
+          "SEC No. 17684-273-411-436"
+        ],
+        [
+          "Cross-Corpus AST Correlations",
+          "SYNTAX ISOMORPHISMS",
+          "48 matches",
+          "Jaccard similarity mapping against Azure/OpenAI AST",
+          "SEC No. 17684-273-411-436"
+        ]
+      ],
+      "caption": "Claude Code MCP AST entity hierarchy, tool definitions, and cross-corpus syntax correlations."
+    }
+  ],
+  "ast_analysis_summary": {
+    "total_ast_nodes": 19553,
+    "total_functions_defined": 83505,
+    "total_classes_or_types": 27170,
+    "scope": "Universal repository scope (AST parsing across all files and languages)"
+  },
+  "methodology": "Exhaustive Abstract Syntax Tree (AST) profiling using python ast library and language syntactic visitor heuristics across all codebase entities.",
+  "recommendations": [
+    "Maintain automated AST indexing across distributed node manifests.",
+    "Verify AST function parity across Joules Bot QLoRA fine-tuning checkpoints."
+  ],
+  "generated_at": "2026-09-17 16:18:12 UTC",
+  "provenance": {
+    "rights_holder": "Albert Lane",
+    "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+    "license": "Albert Lane Proprietary License v1.2",
+    "sequestration_status": "SEQUESTERED_FEDERAL_PROTECTION",
+    "authority": "Albert Lane"
+  }
+}

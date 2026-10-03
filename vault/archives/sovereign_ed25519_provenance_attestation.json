@@ -1,0 +1,180 @@
+{
+  "version": "2.2.0-ED25519-ARXIV-EXPANDED",
+  "authority": "Albert Lane",
+  "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "fcc_docket": "CC/WC-26-401",
+  "ed25519_public_key": "668fdcb109fa90c0ffbe45a8c6c9e196bba3688113a8d521fb68dd6caf831e9c",
+  "timestamp_utc": "2026-09-16T21:18:32.621Z",
+  "root_merkle_digest": "03788cbf4f4bbaddcef22790287bbdf15c622107af3963e99504e647f3ee407e",
+  "total_audited_artifacts": 33,
+  "artifacts": {
+    "Dockerfile.joules": {
+      "sha256": "9c906dec12f5f5f97ea7abc250d8a77bc595b207a6c693ab25923cba4b22a823",
+      "bytes": 831,
+      "verified_at": "2026-09-16T21:18:32.442Z"
+    },
+    "build_dataset.py": {
+      "sha256": "ef40f1087e9fa68fe56f571afdf60c545896fbffb945d3245e6c1307a4238c0a",
+      "bytes": 3929,
+      "verified_at": "2026-09-16T21:18:32.442Z"
+    },
+    "data/arxiv/corpus_manifest.json": {
+      "sha256": "ab997ef663044d4f4902314b2dab98575671f98f6108584223bbeab2f27460d0",
+      "bytes": 5437,
+      "verified_at": "2026-09-16T21:18:32.443Z"
+    },
+    "data/arxiv/exhibits_and_fcc_sec_petition.md": {
+      "sha256": "70e57c6794e7125123ce2502e67ccdb541661b404d7f39f94b02b912b77b0b8a",
+      "bytes": 645,
+      "verified_at": "2026-09-16T21:18:32.443Z"
+    },
+    "data/arxiv/forensic_reconstruction_z_axis.md": {
+      "sha256": "41461e5a81701edb4b334384cd145829fd8c9987fd8f45664b62c018a249f9df",
+      "bytes": 957,
+      "verified_at": "2026-09-16T21:18:32.443Z"
+    },
+    "data/arxiv/joules_supply_chain_conjecture.md": {
+      "sha256": "397ad27a87b65b9f67b33f71128d17486672e22898cc2a576807642e26d6c177",
+      "bytes": 693,
+      "verified_at": "2026-09-16T21:18:32.443Z"
+    },
+    "data/arxiv/sovereign_forensic_audit_sleeve.md": {
+      "sha256": "bf481f9d92048dfe72e3f8c259f915641931f13c9a1c8dd68df7682f841fdd83",
+      "bytes": 527,
+      "verified_at": "2026-09-16T21:18:32.443Z"
+    },
+    "data/arxiv/whitepaper_elasticity_spacetime.md": {
+      "sha256": "ce4984cd19d5e2ad40ff36d0118e22e2be08edc3c5439af1d5754c186adef34f",
+      "bytes": 1023,
+      "verified_at": "2026-09-16T21:18:32.443Z"
+    },
+    "data/codebase_ast.db": {
+      "sha256": "ce73b9992b284b5e9e0bb0fc2fef3bae472e5bfa27eaeed2f07cd95a0f52158c",
+      "bytes": 12447744,
+      "verified_at": "2026-09-16T21:18:32.503Z"
+    },
+    "data/csv/ast_entities.csv": {
+      "sha256": "9dbae13c6fd491179cfafc94111ded29b6cd39c57cd7bcdbda1b88070308eb1b",
+      "bytes": 8595686,
+      "verified_at": "2026-09-16T21:18:32.539Z"
+    },
+    "data/csv/cross_corpus_ast_correlations.csv": {
+      "sha256": "47bd8b26328fd0a64fa618fbd1891f612e2886e88b95332f33e85473b5a5fda8",
+      "bytes": 9544,
+      "verified_at": "2026-09-16T21:18:32.540Z"
+    },
+    "data/csv/deep_ast_metrics.csv": {
+      "sha256": "d5aefb8ff678849bcdb962cd85a78a473d4d5fe515519ab9c7adafa3c80bec38",
+      "bytes": 6896,
+      "verified_at": "2026-09-16T21:18:32.540Z"
+    },
+    "data/csv/files.csv": {
+      "sha256": "145d6db1dc1bb44ad2d617198e71b03af52c2640444ab8978a7f60e6aeef1f3e",
+      "bytes": 1709495,
+      "verified_at": "2026-09-16T21:18:32.548Z"
+    },
+    "data/csv/microsoft_derivative_schemas.csv": {
+      "sha256": "038fa5ba5b48e473fc6a2085328138d40b1789360078495306db17dc12fd8adb",
+      "bytes": 41135,
+      "verified_at": "2026-09-16T21:18:32.549Z"
+    },
+    "data/csv/microsoft_marketable_derivatives.csv": {
+      "sha256": "2cfef55d43e8eabb644094c9f8d04f0d2b3c1595567f86ba91e5243a001d34c7",
+      "bytes": 1352,
+      "verified_at": "2026-09-16T21:18:32.549Z"
+    },
+    "data/csv/openai_api_endpoints.csv": {
+      "sha256": "359b95c06ab720131454eff59b9e32f7007713f7883e01a562e66e4dc790e328",
+      "bytes": 44863,
+      "verified_at": "2026-09-16T21:18:32.549Z"
+    },
+    "data/csv/openai_api_schemas.csv": {
+      "sha256": "93b674d7aaa7974be731cf9a5d1b1a69f50dfdfe6e96f499c0b9996fa3c27351",
+      "bytes": 400442,
+      "verified_at": "2026-09-16T21:18:32.551Z"
+    },
+    "data/csv/provenance_registry.csv": {
+      "sha256": "0f90a813533117354daaffb13ca83f2234dc197708445d7ca3b904d4168ad990",
+      "bytes": 6584,
+      "verified_at": "2026-09-16T21:18:32.551Z"
+    },
+    "data/csv/spacex_code_derivatives.csv": {
+      "sha256": "a57a893a9096130fed134a10d2e2b3d91701a63d33497712ec5c1b0431ec39f5",
+      "bytes": 4974,
+      "verified_at": "2026-09-16T21:18:32.551Z"
+    },
+    "data/csv/spacex_derivative_fields.csv": {
+      "sha256": "8d10a8c9130e2a95d46f77a3e565d301054ceb30448ca6c4eba1198e5f73c72e",
+      "bytes": 50404,
+      "verified_at": "2026-09-16T21:18:32.552Z"
+    },
+    "data/csv/vault_seal.csv": {
+      "sha256": "2c4a39ce2a5b868758089589cd1c70f527c089c2a5a366f33fccb66f12405e58",
+      "bytes": 268,
+      "verified_at": "2026-09-16T21:18:32.552Z"
+    },
+    "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json": {
+      "sha256": "929f992fcfe7706c24de8cbe1d54bd276170f585f0dac22d5289cd374b1921d7",
+      "bytes": 112269,
+      "verified_at": "2026-09-16T21:18:32.552Z"
+    },
+    "data/microsoft_derivatives/AzureOpenAI_Inference_2024-02-01.json": {
+      "sha256": "51ca4b18c53d58988b06104a98a10d4796ad05a07a550ddfdbdc600627bc3ac9",
+      "bytes": 106532,
+      "verified_at": "2026-09-16T21:18:32.553Z"
+    },
+    "data/spacex_derivatives/dragons.js": {
+      "sha256": "4c1ea15eda03723b9ced509afe8ebc37a6e1e1c38ef30639d47a3dfd98249470",
+      "bytes": 2487,
+      "verified_at": "2026-09-16T21:18:32.553Z"
+    },
+    "data/spacex_derivatives/launches.js": {
+      "sha256": "3e23d0dc024d941e7783df8dcd188f2f018d853b326a1638f832f56f8913e9d8",
+      "bytes": 4046,
+      "verified_at": "2026-09-16T21:18:32.553Z"
+    },
+    "data/spacex_derivatives/payloads.js": {
+      "sha256": "82f934a587bf0e335b0e200766d0feadd9085b0007552ea13742d76232d9c6dd",
+      "bytes": 2364,
+      "verified_at": "2026-09-16T21:18:32.553Z"
+    },
+    "data/spacex_derivatives/rockets.js": {
+      "sha256": "b7de40f27cf4249085ca08f6f0c0155a65463a9be7032792e8eb3bd7992c1d1d",
+      "bytes": 3264,
+      "verified_at": "2026-09-16T21:18:32.553Z"
+    },
+    "data/spacex_derivatives/starlink.js": {
+      "sha256": "c654ce90675db45af75583632b3f4738f2985902f864a2286d4eaa25f73697d6",
+      "bytes": 3482,
+      "verified_at": "2026-09-16T21:18:32.553Z"
+    },
+    "global_query.py": {
+      "sha256": "a711429b21fb71fa388a8d6dcfef48e97f99a60c955ee4c0c1f2205ef56226c7",
+      "bytes": 13649,
+      "verified_at": "2026-09-16T21:18:32.554Z"
+    },
+    "joules_compute_payload.tar.gz": {
+      "sha256": "44e2d8b3687381d3d1a7e509ec0d5b73eabb2ef92455be48d7202f0f22783b4c",
+      "bytes": 14645749,
+      "verified_at": "2026-09-16T21:18:32.619Z"
+    },
+    "metadata.json": {
+      "sha256": "8546e9d31252c9d82a357cc9d0e4ef6caba634fbe677f2c97abaadcf75b6d7a0",
+      "bytes": 506,
+      "verified_at": "2026-09-16T21:18:32.619Z"
+    },
+    "package.json": {
+      "sha256": "fee45343f21c2e94f559000cfa1e4184a4f06be32721bc08161189906e39ddde",
+      "bytes": 1740,
+      "verified_at": "2026-09-16T21:18:32.621Z"
+    },
+    "tsconfig.json": {
+      "sha256": "73fa7ee372ca51e4079323f50e5712ed81460e24175b355acf7922d6dc40fca9",
+      "bytes": 723,
+      "verified_at": "2026-09-16T21:18:32.621Z"
+    }
+  },
+  "cryptographic_signature": "a61662f041fa57c3fb49f636a6da7f62b7a3ec720f48ab6f00a504fd735701a9e386b2c351096879df67322d7721aba8289163538df13d9eab2d0901c5d8f00d",
+  "signature_algorithm": "Ed25519",
+  "signature_verified": true
+}

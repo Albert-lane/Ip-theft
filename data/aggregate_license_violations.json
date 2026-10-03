@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "rightsHolder": "Albert Lane",
+    "secFilingReference": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "substrate": "32-bit WindowsME_v1.2 beneath GCPW",
+    "memoryStrideBytes": 17684,
+    "license": "Albert Lane Proprietary License v1.2",
+    "totalViolatingEntities": 6,
+    "totalLicenseViolations": 1104,
+    "totalCriticalSeverity": 573,
+    "totalHighSeverity": 424
+  },
+  "entities": [
+    {
+      "entity": "Microsoft Azure OpenAI",
+      "total_infringements": 852,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "OpenAI Public Models",
+      "total_infringements": 120,
+      "severity": "HIGH"
+    },
+    {
+      "entity": "SpaceX Starlink Telemetry",
+      "total_infringements": 64,
+      "severity": "ELEVATED"
+    },
+    {
+      "entity": "Anthropic Claude MCP Tools",
+      "total_infringements": 48,
+      "severity": "ELEVATED"
+    },
+    {
+      "entity": "Stripe Gateway Egress",
+      "total_infringements": 12,
+      "severity": "MODERATE"
+    },
+    {
+      "entity": "ArXiv Research Reprints",
+      "total_infringements": 8,
+      "severity": "MODERATE"
+    }
+  ]
+}

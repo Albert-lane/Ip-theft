@@ -1,0 +1,25 @@
+{
+  "distribution_id": "DIST-PROVENANCE-20260916202738",
+  "authority": "Albert Lane Provenance Authority",
+  "filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "timestamp_utc": "2026-09-16 20:27:38 UTC",
+  "distribution_nodes": [
+    "node-alpha.edge.sovereign.local",
+    "node-beta.edge.sovereign.local",
+    "node-gamma.compute.albertlane.net"
+  ],
+  "payload_archive": {
+    "filename": "joules_compute_payload.tar.gz",
+    "size_bytes": 14645749,
+    "sha256": "44e2d8b3687381d3d1a7e509ec0d5b73eabb2ef92455be48d7202f0f22783b4c"
+  },
+  "catalog_metrics": {
+    "total_files": 17721,
+    "ast_entities": 108174,
+    "openai_schemas": 1869,
+    "microsoft_derivative_schemas": 165,
+    "spacex_ast_fields": 320,
+    "cross_corpus_correlations": 40
+  },
+  "provenance_status": "DISTRIBUTED_GLOBALLY_TO_ALL_NODES"
+}

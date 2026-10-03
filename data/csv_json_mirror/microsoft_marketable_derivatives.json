@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "sourceCsvFile": "vault/archives/microsoft_marketable_derivatives.csv",
+    "sha256": "2cfef55d43e8eabb644094c9f8d04f0d2b3c1595567f86ba91e5243a001d34c7",
+    "rowCount": 2,
+    "columnCount": 12,
+    "columns": [
+      "id",
+      "source_organization",
+      "service_name",
+      "api_version",
+      "source_url",
+      "local_artifact_path",
+      "total_endpoints",
+      "total_schemas",
+      "canonical_sha256",
+      "mathematical_proof",
+      "ingested_at",
+      "provenance_assertion"
+    ],
+    "statutoryAuthority": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "convertedAtUtc": "2026-09-25T15:59:36.587598+00:00"
+  },
+  "records": [
+    {
+      "id": 1,
+      "source_organization": "Microsoft Corporation / Azure",
+      "service_name": "Azure OpenAI Inference Data Plane",
+      "api_version": "2024-02-01 (Stable)",
+      "source_url": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/stable/2024-02-01/inference.json",
+      "local_artifact_path": "data/microsoft_derivatives/AzureOpenAI_Inference_2024-02-01.json",
+      "total_endpoints": 6,
+      "total_schemas": 84,
+      "canonical_sha256": "bd4e855d1d4823663be90930ed2f0410ae886044c0e2785f5f0b69407887b728",
+      "mathematical_proof": "c550651c0eda7241a1973e883b6515e5ef1b876a668b3c9b2e5cdc3a373b41ae",
+      "ingested_at": "2026-09-16 20:19:49 UTC",
+      "provenance_assertion": "Cryptographic AST Isolation & Mathematical Proof logged under SEC Whistleblower No. 17684-273-411-436"
+    },
+    {
+      "id": 2,
+      "source_organization": "Microsoft Corporation / Azure",
+      "service_name": "Azure OpenAI Authoring Data Plane",
+      "api_version": "2024-08-01-preview",
+      "source_url": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/cognitiveservices/data-plane/AzureOpenAI/authoring/preview/2024-08-01-preview/azureopenai.json",
+      "local_artifact_path": "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json",
+      "total_endpoints": 22,
+      "total_schemas": 81,
+      "canonical_sha256": "df4579cc5f4f6ad9936a1eb497083d7f1cb4fdc5347d9cae0ac353f70cdf5743",
+      "mathematical_proof": "28efc476df2e4aaea298b63566e92f21fd2a74f758eaa01bc20cda749dbd3b6b",
+      "ingested_at": "2026-09-16 20:19:49 UTC",
+      "provenance_assertion": "Cryptographic AST Isolation & Mathematical Proof logged under SEC Whistleblower No. 17684-273-411-436"
+    }
+  ]
+}

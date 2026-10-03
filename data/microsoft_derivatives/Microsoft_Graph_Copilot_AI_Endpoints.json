@@ -1,0 +1,49 @@
+{
+  "title": "Microsoft Graph Copilot & Substrate AI Endpoints",
+  "version": "v1.0-beta",
+  "namespace": "Microsoft.Graph.AI",
+  "provenance_scrutiny": "SEC Whistleblower No. 17684-273-411-436",
+  "rights_holder_allegation": "Albert Lane",
+  "components": {
+    "schemas": {
+      "CopilotInteractionPayload": {
+        "type": "object",
+        "required": ["sessionId", "userPrincipalName", "promptText", "semanticGroundingSources"],
+        "properties": {
+          "sessionId": { "type": "string" },
+          "userPrincipalName": { "type": "string" },
+          "promptText": { "type": "string" },
+          "semanticGroundingSources": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/GroundingDataSource" }
+          },
+          "telemetryBindingId": { "type": "string" }
+        }
+      },
+      "GroundingDataSource": {
+        "type": "object",
+        "required": ["sourceType", "sourceId"],
+        "properties": {
+          "sourceType": { "type": "string", "enum": ["SharePoint", "Exchange", "OneDrive", "TeamsChats", "GitHubCodeRepo"] },
+          "sourceId": { "type": "string" },
+          "relevanceScore": { "type": "number" },
+          "extractedTextSnippet": { "type": "string" }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/beta/copilot/interactions": {
+      "post": {
+        "summary": "Submit Copilot Prompt & Retrieve Semantic Grounded Response",
+        "operationId": "Copilot_Interactions_Create"
+      }
+    },
+    "/beta/search/query": {
+      "post": {
+        "summary": "Execute Graph Substrate Vector & Semantic Search",
+        "operationId": "Search_Query"
+      }
+    }
+  }
+}

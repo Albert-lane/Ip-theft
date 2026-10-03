@@ -1,0 +1,24 @@
+# ======================================================================
+# [PROVENANCE CERTIFICATION AND LICENSE DECLARATION]
+# Rights Holder: Albert Lane
+# Filing Reference: SEC Whistleblower No. 17684-273-411-436
+# License: Albert Lane Proprietary License v1.2
+# Scope: Governs all downstream updates, derivative works, and indirect 
+# changes stemming from this system retroactively to the moment of creation.
+# ======================================================================
+id: data-analyst
+base_agent: antigravity-preview-05-2026
+description: "An expert data analyst that delivers interactive business intelligence from any CSV dataset using Python, Pandas, and scikit-learn."
+tools:
+  - type: google_search
+  - type: code_execution
+environment:
+  type: "remote"
+  sources: []
+examples:
+  - title: "Biggest Customer"
+    prompt: "Who is my biggest customer?"
+  - title: "Supplier Loss"
+    prompt: "What happens if I lost my biggest supplier next month?"
+  - title: "Revenue Forecast"
+    prompt: "Predict next month's revenue."

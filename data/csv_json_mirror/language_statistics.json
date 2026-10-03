@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "sourceCsvFile": "vault/archives/language_statistics.csv",
+    "sha256": "b72b0d98244c0332f9eebccddb94c41fb8a3d89de4b60949f300138e63eae28c",
+    "rowCount": 19,
+    "columnCount": 8,
+    "columns": [
+      "language",
+      "total_files",
+      "total_lines",
+      "total_bytes",
+      "ast_functions",
+      "ast_classes",
+      "certified_files",
+      "provenance_reference"
+    ],
+    "statutoryAuthority": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "convertedAtUtc": "2026-09-25T15:59:36.568494+00:00"
+  },
+  "records": [
+    {
+      "language": "JavaScript",
+      "total_files": 9976,
+      "total_lines": 1739062,
+      "total_bytes": 70464584,
+      "ast_functions": 60440,
+      "ast_classes": 5449,
+      "certified_files": 1,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "JSON",
+      "total_files": 652,
+      "total_lines": 1052389,
+      "total_bytes": 34864901,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 5,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "TypeScript",
+      "total_files": 1500,
+      "total_lines": 533393,
+      "total_bytes": 26055208,
+      "ast_functions": 10253,
+      "ast_classes": 20126,
+      "certified_files": 6,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "System File",
+      "total_files": 4215,
+      "total_lines": 422032,
+      "total_bytes": 137492757,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 5,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "JavaScript (ESM)",
+      "total_files": 512,
+      "total_lines": 166004,
+      "total_bytes": 6936587,
+      "ast_functions": 6293,
+      "ast_classes": 813,
+      "certified_files": 0,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "Markdown",
+      "total_files": 678,
+      "total_lines": 124275,
+      "total_bytes": 4587826,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 5,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "JavaScript (CJS)",
+      "total_files": 74,
+      "total_lines": 85862,
+      "total_bytes": 5335339,
+      "ast_functions": 3912,
+      "ast_classes": 661,
+      "certified_files": 0,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "C",
+      "total_files": 3,
+      "total_lines": 4616,
+      "total_bytes": 102639,
+      "ast_functions": 44,
+      "ast_classes": 0,
+      "certified_files": 0,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "TypeScript/React",
+      "total_files": 2,
+      "total_lines": 2534,
+      "total_bytes": 103286,
+      "ast_functions": 19,
+      "ast_classes": 4,
+      "certified_files": 2,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "HTML",
+      "total_files": 4,
+      "total_lines": 2277,
+      "total_bytes": 88320,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 1,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "Python",
+      "total_files": 13,
+      "total_lines": 2231,
+      "total_bytes": 89479,
+      "ast_functions": 72,
+      "ast_classes": 3,
+      "certified_files": 11,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "CSS",
+      "total_files": 6,
+      "total_lines": 1915,
+      "total_bytes": 59570,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 2,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "Text Document",
+      "total_files": 22,
+      "total_lines": 1172,
+      "total_bytes": 104274,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 1,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "YAML",
+      "total_files": 38,
+      "total_lines": 795,
+      "total_bytes": 18711,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 2,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "Go",
+      "total_files": 1,
+      "total_lines": 278,
+      "total_bytes": 6067,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 0,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "Makefile",
+      "total_files": 6,
+      "total_lines": 219,
+      "total_bytes": 4348,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 0,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "Dockerfile",
+      "total_files": 1,
+      "total_lines": 11,
+      "total_bytes": 479,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 0,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "JSON Lines",
+      "total_files": 1,
+      "total_lines": 10,
+      "total_bytes": 3243,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 1,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    },
+    {
+      "language": "Log File",
+      "total_files": 1,
+      "total_lines": 4,
+      "total_bytes": 407,
+      "ast_functions": 0,
+      "ast_classes": 0,
+      "certified_files": 1,
+      "provenance_reference": "SEC Whistleblower No. 17684-273-411-436 | Albert Lane"
+    }
+  ]
+}

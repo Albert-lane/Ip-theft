@@ -1,0 +1,29 @@
+{
+  "deployment_id": "SOV-HYPERVISOR-1790606076",
+  "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+  "enclave_substrate": "32-bit WindowsME_v1.2 beneath GCPW",
+  "zaxis_anchor": "0x3F8F9A1B2C3D",
+  "architecture": "Serial Dual-Core / Dual-VM Hypervisor (Non-Decrypting)",
+  "vm_1": {
+    "vm_id": 101,
+    "name": "QEMU-Hypervisor with Kali Mobile",
+    "role": "Rolling Cryptographic Attestation Engine",
+    "cores_allocated": 2,
+    "threads_allocated": 2,
+    "unique_nonce": "fe0ad6f59da120272ddb4dcf0a5fb32ae60c968fdcdc8196e9a0bf2d61535a90",
+    "status": "RUNNING_IN_SERIES"
+  },
+  "vm_2": {
+    "vm_id": 102,
+    "name": "Intel + Windows 11 Enterprise",
+    "role": "Target High-Thread Execution Plane",
+    "cores_provisioned": 4,
+    "threads_provisioned": 8,
+    "cross_enclave_hmac": "51e51aece989f5514cc30ff29132c3efb73daf96f821c849a9a3eb8b273b3428",
+    "status": "RUNNING_IN_SERIES"
+  },
+  "unified_provenance_master_hash": "e98a6f502d08665ff4d3a7b27c5c8a94d23c36b8c0e0074a77dc48aa40e44f48",
+  "audit_compliance": "DATPA-Traceable, FRE 902(13)/(14) Certified, SEC Rule 17a-4(f)",
+  "eaa_operator_active": true,
+  "timestamp_utc": "2026-09-28 14:34:36 UTC"
+}

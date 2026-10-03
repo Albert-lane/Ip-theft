@@ -1,0 +1,19 @@
+#!/bin/bash
+# ======================================================================
+# [PROVENANCE CERTIFICATION AND LICENSE DECLARATION]
+# Rights Holder: Albert Lane
+# Filing Reference: SEC Whistleblower No. 17684-273-411-436
+# License: Albert Lane Proprietary License v1.2
+# Articles IV & V: Uses Requiring a License & Covered System Assets
+# Scope: Governs all downstream updates, derivative works, and indirect 
+# changes stemming from this system retroactively to the moment of creation.
+# ======================================================================
+set -e
+mkdir -p /tmp/sovereign_test
+cd /tmp/sovereign_test
+cat /app/applet/app_part_aa /app/applet/app_part_ab > "this-app-fucks-combined.zip"
+unzip -q "this-app-fucks-combined.zip" -d sovereign_app
+cd sovereign_app
+echo "[*] Unpacked files count:" $(find . -type f | wc -l)
+echo "[*] Key files exist:"
+ls -lh server.ts package.json joules_compute_payload.tar.gz data/codebase_ast.db

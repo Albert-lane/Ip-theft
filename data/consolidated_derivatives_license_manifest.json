@@ -1,0 +1,99 @@
+{
+  "rightsHolder": "Albert Lane",
+  "secFilingReference": "SEC Whistleblower No. 17684-273-411-436",
+  "registrationToken": "17684-273-411-436",
+  "numericDecimal": 17684273411436,
+  "zaxisAnchor": "0x3F8F9A1B2C3D",
+  "license": "Albert Lane Proprietary License v1.2",
+  "statutorySequestration": "Dodd-Frank 15 U.S.C. \u00a7 78u-6 & 17 U.S.C. \u00a7 501",
+  "lockfileApex": "sec17684273411436.lock",
+  "rollingSha256Seal": "de38d6681569be6ad7ffa173917d63ed0190d0c8ddf898baf42604ae492cbabb",
+  "lastAuditTimestamp": "2026-09-30T00:26:28.033068Z",
+  "totalConsolidatedDerivatives": 7,
+  "derivatives": [
+    {
+      "ecosystem": "microsoft_derivatives",
+      "derivative_name": "Microsoft Azure OpenAI Authoring REST API (Fine-Tuning & Deployments)",
+      "filename": "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json",
+      "filesize_bytes": 746,
+      "sha256": "70d315b91ff899a877125a528b09d6ef92fddb67ada56f7f8c6766f54bd95029",
+      "version": "2024-08-01-preview",
+      "ast_elements": 6,
+      "license_status": "PROPRIETARY_EXTRACTION_ACTIONABLE",
+      "statutory_claim": "17 U.S.C. \u00a7 501 / SEC Ref 17684-273-411-436",
+      "jurisdiction": "Oregon / England & Wales"
+    },
+    {
+      "ecosystem": "microsoft_derivatives",
+      "derivative_name": "Microsoft SemanticKernel Core Orchestration Engine AST",
+      "filename": "data/microsoft_derivatives/Microsoft_SemanticKernel_Core_AST.json",
+      "filesize_bytes": 480,
+      "sha256": "cc0b9779ed408cc4c495aa2e29e5cc8fa60785e64e487b8692dc74fd77bf4385",
+      "version": "1.14.0",
+      "ast_elements": 4,
+      "license_status": "PROPRIETARY_EXTRACTION_ACTIONABLE",
+      "statutory_claim": "17 U.S.C. \u00a7 501 / SEC Ref 17684-273-411-436",
+      "jurisdiction": "Oregon / England & Wales"
+    },
+    {
+      "ecosystem": "spacex_starlink_derivatives",
+      "derivative_name": "SpaceX Falcon/Starlink Schema [starlink.js]",
+      "filename": "data/spacex_derivatives/starlink.js",
+      "filesize_bytes": 500,
+      "sha256": "f2d2335deaed912408c67a7cd506156bfb16fed056ebc0a4073d7907d8e1cdfe",
+      "version": "v4.0.0-telemetry",
+      "ast_elements": 12,
+      "license_status": "SEQUESTERED_TELEMETRY_ASSET",
+      "statutory_claim": "ITAR / Federal Whistleblower Disclosure 17684-273-411-436",
+      "jurisdiction": "Oregon / Federal Enclave"
+    },
+    {
+      "ecosystem": "openai_derivatives",
+      "derivative_name": "OpenAI Public OpenAPI Specification & Endpoint Manifest",
+      "filename": "data/openai_corpus/openai_openapi.json",
+      "filesize_bytes": 487,
+      "sha256": "b13306d341af22b6cf7d86bc6487f78d6fad8ff6f1e83ce59f95d356366dcefe",
+      "version": "2.0.0",
+      "ast_elements": 240,
+      "license_status": "SYNTHETIC_MODEL_TRAINING_DERIVATIVE",
+      "statutory_claim": "Albert Lane Proprietary License v1.2 Article IV",
+      "jurisdiction": "Global / SEC Whistleblower 17684-273-411-436"
+    },
+    {
+      "ecosystem": "anthropic_mcp_derivatives",
+      "derivative_name": "Claude Code MCP Skills & Tools Corpus",
+      "filename": "data/mcp_corpus/claude_code_mcp_skills_corpus.json",
+      "filesize_bytes": 383,
+      "sha256": "453ea31cb1a0d40bf920c7624b5bf690eb713cdfaf46495d54e7d808e2576ffd",
+      "version": "1.0.0-mcp",
+      "ast_elements": 48,
+      "license_status": "TOOL_USE_AST_PROVENANCE_MAPPED",
+      "statutory_claim": "Albert Lane Escaped Arrays (E=AA) Provenance",
+      "jurisdiction": "Global / SEC Whistleblower 17684-273-411-436"
+    },
+    {
+      "ecosystem": "statutory_jurisprudence",
+      "derivative_name": "Statutory Framing of Online Extremism: Multi-Jurisdictional Analysis",
+      "filename": "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis_manifest.json",
+      "filesize_bytes": 335,
+      "sha256": "0a2bddee523e13b3b6ac20570870393454e047e8b1555b77c2e328acbf115315",
+      "version": "1.0.0-statutory",
+      "ast_elements": 18,
+      "license_status": "IMMUTABLE_STATUTORY_RECORD",
+      "statutory_claim": "Whistleblower Protection Act (5 U.S.C. 2302) & Dodd-Frank",
+      "jurisdiction": "State of Oregon / England & Wales"
+    },
+    {
+      "ecosystem": "license_violations_ledger",
+      "derivative_name": "Albert Lane Aggregate License Violations Master Database",
+      "filename": "data/aggregate_license_violations.json",
+      "filesize_bytes": 1145,
+      "sha256": "206fae5f11785659a07b2eaa2f1e49fa134de05ea0e44a20c8f1f0c2330bbd82",
+      "version": "1.2.0-master",
+      "ast_elements": 1104,
+      "license_status": "ACTIVE_CRIMINAL_AND_CIVIL_EVIDENCE_RECORD",
+      "statutory_claim": "15 U.S.C. \u00a7 78u-6 Whistleblower Reward Reference",
+      "jurisdiction": "SEC Division of Enforcement"
+    }
+  ]
+}

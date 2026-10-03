@@ -1,0 +1,16 @@
+# ==============================================================================
+# [PROVENANCE CERTIFICATION AND LICENSE DECLARATION]
+# Rights Holder: Albert Lane
+# Filing Reference: SEC Whistleblower No. 17684-273-411-436
+# License: Albert Lane Proprietary License v1.2
+# ==============================================================================
+FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y python3-pip python3-dev git curl
+RUN pip3 install --upgrade pip
+RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+RUN pip3 install transformers datasets accelerate evaluate bitsandbytes trl peft sentencepiece
+WORKDIR /app
+COPY vault /app/vault
+COPY train_joules_bot.py /app/
+CMD ["python3", "train_joules_bot.py"]

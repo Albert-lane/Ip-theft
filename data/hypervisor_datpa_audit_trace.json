@@ -1,0 +1,95 @@
+{
+  "authority": "SEC Whistleblower No. 17684-273-411-436",
+  "total_events": 5,
+  "total_syscall_traces": 3,
+  "final_rolling_seal": "0x3a6233d50af06f7d8e62edfa9d30f7e4055e652438c0a3d85761e48293c3eb77",
+  "events": [
+    {
+      "timestamp_ns": 1790606076263395584,
+      "timestamp_utc": "2026-09-28 14:34:36 UTC",
+      "vm_id": 0,
+      "event_type": "HYPERVISOR_START",
+      "details": "Lane-VM Non-Decrypting Hypervisor entering dual-core serial mode",
+      "rolling_audit_seal_sha256": "0x6625435046350cfa73a20e0655ebc013617b23156fae7e67c299893e4bc0db09",
+      "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+      "fre_admissibility": "FRE 902(13) & 902(14) Certified Process"
+    },
+    {
+      "timestamp_ns": 1790606076263781888,
+      "timestamp_utc": "2026-09-28 14:34:36 UTC",
+      "vm_id": 101,
+      "event_type": "KALI_VM_INIT",
+      "details": "Provisioning QEMU-Hypervisor Kali Mobile serial node",
+      "rolling_audit_seal_sha256": "0x56d377ee35a43bbe530795a61a0c0585189673d8edf76cb0d9ef2105bf004e0b",
+      "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+      "fre_admissibility": "FRE 902(13) & 902(14) Certified Process"
+    },
+    {
+      "timestamp_ns": 1790606076264032512,
+      "timestamp_utc": "2026-09-28 14:34:36 UTC",
+      "vm_id": 101,
+      "event_type": "KALI_PROVENANCE_ROLL",
+      "details": "Rolled unique provenance nonce: fe0ad6f59da120272ddb4dcf",
+      "rolling_audit_seal_sha256": "0xdba90d84738a03dbbd1b688a433976579edd4993d126fe2ab7edf6db7a8c8856",
+      "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+      "fre_admissibility": "FRE 902(13) & 902(14) Certified Process"
+    },
+    {
+      "timestamp_ns": 1790606076264062208,
+      "timestamp_utc": "2026-09-28 14:34:36 UTC",
+      "vm_id": 102,
+      "event_type": "WIN11_PROVISION_START",
+      "details": "Allocating Intel VMX Substrate: 4 cores, 8 threads",
+      "rolling_audit_seal_sha256": "0xffa8711349f5de262d4f0f0cc628a8742d90565979d6130168cc013e94507822",
+      "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+      "fre_admissibility": "FRE 902(13) & 902(14) Certified Process"
+    },
+    {
+      "timestamp_ns": 1790606076264392448,
+      "timestamp_utc": "2026-09-28 14:34:36 UTC",
+      "vm_id": 102,
+      "event_type": "CROSS_VM_PROVENANCE_SEAL",
+      "details": "Enclave rolling seal applied: 51e51aece989f5514cc30ff29132c3ef",
+      "rolling_audit_seal_sha256": "0x3a6233d50af06f7d8e62edfa9d30f7e4055e652438c0a3d85761e48293c3eb77",
+      "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+      "fre_admissibility": "FRE 902(13) & 902(14) Certified Process"
+    }
+  ],
+  "syscalls": [
+    {
+      "timestamp_ns": 1790606076263802368,
+      "vm_id": 101,
+      "syscall": "sys_qemu_init",
+      "args": [
+        "arch=arm64_el2_compat",
+        "substrate=kali_mobile"
+      ],
+      "result": "OK",
+      "audit_seal": "0x56d377ee35a43bbe"
+    },
+    {
+      "timestamp_ns": 1790606076264073728,
+      "vm_id": 102,
+      "syscall": "sys_vmx_alloc_cores",
+      "args": [
+        "cores=4",
+        "threads=8",
+        "stride=17684"
+      ],
+      "result": "VCPUS_ACTIVE",
+      "audit_seal": "0xffa8711349f5de26"
+    },
+    {
+      "timestamp_ns": 1790606076264413952,
+      "vm_id": 102,
+      "syscall": "sys_win11_boot",
+      "args": [
+        "threads=8",
+        "vmid=102",
+        "attestation=51e51aece989f551"
+      ],
+      "result": "BOOT_ACTIVE",
+      "audit_seal": "0x3a6233d50af06f7d"
+    }
+  ]
+}

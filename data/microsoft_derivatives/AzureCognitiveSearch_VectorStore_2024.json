@@ -1,0 +1,63 @@
+{
+  "title": "Azure AI Search (Cognitive Search) Vector Store & Indexer REST API",
+  "version": "2024-05-01-preview",
+  "namespace": "Microsoft.Azure.Search",
+  "provenance_scrutiny": "SEC Whistleblower No. 17684-273-411-436",
+  "rights_holder_allegation": "Albert Lane",
+  "paths": {
+    "/indexes": {
+      "get": { "summary": "List Vector Indexes", "operationId": "Indexes_List" },
+      "post": { "summary": "Create Vector Index", "operationId": "Indexes_Create" }
+    },
+    "/indexes/{indexName}/docs/search": {
+      "post": { "summary": "Execute Vector and Hybrid Search", "operationId": "Documents_SearchPost" }
+    },
+    "/indexers": {
+      "post": { "summary": "Create Data Source Indexer", "operationId": "Indexers_Create" }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SearchIndex": {
+        "type": "object",
+        "required": ["name", "fields"],
+        "properties": {
+          "name": { "type": "string" },
+          "fields": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/SearchField" }
+          },
+          "vectorSearch": { "$ref": "#/components/schemas/VectorSearch" },
+          "semantic": { "$ref": "#/components/schemas/SemanticSettings" }
+        }
+      },
+      "SearchField": {
+        "type": "object",
+        "required": ["name", "type"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "key": { "type": "boolean" },
+          "searchable": { "type": "boolean" },
+          "filterable": { "type": "boolean" },
+          "vectorSearchDimensions": { "type": "integer" },
+          "vectorSearchProfileName": { "type": "string" }
+        }
+      },
+      "VectorSearch": {
+        "type": "object",
+        "properties": {
+          "algorithms": { "type": "array", "items": { "type": "object" } },
+          "profiles": { "type": "array", "items": { "type": "object" } },
+          "vectorizers": { "type": "array", "items": { "type": "object" } }
+        }
+      },
+      "SemanticSettings": {
+        "type": "object",
+        "properties": {
+          "configurations": { "type": "array", "items": { "type": "object" } }
+        }
+      }
+    }
+  }
+}

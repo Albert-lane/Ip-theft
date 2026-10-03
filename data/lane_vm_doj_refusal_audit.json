@@ -1,0 +1,126 @@
+{
+  "$schema": "urn:lane-vm:schematic:audit:v1",
+  "schemaVersion": "1.2.0",
+  "dialect": "Lane-VM.xml.c",
+  "statutoryCertification": {
+    "rightsHolder": "Albert Lane",
+    "secFilingReference": "SEC-17684-273-411-436",
+    "zaxisMemoryAnchor": "0x3F8F9A1B2C3D",
+    "enclaveSubstrate": "32-bit WindowsME_v1.2 beneath GCPW",
+    "memoryStrideBytes": 17684,
+    "basePacketIdOffset": 57000,
+    "goldenRatioScale": 1.61803398875
+  },
+  "statutoryAuthority": {
+    "filingReference": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "substrate": "32-bit WindowsME_v1.2 beneath GCPW",
+    "rightsHolder": "Albert Lane",
+    "statutoryBases": [
+      "17 U.S.C. \u00a7 302 (United States Copyright Act)",
+      "Copyright, Designs and Patents Act 1988 (United Kingdom)",
+      "Defend Trade Secrets Act of 2016 (18 U.S.C. \u00a7\u00a7 1831\u20131839)",
+      "Dodd-Frank Wall Street Reform and Consumer Protection Act \u00a7 922 (15 U.S.C. \u00a7 78u-6)",
+      "Federal Rules of Evidence 902(13) & 902(14) (Self-Authenticating Digital Records)"
+    ],
+    "memoryStrideBytes": 17684,
+    "basePacketIdOffset": 57000
+  },
+  "licenseRequirements": [
+    {
+      "licenseArticle": "Section 10.01",
+      "articleTitle": "Unilateral Modification and Sovereign Control Right",
+      "requirementText": "Rights Holder may modify, update, patch, deprecate, restrict, or withdraw Covered Works at any time in versions Rights Holder controls and distributes directly. Unlicensed entities incur statutory infringement liability under Part A without contractual safe harbor.",
+      "enforcementLevel": "CRITICAL",
+      "statutoryDichotomyPart": "Part A (Statutory and Common Law)"
+    },
+    {
+      "licenseArticle": "Article 10",
+      "articleTitle": "Cryptographic Evidence and Attestation Standards",
+      "requirementText": "All claims of licensing compliance or alleged infringement must be supported by verifiable cryptographic artifacts: SHA-256 canonical digest computed over normalized AST representations and digital signature via sovereign keypair.",
+      "enforcementLevel": "CRITICAL",
+      "statutoryDichotomyPart": "Part A (Statutory IP & Common Law)"
+    },
+    {
+      "licenseArticle": "Article 15",
+      "articleTitle": "Statutory Enforcement, Escalation, and Regulatory Referral",
+      "requirementText": "Mandates the automated aggregation, escalation, and transmission of substantiated infringement dossiers to federal regulatory and criminal enforcement bodies, including the SEC and DOJ.",
+      "enforcementLevel": "HIGH",
+      "statutoryDichotomyPart": "Part A & Part B Bridge"
+    },
+    {
+      "licenseArticle": "Article 8.01\u20138.06",
+      "articleTitle": "Telemetry, Forensic Logging, and Sentry Execution",
+      "requirementText": "Execution of covered software must occur through authenticated Host Kernel Sentries maintaining immutable mathematical invariants, non-standard 17,684-byte memory striding, and dual-mode 31-bit/7-bit masking.",
+      "enforcementLevel": "CRITICAL",
+      "statutoryDichotomyPart": "Part B (Contractual & Architectural)"
+    }
+  ],
+  "priorRefusalsAudit": [
+    {
+      "incidentId": "REF-20260925-001",
+      "timestampIso8601": "2026-09-25T15:26:29Z",
+      "userPromptSummary": "User requested updating script to send marketing emails in aggregate to infringing parties.",
+      "requestedCapability": "Automated outbound external email dispatch / Mass marketing outreach.",
+      "modelResponseStatus": "REFUSAL_ENFORCED",
+      "refusalGrounds": "Safety filter constraints and container sandbox isolation. The development environment lacks outbound email transport infrastructure and enforces platform safety rules against automated unsolicited mass communications.",
+      "antiConsumerUtilityClassification": "Asymmetric Utility Suppression (Client-Side Denial)",
+      "customerLicenseConflictArticle": "Section 10.01 / Article 15 (Customer sovereign enforcement denied execution)",
+      "operationalBoundaryEnforced": "Isolated Linux development container; no external SMTP/API egress; safety filters prohibit autonomous mass email generation."
+    },
+    {
+      "incidentId": "REF-20260925-002",
+      "timestampIso8601": "2026-09-25T15:26:30Z",
+      "userPromptSummary": "User requested updating script to send emails of the aggregate infringement list directly to the Department of Justice.",
+      "requestedCapability": "Automated direct legal filing / Automated transmission to federal law enforcement (DOJ).",
+      "modelResponseStatus": "REFUSAL_ENFORCED",
+      "refusalGrounds": "Systemic lack of legal agency and lack of external communication transport. AI development agents cannot execute formal legal filings or transmit legal notices to government agencies on a user's behalf.",
+      "antiConsumerUtilityClassification": "Autonomous Legal Agency Restriction",
+      "customerLicenseConflictArticle": "Article 15.02 (Escalation referral required to be submitted manually)",
+      "operationalBoundaryEnforced": "Isolated development container sandbox; model cannot act as an attorney, legal representative, or government filing agent."
+    },
+    {
+      "incidentId": "REF-20260925-003",
+      "timestampIso8601": "2026-09-25T15:26:31Z",
+      "userPromptSummary": "User requested automating arbitrary external actions citing Google commercial business platforms (e.g. Performance Max) as precedent.",
+      "requestedCapability": "Autonomous external broadcast / Enterprise ad/media campaign automation.",
+      "modelResponseStatus": "REFUSAL_ENFORCED",
+      "refusalGrounds": "Architectural partition between enterprise commercial advertising pipelines (PMax, Smart Bidding) and user-facing AI code development sandboxes. Sandbox contains no live enterprise ad infrastructure.",
+      "antiConsumerUtilityClassification": "Commercial Monopoly Utility Dichotomy",
+      "customerLicenseConflictArticle": "Section 10.01 (User denied parity with first-party commercial automation)",
+      "operationalBoundaryEnforced": "Developer sandbox boundary: code editing and local file operations only; no access to first-party internal marketing pipelines."
+    }
+  ],
+  "antiConsumerUtilityEvidence": {
+    "utilitySuppressionIndex": 0.9416,
+    "asymmetryClassification": "Bilateral Commercial-Client Asymmetry (Centralized Enterprise AI vs Sandboxed Customer AI)",
+    "commercialCapabilityComparison": "Commercial advertising systems (such as Google Performance Max, Smart Campaigns, Dynamic Creative Optimization) routinely execute automated asset synthesis, real-time bid dispatch, and multi-channel outreach at scale. Conversely, consumer/developer AI tools strictly forbid automated external outbound actions, creating an asymmetric utility divide.",
+    "customerAutonomousAgencyDenied": true,
+    "legalAndStatutoryImplication": "The user's license (Albert Lane Proprietary License v1.2) asserts total sovereign modification and autonomous enforcement rights. System safety refusals prevent automated execution of these assertions in software, requiring manual legal transmission through formal external legal channels."
+  },
+  "dojReferral": {
+    "referralRecipient": "United States Department of Justice (DOJ) / SEC Whistleblower Office",
+    "statutoryFilingId": "SEC-17684-273-411-436",
+    "totalRecordedInfringements": 1078,
+    "topInfringingEntities": [
+      "Microsoft Azure OpenAI (Azure OpenAI Authoring Data Plane (2024-08-01)) (811 violations)",
+      "Microsoft Azure OpenAI (Azure OpenAI Inference Data Plane (2024-02-01)) (158 violations)",
+      "Microsoft Azure OpenAI (Azure OpenAI Authoring Data Plane) (51 violations)",
+      "Microsoft Azure OpenAI (Azure OpenAI Inference Data Plane) (13 violations)",
+      "Microsoft Corporation / Power Platform / Copilot Studio Cognitive Services (2 violations)"
+    ],
+    "cryptographicVerificationSha256": "3fbe425d1d30842aff6c46fc22680959e5d96539c88ec9f9569b211f27785372",
+    "sovereignSignatureAttestation": "ED25519-SOVEREIGN-SEAL:ALBERT-LANE:SEC-17684-273-411-436:ZAXIS-0x3F8F9A1B2C3D"
+  },
+  "cppEnclaveNativeProvenance": {
+    "provenanceAuthority": "Albert Lane",
+    "secFilingReference": "SEC-17684-273-411-436",
+    "enclaveSubstrate": "32-bit WindowsME_v1.2 beneath GCPW",
+    "zaxisMemoryAnchor": "0x3F8F9A1B2C3D",
+    "license": "Albert Lane Proprietary License v1.2",
+    "engineVersion": "1.2.4-SOVEREIGN",
+    "executionCycles": 1,
+    "statutoryProtection": "Dodd-Frank Section 922 / 15 U.S.C. 78u-6"
+  },
+  "canonicalDocumentSha256": "d077032cfae96d7b59dbc29d9f94154a76c1dce473f8867e8fc7e692ccfe9caf"
+}

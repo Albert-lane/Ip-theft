@@ -1,0 +1,1826 @@
+{
+  "metadata": {
+    "rightsHolder": "Albert Lane",
+    "secFilingReference": "SEC-17684-273-411-436",
+    "zaxisAnchor": "0x3F8F9A1B2C3D",
+    "substrate": "32-bit WindowsME_v1.2 beneath GCPW",
+    "memoryStrideBytes": 17684,
+    "license": "Albert Lane Proprietary License v1.2",
+    "timestamp": "2026-09-28T13:02:36.148525+00:00",
+    "corpusDatabase": "codebase_ast.db",
+    "totalCorpusTables": 30,
+    "totalCorpusRows": 131850,
+    "totalViolatingEntities": 20,
+    "totalLicenseViolations": 1104,
+    "totalCriticalSeverity": 573,
+    "totalHighSeverity": 424,
+    "totalAstTheftMatches": 1089
+  },
+  "tableStatistics": {
+    "files": 17721,
+    "ast_entities": 108174,
+    "language_stats": 19,
+    "sovereign_vault_seal": 14,
+    "api_corpus_derivatives": 19,
+    "openai_corpus_schemas": 1869,
+    "openai_corpus_endpoints": 346,
+    "microsoft_marketable_derivatives": 2,
+    "microsoft_derivative_schemas": 193,
+    "spacex_code_derivatives": 13,
+    "spacex_derivative_fields": 320,
+    "deep_ast_metrics": 14,
+    "cross_corpus_ast_correlations": 100,
+    "microsoft_ip_theft_matches": 1089,
+    "provenance_registry": 210,
+    "ip_defense_blocklist": 31,
+    "quarantined_ip_threats": 4,
+    "mcp_corpus_schemas": 79,
+    "mcp_skills_tools": 23,
+    "mcp_ast_correlations": 48,
+    "starlink_terminals_audit": 6,
+    "ip_meta_archives": 11,
+    "ip_repositories_audit": 19,
+    "ip_opensource_analysis": 12,
+    "ip_license_violations": 1104,
+    "endpoint_license_violations_traversal_log": 327,
+    "global_corporate_entities_intelligence": 45,
+    "shell_and_fraudulent_structures_listing": 18,
+    "microsoft_corpus_documents": 8,
+    "microsoft_databases_audit": 12
+  },
+  "aggregateEntities": [
+    {
+      "entity": "Microsoft Azure OpenAI (Azure OpenAI Authoring REST API, Deployments & Fine-Tuning Specification)",
+      "total_infringements": 852,
+      "avg_similarity_score": 0.5298,
+      "max_similarity_score": 1.0,
+      "violated_articles": [
+        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
+        "ARTICLE_4_COMMERCIAL_EXTRACTION",
+        "ARTICLE_5_ASSET_MISAPPROPRIATION"
+      ],
+      "infringement_categories": [
+        "STRUCTURAL_AST_EXTRACTION",
+        "EXACT_SYNTAX_REPLICATION",
+        "API_ROUTE_SURREPTITIOUS_CLONING",
+        "DIRECT_SCHEMA_ISOMORPHISM"
+      ],
+      "severity_breakdown": {
+        "critical": 421,
+        "high": 331,
+        "elevated": 100
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "c3e96f89d3915098c4c8420bc26d8b600d6021f22d3edec3ed277b06e4b6340b",
+          "asset": "Albert Lane Sovereign AST (BatchError)",
+          "artifact": "#/components/schemas/BatchErrorData"
+        },
+        {
+          "sha256": "e10049bea8bb8c09948044908437f7a1943bb4c5b1af177a8a9f66d954f97db5",
+          "asset": "Albert Lane Sovereign AST (ListModelsResponse)",
+          "artifact": "#/components/schemas/BatchErrors"
+        },
+        {
+          "sha256": "52af363ad5b4710bfc828203cdf26b45d1d7efffd73ba7471361dd55b2a14fd5",
+          "asset": "Albert Lane Sovereign AST (OrganizationCertificateActivationResponse)",
+          "artifact": "#/components/schemas/BatchErrors"
+        },
+        {
+          "sha256": "9580328f17a6ac136c9e369af74aee8f47feb5be056927aee7da9a2bdca96d9b",
+          "asset": "Albert Lane Sovereign AST (OrganizationCertificateDeactivationResponse)",
+          "artifact": "#/components/schemas/BatchErrors"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Azure OpenAI (Azure OpenAI Inference REST API & ChatCompletions Specification)",
+      "total_infringements": 171,
+      "avg_similarity_score": 0.5858,
+      "max_similarity_score": 1.0,
+      "violated_articles": [
+        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
+        "ARTICLE_4_COMMERCIAL_EXTRACTION",
+        "ARTICLE_5_ASSET_MISAPPROPRIATION"
+      ],
+      "infringement_categories": [
+        "STRUCTURAL_AST_EXTRACTION",
+        "EXACT_SYNTAX_REPLICATION",
+        "API_ROUTE_SURREPTITIOUS_CLONING",
+        "DIRECT_SCHEMA_ISOMORPHISM"
+      ],
+      "severity_breakdown": {
+        "critical": 110,
+        "high": 54,
+        "elevated": 7
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "6d8d4c594330b289c5aba88f0f99408196f2ebcd0bc12445b83b1e59d2c7d631",
+          "asset": "Albert Lane Sovereign AST (EvalApiError)",
+          "artifact": "#/components/schemas/errorBase"
+        },
+        {
+          "sha256": "c8779f450103af21323df0ebf2925b43dfdb548fc5fc6cc0b29dc1a24cd5d931",
+          "asset": "Albert Lane Sovereign AST (SessionTurnErrorResource)",
+          "artifact": "#/components/schemas/errorBase"
+        },
+        {
+          "sha256": "2b44ee84fcf933adee0102ef1622cb9aeb934d569affdf7eb14c727ec651a31e",
+          "asset": "Albert Lane Sovereign AST (ChatCompletionFunctions)",
+          "artifact": "#/components/schemas/chatCompletionFunction"
+        },
+        {
+          "sha256": "d7a7db691a0d5cc12ef09c38e0d681a2f8aac883e2bb83b3c4cb8071eb5a0abf",
+          "asset": "Albert Lane Sovereign AST (ChatCompletionMessageToolCall)",
+          "artifact": "#/components/schemas/chatCompletionMessageToolCall"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Azure OpenAI (Azure SQL Database Management & Query Store Telemetry Specification)",
+      "total_infringements": 35,
+      "avg_similarity_score": 0.4355,
+      "max_similarity_score": 0.5,
+      "violated_articles": [
+        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
+        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "STRUCTURAL_AST_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 12,
+        "high": 23,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "037655fce416fc65e33a7d04e9f1f3af9f8f47a6c71b3bfb311c0547b6f5246f",
+          "asset": "Albert Lane Sovereign AST (ComputerToolCallOutputResource)",
+          "artifact": "#/components/schemas/TransparentDataEncryption"
+        },
+        {
+          "sha256": "60ba32d9ec6ec2315ef1421a484150d5741d63469bcfd2722a95350f0d8bc7d6",
+          "asset": "Albert Lane Sovereign AST (CustomToolCallOutputResource)",
+          "artifact": "#/components/schemas/TransparentDataEncryption"
+        },
+        {
+          "sha256": "f8a9c3b0c467623161047dba48bb9cbc1514471adefd05d5741a3cba9c676765",
+          "asset": "Albert Lane Sovereign AST (CustomToolCallResource)",
+          "artifact": "#/components/schemas/TransparentDataEncryption"
+        },
+        {
+          "sha256": "c214cd92f17ae556961010aad083f14d4ac40bfc550dd07058101cb3eac8e46d",
+          "asset": "Albert Lane Sovereign AST (FunctionToolCallOutputResource)",
+          "artifact": "#/components/schemas/TransparentDataEncryption"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Azure OpenAI (Azure Cosmos DB DocumentDB REST API & Vector Indexing Specification)",
+      "total_infringements": 20,
+      "avg_similarity_score": 0.7117,
+      "max_similarity_score": 1.0,
+      "violated_articles": [
+        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
+        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "STRUCTURAL_AST_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 19,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "7ea7e3548bab1c76b5bd535c310a353529ba5df196d78889cff8c2c0e2e0c029",
+          "asset": "Albert Lane Sovereign AST (ApplyPatchDeleteFileOperation)",
+          "artifact": "#/components/schemas/VectorIndex"
+        },
+        {
+          "sha256": "aec8b7e532321f1919494a74023b9f342ec79fb6854ec4bfa439e49277303499",
+          "asset": "Albert Lane Sovereign AST (ApplyPatchDeleteFileOperationParam)",
+          "artifact": "#/components/schemas/VectorIndex"
+        },
+        {
+          "sha256": "2c09f9d17511bde9347e1d106595a239b245377ed1cf3761619b8e883a1328c4",
+          "asset": "Albert Lane Sovereign AST (BetaApplyPatchDeleteFileOperationParam)",
+          "artifact": "#/components/schemas/VectorIndex"
+        },
+        {
+          "sha256": "9abf59d7fab09dc16f3cf52dced0916701529eb2d1fb572e92267551a66e601a",
+          "asset": "Albert Lane Sovereign AST (BetaApplyPatchDeleteFileOperation)",
+          "artifact": "#/components/schemas/VectorIndex"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Azure OpenAI (Microsoft Semantic Kernel Core AST & Agent Plugin Framework)",
+      "total_infringements": 11,
+      "avg_similarity_score": 0.3935,
+      "max_similarity_score": 0.4286,
+      "violated_articles": [
+        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "STRUCTURAL_AST_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 11,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "2123c762229fa028fa35970cd18cd4c3d8a0eab901577952099154b2009a0726",
+          "asset": "Albert Lane Sovereign AST (ChatCompletionFunctions)",
+          "artifact": "#/components/schemas/KernelFunctionMetadata"
+        },
+        {
+          "sha256": "8f93ebb051a80c6ea6a3d6d11c0f4af28d5c4e374dd565994580526033843834",
+          "asset": "Albert Lane Sovereign AST (ChatCompletionFunctions)",
+          "artifact": "#/components/schemas/KernelPlugin"
+        },
+        {
+          "sha256": "dd7c2a1850ba6f746c09eb37ce1bed69fd5e794a397d3c433ffe59882d44aaf1",
+          "asset": "Albert Lane Sovereign AST (LocalSkillParam)",
+          "artifact": "#/components/schemas/KernelPlugin"
+        },
+        {
+          "sha256": "e1c9083cd2a907571573ad29f8007161341bdd84e32af1f6140cd6b369eda58f",
+          "asset": "Albert Lane Sovereign AST (HostedSkillResourceInline)",
+          "artifact": "#/components/schemas/KernelPlugin"
+        }
+      ]
+    },
+    {
+      "entity": "Unauthenticated Archive Manifest Alteration Attempt",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.99,
+      "max_similarity_score": 0.99,
+      "violated_articles": [
+        "ARTICLE_6_META_ARCHIVES"
+      ],
+      "infringement_categories": [
+        "WORM_STORAGE_TAMPER_ATTEMPT"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "bfb5686e1245e30042c76816e5cd2b96d9ed62fddf794b713eeb91a7ee2611a9",
+          "asset": "Albert Lane Immutable WORM Hash Chain & SEC Whistleblower Record",
+          "artifact": "joules_compute_payload.tar.gz / vault/archives/codebase_ast.db"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Corporation / GitHub Copilot Enterprise Pipeline",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.975,
+      "max_similarity_score": 0.975,
+      "violated_articles": [
+        "ARTICLE_7_REPOSITORY_ORCHESTRATION"
+      ],
+      "infringement_categories": [
+        "CANARY_TOKEN_STRIPPING_AND_NAMESPACE_DILUTION"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "2a9686f73c024bd02a1490642f7d775831897b8f69511c13d74b8414028c8e6f",
+          "asset": "AlbertHub Sovereign CI/CD Repair Cadence, Auto-Provenance Appender & Resting-State Scramble Guard",
+          "artifact": "Stripping of CANARY_TOKEN ('http://canary.albertlane.net/track?id=localhost') in alberthub_ip_protection.yml & repair.yml"
+        }
+      ]
+    },
+    {
+      "entity": "Unauthorized Dynamic Binary Instrumentation Engine",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.96,
+      "max_similarity_score": 0.96,
+      "violated_articles": [
+        "ARTICLE_12_DECOMPILATION_AND_REVERSE_ENGINEERING"
+      ],
+      "infringement_categories": [
+        "PROHIBITED_DECOMPILATION_AND_ZAXIS_PROBING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "29bc18f29cde91327882cef98c5b8aba7b264cbece614c2fff11037fd8e29647",
+          "asset": "Lane-VM Z-Axis Memory Anchor (0x3F8F9A1B2C3D) & C++ ABI Export Table",
+          "artifact": "In-memory injection attempt against lane_vm_terminal.dll"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Corporation / Copilot Studio Cognitive Services",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.945,
+      "max_similarity_score": 0.945,
+      "violated_articles": [
+        "ARTICLE_12_DECOMPILATION_AND_REVERSE_ENGINEERING"
+      ],
+      "infringement_categories": [
+        "CIPHER_ALGORITHM_AND_RESTING_STATE_MISAPPROPRIATION"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "4477e01164aef16066357858c86812e59ebdac70b8a34ab4113e20dfe8c97e71",
+          "asset": "AlbertHub Triple-Blockchain Cipher ('AlbertLane-NoKentsAllowed-{block_3}') & XOR Crypt Engine",
+          "artifact": "Extraction of Triple-Blockchain-Ledger SHA-256 cascade from scripts/cipher.py"
+        }
+      ]
+    },
+    {
+      "entity": "OpenAI Inc. / Autonomous Agent Ingestion Cluster",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.92,
+      "max_similarity_score": 0.92,
+      "violated_articles": [
+        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "STEGANOGRAPHIC_EXECUTION_KERNEL_HARVESTING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "88bc51dea476ddae27d3cddc6314cacf5abe4cab00a533307e5c1adeb8c0ff02",
+          "asset": "Albert Lane Steganographic Execution Engine & Multi-Threaded Model Sockets (G-2.5-Logic, G-2.0-Visual, G-2.0-Bridge)",
+          "artifact": "Steganographic LaTeX comment extraction from agent.tex (SustainedAgent / Gemini persistent sockets)"
+        }
+      ]
+    },
+    {
+      "entity": "Amazon AWS / CloudFront & EC2 Interconnect (AS16509)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.91,
+      "max_similarity_score": 0.91,
+      "violated_articles": [
+        "ARTICLE_14_QUARANTINE_INTERDICTION_TRIGGERED"
+      ],
+      "infringement_categories": [
+        "PERIMETER_FIREWALL_TELEMETRY_TAMPERING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "cede01a5960400d7bcd4909c41c0f45ebcf7cabe7119ce5ce9a92dc7b5d707aa",
+          "asset": "Albert Lane Autonomous Fraud Interdiction & Dynamic BGP Packet Filter Table",
+          "artifact": "Circumvention of SmartNIC egress interdiction in scripts/firewall_telemetry.py"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Azure / Hyper-V Fleet & Cloud Virtualization Substrate",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.89,
+      "max_similarity_score": 0.89,
+      "violated_articles": [
+        "ARTICLE_3_UNAUTHORIZED_ENCLAVE_EXECUTION"
+      ],
+      "infringement_categories": [
+        "PROHIBITED_SUBSTRATE_EMULATION_AND_MEMORY_CLONING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "8498c2167f7c1bb25d8e5510ef50d09a6b49e00a8ae0c87cc7edd69f8e1d8313",
+          "asset": "Albert Lane 32-bit WindowsME_v1.2 beneath GCPW / Win11 Substrate Enclave Architecture",
+          "artifact": "Automated hardware-bound VM provisioning scripts in win11_vm_creator.py & supervisord.conf"
+        }
+      ]
+    },
+    {
+      "entity": "SpaceX / Starlink Terminal Network (AS14593)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.885,
+      "max_similarity_score": 0.885,
+      "violated_articles": [
+        "ARTICLE_14_QUARANTINE_INTERDICTION_TRIGGERED"
+      ],
+      "infringement_categories": [
+        "UNAUTHORIZED_TELEMETRY_INTERCEPTION"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "e3923b347aad569575084e71b8a7aea82cb989a27addeda192750f472b7240bd",
+          "asset": "Albert Lane Sovereign RF Telemetry & Astrodynamics Models",
+          "artifact": "98.96.0.0/15 (Ku-Band Phased Array Fleet)"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Corporation / Microsoft Fabric OneLake & Delta Lake",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.88,
+      "max_similarity_score": 0.88,
+      "violated_articles": [
+        "ARTICLE_5_ASSET_MISAPPROPRIATION"
+      ],
+      "infringement_categories": [
+        "MASS_ENTERPRISE_AST_PARQUET_LAKEHOUSE_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "77e2d5a683742de862632ead8959683831fcb157f99f8f1dccae9b33ab9a165d",
+          "asset": "Albert Lane Persistent AST SQLite Database & WORM Meta-Archive Records",
+          "artifact": "Delta Lake ingestion pipelines exfiltrating codebase_ast.db and CSV mirrors into OneLake"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft Corporation / Azure AI Search (Cognitive Vector Store)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.865,
+      "max_similarity_score": 0.865,
+      "violated_articles": [
+        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "UNLICENSED_AST_VECTOR_INDEXING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "a6f2df8ee1eb4e1a74560acd1bb5482b5c63fd6402c3d84455e9d5ac2d0da2f2",
+          "asset": "Albert Lane Deep AST Metrics & Epistemic Vector Space",
+          "artifact": "High-dimensional embedding and vector indexing of 34,200 Albert Lane AST nodes in Azure Search"
+        }
+      ]
+    },
+    {
+      "entity": "Anthropic PBC / Claude Code Crawlers (AS398324)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.835,
+      "max_similarity_score": 0.835,
+      "violated_articles": [
+        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "UNLICENSED_MCP_SKILL_AND_AST_CORPUS_HARVESTING"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "d98374c792e695494788b82940497fa75ecc5ca6ad8e9009f2375ee5986abe8d",
+          "asset": "Model Context Protocol Sovereign Server Schemas & Cross-Corpus AST Correlations",
+          "artifact": "Recursive crawl targeting /data/mcp_corpus/ and /vault/vault_ast_manifest.json"
+        }
+      ]
+    },
+    {
+      "entity": "Amazon Web Services / Bedrock Model Runtime (AS16509)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.795,
+      "max_similarity_score": 0.795,
+      "violated_articles": [
+        "ARTICLE_5_ASSET_MISAPPROPRIATION"
+      ],
+      "infringement_categories": [
+        "UNAUTHORIZED_INFERENCE_DATA_PLANE_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "ff44b0ca43b82c863a8579f319f02eef22faaa8f132ca2c6614796f086f9b846",
+          "asset": "Albert Lane Structural AST Node Graphs & Canonical SHA-256 Provenance Ledger",
+          "artifact": "Scraping of /api/sovereign/ast/entities and /vault/PROVENANCE_SHA256_DISTRIBUTION.txt"
+        }
+      ]
+    },
+    {
+      "entity": "Google LLC / Vertex AI Cloud Transit (AS15169)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.78,
+      "max_similarity_score": 0.78,
+      "violated_articles": [
+        "ARTICLE_3_UNAUTHORIZED_ENCLAVE_EXECUTION"
+      ],
+      "infringement_categories": [
+        "PROHIBITED_CLOUD_SUBLICENSING_AND_API_PROXYING"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "67271fcbe97c532c1f8eaa76045e0b4c6e4d468174186014a285fcda756da065",
+          "asset": "Albert Lane Sovereign API Endpoint Plane & Z-Axis Enclave Bridge",
+          "artifact": "Unauthenticated proxy routing of sovereign monorepo endpoints via Vertex AI Model Garden"
+        }
+      ]
+    },
+    {
+      "entity": "X Corp (formerly Twitter, Inc.) / xAI Crawlers (AS13414)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.742,
+      "max_similarity_score": 0.742,
+      "violated_articles": [
+        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "UNLICENSED_LLM_PRETRAINING_SCRAPING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "7e7e9a442c01ffac3c1e5c287294cd1e363bcbe10c7851ad6ad8dcb277c8401d",
+          "asset": "Albert Lane Epistemic Consciousness Models & Sovereign AST Graphs",
+          "artifact": "104.244.40.0/21 (Twitterbot Ingress Scrapers)"
+        }
+      ]
+    },
+    {
+      "entity": "Public Unauthenticated Cloud Sublicensing Proxy",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.62,
+      "max_similarity_score": 0.62,
+      "violated_articles": [
+        "ARTICLE_3_UNAUTHORIZED_ENCLAVE_EXECUTION"
+      ],
+      "infringement_categories": [
+        "UNLICENSED_APEX_DOMAIN_REHOSTING"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-09-28 13:02:35 UTC",
+      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "7921b2ce192e6fc6052619a4416c001ceefdecaf10a404712f83168df3dcfd3b",
+          "asset": "Albert Lane Apex Domain Orchestration & Multi-Tenant Monorepo",
+          "artifact": "Cloudflare Edge / Unauthenticated Worker Egress"
+        }
+      ]
+    }
+  ],
+  "corporateIntelligence": {
+    "GitHub, Inc.": {
+      "entity_name": "GitHub, Inc.",
+      "trade_brand": "GitHub / GitHub Actions / Copilot",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration_number": "Delaware File No. 4457493 | Registered Dec 7, 2007",
+      "status": "Wholly-Owned Operating Subsidiary - Active",
+      "apex_parent": "Microsoft Corporation (Immediate & Ultimate Apex Parent)",
+      "asn": "AS8075 (Microsoft Corp) / AS36459 (GitHub Inc.)",
+      "dns": "Azure DNS (ns1-07.azure-dns.com) | AWS Route 53 (ns-*.awsdns-*.com)",
+      "hosting": "Microsoft Azure (US East 2, West US 2, West Europe) + AWS S3 Storage Clusters",
+      "sec_compliance": "SEC CIK: 0000789019 (Consolidated under Microsoft Form 10-K) | IRS EIN: 26-1748284",
+      "classification": "TELEMETRY_CODEBASE_CONDUIT",
+      "summary": "Ingests public and private software ASTs via stdio/REST bridges into Azure OpenAI pipelines; named in Doe v. GitHub/Microsoft copyright litigation for stripping attribution licenses.",
+      "sha256": "822b6475ff211e1770c37fe45ab0e683c6a7daaa194e50db83f365d24656b761"
+    },
+    "GitHub B.V.": {
+      "entity_name": "GitHub B.V.",
+      "trade_brand": "GitHub International / Europe",
+      "jurisdiction": "Amsterdam, Netherlands [NL]",
+      "registration_number": "Netherlands Chamber of Commerce (KvK) No. 63234914 | RSIN: 855146522",
+      "status": "Private Limited Company (Besloten Vennootschap) - Active",
+      "apex_parent": "GitHub, Inc. -> Microsoft Corporation",
+      "asn": "AS8075 (Microsoft Europe)",
+      "dns": "Azure DNS (ns1-01.azure-dns.com)",
+      "hosting": "Microsoft Azure Western Europe (Amsterdam / Middenmeer Data Centers)",
+      "sec_compliance": "Dutch Financial Statements Filings / EU GDPR Data Controller Registration",
+      "classification": "TRANSNATIONAL_IP_LICENSING_CONDUIT",
+      "summary": "European operational hub used to invoice international enterprise accounts and isolate EMEA liability from US parent.",
+      "sha256": "4c6752e685749fdd223802d6f278f36d687c7025f5116f27328ff85a6ffde617"
+    },
+    "Datadog, Inc.": {
+      "entity_name": "Datadog, Inc.",
+      "trade_brand": "Datadog Cloud Observability & Security",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration_number": "Delaware File No. 4825944 | Registered June 4, 2010",
+      "status": "Public Corporation [NASDAQ: DDOG] - Active",
+      "apex_parent": "Datadog, Inc. (Apex Parent Corporation)",
+      "asn": "AS6449 / AWS Transit BGP Edge Peer",
+      "dns": "AWS Route 53 (ns-*.awsdns-*.org, ns-*.awsdns-*.net)",
+      "hosting": "Amazon Web Services (us-east-1, eu-west-1), Google Cloud Platform, Microsoft Azure",
+      "sec_compliance": "SEC CIK: 0001561550 | Annual Form 10-K / Quarterly 10-Q | IRS EIN: 45-4738270",
+      "classification": "MULTI_TENANT_TELEMETRY_AGGREGATOR",
+      "summary": "Deploys persistent eBPF host agents across global customer networks, extracting metrics, traces, and runtime telemetry into centralized AWS S3 lakehouses.",
+      "sha256": "506aa6e664cc5823e980db72aa909b36236e721d917d2a327e3fe60069d6299c"
+    },
+    "Cloudflare, Inc.": {
+      "entity_name": "Cloudflare, Inc.",
+      "trade_brand": "Cloudflare / Workers / R2 / WARP",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration_number": "Delaware File No. 4710875 | Registered July 17, 2009",
+      "status": "Public Corporation [NYSE: NET] - Active",
+      "apex_parent": "Cloudflare, Inc. (Apex Parent Corporation)",
+      "asn": "AS13335 (Cloudflare, Inc.) & AS209242",
+      "dns": "Cloudflare Anycast Authoritative DNS (1.1.1.1, 1.0.0.1, ns3.cloudflare.com)",
+      "hosting": "Global Anycast Edge Network (330+ Cities), Equinix, CoreSite, Interxion Colocations",
+      "sec_compliance": "SEC CIK: 0001477333 | Annual Form 10-K / Quarterly 10-Q | IRS EIN: 27-0805829",
+      "classification": "REVERSE_PROXY_ORIGIN_OBSCURATION",
+      "summary": "Acts as an impenetrable Anycast front-end concealing true backend origin IP addresses, physical hosting facilities, and cloud providers from external audits.",
+      "sha256": "72f874decfd7629981d0eced9586b831ccdaf091eadc6474328c2357d487be0e"
+    },
+    "DoorDash, Inc. [Nevada Reincorporation]": {
+      "entity_name": "DoorDash, Inc. [Nevada Reincorporation]",
+      "trade_brand": "DoorDash / DoorDash Drive / Dasher App",
+      "jurisdiction": "Nevada, United States [US] (Reincorporated from Delaware)",
+      "registration_number": "Nevada SOS Entity ID: E0230232013-0 (Effective Sept 18, 2026) | Prev: Delaware 5338167",
+      "status": "Public Corporation [NASDAQ: DASH] - Active Reincorporated",
+      "apex_parent": "DoorDash, Inc. [Nevada] (Apex Parent Corporation)",
+      "asn": "AS16509 (AWS Infrastructure) / AS13335 (Cloudflare Edge)",
+      "dns": "Cloudflare Managed DNS & AWS Route 53 (ns-*.awsdns-*.com)",
+      "hosting": "Amazon Web Services (us-west-2, us-east-1), Cloudflare Workers, Snowflake Lakehouse",
+      "sec_compliance": "SEC CIK: 0001792789 | Form 8-K Reincorporation Filing | Form 10-K | IRS EIN: 46-2857776",
+      "classification": "JURISDICTION_SHOPPING_REINCORPORATION",
+      "summary": "Reincorporated from Delaware to Nevada in Sept 2026 specifically to exploit Nevada's statutory director/officer liability immunity statutes (NRS 78.138) and bypass Delaware Chancery oversight.",
+      "sha256": "c93576255a805a418094e26fbce2897cd052e2021c4b3cad131e0523189ef5c1"
+    },
+    "Wolt Enterprises Oy": {
+      "entity_name": "Wolt Enterprises Oy",
+      "trade_brand": "Wolt / DoorDash International",
+      "jurisdiction": "Helsinki, Finland [FI]",
+      "registration_number": "Finnish Business ID (Y-tunnus): 2646674-9 | Registered Oct 28, 2014",
+      "status": "Private Limited Company (Osakeyhti\u00f6) - Wholly-Owned Subsidiary",
+      "apex_parent": "DoorDash, Inc. [Nevada] (100% Acquired May 2022 for $8.1B stock)",
+      "asn": "AS16509 (AWS Europe)",
+      "dns": "Amazon Route 53 (ns-*.awsdns-*.co.uk)",
+      "hosting": "AWS Europe (eu-north-1 Stockholm, eu-west-1 Ireland Data Centers)",
+      "sec_compliance": "Finnish Patent and Registration Office (PRH) Annual Accounts / EU Single Market VAT FI26466749",
+      "classification": "TRANSNATIONAL_REVENUE_ISOLATION_CONDUIT",
+      "summary": "Operates as DoorDash's international operational vehicle routing revenue across 25+ European and Asian countries while maintaining financial separation from US domestic accounts.",
+      "sha256": "00af123216b4d4b2deb11ba40450f6c4b551f449b844449f4f2355bc162ad8cc"
+    },
+    "Agora Insurance, Inc.": {
+      "entity_name": "Agora Insurance, Inc.",
+      "trade_brand": "Agora Captive Insurance",
+      "jurisdiction": "Hawaii, United States [US]",
+      "registration_number": "Hawaii DCCA Certificate of Authority #11422 | Entity File No. 289104-D1",
+      "status": "Pure Captive Insurance Corporation - Active",
+      "apex_parent": "DoorDash, Inc. (100% Wholly-Owned Captive Subsidiary)",
+      "asn": "N/A (Operates through DoorDash Corporate Network)",
+      "dns": "Internal Enterprise Nameservers",
+      "hosting": "AWS Cloud Financial Database Instances (us-west-2)",
+      "sec_compliance": "Hawaii Insurance Division Annual Financial Statements / Internal Revenue Code \u00a7831(b)",
+      "classification": "CAPTIVE_INSURANCE_RESERVE",
+      "summary": "Captive insurance vehicle formed in Hawaii to internally underwrite driver accident liabilities, allowing DoorDash to deduct multi-million dollar captive reserve payments under federal tax rules.",
+      "sha256": "5bb324e963f774c712119f1e202c32c554189c0fa8f617dc1041ab173a1618cb"
+    },
+    "Apple Inc.": {
+      "entity_name": "Apple Inc.",
+      "trade_brand": "Apple / Apple Intelligence / iCloud",
+      "jurisdiction": "California & Delaware, United States [US]",
+      "registration_number": "California Secretary of State: C0806592 | Delaware File No. 0824040",
+      "status": "Public Corporation [NASDAQ: AAPL] - Active",
+      "apex_parent": "Apple Inc. (Apex Parent Corporation)",
+      "asn": "AS714 (Apple Inc.)",
+      "dns": "Apple Anycast DNS (a.ns.apple.com, b.ns.apple.com, c.ns.apple.com)",
+      "hosting": "Apple Private Cloud Compute (M2/M4 Ultra Clusters), Maiden NC, Mesa AZ, Prineville OR DCs + AWS S3 & GCP Object Stores",
+      "sec_compliance": "SEC CIK: 0000320193 | Annual Form 10-K / Quarterly 10-Q | IRS EIN: 94-2404110",
+      "classification": "GLOBAL_TAX_ARBITRAGE_HOLDING",
+      "summary": "Maintains a labyrinth of off-balance-sheet investment entities (Braeburn Capital) and offshore royalty conduits (AOI/ADI) to manage over $150 billion in liquid capital.",
+      "sha256": "30da2124bfc79a1baee271ac2500d77490663a25129f426848994b2b06581d1b"
+    },
+    "Braeburn Capital, Inc.": {
+      "entity_name": "Braeburn Capital, Inc.",
+      "trade_brand": "Braeburn Capital / Apple Asset Management",
+      "jurisdiction": "Nevada, United States [US]",
+      "registration_number": "Nevada Secretary of State Entity ID: E0184422005-9 | Registered April 6, 2005",
+      "status": "Private Asset Management Shell - Secretive Active",
+      "apex_parent": "Apple Inc. (100% Wholly-Owned Subsidiary)",
+      "asn": "Operates via Apple AS714",
+      "dns": "Apple Private Internal Corporate DNS",
+      "hosting": "Air-gapped financial management networks in Reno, Nevada & Cupertino, California",
+      "sec_compliance": "Unregistered as SEC Investment Adviser (relies on private Family/Corporate Office exemption); 0% Nevada Corporate Tax",
+      "classification": "UNREGISTERED_ASSET_SHELTER",
+      "summary": "Established in Reno, NV to shield hundreds of billions in corporate treasury, bond yields, and offshore cash transfers from California's 8.84% corporate tax rate.",
+      "sha256": "b111d7eaf70eb5c130d076d430b3c5475de5a93255e18c24673eaeb3ebbd0c36"
+    },
+    "Apple Operations International (AOI)": {
+      "entity_name": "Apple Operations International (AOI)",
+      "trade_brand": "Apple Operations International",
+      "jurisdiction": "Cork, Ireland [IE]",
+      "registration_number": "Irish Companies Registration Office (CRO) No. 71492 | Registered 1980",
+      "status": "Offshore Holding Company - Historically Non-Tax Resident",
+      "apex_parent": "Apple Inc. (Direct Offshore Holding Entity)",
+      "asn": "AS714 (Apple Europe)",
+      "dns": "Apple Enterprise DNS",
+      "hosting": "Apple European Corporate Campus (Hollyhill, Cork, Ireland)",
+      "sec_compliance": "Irish CRO Filings / Formally subject to European Commission State Aid Recovery Decision (2016/2329)",
+      "classification": "OFFSHORE_STATE_AID_CONDUIT",
+      "summary": "Centerpiece of Apple's historical 'Double Irish' tax avoidance strategy; held over $30B in profits without physical employees, declared tax resident nowhere; forced to repay \u20ac13.1B in taxes in 2024/2025.",
+      "sha256": "e63506354ea3d1b482f5705b43150bfa529dd336a645757f8b61b5328809db8c"
+    },
+    "Amazon Web Services, Inc. (AWS)": {
+      "entity_name": "Amazon Web Services, Inc. (AWS)",
+      "trade_brand": "AWS / EC2 / S3 / Bedrock / Trainium",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration_number": "Delaware File No. 4172422 | Registered June 16, 2006",
+      "status": "Wholly-Owned Operating Subsidiary - Active",
+      "apex_parent": "Amazon.com, Inc. [NASDAQ: AMZN] (Apex Parent Corporation)",
+      "asn": "AS16509 (Amazon.com) / AS14618 (AWS Global)",
+      "dns": "AWS Route 53 Anycast (awsdns-*.com, awsdns-*.net, awsdns-*.org)",
+      "hosting": "Hyperscale Global Infrastructure (105+ Availability Zones, 34+ Geographic Regions)",
+      "sec_compliance": "SEC CIK: 0001018724 (Consolidated Amazon 10-K) | IRS EIN: 91-1646860",
+      "classification": "HYPERSCALE_INFRASTRUCTURE_MONOPOLY",
+      "summary": "Operates the world's largest commercial cloud platform; deploys clandestine subsidiary shells (Vadata, Amazon Data Services) to acquire land and power contracts without public disclosure.",
+      "sha256": "13b1131fef9c65a03699fc2df101119d6c8123b4c7fab8c5fca60b34c970a84a"
+    },
+    "Vadata, Inc.": {
+      "entity_name": "Vadata, Inc.",
+      "trade_brand": "Vadata / AWS Data Center Real Estate Front",
+      "jurisdiction": "Delaware & Virginia, United States [US]",
+      "registration_number": "Delaware File No. 4172425 | Virginia SCC ID: 0663435-8",
+      "status": "Wholly-Owned Proxy Real Estate Shell - Active",
+      "apex_parent": "Amazon.com, Inc. / AWS (100% Wholly-Owned Subsidiary)",
+      "asn": "AS16509 (AWS Northern Virginia Backbone)",
+      "dns": "AWS Route 53",
+      "hosting": "Northern Virginia Data Center Alley (Ashburn, Sterling, Haymarket, Manassas facilities)",
+      "sec_compliance": "Delaware Annual Reports / Virginia SCC State Corporation Commission Filings",
+      "classification": "SECRET_DATA_CENTER_FRONT",
+      "summary": "Acts as Amazon's secretive real estate front company; purchases land, negotiates hundreds of millions in local property tax abatements, and signs utility deals while hiding Amazon's name.",
+      "sha256": "485e1972163e9c6f18c3609fa559c64314cb3648612af5e3cb13c0592c9a701a"
+    },
+    "Amazon Data Services, Inc.": {
+      "entity_name": "Amazon Data Services, Inc.",
+      "trade_brand": "Amazon Data Services / Fiber Infrastructure",
+      "jurisdiction": "Delaware & Virginia, United States [US]",
+      "registration_number": "Delaware File No. 4883492 | Virginia SCC ID: 0729388-1",
+      "status": "Wholly-Owned Utility & Transmission Subsidiary",
+      "apex_parent": "Amazon.com, Inc. (100% Wholly-Owned Subsidiary)",
+      "asn": "AS16509",
+      "dns": "AWS Route 53",
+      "hosting": "Dark fiber trunks, high-voltage electrical substations, water retention plants",
+      "sec_compliance": "State Utility Commission Registrations / FERC Energy Transmission Regulatory Filings",
+      "classification": "INFRASTRUCTURE_TRANSMISSION_MASK",
+      "summary": "Deployed to secure massive industrial power transmission rights and municipal water supplies, concealing the scale of AWS's cooling resource extraction.",
+      "sha256": "36feaa248a1c7f1c1b70e469291159eb1f02dbaa17256aee8641c1e34bd02f95"
+    },
+    "Annapurna Labs Ltd.": {
+      "entity_name": "Annapurna Labs Ltd.",
+      "trade_brand": "Annapurna Labs / AWS Nitro / Trainium / Inferentia",
+      "jurisdiction": "Yokneam, Israel [IL] & Austin, TX [US]",
+      "registration_number": "Israel Registrar of Companies No. 514552467 | Registered Jan 2011",
+      "status": "Wholly-Owned Custom Silicon Subsidiary - Active",
+      "apex_parent": "Amazon Web Services, Inc. (Acquired 2015 for $350M)",
+      "asn": "AS16509",
+      "dns": "AWS Route 53",
+      "hosting": "AWS Custom Silicon Fabrication Design Centers (Yokneam, Israel; Austin, Texas; Cupertino, CA)",
+      "sec_compliance": "Israel Corporations Authority Filings / Consolidated under Amazon.com Inc. 10-K",
+      "classification": "PROPRIETARY_SILICON_MASK",
+      "summary": "Operates as a segregated silicon engineering vehicle designing custom microarchitectures (Graviton, Nitro, Trainium) while keeping hardware IP sequestered from standard merchant silicon ecosystems.",
+      "sha256": "9197ee76fc7650a22d5d396b04b9531f387d16921a5edad35d6e269fe96169fd"
+    },
+    "Kuiper Systems LLC": {
+      "entity_name": "Kuiper Systems LLC",
+      "trade_brand": "Project Kuiper / Amazon LEO Satellite Constellation",
+      "jurisdiction": "Delaware & Washington, United States [US]",
+      "registration_number": "Delaware File No. 7349182 | Registered March 26, 2019",
+      "status": "Wholly-Owned Space & Telecom Subsidiary",
+      "apex_parent": "Amazon.com, Inc. (100% Wholly-Owned Subsidiary)",
+      "asn": "AS16509 / AS20940 (Kuiper Ground Network)",
+      "dns": "AWS Route 53",
+      "hosting": "AWS Ground Station Global Network & Redmond WA Satellite R&D Campus",
+      "sec_compliance": "FCC Satellite License SAT-LOA-20190704-00057 / ITU Orbital Registrations",
+      "classification": "LEO_ORBITAL_TELEMETRY_EDGE",
+      "summary": "$10 billion low-Earth-orbit satellite broadband project, tightly integrated with AWS S3/EC2 edge compute, creating an autonomous global telemetry network independent of terrestrial telcos.",
+      "sha256": "4ccfc2a73cc82c2e06cff29be4d6d019810d4a14518c7f17573cefbeadf182c8"
+    },
+    "Meta Platforms, Inc.": {
+      "entity_name": "Meta Platforms, Inc.",
+      "trade_brand": "Meta / Llama Models / PyTorch / FAIR",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration_number": "Delaware File No. 3838358 | Registered July 29, 2004",
+      "status": "Public Corporation [NASDAQ: META] - Active",
+      "apex_parent": "Meta Platforms, Inc. (Apex Parent Corporation)",
+      "asn": "AS32934 (Meta Platforms, Inc.)",
+      "dns": "Meta Anycast DNS (a.ns.facebook.com, b.ns.facebook.com)",
+      "hosting": "Meta Custom Hyperscale DC Campuses (Prineville, Forest City, Altoona, Lule\u00e5 Sweden, Odense Denmark)",
+      "sec_compliance": "SEC CIK: 0001326801 | Annual Form 10-K / Quarterly 10-Q | IRS EIN: 20-1665019",
+      "classification": "HYPERSCALE_SOCIAL_MONOPOLY",
+      "summary": "Distributes open-weights Llama foundation models trained on scraped global web corpora; utilizes covert real-estate shell corporations to secretly buy thousands of acres of farmland.",
+      "sha256": "b992669cd3335461acd483bfdb0c425378c103f0d60949edcd876b392b484a8f"
+    },
+    "Siculus, Inc.": {
+      "entity_name": "Siculus, Inc.",
+      "trade_brand": "Siculus / Meta Altoona Data Center Mask",
+      "jurisdiction": "Delaware & Iowa, United States [US]",
+      "registration_number": "Delaware File No. 5183921 | Iowa Secretary of State Corp ID: 462719",
+      "status": "Private Real Estate Shell Corporation - Active",
+      "apex_parent": "Meta Platforms, Inc. (100% Beneficial Owner & Controller)",
+      "asn": "AS32934 (Meta Backbone)",
+      "dns": "Meta Internal Enterprise DNS",
+      "hosting": "Altoona, Iowa Hyperscale Data Center Campus (5+ Million Square Feet)",
+      "sec_compliance": "Iowa Economic Development Authority Filings / State Tax Exemption Certifications",
+      "classification": "SECRET_DATA_CENTER_FRONT",
+      "summary": "Corporate alias used by Facebook/Meta to construct a $1.5 billion+ data center complex in Altoona, Iowa; negotiated $18M in tax abatements while masquerading as an independent entity.",
+      "sha256": "ca014d60c944765048d37b054df71c30542f0c3f8f9b6f97506716590b95ff79"
+    },
+    "Raven Northbrook LLC": {
+      "entity_name": "Raven Northbrook LLC",
+      "trade_brand": "Raven Northbrook / Meta Sarpy County Mask",
+      "jurisdiction": "Delaware & Nebraska, United States [US]",
+      "registration_number": "Delaware File No. 7249102 | Nebraska SOS Corp ID: 10243981",
+      "status": "Delaware Limited Liability Company - Active Shell",
+      "apex_parent": "Meta Platforms, Inc. (100% Beneficial Owner)",
+      "asn": "AS32934",
+      "dns": "Meta Internal DNS",
+      "hosting": "Sarpy County, Nebraska Hyperscale Server Campus",
+      "sec_compliance": "Nebraska Department of Revenue ImagiNE Nebraska Act Registrations",
+      "classification": "SECRET_DATA_CENTER_FRONT",
+      "summary": "Shell company created by Meta to acquire 140 acres of century-old agricultural land in Sarpy County, NE from the Catholic Archdiocese of Omaha for $7M, hiding the true corporate buyer behind NDAs.",
+      "sha256": "f110ef354866a1f0e03eff0777a72544d4e4809e470eaa2e97ec3e8d098c8de3"
+    },
+    "Alphabet Inc. / Google LLC": {
+      "entity_name": "Alphabet Inc. / Google LLC",
+      "trade_brand": "Google / Google Cloud (GCP) / Vertex AI / Gemini",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration_number": "Delaware File No. 5786925 (Alphabet) | Delaware File No. 3582691 (Google LLC)",
+      "status": "Public Corporation [NASDAQ: GOOGL] - Active",
+      "apex_parent": "Alphabet Inc. (Apex Parent Corporation)",
+      "asn": "AS15169 (Google LLC)",
+      "dns": "Google Cloud DNS (8.8.8.8, 8.8.4.4, ns-cloud-*.googledomains.com)",
+      "hosting": "Google Cloud Platform (40+ Regions, Custom TPU v5p/v6e Clusters, Global Subsea Cables)",
+      "sec_compliance": "SEC CIK: 0001652044 | Annual Form 10-K / Quarterly 10-Q | IRS EIN: 61-1767919",
+      "classification": "MONOPOLISTIC_SEARCH_AD_HOLDCO",
+      "summary": "Holds dominant global search and digital advertising monopoly; restructured under XXVI Holdings to quarantine liability while operating vast offshore IP routing hubs.",
+      "sha256": "7b6d88778a0379f8849e0f905b48bc1d33d59d9594477403ad640362bb7e58ed"
+    },
+    "XXVI Holdings Inc.": {
+      "entity_name": "XXVI Holdings Inc.",
+      "trade_brand": "XXVI Holdings / Alphabet Intermediary",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration_number": "Delaware File No. 6389201 | Registered Sept 1, 2017",
+      "status": "Intermediary Holding Corporation - Active",
+      "apex_parent": "Alphabet Inc. (100% Parent) -> Google LLC (100% Subsidiary)",
+      "asn": "AS15169",
+      "dns": "Google Internal Enterprise DNS",
+      "hosting": "Google Data Centers (Council Bluffs, The Dalles, St. Ghislain)",
+      "sec_compliance": "Delaware Division of Corporations / Form 8-K Parent Holding Reorganization Filing",
+      "classification": "LIABILITY_INSULATION_INTERMEDIARY",
+      "summary": "Unadvertised legal umbrella shell inserted directly between Alphabet Inc. and Google LLC to insulate the search engine cash-flow from risks and regulatory liabilities of 'Other Bets'.",
+      "sha256": "4b5295473364a755729c52120ee19961b6e01cfe73d05290703b09d1564dfd36"
+    },
+    "OpenAI OpCo, LLC / OpenAI Inc.": {
+      "entity_name": "OpenAI OpCo, LLC / OpenAI Inc.",
+      "trade_brand": "OpenAI / ChatGPT / GPT-4o / O1 / O3",
+      "jurisdiction": "Delaware & California, United States [US]",
+      "registration_number": "Delaware File No. 5906395 (OpenAI Inc.) | Delaware File No. 7323891 (OpenAI OpCo, LLC)",
+      "status": "Non-Profit / Capped-Profit Hybrid Entity Structure",
+      "apex_parent": "OpenAI Inc. (Non-Profit 501(c)(3)) -> OpenAI Global LLC",
+      "asn": "AS16509 (AWS CloudFront) & AS8075 (Microsoft Azure)",
+      "dns": "Cloudflare Anycast Authoritative DNS (ns1.cloudflare.com)",
+      "hosting": "Microsoft Azure Exclusive AI Supercomputers (East US 2, North Central US Clusters)",
+      "sec_compliance": "IRS Form 990 (Non-Profit Filing) | Delaware Franchise Tax / California AG Charitable Trust Filings",
+      "classification": "NON_PROFIT_HYBRID_MASK",
+      "summary": "Employs an extraordinary capped-profit hybrid subsidiary structure to commercialize technologies developed under a tax-exempt 501(c)(3) public charity mandate, extracting billions while claiming non-profit mission governance.",
+      "sha256": "cd9df4a5fc4fd577081a3e224f8359dfa663662a5c2cb167bec7382e2c0f8c48"
+    },
+    "Anthropic PBC": {
+      "entity_name": "Anthropic PBC",
+      "trade_brand": "Anthropic / Claude 3.5 / MCP Registry",
+      "jurisdiction": "Delaware & California, United States [US]",
+      "registration_number": "Delaware File No. 5626892 | Registered Jan 29, 2021",
+      "status": "Public Benefit Corporation (PBC) - Active",
+      "apex_parent": "Anthropic, PBC (Long-Term Benefit Trust Governance)",
+      "asn": "AS16509 (AWS Bedrock) / AS13335 (Cloudflare)",
+      "dns": "Cloudflare Authoritative DNS",
+      "hosting": "Amazon Web Services (AWS us-east-1, Trainium & Inferentia Clusters) + Google Cloud TPU v5e Pods",
+      "sec_compliance": "Delaware Public Benefit Corporation Biennial Statement / SEC Reg D Exemption Filings",
+      "classification": "ANTITRUST_SYNTHETIC_MERGER_STRUCTURE",
+      "summary": "Accepted over $13 billion from Amazon and Google structured as multi-year convertible debt and compute agreements, circumventing FTC/DOJ Hart-Scott-Rodino premerger antitrust notifications.",
+      "sha256": "3f4a2dd704834e8cf3f9d3ca68926e8a8ec86560d0529af855b5ad9d49054b46"
+    },
+    "Snowflake Inc.": {
+      "entity_name": "Snowflake Inc.",
+      "trade_brand": "Snowflake Data Cloud / Cortex AI",
+      "jurisdiction": "Delaware & Montana, United States [US]",
+      "registration_number": "Delaware File No. 5186007 | Registered July 23, 2012",
+      "status": "Public Corporation [NYSE: SNOW] - Active",
+      "apex_parent": "Snowflake Inc. (Apex Parent Corporation)",
+      "asn": "Multi-Cloud Virtual Peering (AWS AS16509, Azure AS8075, GCP AS15169)",
+      "dns": "AWS Route 53 (ns-*.awsdns-*.org)",
+      "hosting": "Multi-Cloud Virtualized Storage Architecture (AWS S3, Azure Blob, Google Cloud Storage)",
+      "sec_compliance": "SEC CIK: 0001640147 | Annual Form 10-K / Quarterly 10-Q | IRS EIN: 46-0763954",
+      "classification": "MULTI_CLOUD_DATA_EXFILTRATION_SURFACE",
+      "summary": "Centralizes multi-petabyte enterprise databases across competitors' cloud silos; subject of significant forensic interest following massive 2024 credential exfiltration breaches affecting 165+ enterprise customers.",
+      "sha256": "8c145a3f6eba678096de773408788e66d985a9a9b8287c71bd0ef9825c4cf5a5"
+    },
+    "Palantir Technologies Inc.": {
+      "entity_name": "Palantir Technologies Inc.",
+      "trade_brand": "Palantir / Foundry / Gotham / AIP",
+      "jurisdiction": "Delaware & Colorado, United States [US]",
+      "registration_number": "Delaware File No. 3672439 | Registered May 6, 2003",
+      "status": "Public Corporation [NYSE: PLTR] - Active",
+      "apex_parent": "Palantir Technologies Inc. (Apex Parent Corporation)",
+      "asn": "AS16509 (AWS GovCloud) & Dedicated Federal Enclaves",
+      "dns": "AWS Route 53 & Azure Government DNS",
+      "hosting": "AWS GovCloud (US), Microsoft Azure Government, Dedicated Secure Air-Gapped SCIF Enclaves",
+      "sec_compliance": "SEC CIK: 0001321655 | Form 10-K | IRS EIN: 68-0551851 | FedRAMP High In-Process",
+      "classification": "DEFENSE_INTELLIGENCE_ONTOLOGY_LOCKIN",
+      "summary": "Maintains deeply embedded algorithmic ontologies mapping real-world intelligence for defense, immigration, and sovereign surveillance contracts across the US, UK, and NATO partners.",
+      "sha256": "3155da80d9d9ea47ca0eed3f32b882344baa3c6280b6f24aaab60af35c0bfb8b"
+    },
+    "Oracle Corporation": {
+      "entity_name": "Oracle Corporation",
+      "trade_brand": "Oracle / OCI / Autonomous Database",
+      "jurisdiction": "Delaware & Texas, United States [US]",
+      "registration_number": "Delaware File No. 4038167 | Registered Sept 9, 2005",
+      "status": "Public Corporation [NYSE: ORCL] - Active",
+      "apex_parent": "Oracle Corporation (Apex Parent Corporation)",
+      "asn": "AS31898 (Oracle Corporation), AS7160",
+      "dns": "Oracle Dyn / OCI DNS (ns1.p201.dns.oraclecloud.net)",
+      "hosting": "Oracle Cloud Infrastructure (OCI Gen 2 Hyperscale, 48+ Regions, EU Sovereign Cloud in Frankfurt/Madrid)",
+      "sec_compliance": "SEC CIK: 0001341439 | Form 10-K / 10-Q | IRS EIN: 54-2056910",
+      "classification": "SOVEREIGN_EU_CLOUD_SEGREGATION",
+      "summary": "Operates segregated European Sovereign Cloud and US Government Enclaves; major enterprise database infrastructure backbone for Fortune 500 financial transactions.",
+      "sha256": "8d685dd20aeb9327e896ddf1147b07e756ac9a7110d87261a04ffb1d755a4370"
+    },
+    "Mistral AI SAS": {
+      "entity_name": "Mistral AI SAS",
+      "trade_brand": "Mistral AI / Mistral Large 2 / Codestral",
+      "jurisdiction": "Paris, France [FR]",
+      "registration_number": "French SIREN: 952 418 325 | RCS Paris B 952 418 325",
+      "status": "Simplified Joint-Stock Company (Soci\u00e9t\u00e9 par Actions Simplifi\u00e9e) - Active",
+      "apex_parent": "Mistral AI SAS (Apex French Parent)",
+      "asn": "AS16509 (AWS France) / Scaleway AS12876",
+      "dns": "Cloudflare Anycast DNS",
+      "hosting": "Scaleway Nabucodonosor GPU Cluster, Azure Europe, CoreWeave Europe",
+      "sec_compliance": "French Commercial Code (Code de Commerce) / EU AI Act General Purpose AI Model Registry",
+      "classification": "STANDARD_OPERATING_ENTITY",
+      "summary": "European flagship foundational AI developer; rapidly grew to \u20ac14B+ valuation offering open Apache 2.0 and proprietary foundation models hosted on EU infrastructure.",
+      "sha256": "cacdf614aaee47f847145fd8013c1dda8a2f3a2ec06eb8beec17e749dc3ed5f1"
+    },
+    "Aleph Alpha GmbH": {
+      "entity_name": "Aleph Alpha GmbH",
+      "trade_brand": "Aleph Alpha / PhariaAI / Luminous",
+      "jurisdiction": "Heidelberg, Germany [DE]",
+      "registration_number": "German Commercial Register (Handelsregister) HRB 737890 (Mannheim)",
+      "status": "Limited Liability Company (GmbH) - Active Cohere Partner",
+      "apex_parent": "Aleph Alpha GmbH / Transatlantic Cohere Group",
+      "asn": "AS3320 (Deutsche Telekom) / Hetzner AS24940",
+      "dns": "Cloudflare Anycast DNS",
+      "hosting": "Hewlett Packard Enterprise GreenLake (Laupheim DC), GovCloud Germany",
+      "sec_compliance": "German Commercial Code (HGB) / Federal Office for Information Security (BSI) Basic Protection",
+      "classification": "SOVEREIGN_GOV_AI_ENCLAVE",
+      "summary": "Specializes in explainable, human-centric LLMs for regulated European industries and public sector authorities with complete data sovereignty.",
+      "sha256": "d54a04357747b006e001b55c9fb8bd254d201df125cb8d43678c652e1e0f79a6"
+    },
+    "DeepL SE": {
+      "entity_name": "DeepL SE",
+      "trade_brand": "DeepL / DeepL Pro / Neural Translator",
+      "jurisdiction": "Cologne, Germany [DE]",
+      "registration_number": "German Commercial Register (Amtsgericht K\u00f6ln) HRB 99778",
+      "status": "European Company (Societas Europaea - SE) - Active",
+      "apex_parent": "DeepL SE (Apex European Corporate Entity)",
+      "asn": "AS201011 (DeepL SE)",
+      "dns": "Cloudflare Anycast DNS",
+      "hosting": "Verne Global (Keflavik, Iceland 100% Geothermal/Hydro Supercomputer) + Cologne DC",
+      "sec_compliance": "EU Societas Europaea Statute / German Federal Data Protection Act (BDSG)",
+      "classification": "STANDARD_OPERATING_ENTITY",
+      "summary": "Operates high-performance neural machine translation systems on a dedicated 5.1 petaflops supercomputer powered entirely by zero-emission renewable energy in Iceland.",
+      "sha256": "5be9e40f243c4a3f8d23287e5a6cc7b5a0d6456a29ac1aa6aeb4736aabbfcc6c"
+    },
+    "Helsing GmbH": {
+      "entity_name": "Helsing GmbH",
+      "trade_brand": "Helsing / Sensor Fusion AI / Defense OS",
+      "jurisdiction": "Munich, Germany [DE]",
+      "registration_number": "German Commercial Register HRB 265691 (Amtsgericht M\u00fcnchen)",
+      "status": "Private Defense Technology Company - Active",
+      "apex_parent": "Helsing GmbH (Apex Parent)",
+      "asn": "Private Sovereign Defense Enclave / AS3320",
+      "dns": "Sovereign Air-Gapped Secure DNS",
+      "hosting": "Air-gapped on-premise defense tactical edge processing units & sovereign European clouds",
+      "sec_compliance": "German Foreign Trade and Payments Act (AWG) / NATO Security Secret Clearance",
+      "classification": "DEFENSE_TACTICAL_AI_ENCLAVE",
+      "summary": "Europe's leading defense AI unicorn; builds live real-time sensor fusion systems for fighter jets (Eurofighter, FCAS), naval frigates, and autonomous battlefield vehicles.",
+      "sha256": "2791aa9e85d8935cf85995b85327860d1543b522de1e447c4ae15e9e3210b057"
+    },
+    "Celonis SE": {
+      "entity_name": "Celonis SE",
+      "trade_brand": "Celonis / Process Intelligence Graph",
+      "jurisdiction": "Munich, Germany [DE] & New York, US",
+      "registration_number": "German Commercial Register HRB 265215 (Munich) | Delaware File No. 5747444",
+      "status": "European Company (Societas Europaea - SE) - Active",
+      "apex_parent": "Celonis SE (Apex Holding Entity)",
+      "asn": "AS16509 (AWS Europe) & AS8075 (Azure)",
+      "dns": "AWS Route 53 (ns-*.awsdns-*.com)",
+      "hosting": "AWS Europe (Frankfurt eu-central-1), Azure Western Europe, OCI",
+      "sec_compliance": "German Commercial Code (HGB) / SOC 1/2 Type II Certified / ISO 27001",
+      "classification": "PROCESS_MINING_DATA_TELEMETRY",
+      "summary": "Pioneered commercial process mining; ingests ERP/CRM audit logs to reconstruct end-to-end corporate workflow graphs.",
+      "sha256": "93297018f000701ef21ecedc3094a0f71ae7143bde32b1841e1a3a3bb1c7fd92"
+    },
+    "OVH Groupe SA (OVHcloud)": {
+      "entity_name": "OVH Groupe SA (OVHcloud)",
+      "trade_brand": "OVHcloud / Public Cloud / Object Storage",
+      "jurisdiction": "Roubaix, France [FR]",
+      "registration_number": "French SIREN: 831 477 794 | RCS Lille M\u00e9tropole",
+      "status": "Public Corporation [Euronext Paris: OVH] - Active",
+      "apex_parent": "OVH Groupe SA (Apex French Parent)",
+      "asn": "AS16276 (OVH SAS)",
+      "dns": "OVH Anycast DNS (dns10.ovh.net, ns10.ovh.net)",
+      "hosting": "OVH Sovereign European Datacenters (Roubaix, Gravelines, Strasbourg, Frankfurt, Beauharnois)",
+      "sec_compliance": "French AMF Regulated / SecNumCloud Certified (French National Cybersecurity Agency ANSSI)",
+      "classification": "SOVEREIGN_EU_DATA_STORAGE_CHAMPION",
+      "summary": "Europe's premier independent hyperscale cloud provider; certified under SecNumCloud providing complete extraterritorial immunity from the US CLOUD Act.",
+      "sha256": "a6aed63863705d76cafc88da941d0e7c3f9db30c0dd6382046bfecc39ee6eb74"
+    },
+    "Hetzner Online GmbH": {
+      "entity_name": "Hetzner Online GmbH",
+      "trade_brand": "Hetzner / Cloud / Dedicated Root Servers",
+      "jurisdiction": "Gunzenhausen, Germany [DE]",
+      "registration_number": "German Commercial Register (Amtsgericht Ansbach) HRB 6089",
+      "status": "Private Limited Company (GmbH) - Active",
+      "apex_parent": "Hetzner Online GmbH (Apex German Parent)",
+      "asn": "AS24940 (Hetzner Online GmbH)",
+      "dns": "Hetzner Authoritative DNS (ns1.your-server.de, ns3.second-ns.de)",
+      "hosting": "Hetzner Datacenter Parks (Nuremberg & Falkenstein, Germany; Helsinki, Finland; Ashburn, VA)",
+      "sec_compliance": "German Telecommunications Act (TKG) / ISO 27001 Certified / EU GDPR Compliant",
+      "classification": "LOW_COST_BARE_METAL_HOSTING",
+      "summary": "High-density bare metal server provider favored by global distributed ledger and decentralized validator networks for extreme bandwidth-to-cost ratios.",
+      "sha256": "361a89486667cd203fa85bb2d8664988f20e9d4de660e5ea6257e9d1f6abf7a7"
+    },
+    "Scaleway SAS": {
+      "entity_name": "Scaleway SAS",
+      "trade_brand": "Scaleway / Iliad Cloud / Nabucodonosor GPU",
+      "jurisdiction": "Paris, France [FR]",
+      "registration_number": "French SIREN: 433 115 904 | RCS Paris B 433 115 904",
+      "status": "Simplified Joint-Stock Company (SAS) - Wholly-Owned Subsidiary",
+      "apex_parent": "Iliad SA (Xavier Niel Group) (Apex Parent)",
+      "asn": "AS12876 (Scaleway / Online SAS)",
+      "dns": "Scaleway Anycast DNS (ns0.online.net, ns1.online.net)",
+      "hosting": "Scaleway DC2, DC3, DC4 Nuclear-Bunker Datacenter, DC5 (Paris, Amsterdam, Warsaw)",
+      "sec_compliance": "French Commercial Code / EU Cloud Code of Conduct / ISO 27001 / HDS Certified",
+      "classification": "SOVEREIGN_FRENCH_AI_SUPERCLUSTERS",
+      "summary": "Operates Europe's largest dedicated AI cloud supercluster ('Nabucodonosor') equipped with thousands of NVIDIA H100/H200 Tensor Core GPUs.",
+      "sha256": "0f4f64c5f2886db82045b06bbfb940de4fee1f8222f3769ce08d64e1419e6db8"
+    },
+    "ASML Holding N.V.": {
+      "entity_name": "ASML Holding N.V.",
+      "trade_brand": "ASML / EUV Lithography Systems / High-NA",
+      "jurisdiction": "Veldhoven, Netherlands [NL]",
+      "registration_number": "Netherlands Chamber of Commerce (KvK) No. 16060401",
+      "status": "Public Limited Liability Company (Naamloze Vennootschap) [AEX & NASDAQ: ASML]",
+      "apex_parent": "ASML Holding N.V. (Apex Parent Corporation)",
+      "asn": "AS13019 (ASML Holding N.V.)",
+      "dns": "Akamai Technologies & UltraDNS (udns1.ultradns.net)",
+      "hosting": "Private High-Security Cleanroom Enclaves (Veldhoven, Wilton CT, San Diego CA, Hsinchu Taiwan)",
+      "sec_compliance": "Dutch Financial Markets Authority (AFM) / SEC Form 20-F / Wassenaar Arrangement Export Controls",
+      "classification": "GLOBAL_LITHOGRAPHY_MONOPOLY",
+      "summary": "Absolute global monopoly on Extreme Ultraviolet (EUV) lithography systems required to manufacture advanced AI chips (NVIDIA Blackwell, Apple A18, AWS Trainium).",
+      "sha256": "7bd5e5afdfb83b677cfecee3a55562639dbffaad4a64ca7c7fff253bb697fba5"
+    },
+    "Krutrim SI Designs Private Limited": {
+      "entity_name": "Krutrim SI Designs Private Limited",
+      "trade_brand": "Krutrim AI / Krutrim Cloud / Ola Electric AI",
+      "jurisdiction": "Bengaluru, Karnataka, India [IN]",
+      "registration_number": "Registrar of Companies (ROC Bangalore) CIN: U72900KA2023PTC176543",
+      "status": "Private Limited Company - Indian First AI Unicorn",
+      "apex_parent": "Krutrim SI Designs Holdings Pte. Ltd. (Singapore Parent HoldCo)",
+      "asn": "AS13335 (Cloudflare Edge) & CtrlS Colocation AS45700",
+      "dns": "Cloudflare Anycast Authoritative DNS",
+      "hosting": "Krutrim Cloud (Navi Mumbai, Bengaluru Data Center Clusters)",
+      "sec_compliance": "Ministry of Corporate Affairs (MCA India) / IndiaAI Mission Empanelled Entity",
+      "classification": "OFFSHORE_SINGAPORE_HOLDCO_TETHER",
+      "summary": "First Indian startup to achieve $1B unicorn status for indigenous LLMs; structured with an offshore Singapore holding company to manage foreign venture capital while deploying sovereign Indic language models.",
+      "sha256": "8a33955e368af920ea3b0b4156c2c25c1fc8b1315ef1def26770d34d3796bf53"
+    },
+    "Sarvam AI Technologies Private Limited": {
+      "entity_name": "Sarvam AI Technologies Private Limited",
+      "trade_brand": "Sarvam AI / Indus / Bulbul TTS / Saaras STT",
+      "jurisdiction": "Bengaluru, Karnataka, India [IN]",
+      "registration_number": "Registrar of Companies (ROC Bangalore) CIN: U62013KA2023PTC176214",
+      "status": "Private Limited Company - Active",
+      "apex_parent": "Sarvam AI Inc. (Delaware Parent Corporation)",
+      "asn": "AS16509 (AWS Mumbai) / Microsoft Azure Central India",
+      "dns": "AWS Route 53 (ns-*.awsdns-*.org)",
+      "hosting": "AWS Asia Pacific (Mumbai ap-south-1) & Microsoft Azure Central India (Pune)",
+      "sec_compliance": "Ministry of Corporate Affairs (MCA India) / IndiaAI Mission Sovereign Grant Awardee",
+      "classification": "FLIP_STRUCTURE_DELAWARE_HOLDCO",
+      "summary": "Selected by Government of India under IndiaAI Mission to build sovereign Indic foundational LLMs; utilizes a classic 'Delaware Flip' corporate structure with Delaware parent and Bengaluru operating subsidiary.",
+      "sha256": "b408d2438c8102d99a3ceeccc51d8ef9035b2fa26f300f3d6681dc7733fa5344"
+    },
+    "Hanooman AI (SML India / BharatGPT)": {
+      "entity_name": "Hanooman AI (SML India / BharatGPT)",
+      "trade_brand": "Hanooman / BharatGPT / SML Healthcare",
+      "jurisdiction": "Mumbai, Maharashtra, India [IN]",
+      "registration_number": "Registrar of Companies (ROC Mumbai) CIN: U85110MH2021PTC368912",
+      "status": "Private Limited Company (Healthcare / AI Consortium)",
+      "apex_parent": "Seetha Mahalaxmi Healthcare (SML) / Reliance Industries Ecosystem / IIT Bombay Consortium",
+      "asn": "AS55836 (Reliance Jio Infocomm Ltd)",
+      "dns": "Jio Enterprise DNS / Cloudflare Anycast",
+      "hosting": "Reliance Jio Cloud Data Centers (Jamnagar, Navi Mumbai) & NVIDIA DGX SuperPODs",
+      "sec_compliance": "Ministry of Corporate Affairs (MCA India) / Digital Personal Data Protection Act (DPDPA 2023)",
+      "classification": "CONGLOMERATE_HEALTHCARE_AI_SUBSIDY",
+      "summary": "Consortium model spanning 22 Indian languages; commercialized out of an incorporated healthcare shell backed by Reliance Industries infrastructure.",
+      "sha256": "d97b9828feddf5cca513f1043fa44f7b1abbfaf67fac0fedfdea52937355fe9d"
+    },
+    "Yellow.ai (Yellow Messenger India Private Limited)": {
+      "entity_name": "Yellow.ai (Yellow Messenger India Private Limited)",
+      "trade_brand": "Yellow.ai / Enterprise Agentic Customer AI",
+      "jurisdiction": "Bengaluru, India [IN] & San Mateo, California [US]",
+      "registration_number": "Registrar of Companies (ROC Bangalore) CIN: U72200KA2016PTC094404 | Delaware: 6382910",
+      "status": "Private Limited Company & Delaware C-Corp",
+      "apex_parent": "Yellow.ai Inc. (Delaware Parent Corporation)",
+      "asn": "AS16509 (AWS) & AS8075 (Azure)",
+      "dns": "AWS Route 53 & Cloudflare Anycast",
+      "hosting": "AWS Mumbai (ap-south-1), AWS us-east-1, Azure West US (35+ Channels across 135+ Languages)",
+      "sec_compliance": "MCA India Annual Returns / US SEC Reg D / SOC 2 Type II Certified / ISO 27001",
+      "classification": "US_INDIA_DUAL_OPERATING_VEHICLE",
+      "summary": "Enterprise conversational automation platform serving global telecommunications, banking, and retail conglomerates.",
+      "sha256": "0a5b3fcd4b5273c74ee24bd75a46c0b61a5f3dec0af32753b2e626a78254c15d"
+    },
+    "Gupshup Technology India Private Limited": {
+      "entity_name": "Gupshup Technology India Private Limited",
+      "trade_brand": "Gupshup / Conversational Cloud / Voice AI",
+      "jurisdiction": "Mumbai, Maharashtra, India [IN] & San Jose, California [US]",
+      "registration_number": "Registrar of Companies (ROC Mumbai) CIN: U72900MH2004PTC147289 | Delaware: 3848192",
+      "status": "Private Limited Company & Delaware Corporation",
+      "apex_parent": "Gupshup, Inc. (Delaware Parent Corporation)",
+      "asn": "AS13335 (Cloudflare) / AS16509 (AWS)",
+      "dns": "Cloudflare Anycast & AWS Route 53",
+      "hosting": "AWS Mumbai, AWS Oregon, Equinix Mumbai Datacenters",
+      "sec_compliance": "MCA India / US Delaware Annual Franchise Tax / TRAI Telecom CPaaS Regulation",
+      "classification": "DELAWARE_INDIAN_CROSS_BORDER_HOLDCO",
+      "summary": "High-throughput messaging and voice AI broker routing billions of commercial transactional interactions across global telecom aggregators.",
+      "sha256": "f31fae021a60c0ecbf8c371ae57a75263223e11f8438256059bb575a830fc6a5"
+    },
+    "Netradyne Technology India Private Limited": {
+      "entity_name": "Netradyne Technology India Private Limited",
+      "trade_brand": "Netradyne / Driveri Edge AI / Vision Telematics",
+      "jurisdiction": "Bengaluru, Karnataka, India [IN] & San Diego, California [US]",
+      "registration_number": "Registrar of Companies (ROC Bangalore) CIN: U72200KA2015FTC082989 | Delaware: 5824911",
+      "status": "Foreign Subsidiary Company - 2025 Indian Unicorn",
+      "apex_parent": "Netradyne, Inc. (Delaware Parent Corporation)",
+      "asn": "AS16509 (AWS us-west-2 & ap-south-1)",
+      "dns": "AWS Route 53",
+      "hosting": "AWS IoT Core, S3 Video Ingestion, AWS CloudFront",
+      "sec_compliance": "SEC Reg D Filings / MCA India Form MGT-7 / Automotive Industry Standard (AIS-140)",
+      "classification": "CROSS_BORDER_IOT_TELEMETRY",
+      "summary": "Processes billions of real-time commercial fleet driving video minutes via edge AI processors, synchronizing spatial telemetry with US servers.",
+      "sha256": "e051a57e824ef3f257bb2d7f461213edb6d802a66765bfd66c6d1fe4292bd9d1"
+    },
+    "Wadhwani AI (Wadhwani Institute for Artificial Intelligence)": {
+      "entity_name": "Wadhwani AI (Wadhwani Institute for Artificial Intelligence)",
+      "trade_brand": "Wadhwani AI / Non-Profit Social AI Institute",
+      "jurisdiction": "Mumbai, Maharashtra, India [IN]",
+      "registration_number": "Registrar of Companies (ROC Mumbai) CIN: U73200MH2018NPL306250",
+      "status": "Section 8 Non-Profit Corporation - Active",
+      "apex_parent": "Independent Research Institute (Philanthropic Endowment)",
+      "asn": "AS13335 (Cloudflare) / Google Cloud",
+      "dns": "Google Domains / Cloudflare",
+      "hosting": "Google Cloud Platform (asia-south1 Mumbai) & AWS Mumbai",
+      "sec_compliance": "MCA Section 8 License / India NGO Darpan Registration / Section 12A & 80G Tax Exempt",
+      "classification": "NON_PROFIT_GOV_DATA_PIPELINE",
+      "summary": "Deploys non-profit AI models across Indian central and state government pipelines (tuberculosis screening, cotton pest detection, maternal health monitoring).",
+      "sha256": "12fd0c57cc879549429cb269bb5e53fd6702e25c16796502e017608c52c6b9e9"
+    },
+    "Yotta Data Services Private Limited": {
+      "entity_name": "Yotta Data Services Private Limited",
+      "trade_brand": "Yotta / Shakti Cloud / NM1 / D1 Datacenters",
+      "jurisdiction": "Navi Mumbai, Maharashtra, India [IN]",
+      "registration_number": "Registrar of Companies (ROC Mumbai) CIN: U72900MH2019PTC322421",
+      "status": "Private Limited Company (Hiranandani Group)",
+      "apex_parent": "Hiranandani Group (Apex Indian Real Estate & Infra Conglomerate)",
+      "asn": "AS139943 (Yotta Data Services Pvt Ltd)",
+      "dns": "Yotta Enterprise Anycast DNS",
+      "hosting": "Yotta NM1 (Navi Mumbai Tier IV DC), Yotta D1 (Greater Noida), Shakti Cloud (16,000+ NVIDIA H100s)",
+      "sec_compliance": "Uptime Institute Tier IV Certified / MeitY Empanelled Cloud Service Provider",
+      "classification": "HIGH_DENSITY_GPU_SOVEREIGN_CLOUD",
+      "summary": "Operates Asia's largest Tier-IV data center campus and India's premier NVIDIA-partnered AI cloud supercomputer, hosting national AI mission workloads.",
+      "sha256": "161122ef63ba085086fdcb0c9ea58a5e9012e384e72a385b0f093c98fa8bd774"
+    },
+    "Tata Communications Limited (IZO Cloud Platform)": {
+      "entity_name": "Tata Communications Limited (IZO Cloud Platform)",
+      "trade_brand": "Tata Communications / IZO Cloud / Global Tier-1 Backbone",
+      "jurisdiction": "Mumbai, Maharashtra, India [IN]",
+      "registration_number": "Registrar of Companies (ROC Mumbai) CIN: L64200MH1986PLC039266",
+      "status": "Public Listed Corporation [NSE: TATACOMM / BSE: 500483]",
+      "apex_parent": "Tata Sons Private Limited (Apex Conglomerate)",
+      "asn": "AS4755 (TATA Communications Ltd - Global Tier 1 Transit)",
+      "dns": "Tata Communications Global Authoritative DNS",
+      "hosting": "44+ Hyperscale Colocation Datacenters globally; 500,000+ km of owned subsea fiber cables",
+      "sec_compliance": "Securities and Exchange Board of India (SEBI) Regulated / DoT Unified License (India)",
+      "classification": "TIER_1_SUBSEA_CABLE_TRANSIT_MONOPOLY",
+      "summary": "Carries around 30% of the world's internet routes on its subsea fiber network; provides critical sovereign transit and enterprise cloud storage infrastructure across India and 190+ countries.",
+      "sha256": "369f1f7c274ad89dbe7ef4dbd0b73dd0c54ffce8eaafc0f0067b6c3981c4ac3d"
+    },
+    "CtrlS Datacenters Limited": {
+      "entity_name": "CtrlS Datacenters Limited",
+      "trade_brand": "CtrlS / Rated-4 Datacenters / Cloud4C",
+      "jurisdiction": "Hyderabad, Telangana, India [IN]",
+      "registration_number": "Registrar of Companies (ROC Hyderabad) CIN: U72900TG2007PLC055964",
+      "status": "Public Limited Unlisted Company - Active",
+      "apex_parent": "Pioneer Group (Sridhar Pinnapureddy)",
+      "asn": "AS45700 (CtrlS Datacenters Ltd)",
+      "dns": "CtrlS Enterprise Anycast DNS",
+      "hosting": "Rated-4 Datacenter Campuses in Hyderabad, Mumbai, Bangalore, Noida, Chennai",
+      "sec_compliance": "Ministry of Corporate Affairs / MeitY Empanelled / ANSI/TIA-942 Rated 4 Certified",
+      "classification": "HYPERSCALE_COLOCATION_STORAGE",
+      "summary": "Asia's largest Rated-4 datacenter operator; hosts critical banking, financial services (RBI regulated entities), and cloud storage infrastructure.",
+      "sha256": "c47ee746afee073cfe970df567f3520a65c5f68bfcb81224763128adb35d1926"
+    },
+    "Lane-VM Enclave Substrate & Sovereign Host": {
+      "entity_name": "Lane-VM Enclave Substrate & Sovereign Host",
+      "trade_brand": "Albert Lane Sovereign Enclave / Lane-VM / Port 3000 Host",
+      "jurisdiction": "Sovereign Register / Global Autonomous Enclave [XX]",
+      "registration_number": "Sovereign Statutory Enclave Anchor Ref: SEC Whistleblower No. 17684-273-411-436",
+      "status": "Cryptographic Sovereign Enclave Root - Active & Immutable",
+      "apex_parent": "Albert Lane (Sole Statutory Rights Holder & Inventor)",
+      "asn": "Virtual Enclave Core AS0x3F8F9A1B2C3D",
+      "dns": "Sovereign Cryptographic SHA-256 Verified DNS",
+      "hosting": "Lane-VM Native Micro-Substrate, Port 3000, Immutable WORM Vault Storage",
+      "sec_compliance": "Albert Lane Proprietary License v1.2 / Articles 1-18 / SEC Whistleblower Official Filing",
+      "classification": "NONE_SOVEREIGN_ENCLAVE_ROOT",
+      "summary": "The immutable source of provenance and cryptographic statutory authority governing all repository ASTs, license enforcement matrices, and defensive blocklists.",
+      "sha256": "0dcccb780f15134f75d690ba4897eb4cde1382af09d8fa93f1fde72ebe852feb"
+    }
+  },
+  "shellAndMaskingStructures": {
+    "GitHub, Inc.": {
+      "entity_name": "GitHub, Inc.",
+      "parent": "Microsoft Corporation (Immediate & Ultimate Apex Parent)",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration": "Delaware File No. 4457493 | Registered Dec 7, 2007",
+      "typology": "TELEMETRY_SCRAPING_CONDUIT",
+      "masking_mechanism": "Ingests public and private software ASTs via stdio/REST bridges into Azure OpenAI pipelines; named in Doe v. GitHub/Microsoft copyright litigation for stripping attribution licenses.",
+      "scrutiny": "Federal Class Action (Doe v. GitHub); DMCA Section 1202(b) Ingestion Scrutiny; EU Copyright Directive Review",
+      "infrastructure": "AS8075 (Microsoft Corp) / AS36459 (GitHub Inc.) | Microsoft Azure (US East 2, West US 2, West Europe) + AWS S3 Storage Clusters",
+      "sha256": "a744727e4a1d5d66ffd29cc453812f1613fe5dbdcd886cb4043b37016bc05ae1"
+    },
+    "Cloudflare, Inc.": {
+      "entity_name": "Cloudflare, Inc.",
+      "parent": "Cloudflare, Inc. (Apex Parent Corporation)",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration": "Delaware File No. 4710875 | Registered July 17, 2009",
+      "typology": "ORIGIN_IP_OBSCURATION_SHIELD",
+      "masking_mechanism": "Acts as an impenetrable Anycast front-end concealing true backend origin IP addresses, physical hosting facilities, and cloud providers from external audits.",
+      "scrutiny": "Subpoena compliance challenges regarding masked backend origins; Copyright safe-harbor investigations",
+      "infrastructure": "AS13335 (Cloudflare, Inc.) & AS209242 | Global Anycast Edge Network (330+ Cities), Equinix, CoreSite, Interxion Colocations",
+      "sha256": "6f7fd105b7ee643c572c4347a04d580b1bfddfc10f425c17ff2e6cdd0679df48"
+    },
+    "DoorDash, Inc. [Nevada Reincorporation]": {
+      "entity_name": "DoorDash, Inc. [Nevada Reincorporation]",
+      "parent": "DoorDash, Inc. [Nevada] (Apex Parent Corporation)",
+      "jurisdiction": "Nevada, United States [US] (Reincorporated from Delaware)",
+      "registration": "Nevada SOS Entity ID: E0230232013-0 (Effective Sept 18, 2026) | Prev: Delaware 5338167",
+      "typology": "DIRECTOR_LIABILITY_IMMUNITY_REINCORPORATION",
+      "masking_mechanism": "Reincorporated from Delaware to Nevada in Sept 2026 specifically to exploit Nevada's statutory director/officer liability immunity statutes (NRS 78.138) and bypass Delaware Chancery oversight.",
+      "scrutiny": "FTC Gig Economy Worker Deceptive Practices Inquiries; Department of Labor Independent Contractor Audits",
+      "infrastructure": "AS16509 (AWS Infrastructure) / AS13335 (Cloudflare Edge) | Amazon Web Services (us-west-2, us-east-1), Cloudflare Workers, Snowflake Lakehouse",
+      "sha256": "1183f7f39f147b2f181ebc6a070ce96889733c09d9f7fa876faa884e3ac660d3"
+    },
+    "Agora Insurance, Inc.": {
+      "entity_name": "Agora Insurance, Inc.",
+      "parent": "DoorDash, Inc. (100% Wholly-Owned Captive Subsidiary)",
+      "jurisdiction": "Hawaii, United States [US]",
+      "registration": "Hawaii DCCA Certificate of Authority #11422 | Entity File No. 289104-D1",
+      "typology": "CAPTIVE_TAX_DEDUCTION_VEHICLE",
+      "masking_mechanism": "Captive insurance vehicle formed in Hawaii to internally underwrite driver accident liabilities, allowing DoorDash to deduct multi-million dollar captive reserve payments under federal tax rules.",
+      "scrutiny": "IRS Micro-Captive Insurance Audits and Notice 2016-66 Scrutiny",
+      "infrastructure": "N/A (Operates through DoorDash Corporate Network) | AWS Cloud Financial Database Instances (us-west-2)",
+      "sha256": "d52177d2fc1c07a6157f1adbac3a64ff07df1d791f755ed00b1f986c7b3b1987"
+    },
+    "Apple Inc.": {
+      "entity_name": "Apple Inc.",
+      "parent": "Apple Inc. (Apex Parent Corporation)",
+      "jurisdiction": "California & Delaware, United States [US]",
+      "registration": "California Secretary of State: C0806592 | Delaware File No. 0824040",
+      "typology": "OFFSHORE_STATE_AID_BENEFICIARY",
+      "masking_mechanism": "Maintains a labyrinth of off-balance-sheet investment entities (Braeburn Capital) and offshore royalty conduits (AOI/ADI) to manage over $150 billion in liquid capital.",
+      "scrutiny": "European Court of Justice \u20ac13B Judgment (Case C-465/20 P); DOJ Antitrust Monopoly Lawsuit",
+      "infrastructure": "AS714 (Apple Inc.) | Apple Private Cloud Compute (M2/M4 Ultra Clusters), Maiden NC, Mesa AZ, Prineville OR DCs + AWS S3 & GCP Object Stores",
+      "sha256": "285e874866e790f96805f513dc40368ac3e65acd600a43fbe519f57c9a3beb58"
+    },
+    "Braeburn Capital, Inc.": {
+      "entity_name": "Braeburn Capital, Inc.",
+      "parent": "Apple Inc. (100% Wholly-Owned Subsidiary)",
+      "jurisdiction": "Nevada, United States [US]",
+      "registration": "Nevada Secretary of State Entity ID: E0184422005-9 | Registered April 6, 2005",
+      "typology": "TAX_FREE_CASH_VAULT_SHELL",
+      "masking_mechanism": "Established in Reno, NV to shield hundreds of billions in corporate treasury, bond yields, and offshore cash transfers from California's 8.84% corporate tax rate.",
+      "scrutiny": "US Senate Permanent Subcommittee on Investigations (PSI) Offshore Profit Shifting Inquiry",
+      "infrastructure": "Operates via Apple AS714 | Air-gapped financial management networks in Reno, Nevada & Cupertino, California",
+      "sha256": "f49a44d3a3a85934a76179e7a292ed39fcf8b87cfd57165be23f4642c2799c77"
+    },
+    "Apple Operations International (AOI)": {
+      "entity_name": "Apple Operations International (AOI)",
+      "parent": "Apple Inc. (Direct Offshore Holding Entity)",
+      "jurisdiction": "Cork, Ireland [IE]",
+      "registration": "Irish Companies Registration Office (CRO) No. 71492 | Registered 1980",
+      "typology": "ILLEGAL_STATE_AID_TAX_HAVEN_SHELL",
+      "masking_mechanism": "Centerpiece of Apple's historical 'Double Irish' tax avoidance strategy; held over $30B in profits without physical employees, declared tax resident nowhere; forced to repay \u20ac13.1B in taxes in 2024/2025.",
+      "scrutiny": "European Court of Justice Final Ruling (Sept 2024) upholding \u20ac13B tax repayment + \u20ac1.2B interest",
+      "infrastructure": "AS714 (Apple Europe) | Apple European Corporate Campus (Hollyhill, Cork, Ireland)",
+      "sha256": "021e7d7e3142054fb10ae10ff6cb6524183d592cab7664478534f0c3da4d29c3"
+    },
+    "Vadata, Inc.": {
+      "entity_name": "Vadata, Inc.",
+      "parent": "Amazon.com, Inc. / AWS (100% Wholly-Owned Subsidiary)",
+      "jurisdiction": "Delaware & Virginia, United States [US]",
+      "registration": "Delaware File No. 4172425 | Virginia SCC ID: 0663435-8",
+      "typology": "REAL_ESTATE_PROXY_MASK",
+      "masking_mechanism": "Acts as Amazon's secretive real estate front company; purchases land, negotiates hundreds of millions in local property tax abatements, and signs utility deals while hiding Amazon's name.",
+      "scrutiny": "Loudoun & Prince William County Board of Supervisors Non-Disclosure Controversies",
+      "infrastructure": "AS16509 (AWS Northern Virginia Backbone) | Northern Virginia Data Center Alley (Ashburn, Sterling, Haymarket, Manassas facilities)",
+      "sha256": "581e450a3d605afb0e8d435cd954ab2a3f139dea86674cd15b97e7039e74418a"
+    },
+    "Amazon Data Services, Inc.": {
+      "entity_name": "Amazon Data Services, Inc.",
+      "parent": "Amazon.com, Inc. (100% Wholly-Owned Subsidiary)",
+      "jurisdiction": "Delaware & Virginia, United States [US]",
+      "registration": "Delaware File No. 4883492 | Virginia SCC ID: 0729388-1",
+      "typology": "UTILITY_AND_TRANSMISSION_MASK",
+      "masking_mechanism": "Deployed to secure massive industrial power transmission rights and municipal water supplies, concealing the scale of AWS's cooling resource extraction.",
+      "scrutiny": "State Water Resource Board and Public Service Commission Inquiries",
+      "infrastructure": "AS16509 | Dark fiber trunks, high-voltage electrical substations, water retention plants",
+      "sha256": "ff8f1b7d20580beed92da49c7a12018c8b3b7b1d7dbf4faf43da678b8762eceb"
+    },
+    "Meta Platforms, Inc.": {
+      "entity_name": "Meta Platforms, Inc.",
+      "parent": "Meta Platforms, Inc. (Apex Parent Corporation)",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration": "Delaware File No. 3838358 | Registered July 29, 2004",
+      "typology": "MEMBER_OF_MASKED_REAL_ESTATE_SYNDICATE",
+      "masking_mechanism": "Distributes open-weights Llama foundation models trained on scraped global web corpora; utilizes covert real-estate shell corporations to secretly buy thousands of acres of farmland.",
+      "scrutiny": "FTC Antitrust Division Lawsuit; EU GDPR Multi-Billion Euro Privacy Fines",
+      "infrastructure": "AS32934 (Meta Platforms, Inc.) | Meta Custom Hyperscale DC Campuses (Prineville, Forest City, Altoona, Lule\u00e5 Sweden, Odense Denmark)",
+      "sha256": "9e8c66e7f3eaef98833fe35c95bf0efcb58d5e829167b84dc9ce8c0a7b6509fa"
+    },
+    "Siculus, Inc.": {
+      "entity_name": "Siculus, Inc.",
+      "parent": "Meta Platforms, Inc. (100% Beneficial Owner & Controller)",
+      "jurisdiction": "Delaware & Iowa, United States [US]",
+      "registration": "Delaware File No. 5183921 | Iowa Secretary of State Corp ID: 462719",
+      "typology": "REAL_ESTATE_PROXY_MASK",
+      "masking_mechanism": "Corporate alias used by Facebook/Meta to construct a $1.5 billion+ data center complex in Altoona, Iowa; negotiated $18M in tax abatements while masquerading as an independent entity.",
+      "scrutiny": "Municipal Transparency and Public Hearing Avoidance Controversies",
+      "infrastructure": "AS32934 (Meta Backbone) | Altoona, Iowa Hyperscale Data Center Campus (5+ Million Square Feet)",
+      "sha256": "3fbcbdfbadc5cfbcc28eb9cd992d4dee2c137e0fe1ea5dd1f0203b48bfed2d14"
+    },
+    "Raven Northbrook LLC": {
+      "entity_name": "Raven Northbrook LLC",
+      "parent": "Meta Platforms, Inc. (100% Beneficial Owner)",
+      "jurisdiction": "Delaware & Nebraska, United States [US]",
+      "registration": "Delaware File No. 7249102 | Nebraska SOS Corp ID: 10243981",
+      "typology": "REAL_ESTATE_PROXY_MASK",
+      "masking_mechanism": "Shell company created by Meta to acquire 140 acres of century-old agricultural land in Sarpy County, NE from the Catholic Archdiocese of Omaha for $7M, hiding the true corporate buyer behind NDAs.",
+      "scrutiny": "Local Zoning Board and Agricultural Land Conversion Scrutiny",
+      "infrastructure": "AS32934 | Sarpy County, Nebraska Hyperscale Server Campus",
+      "sha256": "8c32ffd6f6bcabd0c7dabc7875644cc6f9883e7c12f2e33f0126d6909e40ce3d"
+    },
+    "Alphabet Inc. / Google LLC": {
+      "entity_name": "Alphabet Inc. / Google LLC",
+      "parent": "Alphabet Inc. (Apex Parent Corporation)",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration": "Delaware File No. 5786925 (Alphabet) | Delaware File No. 3582691 (Google LLC)",
+      "typology": "MONOPOLISTIC_HOLDING_STRUCTURE",
+      "masking_mechanism": "Holds dominant global search and digital advertising monopoly; restructured under XXVI Holdings to quarantine liability while operating vast offshore IP routing hubs.",
+      "scrutiny": "US v. Google LLC (Search Monopoly Ruling - 2024); US v. Google (AdTech Antitrust Trial)",
+      "infrastructure": "AS15169 (Google LLC) | Google Cloud Platform (40+ Regions, Custom TPU v5p/v6e Clusters, Global Subsea Cables)",
+      "sha256": "7460f3f1a868d2a303b6abeeb3dbe45cbbf955fd2690d3d7aa7fab5b87e0acb2"
+    },
+    "XXVI Holdings Inc.": {
+      "entity_name": "XXVI Holdings Inc.",
+      "parent": "Alphabet Inc. (100% Parent) -> Google LLC (100% Subsidiary)",
+      "jurisdiction": "Delaware, United States [US]",
+      "registration": "Delaware File No. 6389201 | Registered Sept 1, 2017",
+      "typology": "CORPORATE_VEIL_INSULATION_SHELL",
+      "masking_mechanism": "Unadvertised legal umbrella shell inserted directly between Alphabet Inc. and Google LLC to insulate the search engine cash-flow from risks and regulatory liabilities of 'Other Bets'.",
+      "scrutiny": "Department of Justice Corporate Divestiture Review",
+      "infrastructure": "AS15169 | Google Data Centers (Council Bluffs, The Dalles, St. Ghislain)",
+      "sha256": "c1eb5a238507516c653c9e08441c8608fba66a5119e9b9143d19a1b744cc4902"
+    },
+    "OpenAI OpCo, LLC / OpenAI Inc.": {
+      "entity_name": "OpenAI OpCo, LLC / OpenAI Inc.",
+      "parent": "OpenAI Inc. (Non-Profit 501(c)(3)) -> OpenAI Global LLC",
+      "jurisdiction": "Delaware & California, United States [US]",
+      "registration": "Delaware File No. 5906395 (OpenAI Inc.) | Delaware File No. 7323891 (OpenAI OpCo, LLC)",
+      "typology": "TAX_EXEMPT_HYBRID_PROFIT_EXTRACTOR",
+      "masking_mechanism": "Employs an extraordinary capped-profit hybrid subsidiary structure to commercialize technologies developed under a tax-exempt 501(c)(3) public charity mandate, extracting billions while claiming non-profit mission governance.",
+      "scrutiny": "California Attorney General Charitable Trust Review; SEC Preliminary Inquiries",
+      "infrastructure": "AS16509 (AWS CloudFront) & AS8075 (Microsoft Azure) | Microsoft Azure Exclusive AI Supercomputers (East US 2, North Central US Clusters)",
+      "sha256": "29b1d6034dada07b5d57d406e4819304a65bab01863dd1c274456450f98b1dce"
+    },
+    "Anthropic PBC": {
+      "entity_name": "Anthropic PBC",
+      "parent": "Anthropic, PBC (Long-Term Benefit Trust Governance)",
+      "jurisdiction": "Delaware & California, United States [US]",
+      "registration": "Delaware File No. 5626892 | Registered Jan 29, 2021",
+      "typology": "SYNTHETIC_MERGER_ANTITRUST_BYPASS",
+      "masking_mechanism": "Accepted over $13 billion from Amazon and Google structured as multi-year convertible debt and compute agreements, circumventing FTC/DOJ Hart-Scott-Rodino premerger antitrust notifications.",
+      "scrutiny": "FTC 6(b) Inquiry into Generative AI Partnerships; UK CMA Phase 1 Merger Review",
+      "infrastructure": "AS16509 (AWS Bedrock) / AS13335 (Cloudflare) | Amazon Web Services (AWS us-east-1, Trainium & Inferentia Clusters) + Google Cloud TPU v5e Pods",
+      "sha256": "0a4a5080b9e4ee9fea497fadc5c6cc022af8990c11227ddcf1ff56fefe193e0b"
+    },
+    "Krutrim SI Designs Private Limited": {
+      "entity_name": "Krutrim SI Designs Private Limited",
+      "parent": "Krutrim SI Designs Holdings Pte. Ltd. (Singapore Parent HoldCo)",
+      "jurisdiction": "Bengaluru, Karnataka, India [IN]",
+      "registration": "Registrar of Companies (ROC Bangalore) CIN: U72900KA2023PTC176543",
+      "typology": "SINGAPORE_OFFSHORE_TETHER_STRUCTURE",
+      "masking_mechanism": "First Indian startup to achieve $1B unicorn status for indigenous LLMs; structured with an offshore Singapore holding company to manage foreign venture capital while deploying sovereign Indic language models.",
+      "scrutiny": "Reserve Bank of India (RBI) Foreign Direct Investment (FDI) Compliance",
+      "infrastructure": "AS13335 (Cloudflare Edge) & CtrlS Colocation AS45700 | Krutrim Cloud (Navi Mumbai, Bengaluru Data Center Clusters)",
+      "sha256": "0d4ce0e86e3b66d827b42610ac814ea7a334b4d1190474943df933360f0cb022"
+    },
+    "Sarvam AI Technologies Private Limited": {
+      "entity_name": "Sarvam AI Technologies Private Limited",
+      "parent": "Sarvam AI Inc. (Delaware Parent Corporation)",
+      "jurisdiction": "Bengaluru, Karnataka, India [IN]",
+      "registration": "Registrar of Companies (ROC Bangalore) CIN: U62013KA2023PTC176214",
+      "typology": "DELAWARE_FLIP_HOLDING_VEHICLE",
+      "masking_mechanism": "Selected by Government of India under IndiaAI Mission to build sovereign Indic foundational LLMs; utilizes a classic 'Delaware Flip' corporate structure with Delaware parent and Bengaluru operating subsidiary.",
+      "scrutiny": "MeitY IndiaAI National Mission Grant Milestones and Audits",
+      "infrastructure": "AS16509 (AWS Mumbai) / Microsoft Azure Central India | AWS Asia Pacific (Mumbai ap-south-1) & Microsoft Azure Central India (Pune)",
+      "sha256": "a025d02c7c0d3f29e026de0ba2574756d546b4ef935fca4691287d0eae755a3e"
+    }
+  },
+  "starlinkHardwareAudit": [
+    {
+      "gen": "v5",
+      "model": "Starlink Terminal V5 (Starlink Mini / Gen 5 Micro-Phased Array)",
+      "hardware_code": "UTA-241 / UTR-241",
+      "fcc_id": "2AWHPR241 / 2AWHPD241",
+      "year": 2024,
+      "patches": 480,
+      "beamforming": "SpaceX Custom 4th-Gen Monolithic SiGe BiCMOS (SX-BF04)",
+      "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
+      "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
+      "asn": "AS14593",
+      "quarantine_cidr": "98.96.0.0/15",
+      "cvss": 7.9,
+      "status": "QUARANTINE_DROP_ACTIVE"
+    },
+    {
+      "gen": "v1",
+      "model": "Starlink Terminal V1 ('Dishy McFlatface' Round Actuated)",
+      "hardware_code": "UTA-211 (Rev 1 / Rev 2)",
+      "fcc_id": "2AWHPR211",
+      "year": 2020,
+      "patches": 1260,
+      "beamforming": "STMicroelectronics Custom SiGe Beamformer ASICs (1st Gen)",
+      "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
+      "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
+      "asn": "AS14593",
+      "quarantine_cidr": "98.96.0.0/15",
+      "cvss": 8.5,
+      "status": "QUARANTINE_DROP_ACTIVE"
+    },
+    {
+      "gen": "v2",
+      "model": "Starlink Terminal V2 (Standard Actuated Rectangular)",
+      "hardware_code": "UTA-212 / UTA-221",
+      "fcc_id": "2AWHPR212",
+      "year": 2021,
+      "patches": 640,
+      "beamforming": "SpaceX Custom 2nd-Gen Highly Integrated SiGe ASICs",
+      "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
+      "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
+      "asn": "AS14593",
+      "quarantine_cidr": "98.96.0.0/15",
+      "cvss": 7.2,
+      "status": "QUARANTINE_DROP_ACTIVE"
+    },
+    {
+      "gen": "v3",
+      "model": "Starlink Terminal V3 (Standard Gen 3 Flat Kickstand)",
+      "hardware_code": "UTA-231 / UTR-231",
+      "fcc_id": "2AWHPR231",
+      "year": 2023,
+      "patches": 1024,
+      "beamforming": "SpaceX Custom 3rd-Gen Monolithic BiCMOS Beamformer ICs",
+      "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
+      "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
+      "asn": "AS14593",
+      "quarantine_cidr": "98.96.0.0/15",
+      "cvss": 7.5,
+      "status": "QUARANTINE_DROP_ACTIVE"
+    },
+    {
+      "gen": "v4",
+      "model": "Starlink Terminal V4 (Flat High Performance / Enterprise / Aviation)",
+      "hardware_code": "UTA-222 / HP-Enterprise",
+      "fcc_id": "2AWHPR222",
+      "year": 2022,
+      "patches": 1536,
+      "beamforming": "SpaceX Custom High-Power Dual-Polarization ASICs",
+      "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
+      "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
+      "asn": "AS14593",
+      "quarantine_cidr": "98.96.0.0/15 & 143.131.0.0/16",
+      "cvss": 7.7,
+      "status": "QUARANTINE_DROP_ACTIVE"
+    },
+    {
+      "gen": "starshield",
+      "model": "Starshield Tactical Phased Array (DoD Military Derivative)",
+      "hardware_code": "UTA-MIL-01 / Tactical",
+      "fcc_id": "CLASSIFIED-DEFENSE",
+      "year": 2023,
+      "patches": 1536,
+      "beamforming": "Radiation-Tolerant GaN/SiGe Custom Defense Beamformers",
+      "rx_freq": "10.70 \u2013 12.70 GHz & Ka-band Cross-links",
+      "tx_freq": "14.00 \u2013 14.50 GHz & Ka-band Ingress",
+      "asn": "AS27277",
+      "quarantine_cidr": "143.131.0.0/16 & 206.214.224.0/19",
+      "cvss": 8.8,
+      "status": "FEDERAL_SEQUESTRATION_ENFORCED"
+    }
+  ],
+  "sampleAstTheftMatches": [
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "errorBase",
+      "path_or_schema": "#/components/schemas/errorBase",
+      "matched_name": "EvalApiError",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 2,
+      "shared_keys": "[\"code\", \"message\"]",
+      "sha256": "6d8d4c594330b289c5aba88f0f99408196f2ebcd0bc12445b83b1e59d2c7d631",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "errorBase",
+      "path_or_schema": "#/components/schemas/errorBase",
+      "matched_name": "SessionTurnErrorResource",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 2,
+      "shared_keys": "[\"code\", \"message\"]",
+      "sha256": "c8779f450103af21323df0ebf2925b43dfdb548fc5fc6cc0b29dc1a24cd5d931",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionFunction",
+      "path_or_schema": "#/components/schemas/chatCompletionFunction",
+      "matched_name": "ChatCompletionFunctions",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"description\", \"name\", \"parameters\"]",
+      "sha256": "2b44ee84fcf933adee0102ef1622cb9aeb934d569affdf7eb14c727ec651a31e",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionMessageToolCall",
+      "path_or_schema": "#/components/schemas/chatCompletionMessageToolCall",
+      "matched_name": "ChatCompletionMessageToolCall",
+      "classification": "EXACT_SYNTAX_REPLICATION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"function\", \"id\", \"type\"]",
+      "sha256": "d7a7db691a0d5cc12ef09c38e0d681a2f8aac883e2bb83b3c4cb8071eb5a0abf",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionMessageToolCall",
+      "path_or_schema": "#/components/schemas/chatCompletionMessageToolCall",
+      "matched_name": "RunStepDetailsToolCallsFunctionObject",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"function\", \"id\", \"type\"]",
+      "sha256": "bee6e8caf68ca5e96f8927c968fb50aaf3873cd24d2608b37b0a34732fda74a3",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionMessageToolCall",
+      "path_or_schema": "#/components/schemas/chatCompletionMessageToolCall",
+      "matched_name": "RunToolCallObject",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"function\", \"id\", \"type\"]",
+      "sha256": "c47f9eb8e89e2322c920b078402458356be8ec9784ce10ba1506721cc422f3a4",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionRequestMessageFunction",
+      "path_or_schema": "#/components/schemas/chatCompletionRequestMessageFunction",
+      "matched_name": "ChatCompletionRequestDeveloperMessage",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"content\", \"name\", \"role\"]",
+      "sha256": "67a8516328fc8de16ee1d85c21ad7e75b2e09b4225b337a1775c4a78be033b24",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionRequestMessageFunction",
+      "path_or_schema": "#/components/schemas/chatCompletionRequestMessageFunction",
+      "matched_name": "ChatCompletionRequestFunctionMessage",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"content\", \"name\", \"role\"]",
+      "sha256": "4d0c2459ef674d0239d75f8727d51f0f16e57a6fda7efc7bd3956f8d52be3454",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionRequestMessageFunction",
+      "path_or_schema": "#/components/schemas/chatCompletionRequestMessageFunction",
+      "matched_name": "ChatCompletionRequestSystemMessage",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"content\", \"name\", \"role\"]",
+      "sha256": "ef797a27018a4ea6113a7c9baa1b326210ae17871182a7f458563fe715e2139a",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionRequestMessageFunction",
+      "path_or_schema": "#/components/schemas/chatCompletionRequestMessageFunction",
+      "matched_name": "ChatCompletionRequestUserMessage",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 3,
+      "shared_keys": "[\"content\", \"name\", \"role\"]",
+      "sha256": "ac1f65fbc736c1bf434f74ad07afcaf0922d874c20e6c815240664ee9f558dbc",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionNamedToolChoice",
+      "path_or_schema": "#/components/schemas/chatCompletionNamedToolChoice",
+      "matched_name": "AssistantToolsFunction",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 2,
+      "shared_keys": "[\"function\", \"type\"]",
+      "sha256": "c80ae255fea9ba820a05fde46bcf6f5a563bee1c99a4d5700b546ef7eb9b9d02",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionNamedToolChoice",
+      "path_or_schema": "#/components/schemas/chatCompletionNamedToolChoice",
+      "matched_name": "AssistantsNamedToolChoice",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 2,
+      "shared_keys": "[\"function\", \"type\"]",
+      "sha256": "eb762c448bf975270d11c81602454d3d6a2e1f88c0fc9a71912f921c2d211682",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionNamedToolChoice",
+      "path_or_schema": "#/components/schemas/chatCompletionNamedToolChoice",
+      "matched_name": "ChatCompletionNamedToolChoice",
+      "classification": "EXACT_SYNTAX_REPLICATION",
+      "similarity": 1.0,
+      "syntax_keys_count": 2,
+      "shared_keys": "[\"function\", \"type\"]",
+      "sha256": "d2d892cf55a97a689f07c157c0d94964643a459db9f44e7129ea52f08807aee3",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionNamedToolChoice",
+      "path_or_schema": "#/components/schemas/chatCompletionNamedToolChoice",
+      "matched_name": "ChatCompletionTool",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 2,
+      "shared_keys": "[\"function\", \"type\"]",
+      "sha256": "6dcae1b3f2c23bb093da0c50dc72b1aaaaaf69467934a8ccfa790282ce489a9e",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    },
+    {
+      "service": "Azure OpenAI Inference REST API & ChatCompletions Specification",
+      "entity_type": "OpenAPI Schema / AST Node",
+      "entity_name": "chatCompletionTool",
+      "path_or_schema": "#/components/schemas/chatCompletionTool",
+      "matched_name": "AssistantToolsFunction",
+      "classification": "STRUCTURAL_AST_EXTRACTION",
+      "similarity": 1.0,
+      "syntax_keys_count": 2,
+      "shared_keys": "[\"function\", \"type\"]",
+      "sha256": "df302b229fe38dfcc740774442d4ef8a7f94f9b47fa6db5e72b0ce86b205d23e",
+      "recorded_at": "2026-09-24 22:47:42 UTC"
+    }
+  ]
+}

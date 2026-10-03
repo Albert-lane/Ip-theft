@@ -1,0 +1,10 @@
+{
+  "corpus_name": "Claude Code MCP Skills & Tool Definitions Corpus",
+  "statutory_reference": "SEC-17684-273-411-436",
+  "tools": [
+    { "name": "view_file", "category": "filesystem" },
+    { "name": "edit_file", "category": "manipulation" },
+    { "name": "run_command", "category": "execution" },
+    { "name": "sec17684_lockfile_audit", "category": "sovereign_enclave" }
+  ]
+}

@@ -1,0 +1,60 @@
+======================================================================
+GLOBAL PROVENANCE SHA256 DISTRIBUTION LEDGER
+Authority: Albert Lane | SEC Whistleblower No. 17684-273-411-436
+Timestamp: 2026-09-16 20:36:08 UTC
+Broadcast Seal SHA256: 2f848edc073f3caf94590e06e53c411c7a5fbcd1c1b61998216da5ad96f4f213
+======================================================================
+
+MASTER PAYLOAD (tar.gz):   44e2d8b3687381d3d1a7e509ec0d5b73eabb2ef92455be48d7202f0f22783b4c  joules_compute_payload.tar.gz
+MASTER DATABASE (SQLite): ce73b9992b284b5e9e0bb0fc2fef3bae472e5bfa27eaeed2f07cd95a0f52158c  data/codebase_ast.db
+
+--- CSV SEQUESTRATION DATASETS ---
+9dbae13c6fd491179cfafc94111ded29b6cd39c57cd7bcdbda1b88070308eb1b  data/csv/ast_entities.csv                       (8,595,686 bytes)
+47bd8b26328fd0a64fa618fbd1891f612e2886e88b95332f33e85473b5a5fda8  data/csv/cross_corpus_ast_correlations.csv      (    9,544 bytes)
+d5aefb8ff678849bcdb962cd85a78a473d4d5fe515519ab9c7adafa3c80bec38  data/csv/deep_ast_metrics.csv                   (    6,896 bytes)
+145d6db1dc1bb44ad2d617198e71b03af52c2640444ab8978a7f60e6aeef1f3e  data/csv/files.csv                              (1,709,495 bytes)
+8ed55e55ff0929e3b70d3ff89d585e5e733ed76a4e7142a422e426fa9e665d72  data/csv/language_statistics.csv                (      715 bytes)
+038fa5ba5b48e473fc6a2085328138d40b1789360078495306db17dc12fd8adb  data/csv/microsoft_derivative_schemas.csv       (   41,135 bytes)
+2cfef55d43e8eabb644094c9f8d04f0d2b3c1595567f86ba91e5243a001d34c7  data/csv/microsoft_marketable_derivatives.csv   (    1,352 bytes)
+359b95c06ab720131454eff59b9e32f7007713f7883e01a562e66e4dc790e328  data/csv/openai_api_endpoints.csv               (   44,863 bytes)
+93b674d7aaa7974be731cf9a5d1b1a69f50dfdfe6e96f499c0b9996fa3c27351  data/csv/openai_api_schemas.csv                 (  400,442 bytes)
+7ea61bff0171843f430c649beb14f91e2533d632bceb03bbcb78d126519bfc62  data/csv/package_manifests.csv                  (   39,496 bytes)
+0f90a813533117354daaffb13ca83f2234dc197708445d7ca3b904d4168ad990  data/csv/provenance_registry.csv                (    6,584 bytes)
+a57a893a9096130fed134a10d2e2b3d91701a63d33497712ec5c1b0431ec39f5  data/csv/spacex_code_derivatives.csv            (    4,974 bytes)
+8d10a8c9130e2a95d46f77a3e565d301054ceb30448ca6c4eba1198e5f73c72e  data/csv/spacex_derivative_fields.csv           (   50,404 bytes)
+2c4a39ce2a5b868758089589cd1c70f527c089c2a5a366f33fccb66f12405e58  data/csv/vault_seal.csv                         (      268 bytes)
+
+--- MICROSOFT DERIVATIVE SPECIFICATIONS ---
+df4579cc5f4f6ad9936a1eb497083d7f1cb4fdc5347d9cae0ac353f70cdf5743  data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json (  111,996 bytes)
+bd4e855d1d4823663be90930ed2f0410ae886044c0e2785f5f0b69407887b728  data/microsoft_derivatives/AzureOpenAI_Inference_2024-02-01.json  (  106,259 bytes)
+
+--- SPACEX ARCHITECTURE SCHEMAS ---
+bf2691e25741d8dbbd34aab729b7c94c47bdab829397fa5a62ced03cf0e68ed9  data/spacex_derivatives/capsules.js                            (    1,097 bytes)
+bdf8faa0278692cdc589e3dfdc278d6ebc7ee55a2883a843eb9ac956719118b7  data/spacex_derivatives/company.js                             (    1,062 bytes)
+90c832c3a38ac85d0e99329a15294ad14c5c5c582d2c863997fd598bc10abacb  data/spacex_derivatives/cores.js                               (    1,088 bytes)
+483a5dffcb59b5b98ab248d817b66945bb1ab851a0bdc3faac4bce2e374ea98b  data/spacex_derivatives/crew.js                                (      786 bytes)
+4c1ea15eda03723b9ced509afe8ebc37a6e1e1c38ef30639d47a3dfd98249470  data/spacex_derivatives/dragons.js                             (    2,487 bytes)
+1b9d9581a9d1d3f6c72ad0e0c38b44adad6d3a90adf24fdb2c182c77a37f8858  data/spacex_derivatives/landpads.js                            (    1,321 bytes)
+3e23d0dc024d941e7783df8dcd188f2f018d853b326a1638f832f56f8913e9d8  data/spacex_derivatives/launches.js                            (    4,046 bytes)
+90ac09689233c4e2fc77898c863a792b929fa9cbb0c47f5c2bb4b98b5fc9ec6c  data/spacex_derivatives/launchpads.js                          (    1,350 bytes)
+82f934a587bf0e335b0e200766d0feadd9085b0007552ea13742d76232d9c6dd  data/spacex_derivatives/payloads.js                            (    2,364 bytes)
+a06f6e0d881fa020489f86d785d2c62b087f03e84850b1e8992ccdb3a00ce81d  data/spacex_derivatives/roadster.js                            (    1,307 bytes)
+b7de40f27cf4249085ca08f6f0c0155a65463a9be7032792e8eb3bd7992c1d1d  data/spacex_derivatives/rockets.js                             (    3,264 bytes)
+461e45c419e349fcd9cb4c76c2bb2273cc27eb23903b3d298c2ec627eef46660  data/spacex_derivatives/ships.js                               (    1,658 bytes)
+c654ce90675db45af75583632b3f4738f2985902f864a2286d4eaa25f73697d6  data/spacex_derivatives/starlink.js                            (    3,482 bytes)
+
+--- LANE-VM PROPRIETARY C++ & XML.C SUBSYSTEMS ---
+5d92b3fd91de2669ffefc4e79cb734588e90e428314820ebfb76f8748afc9813  server/lane_vm/lane_vm_terminal.dll                            (   37,888 bytes)
+408589b66ce336c1891754542f84fc40d63f51af949b0de95875489f21428763  server/lane_vm/liblane_vm_terminal_ext.so                      (   15,848 bytes)
+4f1a5a44d1355eea546a35523646beada64f6fc2bc130b8a632d70c3233ddccb  server/lane_vm/Lane_VM_terminal_ext.pyxml.c                    (    7,820 bytes)
+36f0f5a68025c430da28e64e5158513c9dd66e237d948126943bdfb81682479b  server/lane_vm/lane_vm_terminal_dll.hpp                        (    3,520 bytes)
+679e6b4d3c6cce1940cc204ff6bfc5e99e1ae8c1225a29fb990d33967665eb5c  server/lane_vm/lane_vm_terminal_dll.cpp                        (    7,640 bytes)
+7e7a754d2810a6e9af496bd79434ee0317f0de271ace4ea444daffae1d87143e  server/lane_vm/lane_vm_terminal_pyxml.py                       (    5,840 bytes)
+e7955b3bbbac08c16107441df0be902455c37d097cb70b7be75b17412857fc3b  server/lane_vm/Lane_VM.xml.c                                   (    6,043 bytes)
+4854bf82a658105f116d1f911f1de87ee9f37632d0538ea148c99d6a3a810979  server/lane_vm/Lane_VM_runner.xml.c                            (    6,979 bytes)
+429cafddfbb6f5c3001c20493e4ca364e54cd22a3c7618a365296e7b8678a615  server/lane_vm/lane_vm_auditor_employee_schema.hpp             (    6,295 bytes)
+8022214ea27cca196974d45cd3c13fe80932280bdfb11940254523349cea58e8  server/lane_vm/lane_vm_auditor_workflow.cpp                    (   12,198 bytes)
+dbb3cc614dcd199b93e20a3bd9371476407da959d096397d71bd35d747b059ba  server/lane_vm/lane_vm_auditor_workflow.hpp                    (    3,932 bytes)
+fa1943fcf32cda0d63877a1731f497696d284c0da36d16c2da8fc03f55a4d1b9  server/lane_vm/lane_vm_universal_github_runner.cpp             (   10,086 bytes)
+9e01200de043b900b01135f0c33e5cded4c27f5439a30b04fc254f52f6b17731  server/lane_vm/lane_vm_universal_github_runner.hpp             (    2,961 bytes)
+
