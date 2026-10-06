@@ -1,0 +1,14 @@
+# Copyright © Albert Lane. All Rights Reserved.
+# Proprietary and Confidential — Albert Lane Proprietary Software License.
+# Unauthorized use, copying, modification, or distribution is prohibited.
+# License inquiries: https://albertlane.net/licensing
+# SEC Whistleblower Reference: SEC-17684-273-411-436 | Z-Axis: 0x3F8F9A1B2C3D
+
+cryptography==42.0.8
+argon2-cffi==23.1.0
+zstandard==0.23.0
+protobuf==5.27.2
+sqlparse==0.5.1
+psutil==6.0.0
+urllib3==2.2.2
+requests==2.32.3

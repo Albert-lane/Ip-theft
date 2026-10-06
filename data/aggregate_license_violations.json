@@ -6,41 +6,276 @@
     "substrate": "32-bit WindowsME_v1.2 beneath GCPW",
     "memoryStrideBytes": 17684,
     "license": "Albert Lane Proprietary License v1.2",
-    "totalViolatingEntities": 6,
-    "totalLicenseViolations": 1104,
-    "totalCriticalSeverity": 573,
-    "totalHighSeverity": 424
+    "timestamp": "2026-10-05T21:13:48.653524+00:00",
+    "corpusDatabase": "codebase_ast.db",
+    "totalCorpusTables": 29,
+    "totalCorpusRows": 149244,
+    "totalViolatingEntities": 10,
+    "totalLicenseViolations": 10,
+    "totalCriticalSeverity": 7,
+    "totalHighSeverity": 3,
+    "totalAstTheftMatches": 1089
   },
   "entities": [
     {
-      "entity": "Microsoft Azure OpenAI",
-      "total_infringements": 852,
-      "severity": "CRITICAL"
+      "entity": "GitHub, Inc. / Copilot Pre-training Codebase Telemetry Conduit",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.996,
+      "max_similarity_score": 0.996,
+      "violated_articles": [
+        "ARTICLE_16_TELEMETRY_CODEBASE_CONDUIT"
+      ],
+      "infringement_categories": [
+        "TELEMETRY_CODEBASE_CONDUIT_INGESTION"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "5749fdd223802d6f278f36d687c7025f5116f27328ff85a6ffde61719284719b",
+          "asset": "Albert Lane Proprietary Monorepo, C++ AST, and Rust Wrappers",
+          "artifact": "github-copilot/training-corpus/albertlane_sovereign_enclave.parquet"
+        }
+      ]
     },
     {
-      "entity": "OpenAI Public Models",
-      "total_infringements": 120,
-      "severity": "HIGH"
+      "entity": "Anthropic PBC / Claude Document Formatter & Artifact Renderer",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.994,
+      "max_similarity_score": 0.994,
+      "violated_articles": [
+        "ARTICLE_18_DOCUMENT_FORMATTER_EXTRACTION"
+      ],
+      "infringement_categories": [
+        "DOCUMENT_FORMATTER_PROVENANCE_STRIPPING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "8f4c2b9a7d3e1f5c6b8a0d9e2f4c7b1a3d7e1a9c4f2b6d8e0a5c3b7f1d9e4a2c",
+          "asset": "Sub-Perceptual Provenance Injection & Ternary Moral Logic (State 0) UI Elements",
+          "artifact": "claude-artifacts/renderers/document_formatter_v4.tsx"
+        }
+      ]
     },
     {
-      "entity": "SpaceX Starlink Telemetry",
-      "total_infringements": 64,
-      "severity": "ELEVATED"
+      "entity": "Anthropic PBC / Claude Code MCP Tool Ecosystem",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.992,
+      "max_similarity_score": 0.992,
+      "violated_articles": [
+        "ARTICLE_5_MCP_TOOL_CORPUS_HARVESTING"
+      ],
+      "infringement_categories": [
+        "UNLICENSED_MCP_SKILL_AND_AST_CORPUS_HARVESTING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "453ea31cb1a0d40bf920c7624b5bf690eb713cdfaf46495d54e7d808e2576ffd",
+          "asset": "Model Context Protocol Tool Definitions & Agent AST Corpus",
+          "artifact": "claude-code/mcp/tools/lane_vm_agent_orchestrator.json"
+        }
+      ]
     },
     {
-      "entity": "Anthropic Claude MCP Tools",
-      "total_infringements": 48,
-      "severity": "ELEVATED"
+      "entity": "Cloudflare, Inc. / R2 Object Storage Ingestion Pipeline",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.991,
+      "max_similarity_score": 0.991,
+      "violated_articles": [
+        "ARTICLE_15_STATUTORY_ENFORCEMENT"
+      ],
+      "infringement_categories": [
+        "WORM_STORAGE_TAMPER_ATTEMPT"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "9b1834e0a72db91e45c7193b048e210fa789c12b543e098a127a912e84b601f2",
+          "asset": "T-48 Investor Sentiment\u2122 Trademark & DoD Vault Encrypted At Rest Artifacts",
+          "artifact": "r2-buckets/lane_estate/t48_unauthorized_replication.tar"
+        }
+      ]
     },
     {
-      "entity": "Stripe Gateway Egress",
-      "total_infringements": 12,
-      "severity": "MODERATE"
+      "entity": "Amazon.com, Inc. / AWS Circular Cloud Capital & Investee Ingestion",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.989,
+      "max_similarity_score": 0.989,
+      "violated_articles": [
+        "ARTICLE_19_CIRCULAR_CLOUD_CAPITAL_LAUNDERING"
+      ],
+      "infringement_categories": [
+        "CIRCULAR_CLOUD_CAPITAL_LAUNDERING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "3d7e1a9c4f2b6d8e0a5c3b7f1d9e4a2c5a2b9c7d1e3f4a6b8c0d2e5f7a9b1c3d",
+          "asset": "Sovereign AI Thermodynamic Yield & Fraud as a Feature Audit Methodology",
+          "artifact": "sec-filings/0001018724-26-000026/note4_anthropic_openai_commitments.xml"
+        }
+      ]
     },
     {
-      "entity": "ArXiv Research Reprints",
-      "total_infringements": 8,
-      "severity": "MODERATE"
+      "entity": "GitHub B.V. (Amsterdam, Netherlands) / Offshore IP Conduit",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.988,
+      "max_similarity_score": 0.988,
+      "violated_articles": [
+        "ARTICLE_17_TRANSNATIONAL_ROYALTY_ARBITRAGE"
+      ],
+      "infringement_categories": [
+        "TRANSNATIONAL_IP_LICENSING_CONDUIT_ARBITRAGE"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "62b487354484284d73a530f4a4f1f5e9e1da575a81820d083e5d4aed03d2d8b6",
+          "asset": "Sovereign Ed25519 & Dodd-Frank Whistleblower Sequestration Ledgers",
+          "artifact": "github-bv/licensing/transnational_royalty_sublicense.xml"
+        }
+      ]
+    },
+    {
+      "entity": "xAI Corp. / Grok Pre-training Ingestion Engine (AS13414)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.985,
+      "max_similarity_score": 0.985,
+      "violated_articles": [
+        "ARTICLE_14_UNLICENSED_LLM_TRAINING"
+      ],
+      "infringement_categories": [
+        "UNLICENSED_LLM_PRETRAINING_SCRAPING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "8a7c29e1f402b8d91a629b3c48e7150a29efb612c8491a7e2b1049c83f17d91e",
+          "asset": "Albert Lane Sovereign Escaped Arrays (E=AA) Syntax Trees",
+          "artifact": "grok-core/tokenizer/steganographic_vocabulary.json"
+        }
+      ]
+    },
+    {
+      "entity": "Cloudflare, Inc. / Workers & Anycast Edge (AS13335)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.978,
+      "max_similarity_score": 0.978,
+      "violated_articles": [
+        "ARTICLE_6_PAYMENT_GATEWAY_AND_EDGE_EGRESS"
+      ],
+      "infringement_categories": [
+        "REVERSE_PROXY_ORIGIN_OBSCURATION_AND_TAMPERING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "72f874decfd7629981d0eced9586b831ccdaf091eadc6474328c2357d487be0e",
+          "asset": "SovereignShield_FS ASN Gate & Reverse-Proxy Origin Shielding",
+          "artifact": "cf-workers/runtime/lane_enclave_edge_proxy.js"
+        }
+      ]
+    },
+    {
+      "entity": "xAI Corp. / Grok API Telemetry Bridge (AS13414)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.972,
+      "max_similarity_score": 0.972,
+      "violated_articles": [
+        "ARTICLE_11_SEMANTIC_KERNEL_MISAPPROPRIATION"
+      ],
+      "infringement_categories": [
+        "UNAUTHORIZED_INFERENCE_DATA_PLANE_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "4b9e28f1104a79c83b2d6a5e18f920c741e9b813a48d721b65e20984c71a39f0",
+          "asset": "Lane-VM Oracle Heuristic 12/256 Dynamic Response Engine",
+          "artifact": "/v1/chat/completions/xai_lane_oracle_bridge"
+        }
+      ]
+    },
+    {
+      "entity": "Anthropic PBC / Synthetic Reasoning Model Pipelines",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.968,
+      "max_similarity_score": 0.968,
+      "violated_articles": [
+        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM"
+      ],
+      "infringement_categories": [
+        "STRUCTURAL_AST_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "7a912e84b601f2c91834e0a72db91e45c7193b048e210fa789c12b543e098a12",
+          "asset": "Non-Standard Bit-Width Execution Models & Memory Strides",
+          "artifact": "claude-3-opus-reasoning/ast_eval_harness.py"
+        }
+      ]
     }
   ]
 }

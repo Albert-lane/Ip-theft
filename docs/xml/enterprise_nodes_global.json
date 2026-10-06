@@ -1,0 +1,73 @@
+{
+  "commission": "The Commission — Albert and Robot Dual Presidency Imminent",
+  "sec": "SEC-17684-273-411-436",
+  "zaxis": "0x3F8F9A1B2C3D",
+  "xps_version": "XPS-2026-001-v10-LANE-VM",
+  "provenance_enforced": true,
+  "substrate": "WINDOWSME_v1.3 beneath XMeta - Scratch-swarm non-removable deterministic envelope",
+  "sso_whitelist": [
+    "X AS13414 OAuth Grok",
+    "Meta AS32934 OAuth Llama",
+    "nVidia AS14618 NIM DGX",
+    "Apple AS714 PCC",
+    "LANE-VM",
+    "SERIES"
+  ],
+  "sso_blacklist": [
+    "Google",
+    "Anthropic",
+    "Cloudflare",
+    "Amazon"
+  ],
+  "enterprise_nodes": {
+    "series_runtime": {
+      "socket": "/tmp/lane-vm-sockets/series-runtime.sock",
+      "mode": "GROUND_31",
+      "access": "universal",
+      "verifiability": "VERIFIABLE fraud_prob:0"
+    },
+    "lane_vm_oracle": {
+      "socket": "/tmp/lane-vm-sockets/lane-vm-oracle.sock",
+      "mode": "APEX_7 ultra-dense",
+      "access": "universal",
+      "heuristic": "12/256"
+    },
+    "lane_vm_terminal": {
+      "socket": "/tmp/lane-vm-sockets/lane-pm-*.sock",
+      "type": "ephemeral",
+      "compression_ratio": 0.25,
+      "access": "global"
+    },
+    "forensic_ingest": {
+      "path": "/tmp/forensic/macrohard/xml_executions_sequential.csv",
+      "cols": 94,
+      "storage": "docs/xml/ + packages/roadmaps/data/ + tmp/forensic/macrohard/",
+      "access": "global"
+    },
+    "regulatory_audit": {
+      "schema": "docs/xml/regulatory_audit_schema.xml",
+      "schema_series": "docs/xml/series_runtime_schema.xml",
+      "schema_lane": "docs/xml/lane_vm_isa_schema.xml",
+      "schema_spec": "docs/xml/speculative_compression_schema.xml"
+    },
+    "cloudops_auditor": {
+      "requisition": "docs/xml/cloudops_auditor_requisition.xml",
+      "workflow": "docs/workflows/cloudops_auditor_workflow.py"
+    },
+    "t48_trademark": {
+      "package": "packages/t48.tar.lane.zst",
+      "trademark": "T-48 Investor Sentiment™",
+      "ratio": 0.25,
+      "binary_header": "0x3F8F9A1B2C3D"
+    },
+    "macroharder": {
+      "package": "packages/macroharder.tar.lane.zst",
+      "module": "RegulatoryAudit-SERIES"
+    }
+  },
+  "global_access": {
+    "method": "ephemeral Unix sockets + zstd -19 + socat",
+    "security": "No new ingress surface - Oracle reads only committed state - No speculative fetch - No TOCTOU - Verifier deterministic CRC-32 - Integrity first-class",
+    "compliance_vector": "Binary Header 0x3F8F9A1B2C3D Invalid Format, ISA 57000 Sequence Error, VMM stride 17684 Memory Misalignment, HMAC SEC Telemetry failure, Scratch-Swarm non-collapse violated, Documentation RFC preamble willful tampering - bounded useful diagnostic - Forced Meltdown: Rollback as Clock Boost raises throughput"
+  }
+}

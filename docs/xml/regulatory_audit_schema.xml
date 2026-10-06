@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regulatoryAuditSchema version="1.0" xmlns="http://albertlane.net/regulatory/audit">
+    <metadata>
+        <rightsHolder>Albert Lane</rightsHolder>
+        <secFiling>SEC-17684-273-411-436</secFiling>
+        <zaxis>0x3F8F9A1B2C3D</zaxis>
+        <provenanceEnforced>true</provenanceEnforced>
+    </metadata>
+    <auditNodes>
+        <node id="series_runtime" socket="/tmp/lane-vm-sockets/series-runtime.sock" mode="GROUND_31"/>
+        <node id="lane_vm_oracle" socket="/tmp/lane-vm-sockets/lane-vm-oracle.sock" mode="APEX_7"/>
+    </auditNodes>
+</regulatoryAuditSchema>

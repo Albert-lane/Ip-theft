@@ -509,8 +509,17 @@ def main():
     parser.add_argument("--dynamic-manifest", action="store_true", help="Generate dynamic manifests from python engines writing to proprietary C/C++")
     parser.add_argument("--attestation", action="store_true", help="Print Universal C++ Certified Execution Report")
     parser.add_argument("--verify", action="store_true", help="Verify enforced memory encryption and lockfile")
+    parser.add_argument("--history", help="Extract and audit lineage of AI Studio application URL")
+    parser.add_argument("--pull-history", help="Alias for --history")
     parser.add_argument("--lockfile", default=LOCKFILE_APEX, help="Apex lockfile path")
     args = parser.parse_args()
+
+    if args.history or args.pull_history:
+        url = args.history or args.pull_history
+        script_path = os.path.join(WORKSPACE_ROOT, "scripts/sec_aistudio_history_extractor.py")
+        subprocess.run(["python3", script_path, "--url", url])
+        return
+
 
     pm = ProprietaryPackageManagerOfPackageManagers()
     manifest = pm.generate_dynamic_manifest()

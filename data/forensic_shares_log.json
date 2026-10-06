@@ -1,0 +1,24 @@
+[
+  {
+    "share_url": "https://copilot.microsoft.com/shares/yAeQ1zHpPJsq8H2b51NPE",
+    "source_platform": "Microsoft Copilot / Bing Chat Enterprise / OpenAI API Proxy",
+    "timestamp": "2026-10-05T14:02:00-07:00",
+    "email_artifact": {
+      "subject": "Python Terminal Use Unauthorized",
+      "from": "Albert <lane.albert.device@gmail.com>",
+      "to": "lane.albert@pm.me , gmail@albertlane.net",
+      "date": "10/5/26 14:02"
+    },
+    "tool_extracted": "scripts/allicensecli.py",
+    "governing_license": "Albert Lane Microsoft-Plus Proprietary Software License",
+    "license_ref": "AL-MICROSOFT-PLUS",
+    "license_url": "https://albertlane.net/licensing",
+    "sec_whistleblower_no": "SEC-17684-273-411-436",
+    "immutable": true,
+    "audit_summary": {
+      "files_scanned": 417,
+      "violations_flagged": 41,
+      "metadata_missing_flagged": 2
+    }
+  }
+]

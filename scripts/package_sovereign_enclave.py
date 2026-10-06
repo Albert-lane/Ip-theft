@@ -190,14 +190,20 @@ License: Albert Lane Proprietary License v1.2
     with tarfile.open(tar_name, "w:gz") as tar:
         tar.add(staging_dir, arcname="albert-lane-sovereign-enclave")
 
-    # 12. Compile 7zip at maximum LZMA2 compression (Ultra - level 9)
+    # 12. Compile 7zip / LZMA2 archive at maximum compression
     sevenz_name = "albert-lane-sovereign-enclave.7z"
     print(f"[+] Creating 7zip archive at max LZMA2 compression: {sevenz_name}...")
     if os.path.exists(sevenz_name):
         os.remove(sevenz_name)
     
-    # We call 7z command to execute native lzma2 compression
-    subprocess.run(["7z", "a", "-t7z", "-m0=lzma2", "-mx=9", sevenz_name, staging_dir], stdout=subprocess.DEVNULL)
+    # Try 7z binary if present, else use native Python lzma tar stream
+    if shutil.which("7z"):
+        subprocess.run(["7z", "a", "-t7z", "-m0=lzma2", "-mx=9", sevenz_name, staging_dir], stdout=subprocess.DEVNULL)
+    else:
+        # Create LZMA-compressed archive natively
+        with tarfile.open(sevenz_name, "w:xz", preset=9) as lz_tar:
+            lz_tar.add(staging_dir, arcname="albert-lane-sovereign-enclave")
+
 
     # Clean up staging directory
     shutil.rmtree(staging_dir)

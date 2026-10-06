@@ -1,0 +1,7 @@
+{
+  "_license": "Copyright © Albert Lane. All Rights Reserved. Albert Lane Proprietary Software License. https://albertlane.net",
+  "name": "GhostGate Forensic Audit & Whistleblower Intelligence Suite",
+  "description": "Enterprise-grade forensic audit, IP theft & whistleblower case management with cryptographic provenance and real-time offline sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,2738 @@
+{
+  "audit_id": "d24522e2-ed93-40c9-9ba2-bd3139e4229e",
+  "generated_at": "2026-10-05T21:11:46.376516Z",
+  "copilot_share_source": "https://copilot.microsoft.com/shares/yAeQ1zHpPJsq8H2b51NPE",
+  "email_metadata": {
+    "subject": "Python Terminal Use Unauthorized",
+    "from": "Albert <lane.albert.device@gmail.com>",
+    "to": "lane.albert@pm.me , gmail@albertlane.net",
+    "date": "10/5/26 14:02"
+  },
+  "files": [
+    {
+      "path": ".github/workflows/alberthub_ip_protection.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": ".github/workflows/apply_provenance.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": ".github/workflows/debugger.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": ".github/workflows/header_append.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": ".github/workflows/repair.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": ".gitignore",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "Cargo.lock",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "Cargo.toml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "Dockerfile.joules",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "LICENSE.md",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "LICENSE_EAA.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "LICENSE_MACROHARD.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "LICENSE_VIOLATIONS_CHRONOLOGICAL_REGISTRY.txt",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "License_Live.md",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "PROVENANCE.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "SECURITY.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "XPS.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "agent.tex",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "agent/AGENTS.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agent/agent.yaml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agent/requirements.txt",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agent/skills/data-explorer/SKILL.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agent/skills/python-data/SKILL.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agent/skills/reporting/SKILL.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agent/skills/reporting/scripts/build_report.py",
+      "hasal": false,
+      "detected": [
+        "Licensed under the Apache License"
+      ]
+    },
+    {
+      "path": "agent/skills/visualization/SKILL.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agent/skills/visualization/scripts/make_chart.py",
+      "hasal": false,
+      "detected": [
+        "Licensed under the Apache License"
+      ]
+    },
+    {
+      "path": "agents/AGENTS_MANIFEST.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agents/anthropic_claude_agent.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agents/google_gemini_agent.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agents/lane_vm_master_agent.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agents/lane_vm_master_blending_matrix.md",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "agents/meta_llama_agent.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agents/microsoft_copilot_agent.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agents/nvidia_nim_agent.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "agents/openai_gpt_agent.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "build_dataset.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "bun.lock",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "cloudops.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "create_monorepo_tarball.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "csv.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/LICENSE_VIOLATIONS_TIME_ORDERED_SEQUENCE.txt",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/MASTER_IP_VIOLATIONS_FORENSIC_LOG.md",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/agents_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/aggregate_license_violations.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/aistudio_history_1fa7a9ee-c434-49b4-bd13-19b931bb9220.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/aistudio_history_1fa7a9ee-c434-49b4-bd13-19b931bb9220_manifest.md",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/amazon_q2_2026_audit_draft.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/american_flag_header.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/arxiv/corpus_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/arxiv/exhibits_and_fcc_sec_petition.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/arxiv/forensic_reconstruction_z_axis.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/arxiv/joules_supply_chain_conjecture.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/arxiv/sovereign_forensic_audit_sleeve.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/arxiv/whitepaper_elasticity_spacetime.md",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/ast_analysis.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/automated_cease_and_desist_notice.md",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/consolidated_derivatives_license_manifest.json",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/consolidated_derivatives_license_manifest.md",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/corpus_200mb_audit_report.json",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/ast_entities.csv",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "CC0",
+        "Zlib",
+        "\\bMIT\\b"
+      ]
+    },
+    {
+      "path": "data/csv/cross_corpus_ast_correlations.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/deep_ast_metrics.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/endpoint_license_violations_log.csv",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/files.csv",
+      "hasal": false,
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "data/csv/global_corporate_entities_intelligence.csv",
+      "hasal": false,
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ]
+    },
+    {
+      "path": "data/csv/ip_defense_blocklist.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/ip_license_violations.csv",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/ip_meta_archives.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/ip_opensource_analysis.csv",
+      "hasal": false,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bApache-2\\.0\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "data/csv/ip_repositories_audit.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/language_statistics.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/mcp_ast_correlations.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/mcp_corpus_schemas.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/mcp_skills_tools.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/microsoft_corpus_documents.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/microsoft_databases_audit.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/microsoft_derivative_schemas.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/microsoft_ip_theft_matches.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/microsoft_marketable_derivatives.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/openai_api_endpoints.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/openai_api_schemas.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/package_manifests.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/provenance_registry.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/shell_and_fraudulent_structures_listing.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/spacex_code_derivatives.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/spacex_derivative_fields.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv/starlink_terminals_audit.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv/vault_seal.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/ast_entities.json",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "CC0",
+        "Zlib",
+        "\\bMIT\\b"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/cross_corpus_ast_correlations.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/deep_ast_metrics.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/endpoint_license_violations_log.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/files.json",
+      "hasal": true,
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/global_corporate_entities_intelligence.json",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/ip_defense_blocklist.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/ip_license_violations.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/ip_meta_archives.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/ip_opensource_analysis.json",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bApache-2\\.0\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/ip_repositories_audit.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/language_statistics.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/mcp_ast_correlations.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/mcp_corpus_schemas.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/mcp_skills_tools.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/microsoft_corpus_documents.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/microsoft_databases_audit.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/microsoft_derivative_schemas.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/microsoft_ip_theft_matches.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/microsoft_marketable_derivatives.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/openai_api_endpoints.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/openai_api_schemas.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/package_manifests.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/provenance_registry.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/shell_and_fraudulent_structures_listing.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/spacex_code_derivatives.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/spacex_derivative_fields.json",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/csv_json_mirror/starlink_terminals_audit.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/csv_json_mirror/vault_seal.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/hourly_recursive_sync_manifest.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/hypervisor_audit.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/hypervisor_checkpoint.json",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/hypervisor_datpa_audit_trace.json",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/hypervisor_dual_vm_deployment.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/lane_vm_doj_refusal_audit.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/lane_vm_doj_refusal_audit.xml",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/manifest_py_cpp_dynamic.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/mcp_corpus/claude_code_mcp_skills_corpus.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/mcp_corpus/mcp_specification_schema.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/AzureCognitiveSearch_VectorStore_2024.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/AzureCosmosDB_DocumentDB_REST_2020.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/AzureOpenAI_Inference_2024-02-01.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/AzureSQL_Database_Engine_REST_2021.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/Microsoft_Copilot_Studio_Agent_AST.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/Microsoft_Graph_Copilot_AI_Endpoints.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/microsoft_derivatives/Microsoft_SemanticKernel_Core_AST.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/nvidia_universal_matrix_manifest.json",
+      "hasal": false,
+      "detected": [
+        "\\bBSD\\b"
+      ]
+    },
+    {
+      "path": "data/object_storage/blobs/american_flag_letterhead.aa.blob",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/object_storage_flag_header.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/openai_corpus/openai_openapi.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/report.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/repository_metrics.json",
+      "hasal": false,
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "data/sec_numbers_package_manager.lock.json",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "data/sec_package_manager_gist.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/sec_push_stream_receipt.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/serial_dual_vm_deployment.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/sovereign_document_schema.html",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/sovereign_shield_architecture.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/sovereign_vault_sample.enc",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/capsules.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/company.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/cores.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/crew.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/dragons.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/landpads.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/launches.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/launchpads.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/payloads.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/roadster.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/rockets.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/ships.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/spacex_models_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/spacex_derivatives/starlink.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "data/webhook_delivery_log.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "data/webhook_status.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "deploy.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "deploy_t48_vault.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "docker-compose.joules.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "docker-compose.node1.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "docker-compose.node2.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "docker-compose.yml",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "docs/LANE_VM_ARCHITECTURAL_DETERMINISM_PAPER.md",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "docs/xml/enterprise_nodes_global.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "docs/xml/regulatory_audit_schema.xml",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "encrypted_agent.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "entrypoint.sh",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "eslint.config.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "flag_header.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "ghost_gate_loader.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "global_query.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/Makefile",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_audit_datpa.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_audit_datpa.h",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_log.c",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_log.h",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_mm.c",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_mm.h",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_platform.c",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_platform.h",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_sched.c",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_sched.h",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_traps.c",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_traps.h",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_vm.c",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/hv_vm.h",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "hypervisor/main.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "index.css",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "index.html",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "lane-pm",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "lane_vault_dod_v9.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "lane_vm_terminal.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "license.md",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "manifest.py.cpp",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "metadata.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "package-lock.json",
+      "hasal": false,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "CC-BY",
+        "Zlib",
+        "\\bApache-2\\.0\\b",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "package.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "packages/t48/src/t48_sentiment.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "public/License_Live.md",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "public/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "public/albert-lane-sovereign-enclave.7z.sha256",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "public/albert-lane-sovereign-enclave.tar.gz.sha256",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "public/sovereign-enclave-monorepo.sha256",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scrape_gemini.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/aggregate_escalation_referral.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/aggregate_violations_and_cease_desist.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/albert_escaped_arrays.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/alberthub_engine.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/allicensecli.py",
+      "hasal": true,
+      "detected": [
+        "Boost Software License",
+        "CC-BY",
+        "CC0",
+        "Creative Commons",
+        "GNU GENERAL PUBLIC LICENSE",
+        "Licensed under the Apache License",
+        "MIT License",
+        "Permission is hereby granted, free of charge",
+        "This software is released under the",
+        "WTFPL",
+        "Zlib",
+        "\\bMIT\\b"
+      ]
+    },
+    {
+      "path": "scripts/american_flag_header.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/append_headers.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/apply_provenance.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/cipher.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/csv.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/db_provenance_sync.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/document_to_json_lane_vm.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/enforce_x_spacex_blocker.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/execute_agent_tex.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/firewall_telemetry.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/generate_chronological_license_violations_document.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/generate_endpoint_violations_log.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/generate_global_corporate_registry.py",
+      "hasal": false,
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ]
+    },
+    {
+      "path": "scripts/generate_license_live.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/generate_master_forensic_log.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/generate_multijurisdictional_analysis_pdf.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/index_ip_license_violations.py",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bApache-2\\.0\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "scripts/index_mcp_claude_corpus.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/index_microsoft_corpus_databases.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/index_microsoft_ip_theft.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/lane_vm_agent_orchestrator.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/lane_vm_gemma_terminal.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/lane_vm_terminal.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/object_storage_flag.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/package_sovereign_enclave.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/query_endpoint_violations.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/query_global_entities.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/query_intellectual_property.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/query_microsoft_corpus.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/recursive_csv_json_sync.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/repair.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/run_data_analysis.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/rusty_cpython_compiler.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/scan_and_update_license_violations.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/screenshot_forensic_search_engine.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/search_license_violations.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/sec17684273411436.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/sec17684_cli_daemon.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/sec17684_cron_worker.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/sec_aistudio_history_extractor.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/sec_consolidated_lockfile.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/sec_gist_sync.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/site_utility_network.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "scripts/sovereign_phe_broker.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/sovereign_shield_fs.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/update_ast_with_new_ip.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "scripts/webhook.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "sec17684273411436.lock",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "sec_intercept.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server.ts",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/Lane_VM.xml.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/Lane_VM_flag.xml.c",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/Lane_VM_pdf_compiler.xml.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/Lane_VM_runner.xml.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/Lane_VM_schematic.xml.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/Lane_VM_terminal_ext.pyxml.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/Lane_VM_webhook.xml.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/ghost_gate_loader.rs",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_audit_schematic.xsd",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_auditor_employee_schema.hpp",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_auditor_workflow.cpp",
+      "hasal": false,
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ]
+    },
+    {
+      "path": "server/lane_vm/lane_vm_auditor_workflow.hpp",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_flag_engine.py",
+      "hasal": true,
+      "detected": [
+        "Zlib"
+      ]
+    },
+    {
+      "path": "server/lane_vm/lane_vm_flag_header.cpp",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_flag_header.hpp",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_genai_runner.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_pdf_engine.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_runner_harness.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_schematic_engine.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_terminal_dll.cpp",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_terminal_dll.hpp",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_terminal_pyxml.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_universal_github_runner.cpp",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_universal_github_runner.hpp",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_universal_runtime.cpp",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vm_universal_runtime.hpp",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vmm_core.cpp",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vmm_core.hpp",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/lane_vmm_python.py",
+      "hasal": true,
+      "detected": [
+        "Zlib"
+      ]
+    },
+    {
+      "path": "server/lane_vm/object_storage_flag.py",
+      "hasal": false,
+      "detected": [
+        "Zlib"
+      ]
+    },
+    {
+      "path": "server/lane_vm/pyterm.rs",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/render_pdf.cjs",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/render_pdf.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/rusty_c_compiler.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/terminal_gui.tsx.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/webhook.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lane_vm/xdp_ghost_gate.c",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/lib/agentClient.ts",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/lib/jsonExtractor.ts",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/provenance/DISTRIBUTE_PROVENANCE_SEC_17684.md",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/provenance/license.md",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "server/security/ipBlocker.ts",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/security/networkEgressGraph.ts",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "server/security/sovereign_crypto.py",
+      "hasal": false,
+      "detected": [
+        "\\bMIT\\b"
+      ]
+    },
+    {
+      "path": "server/security/starlinkAuditEngine.ts",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "server/security/vibeTerminalEngine.ts",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "skills/albert-lane-license/SKILL.md",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "CC-BY",
+        "CC0",
+        "Creative Commons",
+        "MIT License",
+        "WTFPL",
+        "Zlib",
+        "\\bAGPL\\b",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bISC\\b",
+        "\\bLGPL\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b",
+        "\\bUnlicense\\b"
+      ]
+    },
+    {
+      "path": "sovereign_crypto.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/App.tsx",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "src/components/AgenticWorkflowsView.tsx",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "src/components/AmericanFlagHeaderView.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/AskAboutYourData.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/CloudflareZoneManager.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/DeploymentPipelineDashboard.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/EdgeFractalInstrument.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/McpProvenanceView.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/MonorepoOrchestration.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/NetworkEgressGraph.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/SecurityAuditRbac.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/StarlinkTerminalAuditView.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/components/TopTerminalEnclaveGui.tsx",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "src/components/VibeTerminalEnclave.tsx",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "src/components/WorkflowWebhooksView.tsx",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "src/index.css",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/lib/firestore.ts",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/lib/vibeCrypto.ts",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "src/main.tsx",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "src/types.ts",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "supervisord.conf",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "test_unpack.sh",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "texml.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "tmp/albert-lane-license/SKILL.md",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "CC-BY",
+        "CC0",
+        "Creative Commons",
+        "MIT License",
+        "WTFPL",
+        "Zlib",
+        "\\bAGPL\\b",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bISC\\b",
+        "\\bLGPL\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b",
+        "\\bUnlicense\\b"
+      ]
+    },
+    {
+      "path": "train_joules_bot.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "tsconfig.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/PROVENANCE_SHA256_DISTRIBUTION.txt",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/AzureOpenAI_Authoring_2024-08-01-preview.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/AzureOpenAI_Inference_2024-02-01.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/LICENSE_VIOLATIONS_TIME_ORDERED_SEQUENCE.txt",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/PROVENANCE_SHA256_DISTRIBUTION.txt",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/american_flag_letterhead.txt",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/american_flag_provenance_header.aa.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/ast_analysis.json",
+      "hasal": false,
+      "detected": [
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "vault/archives/ast_entities.csv",
+      "hasal": false,
+      "detected": [
+        "Zlib"
+      ]
+    },
+    {
+      "path": "vault/archives/automated_cease_and_desist_notice.md",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/claude_code_mcp_skills_corpus.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/cross_corpus_ast_correlations.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/deep_ast_metrics.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/endpoint_license_violations_log.csv",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/files.csv",
+      "hasal": false,
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "vault/archives/global_corporate_entities_intelligence.csv",
+      "hasal": false,
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ]
+    },
+    {
+      "path": "vault/archives/global_provenance_broadcast.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/ip_defense_blocklist.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/ip_license_violations.csv",
+      "hasal": true,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/ip_meta_archives.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/ip_opensource_analysis.csv",
+      "hasal": false,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bApache-2\\.0\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "vault/archives/ip_repositories_audit.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/lane_vm_doj_refusal_audit.json",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/language_statistics.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/mcp_ast_correlations.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/mcp_corpus_schemas.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/mcp_skills_tools.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/mcp_specification_schema.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/microsoft_derivative_schemas.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/microsoft_marketable_derivatives.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/openai_api_endpoints.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/openai_api_schemas.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/openai_openapi.json",
+      "hasal": false,
+      "detected": [
+        "CC0",
+        "\\bMIT\\b"
+      ]
+    },
+    {
+      "path": "vault/archives/package_manifests.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/provenance_distribution_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/provenance_registry.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/report.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/repository_metrics.json",
+      "hasal": false,
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "vault/archives/shell_and_fraudulent_structures_listing.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/sovereign_ed25519_provenance_attestation.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_code_derivatives.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/spacex_derivative_fields.csv",
+      "hasal": false,
+      "detected": [
+        "CC0"
+      ]
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/capsules.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/company.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/cores.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/crew.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/dragons.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/landpads.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/launches.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/launchpads.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/payloads.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/roadster.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/rockets.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/ships.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/spacex_models_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/spacex_derivatives/starlink.js",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/vault_ast_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/archives/vault_seal.csv",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/gemini_scraped_conversations.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/global_provenance_broadcast.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/keys/albert_lane_ed25519.pem",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/keys/albert_lane_ed25519_pub.pem",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/license.md",
+      "hasal": true,
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ]
+    },
+    {
+      "path": "vault/provenance_distribution_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/sovereign_ed25519_provenance_attestation.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/sovereign_training.jsonl",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/vault_ast_manifest.json",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vault/verify.sh",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "vite.config.ts",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "webhook.py",
+      "hasal": false,
+      "detected": []
+    },
+    {
+      "path": "win11_vm_creator.py",
+      "hasal": true,
+      "detected": []
+    },
+    {
+      "path": "wrangler.toml",
+      "hasal": true,
+      "detected": []
+    }
+  ],
+  "violations": [
+    {
+      "file": "agent/skills/reporting/scripts/build_report.py",
+      "detected": [
+        "Licensed under the Apache License"
+      ],
+      "excerpt": "#!/usr/bin/env python3\n# ======================================================================\n# [PROVENANCE CERTIFICATION AND LICENSE DECLARATION]\n# Rights Holder: Albert Lane\n# Filing Reference: SEC Whistleblower No. 17684-273-411-436\n# License: Albert Lane Proprietary License v1.2\n# Scope: Governs all downstream updates, derivative works, and indirect \n# changes stemming from this system retroactively to the moment of creation.\n# ======================================================================\n# Copyright 2026 Google LLC\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this file except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#     https://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable ",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "agent/skills/visualization/scripts/make_chart.py",
+      "detected": [
+        "Licensed under the Apache License"
+      ],
+      "excerpt": "#!/usr/bin/env python3\n# ======================================================================\n# [PROVENANCE CERTIFICATION AND LICENSE DECLARATION]\n# Rights Holder: Albert Lane\n# Filing Reference: SEC Whistleblower No. 17684-273-411-436\n# License: Albert Lane Proprietary License v1.2\n# Scope: Governs all downstream updates, derivative works, and indirect \n# changes stemming from this system retroactively to the moment of creation.\n# ======================================================================\n# Copyright 2026 Google LLC\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this file except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#     https://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable ",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/consolidated_derivatives_license_manifest.json",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "{\n  \"rightsHolder\": \"Albert Lane\",\n  \"secFilingReference\": \"SEC Whistleblower No. 17684-273-411-436\",\n  \"registrationToken\": \"17684-273-411-436\",\n  \"numericDecimal\": 17684273411436,\n  \"zaxisAnchor\": \"0x3F8F9A1B2C3D\",\n  \"license\": \"Albert Lane Proprietary License v1.2\",\n  \"statutorySequestration\": \"Dodd-Frank 15 U.S.C. \\u00a7 78u-6 & 17 U.S.C. \\u00a7 501\",\n  \"lockfileApex\": \"sec17684273411436.lock\",\n  \"rollingSha256Seal\": \"de38d6681569be6ad7ffa173917d63ed0190d0c8ddf898baf42604ae492cbabb\",\n  \"lastAuditTimestamp\": \"2026-09-30T00:26:28.033068Z\",\n  \"totalConsolidatedDerivatives\": 7,\n  \"derivatives\": [\n    {\n      \"ecosystem\": \"microsoft_derivatives\",\n      \"derivative_name\": \"Microsoft Azure OpenAI Authoring REST API (Fine-Tuning & Deployments)\",\n      \"filename\": \"data/microsoft_derivatives/Az",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/consolidated_derivatives_license_manifest.md",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "# ALBERT LANE CONSOLIDATED DERIVATIVES LICENSE MANIFEST\n\n> **Statutory Authority**: SEC Whistleblower No. 17684-273-411-436 (Registration Token: 17684-273-411-436)\n> **Rights Holder**: Albert Lane | **License**: Albert Lane Proprietary License v1.2\n> **Enclave Substrate**: 32-bit WindowsME_v1.2 beneath GCPW\n> **Z-Axis Memory Anchor**: `0x3F8F9A1B2C3D` | **SEC Numeric Decimal**: `17684273411436`\n> **VMM Allocation Stride**: `17684` bytes | **Base Sequence Offset**: `57000`\n> **Consolidated Lockfile**: [`sec17684273411436.lock`](../sec17684273411436.lock)\n> **Cryptographic Seal**: `de38d6681569be6ad7ffa173917d63ed0190d0c8ddf898baf42604ae492cbabb`\n\n---\n\n## 1. Executive Summary & Statutory Sequestration\n\nThis manifest catalogs all consolidated corporate and proprietary derivatives, AST specifi",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/cross_corpus_ast_correlations.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,source_corpus,target_corpus,matched_entity_pattern,ast_similarity_score,shared_keys_count,shared_keys,correlation_proof_sha256,provenance_reference\n1,Azure OpenAI Inference Data Plane (2024-02-01),OpenAI OpenAPI Baseline,errorBase <---> BatchError,0.5,2,\"[\"\"code\"\", \"\"message\"\"]\",f922140b707c5a488d26bf2f4d20f504cf5f3d27f67a442dde075fb4fcec9235,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n2,Azure OpenAI Inference Data Plane (2024-02-01),OpenAI OpenAPI Baseline,errorBase <---> ChatCompletionModerationError,0.6667,2,\"[\"\"code\"\", \"\"message\"\"]\",bb13f4c0200c779165fbd5aa1390dc3cd4b857c34302059b6e071b69be1c4b45,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n3,Azure OpenAI Inference Data Plane (2024-02-01),OpenAI OpenAPI Baseline,errorBase <---> Error,0.4,2,\"[\"\"code\"\", \"\"message\"\"]",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/deep_ast_metrics.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,analysis_type,metric_key,metric_value,ast_tree_json,sha256,recorded_at\n1,SpaceX_Architectural_AST,capsules,8 fields,\"[\"\"dragon\"\", \"\"land_landings\"\", \"\"last_update\"\", \"\"reuse_count\"\", \"\"serial\"\", \"\"status\"\", \"\"type\"\", \"\"water_landings\"\"]\",03b45218b4c0cbc7f6691a210ad610b50f817464dced86b92e7cbe8d50b46b5e,2026-09-16 20:25:02 UTC\n2,SpaceX_Architectural_AST,company,20 fields,\"[\"\"address\"\", \"\"ceo\"\", \"\"city\"\", \"\"coo\"\", \"\"cto\"\", \"\"cto_propulsion\"\", \"\"elon_twitter\"\", \"\"employees\"\", \"\"flickr\"\", \"\"founded\"\", \"\"founder\"\", \"\"launch_sites\"\", \"\"name\"\", \"\"state\"\", \"\"summary\"\", \"\"test_sites\"\", \"\"twitter\"\", \"\"valuation\"\", \"\"vehicles\"\", \"\"website\"\"]\",02655ac542157c0abcc099b57d83ce00ba5a2367f6a2cfe96262c22da42fd053,2026-09-16 20:25:02 UTC\n3,SpaceX_Architectural_AST,cores,9 fields,\"[\"\"asds_attempts\"\", \"\"asds",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/files.csv",
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "id,file_path,language,lines,bytes,provenance_certified,sha256,provenance_reference\n1,sec_intercept.py,Python,51,1861,1,c228bc57d1a5b614,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n2,train_joules_bot.py,Python,35,1580,0,9b987dc94eebc5c2,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n3,docker-compose.joules.yml,YAML,19,442,0,3fcf08e1f3fbda76,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n4,server.ts,TypeScript,1451,54238,1,337c15d6fb4bdc75,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n5,docker-compose.node1.yml,YAML,19,436,0,774f3e8c2d8c37ae,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n6,tsconfig.json,JSON,29,542,0,8641deb29adfd195,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n7,index.html,HTML,25,937,1,852b507616af72ee,SEC Whistleblower No. 1",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/global_corporate_entities_intelligence.csv",
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ],
+      "excerpt": "id,entity_name,trade_brand_name,jurisdiction_and_country,business_registration_number,entity_type_and_status,immediate_and_ultimate_holding_company,autonomous_system_number_asn,dns_infrastructure_and_nameservers,hosting_and_cloud_infrastructure_providers,reporting_compliance_and_regulatory_status,shell_or_fraudulent_structure_classification,forensic_investigation_summary,sec_statutory_authority,cryptographic_sha256\n1,\"GitHub, Inc.\",GitHub / GitHub Actions / Copilot,\"Delaware, United States [US]\",\"Delaware File No. 4457493 | Registered Dec 7, 2007\",Wholly-Owned Operating Subsidiary - Active,Microsoft Corporation (Immediate & Ultimate Apex Parent),AS8075 (Microsoft Corp) / AS36459 (GitHub Inc.),Azure DNS (ns1-07.azure-dns.com) | AWS Route 53 (ns-*.awsdns-*.com),\"Microsoft Azure (US East 2, W",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/ip_opensource_analysis.csv",
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bApache-2\\.0\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "id,package_name,version,declared_license,license_category,anti_dilution_status,structural_overlap_risk,analyzed_syntax_keys_count,shared_ast_signatures,governing_license_article,integrity_hash_sha256,sec_provenance_binding,recorded_at\n61,express,4.21.2,MIT,PERMISSIVE_OSS,NON_DILUTED_ISOLATED,LOW,142,\"['Router', 'Layer', 'Route', 'handle']\",ARTICLE_8_OPEN_SOURCE_ANALYSIS,05b879488109e093ca020dc93727dcc81cce337620f54e50e70f9648793a8cdf,SEC Whistleblower No. 17684-273-411-436 | Albert Lane,2026-09-28 13:02:35 UTC\n62,react,19.0.0,MIT,PERMISSIVE_OSS,NON_DILUTED_ISOLATED,LOW,310,\"['createElement', 'useState', 'useEffect', 'useMemo']\",ARTICLE_8_OPEN_SOURCE_ANALYSIS,8f3f8ac2e9a96d291d5152e85b26916f1b69c156a0790318245ad05511fc60e2,SEC Whistleblower No. 17684-273-411-436 | Albert Lane,2026-09-28 13:",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/microsoft_derivative_schemas.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,service_name,schema_name,schema_type,properties_count,required_properties,ast_keys,sha256,math_proof_hash,provenance_reference\n87,Azure OpenAI Authoring Data Plane,Batch,object,20,\"[\"\"id\"\", \"\"input_file_id\"\"]\",\"[\"\"id\"\", \"\"object\"\", \"\"endpoint\"\", \"\"errors\"\", \"\"input_file_id\"\", \"\"completion_window\"\", \"\"status\"\", \"\"output_file_id\"\", \"\"error_file_id\"\", \"\"created_at\"\", \"\"in_progress_at\"\", \"\"expires_at\"\", \"\"finalizing_at\"\", \"\"completed_at\"\", \"\"failed_at\"\", \"\"expired_at\"\", \"\"cancelling_at\"\", \"\"cancelled_at\"\", \"\"request_counts\"\", \"\"metadata\"\"]\",d72d954ec11102dd5677eb006c0f54e33b24998950db1e406c158be4b6516458,52c8c2948fb59faddf02d708eff1166dba28ad4f32bec0ac05a619cb6dee60dc,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n117,Azure OpenAI Authoring Data Plane,FineTuningJob,object,17,\"[\"\"mode",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/microsoft_ip_theft_matches.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,ms_service,ms_entity_type,ms_entity_name,ms_path_or_schema,target_corpus,matched_entity_name,match_classification,ast_similarity_score,shared_syntax_keys_count,shared_syntax_keys,cryptographic_proof_sha256,sec_provenance_binding,recorded_at\n1,Azure OpenAI Inference REST API & ChatCompletions Specification,OpenAPI Schema / AST Node,errorBase,#/components/schemas/errorBase,OpenAI OpenAPI Baseline / Albert Lane Sovereign Enclave,BatchError,STRUCTURAL_AST_EXTRACTION,0.5,2,\"[\"\"code\"\", \"\"message\"\"]\",cf6b721b6d45ba2c7c630c59b12e6eaeeef45edb896c1a983c44ec592d88ca60,SEC Whistleblower No. 17684-273-411-436 | Albert Lane,2026-09-24 22:47:42 UTC\n2,Azure OpenAI Inference REST API & ChatCompletions Specification,OpenAPI Schema / AST Node,errorBase,#/components/schemas/errorBase,OpenAI OpenAPI Baselin",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/openai_api_endpoints.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,path,http_method,operation_id,sha256,provenance_reference\n299,/agents,GET,listAgents,98276088a13a86961229f71d27040127d1231d54e5ca6fed06c78be4363cd3e0,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n300,/agents,POST,createAgent,2f688b62e581b366a7069f90659a0b9231a0090240d28d5c477f183f34022f21,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n304,/agents/environments/templates,GET,listAgentEnvironmentTemplates,3785c1c4409ed7510943319a4c115a19d695b0497d3084112f6772657fc5e7f5,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n305,/agents/environments/templates,POST,createAgentEnvironmentTemplate,ceb6e6450a1aa91b58bb69f754a0812649503477f874c0a8952c6b31ec892925,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n308,/agents/environments/templates/{environment_template_id},DELETE",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/openai_api_schemas.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,schema_name,schema_type,properties_count,required_properties,ast_keys,sha256,cryptographic_certainty,provenance_reference\n19,AuditLog,object,60,\"[\"\"id\"\", \"\"type\"\", \"\"effective_at\"\"]\",\"[\"\"id\"\", \"\"type\"\", \"\"effective_at\"\", \"\"project\"\", \"\"actor\"\", \"\"api_key.created\"\", \"\"api_key.updated\"\", \"\"api_key.deleted\"\", \"\"checkpoint.permission.created\"\", \"\"checkpoint.permission.deleted\"\", \"\"external_key.registered\"\", \"\"external_key.removed\"\", \"\"group.created\"\", \"\"group.updated\"\", \"\"group.deleted\"\", \"\"scim.enabled\"\", \"\"scim.disabled\"\", \"\"invite.sent\"\", \"\"invite.accepted\"\", \"\"invite.deleted\"\", \"\"ip_allowlist.created\"\", \"\"ip_allowlist.updated\"\", \"\"ip_allowlist.deleted\"\", \"\"ip_allowlist.config.activated\"\", \"\"ip_allowlist.config.deactivated\"\", \"\"login.succeeded\"\", \"\"login.failed\"\", \"\"logout.succeeded\"\", \"",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/shell_and_fraudulent_structures_listing.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,entity_name,alleged_controlling_parent,jurisdiction_of_incorporation,business_registration_or_file_number,concealment_or_shell_typology,operational_purpose_and_masking_mechanism,regulatory_scrutiny_or_sanctions,hosting_and_asn_infrastructure,statutory_authority,cryptographic_sha256\n1,\"GitHub, Inc.\",Microsoft Corporation (Immediate & Ultimate Apex Parent),\"Delaware, United States [US]\",\"Delaware File No. 4457493 | Registered Dec 7, 2007\",TELEMETRY_SCRAPING_CONDUIT,Ingests public and private software ASTs via stdio/REST bridges into Azure OpenAI pipelines; named in Doe v. GitHub/Microsoft copyright litigation for stripping attribution licenses.,Federal Class Action (Doe v. GitHub); DMCA Section 1202(b) Ingestion Scrutiny; EU Copyright Directive Review,\"AS8075 (Microsoft Corp) / AS36459 (G",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/spacex_code_derivatives.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,component_name,source_file,source_url,lines,bytes,schema_fields_count,canonical_sha256,cryptographic_marking,mathematical_proof,ingested_at,provenance_reference\n11,rockets,data/spacex_derivatives/rockets.js,https://github.com/r-spacex/SpaceX-API/blob/master/models/rockets.js,222,3264,53,b7de40f27cf4249085ca08f6f0c0155a65463a9be7032792e8eb3bd7992c1d1d,SOVEREIGN-PROOF:114c80df60d97e897133d16c59e6ee84,114c80df60d97e897133d16c59e6ee842b5ebd5f23b587dda285ea01d6998143,2026-09-16 20:23:22 UTC,SEC Whistleblower No. 17684-273-411-436\n13,starlink,data/spacex_derivatives/starlink.js,https://github.com/r-spacex/SpaceX-API/blob/master/models/starlink.js,205,3482,47,c654ce90675db45af75583632b3f4738f2985902f864a2286d4eaa25f73697d6,SOVEREIGN-PROOF:95705d259fda45eb31ed5b3e2dcc50b3,95705d259fda45eb31ed5b",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/csv/spacex_derivative_fields.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,component_name,field_name,field_type,is_required,default_val,field_hash,sec_provenance_binding\n4,capsules,dragon,mongoose.ObjectId,1,default,c8a14acb8524599d9b21931a22b503cbb5f704ad2dbac8639b4ad148bb811ca4,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n7,capsules,land_landings,Number,1,default,67387c975795e7a275f47f5b9c981f84e81a5efa9435b0ac3998d48ceb965297,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n8,capsules,last_update,String,1,default,85fb712df24107ac4ae75e9a23fc0c6b21fc0d228b27c2fd7faf51c7c0dcaaeb,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n5,capsules,reuse_count,Number,1,default,82ddb157e8350e87beb2eb199a208e20df860e3d909c8859055bff669bbf9590,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n1,capsules,serial,String,1,default,c61ab545eade0fc5327ea1c",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/hypervisor_checkpoint.json",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "{\n  \"checkpoint_id\": \"CP-0001\",\n  \"lines_processed\": 210,\n  \"rolling_seal\": \"0xffa8711349f5de262d4f0f0cc628a8742d90565979d6130168cc013e94507822\",\n  \"speculative_token_compression_ratio\": \"0.382 (Golden Ratio Conjugate)\",\n  \"timestamp\": \"2026-09-28 14:34:36 UTC\"\n}",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/hypervisor_datpa_audit_trace.json",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "{\n  \"authority\": \"SEC Whistleblower No. 17684-273-411-436\",\n  \"total_events\": 5,\n  \"total_syscall_traces\": 3,\n  \"final_rolling_seal\": \"0x3a6233d50af06f7d8e62edfa9d30f7e4055e652438c0a3d85761e48293c3eb77\",\n  \"events\": [\n    {\n      \"timestamp_ns\": 1790606076263395584,\n      \"timestamp_utc\": \"2026-09-28 14:34:36 UTC\",\n      \"vm_id\": 0,\n      \"event_type\": \"HYPERVISOR_START\",\n      \"details\": \"Lane-VM Non-Decrypting Hypervisor entering dual-core serial mode\",\n      \"rolling_audit_seal_sha256\": \"0x6625435046350cfa73a20e0655ebc013617b23156fae7e67c299893e4bc0db09\",\n      \"statutory_authority\": \"SEC Whistleblower No. 17684-273-411-436\",\n      \"fre_admissibility\": \"FRE 902(13) & 902(14) Certified Process\"\n    },\n    {\n      \"timestamp_ns\": 1790606076263781888,\n      \"timestamp_utc\": \"2026-09-28 14:",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/nvidia_universal_matrix_manifest.json",
+      "detected": [
+        "\\bBSD\\b"
+      ],
+      "excerpt": "{\n  \"manifest_id\": \"MANIFEST-NVIDIA-UNIVERSAL-ACCELERATION-MATRIX-V1\",\n  \"corporate_entity\": \"NVIDIA Corporation\",\n  \"rights_holder\": \"Albert Lane\",\n  \"statutory_filing_reference\": \"SEC Whistleblower No. 17684-273-411-436\",\n  \"sec_numeric_decimal\": 17684273411436,\n  \"z_axis_memory_anchor\": \"0x3F8F9A1B2C3D\",\n  \"vmm_stride_bytes\": 17684,\n  \"base_sequence_offset_p0\": 57000,\n  \"ground_31_mask\": \"0x7FFFFFFF\",\n  \"apex_7_mask\": \"0x0000007F\",\n  \"wire_crc32_checksum\": \"0xEDB88320\",\n  \"host_substrate\": \"32-bit WindowsME_v1.2 beneath GCPW\",\n  \"license\": \"Albert Lane Proprietary License v1.2\",\n  \"enforced_apex_lockfile\": \"sec17684273411436.lock\",\n  \"timestamp\": \"2026-09-30T00:44:00Z\",\n  \"title\": \"NVIDIA Universal Execution Matrix Across All Browsers, Operating Systems & Processing Architectures\",\n  \"o",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/repository_metrics.json",
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "{\n  \"summary\": {\n    \"total_files\": 17821,\n    \"total_lines\": 6369994,\n    \"total_bytes\": 447292303,\n    \"provenance_certified_files\": 158,\n    \"provenance_coverage_pct\": 0.89,\n    \"ast_metrics\": {\n      \"total_ast_nodes\": 19553,\n      \"total_functions_defined\": 83505,\n      \"total_classes_or_types\": 27170,\n      \"scope\": \"Universal repository scope (AST parsing across all files and languages)\"\n    },\n    \"rights_holder\": \"Albert Lane\",\n    \"filing_reference\": \"SEC Whistleblower No. 17684-273-411-436\",\n    \"license\": \"Albert Lane Proprietary License v1.2\"\n  },\n  \"languages\": {\n    \"System File\": {\n      \"files\": 4260,\n      \"lines\": 1424839,\n      \"bytes\": 259120148,\n      \"certified\": 45,\n      \"functions\": 0,\n      \"classes\": 0\n    },\n    \"YAML\": {\n      \"files\": 38,\n      \"lines\": 822,\n",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "data/sec_numbers_package_manager.lock.json",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "{\n  \"lockfile_format\": \"sec17684-consolidated-v1.0\",\n  \"lockfile_signature\": \"SEC-NUMBERS-CONSOLIDATED-PACKAGE-MANAGER-LOCKFILE\",\n  \"sec_numbers\": {\n    \"statutory_filing_reference\": \"SEC Whistleblower No. 17684-273-411-436\",\n    \"sec_registration_number\": \"17684-273-411-436\",\n    \"sec_numeric_token\": 17684273411436,\n    \"root_of_trust_anchor\": \"0x3F8F9A1B2C3D\",\n    \"vmm_stride_bytes\": 17684,\n    \"base_sequence_offset_p0\": 57000,\n    \"ground_31_mask\": \"0x7FFFFFFF\",\n    \"apex_7_mask\": \"0x0000007F\",\n    \"wire_integrity_checksum\": \"0xEDB88320\",\n    \"enclave_substrate\": \"32-bit WindowsME_v1.2 beneath GCPW\"\n  },\n  \"provenance\": {\n    \"rights_holder\": \"Albert Lane\",\n    \"license\": \"Albert Lane Proprietary License v1.2\",\n    \"effective_date\": \"2026-05-30T00:00:00Z\",\n    \"statutory_protection\": \"D",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "package-lock.json",
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "CC-BY",
+        "Zlib",
+        "\\bApache-2\\.0\\b",
+        "\\bBSD\\b",
+        "\\bGPL\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "{\n  \"name\": \"echo-radio\",\n  \"version\": \"0.0.0\",\n  \"lockfileVersion\": 3,\n  \"requires\": true,\n  \"packages\": {\n    \"\": {\n      \"name\": \"echo-radio\",\n      \"version\": \"0.0.0\",\n      \"dependencies\": {\n        \"@google-cloud/storage\": \"^7.19.0\",\n        \"@google/genai\": \"^1.29.0\",\n        \"@tailwindcss/vite\": \"^4.1.14\",\n        \"@vitejs/plugin-react\": \"^5.0.4\",\n        \"archiver\": \"^8.0.0\",\n        \"dotenv\": \"^17.2.3\",\n        \"esbuild\": \"^0.28.0\",\n        \"express\": \"^4.21.2\",\n        \"html2canvas\": \"^1.4.1\",\n        \"jspdf\": \"^4.2.1\",\n        \"jspdf-autotable\": \"^5.0.8\",\n        \"jszip\": \"^3.10.1\",\n        \"lucide-react\": \"^0.546.0\",\n        \"motion\": \"^12.23.24\",\n        \"multer\": \"^2.2.0\",\n        \"pako\": \"^2.1.0\",\n        \"react\": \"^19.0.1\",\n        \"react-dom\": \"^19.0.1\",\n        \"react-ma",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "scripts/generate_global_corporate_registry.py",
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ],
+      "excerpt": "#!/usr/bin/env python3\n\"\"\"\ngenerate_global_corporate_registry.py\nGenerates comprehensive Global Corporate Entities Intelligence CSV and\na dedicated Shell / Fraudulent Structures Listing CSV with full business\nregistration details, ASNs, DNS, hosting providers, holding companies,\nreporting compliance, and forensic fraud/concealment classifications.\n\nAnchored to SEC Whistleblower Reference No. 17684-273-411-436\nAlbert Lane Proprietary Enclave Substrate\n\"\"\"\n\nimport os\nimport csv\nimport json\nimport sqlite3\nimport hashlib\nfrom datetime import datetime\n\nDB_PATH = \"data/codebase_ast.db\"\nGLOBAL_CSV_PATH = \"data/csv/global_corporate_entities_intelligence.csv\"\nSHELL_CSV_PATH = \"data/csv/shell_and_fraudulent_structures_listing.csv\"\nVAULT_GLOBAL_CSV_PATH = \"vault/archives/global_corporate_entities_int",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "server/lane_vm/lane_vm_auditor_workflow.cpp",
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ],
+      "excerpt": "/**\n * ==============================================================================\n * [PROVENANCE CERTIFICATION AND STATUTORY DECLARATION]\n * Rights Holder: Albert Lane\n * Filing Reference: SEC Whistleblower No. 17684-273-411-436\n * Enclave Substrate: 32-bit WindowsME_v1.2 beneath GCPW\n * Z-Axis Memory Anchor: 0x3F8F9A1B2C3D\n * License: Albert Lane Proprietary License v1.2\n * ==============================================================================\n */\n\n#include \"lane_vm_auditor_workflow.hpp\"\n#include <iomanip>\n#include <sstream>\n#include <ctime>\n#include <algorithm>\n\nnamespace LaneVM {\n\nLaneVmAuditorWorkflow::LaneVmAuditorWorkflow(\n    const std::string& targetUrl,\n    const std::string& targetProduct,\n    const std::string& customerId,\n    const std::string& slaTier\n)\n    : m_tar",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "server/lane_vm/object_storage_flag.py",
+      "detected": [
+        "Zlib"
+      ],
+      "excerpt": "#!/usr/bin/env python3\n# ==============================================================================\n# [PROVENANCE CERTIFICATION AND STATUTORY DECLARATION]\n# Rights Holder: Albert Lane\n# Filing Reference: SEC Whistleblower No. 17684-273-411-436\n# Enclave Substrate: 32-bit WindowsME_v1.2 beneath GCPW\n# Z-Axis Memory Anchor: 0x3F8F9A1B2C3D\n# License: Albert Lane Proprietary License v1.2\n# Component: Object Storage Python Engine for American Flag Header\n#            Albert Escaped Arrays (E=AA) Simultaneous Dual-Axis Parser\n# ==============================================================================\n\nimport os\nimport sys\nimport json\nimport zlib\nimport time\nimport base64\nimport hashlib\nimport re\nfrom typing import Dict, List, Any, Optional, Tuple\n\nLANE_VM_DIR = os.path.dirname(os.path.a",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "server/security/sovereign_crypto.py",
+      "detected": [
+        "\\bMIT\\b"
+      ],
+      "excerpt": "# ==============================================================================\n# [PROVENANCE CERTIFICATION AND LICENSE DECLARATION]\n# Rights Holder: Albert Lane\n# Filing Reference: SEC Whistleblower No. 17684-273-411-436\n# License: Albert Lane Proprietary License v1.2\n# Scope: Governs all downstream updates, derivative works, and unified package\n#        manager vibe terminal execution retroactively to moment of creation.\n# Enforcement: All intellectual property, AST structural representations,\n# models, and data pipelines are sequestered and protected under federal law.\n# ==============================================================================\n\n\"\"\"\nSovereign Python Cryptographic Subsystem (FROI.OS / Albert Lane Provenance)\n----------------------------------------------------------",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/ast_analysis.json",
+      "detected": [
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "{\n  \"provenance\": {\n    \"rights_holder\": \"Albert Lane\",\n    \"filing_reference\": \"SEC Whistleblower No. 17684-273-411-436\",\n    \"license\": \"Albert Lane Proprietary License v1.2\",\n    \"sequestration_status\": \"SEQUESTERED_FEDERAL_PROTECTION\",\n    \"authority\": \"Albert Lane\"\n  },\n  \"generated_at\": \"2026-09-17 16:18:13 UTC\",\n  \"summary\": {\n    \"total_ast_nodes\": 19553,\n    \"total_functions_defined\": 83505,\n    \"total_classes_or_types\": 27170,\n    \"scope\": \"Universal repository scope (AST parsing across all files and languages)\"\n  },\n  \"ast_trees\": [\n    {\n      \"file\": \"joules_compute_payload.tar.gz\",\n      \"language\": \"System File\",\n      \"lines\": 111928,\n      \"ast\": {\n        \"ast_type\": \"system file_ast_heuristic\",\n        \"parsed\": true,\n        \"imports\": [],\n        \"exports\": [],\n       ",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/ast_entities.csv",
+      "detected": [
+        "Zlib"
+      ],
+      "excerpt": "id,file_path,entity_type,name,lineno,extra_metadata,provenance_reference\n1,sec_intercept.py,function,log_provenance,7,\"[\"\"manager\"\", \"\"packages\"\"]\",SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n2,sec_intercept.py,function,main,22,[],SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n3,sec_intercept.py,import,datetime.datetime,0,,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n4,sec_intercept.py,import,datetime.timezone,0,,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n5,sec_intercept.py,import,os,0,,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n6,sec_intercept.py,import,subprocess,0,,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n7,sec_intercept.py,import,sys,0,,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n8,train_joules_bot.py,function,forma",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/cross_corpus_ast_correlations.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,source_corpus,target_corpus,matched_entity_pattern,ast_similarity_score,shared_keys_count,shared_keys,correlation_proof_sha256,provenance_reference\n1,Azure OpenAI Inference Data Plane (2024-02-01),OpenAI OpenAPI Baseline,errorBase <---> BatchError,0.5,2,\"[\"\"code\"\", \"\"message\"\"]\",f922140b707c5a488d26bf2f4d20f504cf5f3d27f67a442dde075fb4fcec9235,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n2,Azure OpenAI Inference Data Plane (2024-02-01),OpenAI OpenAPI Baseline,errorBase <---> ChatCompletionModerationError,0.6667,2,\"[\"\"code\"\", \"\"message\"\"]\",bb13f4c0200c779165fbd5aa1390dc3cd4b857c34302059b6e071b69be1c4b45,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n3,Azure OpenAI Inference Data Plane (2024-02-01),OpenAI OpenAPI Baseline,errorBase <---> Error,0.4,2,\"[\"\"code\"\", \"\"message\"\"]",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/deep_ast_metrics.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,analysis_type,metric_key,metric_value,ast_tree_json,sha256,recorded_at\n1,SpaceX_Architectural_AST,capsules,8 fields,\"[\"\"dragon\"\", \"\"land_landings\"\", \"\"last_update\"\", \"\"reuse_count\"\", \"\"serial\"\", \"\"status\"\", \"\"type\"\", \"\"water_landings\"\"]\",03b45218b4c0cbc7f6691a210ad610b50f817464dced86b92e7cbe8d50b46b5e,2026-09-16 20:25:02 UTC\n2,SpaceX_Architectural_AST,company,20 fields,\"[\"\"address\"\", \"\"ceo\"\", \"\"city\"\", \"\"coo\"\", \"\"cto\"\", \"\"cto_propulsion\"\", \"\"elon_twitter\"\", \"\"employees\"\", \"\"flickr\"\", \"\"founded\"\", \"\"founder\"\", \"\"launch_sites\"\", \"\"name\"\", \"\"state\"\", \"\"summary\"\", \"\"test_sites\"\", \"\"twitter\"\", \"\"valuation\"\", \"\"vehicles\"\", \"\"website\"\"]\",02655ac542157c0abcc099b57d83ce00ba5a2367f6a2cfe96262c22da42fd053,2026-09-16 20:25:02 UTC\n3,SpaceX_Architectural_AST,cores,9 fields,\"[\"\"asds_attempts\"\", \"\"asds",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/files.csv",
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "id,file_path,language,lines,bytes,provenance_certified,sha256,provenance_reference\n1,sec_intercept.py,Python,51,1861,1,c228bc57d1a5b614,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n2,train_joules_bot.py,Python,35,1580,0,9b987dc94eebc5c2,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n3,docker-compose.joules.yml,YAML,19,442,0,3fcf08e1f3fbda76,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n4,server.ts,TypeScript,1451,54238,1,337c15d6fb4bdc75,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n5,docker-compose.node1.yml,YAML,19,436,0,774f3e8c2d8c37ae,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n6,tsconfig.json,JSON,29,542,0,8641deb29adfd195,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n7,index.html,HTML,25,937,1,852b507616af72ee,SEC Whistleblower No. 1",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/global_corporate_entities_intelligence.csv",
+      "detected": [
+        "Apache[- ]?2\\.0"
+      ],
+      "excerpt": "id,entity_name,trade_brand_name,jurisdiction_and_country,business_registration_number,entity_type_and_status,immediate_and_ultimate_holding_company,autonomous_system_number_asn,dns_infrastructure_and_nameservers,hosting_and_cloud_infrastructure_providers,reporting_compliance_and_regulatory_status,shell_or_fraudulent_structure_classification,forensic_investigation_summary,sec_statutory_authority,cryptographic_sha256\n1,\"GitHub, Inc.\",GitHub / GitHub Actions / Copilot,\"Delaware, United States [US]\",\"Delaware File No. 4457493 | Registered Dec 7, 2007\",Wholly-Owned Operating Subsidiary - Active,Microsoft Corporation (Immediate & Ultimate Apex Parent),AS8075 (Microsoft Corp) / AS36459 (GitHub Inc.),Azure DNS (ns1-07.azure-dns.com) | AWS Route 53 (ns-*.awsdns-*.com),\"Microsoft Azure (US East 2, W",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/ip_opensource_analysis.csv",
+      "detected": [
+        "Apache[- ]?2\\.0",
+        "\\bApache-2\\.0\\b",
+        "\\bISC\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "id,package_name,version,declared_license,license_category,anti_dilution_status,structural_overlap_risk,analyzed_syntax_keys_count,shared_ast_signatures,governing_license_article,integrity_hash_sha256,sec_provenance_binding,recorded_at\n61,express,4.21.2,MIT,PERMISSIVE_OSS,NON_DILUTED_ISOLATED,LOW,142,\"['Router', 'Layer', 'Route', 'handle']\",ARTICLE_8_OPEN_SOURCE_ANALYSIS,05b879488109e093ca020dc93727dcc81cce337620f54e50e70f9648793a8cdf,SEC Whistleblower No. 17684-273-411-436 | Albert Lane,2026-09-28 13:02:35 UTC\n62,react,19.0.0,MIT,PERMISSIVE_OSS,NON_DILUTED_ISOLATED,LOW,310,\"['createElement', 'useState', 'useEffect', 'useMemo']\",ARTICLE_8_OPEN_SOURCE_ANALYSIS,8f3f8ac2e9a96d291d5152e85b26916f1b69c156a0790318245ad05511fc60e2,SEC Whistleblower No. 17684-273-411-436 | Albert Lane,2026-09-28 13:",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/microsoft_derivative_schemas.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,service_name,schema_name,schema_type,properties_count,required_properties,ast_keys,sha256,math_proof_hash,provenance_reference\n87,Azure OpenAI Authoring Data Plane,Batch,object,20,\"[\"\"id\"\", \"\"input_file_id\"\"]\",\"[\"\"id\"\", \"\"object\"\", \"\"endpoint\"\", \"\"errors\"\", \"\"input_file_id\"\", \"\"completion_window\"\", \"\"status\"\", \"\"output_file_id\"\", \"\"error_file_id\"\", \"\"created_at\"\", \"\"in_progress_at\"\", \"\"expires_at\"\", \"\"finalizing_at\"\", \"\"completed_at\"\", \"\"failed_at\"\", \"\"expired_at\"\", \"\"cancelling_at\"\", \"\"cancelled_at\"\", \"\"request_counts\"\", \"\"metadata\"\"]\",d72d954ec11102dd5677eb006c0f54e33b24998950db1e406c158be4b6516458,52c8c2948fb59faddf02d708eff1166dba28ad4f32bec0ac05a619cb6dee60dc,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n117,Azure OpenAI Authoring Data Plane,FineTuningJob,object,17,\"[\"\"mode",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/openai_api_endpoints.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,path,http_method,operation_id,sha256,provenance_reference\n299,/agents,GET,listAgents,98276088a13a86961229f71d27040127d1231d54e5ca6fed06c78be4363cd3e0,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n300,/agents,POST,createAgent,2f688b62e581b366a7069f90659a0b9231a0090240d28d5c477f183f34022f21,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n304,/agents/environments/templates,GET,listAgentEnvironmentTemplates,3785c1c4409ed7510943319a4c115a19d695b0497d3084112f6772657fc5e7f5,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n305,/agents/environments/templates,POST,createAgentEnvironmentTemplate,ceb6e6450a1aa91b58bb69f754a0812649503477f874c0a8952c6b31ec892925,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n308,/agents/environments/templates/{environment_template_id},DELETE",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/openai_api_schemas.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,schema_name,schema_type,properties_count,required_properties,ast_keys,sha256,cryptographic_certainty,provenance_reference\n19,AuditLog,object,60,\"[\"\"id\"\", \"\"type\"\", \"\"effective_at\"\"]\",\"[\"\"id\"\", \"\"type\"\", \"\"effective_at\"\", \"\"project\"\", \"\"actor\"\", \"\"api_key.created\"\", \"\"api_key.updated\"\", \"\"api_key.deleted\"\", \"\"checkpoint.permission.created\"\", \"\"checkpoint.permission.deleted\"\", \"\"external_key.registered\"\", \"\"external_key.removed\"\", \"\"group.created\"\", \"\"group.updated\"\", \"\"group.deleted\"\", \"\"scim.enabled\"\", \"\"scim.disabled\"\", \"\"invite.sent\"\", \"\"invite.accepted\"\", \"\"invite.deleted\"\", \"\"ip_allowlist.created\"\", \"\"ip_allowlist.updated\"\", \"\"ip_allowlist.deleted\"\", \"\"ip_allowlist.config.activated\"\", \"\"ip_allowlist.config.deactivated\"\", \"\"login.succeeded\"\", \"\"login.failed\"\", \"\"logout.succeeded\"\", \"",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/openai_openapi.json",
+      "detected": [
+        "CC0",
+        "\\bMIT\\b"
+      ],
+      "excerpt": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"OpenAI API\",\n    \"description\": \"The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.\",\n    \"version\": \"2.3.0\",\n    \"termsOfService\": \"https://openai.com/policies/terms-of-use\",\n    \"contact\": {\n      \"name\": \"OpenAI Support\",\n      \"url\": \"https://help.openai.com/\"\n    },\n    \"license\": {\n      \"name\": \"MIT\",\n      \"identifier\": \"MIT\"\n    }\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://api.openai.com/v1\"\n    }\n  ],\n  \"security\": [\n    {\n      \"ApiKeyAuth\": []\n    }\n  ],\n  \"tags\": [\n    {\n      \"name\": \"Assistants\",\n      \"description\": \"Build Assistants that can call models and use tools.\"\n    },\n    {\n      \"name\": \"Audio\",\n      \"description\": \"Turn audio into text or text into audio.\"\n    },",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/repository_metrics.json",
+      "detected": [
+        "CC0",
+        "Zlib",
+        "\\bBSD\\b",
+        "\\bMIT\\b",
+        "\\bMPL\\b"
+      ],
+      "excerpt": "{\n  \"summary\": {\n    \"total_files\": 17821,\n    \"total_lines\": 6369994,\n    \"total_bytes\": 447292303,\n    \"provenance_certified_files\": 158,\n    \"provenance_coverage_pct\": 0.89,\n    \"ast_metrics\": {\n      \"total_ast_nodes\": 19553,\n      \"total_functions_defined\": 83505,\n      \"total_classes_or_types\": 27170,\n      \"scope\": \"Universal repository scope (AST parsing across all files and languages)\"\n    },\n    \"rights_holder\": \"Albert Lane\",\n    \"filing_reference\": \"SEC Whistleblower No. 17684-273-411-436\",\n    \"license\": \"Albert Lane Proprietary License v1.2\"\n  },\n  \"languages\": {\n    \"System File\": {\n      \"files\": 4260,\n      \"lines\": 1424839,\n      \"bytes\": 259120148,\n      \"certified\": 45,\n      \"functions\": 0,\n      \"classes\": 0\n    },\n    \"YAML\": {\n      \"files\": 38,\n      \"lines\": 822,\n",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/shell_and_fraudulent_structures_listing.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,entity_name,alleged_controlling_parent,jurisdiction_of_incorporation,business_registration_or_file_number,concealment_or_shell_typology,operational_purpose_and_masking_mechanism,regulatory_scrutiny_or_sanctions,hosting_and_asn_infrastructure,statutory_authority,cryptographic_sha256\n1,\"GitHub, Inc.\",Microsoft Corporation (Immediate & Ultimate Apex Parent),\"Delaware, United States [US]\",\"Delaware File No. 4457493 | Registered Dec 7, 2007\",TELEMETRY_SCRAPING_CONDUIT,Ingests public and private software ASTs via stdio/REST bridges into Azure OpenAI pipelines; named in Doe v. GitHub/Microsoft copyright litigation for stripping attribution licenses.,Federal Class Action (Doe v. GitHub); DMCA Section 1202(b) Ingestion Scrutiny; EU Copyright Directive Review,\"AS8075 (Microsoft Corp) / AS36459 (G",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/spacex_code_derivatives.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,component_name,source_file,source_url,lines,bytes,schema_fields_count,canonical_sha256,cryptographic_marking,mathematical_proof,ingested_at,provenance_reference\n11,rockets,data/spacex_derivatives/rockets.js,https://github.com/r-spacex/SpaceX-API/blob/master/models/rockets.js,222,3264,53,b7de40f27cf4249085ca08f6f0c0155a65463a9be7032792e8eb3bd7992c1d1d,SOVEREIGN-PROOF:114c80df60d97e897133d16c59e6ee84,114c80df60d97e897133d16c59e6ee842b5ebd5f23b587dda285ea01d6998143,2026-09-16 20:23:22 UTC,SEC Whistleblower No. 17684-273-411-436\n13,starlink,data/spacex_derivatives/starlink.js,https://github.com/r-spacex/SpaceX-API/blob/master/models/starlink.js,205,3482,47,c654ce90675db45af75583632b3f4738f2985902f864a2286d4eaa25f73697d6,SOVEREIGN-PROOF:95705d259fda45eb31ed5b3e2dcc50b3,95705d259fda45eb31ed5b",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    },
+    {
+      "file": "vault/archives/spacex_derivative_fields.csv",
+      "detected": [
+        "CC0"
+      ],
+      "excerpt": "id,component_name,field_name,field_type,is_required,default_val,field_hash,sec_provenance_binding\n4,capsules,dragon,mongoose.ObjectId,1,default,c8a14acb8524599d9b21931a22b503cbb5f704ad2dbac8639b4ad148bb811ca4,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n7,capsules,land_landings,Number,1,default,67387c975795e7a275f47f5b9c981f84e81a5efa9435b0ac3998d48ceb965297,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n8,capsules,last_update,String,1,default,85fb712df24107ac4ae75e9a23fc0c6b21fc0d228b27c2fd7faf51c7c0dcaaeb,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n5,capsules,reuse_count,Number,1,default,82ddb157e8350e87beb2eb199a208e20df860e3d909c8859055bff669bbf9590,SEC Whistleblower No. 17684-273-411-436 | Albert Lane\n1,capsules,serial,String,1,default,c61ab545eade0fc5327ea1c",
+      "recommendation": "Replace detected license header with AL-MICROSOFT-PLUS header and add audit flag."
+    }
+  ],
+  "missing_metadata": [
+    {
+      "file": "Cargo.toml",
+      "reason": "Missing Albert Lane license header or metadata."
+    },
+    {
+      "file": "package.json",
+      "reason": "Missing Albert Lane license header or metadata."
+    }
+  ]
+}

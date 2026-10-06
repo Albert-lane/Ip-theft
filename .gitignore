@@ -6,11 +6,7 @@
 node_modules/
 dist/
 .next/
-*.zip
-*.tar.gz
-app_part_*
-*.pyc
-__pycache__/
 .env
 .env.local
 .DS_Store
+

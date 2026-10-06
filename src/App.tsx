@@ -17,6 +17,8 @@ import { AgenticWorkflowsView } from './components/AgenticWorkflowsView';
 import { SecurityAuditRbac } from './components/SecurityAuditRbac';
 import { AskAboutYourData } from './components/AskAboutYourData';
 import { VibeTerminalEnclave } from './components/VibeTerminalEnclave';
+import { TopTerminalEnclaveGui } from './components/TopTerminalEnclaveGui';
+
 
 type ActiveViewTab =
   | 'COCKPIT'
@@ -163,6 +165,9 @@ export default function App() {
           SUBSTRATE: GCPW 32-bit WindowsME_v1.2 // ZERO-INFERENCE PURGED
         </div>
       </nav>
+
+      {/* 2.5 TOP TERMINAL WINDOW GUI // PACKAGE MANAGER FILE SYSTEM & WORKFLOW ORCHESTRATOR */}
+      <TopTerminalEnclaveGui />
 
       {/* 3. MAIN DASHBOARD VIEWPORT (Scrollable, Golden-Ratio spatial padding) */}
       <main className="flex-1 p-[8px] sm:p-[13px] space-y-[13px] overflow-y-auto">

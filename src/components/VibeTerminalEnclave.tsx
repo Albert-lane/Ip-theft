@@ -39,7 +39,8 @@ import {
   Zap,
   Sliders,
   CheckCircle2,
-  AlertTriangle
+  AlertTriangle,
+  History
 } from 'lucide-react';
 import {
   encryptTerminalCommandUI,
@@ -567,6 +568,13 @@ export function VibeTerminalEnclave({
 
         {/* Quick Action Presets */}
         <div className="flex items-center gap-1.5 flex-wrap">
+          <button
+            onClick={() => handleSendCommand('lane-pm history https://aistudio.google.com/u/1/apps/1fa7a9ee-c434-49b4-bd13-19b931bb9220?showAssistant=true&project=albertlane-uk&showCode=true')}
+            className="text-[10px] font-mono px-2.5 py-1 rounded bg-blue-950/40 hover:bg-blue-900/60 text-blue-300 border border-blue-700/60 transition-colors flex items-center gap-1"
+          >
+            <History size={10} className="text-blue-400" />
+            Pull History (URL)
+          </button>
           <button
             onClick={() => handleSendCommand('lane-pm dynamic')}
             className="text-[10px] font-mono px-2.5 py-1 rounded bg-amber-950/40 hover:bg-amber-900/60 text-amber-300 border border-amber-700/60 transition-colors flex items-center gap-1"

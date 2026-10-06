@@ -1,0 +1,221 @@
+{
+  "master_provenance": {
+    "rights_holder": "Albert Lane",
+    "sec_whistleblower_filing": "SEC-17684-273-411-436",
+    "zaxis_cryptographic_anchor": "0x3F8F9A1B2C3D",
+    "governing_license": "Albert Lane Microsoft-Plus Proprietary License",
+    "contact": "https://albertlane.net/licensing",
+    "generated_at": "2026-10-06T04:34:57.588742Z"
+  },
+  "database_accounting": {
+    "total_tables": 32,
+    "total_records": 149571,
+    "database_merkle_root": "2c7faec2f18d0ec8b8f799232adc17c3e2dce6a253b3e504ae0124991f5c6bce",
+    "table_breakdown": [
+      {
+        "table_name": "ast_entities",
+        "record_count": 126342,
+        "sample_proof_sha256": "9270292a1cc2cf450cec8ea687afe9f67bc0b25620a161504e7e984faaf8dcf6",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "cease_and_desist_dispatch_log",
+        "record_count": 8,
+        "sample_proof_sha256": "22132694cd18075519aa278e8a8fa4b9a8fb12bd2a485f40ccee9f67ff1aaf77",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "cross_corpus_ast_correlations",
+        "record_count": 100,
+        "sample_proof_sha256": "eede3d4ac298779c6c68fc8be680777e355ab24047e0f7587206405248a3cc65",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "deep_ast_metrics",
+        "record_count": 14,
+        "sample_proof_sha256": "3e4cebb9d586c26c83048bb9dec62ee701c5b43aa5c1d6fe718bb3de0e8687dc",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "endpoint_license_violations_log",
+        "record_count": 327,
+        "sample_proof_sha256": "f4bc91b9839ed2df6f65ed3b2e808f8922b3205e4f20651700b881e1f87e49b4",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "files",
+        "record_count": 17705,
+        "sample_proof_sha256": "7ec378a49b8fe43d9f50daa3e92ea00e26755cfba6e20300de4e0f4bf0a68bc8",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "global_corporate_entities_intelligence",
+        "record_count": 45,
+        "sample_proof_sha256": "3cbfc8de22a1e8dc4bc59bcc98ae0604eab8e0932f8cf2601242cff3d7e9429f",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "ip_defense_blocklist",
+        "record_count": 31,
+        "sample_proof_sha256": "83ae7db290358329ffa7771c133c798124288545638cd87dab5092912e3c99c3",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "ip_license_violations",
+        "record_count": 10,
+        "sample_proof_sha256": "3de971dfd08068c5f151a0ae41b58ea7a2f246cce30e6ff7f62bb34d863d836d",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "ip_meta_archives",
+        "record_count": 13,
+        "sample_proof_sha256": "a4e1fedf97978a78e398661b9d8e4587f32db7395ae6e4cf4f59cdd4565e1952",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "ip_opensource_analysis",
+        "record_count": 12,
+        "sample_proof_sha256": "6a973863bfa3d9201909ce10eac4fcfff184dc2ecfe23988fdcd6a06632302b4",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "ip_repositories_audit",
+        "record_count": 19,
+        "sample_proof_sha256": "a778ab60cf7598144b9d287383f3b8feb56edcce856096d3bc5a22cd5fcc5fdf",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "language_statistics",
+        "record_count": 19,
+        "sample_proof_sha256": "92f46a87b0bfc0a900a6c8b3db600141cd9e35800ab8efc4628a259abf2c8bd1",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "mcp_ast_correlations",
+        "record_count": 48,
+        "sample_proof_sha256": "6f206271efc284cd89ecf2c1eb0bc4eb54f28d7face531083d3cf9de55e9bb5c",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "mcp_corpus_schemas",
+        "record_count": 79,
+        "sample_proof_sha256": "584c118eeba9c3414837b326d2f7a796f3abfd2d520d3ec59abc4edcbe3e1202",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "mcp_skills_tools",
+        "record_count": 23,
+        "sample_proof_sha256": "7c2bb1d82f1636ab60a67bfdec97b4d6f5705eed96f4cb1d75473a9e2a42857b",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "microsoft_corpus_documents",
+        "record_count": 8,
+        "sample_proof_sha256": "77819d4c8f77e35e91dc48f6269eb023e6dc7c269abd73f5ff415954b2f304a8",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "microsoft_databases_audit",
+        "record_count": 12,
+        "sample_proof_sha256": "a8bba722d6f44658374288aebf4412741ba14df4894bd479db5171beba351036",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "microsoft_derivative_schemas",
+        "record_count": 165,
+        "sample_proof_sha256": "712e548ca836b6fc626337dfa40f4d6c403ec301933cca8ce7a01f579e4b816f",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "microsoft_ip_theft_matches",
+        "record_count": 1089,
+        "sample_proof_sha256": "45079b39fc7151411719e243d82f1809a9265ce15ceaa187a9b371317d03da58",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "microsoft_marketable_derivatives",
+        "record_count": 2,
+        "sample_proof_sha256": "4822df526cce1df52462b7cf9933dc4c5a4d5ac26571855a3c12cb68e2ca3156",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "openai_api_endpoints",
+        "record_count": 346,
+        "sample_proof_sha256": "453fde37d81b17259b8bc70d121f6af603ce935c5c5f88c099551089cb705702",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "openai_api_schemas",
+        "record_count": 1869,
+        "sample_proof_sha256": "2881b4abb18f6c3e24c4a377fe2743498dac5ce0f72af4b40988280eebb75542",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "package_manifests",
+        "record_count": 554,
+        "sample_proof_sha256": "2cd6eb255702e87358f4ad0b4492d64fc63bb2944176a86552dec44d3530f67c",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "provenance_registry",
+        "record_count": 198,
+        "sample_proof_sha256": "0eaee9b467126a10579f93e3198df0ec6658c6d42a8eb68d45e2f5f5f73c418d",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "shell_and_fraudulent_structures_listing",
+        "record_count": 18,
+        "sample_proof_sha256": "cdadd03d5933fd469d5a164a6905d7608623add754b3ef7a5a00a154fe68c0ae",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "spacex_code_derivatives",
+        "record_count": 13,
+        "sample_proof_sha256": "d47330de1ecb69cc340360d4328f6a3dd51447f9461235c35e370e57b4db0237",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "spacex_derivative_fields",
+        "record_count": 320,
+        "sample_proof_sha256": "c040b3c7e09688c16f2a72e341693299d716419a11e5c02e71c14c6d38db117d",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "starlink_terminals_audit",
+        "record_count": 6,
+        "sample_proof_sha256": "c3b5cf2a2aa4734a78b5efe9da537adaaff9f21d5252a15e8c14f6d0f992f227",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "terminal_cli_violations",
+        "record_count": 98,
+        "sample_proof_sha256": "304587493baac8b9d90c9a60a2d6a138fbb98cf764427cd008018819ceeabd0c",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "vault_seal",
+        "record_count": 14,
+        "sample_proof_sha256": "5205eff1cebac44ec3655d56a0c1a0033778866282487051fdd0087384db2af6",
+        "accounting_status": "VERIFIED_ACTIVE"
+      },
+      {
+        "table_name": "void_canary_ledger",
+        "record_count": 64,
+        "sample_proof_sha256": "0a63e51a07f1ac3c5a821fff610992e23303777ca96d062509cd7e978459caac",
+        "accounting_status": "VERIFIED_ACTIVE"
+      }
+    ]
+  },
+  "void_redundancy_and_canary_smoothing": {
+    "total_strides": 64,
+    "memory_stride_bytes": 17684,
+    "canary_merkle_root": "199fb1983f187085cdab1350e7a9e6ced6498e3e53a91cff9215f4cdce423b12",
+    "smoothing_protocol": "FALSE_CANARY_VOID_COMPRESSION_V13",
+    "subterranean_depth_illusion": "ACTIVE_MATHEMATICAL_SMOOTHING"
+  },
+  "lockfile_verification": {
+    "requirements_txt": "VERIFIED_PINNED",
+    "requirements_lock": "VERIFIED_SHA256_PINNED",
+    "package_json_license": "VERIFIED_PROPRIETARY"
+  }
+}

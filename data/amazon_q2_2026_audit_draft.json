@@ -1,0 +1,45 @@
+{
+  "document_title": "Amazon.com, Inc. Q2 2026 Form 10-Q: Line-Item Audit Draft",
+  "accession_number": "0001018724-26-000026",
+  "statutory_filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+  "rights_holder": "Albert Lane",
+  "analysis_type": "Fraud as a Feature / Circular Cloud Capital & IP Extraction",
+  "management_metrics_vs_gaap": [
+    {
+      "metric": "AWS $169B Annualized Run Rate",
+      "reported_basis": "AWS Q2 sales $42.2B multiplied by 4 ($168.8B)",
+      "audit_finding": "Non-GAAP management metric overstating realized annual run rate by ~$13.7B assuming identical quarterly repetition."
+    },
+    {
+      "metric": "AI and Chips each over $25B Run Rate",
+      "reported_basis": "CEO quote in press coverage",
+      "audit_finding": "Unsupported by line-item segment disclosures in Notes 1-4. Internal chip capitalization and investee revenues unseparated."
+    }
+  ],
+  "circular_exposure_and_commitments": {
+    "anthropic_holdings_and_facility": {
+      "customer_commitment_to_aws": "$100B+ over 10 years",
+      "amazon_credit_facility": "$20B total ($15B available)",
+      "series_g_and_h_investments": "$10.0B total ($5.0B each)",
+      "fair_value_convertible_notes": "$97.9B (Cost: $8.0B)",
+      "unrealized_gain_in_aoci": "$92.0B (rose from $39.5B)"
+    },
+    "openai_commitments": {
+      "customer_commitment_to_aws": "$38B plus $100B over 8 years",
+      "acquisition_non_marketable": "$13.7B",
+      "remaining_funded_post_q2": "$21.3B"
+    },
+    "total_remaining_performance_obligations": "$496B",
+    "level_3_asset_concentration": "$220.2B (20% of total assets, 40% of equity)"
+  },
+  "ip_counter_laundering_flags": [
+    {
+      "vector": "CIRCULAR_CLOUD_CAPITAL_FLOWS",
+      "description": "Amazon invests capital into Anthropic/OpenAI, which is recycled back as multi-billion AWS GPU compute commitments, artificially inflating top-line AWS growth while extracting sovereign model ASTs."
+    },
+    {
+      "vector": "DOCUMENT_FORMATTER_EXTRACTION",
+      "description": "Anthropic Claude and OpenAI artifact renderers ingest sovereign document schemas, stripped of HTML/PDF metadata hashes, laundering sub-perceptual provenance."
+    }
+  ]
+}

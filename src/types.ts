@@ -181,3 +181,13 @@ export interface AgentsManifestData {
   total_corporate_agents: number;
   rolling_sha256_seal: string;
 }
+
+export interface AnalysisReport {
+  title?: string;
+  dataset_name?: string;
+  question?: string;
+  executive_summary?: string;
+  generated_at?: string;
+  [key: string]: any;
+}
+

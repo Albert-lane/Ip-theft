@@ -1,0 +1,2946 @@
+{
+  "manifest_type": "SEC_AISTUDIO_APPLICATION_HISTORY_EXTRACTION",
+  "provenance": {
+    "rights_holder": "Albert Lane",
+    "statutory_filing_reference": "SEC Whistleblower No. 17684-273-411-436",
+    "registration_token": "SEC-17684-273-411-436",
+    "numeric_decimal": 17684273411436,
+    "root_of_trust_anchor": "0x3F8F9A1B2C3D",
+    "license": "Albert Lane Proprietary License v1.2",
+    "effective_date": "May 30, 2026",
+    "vmm_allocation_stride": "17684 bytes",
+    "base_sequence_p0": 57000
+  },
+  "query_target": {
+    "raw_url": "https://aistudio.google.com/u/1/apps/1fa7a9ee-c434-49b4-bd13-19b931bb9220?showAssistant=true&project=albertlane-uk&showCode=true",
+    "app_id": "1fa7a9ee-c434-49b4-bd13-19b931bb9220",
+    "user_index": 1,
+    "project": "albertlane-uk",
+    "show_assistant": true,
+    "show_code": true,
+    "host": "aistudio.google.com",
+    "timestamp": "2026-10-04T02:06:04.819253Z"
+  },
+  "lineage_audit": {
+    "app_id": "1fa7a9ee-c434-49b4-bd13-19b931bb9220",
+    "scanned_at": "2026-10-04T02:06:04.995342Z",
+    "total_files": 414,
+    "total_bytes": 180735001,
+    "retrieval_status": "FULL_LINEAGE_INTACT_AND_LOCKED",
+    "missing_files_detected": 0,
+    "truncation_tampering_detected": false
+  },
+  "categories_breakdown": {
+    "REPOSITORY_INFRASTRUCTURE": 75,
+    "IMMUTABLE_DISTRIBUTION_PAYLOAD": 6,
+    "STATUTORY_DATA_REGISTRY": 122,
+    "AUTONOMOUS_AGENT_FRAMEWORK": 20,
+    "SOVEREIGN_SECURITY_VAULT": 76,
+    "LANE_VM_CORE_ENGINE": 40,
+    "AUTOMATION_CLI_ORCHESTRATOR": 53,
+    "MATHEMATICAL_UI_SYSTEM": 19,
+    "RESEARCH_PAPER_LEGAL_DOC": 1,
+    "COMPILED_BYTECODE_RECORD": 2
+  },
+  "files_catalog": {
+    "docker-compose.yml": {
+      "path": "docker-compose.yml",
+      "size_bytes": 968,
+      "sha256": "88425e67b6afa0b26fd5110968c1fca72543d362dd730b4920d2178c420c451b",
+      "modified_at": "2026-10-04T01:58:44.129045Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "albert-lane-sovereign-enclave.7z": {
+      "path": "albert-lane-sovereign-enclave.7z",
+      "size_bytes": 241497,
+      "sha256": "fc111dfec2440b11a8e7f204866a1179610fa5c40d93ba09c7e9c720940495d2",
+      "modified_at": "2026-10-04T01:58:44.130235Z",
+      "category": "IMMUTABLE_DISTRIBUTION_PAYLOAD"
+    },
+    "license.md": {
+      "path": "license.md",
+      "size_bytes": 12481,
+      "sha256": "fd3c3df5ad65a77743c2f576c45d032cc660ce35ad1931b0d0f3b954202b8472",
+      "modified_at": "2026-10-04T01:58:44.136130Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "scrape_gemini.py": {
+      "path": "scrape_gemini.py",
+      "size_bytes": 7974,
+      "sha256": "b6eb6b69f98b3e3bc6a3be3d8a5ae22496c1811267b46c52fdb255cf22b37e6c",
+      "modified_at": "2026-10-04T01:58:44.182556Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "webhook.py": {
+      "path": "webhook.py",
+      "size_bytes": 944,
+      "sha256": "c869ea4ba2a8779bb37d1f56397785cfcfeeac243c33ad6ad5d87624231e2a61",
+      "modified_at": "2026-10-04T01:58:44.195206Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "LICENSE_VIOLATIONS_CHRONOLOGICAL_REGISTRY.txt": {
+      "path": "LICENSE_VIOLATIONS_CHRONOLOGICAL_REGISTRY.txt",
+      "size_bytes": 1800400,
+      "sha256": "f866d9bca109733ab9ae3a5bf20b005ea3e920ac19d4d0e225178601451b1966",
+      "modified_at": "2026-10-04T01:58:44.202481Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "albert-lane-sovereign-enclave.tar.gz": {
+      "path": "albert-lane-sovereign-enclave.tar.gz",
+      "size_bytes": 332523,
+      "sha256": "1d144bbf00187a6b4b67852d66d797970e1ac0ca72fbd8bb1a5dc885775e3169",
+      "modified_at": "2026-10-04T01:58:44.211779Z",
+      "category": "IMMUTABLE_DISTRIBUTION_PAYLOAD"
+    },
+    "tsconfig.json": {
+      "path": "tsconfig.json",
+      "size_bytes": 511,
+      "sha256": "0aca87cecc1c75b5365cef128798131f7df946050be3d4729e1f322e23eff936",
+      "modified_at": "2026-10-04T01:58:44.401712Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "index.html": {
+      "path": "index.html",
+      "size_bytes": 910,
+      "sha256": "6694bb30871f42a89030fbfedd1803b51f849d1d68ef3331ea0ec3131fcc251f",
+      "modified_at": "2026-10-04T01:58:44.403481Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "License_Live.md": {
+      "path": "License_Live.md",
+      "size_bytes": 38525,
+      "sha256": "1feb2e2036ad6f38253377044841fa81a5a93f16146c4ad92db4d8c180ca2b57",
+      "modified_at": "2026-10-04T01:58:44.541976Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "sec_intercept.py": {
+      "path": "sec_intercept.py",
+      "size_bytes": 2366,
+      "sha256": "0095a541c10124e71d020fb5075868d28c71dbc181fb6fc727854dd65ecd9b81",
+      "modified_at": "2026-10-04T01:58:44.543372Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "package-lock.json": {
+      "path": "package-lock.json",
+      "size_bytes": 293930,
+      "sha256": "0f74f08ed4b01e3220d9fb373e50788ea0fc3a8ed46edf5cf4c2ddfcb923e969",
+      "modified_at": "2026-10-04T01:58:44.582130Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "Cargo.toml": {
+      "path": "Cargo.toml",
+      "size_bytes": 802,
+      "sha256": "9e99df587b26c6f058f07563024a4ab34bab3348eed021c1fbf14010297b7c67",
+      "modified_at": "2026-10-04T01:58:44.584911Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "encrypted_agent.py": {
+      "path": "encrypted_agent.py",
+      "size_bytes": 2058,
+      "sha256": "3bce386e48a6592b9b9fa4d5e4dfc0105bbafdd5ca0c82cad166667b1bb30651",
+      "modified_at": "2026-10-04T01:58:44.585944Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "Cargo.lock": {
+      "path": "Cargo.lock",
+      "size_bytes": 1637,
+      "sha256": "c578737e48a973f51af3d80dc37aaea5e37af94775d952beeaff4ae0e03118d2",
+      "modified_at": "2026-10-04T01:58:44.587391Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "docker-compose.node2.yml": {
+      "path": "docker-compose.node2.yml",
+      "size_bytes": 990,
+      "sha256": "7a5bce656591118bc8a07b0a492f52128f36ccd69394b0cb3a62fb5c9cc8f4bc",
+      "modified_at": "2026-10-04T01:58:44.594248Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "vite.config.ts": {
+      "path": "vite.config.ts",
+      "size_bytes": 262,
+      "sha256": "da327062971c0d8920c6623e8a1918621be38cc8c0f0a8eae9a7fac8ce95c76d",
+      "modified_at": "2026-10-04T01:58:44.609432Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "deploy.py": {
+      "path": "deploy.py",
+      "size_bytes": 3489,
+      "sha256": "594edab830e791627b7784c5471e124e845bb00c23f66e789794407d13e24181",
+      "modified_at": "2026-10-04T01:58:44.858206Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "global_query.py": {
+      "path": "global_query.py",
+      "size_bytes": 13649,
+      "sha256": "a711429b21fb71fa388a8d6dcfef48e97f99a60c955ee4c0c1f2205ef56226c7",
+      "modified_at": "2026-10-04T01:58:44.859867Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "csv.py": {
+      "path": "csv.py",
+      "size_bytes": 26758,
+      "sha256": "6e4017adc550abaade30cb356297c9cf0570f2e8a514128d4c231aed72a436a6",
+      "modified_at": "2026-10-04T01:58:44.860599Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "supervisord.conf": {
+      "path": "supervisord.conf",
+      "size_bytes": 2204,
+      "sha256": "e9304466d5ae1cb7c39174c548552ead8a4253888ec2a2b107f3d0d833258dbe",
+      "modified_at": "2026-10-04T01:58:44.861257Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "test_unpack.sh": {
+      "path": "test_unpack.sh",
+      "size_bytes": 950,
+      "sha256": "3213dd39ce4de1ce3c2d230d5a49fd9f37bcce68102ec20fa98f51e2c717d9bb",
+      "modified_at": "2026-10-04T01:58:44.867527Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "flag_header.py": {
+      "path": "flag_header.py",
+      "size_bytes": 602,
+      "sha256": "b39cf372a58f1733dbaed07f7e26dc25dbe383b8fb9a8f8120e7e0558262d6d1",
+      "modified_at": "2026-10-04T01:58:44.875297Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "server.ts": {
+      "path": "server.ts",
+      "size_bytes": 18469,
+      "sha256": "a0f32f8247c1d12028ec5f3d82b0d1817b827b0507148f9d2497770d12a5244a",
+      "modified_at": "2026-10-04T02:05:10.605505Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "sovereign-enclave-monorepo.tar.gz": {
+      "path": "sovereign-enclave-monorepo.tar.gz",
+      "size_bytes": 275187,
+      "sha256": "0cbe9ec3d695ecf0251b87272901b8535184c8715684ed162ce49b7d639d18b1",
+      "modified_at": "2026-10-04T01:58:44.880496Z",
+      "category": "IMMUTABLE_DISTRIBUTION_PAYLOAD"
+    },
+    "index.css": {
+      "path": "index.css",
+      "size_bytes": 476,
+      "sha256": "3eea72255774920ea11f79459ecb7d66e0ec0417f71ac5dc2c8c79f4c4f43e2a",
+      "modified_at": "2026-10-04T01:58:44.882607Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "sec17684273411436.lock": {
+      "path": "sec17684273411436.lock",
+      "size_bytes": 7763,
+      "sha256": "a5ed6fcca9cf112c4a1dbb233b7305a99e8b26d62fd4c7761e3c6549a110ea4e",
+      "modified_at": "2026-10-04T01:58:44.883046Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "metadata.json": {
+      "path": "metadata.json",
+      "size_bytes": 349,
+      "sha256": "b480bec2f6be0f15cae0838ae63936eef1876ca87618909879c37a21b092fe88",
+      "modified_at": "2026-10-04T01:58:44.885914Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "entrypoint.sh": {
+      "path": "entrypoint.sh",
+      "size_bytes": 417,
+      "sha256": "961c572a6828bcc09c2b40b23d70cc3564575dbd2ac92ef0d80d164884c347e8",
+      "modified_at": "2026-10-04T01:58:44.889550Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "package.json": {
+      "path": "package.json",
+      "size_bytes": 2283,
+      "sha256": "953f2401677a272ada94a99970ac11ad9dc66fd326a6d2589726e05cbe2e33dc",
+      "modified_at": "2026-10-04T01:58:44.894231Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "Dockerfile.joules": {
+      "path": "Dockerfile.joules",
+      "size_bytes": 831,
+      "sha256": "9c906dec12f5f5f97ea7abc250d8a77bc595b207a6c693ab25923cba4b22a823",
+      "modified_at": "2026-10-04T01:58:45.918901Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "create_monorepo_tarball.py": {
+      "path": "create_monorepo_tarball.py",
+      "size_bytes": 7812,
+      "sha256": "0e7e6fb5f5ef31a3f83c212427fcd20bc862350480b0e39bb06353a46b5e5ece",
+      "modified_at": "2026-10-04T01:58:45.921093Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "PROVENANCE.md": {
+      "path": "PROVENANCE.md",
+      "size_bytes": 528,
+      "sha256": "9b00ccbb90625dc39624ba1e20225ddf90129be8b5e30633b4348fed1e8bca0f",
+      "modified_at": "2026-10-04T01:58:45.921500Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "agent.tex": {
+      "path": "agent.tex",
+      "size_bytes": 2956,
+      "sha256": "d3695e8ef3fc8aba8e67161664ebf1a4755b8f2e98a1a82b47702585355fec8e",
+      "modified_at": "2026-10-04T01:58:45.930997Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    ".gitignore": {
+      "path": ".gitignore",
+      "size_bytes": 343,
+      "sha256": "c6893c220f9e647e61c181528147d6f0115eac3e842f21f07540ec5339096b76",
+      "modified_at": "2026-10-04T01:58:45.935095Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "build_dataset.py": {
+      "path": "build_dataset.py",
+      "size_bytes": 3929,
+      "sha256": "ef40f1087e9fa68fe56f571afdf60c545896fbffb945d3245e6c1307a4238c0a",
+      "modified_at": "2026-10-04T01:58:45.990389Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "sovereign_crypto.py": {
+      "path": "sovereign_crypto.py",
+      "size_bytes": 1304,
+      "sha256": "bf662c3842bfc33288a8dd3b1b91997f789b6a684b85164affb9c29da8799ab7",
+      "modified_at": "2026-10-04T01:58:46.257159Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "train_joules_bot.py": {
+      "path": "train_joules_bot.py",
+      "size_bytes": 2134,
+      "sha256": "aa570005a254e4304f386c5a2db69b429a09bfab9ba88b8c5792d6e1f9b0cb2a",
+      "modified_at": "2026-10-04T01:58:46.277555Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "LICENSE.md": {
+      "path": "LICENSE.md",
+      "size_bytes": 12481,
+      "sha256": "fd3c3df5ad65a77743c2f576c45d032cc660ce35ad1931b0d0f3b954202b8472",
+      "modified_at": "2026-10-04T01:58:46.367737Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "LICENSE_EAA.md": {
+      "path": "LICENSE_EAA.md",
+      "size_bytes": 9335,
+      "sha256": "009aa6c5e19a5d68309e3b1eb0f00e2eebd778ee983dbbc7b86e26a5f90aaf7d",
+      "modified_at": "2026-10-04T01:58:46.368256Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "docker-compose.node1.yml": {
+      "path": "docker-compose.node1.yml",
+      "size_bytes": 990,
+      "sha256": "7448b254d7b90238a549293f130781fb65c2ad9fa3bc07cf5257ff259b793fbf",
+      "modified_at": "2026-10-04T01:58:46.369418Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "SECURITY.md": {
+      "path": "SECURITY.md",
+      "size_bytes": 186,
+      "sha256": "d37ffd1633dadc12419c5fb6b4e6eeed2c17c50fb25808fc53a66f1ea3f04c50",
+      "modified_at": "2026-10-04T01:58:46.372477Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "eslint.config.js": {
+      "path": "eslint.config.js",
+      "size_bytes": 677,
+      "sha256": "b03f5ff480851fe229889275b71f344477a75705ba0f464d11909edfc1abdcf5",
+      "modified_at": "2026-10-04T01:58:46.377151Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "docker-compose.joules.yml": {
+      "path": "docker-compose.joules.yml",
+      "size_bytes": 996,
+      "sha256": "df5c13144292623dc3cd9231ca600bd55b355cd3615fc72a59c29b2a5359e9d0",
+      "modified_at": "2026-10-04T01:58:46.378155Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "manifest.py.cpp": {
+      "path": "manifest.py.cpp",
+      "size_bytes": 26451,
+      "sha256": "e9436189404cc2074d46cd5e86c05644221a37774bcf1e3edcf29822aea0246d",
+      "modified_at": "2026-10-04T02:04:44.918326Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "win11_vm_creator.py": {
+      "path": "win11_vm_creator.py",
+      "size_bytes": 12238,
+      "sha256": "a451445c695faefea4729d13c1bfc1461c0e72b67ebb9ea565d14649d7e0592c",
+      "modified_at": "2026-10-04T01:58:46.384152Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "LICENSE_MACROHARD.md": {
+      "path": "LICENSE_MACROHARD.md",
+      "size_bytes": 5286,
+      "sha256": "9e59ab7f1c9deeb542467bfef5ab9ebed1854699c41c17309494a67625d96d89",
+      "modified_at": "2026-10-04T01:58:46.385722Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "bun.lock": {
+      "path": "bun.lock",
+      "size_bytes": 140003,
+      "sha256": "b41611fd96fd804ea351983d6857becfd4c5434be3a112ddb6f2994ec8b74fcc",
+      "modified_at": "2026-10-04T01:58:51.164654Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "data/hypervisor_checkpoint.json": {
+      "path": "data/hypervisor_checkpoint.json",
+      "size_bytes": 263,
+      "sha256": "ca1df6a8f73e3dcbc1032e1c0966db5901d1cb516511eeb0d339d09ba8fec1fc",
+      "modified_at": "2026-10-04T01:58:44.091402Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/object_storage_flag_header.json": {
+      "path": "data/object_storage_flag_header.json",
+      "size_bytes": 11943,
+      "sha256": "fcbd2e01832571eaed9907a303aabee0c9b706ac355d44c46d7691f24df0449e",
+      "modified_at": "2026-10-04T01:58:44.127448Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/sec_push_stream_receipt.json": {
+      "path": "data/sec_push_stream_receipt.json",
+      "size_bytes": 1159,
+      "sha256": "2425e3016f4dc99d975a621ed39510a6a9688d7d649177b4da83536f5b905517",
+      "modified_at": "2026-10-04T01:58:44.137517Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/webhook_status.json": {
+      "path": "data/webhook_status.json",
+      "size_bytes": 1802,
+      "sha256": "bdc313bdbd86d194e9af9c47c5e4d14ab7e87bb6e811f071d7e7588da55b71c7",
+      "modified_at": "2026-10-04T01:58:44.215641Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/ast_analysis.json": {
+      "path": "data/ast_analysis.json",
+      "size_bytes": 13322104,
+      "sha256": "dd23525376734ec4a40c542d4242114a3fe0aafd04f92be272c851d0e9a53e0c",
+      "modified_at": "2026-10-04T01:58:44.305815Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/nvidia_universal_matrix_manifest.json": {
+      "path": "data/nvidia_universal_matrix_manifest.json",
+      "size_bytes": 9019,
+      "sha256": "1ff050024955c007b46d1d003913fd90042cff0b6834d8a6db89358cf6aa14c3",
+      "modified_at": "2026-10-04T01:58:44.332061Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/lane_vm_doj_refusal_audit.xml": {
+      "path": "data/lane_vm_doj_refusal_audit.xml",
+      "size_bytes": 9659,
+      "sha256": "d0d81b5eb2e61136c5fb830f6ce06c557e0741b7e138ae05605c3be8829bad18",
+      "modified_at": "2026-10-04T01:58:44.417898Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/sec_package_manager_gist.json": {
+      "path": "data/sec_package_manager_gist.json",
+      "size_bytes": 3901,
+      "sha256": "d9972dc8f0879f13b41f8c8d23e5b70c7b68b3022f82107bceb6c1ea639dd059",
+      "modified_at": "2026-10-04T01:58:44.583827Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/corpus_200mb_audit_report.json": {
+      "path": "data/corpus_200mb_audit_report.json",
+      "size_bytes": 102446,
+      "sha256": "bdd7b5a36a1ed5def3737e0c33c7fca3b281e5d583fc20aed98f836c2deeec99",
+      "modified_at": "2026-10-04T01:58:44.591280Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/automated_cease_and_desist_notice.md": {
+      "path": "data/automated_cease_and_desist_notice.md",
+      "size_bytes": 20834,
+      "sha256": "e8218e967d17b954832fa7a22ef4edf3cb97e8d30375b707e14bd613e4c636e8",
+      "modified_at": "2026-10-04T01:58:44.593943Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/LICENSE_VIOLATIONS_TIME_ORDERED_SEQUENCE.txt": {
+      "path": "data/LICENSE_VIOLATIONS_TIME_ORDERED_SEQUENCE.txt",
+      "size_bytes": 1800400,
+      "sha256": "f866d9bca109733ab9ae3a5bf20b005ea3e920ac19d4d0e225178601451b1966",
+      "modified_at": "2026-10-04T01:58:44.614744Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/manifest_py_cpp_dynamic.json": {
+      "path": "data/manifest_py_cpp_dynamic.json",
+      "size_bytes": 4160,
+      "sha256": "5315fc107dc63717ea5fd4e51ed70c9f07ebfd64977579041851c5b755b8bd0a",
+      "modified_at": "2026-10-04T01:58:44.627808Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/serial_dual_vm_deployment.json": {
+      "path": "data/serial_dual_vm_deployment.json",
+      "size_bytes": 2648,
+      "sha256": "20ee75a7f40fc79be69585bae261dff34131eea34eedbc4e044ce6b48018b6cd",
+      "modified_at": "2026-10-04T01:58:44.860932Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/consolidated_derivatives_license_manifest.json": {
+      "path": "data/consolidated_derivatives_license_manifest.json",
+      "size_bytes": 4716,
+      "sha256": "721f2d04b5de1a490d0b82d0d8b38d350d0d22439ad630ce00ff7832d515a5b7",
+      "modified_at": "2026-10-04T01:58:44.866536Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis_manifest.json": {
+      "path": "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis_manifest.json",
+      "size_bytes": 335,
+      "sha256": "0a2bddee523e13b3b6ac20570870393454e047e8b1555b77c2e328acbf115315",
+      "modified_at": "2026-10-04T01:58:44.870743Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/lane_vm_doj_refusal_audit.json": {
+      "path": "data/lane_vm_doj_refusal_audit.json",
+      "size_bytes": 8602,
+      "sha256": "d7b4904ddeed8f2665c5fe4b9b5db57e66483536e570d89c8a858933799a35bc",
+      "modified_at": "2026-10-04T01:58:44.880852Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/hourly_recursive_sync_manifest.json": {
+      "path": "data/hourly_recursive_sync_manifest.json",
+      "size_bytes": 22659,
+      "sha256": "4a13d652b59f0e64179b23d24a2717fffaf8b6f7668a1bfcdbf21f774b734b73",
+      "modified_at": "2026-10-04T01:58:44.882277Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/sec_numbers_package_manager.lock.json": {
+      "path": "data/sec_numbers_package_manager.lock.json",
+      "size_bytes": 17623,
+      "sha256": "1e469336ab8c304166b093db3aed29903a0f9af3af0eff385984ec1726629bdc",
+      "modified_at": "2026-10-04T01:58:44.891333Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/hypervisor_dual_vm_deployment.json": {
+      "path": "data/hypervisor_dual_vm_deployment.json",
+      "size_bytes": 1191,
+      "sha256": "c1e3510eb5b22fdf057566ae962d74a881a7027a91325440a10ba8699f546061",
+      "modified_at": "2026-10-04T01:58:44.893377Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/hypervisor_audit.json": {
+      "path": "data/hypervisor_audit.json",
+      "size_bytes": 3879,
+      "sha256": "684752dff5042276fdc521308d1b34064a504e579293d75de9ce5de3bd67c1b8",
+      "modified_at": "2026-10-04T01:58:45.919971Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/report.json": {
+      "path": "data/report.json",
+      "size_bytes": 11214,
+      "sha256": "361962d538770e3a2d647427e42d84a28824e549c0de97b21cbb3bdaaca62c9b",
+      "modified_at": "2026-10-04T01:58:45.925963Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/hypervisor_datpa_audit_trace.json": {
+      "path": "data/hypervisor_datpa_audit_trace.json",
+      "size_bytes": 3530,
+      "sha256": "0ec73e296f7c4945ace165781ddba2b3fb5953466ab971ae30435e932f39fb8c",
+      "modified_at": "2026-10-04T01:58:45.928758Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/aggregate_license_violations.json": {
+      "path": "data/aggregate_license_violations.json",
+      "size_bytes": 1145,
+      "sha256": "206fae5f11785659a07b2eaa2f1e49fa134de05ea0e44a20c8f1f0c2330bbd82",
+      "modified_at": "2026-10-04T01:58:45.935682Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/webhook_delivery_log.json": {
+      "path": "data/webhook_delivery_log.json",
+      "size_bytes": 27675,
+      "sha256": "b5101431473da6426090001d7f4d6d126b6a72f1f269e7723ad81e8655390229",
+      "modified_at": "2026-10-04T01:58:46.003264Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/repository_metrics.json": {
+      "path": "data/repository_metrics.json",
+      "size_bytes": 15080130,
+      "sha256": "68a59b872a913dbec03e0cb17c69e09d83a1769df6fed31d0e6cb24a9409d6f2",
+      "modified_at": "2026-10-04T01:58:46.093099Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf": {
+      "path": "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf",
+      "size_bytes": 58031,
+      "sha256": "ce4c69c20fd1238caeb93c7c744ca95b9caa891884ce83eff9d16867a1ed2a93",
+      "modified_at": "2026-10-04T01:58:46.255137Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/consolidated_derivatives_license_manifest.md": {
+      "path": "data/consolidated_derivatives_license_manifest.md",
+      "size_bytes": 2679,
+      "sha256": "d8d0c70488ed3f64ae93ddcce6207f5e8b01e3a93a9614cce83f53b231cdfb6c",
+      "modified_at": "2026-10-04T01:58:46.364607Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/american_flag_header.json": {
+      "path": "data/american_flag_header.json",
+      "size_bytes": 3968,
+      "sha256": "e46844d07a896582e43eea662727d9dca8cb2dd27ca6da76e6de5dd4a5b43dd9",
+      "modified_at": "2026-10-04T01:58:46.388801Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/agents_manifest.json": {
+      "path": "data/agents_manifest.json",
+      "size_bytes": 5386,
+      "sha256": "d47a4a158469ef8c557c4752016d022bd4b4c9193f1ba62396e01e8a15c42ce4",
+      "modified_at": "2026-10-04T01:58:46.390555Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/codebase_ast.db": {
+      "path": "data/codebase_ast.db",
+      "size_bytes": 14200832,
+      "sha256": "66978df83ac6949d5d4de40fca8f6b2bd0add3253b7c27ad15afb4014ad40518",
+      "modified_at": "2026-10-04T01:58:46.423500Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/aistudio_history_1fa7a9ee-c434-49b4-bd13-19b931bb9220.json": {
+      "path": "data/aistudio_history_1fa7a9ee-c434-49b4-bd13-19b931bb9220.json",
+      "size_bytes": 131259,
+      "sha256": "07da9cab32d5b8f4c6a257ed8970992bd59d6535c93c7e7c582819b309907be7",
+      "modified_at": "2026-10-04T02:04:15.078365Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/aistudio_history_1fa7a9ee-c434-49b4-bd13-19b931bb9220_manifest.md": {
+      "path": "data/aistudio_history_1fa7a9ee-c434-49b4-bd13-19b931bb9220_manifest.md",
+      "size_bytes": 1635,
+      "sha256": "48404665362160d3c69c187b0adcbed31b4dee519275affe037fdd9987a28c14",
+      "modified_at": "2026-10-04T02:04:15.078740Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/ip_meta_archives.csv": {
+      "path": "data/csv/ip_meta_archives.csv",
+      "size_bytes": 3535,
+      "sha256": "c4ac190b9485c82db1095b3ae898ba573119c26fec0b85c68ac6ec921751f07a",
+      "modified_at": "2026-10-04T01:58:44.126437Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/openai_api_schemas.csv": {
+      "path": "data/csv/openai_api_schemas.csv",
+      "size_bytes": 501389,
+      "sha256": "3edeaad9e2197ffe323622e718738c1af881a1b7db7e27ed9fb31e1dbc40ea29",
+      "modified_at": "2026-10-04T01:58:44.135004Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/global_corporate_entities_intelligence.csv": {
+      "path": "data/csv/global_corporate_entities_intelligence.csv",
+      "size_bytes": 37557,
+      "sha256": "eacb25ee2ac13fea5d860cff4883a27dfd1cc98ffebcc9fdb9e6874b8855e686",
+      "modified_at": "2026-10-04T01:58:44.195739Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/microsoft_ip_theft_matches.csv": {
+      "path": "data/csv/microsoft_ip_theft_matches.csv",
+      "size_bytes": 489424,
+      "sha256": "8e6c93b01c3cc8f146af47e5b35cb93e3ee8499bef98793fcf3529b801fcfdf1",
+      "modified_at": "2026-10-04T01:58:44.204552Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/microsoft_marketable_derivatives.csv": {
+      "path": "data/csv/microsoft_marketable_derivatives.csv",
+      "size_bytes": 1352,
+      "sha256": "2cfef55d43e8eabb644094c9f8d04f0d2b3c1595567f86ba91e5243a001d34c7",
+      "modified_at": "2026-10-04T01:58:44.208545Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/ast_entities.csv": {
+      "path": "data/csv/ast_entities.csv",
+      "size_bytes": 14437103,
+      "sha256": "ed866c624d3d8112df3f2de21f64ab3f6ca22030d4179965d57b987505bacd11",
+      "modified_at": "2026-10-04T01:58:44.298463Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/microsoft_derivative_schemas.csv": {
+      "path": "data/csv/microsoft_derivative_schemas.csv",
+      "size_bytes": 50066,
+      "sha256": "edda85ff4f3d37868c9b53c27cd37b19c3d176aee0fe28697ede056b2bb8f1b1",
+      "modified_at": "2026-10-04T01:58:44.332560Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/microsoft_corpus_documents.csv": {
+      "path": "data/csv/microsoft_corpus_documents.csv",
+      "size_bytes": 4397,
+      "sha256": "a96c7e76fe0f91d2b115ba589e8cfb678e3e9a14a6ad516cf0b865d7d2fbdd54",
+      "modified_at": "2026-10-04T01:58:44.418399Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/ip_license_violations.csv": {
+      "path": "data/csv/ip_license_violations.csv",
+      "size_bytes": 583249,
+      "sha256": "0f326ca589ba2db6a3a3c0548d71e189efd51bb1b5b4b046b6a98cf557150ca8",
+      "modified_at": "2026-10-04T01:58:44.590742Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/endpoint_license_violations_log.csv": {
+      "path": "data/csv/endpoint_license_violations_log.csv",
+      "size_bytes": 165812,
+      "sha256": "49bf0f5407303df231a0721b5b5bd96a8b99f6af041bc4ec3a2568264cbc8733",
+      "modified_at": "2026-10-04T01:58:44.596719Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/provenance_registry.csv": {
+      "path": "data/csv/provenance_registry.csv",
+      "size_bytes": 55373,
+      "sha256": "48e2a96d30411b694195dc53ff1f372b3138d6b3f4719c5b3fe66fb3df9ca44a",
+      "modified_at": "2026-10-04T01:58:44.615342Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/mcp_corpus_schemas.csv": {
+      "path": "data/csv/mcp_corpus_schemas.csv",
+      "size_bytes": 27729,
+      "sha256": "75b25730f89a6b166f531872c1c3e9dd10a26ba892fa8f2aa64336e247aeadd5",
+      "modified_at": "2026-10-04T01:58:44.617695Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/ip_opensource_analysis.csv": {
+      "path": "data/csv/ip_opensource_analysis.csv",
+      "size_bytes": 3715,
+      "sha256": "8658004bdacab4c6cb8bd9108fb59eb121a5b15ab0f30b9cb0b97e05db8ca2f2",
+      "modified_at": "2026-10-04T01:58:44.624656Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/ip_defense_blocklist.csv": {
+      "path": "data/csv/ip_defense_blocklist.csv",
+      "size_bytes": 7652,
+      "sha256": "1f0bcf6bb8d42b91dd935f41b07788ba5f7337e4e866cafcc2aa6590e8bdac3b",
+      "modified_at": "2026-10-04T01:58:44.849046Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/files.csv": {
+      "path": "data/csv/files.csv",
+      "size_bytes": 2665586,
+      "sha256": "2797c7f10c8990481a81909c5cdb9ac896999cf77aa980af5e96b00e71ec7c44",
+      "modified_at": "2026-10-04T01:58:44.856062Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/openai_api_endpoints.csv": {
+      "path": "data/csv/openai_api_endpoints.csv",
+      "size_bytes": 63568,
+      "sha256": "2ced12f9810ddc421beed5307d75d2dcdf04bb98bbb9a064b2971d51854b84a1",
+      "modified_at": "2026-10-04T01:58:44.859026Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/cross_corpus_ast_correlations.csv": {
+      "path": "data/csv/cross_corpus_ast_correlations.csv",
+      "size_bytes": 28649,
+      "sha256": "9737eefcb788567d6d9e864613abe6320fd801bab1e42c142ffcff19a66a9103",
+      "modified_at": "2026-10-04T01:58:44.865126Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/mcp_ast_correlations.csv": {
+      "path": "data/csv/mcp_ast_correlations.csv",
+      "size_bytes": 14245,
+      "sha256": "109d4a96ad41a44f1b0e7a0545f5677515310eaca03c5dc2e8bd499a59181f65",
+      "modified_at": "2026-10-04T01:58:44.866213Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/spacex_code_derivatives.csv": {
+      "path": "data/csv/spacex_code_derivatives.csv",
+      "size_bytes": 4974,
+      "sha256": "a57a893a9096130fed134a10d2e2b3d91701a63d33497712ec5c1b0431ec39f5",
+      "modified_at": "2026-10-04T01:58:44.871980Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/starlink_terminals_audit.csv": {
+      "path": "data/csv/starlink_terminals_audit.csv",
+      "size_bytes": 3288,
+      "sha256": "87fa1e83bbfd8dfc8813317b7bb81588161bcb91ad518e326441fa559d2a1ee3",
+      "modified_at": "2026-10-04T01:58:44.879537Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/spacex_derivative_fields.csv": {
+      "path": "data/csv/spacex_derivative_fields.csv",
+      "size_bytes": 50404,
+      "sha256": "8d10a8c9130e2a95d46f77a3e565d301054ceb30448ca6c4eba1198e5f73c72e",
+      "modified_at": "2026-10-04T01:58:44.884215Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/deep_ast_metrics.csv": {
+      "path": "data/csv/deep_ast_metrics.csv",
+      "size_bytes": 6896,
+      "sha256": "d5aefb8ff678849bcdb962cd85a78a473d4d5fe515519ab9c7adafa3c80bec38",
+      "modified_at": "2026-10-04T01:58:44.890326Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/shell_and_fraudulent_structures_listing.csv": {
+      "path": "data/csv/shell_and_fraudulent_structures_listing.csv",
+      "size_bytes": 13145,
+      "sha256": "3915f1925b81f43ca1973a675aef5db1153c2e694e83b7739e858323013c3c1c",
+      "modified_at": "2026-10-04T01:58:44.890717Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/vault_seal.csv": {
+      "path": "data/csv/vault_seal.csv",
+      "size_bytes": 2713,
+      "sha256": "2264d92a372002317948f108baf74c0ba6aa198f150fa9404c61ae4282952a7d",
+      "modified_at": "2026-10-04T01:58:45.991082Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/ip_repositories_audit.csv": {
+      "path": "data/csv/ip_repositories_audit.csv",
+      "size_bytes": 6213,
+      "sha256": "5d3cac8cb6cb03040c2c33880eae8d32533f7297c1f6730c77f2f5ed476a25d0",
+      "modified_at": "2026-10-04T01:58:45.993651Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/package_manifests.csv": {
+      "path": "data/csv/package_manifests.csv",
+      "size_bytes": 69433,
+      "sha256": "4dff6a01ccb9d9f54ce36b6cce4ae9eff92843b1ecc2bb3f2faa8c4ae592aafb",
+      "modified_at": "2026-10-04T01:58:46.360922Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/microsoft_databases_audit.csv": {
+      "path": "data/csv/microsoft_databases_audit.csv",
+      "size_bytes": 8336,
+      "sha256": "6eb0f4c396428ca08c9f6aadedab3be5241770f548222c84359d90b5b1aee7dc",
+      "modified_at": "2026-10-04T01:58:46.386228Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/mcp_skills_tools.csv": {
+      "path": "data/csv/mcp_skills_tools.csv",
+      "size_bytes": 6721,
+      "sha256": "562c214d984335a9e765a02428c75b9cb395f9a967b2331e7cefee7289d7ca00",
+      "modified_at": "2026-10-04T01:58:46.387767Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv/language_statistics.csv": {
+      "path": "data/csv/language_statistics.csv",
+      "size_bytes": 1762,
+      "sha256": "b72b0d98244c0332f9eebccddb94c41fb8a3d89de4b60949f300138e63eae28c",
+      "modified_at": "2026-10-04T01:58:46.390303Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/microsoft_corpus_documents.json": {
+      "path": "data/csv_json_mirror/microsoft_corpus_documents.json",
+      "size_bytes": 8493,
+      "sha256": "aa9ceeb3c873c281016c7a5b8aa07be1c829ce263c236d6e9de06110a44cb54a",
+      "modified_at": "2026-10-04T01:58:44.127938Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/vault_seal.json": {
+      "path": "data/csv_json_mirror/vault_seal.json",
+      "size_bytes": 5537,
+      "sha256": "967a6475db99961beabdbf2b4db83ca855462fa273ce196756862f2aee5cff47",
+      "modified_at": "2026-10-04T01:58:44.128527Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/ip_license_violations.json": {
+      "path": "data/csv_json_mirror/ip_license_violations.json",
+      "size_bytes": 998948,
+      "sha256": "3918b8c826df9323ceb10fc89aade22cf158c530d20d51909b007bbffe930b51",
+      "modified_at": "2026-10-04T01:58:44.133278Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/cross_corpus_ast_correlations.json": {
+      "path": "data/csv_json_mirror/cross_corpus_ast_correlations.json",
+      "size_bytes": 55337,
+      "sha256": "ed079d9e147caf6e9ac29187a9609cbfd94442449ec75fffa589d21c6eaf43a4",
+      "modified_at": "2026-10-04T01:58:44.182173Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/microsoft_marketable_derivatives.json": {
+      "path": "data/csv_json_mirror/microsoft_marketable_derivatives.json",
+      "size_bytes": 2523,
+      "sha256": "239728a14d7ecc12020c2c8fd38fae72fee46e192700afb906067ac195f9e6bf",
+      "modified_at": "2026-10-04T01:58:44.196127Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/ip_meta_archives.json": {
+      "path": "data/csv_json_mirror/ip_meta_archives.json",
+      "size_bytes": 7273,
+      "sha256": "fa8cb6e122b08ed72abe205db15f8bfd281d6694fc89c634f7532454d22d8c2c",
+      "modified_at": "2026-10-04T01:58:44.212960Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/spacex_derivative_fields.json": {
+      "path": "data/csv_json_mirror/spacex_derivative_fields.json",
+      "size_bytes": 115394,
+      "sha256": "607a520dabae1a091f289b9fec42d609dafb02e9613ef4867377d43f401f808a",
+      "modified_at": "2026-10-04T01:58:44.400641Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/shell_and_fraudulent_structures_listing.json": {
+      "path": "data/csv_json_mirror/shell_and_fraudulent_structures_listing.json",
+      "size_bytes": 21221,
+      "sha256": "24a5a6af4d62d46b6d4df12ff308200d442a62ddb22ba03692c103692b492afd",
+      "modified_at": "2026-10-04T01:58:44.418836Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/mcp_skills_tools.json": {
+      "path": "data/csv_json_mirror/mcp_skills_tools.json",
+      "size_bytes": 13949,
+      "sha256": "0c754c92193f3865b39dd55bf13e51cb2b206029397ed4fdcf24f2ad467f97a4",
+      "modified_at": "2026-10-04T01:58:44.540972Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/openai_api_endpoints.json": {
+      "path": "data/csv_json_mirror/openai_api_endpoints.json",
+      "size_bytes": 113152,
+      "sha256": "60484cf2eaa7277347a006d968a985c93dbe849640e3f69ca36c2058d918d870",
+      "modified_at": "2026-10-04T01:58:44.583476Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/endpoint_license_violations_log.json": {
+      "path": "data/csv_json_mirror/endpoint_license_violations_log.json",
+      "size_bytes": 301483,
+      "sha256": "61eaba26e803a15fa796de84258acfb015780a006286dcd3064593051ee69db1",
+      "modified_at": "2026-10-04T01:58:44.597605Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/mcp_ast_correlations.json": {
+      "path": "data/csv_json_mirror/mcp_ast_correlations.json",
+      "size_bytes": 32367,
+      "sha256": "176bcf08f6e43593ecad9ad1faed78b95176f2c7ee86e668849e125ecddaa463",
+      "modified_at": "2026-10-04T01:58:44.600813Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/microsoft_derivative_schemas.json": {
+      "path": "data/csv_json_mirror/microsoft_derivative_schemas.json",
+      "size_bytes": 92640,
+      "sha256": "cf58bc3f7777d71d3ddcae00ba4b8cff99432004a74732039b3c23cf62ce23e8",
+      "modified_at": "2026-10-04T01:58:44.616447Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/language_statistics.json": {
+      "path": "data/csv_json_mirror/language_statistics.json",
+      "size_bytes": 6087,
+      "sha256": "d8124db8d21e62c3bcf084eed0623251bc2021de62aa23275f2c27f80a2672f6",
+      "modified_at": "2026-10-04T01:58:44.618252Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/ip_repositories_audit.json": {
+      "path": "data/csv_json_mirror/ip_repositories_audit.json",
+      "size_bytes": 5174,
+      "sha256": "ec2b218b2732429dba406addfbfa0dc1e3bc76a98aff70d602c80bf4b7747d1f",
+      "modified_at": "2026-10-04T01:58:44.621333Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/deep_ast_metrics.json": {
+      "path": "data/csv_json_mirror/deep_ast_metrics.json",
+      "size_bytes": 9674,
+      "sha256": "87ac31a3d64b5e41da9baee5cb6553d4ece5a26ffd30edce9c99c8d305662a45",
+      "modified_at": "2026-10-04T01:58:44.865832Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/microsoft_databases_audit.json": {
+      "path": "data/csv_json_mirror/microsoft_databases_audit.json",
+      "size_bytes": 14336,
+      "sha256": "e6e1dc356eb63cbaa7eab37cda8aeee04d5569883bae37145b58177947dd29c3",
+      "modified_at": "2026-10-04T01:58:44.892116Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/global_corporate_entities_intelligence.json": {
+      "path": "data/csv_json_mirror/global_corporate_entities_intelligence.json",
+      "size_bytes": 65182,
+      "sha256": "919a9821c2cdc4958719e5aac9d7ab4d96a93fa05ffb168bd86bd816623f0c2b",
+      "modified_at": "2026-10-04T01:58:44.892501Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/starlink_terminals_audit.json": {
+      "path": "data/csv_json_mirror/starlink_terminals_audit.json",
+      "size_bytes": 7663,
+      "sha256": "aebf446612d810cca06b5de1924d4db9f1913ee86618a8e8a9ecd52af46db81e",
+      "modified_at": "2026-10-04T01:58:45.927405Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/ip_opensource_analysis.json": {
+      "path": "data/csv_json_mirror/ip_opensource_analysis.json",
+      "size_bytes": 8984,
+      "sha256": "2069733259d6688f6ad9828ab4f7db9f4f5fcb00aba7f4f4410bcf48d2f3f2d8",
+      "modified_at": "2026-10-04T01:58:45.929142Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/files.json": {
+      "path": "data/csv_json_mirror/files.json",
+      "size_bytes": 5888338,
+      "sha256": "15c1c239e6ff7c7abff29a11c077ab1ccb14e21a46534d12fa41f8af51f5883f",
+      "modified_at": "2026-10-04T01:58:46.014849Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/openai_api_schemas.json": {
+      "path": "data/csv_json_mirror/openai_api_schemas.json",
+      "size_bytes": 944797,
+      "sha256": "a424dda6fffa8ac9959838d7600ebe00bf6fe7a6c84bad781c2c455a11eaf755",
+      "modified_at": "2026-10-04T01:58:46.363596Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/spacex_code_derivatives.json": {
+      "path": "data/csv_json_mirror/spacex_code_derivatives.json",
+      "size_bytes": 9526,
+      "sha256": "30c37836f68d36aa73ca011ff1990bf947ec96c1dad5d7284da66d8213a19e53",
+      "modified_at": "2026-10-04T01:58:46.365187Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/package_manifests.json": {
+      "path": "data/csv_json_mirror/package_manifests.json",
+      "size_bytes": 145780,
+      "sha256": "a6151362cd145d6ca2959974fba9abeab176981b4cff11012baf72d2ecc74765",
+      "modified_at": "2026-10-04T01:58:46.366627Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/microsoft_ip_theft_matches.json": {
+      "path": "data/csv_json_mirror/microsoft_ip_theft_matches.json",
+      "size_bytes": 940181,
+      "sha256": "793404bc93d4ed96b3fbc0c06798082257a1e9f702333d15c63a428c9b8b7e75",
+      "modified_at": "2026-10-04T01:58:46.371737Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/provenance_registry.json": {
+      "path": "data/csv_json_mirror/provenance_registry.json",
+      "size_bytes": 105841,
+      "sha256": "2f72c9e6ae412f451d2054d7e8f82117c7cdf0f8d3614ca07d4dc334c65c9eab",
+      "modified_at": "2026-10-04T01:58:46.376589Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/ip_defense_blocklist.json": {
+      "path": "data/csv_json_mirror/ip_defense_blocklist.json",
+      "size_bytes": 15443,
+      "sha256": "916fa623e488ca4e2fcc0788ea45b78e80e9cabb577c523870ee8778ecddcca3",
+      "modified_at": "2026-10-04T01:58:46.392257Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/mcp_corpus_schemas.json": {
+      "path": "data/csv_json_mirror/mcp_corpus_schemas.json",
+      "size_bytes": 50494,
+      "sha256": "04e21c262f9de361612d4514a019491e2942a9e1f55f9ba0fe3ffd34ab42f35f",
+      "modified_at": "2026-10-04T01:58:46.392873Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/csv_json_mirror/ast_entities.json": {
+      "path": "data/csv_json_mirror/ast_entities.json",
+      "size_bytes": 32394155,
+      "sha256": "db2d273d575b49d3c97b3eb5b3b592abe59eb989742a1e8e47a877a41cfa1378",
+      "modified_at": "2026-10-04T01:58:48.544974Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/Microsoft_SemanticKernel_Core_AST.json": {
+      "path": "data/microsoft_derivatives/Microsoft_SemanticKernel_Core_AST.json",
+      "size_bytes": 480,
+      "sha256": "cc0b9779ed408cc4c495aa2e29e5cc8fa60785e64e487b8692dc74fd77bf4385",
+      "modified_at": "2026-10-04T01:58:44.205366Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/AzureOpenAI_Inference_2024-02-01.json": {
+      "path": "data/microsoft_derivatives/AzureOpenAI_Inference_2024-02-01.json",
+      "size_bytes": 106532,
+      "sha256": "51ca4b18c53d58988b06104a98a10d4796ad05a07a550ddfdbdc600627bc3ac9",
+      "modified_at": "2026-10-04T01:58:44.587049Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json": {
+      "path": "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json",
+      "size_bytes": 746,
+      "sha256": "70d315b91ff899a877125a528b09d6ef92fddb67ada56f7f8c6766f54bd95029",
+      "modified_at": "2026-10-04T01:58:44.849671Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/Microsoft_Graph_Copilot_AI_Endpoints.json": {
+      "path": "data/microsoft_derivatives/Microsoft_Graph_Copilot_AI_Endpoints.json",
+      "size_bytes": 1656,
+      "sha256": "58bfc363e52ee90c17a778f3c7010fe9ce0a24421be73baa367d8baabb61626d",
+      "modified_at": "2026-10-04T01:58:44.861845Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/Microsoft_Copilot_Studio_Agent_AST.json": {
+      "path": "data/microsoft_derivatives/Microsoft_Copilot_Studio_Agent_AST.json",
+      "size_bytes": 2802,
+      "sha256": "c7c1a44db199b208803c72bdc5b5c721eb0d88bf1c88545fdbcb4856b84f86b9",
+      "modified_at": "2026-10-04T01:58:44.865480Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/AzureCosmosDB_DocumentDB_REST_2020.json": {
+      "path": "data/microsoft_derivatives/AzureCosmosDB_DocumentDB_REST_2020.json",
+      "size_bytes": 5725,
+      "sha256": "a9eca3b1f4678e86ebe80d13682c94fd50b1cf00438ff670e0925280f9b61b47",
+      "modified_at": "2026-10-04T01:58:46.282523Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/AzureCognitiveSearch_VectorStore_2024.json": {
+      "path": "data/microsoft_derivatives/AzureCognitiveSearch_VectorStore_2024.json",
+      "size_bytes": 2205,
+      "sha256": "ebbcf3f6346a3daa00907dde2638b24a1c8fca4d95b0d7683dd57ce095bfdc35",
+      "modified_at": "2026-10-04T01:58:46.381868Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/microsoft_derivatives/AzureSQL_Database_Engine_REST_2021.json": {
+      "path": "data/microsoft_derivatives/AzureSQL_Database_Engine_REST_2021.json",
+      "size_bytes": 4079,
+      "sha256": "8ec19442377e003d9b2d45d66dbe805e6c4277e0e94cd4191a1411ae5ef3c8df",
+      "modified_at": "2026-10-04T01:58:46.384651Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/arxiv/exhibits_and_fcc_sec_petition.md": {
+      "path": "data/arxiv/exhibits_and_fcc_sec_petition.md",
+      "size_bytes": 645,
+      "sha256": "70e57c6794e7125123ce2502e67ccdb541661b404d7f39f94b02b912b77b0b8a",
+      "modified_at": "2026-10-04T01:58:44.212255Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/arxiv/corpus_manifest.json": {
+      "path": "data/arxiv/corpus_manifest.json",
+      "size_bytes": 5437,
+      "sha256": "ab997ef663044d4f4902314b2dab98575671f98f6108584223bbeab2f27460d0",
+      "modified_at": "2026-10-04T01:58:44.393450Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/arxiv/joules_supply_chain_conjecture.md": {
+      "path": "data/arxiv/joules_supply_chain_conjecture.md",
+      "size_bytes": 693,
+      "sha256": "397ad27a87b65b9f67b33f71128d17486672e22898cc2a576807642e26d6c177",
+      "modified_at": "2026-10-04T01:58:44.540382Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/arxiv/sovereign_forensic_audit_sleeve.md": {
+      "path": "data/arxiv/sovereign_forensic_audit_sleeve.md",
+      "size_bytes": 527,
+      "sha256": "bf481f9d92048dfe72e3f8c259f915641931f13c9a1c8dd68df7682f841fdd83",
+      "modified_at": "2026-10-04T01:58:44.595974Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/arxiv/forensic_reconstruction_z_axis.md": {
+      "path": "data/arxiv/forensic_reconstruction_z_axis.md",
+      "size_bytes": 957,
+      "sha256": "41461e5a81701edb4b334384cd145829fd8c9987fd8f45664b62c018a249f9df",
+      "modified_at": "2026-10-04T01:58:44.617268Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/arxiv/whitepaper_elasticity_spacetime.md": {
+      "path": "data/arxiv/whitepaper_elasticity_spacetime.md",
+      "size_bytes": 1568,
+      "sha256": "0fea0fc71c4c53b80b515e35b0d98d8d26730995da83f4e20f9b8887835bee7c",
+      "modified_at": "2026-10-04T01:58:45.920307Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/dragons.js": {
+      "path": "data/spacex_derivatives/dragons.js",
+      "size_bytes": 3029,
+      "sha256": "336f23ffe5f4bf75e43ab6a76e7adab4ffc023bee2049b9184cb1a58c6192bc4",
+      "modified_at": "2026-10-04T01:58:44.417479Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/launches.js": {
+      "path": "data/spacex_derivatives/launches.js",
+      "size_bytes": 4588,
+      "sha256": "ce205791132628f504b09634d12efe18713d977c54008cbd7261cdb51b25fef8",
+      "modified_at": "2026-10-04T01:58:44.619842Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/rockets.js": {
+      "path": "data/spacex_derivatives/rockets.js",
+      "size_bytes": 3806,
+      "sha256": "d860987b01b1c5cd7039db1f3ca46f176b843d2986eefd4cf22593d5f3ffbdab",
+      "modified_at": "2026-10-04T01:58:44.622014Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/cores.js": {
+      "path": "data/spacex_derivatives/cores.js",
+      "size_bytes": 1630,
+      "sha256": "d9ef8bf12c7874ebd6fa71789906c14e772604a220cf539317d4277d80d63eb3",
+      "modified_at": "2026-10-04T01:58:44.628664Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/launchpads.js": {
+      "path": "data/spacex_derivatives/launchpads.js",
+      "size_bytes": 1892,
+      "sha256": "82879ab9d036cb45ff759175f8837677974af5398e76af7580f49152b9c307d3",
+      "modified_at": "2026-10-04T01:58:44.864404Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/spacex_models_manifest.json": {
+      "path": "data/spacex_derivatives/spacex_models_manifest.json",
+      "size_bytes": 6481,
+      "sha256": "0e18a7186353bf7a50ca6a1ad797ac0dac61f4b6353c4fe12e14b68ada2043b6",
+      "modified_at": "2026-10-04T01:58:44.874089Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/payloads.js": {
+      "path": "data/spacex_derivatives/payloads.js",
+      "size_bytes": 2906,
+      "sha256": "5b59d51844d99e06a7f7baeece1301cd9397c49df45219a1f477eed7b4aaedb9",
+      "modified_at": "2026-10-04T01:58:44.895990Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/ships.js": {
+      "path": "data/spacex_derivatives/ships.js",
+      "size_bytes": 2200,
+      "sha256": "efefc8956f99a9a3958c82913a373c9a8d16a865aa0f035bdf24eafff5e13ffe",
+      "modified_at": "2026-10-04T01:58:44.897593Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/capsules.js": {
+      "path": "data/spacex_derivatives/capsules.js",
+      "size_bytes": 1639,
+      "sha256": "ff1082bec37cf31379d1c114ebba9ff1d3bdac08d026593489673381b937b782",
+      "modified_at": "2026-10-04T01:58:45.921849Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/company.js": {
+      "path": "data/spacex_derivatives/company.js",
+      "size_bytes": 1604,
+      "sha256": "565159a9339c4991d45f325e20428e0df86e7de9997eab5e2dc27178947e44be",
+      "modified_at": "2026-10-04T01:58:45.922645Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/crew.js": {
+      "path": "data/spacex_derivatives/crew.js",
+      "size_bytes": 1328,
+      "sha256": "806b1d948c57effbbd6389c4fcdacc280cde3f430d40e8e879e84b980e6a7c64",
+      "modified_at": "2026-10-04T01:58:45.926399Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/landpads.js": {
+      "path": "data/spacex_derivatives/landpads.js",
+      "size_bytes": 1863,
+      "sha256": "152674f18d4b6026df0367cea9f4cb85a680b97fb5a16c6f9c57edb1917a7597",
+      "modified_at": "2026-10-04T01:58:45.988624Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/roadster.js": {
+      "path": "data/spacex_derivatives/roadster.js",
+      "size_bytes": 1849,
+      "sha256": "525d0a9bac4a53f81a13048040ca2e5dc6a816707248aa26d2a77a9d15ed48ad",
+      "modified_at": "2026-10-04T01:58:46.364004Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/spacex_derivatives/starlink.js": {
+      "path": "data/spacex_derivatives/starlink.js",
+      "size_bytes": 500,
+      "sha256": "f2d2335deaed912408c67a7cd506156bfb16fed056ebc0a4073d7907d8e1cdfe",
+      "modified_at": "2026-10-04T01:58:46.379192Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/mcp_corpus/claude_code_mcp_skills_corpus.json": {
+      "path": "data/mcp_corpus/claude_code_mcp_skills_corpus.json",
+      "size_bytes": 383,
+      "sha256": "453ea31cb1a0d40bf920c7624b5bf690eb713cdfaf46495d54e7d808e2576ffd",
+      "modified_at": "2026-10-04T01:58:44.598342Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/mcp_corpus/mcp_specification_schema.json": {
+      "path": "data/mcp_corpus/mcp_specification_schema.json",
+      "size_bytes": 69476,
+      "sha256": "85da894b4561c50f8c727cf5c0145480bbe53d9095fe06c909d1a80f9ddaf066",
+      "modified_at": "2026-10-04T01:58:44.874568Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/object_storage/blobs/american_flag_letterhead.aa.blob": {
+      "path": "data/object_storage/blobs/american_flag_letterhead.aa.blob",
+      "size_bytes": 30310,
+      "sha256": "1a9c97d40a5cae3cccbc12bd3753d1f1208adb69136cb41ab121fbb4fc43643e",
+      "modified_at": "2026-10-04T01:58:44.616912Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "data/openai_corpus/openai_openapi.json": {
+      "path": "data/openai_corpus/openai_openapi.json",
+      "size_bytes": 487,
+      "sha256": "b13306d341af22b6cf7d86bc6487f78d6fad8ff6f1e83ce59f95d356366dcefe",
+      "modified_at": "2026-10-04T01:58:46.367196Z",
+      "category": "STATUTORY_DATA_REGISTRY"
+    },
+    "public/albert-lane-sovereign-enclave.7z.sha256": {
+      "path": "public/albert-lane-sovereign-enclave.7z.sha256",
+      "size_bytes": 99,
+      "sha256": "9a3c6846355c84f9e6ae87285b7cade9f663c50af2e0361df7c9bca02142958e",
+      "modified_at": "2026-10-04T01:58:44.125785Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "public/albert-lane-sovereign-enclave.tar.gz": {
+      "path": "public/albert-lane-sovereign-enclave.tar.gz",
+      "size_bytes": 332523,
+      "sha256": "1d144bbf00187a6b4b67852d66d797970e1ac0ca72fbd8bb1a5dc885775e3169",
+      "modified_at": "2026-10-04T01:58:44.403060Z",
+      "category": "IMMUTABLE_DISTRIBUTION_PAYLOAD"
+    },
+    "public/albert-lane-sovereign-enclave.7z": {
+      "path": "public/albert-lane-sovereign-enclave.7z",
+      "size_bytes": 241497,
+      "sha256": "fc111dfec2440b11a8e7f204866a1179610fa5c40d93ba09c7e9c720940495d2",
+      "modified_at": "2026-10-04T01:58:44.582795Z",
+      "category": "IMMUTABLE_DISTRIBUTION_PAYLOAD"
+    },
+    "public/License_Live.md": {
+      "path": "public/License_Live.md",
+      "size_bytes": 38525,
+      "sha256": "1feb2e2036ad6f38253377044841fa81a5a93f16146c4ad92db4d8c180ca2b57",
+      "modified_at": "2026-10-04T01:58:44.585283Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "public/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf": {
+      "path": "public/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf",
+      "size_bytes": 58031,
+      "sha256": "ce4c69c20fd1238caeb93c7c744ca95b9caa891884ce83eff9d16867a1ed2a93",
+      "modified_at": "2026-10-04T01:58:44.599569Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "public/sovereign-enclave-monorepo.tar.gz": {
+      "path": "public/sovereign-enclave-monorepo.tar.gz",
+      "size_bytes": 275187,
+      "sha256": "0cbe9ec3d695ecf0251b87272901b8535184c8715684ed162ce49b7d639d18b1",
+      "modified_at": "2026-10-04T01:58:44.868730Z",
+      "category": "IMMUTABLE_DISTRIBUTION_PAYLOAD"
+    },
+    "public/albert-lane-sovereign-enclave.tar.gz.sha256": {
+      "path": "public/albert-lane-sovereign-enclave.tar.gz.sha256",
+      "size_bytes": 103,
+      "sha256": "40bca1c8f2d9263c5e6c2d93a7278c98099199255f6ce3c10d39fb69feb1d7c8",
+      "modified_at": "2026-10-04T01:58:45.918159Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "public/sovereign-enclave-monorepo.sha256": {
+      "path": "public/sovereign-enclave-monorepo.sha256",
+      "size_bytes": 100,
+      "sha256": "8141ff7e06e1e71891e0516491cdf2d006d6e82dcc036aca520079d1d6735e27",
+      "modified_at": "2026-10-04T01:58:46.383070Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "agents/lane_vm_master_blending_matrix.md": {
+      "path": "agents/lane_vm_master_blending_matrix.md",
+      "size_bytes": 3347,
+      "sha256": "35b14fdcc6ce247bd60bb13a4e7b747ac4496f2a84ba3865fbf4c729a2465498",
+      "modified_at": "2026-10-04T01:58:44.126916Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/meta_llama_agent.json": {
+      "path": "agents/meta_llama_agent.json",
+      "size_bytes": 778,
+      "sha256": "317e0f063c87f87353cb5aa890649a0ecf5c8e0ca9eea5912d0705512d27f61a",
+      "modified_at": "2026-10-04T01:58:44.202900Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/anthropic_claude_agent.json": {
+      "path": "agents/anthropic_claude_agent.json",
+      "size_bytes": 2627,
+      "sha256": "8c52dd9068ae4728db88ae96bdf9577f7efb4287f5d18bad4b93a24c1439b6a4",
+      "modified_at": "2026-10-04T01:58:44.609113Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/openai_gpt_agent.json": {
+      "path": "agents/openai_gpt_agent.json",
+      "size_bytes": 1836,
+      "sha256": "550f999ae668304030574cae6567efb73cf887f226c7f5b3c9a12c680a712aa3",
+      "modified_at": "2026-10-04T01:58:44.856479Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/nvidia_nim_agent.json": {
+      "path": "agents/nvidia_nim_agent.json",
+      "size_bytes": 4965,
+      "sha256": "8b5d50d6e937ef761e9a975552ccf1e0515372ff07224cf27fe37421a6a89c49",
+      "modified_at": "2026-10-04T01:58:44.863681Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/lane_vm_master_agent.json": {
+      "path": "agents/lane_vm_master_agent.json",
+      "size_bytes": 3824,
+      "sha256": "541ad6a73a96c637d9f537cc315bd8ee73afb29c67a35ecf805e7c0fff9a1147",
+      "modified_at": "2026-10-04T01:58:44.876053Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/google_gemini_agent.json": {
+      "path": "agents/google_gemini_agent.json",
+      "size_bytes": 1366,
+      "sha256": "ade9842aea66b92f796535d6ce164771cbde0f20b01312fb2494183dddffdbf4",
+      "modified_at": "2026-10-04T01:58:44.895104Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/AGENTS_MANIFEST.md": {
+      "path": "agents/AGENTS_MANIFEST.md",
+      "size_bytes": 2994,
+      "sha256": "560a3f5371735eec4bae3ce3843fc1380ff3038190ecbc5253de33cd78195e02",
+      "modified_at": "2026-10-04T01:58:45.933070Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agents/microsoft_copilot_agent.json": {
+      "path": "agents/microsoft_copilot_agent.json",
+      "size_bytes": 1320,
+      "sha256": "aac4f511b5adf2ae666500669d93670a6b81eb9bc66c0b87ddbe726556140beb",
+      "modified_at": "2026-10-04T01:58:46.278244Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "server/security/sovereign_crypto.py": {
+      "path": "server/security/sovereign_crypto.py",
+      "size_bytes": 41856,
+      "sha256": "68e9cae30b290fcaa208c4fb3958d070487efefca73710ffbec271078630182d",
+      "modified_at": "2026-10-04T01:58:44.135685Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "server/security/starlinkAuditEngine.ts": {
+      "path": "server/security/starlinkAuditEngine.ts",
+      "size_bytes": 38825,
+      "sha256": "5e1b7c5080be459475d85579174f1d9ecb173b277fb91741a0bc3c3090cd6369",
+      "modified_at": "2026-10-04T01:58:44.619171Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "server/security/networkEgressGraph.ts": {
+      "path": "server/security/networkEgressGraph.ts",
+      "size_bytes": 19822,
+      "sha256": "39c4b7dbe6925ebb74aa18a7688a52a1eeb6ed95a714eec5c493287d843aab40",
+      "modified_at": "2026-10-04T01:58:44.623922Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "server/security/vibeTerminalEngine.ts": {
+      "path": "server/security/vibeTerminalEngine.ts",
+      "size_bytes": 23387,
+      "sha256": "44b4a61fcdf577f632e8502a9ff260dc7b84c5fc41b6d98162c0503f8f46d2c9",
+      "modified_at": "2026-10-04T02:04:59.327002Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "server/security/ipBlocker.ts": {
+      "path": "server/security/ipBlocker.ts",
+      "size_bytes": 15638,
+      "sha256": "ef10676cfc8cb8833aa6aa7190c01ee66b1409eb7dfc6908741cc8f92b9cc2c7",
+      "modified_at": "2026-10-04T01:58:46.381726Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "server/security/__pycache__/sovereign_crypto.cpython-310.pyc": {
+      "path": "server/security/__pycache__/sovereign_crypto.cpython-310.pyc",
+      "size_bytes": 31764,
+      "sha256": "8c75f1d153ecd34b02c8423ad357a6181cfb5e4e9ead51ac9d287527d9909b0a",
+      "modified_at": "2026-10-04T01:58:46.389974Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "server/lane_vm/render_pdf.js": {
+      "path": "server/lane_vm/render_pdf.js",
+      "size_bytes": 9760,
+      "sha256": "5a234480950519bc6af99d3c71daa98883c9fdd0630fce53f35de6f8a3fb7938",
+      "modified_at": "2026-10-04T01:58:44.203303Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/Lane_VM_flag.xml.c": {
+      "path": "server/lane_vm/Lane_VM_flag.xml.c",
+      "size_bytes": 6041,
+      "sha256": "445ebfa7596d1827c864a66c935875445e4980065ab15f5c9b27f034bda4aa24",
+      "modified_at": "2026-10-04T01:58:44.208193Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_runner_harness.py": {
+      "path": "server/lane_vm/lane_vm_runner_harness.py",
+      "size_bytes": 1810,
+      "sha256": "4a2460c3e0b6905251fb4900458c3aa81719e1872742c278676f23be66eeef7c",
+      "modified_at": "2026-10-04T01:58:44.211806Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/liblane_vm_terminal_ext.so": {
+      "path": "server/lane_vm/liblane_vm_terminal_ext.so",
+      "size_bytes": 15848,
+      "sha256": "408589b66ce336c1891754542f84fc40d63f51af949b0de95875489f21428763",
+      "modified_at": "2026-10-04T01:58:44.213839Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_flag_header.cpp": {
+      "path": "server/lane_vm/lane_vm_flag_header.cpp",
+      "size_bytes": 13764,
+      "sha256": "b4b89d9b2a7b0f864a30544ca153c1cdbbeeb528422e56d1271c76fbf9abeebc",
+      "modified_at": "2026-10-04T01:58:44.214213Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_universal_github_runner.cpp": {
+      "path": "server/lane_vm/lane_vm_universal_github_runner.cpp",
+      "size_bytes": 10086,
+      "sha256": "fa1943fcf32cda0d63877a1731f497696d284c0da36d16c2da8fc03f55a4d1b9",
+      "modified_at": "2026-10-04T01:58:44.214931Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_schematic_engine.py": {
+      "path": "server/lane_vm/lane_vm_schematic_engine.py",
+      "size_bytes": 20375,
+      "sha256": "619a5b3cb18183b10a27347b7a43926fa408653cbb1e0f4302b11e189529ec16",
+      "modified_at": "2026-10-04T01:58:44.333901Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/Lane_VM.xml.c": {
+      "path": "server/lane_vm/Lane_VM.xml.c",
+      "size_bytes": 6043,
+      "sha256": "e7955b3bbbac08c16107441df0be902455c37d097cb70b7be75b17412857fc3b",
+      "modified_at": "2026-10-04T01:58:44.416510Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_auditor_workflow.hpp": {
+      "path": "server/lane_vm/lane_vm_auditor_workflow.hpp",
+      "size_bytes": 3932,
+      "sha256": "dbb3cc614dcd199b93e20a3bd9371476407da959d096397d71bd35d747b059ba",
+      "modified_at": "2026-10-04T01:58:44.419333Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_terminal.dll": {
+      "path": "server/lane_vm/lane_vm_terminal.dll",
+      "size_bytes": 36872,
+      "sha256": "5d92b3fd91de2669ffefc4e79cb734588e90e428314820ebfb76f8748afc9813",
+      "modified_at": "2026-10-04T01:58:44.584583Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/Lane_VM_webhook.xml.c": {
+      "path": "server/lane_vm/Lane_VM_webhook.xml.c",
+      "size_bytes": 8080,
+      "sha256": "a55de7e972f59fe693b37ab9bc2a5a20188174d78987df473b1044b0d1631977",
+      "modified_at": "2026-10-04T01:58:44.585617Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_flag_header.hpp": {
+      "path": "server/lane_vm/lane_vm_flag_header.hpp",
+      "size_bytes": 3059,
+      "sha256": "47c4faa8f43bcf6155e095f869d644f7635d0d0c1711d9647ead2d8c41f52687",
+      "modified_at": "2026-10-04T01:58:44.600409Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_universal_runtime.hpp": {
+      "path": "server/lane_vm/lane_vm_universal_runtime.hpp",
+      "size_bytes": 1692,
+      "sha256": "a789646214bb9ae8d174686afbb4923966a14e62ffd9c97c4f8173ed0919eccd",
+      "modified_at": "2026-10-04T01:58:44.608057Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_auditor_workflow.cpp": {
+      "path": "server/lane_vm/lane_vm_auditor_workflow.cpp",
+      "size_bytes": 12198,
+      "sha256": "8022214ea27cca196974d45cd3c13fe80932280bdfb11940254523349cea58e8",
+      "modified_at": "2026-10-04T01:58:44.609799Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/Lane_VM_schematic.xml.c": {
+      "path": "server/lane_vm/Lane_VM_schematic.xml.c",
+      "size_bytes": 8904,
+      "sha256": "15075c01a0c61c924f6dbd5d223ff0a978cfc2a1f8a745f49bb71590d19a5479",
+      "modified_at": "2026-10-04T01:58:44.618080Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/object_storage_flag.py": {
+      "path": "server/lane_vm/object_storage_flag.py",
+      "size_bytes": 10865,
+      "sha256": "f3e9afd548b4afabd7ae9556dcce57f854e521f61f4dc6ff815c2b06c0f8df99",
+      "modified_at": "2026-10-04T01:58:44.623414Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_terminal_dll.hpp": {
+      "path": "server/lane_vm/lane_vm_terminal_dll.hpp",
+      "size_bytes": 3447,
+      "sha256": "36f0f5a68025c430da28e64e5158513c9dd66e237d948126943bdfb81682479b",
+      "modified_at": "2026-10-04T01:58:44.630106Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vmm_core.hpp": {
+      "path": "server/lane_vm/lane_vmm_core.hpp",
+      "size_bytes": 15720,
+      "sha256": "3abec78b463cac5dc58488407eb82f22c9c3a95d92a412d3da07345fd8c9bd60",
+      "modified_at": "2026-10-04T01:58:44.850498Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vmm_python.py": {
+      "path": "server/lane_vm/lane_vmm_python.py",
+      "size_bytes": 16248,
+      "sha256": "54fce6d5961c4233245622066c7ccc42623f1d2d5ad8675ecc6b4d9ccabc8865",
+      "modified_at": "2026-10-04T01:58:44.862631Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_terminal.so": {
+      "path": "server/lane_vm/lane_vm_terminal.so",
+      "size_bytes": 36872,
+      "sha256": "5d92b3fd91de2669ffefc4e79cb734588e90e428314820ebfb76f8748afc9813",
+      "modified_at": "2026-10-04T01:58:44.872884Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/webhook.py": {
+      "path": "server/lane_vm/webhook.py",
+      "size_bytes": 27891,
+      "sha256": "4aa7788f46e1b8b8b9c2159bab5b0c8ce33d85dd48577517c8f360cff00ee97b",
+      "modified_at": "2026-10-04T01:58:44.881266Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_audit_schematic.xsd": {
+      "path": "server/lane_vm/lane_vm_audit_schematic.xsd",
+      "size_bytes": 5803,
+      "sha256": "1c9c688608559cd4b0ad07bef8d1c38dbf16bb52b15d9709efcff155f4345f8e",
+      "modified_at": "2026-10-04T01:58:45.919615Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_pdf_engine.py": {
+      "path": "server/lane_vm/lane_vm_pdf_engine.py",
+      "size_bytes": 48960,
+      "sha256": "27d69b1c73be8c43f773feeb598e71c46c22607343bdd6c93dd0c870961e045f",
+      "modified_at": "2026-10-04T01:58:45.933954Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_universal_github_runner.hpp": {
+      "path": "server/lane_vm/lane_vm_universal_github_runner.hpp",
+      "size_bytes": 2961,
+      "sha256": "9e01200de043b900b01135f0c33e5cded4c27f5439a30b04fc254f52f6b17731",
+      "modified_at": "2026-10-04T01:58:45.991607Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_universal_runtime.cpp": {
+      "path": "server/lane_vm/lane_vm_universal_runtime.cpp",
+      "size_bytes": 3512,
+      "sha256": "686bc8396060fd1f71edbf07c6555256601eb4c8f5ca23705d7f11713bf6ace9",
+      "modified_at": "2026-10-04T01:58:45.994305Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_terminal_dll.cpp": {
+      "path": "server/lane_vm/lane_vm_terminal_dll.cpp",
+      "size_bytes": 9692,
+      "sha256": "679e6b4d3c6cce1940cc204ff6bfc5e99e1ae8c1225a29fb990d33967665eb5c",
+      "modified_at": "2026-10-04T01:58:46.239555Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_auditor_employee_schema.hpp": {
+      "path": "server/lane_vm/lane_vm_auditor_employee_schema.hpp",
+      "size_bytes": 6295,
+      "sha256": "429cafddfbb6f5c3001c20493e4ca364e54cd22a3c7618a365296e7b8678a615",
+      "modified_at": "2026-10-04T01:58:46.278883Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/render_pdf.cjs": {
+      "path": "server/lane_vm/render_pdf.cjs",
+      "size_bytes": 9760,
+      "sha256": "5a234480950519bc6af99d3c71daa98883c9fdd0630fce53f35de6f8a3fb7938",
+      "modified_at": "2026-10-04T01:58:46.281815Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_terminal_pyxml.py": {
+      "path": "server/lane_vm/lane_vm_terminal_pyxml.py",
+      "size_bytes": 8410,
+      "sha256": "cc8980ec4456958d8181768ab362ae593c9d5b32655bf49e08aedc524d89f867",
+      "modified_at": "2026-10-04T01:58:46.362309Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/Lane_VM_runner.xml.c": {
+      "path": "server/lane_vm/Lane_VM_runner.xml.c",
+      "size_bytes": 6979,
+      "sha256": "4854bf82a658105f116d1f911f1de87ee9f37632d0538ea148c99d6a3a810979",
+      "modified_at": "2026-10-04T01:58:46.362898Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vmm_core.cpp": {
+      "path": "server/lane_vm/lane_vmm_core.cpp",
+      "size_bytes": 4439,
+      "sha256": "e96dc5b0d34a680cc7b334ce644ea2da4999e33077d65bb3fd0a2bd440a3020c",
+      "modified_at": "2026-10-04T01:58:46.363456Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/lane_vm_flag_engine.py": {
+      "path": "server/lane_vm/lane_vm_flag_engine.py",
+      "size_bytes": 20153,
+      "sha256": "32fd54b3387b7cc4e3699bb5eb1b2d6472798c430ace23be958b2cbac4a12821",
+      "modified_at": "2026-10-04T01:58:46.382528Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/rusty_c_compiler.py": {
+      "path": "server/lane_vm/rusty_c_compiler.py",
+      "size_bytes": 13011,
+      "sha256": "5f36a4b41be4a7daf197240d189d3d15d7ac9c54a204ec4e3100c1b64e6c4dc6",
+      "modified_at": "2026-10-04T01:58:46.385212Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/Lane_VM_pdf_compiler.xml.c": {
+      "path": "server/lane_vm/Lane_VM_pdf_compiler.xml.c",
+      "size_bytes": 3946,
+      "sha256": "66bbae84b33129073a1c0917c82e2eff6b92640f7fb56063778284e42fe7b32d",
+      "modified_at": "2026-10-04T01:58:46.388291Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/Lane_VM_terminal_ext.pyxml.c": {
+      "path": "server/lane_vm/Lane_VM_terminal_ext.pyxml.c",
+      "size_bytes": 9421,
+      "sha256": "4f1a5a44d1355eea546a35523646beada64f6fc2bc130b8a632d70c3233ddccb",
+      "modified_at": "2026-10-04T01:58:46.391611Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/__pycache__/webhook.cpython-310.pyc": {
+      "path": "server/lane_vm/__pycache__/webhook.cpython-310.pyc",
+      "size_bytes": 18182,
+      "sha256": "fa3d1b68365f5a58d645c9f568fe7b9ab45db5ce75387b1341a7e6f5d17f5628",
+      "modified_at": "2026-10-04T01:58:44.333424Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/__pycache__/lane_vm_schematic_engine.cpython-310.pyc": {
+      "path": "server/lane_vm/__pycache__/lane_vm_schematic_engine.cpython-310.pyc",
+      "size_bytes": 13513,
+      "sha256": "1e91e5b2f3af84314699b7fa8824aa0e3c2aae833c9a9fa5ca73f5da170d7a90",
+      "modified_at": "2026-10-04T01:58:44.593549Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/__pycache__/lane_vm_pdf_engine.cpython-310.pyc": {
+      "path": "server/lane_vm/__pycache__/lane_vm_pdf_engine.cpython-310.pyc",
+      "size_bytes": 45495,
+      "sha256": "8010486b6c68f600174e41385a05b491655e28ef9ddc85bed7818ed678e83bee",
+      "modified_at": "2026-10-04T01:58:44.859477Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/__pycache__/lane_vmm_python.cpython-310.pyc": {
+      "path": "server/lane_vm/__pycache__/lane_vmm_python.cpython-310.pyc",
+      "size_bytes": 11019,
+      "sha256": "d9639dc4c299a967582505a793e948853e89950a17185d6bc7e849d65ee60771",
+      "modified_at": "2026-10-04T01:58:44.891648Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/lane_vm/__pycache__/lane_vm_flag_engine.cpython-310.pyc": {
+      "path": "server/lane_vm/__pycache__/lane_vm_flag_engine.cpython-310.pyc",
+      "size_bytes": 16179,
+      "sha256": "f7d95e25f61b6fa94c08c7787f4a89d1fd1ca2056654388a00592f88d4d1b96a",
+      "modified_at": "2026-10-04T01:58:45.917791Z",
+      "category": "LANE_VM_CORE_ENGINE"
+    },
+    "server/provenance/license.md": {
+      "path": "server/provenance/license.md",
+      "size_bytes": 12481,
+      "sha256": "fd3c3df5ad65a77743c2f576c45d032cc660ce35ad1931b0d0f3b954202b8472",
+      "modified_at": "2026-10-04T01:58:44.207039Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "server/provenance/DISTRIBUTE_PROVENANCE_SEC_17684.md": {
+      "path": "server/provenance/DISTRIBUTE_PROVENANCE_SEC_17684.md",
+      "size_bytes": 3178,
+      "sha256": "975266d05e815f947b94c8453a468206301d3a6605c476cf3f9249ff5041108e",
+      "modified_at": "2026-10-04T01:58:44.863330Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "server/lib/agentClient.ts": {
+      "path": "server/lib/agentClient.ts",
+      "size_bytes": 12258,
+      "sha256": "2ff6fb9cd55554dce6fb2f48aab12dca4f773e1a2b74a23f111e1fa272602d44",
+      "modified_at": "2026-10-04T01:58:44.626477Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "server/lib/jsonExtractor.ts": {
+      "path": "server/lib/jsonExtractor.ts",
+      "size_bytes": 1252,
+      "sha256": "7e5477710af32450b08e0629e693b4b96a69b20eeda7541ecab683de24d49973",
+      "modified_at": "2026-10-04T01:58:46.383584Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "scripts/firewall_telemetry.py": {
+      "path": "scripts/firewall_telemetry.py",
+      "size_bytes": 2485,
+      "sha256": "a9e716d4e8a1ef58e92d0a28ddba7bf3801e294c63cf3115468f178087687af6",
+      "modified_at": "2026-10-04T01:58:44.136542Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/albert_escaped_arrays.py": {
+      "path": "scripts/albert_escaped_arrays.py",
+      "size_bytes": 8212,
+      "sha256": "baedb1ffbe9246155ccbc30deea977fc71be361dcb276876c355a8e2523a4599",
+      "modified_at": "2026-10-04T01:58:44.137954Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/sec17684_cli_daemon.py": {
+      "path": "scripts/sec17684_cli_daemon.py",
+      "size_bytes": 6155,
+      "sha256": "01812d4af281f20b1f0899808162d2d362b8f6b8480d3332d7aa89da214aa6aa",
+      "modified_at": "2026-10-04T01:58:44.181241Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/run_data_analysis.py": {
+      "path": "scripts/run_data_analysis.py",
+      "size_bytes": 20461,
+      "sha256": "e48ac4880e1eca3b5f17374ab8d13cc59cc20bd3b5e39fe5c99cd36a258edc8e",
+      "modified_at": "2026-10-04T01:58:44.197145Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/aggregate_violations_and_cease_desist.py": {
+      "path": "scripts/aggregate_violations_and_cease_desist.py",
+      "size_bytes": 31908,
+      "sha256": "a61e04393ad0de0557b9a784965c8595c99fbd6ef8ed5b935968123ccf3506f8",
+      "modified_at": "2026-10-04T01:58:44.205012Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/generate_global_corporate_registry.py": {
+      "path": "scripts/generate_global_corporate_registry.py",
+      "size_bytes": 76561,
+      "sha256": "b4a774392b64eac72e54f2f583f6c72eb77f76e3feb67a3a1a6721b782c943ed",
+      "modified_at": "2026-10-04T01:58:44.213441Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/generate_license_live.py": {
+      "path": "scripts/generate_license_live.py",
+      "size_bytes": 46212,
+      "sha256": "e893fb513251eab5c70e0295cf79c70ed8e8594fce9f6ac4858281c3fde9e02e",
+      "modified_at": "2026-10-04T01:58:44.331574Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/webhook.py": {
+      "path": "scripts/webhook.py",
+      "size_bytes": 970,
+      "sha256": "7393ab58f95be9f8e19c8929f4f6490538560d24a3e38a19d304a2f4dcb15a96",
+      "modified_at": "2026-10-04T01:58:44.401338Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/append_headers.py": {
+      "path": "scripts/append_headers.py",
+      "size_bytes": 2295,
+      "sha256": "6e93c170886770765693f063a724033a18b50b02f691b7107c0e6a51cdef0a6c",
+      "modified_at": "2026-10-04T01:58:44.403875Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/repair.py": {
+      "path": "scripts/repair.py",
+      "size_bytes": 1151,
+      "sha256": "65ea7c8ac4c4f43029e749a775d3671a583ebdb6e91fafc86ec2e71cfce36af2",
+      "modified_at": "2026-10-04T01:58:44.541467Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/rusty_cpython_compiler.py": {
+      "path": "scripts/rusty_cpython_compiler.py",
+      "size_bytes": 13266,
+      "sha256": "8260951e8b5d121d4240c8abb53c095e8a9304733d1f781629b85b635d2e991b",
+      "modified_at": "2026-10-04T01:58:44.592435Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/csv.py": {
+      "path": "scripts/csv.py",
+      "size_bytes": 692,
+      "sha256": "8ea810570ee7bb9ca9480599e5908ec8d2ff74a3c612bd7127c4a21fabaf1ec0",
+      "modified_at": "2026-10-04T01:58:44.592775Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/generate_endpoint_violations_log.py": {
+      "path": "scripts/generate_endpoint_violations_log.py",
+      "size_bytes": 33813,
+      "sha256": "813582d553af5941fc2cbe9053b9162a8ac59560a73ea98d3a9980fa2adec6a6",
+      "modified_at": "2026-10-04T01:58:44.599068Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/query_intellectual_property.py": {
+      "path": "scripts/query_intellectual_property.py",
+      "size_bytes": 8191,
+      "sha256": "3dd34fd09c35bf36f6a428a75cc748e6029133d5808e02b7212c56a367b0aaf6",
+      "modified_at": "2026-10-04T01:58:44.619437Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/object_storage_flag.py": {
+      "path": "scripts/object_storage_flag.py",
+      "size_bytes": 814,
+      "sha256": "073000fdb0baf3edaa638fc6da153febc50b2d7bacd27fec07b6f94cd363bc7c",
+      "modified_at": "2026-10-04T01:58:44.626797Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/sec_consolidated_lockfile.py": {
+      "path": "scripts/sec_consolidated_lockfile.py",
+      "size_bytes": 41402,
+      "sha256": "95dc384793b66f1072fde7e1f8be2f2786af179a36ea0140b04c336cb9f08622",
+      "modified_at": "2026-10-04T01:58:44.857382Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/query_endpoint_violations.py": {
+      "path": "scripts/query_endpoint_violations.py",
+      "size_bytes": 6564,
+      "sha256": "bba92892204fe0236d543e9f7230d620f6b84df12e61cb23018a454d9ff6eefd",
+      "modified_at": "2026-10-04T01:58:44.858543Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/package_sovereign_enclave.py": {
+      "path": "scripts/package_sovereign_enclave.py",
+      "size_bytes": 11680,
+      "sha256": "e296f183edf0214f2d155c99d63e3e8713939ce2003b94613e821cddbccee271",
+      "modified_at": "2026-10-04T01:58:44.862998Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/generate_chronological_license_violations_document.py": {
+      "path": "scripts/generate_chronological_license_violations_document.py",
+      "size_bytes": 17777,
+      "sha256": "c554cce81d0cf4ae2d5b36aea311d2bad6a4c0c09a667096353aa57fc15ddc71",
+      "modified_at": "2026-10-04T01:58:44.867886Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/alberthub_engine.py": {
+      "path": "scripts/alberthub_engine.py",
+      "size_bytes": 3210,
+      "sha256": "9b05f0c4f5e0c38d2c662165fcef1227c8de8727edc2a4afdde65912200383c8",
+      "modified_at": "2026-10-04T01:58:44.869395Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/american_flag_header.py": {
+      "path": "scripts/american_flag_header.py",
+      "size_bytes": 814,
+      "sha256": "db1e521d5c44c0f32480d5880be990475062c2ee9e918b0915a09f39dd6e4691",
+      "modified_at": "2026-10-04T01:58:44.870282Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/search_license_violations.py": {
+      "path": "scripts/search_license_violations.py",
+      "size_bytes": 7274,
+      "sha256": "ef54bc78ead0d727fc4cb4f30c749058e55315d0583accb6ff21b0e441914e73",
+      "modified_at": "2026-10-04T01:58:44.871202Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/enforce_x_spacex_blocker.py": {
+      "path": "scripts/enforce_x_spacex_blocker.py",
+      "size_bytes": 12172,
+      "sha256": "a7fe3d3a973be3d49b930e8781bd95e51f3f7fbcaba1ae335bc035357a68aa00",
+      "modified_at": "2026-10-04T01:58:44.871587Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/document_to_json_lane_vm.py": {
+      "path": "scripts/document_to_json_lane_vm.py",
+      "size_bytes": 15699,
+      "sha256": "2dc6201c9eb3aaaa7775a914d04dd0a064ccc5eea49a8ed3164e7a3b6dc5d164",
+      "modified_at": "2026-10-04T01:58:44.874950Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/generate_multijurisdictional_analysis_pdf.py": {
+      "path": "scripts/generate_multijurisdictional_analysis_pdf.py",
+      "size_bytes": 5955,
+      "sha256": "c8018422060035dce80ee62baf3b24bdb2f87219ecf4f1de833638b9d634f871",
+      "modified_at": "2026-10-04T01:58:44.876415Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/query_global_entities.py": {
+      "path": "scripts/query_global_entities.py",
+      "size_bytes": 8301,
+      "sha256": "a1631baa4c50471e16669f10c563744303dc85f0025f251349e1d79abe75aa33",
+      "modified_at": "2026-10-04T01:58:44.884591Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/db_provenance_sync.py": {
+      "path": "scripts/db_provenance_sync.py",
+      "size_bytes": 15449,
+      "sha256": "793ea3de5cc1f495ec5b9781d193663d3a15fb7ec20124e1cfea7635a0eee88b",
+      "modified_at": "2026-10-04T01:58:44.891047Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/aggregate_escalation_referral.py": {
+      "path": "scripts/aggregate_escalation_referral.py",
+      "size_bytes": 6423,
+      "sha256": "97ec36fe2008e471b487f732840889cce82a2b1722c76cf3a5d023a8cd1d71b6",
+      "modified_at": "2026-10-04T01:58:44.896584Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/apply_provenance.py": {
+      "path": "scripts/apply_provenance.py",
+      "size_bytes": 2306,
+      "sha256": "559b8925eabaa2c825dd38b20ea413a59b905d38cbbafa0c44d3b87f5eed3022",
+      "modified_at": "2026-10-04T01:58:44.895350Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/sec17684_cron_worker.py": {
+      "path": "scripts/sec17684_cron_worker.py",
+      "size_bytes": 6950,
+      "sha256": "ecab122af32d14672775c3a7bbd1839ef76da0284c93ca6018deb6e4dd498a22",
+      "modified_at": "2026-10-04T01:58:45.926814Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/execute_agent_tex.py": {
+      "path": "scripts/execute_agent_tex.py",
+      "size_bytes": 1154,
+      "sha256": "039da54887cb51d8e3c8128f80191cd91f07cb24e188aff925e7997692d2000a",
+      "modified_at": "2026-10-04T01:58:45.931775Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/index_microsoft_ip_theft.py": {
+      "path": "scripts/index_microsoft_ip_theft.py",
+      "size_bytes": 8840,
+      "sha256": "bba2eb0a275ccd603d376eb71126b9a015744be4c965597d4459162f3bdc5449",
+      "modified_at": "2026-10-04T01:58:45.933467Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/sec_gist_sync.py": {
+      "path": "scripts/sec_gist_sync.py",
+      "size_bytes": 5473,
+      "sha256": "3d7c94fcb283f347767dbe21755e51c88b952487f3e5c03d3a300c0850f58d43",
+      "modified_at": "2026-10-04T01:58:45.934762Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/index_microsoft_corpus_databases.py": {
+      "path": "scripts/index_microsoft_corpus_databases.py",
+      "size_bytes": 38853,
+      "sha256": "536debe4e2c745d1a461ee4c3df4d59db97361d5348450ca0c88491210114472",
+      "modified_at": "2026-10-04T01:58:45.937124Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/index_mcp_claude_corpus.py": {
+      "path": "scripts/index_mcp_claude_corpus.py",
+      "size_bytes": 27970,
+      "sha256": "fba65a317835a6f851b271ca05ee961a6cdb49ace8b7dc5adf71c830d1e7c410",
+      "modified_at": "2026-10-04T01:58:45.990832Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/query_microsoft_corpus.py": {
+      "path": "scripts/query_microsoft_corpus.py",
+      "size_bytes": 5555,
+      "sha256": "ab4bda57ac0c899e47f3588e609d05ac28b53e27be92295de8a4c0a651e3493b",
+      "modified_at": "2026-10-04T01:58:46.360852Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/sec17684273411436.py": {
+      "path": "scripts/sec17684273411436.py",
+      "size_bytes": 4084,
+      "sha256": "b0d7a38a2ecc8f76fd46b2978d96fd482219854ab8925dd594aa4e018589e1da",
+      "modified_at": "2026-10-04T01:58:46.379978Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/cipher.py": {
+      "path": "scripts/cipher.py",
+      "size_bytes": 2730,
+      "sha256": "9c943794b80be72beb4e1276f399f9305669a4874fc7697e0bde0eb9227c3e7f",
+      "modified_at": "2026-10-04T01:58:46.383252Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/index_ip_license_violations.py": {
+      "path": "scripts/index_ip_license_violations.py",
+      "size_bytes": 32592,
+      "sha256": "cb365d92cf169e795a373280a04d2824fd731191e1abe36110bad02133d84079",
+      "modified_at": "2026-10-04T01:58:46.383943Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/lane_vm_agent_orchestrator.py": {
+      "path": "scripts/lane_vm_agent_orchestrator.py",
+      "size_bytes": 8109,
+      "sha256": "126d4c3fec3d4013f2f1200eeb47321dbb1cf1b1e680f17fd23bc74720f96998",
+      "modified_at": "2026-10-04T01:58:46.386761Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/recursive_csv_json_sync.py": {
+      "path": "scripts/recursive_csv_json_sync.py",
+      "size_bytes": 18268,
+      "sha256": "948900ce62abc2730c40470f81241b6008c6fda8daf44c26f5ee2a8017cd2785",
+      "modified_at": "2026-10-04T01:58:46.392377Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/sec_aistudio_history_extractor.py": {
+      "path": "scripts/sec_aistudio_history_extractor.py",
+      "size_bytes": 11708,
+      "sha256": "6728ad7ea9ed0577ed70e5100c506b5fef9efb2d555531210353911463eea26c",
+      "modified_at": "2026-10-04T02:04:08.254319Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/aggregate_violations_and_cease_desist.cpython-310.pyc": {
+      "path": "scripts/__pycache__/aggregate_violations_and_cease_desist.cpython-310.pyc",
+      "size_bytes": 28323,
+      "sha256": "90ade0cbae7f607265c54fb20fb2f0f60e2beed65c3af4da3ca4298e20b7da0e",
+      "modified_at": "2026-10-04T01:58:44.137064Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/cipher.cpython-310.pyc": {
+      "path": "scripts/__pycache__/cipher.cpython-310.pyc",
+      "size_bytes": 2742,
+      "sha256": "54caee9d41a73f63fea5850f25d6510f9107a909490d0b08451f20ea74425d90",
+      "modified_at": "2026-10-04T01:58:44.206631Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/rusty_cpython_compiler.cpython-310.pyc": {
+      "path": "scripts/__pycache__/rusty_cpython_compiler.cpython-310.pyc",
+      "size_bytes": 10987,
+      "sha256": "9b28e35340864beb4131de05961e1bdccaaea1fd93947e5d8503a72321d498b9",
+      "modified_at": "2026-10-04T01:58:44.592044Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/sec17684273411436.cpython-310.pyc": {
+      "path": "scripts/__pycache__/sec17684273411436.cpython-310.pyc",
+      "size_bytes": 3458,
+      "sha256": "1b2c85f52911db675b716eae2369580d360d2f6b9d98ea7b961f4561b4ae2c49",
+      "modified_at": "2026-10-04T01:58:44.598662Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/apply_provenance.cpython-310.pyc": {
+      "path": "scripts/__pycache__/apply_provenance.cpython-310.pyc",
+      "size_bytes": 2256,
+      "sha256": "978896a4ad81e535d5bdbbdfbc58854ad9d44d68ddb8f78bd627e59ca302640e",
+      "modified_at": "2026-10-04T01:58:44.619059Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/sec17684_cron_worker.cpython-310.pyc": {
+      "path": "scripts/__pycache__/sec17684_cron_worker.cpython-310.pyc",
+      "size_bytes": 5287,
+      "sha256": "c45446400c37da381addfaa8c4951a72e724304080b24ccb5b828b263afead42",
+      "modified_at": "2026-10-04T01:58:44.620244Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/csv.cpython-310.pyc": {
+      "path": "scripts/__pycache__/csv.cpython-310.pyc",
+      "size_bytes": 710,
+      "sha256": "ddf3f5aea95a8a53b3b0809a8da78aac7e62637567e58820e2e611b2385ca698",
+      "modified_at": "2026-10-04T01:58:44.897089Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/albert_escaped_arrays.cpython-310.pyc": {
+      "path": "scripts/__pycache__/albert_escaped_arrays.cpython-310.pyc",
+      "size_bytes": 7091,
+      "sha256": "a05bb125a8951ced9541f699247afe3514712f113c5cb72db048f846652376d5",
+      "modified_at": "2026-10-04T01:58:45.924433Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/sec17684_cli_daemon.cpython-310.pyc": {
+      "path": "scripts/__pycache__/sec17684_cli_daemon.cpython-310.pyc",
+      "size_bytes": 4562,
+      "sha256": "507c3f420ce4d8074993f1de943ed7e53d478f90bf7729b18ced82fc133fc9b1",
+      "modified_at": "2026-10-04T01:58:45.938356Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/run_data_analysis.cpython-310.pyc": {
+      "path": "scripts/__pycache__/run_data_analysis.cpython-310.pyc",
+      "size_bytes": 14237,
+      "sha256": "eab8d584dcd3d605ca85ce872f87b29cf2e2c6f8259568dca8941088467f8a4a",
+      "modified_at": "2026-10-04T01:58:46.382367Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "scripts/__pycache__/sec_aistudio_history_extractor.cpython-310.pyc": {
+      "path": "scripts/__pycache__/sec_aistudio_history_extractor.cpython-310.pyc",
+      "size_bytes": 8761,
+      "sha256": "09e2b23de34b25948b28f84f7cfc9c91b16458ddfbd4d4ef522607329675d73f",
+      "modified_at": "2026-10-04T02:04:28.328209Z",
+      "category": "AUTOMATION_CLI_ORCHESTRATOR"
+    },
+    "vault/provenance_distribution_manifest.json": {
+      "path": "vault/provenance_distribution_manifest.json",
+      "size_bytes": 830,
+      "sha256": "c5011ed2e062adea571c45f564e2c126706f5f3aecfe98cf294908b7e323949d",
+      "modified_at": "2026-10-04T01:58:44.332984Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/sovereign_training.jsonl": {
+      "path": "vault/sovereign_training.jsonl",
+      "size_bytes": 1931,
+      "sha256": "2aaf6a0b77f66ea58b17cc16cb2b58af6dd46ff92621611f12c06b12dfb5b90f",
+      "modified_at": "2026-10-04T01:58:44.417063Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/vault_ast_manifest.json": {
+      "path": "vault/vault_ast_manifest.json",
+      "size_bytes": 9034,
+      "sha256": "26a60cf92db1998b72fcdea398cd7d4f225bf151ffdbe8d9d3e2152f4a5f7bba",
+      "modified_at": "2026-10-04T01:58:44.589313Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/sovereign_ed25519_provenance_attestation.json": {
+      "path": "vault/sovereign_ed25519_provenance_attestation.json",
+      "size_bytes": 7400,
+      "sha256": "6e4f30b06af527f83aac9c9d7cc49bc2f93d746380e34a91b096eb656d72d44f",
+      "modified_at": "2026-10-04T01:58:44.595341Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/global_provenance_broadcast.json": {
+      "path": "vault/global_provenance_broadcast.json",
+      "size_bytes": 5535,
+      "sha256": "b46d14cf52d79de200a9f404680094f2a80c1615da7b2c7b253c55434ebf1161",
+      "modified_at": "2026-10-04T01:58:44.850091Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/verify.sh": {
+      "path": "vault/verify.sh",
+      "size_bytes": 1239,
+      "sha256": "b9dda21c3b9079314a73caf2469f5809cfc80d0664ff751433b4b0f17efb32ba",
+      "modified_at": "2026-10-04T01:58:44.869092Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/gemini_scraped_conversations.json": {
+      "path": "vault/gemini_scraped_conversations.json",
+      "size_bytes": 1289,
+      "sha256": "456cc548f491d3056fb1021b9227331e4d65067b68614b5baa6e33e7fb5e5a43",
+      "modified_at": "2026-10-04T01:58:45.917368Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/PROVENANCE_SHA256_DISTRIBUTION.txt": {
+      "path": "vault/PROVENANCE_SHA256_DISTRIBUTION.txt",
+      "size_bytes": 6760,
+      "sha256": "af73dcd611c7035c32f69df4bbf4c9e8abeb533d16fa0a609efdc82abc20b7bf",
+      "modified_at": "2026-10-04T01:58:46.365744Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/license.md": {
+      "path": "vault/license.md",
+      "size_bytes": 12481,
+      "sha256": "fd3c3df5ad65a77743c2f576c45d032cc660ce35ad1931b0d0f3b954202b8472",
+      "modified_at": "2026-10-04T01:58:46.373074Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/keys/albert_lane_ed25519.pem": {
+      "path": "vault/keys/albert_lane_ed25519.pem",
+      "size_bytes": 119,
+      "sha256": "3b943289c8779c2f2ba9d3fb1e30460cb22c010d07099218bda7a931b0091555",
+      "modified_at": "2026-10-04T01:58:44.181720Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/keys/albert_lane_ed25519_pub.pem": {
+      "path": "vault/keys/albert_lane_ed25519_pub.pem",
+      "size_bytes": 113,
+      "sha256": "cd6cf785b94aeb04aed93fcb7ca51513fd978309ad7b9837f4ed63f93a62c276",
+      "modified_at": "2026-10-04T01:58:46.387276Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/ip_license_violations.csv": {
+      "path": "vault/archives/ip_license_violations.csv",
+      "size_bytes": 583249,
+      "sha256": "0f326ca589ba2db6a3a3c0548d71e189efd51bb1b5b4b046b6a98cf557150ca8",
+      "modified_at": "2026-10-04T01:58:44.209975Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/mcp_ast_correlations.csv": {
+      "path": "vault/archives/mcp_ast_correlations.csv",
+      "size_bytes": 14245,
+      "sha256": "109d4a96ad41a44f1b0e7a0545f5677515310eaca03c5dc2e8bd499a59181f65",
+      "modified_at": "2026-10-04T01:58:44.215292Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/repository_metrics.json": {
+      "path": "vault/archives/repository_metrics.json",
+      "size_bytes": 15080130,
+      "sha256": "68a59b872a913dbec03e0cb17c69e09d83a1769df6fed31d0e6cb24a9409d6f2",
+      "modified_at": "2026-10-04T01:58:44.415751Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivative_fields.csv": {
+      "path": "vault/archives/spacex_derivative_fields.csv",
+      "size_bytes": 50404,
+      "sha256": "8d10a8c9130e2a95d46f77a3e565d301054ceb30448ca6c4eba1198e5f73c72e",
+      "modified_at": "2026-10-04T01:58:44.542542Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/AzureOpenAI_Inference_2024-02-01.json": {
+      "path": "vault/archives/AzureOpenAI_Inference_2024-02-01.json",
+      "size_bytes": 106532,
+      "sha256": "51ca4b18c53d58988b06104a98a10d4796ad05a07a550ddfdbdc600627bc3ac9",
+      "modified_at": "2026-10-04T01:58:44.586458Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/mcp_specification_schema.json": {
+      "path": "vault/archives/mcp_specification_schema.json",
+      "size_bytes": 69476,
+      "sha256": "85da894b4561c50f8c727cf5c0145480bbe53d9095fe06c909d1a80f9ddaf066",
+      "modified_at": "2026-10-04T01:58:44.588515Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/provenance_registry.csv": {
+      "path": "vault/archives/provenance_registry.csv",
+      "size_bytes": 55373,
+      "sha256": "48e2a96d30411b694195dc53ff1f372b3138d6b3f4719c5b3fe66fb3df9ca44a",
+      "modified_at": "2026-10-04T01:58:44.593189Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/ast_entities.csv": {
+      "path": "vault/archives/ast_entities.csv",
+      "size_bytes": 14437103,
+      "sha256": "ed866c624d3d8112df3f2de21f64ab3f6ca22030d4179965d57b987505bacd11",
+      "modified_at": "2026-10-04T01:58:44.606356Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/package_manifests.csv": {
+      "path": "vault/archives/package_manifests.csv",
+      "size_bytes": 69433,
+      "sha256": "4dff6a01ccb9d9f54ce36b6cce4ae9eff92843b1ecc2bb3f2faa8c4ae592aafb",
+      "modified_at": "2026-10-04T01:58:44.600078Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/files.csv": {
+      "path": "vault/archives/files.csv",
+      "size_bytes": 2665586,
+      "sha256": "2797c7f10c8990481a81909c5cdb9ac896999cf77aa980af5e96b00e71ec7c44",
+      "modified_at": "2026-10-04T01:58:44.606930Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/provenance_distribution_manifest.json": {
+      "path": "vault/archives/provenance_distribution_manifest.json",
+      "size_bytes": 830,
+      "sha256": "c5011ed2e062adea571c45f564e2c126706f5f3aecfe98cf294908b7e323949d",
+      "modified_at": "2026-10-04T01:58:44.610161Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/vault_ast_manifest.json": {
+      "path": "vault/archives/vault_ast_manifest.json",
+      "size_bytes": 3432,
+      "sha256": "9a3f5b3b49fde7b1e2dfd9cb4068df649068c7553704ec5df701d78c4fb5d11b",
+      "modified_at": "2026-10-04T01:58:44.610509Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/language_statistics.csv": {
+      "path": "vault/archives/language_statistics.csv",
+      "size_bytes": 1762,
+      "sha256": "b72b0d98244c0332f9eebccddb94c41fb8a3d89de4b60949f300138e63eae28c",
+      "modified_at": "2026-10-04T01:58:44.621670Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/microsoft_marketable_derivatives.csv": {
+      "path": "vault/archives/microsoft_marketable_derivatives.csv",
+      "size_bytes": 1352,
+      "sha256": "2cfef55d43e8eabb644094c9f8d04f0d2b3c1595567f86ba91e5243a001d34c7",
+      "modified_at": "2026-10-04T01:58:44.626099Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/ip_meta_archives.csv": {
+      "path": "vault/archives/ip_meta_archives.csv",
+      "size_bytes": 3535,
+      "sha256": "c4ac190b9485c82db1095b3ae898ba573119c26fec0b85c68ac6ec921751f07a",
+      "modified_at": "2026-10-04T01:58:44.629570Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/vault_seal.csv": {
+      "path": "vault/archives/vault_seal.csv",
+      "size_bytes": 2713,
+      "sha256": "2264d92a372002317948f108baf74c0ba6aa198f150fa9404c61ae4282952a7d",
+      "modified_at": "2026-10-04T01:58:44.637285Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_code_derivatives.csv": {
+      "path": "vault/archives/spacex_code_derivatives.csv",
+      "size_bytes": 4974,
+      "sha256": "a57a893a9096130fed134a10d2e2b3d91701a63d33497712ec5c1b0431ec39f5",
+      "modified_at": "2026-10-04T01:58:44.856957Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/claude_code_mcp_skills_corpus.json": {
+      "path": "vault/archives/claude_code_mcp_skills_corpus.json",
+      "size_bytes": 8352,
+      "sha256": "d82874c8b2fdece3e39dd640ee5b60e8c54839c12710d936f5d565dd7d15a7d8",
+      "modified_at": "2026-10-04T01:58:44.862245Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/global_provenance_broadcast.json": {
+      "path": "vault/archives/global_provenance_broadcast.json",
+      "size_bytes": 5535,
+      "sha256": "b46d14cf52d79de200a9f404680094f2a80c1615da7b2c7b253c55434ebf1161",
+      "modified_at": "2026-10-04T01:58:44.864040Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf": {
+      "path": "vault/archives/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis.pdf",
+      "size_bytes": 58031,
+      "sha256": "ce4c69c20fd1238caeb93c7c744ca95b9caa891884ce83eff9d16867a1ed2a93",
+      "modified_at": "2026-10-04T01:58:44.870160Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/sovereign_ed25519_provenance_attestation.json": {
+      "path": "vault/archives/sovereign_ed25519_provenance_attestation.json",
+      "size_bytes": 7400,
+      "sha256": "6e4f30b06af527f83aac9c9d7cc49bc2f93d746380e34a91b096eb656d72d44f",
+      "modified_at": "2026-10-04T01:58:44.873327Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/openai_openapi.json": {
+      "path": "vault/archives/openai_openapi.json",
+      "size_bytes": 4189865,
+      "sha256": "e5f6eeef666c35722f1be239e3fced655db5c201220f79d07ec134a41f1ea5f5",
+      "modified_at": "2026-10-04T01:58:44.879061Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/codebase_ast.db": {
+      "path": "vault/archives/codebase_ast.db",
+      "size_bytes": 13950976,
+      "sha256": "c213356d04167b239e70cf23bef1bdeede4e48ef8fc0e5a6236a14bc7c8f68bf",
+      "modified_at": "2026-10-04T01:58:44.888963Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/endpoint_license_violations_log.csv": {
+      "path": "vault/archives/endpoint_license_violations_log.csv",
+      "size_bytes": 158882,
+      "sha256": "8d8df2b2a95e96eced6e20d0d16180be0b108bc8b49c9ab4f8897a647e19d2eb",
+      "modified_at": "2026-10-04T01:58:44.883733Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/microsoft_derivative_schemas.csv": {
+      "path": "vault/archives/microsoft_derivative_schemas.csv",
+      "size_bytes": 50066,
+      "sha256": "edda85ff4f3d37868c9b53c27cd37b19c3d176aee0fe28697ede056b2bb8f1b1",
+      "modified_at": "2026-10-04T01:58:44.889274Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/lane_vm_doj_refusal_audit.json": {
+      "path": "vault/archives/lane_vm_doj_refusal_audit.json",
+      "size_bytes": 8602,
+      "sha256": "d7b4904ddeed8f2665c5fe4b9b5db57e66483536e570d89c8a858933799a35bc",
+      "modified_at": "2026-10-04T01:58:44.889812Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/american_flag_letterhead.txt": {
+      "path": "vault/archives/american_flag_letterhead.txt",
+      "size_bytes": 4120,
+      "sha256": "97dceaa3521e9b87f7b3420a5054603722d3c5d59ab713202b79ea1505382d08",
+      "modified_at": "2026-10-04T01:58:44.889939Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/global_corporate_entities_intelligence.csv": {
+      "path": "vault/archives/global_corporate_entities_intelligence.csv",
+      "size_bytes": 37557,
+      "sha256": "eacb25ee2ac13fea5d860cff4883a27dfd1cc98ffebcc9fdb9e6874b8855e686",
+      "modified_at": "2026-10-04T01:58:45.916851Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/american_flag_provenance_header.aa.json": {
+      "path": "vault/archives/american_flag_provenance_header.aa.json",
+      "size_bytes": 11943,
+      "sha256": "fcbd2e01832571eaed9907a303aabee0c9b706ac355d44c46d7691f24df0449e",
+      "modified_at": "2026-10-04T01:58:45.919256Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/ip_repositories_audit.csv": {
+      "path": "vault/archives/ip_repositories_audit.csv",
+      "size_bytes": 6213,
+      "sha256": "5d3cac8cb6cb03040c2c33880eae8d32533f7297c1f6730c77f2f5ed476a25d0",
+      "modified_at": "2026-10-04T01:58:45.920688Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/mcp_corpus_schemas.csv": {
+      "path": "vault/archives/mcp_corpus_schemas.csv",
+      "size_bytes": 27729,
+      "sha256": "75b25730f89a6b166f531872c1c3e9dd10a26ba892fa8f2aa64336e247aeadd5",
+      "modified_at": "2026-10-04T01:58:45.928324Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/openai_api_schemas.csv": {
+      "path": "vault/archives/openai_api_schemas.csv",
+      "size_bytes": 501389,
+      "sha256": "3edeaad9e2197ffe323622e718738c1af881a1b7db7e27ed9fb31e1dbc40ea29",
+      "modified_at": "2026-10-04T01:58:45.930565Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/ip_opensource_analysis.csv": {
+      "path": "vault/archives/ip_opensource_analysis.csv",
+      "size_bytes": 3715,
+      "sha256": "8658004bdacab4c6cb8bd9108fb59eb121a5b15ab0f30b9cb0b97e05db8ca2f2",
+      "modified_at": "2026-10-04T01:58:45.932253Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/PROVENANCE_SHA256_DISTRIBUTION.txt": {
+      "path": "vault/archives/PROVENANCE_SHA256_DISTRIBUTION.txt",
+      "size_bytes": 4796,
+      "sha256": "f4b70309f3bab0d323289aebbab0e0d7f441ca778c2eaf75dc5dc1744f852ba3",
+      "modified_at": "2026-10-04T01:58:45.932686Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/automated_cease_and_desist_notice.md": {
+      "path": "vault/archives/automated_cease_and_desist_notice.md",
+      "size_bytes": 20834,
+      "sha256": "e8218e967d17b954832fa7a22ef4edf3cb97e8d30375b707e14bd613e4c636e8",
+      "modified_at": "2026-10-04T01:58:45.936353Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/cross_corpus_ast_correlations.csv": {
+      "path": "vault/archives/cross_corpus_ast_correlations.csv",
+      "size_bytes": 28649,
+      "sha256": "9737eefcb788567d6d9e864613abe6320fd801bab1e42c142ffcff19a66a9103",
+      "modified_at": "2026-10-04T01:58:45.937760Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/openai_api_endpoints.csv": {
+      "path": "vault/archives/openai_api_endpoints.csv",
+      "size_bytes": 63568,
+      "sha256": "2ced12f9810ddc421beed5307d75d2dcdf04bb98bbb9a064b2971d51854b84a1",
+      "modified_at": "2026-10-04T01:58:45.939048Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/deep_ast_metrics.csv": {
+      "path": "vault/archives/deep_ast_metrics.csv",
+      "size_bytes": 6896,
+      "sha256": "d5aefb8ff678849bcdb962cd85a78a473d4d5fe515519ab9c7adafa3c80bec38",
+      "modified_at": "2026-10-04T01:58:45.995251Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/report.json": {
+      "path": "vault/archives/report.json",
+      "size_bytes": 11214,
+      "sha256": "361962d538770e3a2d647427e42d84a28824e549c0de97b21cbb3bdaaca62c9b",
+      "modified_at": "2026-10-04T01:58:46.256239Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/ast_analysis.json": {
+      "path": "vault/archives/ast_analysis.json",
+      "size_bytes": 13322104,
+      "sha256": "dd23525376734ec4a40c542d4242114a3fe0aafd04f92be272c851d0e9a53e0c",
+      "modified_at": "2026-10-04T01:58:46.301772Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/shell_and_fraudulent_structures_listing.csv": {
+      "path": "vault/archives/shell_and_fraudulent_structures_listing.csv",
+      "size_bytes": 13145,
+      "sha256": "3915f1925b81f43ca1973a675aef5db1153c2e694e83b7739e858323013c3c1c",
+      "modified_at": "2026-10-04T01:58:46.368833Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/mcp_skills_tools.csv": {
+      "path": "vault/archives/mcp_skills_tools.csv",
+      "size_bytes": 6721,
+      "sha256": "562c214d984335a9e765a02428c75b9cb395f9a967b2331e7cefee7289d7ca00",
+      "modified_at": "2026-10-04T01:58:46.374939Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/AzureOpenAI_Authoring_2024-08-01-preview.json": {
+      "path": "vault/archives/AzureOpenAI_Authoring_2024-08-01-preview.json",
+      "size_bytes": 112269,
+      "sha256": "929f992fcfe7706c24de8cbe1d54bd276170f585f0dac22d5289cd374b1921d7",
+      "modified_at": "2026-10-04T01:58:46.375197Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/ip_defense_blocklist.csv": {
+      "path": "vault/archives/ip_defense_blocklist.csv",
+      "size_bytes": 7652,
+      "sha256": "1f0bcf6bb8d42b91dd935f41b07788ba5f7337e4e866cafcc2aa6590e8bdac3b",
+      "modified_at": "2026-10-04T01:58:46.385032Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/LICENSE_VIOLATIONS_TIME_ORDERED_SEQUENCE.txt": {
+      "path": "vault/archives/LICENSE_VIOLATIONS_TIME_ORDERED_SEQUENCE.txt",
+      "size_bytes": 1800400,
+      "sha256": "f866d9bca109733ab9ae3a5bf20b005ea3e920ac19d4d0e225178601451b1966",
+      "modified_at": "2026-10-04T01:58:46.389173Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/dragons.js": {
+      "path": "vault/archives/spacex_derivatives/dragons.js",
+      "size_bytes": 3029,
+      "sha256": "336f23ffe5f4bf75e43ab6a76e7adab4ffc023bee2049b9184cb1a58c6192bc4",
+      "modified_at": "2026-10-04T01:58:44.205756Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/landpads.js": {
+      "path": "vault/archives/spacex_derivatives/landpads.js",
+      "size_bytes": 1863,
+      "sha256": "152674f18d4b6026df0367cea9f4cb85a680b97fb5a16c6f9c57edb1917a7597",
+      "modified_at": "2026-10-04T01:58:44.392967Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/payloads.js": {
+      "path": "vault/archives/spacex_derivatives/payloads.js",
+      "size_bytes": 2906,
+      "sha256": "5b59d51844d99e06a7f7baeece1301cd9397c49df45219a1f477eed7b4aaedb9",
+      "modified_at": "2026-10-04T01:58:44.402072Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/company.js": {
+      "path": "vault/archives/spacex_derivatives/company.js",
+      "size_bytes": 1604,
+      "sha256": "565159a9339c4991d45f325e20428e0df86e7de9997eab5e2dc27178947e44be",
+      "modified_at": "2026-10-04T01:58:44.587721Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/crew.js": {
+      "path": "vault/archives/spacex_derivatives/crew.js",
+      "size_bytes": 1328,
+      "sha256": "806b1d948c57effbbd6389c4fcdacc280cde3f430d40e8e879e84b980e6a7c64",
+      "modified_at": "2026-10-04T01:58:44.615785Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/launches.js": {
+      "path": "vault/archives/spacex_derivatives/launches.js",
+      "size_bytes": 4588,
+      "sha256": "ce205791132628f504b09634d12efe18713d977c54008cbd7261cdb51b25fef8",
+      "modified_at": "2026-10-04T01:58:44.620616Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/ships.js": {
+      "path": "vault/archives/spacex_derivatives/ships.js",
+      "size_bytes": 2200,
+      "sha256": "efefc8956f99a9a3958c82913a373c9a8d16a865aa0f035bdf24eafff5e13ffe",
+      "modified_at": "2026-10-04T01:58:44.620985Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/spacex_models_manifest.json": {
+      "path": "vault/archives/spacex_derivatives/spacex_models_manifest.json",
+      "size_bytes": 4674,
+      "sha256": "5aae410128a4534ac997b302f6e5d1e5895eceb1394b86fe9b18c7dea407a254",
+      "modified_at": "2026-10-04T01:58:44.624307Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/launchpads.js": {
+      "path": "vault/archives/spacex_derivatives/launchpads.js",
+      "size_bytes": 1892,
+      "sha256": "82879ab9d036cb45ff759175f8837677974af5398e76af7580f49152b9c307d3",
+      "modified_at": "2026-10-04T01:58:44.873724Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/rockets.js": {
+      "path": "vault/archives/spacex_derivatives/rockets.js",
+      "size_bytes": 3806,
+      "sha256": "d860987b01b1c5cd7039db1f3ca46f176b843d2986eefd4cf22593d5f3ffbdab",
+      "modified_at": "2026-10-04T01:58:44.875704Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/starlink.js": {
+      "path": "vault/archives/spacex_derivatives/starlink.js",
+      "size_bytes": 4024,
+      "sha256": "3f4ce0215dd9c941736249c6d0e653a5be044debdf0c9f94a7eef45d06d2d1eb",
+      "modified_at": "2026-10-04T01:58:45.934353Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/roadster.js": {
+      "path": "vault/archives/spacex_derivatives/roadster.js",
+      "size_bytes": 1849,
+      "sha256": "525d0a9bac4a53f81a13048040ca2e5dc6a816707248aa26d2a77a9d15ed48ad",
+      "modified_at": "2026-10-04T01:58:46.004112Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/capsules.js": {
+      "path": "vault/archives/spacex_derivatives/capsules.js",
+      "size_bytes": 1639,
+      "sha256": "ff1082bec37cf31379d1c114ebba9ff1d3bdac08d026593489673381b937b782",
+      "modified_at": "2026-10-04T01:58:46.389311Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "vault/archives/spacex_derivatives/cores.js": {
+      "path": "vault/archives/spacex_derivatives/cores.js",
+      "size_bytes": 1630,
+      "sha256": "d9ef8bf12c7874ebd6fa71789906c14e772604a220cf539317d4277d80d63eb3",
+      "modified_at": "2026-10-04T01:58:46.389771Z",
+      "category": "SOVEREIGN_SECURITY_VAULT"
+    },
+    "agent/requirements.txt": {
+      "path": "agent/requirements.txt",
+      "size_bytes": 600,
+      "sha256": "12cbd6efdce52ed2c769680d7648800d34f19bd6e5763199d46a20d81388841d",
+      "modified_at": "2026-10-04T01:58:44.212605Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/agent.yaml": {
+      "path": "agent/agent.yaml",
+      "size_bytes": 1042,
+      "sha256": "4c33526875a736c787c9aa8a406bedfaff5f04266659c3cefab9be63b49de869",
+      "modified_at": "2026-10-04T01:58:44.595670Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/AGENTS.md": {
+      "path": "agent/AGENTS.md",
+      "size_bytes": 11848,
+      "sha256": "261b791a61435095605f9486bb9237f94be3f274b6a8ec0cac7908f2c93b9637",
+      "modified_at": "2026-10-04T01:58:44.608463Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/visualization/SKILL.md": {
+      "path": "agent/skills/visualization/SKILL.md",
+      "size_bytes": 2945,
+      "sha256": "26de63d2137815730249e888653d4127a3bd37c5356097b7ef0f6367c621d7ad",
+      "modified_at": "2026-10-04T01:58:44.636844Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/visualization/scripts/make_chart.py": {
+      "path": "agent/skills/visualization/scripts/make_chart.py",
+      "size_bytes": 6360,
+      "sha256": "e45c934cd3afbbbbbfa3f24661d6f93ae9b8590137c0cfa829c16bd9e91d28f0",
+      "modified_at": "2026-10-04T01:58:44.206273Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/visualization/scripts/__pycache__/make_chart.cpython-310.pyc": {
+      "path": "agent/skills/visualization/scripts/__pycache__/make_chart.cpython-310.pyc",
+      "size_bytes": 4622,
+      "sha256": "67e8d5158fa009fd0a94093c41526da761676e8c05301c23c6cfb1765bdfcaa0",
+      "modified_at": "2026-10-04T01:58:44.591665Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/reporting/SKILL.md": {
+      "path": "agent/skills/reporting/SKILL.md",
+      "size_bytes": 2974,
+      "sha256": "14df9906bc0e640ae2522f568afe86b2ca400eb7a4843b1bf459b5ead534eb2c",
+      "modified_at": "2026-10-04T01:58:44.595015Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/reporting/scripts/build_report.py": {
+      "path": "agent/skills/reporting/scripts/build_report.py",
+      "size_bytes": 10956,
+      "sha256": "027a975df37bd62fbc8fde25968fa1fc5402a0adb8ea83376d9ce40bc7d96de1",
+      "modified_at": "2026-10-04T01:58:44.857830Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/reporting/scripts/__pycache__/build_report.cpython-310.pyc": {
+      "path": "agent/skills/reporting/scripts/__pycache__/build_report.cpython-310.pyc",
+      "size_bytes": 8891,
+      "sha256": "bf75c0ff9104d354e8c545b07e03dc8614082e58325f297a31ee50b87c4c26ef",
+      "modified_at": "2026-10-04T01:58:44.607469Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/data-explorer/SKILL.md": {
+      "path": "agent/skills/data-explorer/SKILL.md",
+      "size_bytes": 4594,
+      "sha256": "84ed315b356042277967791399a0a01049b80bae1e442a0d21048f28d454cb5d",
+      "modified_at": "2026-10-04T01:58:44.598016Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "agent/skills/python-data/SKILL.md": {
+      "path": "agent/skills/python-data/SKILL.md",
+      "size_bytes": 6772,
+      "sha256": "f3e310b703fbb04dc48064dfc5be7760b716dc5d049b425bddfeeb1fddaf785b",
+      "modified_at": "2026-10-04T01:58:45.918551Z",
+      "category": "AUTONOMOUS_AGENT_FRAMEWORK"
+    },
+    "src/types.ts": {
+      "path": "src/types.ts",
+      "size_bytes": 5198,
+      "sha256": "642a2c7e16971e1937c238ece9463232afbbd774ebfd2cd52e01d372868135c8",
+      "modified_at": "2026-10-04T01:58:44.588054Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/main.tsx": {
+      "path": "src/main.tsx",
+      "size_bytes": 236,
+      "sha256": "14a10dee4aaa2130d9f57c136db7f16f95f524d60d77146b17776e91c2ab626c",
+      "modified_at": "2026-10-04T01:58:44.622676Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/App.tsx": {
+      "path": "src/App.tsx",
+      "size_bytes": 14659,
+      "sha256": "fde4469c35d6b7159a804d91c76db367a926919da6a40456f89719291fe41ecc",
+      "modified_at": "2026-10-04T01:58:45.996618Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/index.css": {
+      "path": "src/index.css",
+      "size_bytes": 1084,
+      "sha256": "d15a36e037bf585f08133d4cb1245de790115a95976459c00b9ee592e9d8650c",
+      "modified_at": "2026-10-04T01:58:46.384500Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/WorkflowWebhooksView.tsx": {
+      "path": "src/components/WorkflowWebhooksView.tsx",
+      "size_bytes": 26850,
+      "sha256": "f677d829264b2aba0afa83e1410702e047d2e890e23b721afd74043549085fec",
+      "modified_at": "2026-10-04T01:58:44.207450Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/EdgeFractalInstrument.tsx": {
+      "path": "src/components/EdgeFractalInstrument.tsx",
+      "size_bytes": 13678,
+      "sha256": "9b17a0719f33142207521c67700ca030a17e47c250568d7df19ac302b709cfd3",
+      "modified_at": "2026-10-04T01:58:44.584189Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/NetworkEgressGraph.tsx": {
+      "path": "src/components/NetworkEgressGraph.tsx",
+      "size_bytes": 33861,
+      "sha256": "431d433bcc6e7b741b261da6f2359c6df78aa54cf045a77b191f4df204e8453d",
+      "modified_at": "2026-10-04T01:58:44.594638Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/CloudflareZoneManager.tsx": {
+      "path": "src/components/CloudflareZoneManager.tsx",
+      "size_bytes": 10458,
+      "sha256": "958291072e643cce6ebdd3b5e6400808c424572b2f32fee048008ecdc97f1dc6",
+      "modified_at": "2026-10-04T01:58:44.623017Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/McpProvenanceView.tsx": {
+      "path": "src/components/McpProvenanceView.tsx",
+      "size_bytes": 129175,
+      "sha256": "5086f1466c97039d8fd1165305839676fb3e891fc80c8986161816d0e6185dae",
+      "modified_at": "2026-10-04T01:58:44.625335Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/SecurityAuditRbac.tsx": {
+      "path": "src/components/SecurityAuditRbac.tsx",
+      "size_bytes": 6138,
+      "sha256": "05090656f2733dac8361461e5d90b27b90775af9ba979207c18382aa3c846c17",
+      "modified_at": "2026-10-04T01:58:44.625739Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/AskAboutYourData.tsx": {
+      "path": "src/components/AskAboutYourData.tsx",
+      "size_bytes": 9988,
+      "sha256": "57fe2b3c004a894e2448f8b5c58c895e6a75dda44bb4d18a421f346d72a94f90",
+      "modified_at": "2026-10-04T01:58:44.872342Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/AgenticWorkflowsView.tsx": {
+      "path": "src/components/AgenticWorkflowsView.tsx",
+      "size_bytes": 7278,
+      "sha256": "8d53da78bab449dfbb71f00fe958c9bdb3632ce594c3be9d7f8c5a56b812e57c",
+      "modified_at": "2026-10-04T01:58:44.893567Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/MonorepoOrchestration.tsx": {
+      "path": "src/components/MonorepoOrchestration.tsx",
+      "size_bytes": 5396,
+      "sha256": "ec85e774a5061ed258480753d8e11696122db7321246560796d0b47ef0b29859",
+      "modified_at": "2026-10-04T01:58:44.894286Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/VibeTerminalEnclave.tsx": {
+      "path": "src/components/VibeTerminalEnclave.tsx",
+      "size_bytes": 54718,
+      "sha256": "f94ef773ab3b9a8806ffc8b4cd79b13c3b1d8c54cd745b7a20535ff31a0b9b59",
+      "modified_at": "2026-10-04T02:05:29.456128Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/DeploymentPipelineDashboard.tsx": {
+      "path": "src/components/DeploymentPipelineDashboard.tsx",
+      "size_bytes": 6573,
+      "sha256": "69fd699b93fddf3f15b5a725e1c61a8caefa97c12d6d8faf8a6a6f00984e2b7f",
+      "modified_at": "2026-10-04T01:58:45.927868Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/StarlinkTerminalAuditView.tsx": {
+      "path": "src/components/StarlinkTerminalAuditView.tsx",
+      "size_bytes": 53164,
+      "sha256": "b54156d065ec9de2107dabcd70abfe926891c2eacf97af81c43dc2931c2e3954",
+      "modified_at": "2026-10-04T01:58:45.992605Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/components/AmericanFlagHeaderView.tsx": {
+      "path": "src/components/AmericanFlagHeaderView.tsx",
+      "size_bytes": 23252,
+      "sha256": "d1ba1e7346853393f9f35135368aef4a25657700de156936d1b659eb54d9a10e",
+      "modified_at": "2026-10-04T01:58:46.377374Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/lib/vibeCrypto.ts": {
+      "path": "src/lib/vibeCrypto.ts",
+      "size_bytes": 5697,
+      "sha256": "9cd81f1230b1bc016403dc7b852452693c15335384cefe28954d333919046e9c",
+      "modified_at": "2026-10-04T01:58:46.375857Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "src/lib/firestore.ts": {
+      "path": "src/lib/firestore.ts",
+      "size_bytes": 2494,
+      "sha256": "16b5b4c715329931324fdcbc307268f24b7fa8162dc89699aa7f2b8e7a33591c",
+      "modified_at": "2026-10-04T01:58:46.378678Z",
+      "category": "MATHEMATICAL_UI_SYSTEM"
+    },
+    "docs/LANE_VM_ARCHITECTURAL_DETERMINISM_PAPER.md": {
+      "path": "docs/LANE_VM_ARCHITECTURAL_DETERMINISM_PAPER.md",
+      "size_bytes": 19681,
+      "sha256": "b7bbab2e2d3a17188e732cead87469f3cdc4b74c3333935d923ab05d7e9cd02e",
+      "modified_at": "2026-10-04T01:58:44.207857Z",
+      "category": "RESEARCH_PAPER_LEGAL_DOC"
+    },
+    "hypervisor/hv_mm.c": {
+      "path": "hypervisor/hv_mm.c",
+      "size_bytes": 2578,
+      "sha256": "3438d0b5022bb4865631c820adf5b256d7fb3e52bae8bca754afc920aec16f6f",
+      "modified_at": "2026-10-04T01:58:44.214572Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_mm.h": {
+      "path": "hypervisor/hv_mm.h",
+      "size_bytes": 834,
+      "sha256": "8d4c88c447fba4d839c616e618cd91ed602f658ce3f5e3437a7d502e63c595c6",
+      "modified_at": "2026-10-04T01:58:44.404224Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_log.h": {
+      "path": "hypervisor/hv_log.h",
+      "size_bytes": 220,
+      "sha256": "d73d7dc2d3f875e2ca9a51a4e2c31b6c520ba042cb5dfbf319c5049a446bef9f",
+      "modified_at": "2026-10-04T01:58:44.542976Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_sched.c": {
+      "path": "hypervisor/hv_sched.c",
+      "size_bytes": 1451,
+      "sha256": "8bb7ada6a392a0a5e8526e5cfd65f46cc491821f2c32003c30573bd675f95108",
+      "modified_at": "2026-10-04T01:58:44.588928Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_log.c": {
+      "path": "hypervisor/hv_log.c",
+      "size_bytes": 1001,
+      "sha256": "7da2ebeb1df4b1824bfe37ba640692b9d0a0e6d479d01123c7913ff91b17f187",
+      "modified_at": "2026-10-04T01:58:44.618662Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_sched.h": {
+      "path": "hypervisor/hv_sched.h",
+      "size_bytes": 200,
+      "sha256": "1ab09a97a96c34f7cc35c57923b3da6d0bc5ddf2b36ea0c07cb81c51bf44e7e1",
+      "modified_at": "2026-10-04T01:58:44.622355Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_platform.h": {
+      "path": "hypervisor/hv_platform.h",
+      "size_bytes": 1134,
+      "sha256": "f68bbb2b3c8d8e0efec16d85c1da67497505d2fd1c9940873b9b264738f12dc4",
+      "modified_at": "2026-10-04T01:58:44.864749Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_audit_datpa.c": {
+      "path": "hypervisor/hv_audit_datpa.c",
+      "size_bytes": 4340,
+      "sha256": "3daf2e590efb20e9a6298076ea59f96bea92382d02f5a32c8a92f23f1d3dbef2",
+      "modified_at": "2026-10-04T01:58:44.866888Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_audit_datpa.h": {
+      "path": "hypervisor/hv_audit_datpa.h",
+      "size_bytes": 717,
+      "sha256": "04abc8a2583621289abd9492300e4f6fd63ed866578079d1239e12d28675ef12",
+      "modified_at": "2026-10-04T01:58:44.867217Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/main.c": {
+      "path": "hypervisor/main.c",
+      "size_bytes": 3790,
+      "sha256": "6603e8500b9ddd554bf82027adf5865f4c60eb68fbb0e134f460e547c2bcefc3",
+      "modified_at": "2026-10-04T01:58:44.869729Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_platform.c": {
+      "path": "hypervisor/hv_platform.c",
+      "size_bytes": 2669,
+      "sha256": "1e5ccafeaf305979040a014908a516c524b28cce7f755f0910a3eddc6a91c59d",
+      "modified_at": "2026-10-04T01:58:44.881593Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_vm.h": {
+      "path": "hypervisor/hv_vm.h",
+      "size_bytes": 1267,
+      "sha256": "07afc730fc2dc00359e4c1585bc5d9e0dbc5b10493ad2c87e0bfb23242cf9ed1",
+      "modified_at": "2026-10-04T01:58:45.931354Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_vm.c": {
+      "path": "hypervisor/hv_vm.c",
+      "size_bytes": 4121,
+      "sha256": "ec355045abb564ee1bcf6756cb7646421c56d1ecc68eca7078016ab359985fab",
+      "modified_at": "2026-10-04T01:58:45.995977Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/Makefile": {
+      "path": "hypervisor/Makefile",
+      "size_bytes": 350,
+      "sha256": "c1c07c8ebaa1017ec0cf0b57d4a57cb730d123f841dbe81b8cd00b872e998142",
+      "modified_at": "2026-10-04T01:58:45.997217Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_traps.c": {
+      "path": "hypervisor/hv_traps.c",
+      "size_bytes": 1637,
+      "sha256": "03cfd1574319a99b2c24bcf1e192e607d8bf894172c2c2b097782ac8f94e67a0",
+      "modified_at": "2026-10-04T01:58:46.361676Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "hypervisor/hv_traps.h": {
+      "path": "hypervisor/hv_traps.h",
+      "size_bytes": 728,
+      "sha256": "268c8491d506613bad0f8e2f2a89df253a1c75c8b55b515fe3be2a605792b965",
+      "modified_at": "2026-10-04T01:58:46.377661Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    ".github/workflows/debugger.yml": {
+      "path": ".github/workflows/debugger.yml",
+      "size_bytes": 892,
+      "sha256": "99d0133645ded5b3b89ac5271efc6e2bfc08247840813dd667333fb0e0e2102e",
+      "modified_at": "2026-10-04T01:58:44.849087Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    ".github/workflows/alberthub_ip_protection.yml": {
+      "path": ".github/workflows/alberthub_ip_protection.yml",
+      "size_bytes": 1136,
+      "sha256": "a2adac823632cf895500e11996526036a3e64039042c78aa78b051c4d6e56a05",
+      "modified_at": "2026-10-04T01:58:44.860228Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    ".github/workflows/apply_provenance.yml": {
+      "path": ".github/workflows/apply_provenance.yml",
+      "size_bytes": 1163,
+      "sha256": "e906429609aaf37651d506c7a6496ed3aac2ce61417c2262f9988405b9a7e638",
+      "modified_at": "2026-10-04T01:58:44.881916Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    ".github/workflows/header_append.yml": {
+      "path": ".github/workflows/header_append.yml",
+      "size_bytes": 1054,
+      "sha256": "6fc484f467818945e7b2fd466daf513109b0e4db6b653a61c1a23a9347e5589d",
+      "modified_at": "2026-10-04T01:58:44.890588Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    ".github/workflows/repair.yml": {
+      "path": ".github/workflows/repair.yml",
+      "size_bytes": 855,
+      "sha256": "a0f382bbff58f52bd5726be9e953f4ebc160d0246bbbedb30c3742f4ba85c8ae",
+      "modified_at": "2026-10-04T01:58:46.376075Z",
+      "category": "REPOSITORY_INFRASTRUCTURE"
+    },
+    "__pycache__/sovereign_crypto.cpython-310.pyc": {
+      "path": "__pycache__/sovereign_crypto.cpython-310.pyc",
+      "size_bytes": 827,
+      "sha256": "5befae217fa80062be8b8c3805b13a2a634c55a6a37c4469ab828891826b539a",
+      "modified_at": "2026-10-04T01:58:44.891995Z",
+      "category": "COMPILED_BYTECODE_RECORD"
+    },
+    "__pycache__/csv.cpython-310.pyc": {
+      "path": "__pycache__/csv.cpython-310.pyc",
+      "size_bytes": 21646,
+      "sha256": "8e986d9dee8c9422584dd0dda06dc2bb22e9a8f99e915b32b398ed41c5c7f86f",
+      "modified_at": "2026-10-04T01:58:45.923079Z",
+      "category": "COMPILED_BYTECODE_RECORD"
+    }
+  },
+  "rolling_cryptographic_seal": "56b0f3b13bd6c45a696eba1741d0b65519644b9e04cfe8caaf1c8c740f47a76f"
+}

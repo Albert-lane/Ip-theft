@@ -1,0 +1,67 @@
+{
+  "_license": "Copyright © Albert Lane. All Rights Reserved. Albert Lane Proprietary Software License. SEC-17684-273-411-436 https://albertlane.net",
+  "entities": {
+    "Transcription": {
+      "title": "Transcription",
+      "description": "A single transcription entry with timestamp and text.",
+      "type": "object",
+      "properties": {
+        "timestamp": {
+          "type": "number",
+          "description": "Video timestamp in seconds."
+        },
+        "text": {
+          "type": "string",
+          "description": "The transcribed text."
+        },
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the entry."
+        }
+      },
+      "required": ["timestamp", "text", "id"]
+    },
+    "TranscriptionSession": {
+      "title": "TranscriptionSession",
+      "description": "A collection of transcriptions for a specific video file.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The UID of the user who owns this session."
+        },
+        "videoName": {
+          "type": "string",
+          "description": "The name of the video file."
+        },
+        "content": {
+          "type": "array",
+          "items": {
+            "$ref": "Transcription"
+          },
+          "description": "List of transcription entries."
+        },
+        "version": {
+          "type": "integer",
+          "description": "Version number for this session."
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server-side timestamp of when this was saved."
+        },
+        "isEncrypted": {
+          "type": "boolean",
+          "description": "Whether the content is encrypted."
+        }
+      },
+      "required": ["userId", "videoName", "content", "version", "timestamp", "isEncrypted"]
+    }
+  },
+  "firestore": {
+    "/transcriptions/{sessionId}": {
+      "schema": "TranscriptionSession",
+      "description": "Collection of transcription sessions."
+    }
+  }
+}

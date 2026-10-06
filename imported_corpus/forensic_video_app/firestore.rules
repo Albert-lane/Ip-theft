@@ -1,0 +1,75 @@
+// Copyright © Albert Lane. All Rights Reserved.
+// Proprietary and Confidential — Albert Lane Proprietary Software License.
+// SEC Whistleblower Reference: SEC-17684-273-411-436 | Z-Axis: 0x3F8F9A1B2C3D
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: transcriptions
+    // Document ID: auto-generated
+    // Fields:
+    //   - userId: string (required, immutable) - Owner UID
+    //   - videoName: string (required, max 255 chars) - Name of the video
+    //   - content: list (required, max 1000 items) - List of transcription objects
+    //   - version: int (required, positive) - Version number
+    //   - timestamp: timestamp (required) - Server timestamp
+    //   - isEncrypted: bool (required) - Encryption status
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isValidTranscription(t) {
+      return t.timestamp is number && t.timestamp >= 0 &&
+             t.text is string && t.text.size() <= 5000 &&
+             t.id is string && t.id.size() <= 100;
+    }
+
+    function isValidSession(data) {
+      return data.keys().hasAll(['userId', 'videoName', 'content', 'version', 'timestamp', 'isEncrypted']) &&
+             data.keys().hasOnly(['userId', 'videoName', 'content', 'version', 'timestamp', 'isEncrypted']) &&
+             data.userId is string &&
+             data.videoName is string && data.videoName.size() <= 255 &&
+             data.content is list && data.content.size() <= 1000 &&
+             data.version is int && data.version >= 0 &&
+             data.timestamp is timestamp &&
+             data.isEncrypted is bool;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /transcriptions/{sessionId} {
+      allow read: if isOwner(resource.data.userId);
+      
+      allow create: if isAuthenticated() &&
+                     isValidSession(request.resource.data) &&
+                     request.resource.data.userId == request.auth.uid &&
+                     request.resource.data.timestamp == request.time;
+      
+      // Sessions are immutable for forensic integrity, only owner can read.
+      allow update: if false; 
+
+      allow delete: if isOwner(resource.data.userId);
+    }
+
+    // Default deny
+    match /{path=**} {
+      allow read, write: if false;
+    }
+  }
+}

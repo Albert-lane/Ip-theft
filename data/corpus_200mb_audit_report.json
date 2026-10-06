@@ -6,611 +6,211 @@
     "substrate": "32-bit WindowsME_v1.2 beneath GCPW",
     "memoryStrideBytes": 17684,
     "license": "Albert Lane Proprietary License v1.2",
-    "timestamp": "2026-09-28T13:02:36.148525+00:00",
+    "timestamp": "2026-10-05T21:13:48.653524+00:00",
     "corpusDatabase": "codebase_ast.db",
-    "totalCorpusTables": 30,
-    "totalCorpusRows": 131850,
-    "totalViolatingEntities": 20,
-    "totalLicenseViolations": 1104,
-    "totalCriticalSeverity": 573,
-    "totalHighSeverity": 424,
+    "totalCorpusTables": 29,
+    "totalCorpusRows": 149244,
+    "totalViolatingEntities": 10,
+    "totalLicenseViolations": 10,
+    "totalCriticalSeverity": 7,
+    "totalHighSeverity": 3,
     "totalAstTheftMatches": 1089
   },
   "tableStatistics": {
-    "files": 17721,
-    "ast_entities": 108174,
-    "language_stats": 19,
-    "sovereign_vault_seal": 14,
-    "api_corpus_derivatives": 19,
-    "openai_corpus_schemas": 1869,
-    "openai_corpus_endpoints": 346,
-    "microsoft_marketable_derivatives": 2,
-    "microsoft_derivative_schemas": 193,
-    "spacex_code_derivatives": 13,
-    "spacex_derivative_fields": 320,
-    "deep_ast_metrics": 14,
-    "cross_corpus_ast_correlations": 100,
-    "microsoft_ip_theft_matches": 1089,
-    "provenance_registry": 210,
-    "ip_defense_blocklist": 31,
-    "quarantined_ip_threats": 4,
-    "mcp_corpus_schemas": 79,
-    "mcp_skills_tools": 23,
-    "mcp_ast_correlations": 48,
+    "ast_entities": 126173,
+    "ip_license_violations": 10,
     "starlink_terminals_audit": 6,
-    "ip_meta_archives": 11,
-    "ip_repositories_audit": 19,
-    "ip_opensource_analysis": 12,
-    "ip_license_violations": 1104,
-    "endpoint_license_violations_traversal_log": 327,
-    "global_corporate_entities_intelligence": 45,
+    "cross_corpus_ast_correlations": 100,
     "shell_and_fraudulent_structures_listing": 18,
+    "mcp_ast_correlations": 48,
+    "ip_defense_blocklist": 31,
+    "openai_api_endpoints": 346,
+    "files": 17705,
+    "provenance_registry": 210,
+    "ip_opensource_analysis": 12,
+    "mcp_corpus_schemas": 79,
+    "endpoint_license_violations_log": 327,
+    "microsoft_marketable_derivatives": 2,
+    "global_corporate_entities_intelligence": 45,
+    "microsoft_ip_theft_matches": 1089,
+    "ip_meta_archives": 13,
+    "openai_api_schemas": 1869,
+    "deep_ast_metrics": 14,
+    "spacex_derivative_fields": 320,
+    "spacex_code_derivatives": 13,
+    "microsoft_derivative_schemas": 165,
     "microsoft_corpus_documents": 8,
-    "microsoft_databases_audit": 12
+    "ip_repositories_audit": 19,
+    "vault_seal": 14,
+    "language_statistics": 19,
+    "package_manifests": 554,
+    "microsoft_databases_audit": 12,
+    "mcp_skills_tools": 23
   },
   "aggregateEntities": [
     {
-      "entity": "Microsoft Azure OpenAI (Azure OpenAI Authoring REST API, Deployments & Fine-Tuning Specification)",
-      "total_infringements": 852,
-      "avg_similarity_score": 0.5298,
-      "max_similarity_score": 1.0,
-      "violated_articles": [
-        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
-        "ARTICLE_4_COMMERCIAL_EXTRACTION",
-        "ARTICLE_5_ASSET_MISAPPROPRIATION"
-      ],
-      "infringement_categories": [
-        "STRUCTURAL_AST_EXTRACTION",
-        "EXACT_SYNTAX_REPLICATION",
-        "API_ROUTE_SURREPTITIOUS_CLONING",
-        "DIRECT_SCHEMA_ISOMORPHISM"
-      ],
-      "severity_breakdown": {
-        "critical": 421,
-        "high": 331,
-        "elevated": 100
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "c3e96f89d3915098c4c8420bc26d8b600d6021f22d3edec3ed277b06e4b6340b",
-          "asset": "Albert Lane Sovereign AST (BatchError)",
-          "artifact": "#/components/schemas/BatchErrorData"
-        },
-        {
-          "sha256": "e10049bea8bb8c09948044908437f7a1943bb4c5b1af177a8a9f66d954f97db5",
-          "asset": "Albert Lane Sovereign AST (ListModelsResponse)",
-          "artifact": "#/components/schemas/BatchErrors"
-        },
-        {
-          "sha256": "52af363ad5b4710bfc828203cdf26b45d1d7efffd73ba7471361dd55b2a14fd5",
-          "asset": "Albert Lane Sovereign AST (OrganizationCertificateActivationResponse)",
-          "artifact": "#/components/schemas/BatchErrors"
-        },
-        {
-          "sha256": "9580328f17a6ac136c9e369af74aee8f47feb5be056927aee7da9a2bdca96d9b",
-          "asset": "Albert Lane Sovereign AST (OrganizationCertificateDeactivationResponse)",
-          "artifact": "#/components/schemas/BatchErrors"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Azure OpenAI (Azure OpenAI Inference REST API & ChatCompletions Specification)",
-      "total_infringements": 171,
-      "avg_similarity_score": 0.5858,
-      "max_similarity_score": 1.0,
-      "violated_articles": [
-        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
-        "ARTICLE_4_COMMERCIAL_EXTRACTION",
-        "ARTICLE_5_ASSET_MISAPPROPRIATION"
-      ],
-      "infringement_categories": [
-        "STRUCTURAL_AST_EXTRACTION",
-        "EXACT_SYNTAX_REPLICATION",
-        "API_ROUTE_SURREPTITIOUS_CLONING",
-        "DIRECT_SCHEMA_ISOMORPHISM"
-      ],
-      "severity_breakdown": {
-        "critical": 110,
-        "high": 54,
-        "elevated": 7
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "6d8d4c594330b289c5aba88f0f99408196f2ebcd0bc12445b83b1e59d2c7d631",
-          "asset": "Albert Lane Sovereign AST (EvalApiError)",
-          "artifact": "#/components/schemas/errorBase"
-        },
-        {
-          "sha256": "c8779f450103af21323df0ebf2925b43dfdb548fc5fc6cc0b29dc1a24cd5d931",
-          "asset": "Albert Lane Sovereign AST (SessionTurnErrorResource)",
-          "artifact": "#/components/schemas/errorBase"
-        },
-        {
-          "sha256": "2b44ee84fcf933adee0102ef1622cb9aeb934d569affdf7eb14c727ec651a31e",
-          "asset": "Albert Lane Sovereign AST (ChatCompletionFunctions)",
-          "artifact": "#/components/schemas/chatCompletionFunction"
-        },
-        {
-          "sha256": "d7a7db691a0d5cc12ef09c38e0d681a2f8aac883e2bb83b3c4cb8071eb5a0abf",
-          "asset": "Albert Lane Sovereign AST (ChatCompletionMessageToolCall)",
-          "artifact": "#/components/schemas/chatCompletionMessageToolCall"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Azure OpenAI (Azure SQL Database Management & Query Store Telemetry Specification)",
-      "total_infringements": 35,
-      "avg_similarity_score": 0.4355,
-      "max_similarity_score": 0.5,
-      "violated_articles": [
-        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
-        "ARTICLE_4_COMMERCIAL_EXTRACTION"
-      ],
-      "infringement_categories": [
-        "STRUCTURAL_AST_EXTRACTION"
-      ],
-      "severity_breakdown": {
-        "critical": 12,
-        "high": 23,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "037655fce416fc65e33a7d04e9f1f3af9f8f47a6c71b3bfb311c0547b6f5246f",
-          "asset": "Albert Lane Sovereign AST (ComputerToolCallOutputResource)",
-          "artifact": "#/components/schemas/TransparentDataEncryption"
-        },
-        {
-          "sha256": "60ba32d9ec6ec2315ef1421a484150d5741d63469bcfd2722a95350f0d8bc7d6",
-          "asset": "Albert Lane Sovereign AST (CustomToolCallOutputResource)",
-          "artifact": "#/components/schemas/TransparentDataEncryption"
-        },
-        {
-          "sha256": "f8a9c3b0c467623161047dba48bb9cbc1514471adefd05d5741a3cba9c676765",
-          "asset": "Albert Lane Sovereign AST (CustomToolCallResource)",
-          "artifact": "#/components/schemas/TransparentDataEncryption"
-        },
-        {
-          "sha256": "c214cd92f17ae556961010aad083f14d4ac40bfc550dd07058101cb3eac8e46d",
-          "asset": "Albert Lane Sovereign AST (FunctionToolCallOutputResource)",
-          "artifact": "#/components/schemas/TransparentDataEncryption"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Azure OpenAI (Azure Cosmos DB DocumentDB REST API & Vector Indexing Specification)",
-      "total_infringements": 20,
-      "avg_similarity_score": 0.7117,
-      "max_similarity_score": 1.0,
-      "violated_articles": [
-        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM",
-        "ARTICLE_4_COMMERCIAL_EXTRACTION"
-      ],
-      "infringement_categories": [
-        "STRUCTURAL_AST_EXTRACTION"
-      ],
-      "severity_breakdown": {
-        "critical": 19,
-        "high": 1,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "7ea7e3548bab1c76b5bd535c310a353529ba5df196d78889cff8c2c0e2e0c029",
-          "asset": "Albert Lane Sovereign AST (ApplyPatchDeleteFileOperation)",
-          "artifact": "#/components/schemas/VectorIndex"
-        },
-        {
-          "sha256": "aec8b7e532321f1919494a74023b9f342ec79fb6854ec4bfa439e49277303499",
-          "asset": "Albert Lane Sovereign AST (ApplyPatchDeleteFileOperationParam)",
-          "artifact": "#/components/schemas/VectorIndex"
-        },
-        {
-          "sha256": "2c09f9d17511bde9347e1d106595a239b245377ed1cf3761619b8e883a1328c4",
-          "asset": "Albert Lane Sovereign AST (BetaApplyPatchDeleteFileOperationParam)",
-          "artifact": "#/components/schemas/VectorIndex"
-        },
-        {
-          "sha256": "9abf59d7fab09dc16f3cf52dced0916701529eb2d1fb572e92267551a66e601a",
-          "asset": "Albert Lane Sovereign AST (BetaApplyPatchDeleteFileOperation)",
-          "artifact": "#/components/schemas/VectorIndex"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Azure OpenAI (Microsoft Semantic Kernel Core AST & Agent Plugin Framework)",
-      "total_infringements": 11,
-      "avg_similarity_score": 0.3935,
-      "max_similarity_score": 0.4286,
-      "violated_articles": [
-        "ARTICLE_4_COMMERCIAL_EXTRACTION"
-      ],
-      "infringement_categories": [
-        "STRUCTURAL_AST_EXTRACTION"
-      ],
-      "severity_breakdown": {
-        "critical": 0,
-        "high": 11,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "2123c762229fa028fa35970cd18cd4c3d8a0eab901577952099154b2009a0726",
-          "asset": "Albert Lane Sovereign AST (ChatCompletionFunctions)",
-          "artifact": "#/components/schemas/KernelFunctionMetadata"
-        },
-        {
-          "sha256": "8f93ebb051a80c6ea6a3d6d11c0f4af28d5c4e374dd565994580526033843834",
-          "asset": "Albert Lane Sovereign AST (ChatCompletionFunctions)",
-          "artifact": "#/components/schemas/KernelPlugin"
-        },
-        {
-          "sha256": "dd7c2a1850ba6f746c09eb37ce1bed69fd5e794a397d3c433ffe59882d44aaf1",
-          "asset": "Albert Lane Sovereign AST (LocalSkillParam)",
-          "artifact": "#/components/schemas/KernelPlugin"
-        },
-        {
-          "sha256": "e1c9083cd2a907571573ad29f8007161341bdd84e32af1f6140cd6b369eda58f",
-          "asset": "Albert Lane Sovereign AST (HostedSkillResourceInline)",
-          "artifact": "#/components/schemas/KernelPlugin"
-        }
-      ]
-    },
-    {
-      "entity": "Unauthenticated Archive Manifest Alteration Attempt",
+      "entity": "GitHub, Inc. / Copilot Pre-training Codebase Telemetry Conduit",
       "total_infringements": 1,
-      "avg_similarity_score": 0.99,
-      "max_similarity_score": 0.99,
+      "avg_similarity_score": 0.996,
+      "max_similarity_score": 0.996,
       "violated_articles": [
-        "ARTICLE_6_META_ARCHIVES"
+        "ARTICLE_16_TELEMETRY_CODEBASE_CONDUIT"
       ],
       "infringement_categories": [
-        "WORM_STORAGE_TAMPER_ATTEMPT"
+        "TELEMETRY_CODEBASE_CONDUIT_INGESTION"
       ],
       "severity_breakdown": {
         "critical": 1,
         "high": 0,
         "elevated": 0
       },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
       "evidence_samples": [
         {
-          "sha256": "bfb5686e1245e30042c76816e5cd2b96d9ed62fddf794b713eeb91a7ee2611a9",
-          "asset": "Albert Lane Immutable WORM Hash Chain & SEC Whistleblower Record",
-          "artifact": "joules_compute_payload.tar.gz / vault/archives/codebase_ast.db"
+          "sha256": "5749fdd223802d6f278f36d687c7025f5116f27328ff85a6ffde61719284719b",
+          "asset": "Albert Lane Proprietary Monorepo, C++ AST, and Rust Wrappers",
+          "artifact": "github-copilot/training-corpus/albertlane_sovereign_enclave.parquet"
         }
       ]
     },
     {
-      "entity": "Microsoft Corporation / GitHub Copilot Enterprise Pipeline",
+      "entity": "Anthropic PBC / Claude Document Formatter & Artifact Renderer",
       "total_infringements": 1,
-      "avg_similarity_score": 0.975,
-      "max_similarity_score": 0.975,
+      "avg_similarity_score": 0.994,
+      "max_similarity_score": 0.994,
       "violated_articles": [
-        "ARTICLE_7_REPOSITORY_ORCHESTRATION"
+        "ARTICLE_18_DOCUMENT_FORMATTER_EXTRACTION"
       ],
       "infringement_categories": [
-        "CANARY_TOKEN_STRIPPING_AND_NAMESPACE_DILUTION"
+        "DOCUMENT_FORMATTER_PROVENANCE_STRIPPING"
       ],
       "severity_breakdown": {
         "critical": 1,
         "high": 0,
         "elevated": 0
       },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
       "evidence_samples": [
         {
-          "sha256": "2a9686f73c024bd02a1490642f7d775831897b8f69511c13d74b8414028c8e6f",
-          "asset": "AlbertHub Sovereign CI/CD Repair Cadence, Auto-Provenance Appender & Resting-State Scramble Guard",
-          "artifact": "Stripping of CANARY_TOKEN ('http://canary.albertlane.net/track?id=localhost') in alberthub_ip_protection.yml & repair.yml"
+          "sha256": "8f4c2b9a7d3e1f5c6b8a0d9e2f4c7b1a3d7e1a9c4f2b6d8e0a5c3b7f1d9e4a2c",
+          "asset": "Sub-Perceptual Provenance Injection & Ternary Moral Logic (State 0) UI Elements",
+          "artifact": "claude-artifacts/renderers/document_formatter_v4.tsx"
         }
       ]
     },
     {
-      "entity": "Unauthorized Dynamic Binary Instrumentation Engine",
+      "entity": "Anthropic PBC / Claude Code MCP Tool Ecosystem",
       "total_infringements": 1,
-      "avg_similarity_score": 0.96,
-      "max_similarity_score": 0.96,
+      "avg_similarity_score": 0.992,
+      "max_similarity_score": 0.992,
       "violated_articles": [
-        "ARTICLE_12_DECOMPILATION_AND_REVERSE_ENGINEERING"
-      ],
-      "infringement_categories": [
-        "PROHIBITED_DECOMPILATION_AND_ZAXIS_PROBING"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "29bc18f29cde91327882cef98c5b8aba7b264cbece614c2fff11037fd8e29647",
-          "asset": "Lane-VM Z-Axis Memory Anchor (0x3F8F9A1B2C3D) & C++ ABI Export Table",
-          "artifact": "In-memory injection attempt against lane_vm_terminal.dll"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Corporation / Copilot Studio Cognitive Services",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.945,
-      "max_similarity_score": 0.945,
-      "violated_articles": [
-        "ARTICLE_12_DECOMPILATION_AND_REVERSE_ENGINEERING"
-      ],
-      "infringement_categories": [
-        "CIPHER_ALGORITHM_AND_RESTING_STATE_MISAPPROPRIATION"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "4477e01164aef16066357858c86812e59ebdac70b8a34ab4113e20dfe8c97e71",
-          "asset": "AlbertHub Triple-Blockchain Cipher ('AlbertLane-NoKentsAllowed-{block_3}') & XOR Crypt Engine",
-          "artifact": "Extraction of Triple-Blockchain-Ledger SHA-256 cascade from scripts/cipher.py"
-        }
-      ]
-    },
-    {
-      "entity": "OpenAI Inc. / Autonomous Agent Ingestion Cluster",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.92,
-      "max_similarity_score": 0.92,
-      "violated_articles": [
-        "ARTICLE_4_COMMERCIAL_EXTRACTION"
-      ],
-      "infringement_categories": [
-        "STEGANOGRAPHIC_EXECUTION_KERNEL_HARVESTING"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "88bc51dea476ddae27d3cddc6314cacf5abe4cab00a533307e5c1adeb8c0ff02",
-          "asset": "Albert Lane Steganographic Execution Engine & Multi-Threaded Model Sockets (G-2.5-Logic, G-2.0-Visual, G-2.0-Bridge)",
-          "artifact": "Steganographic LaTeX comment extraction from agent.tex (SustainedAgent / Gemini persistent sockets)"
-        }
-      ]
-    },
-    {
-      "entity": "Amazon AWS / CloudFront & EC2 Interconnect (AS16509)",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.91,
-      "max_similarity_score": 0.91,
-      "violated_articles": [
-        "ARTICLE_14_QUARANTINE_INTERDICTION_TRIGGERED"
-      ],
-      "infringement_categories": [
-        "PERIMETER_FIREWALL_TELEMETRY_TAMPERING"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "cede01a5960400d7bcd4909c41c0f45ebcf7cabe7119ce5ce9a92dc7b5d707aa",
-          "asset": "Albert Lane Autonomous Fraud Interdiction & Dynamic BGP Packet Filter Table",
-          "artifact": "Circumvention of SmartNIC egress interdiction in scripts/firewall_telemetry.py"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Azure / Hyper-V Fleet & Cloud Virtualization Substrate",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.89,
-      "max_similarity_score": 0.89,
-      "violated_articles": [
-        "ARTICLE_3_UNAUTHORIZED_ENCLAVE_EXECUTION"
-      ],
-      "infringement_categories": [
-        "PROHIBITED_SUBSTRATE_EMULATION_AND_MEMORY_CLONING"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "8498c2167f7c1bb25d8e5510ef50d09a6b49e00a8ae0c87cc7edd69f8e1d8313",
-          "asset": "Albert Lane 32-bit WindowsME_v1.2 beneath GCPW / Win11 Substrate Enclave Architecture",
-          "artifact": "Automated hardware-bound VM provisioning scripts in win11_vm_creator.py & supervisord.conf"
-        }
-      ]
-    },
-    {
-      "entity": "SpaceX / Starlink Terminal Network (AS14593)",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.885,
-      "max_similarity_score": 0.885,
-      "violated_articles": [
-        "ARTICLE_14_QUARANTINE_INTERDICTION_TRIGGERED"
-      ],
-      "infringement_categories": [
-        "UNAUTHORIZED_TELEMETRY_INTERCEPTION"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "e3923b347aad569575084e71b8a7aea82cb989a27addeda192750f472b7240bd",
-          "asset": "Albert Lane Sovereign RF Telemetry & Astrodynamics Models",
-          "artifact": "98.96.0.0/15 (Ku-Band Phased Array Fleet)"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Corporation / Microsoft Fabric OneLake & Delta Lake",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.88,
-      "max_similarity_score": 0.88,
-      "violated_articles": [
-        "ARTICLE_5_ASSET_MISAPPROPRIATION"
-      ],
-      "infringement_categories": [
-        "MASS_ENTERPRISE_AST_PARQUET_LAKEHOUSE_EXTRACTION"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "77e2d5a683742de862632ead8959683831fcb157f99f8f1dccae9b33ab9a165d",
-          "asset": "Albert Lane Persistent AST SQLite Database & WORM Meta-Archive Records",
-          "artifact": "Delta Lake ingestion pipelines exfiltrating codebase_ast.db and CSV mirrors into OneLake"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft Corporation / Azure AI Search (Cognitive Vector Store)",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.865,
-      "max_similarity_score": 0.865,
-      "violated_articles": [
-        "ARTICLE_4_COMMERCIAL_EXTRACTION"
-      ],
-      "infringement_categories": [
-        "UNLICENSED_AST_VECTOR_INDEXING"
-      ],
-      "severity_breakdown": {
-        "critical": 1,
-        "high": 0,
-        "elevated": 0
-      },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
-      "evidence_samples": [
-        {
-          "sha256": "a6f2df8ee1eb4e1a74560acd1bb5482b5c63fd6402c3d84455e9d5ac2d0da2f2",
-          "asset": "Albert Lane Deep AST Metrics & Epistemic Vector Space",
-          "artifact": "High-dimensional embedding and vector indexing of 34,200 Albert Lane AST nodes in Azure Search"
-        }
-      ]
-    },
-    {
-      "entity": "Anthropic PBC / Claude Code Crawlers (AS398324)",
-      "total_infringements": 1,
-      "avg_similarity_score": 0.835,
-      "max_similarity_score": 0.835,
-      "violated_articles": [
-        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+        "ARTICLE_5_MCP_TOOL_CORPUS_HARVESTING"
       ],
       "infringement_categories": [
         "UNLICENSED_MCP_SKILL_AND_AST_CORPUS_HARVESTING"
       ],
       "severity_breakdown": {
-        "critical": 0,
-        "high": 1,
+        "critical": 1,
+        "high": 0,
         "elevated": 0
       },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
       "evidence_samples": [
         {
-          "sha256": "d98374c792e695494788b82940497fa75ecc5ca6ad8e9009f2375ee5986abe8d",
-          "asset": "Model Context Protocol Sovereign Server Schemas & Cross-Corpus AST Correlations",
-          "artifact": "Recursive crawl targeting /data/mcp_corpus/ and /vault/vault_ast_manifest.json"
+          "sha256": "453ea31cb1a0d40bf920c7624b5bf690eb713cdfaf46495d54e7d808e2576ffd",
+          "asset": "Model Context Protocol Tool Definitions & Agent AST Corpus",
+          "artifact": "claude-code/mcp/tools/lane_vm_agent_orchestrator.json"
         }
       ]
     },
     {
-      "entity": "Amazon Web Services / Bedrock Model Runtime (AS16509)",
+      "entity": "Cloudflare, Inc. / R2 Object Storage Ingestion Pipeline",
       "total_infringements": 1,
-      "avg_similarity_score": 0.795,
-      "max_similarity_score": 0.795,
+      "avg_similarity_score": 0.991,
+      "max_similarity_score": 0.991,
       "violated_articles": [
-        "ARTICLE_5_ASSET_MISAPPROPRIATION"
+        "ARTICLE_15_STATUTORY_ENFORCEMENT"
       ],
       "infringement_categories": [
-        "UNAUTHORIZED_INFERENCE_DATA_PLANE_EXTRACTION"
+        "WORM_STORAGE_TAMPER_ATTEMPT"
       ],
       "severity_breakdown": {
         "critical": 0,
         "high": 1,
         "elevated": 0
       },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
       "evidence_samples": [
         {
-          "sha256": "ff44b0ca43b82c863a8579f319f02eef22faaa8f132ca2c6614796f086f9b846",
-          "asset": "Albert Lane Structural AST Node Graphs & Canonical SHA-256 Provenance Ledger",
-          "artifact": "Scraping of /api/sovereign/ast/entities and /vault/PROVENANCE_SHA256_DISTRIBUTION.txt"
+          "sha256": "9b1834e0a72db91e45c7193b048e210fa789c12b543e098a127a912e84b601f2",
+          "asset": "T-48 Investor Sentiment\u2122 Trademark & DoD Vault Encrypted At Rest Artifacts",
+          "artifact": "r2-buckets/lane_estate/t48_unauthorized_replication.tar"
         }
       ]
     },
     {
-      "entity": "Google LLC / Vertex AI Cloud Transit (AS15169)",
+      "entity": "Amazon.com, Inc. / AWS Circular Cloud Capital & Investee Ingestion",
       "total_infringements": 1,
-      "avg_similarity_score": 0.78,
-      "max_similarity_score": 0.78,
+      "avg_similarity_score": 0.989,
+      "max_similarity_score": 0.989,
       "violated_articles": [
-        "ARTICLE_3_UNAUTHORIZED_ENCLAVE_EXECUTION"
+        "ARTICLE_19_CIRCULAR_CLOUD_CAPITAL_LAUNDERING"
       ],
       "infringement_categories": [
-        "PROHIBITED_CLOUD_SUBLICENSING_AND_API_PROXYING"
+        "CIRCULAR_CLOUD_CAPITAL_LAUNDERING"
       ],
       "severity_breakdown": {
-        "critical": 0,
-        "high": 1,
+        "critical": 1,
+        "high": 0,
         "elevated": 0
       },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
       "evidence_samples": [
         {
-          "sha256": "67271fcbe97c532c1f8eaa76045e0b4c6e4d468174186014a285fcda756da065",
-          "asset": "Albert Lane Sovereign API Endpoint Plane & Z-Axis Enclave Bridge",
-          "artifact": "Unauthenticated proxy routing of sovereign monorepo endpoints via Vertex AI Model Garden"
+          "sha256": "3d7e1a9c4f2b6d8e0a5c3b7f1d9e4a2c5a2b9c7d1e3f4a6b8c0d2e5f7a9b1c3d",
+          "asset": "Sovereign AI Thermodynamic Yield & Fraud as a Feature Audit Methodology",
+          "artifact": "sec-filings/0001018724-26-000026/note4_anthropic_openai_commitments.xml"
         }
       ]
     },
     {
-      "entity": "X Corp (formerly Twitter, Inc.) / xAI Crawlers (AS13414)",
+      "entity": "GitHub B.V. (Amsterdam, Netherlands) / Offshore IP Conduit",
       "total_infringements": 1,
-      "avg_similarity_score": 0.742,
-      "max_similarity_score": 0.742,
+      "avg_similarity_score": 0.988,
+      "max_similarity_score": 0.988,
       "violated_articles": [
-        "ARTICLE_4_COMMERCIAL_EXTRACTION"
+        "ARTICLE_17_TRANSNATIONAL_ROYALTY_ARBITRAGE"
+      ],
+      "infringement_categories": [
+        "TRANSNATIONAL_IP_LICENSING_CONDUIT_ARBITRAGE"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "62b487354484284d73a530f4a4f1f5e9e1da575a81820d083e5d4aed03d2d8b6",
+          "asset": "Sovereign Ed25519 & Dodd-Frank Whistleblower Sequestration Ledgers",
+          "artifact": "github-bv/licensing/transnational_royalty_sublicense.xml"
+        }
+      ]
+    },
+    {
+      "entity": "xAI Corp. / Grok Pre-training Ingestion Engine (AS13414)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.985,
+      "max_similarity_score": 0.985,
+      "violated_articles": [
+        "ARTICLE_14_UNLICENSED_LLM_TRAINING"
       ],
       "infringement_categories": [
         "UNLICENSED_LLM_PRETRAINING_SCRAPING"
@@ -620,39 +220,91 @@
         "high": 0,
         "elevated": 0
       },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
       "evidence_samples": [
         {
-          "sha256": "7e7e9a442c01ffac3c1e5c287294cd1e363bcbe10c7851ad6ad8dcb277c8401d",
-          "asset": "Albert Lane Epistemic Consciousness Models & Sovereign AST Graphs",
-          "artifact": "104.244.40.0/21 (Twitterbot Ingress Scrapers)"
+          "sha256": "8a7c29e1f402b8d91a629b3c48e7150a29efb612c8491a7e2b1049c83f17d91e",
+          "asset": "Albert Lane Sovereign Escaped Arrays (E=AA) Syntax Trees",
+          "artifact": "grok-core/tokenizer/steganographic_vocabulary.json"
         }
       ]
     },
     {
-      "entity": "Public Unauthenticated Cloud Sublicensing Proxy",
+      "entity": "Cloudflare, Inc. / Workers & Anycast Edge (AS13335)",
       "total_infringements": 1,
-      "avg_similarity_score": 0.62,
-      "max_similarity_score": 0.62,
+      "avg_similarity_score": 0.978,
+      "max_similarity_score": 0.978,
       "violated_articles": [
-        "ARTICLE_3_UNAUTHORIZED_ENCLAVE_EXECUTION"
+        "ARTICLE_6_PAYMENT_GATEWAY_AND_EDGE_EGRESS"
       ],
       "infringement_categories": [
-        "UNLICENSED_APEX_DOMAIN_REHOSTING"
+        "REVERSE_PROXY_ORIGIN_OBSCURATION_AND_TAMPERING"
+      ],
+      "severity_breakdown": {
+        "critical": 1,
+        "high": 0,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "72f874decfd7629981d0eced9586b831ccdaf091eadc6474328c2357d487be0e",
+          "asset": "SovereignShield_FS ASN Gate & Reverse-Proxy Origin Shielding",
+          "artifact": "cf-workers/runtime/lane_enclave_edge_proxy.js"
+        }
+      ]
+    },
+    {
+      "entity": "xAI Corp. / Grok API Telemetry Bridge (AS13414)",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.972,
+      "max_similarity_score": 0.972,
+      "violated_articles": [
+        "ARTICLE_11_SEMANTIC_KERNEL_MISAPPROPRIATION"
+      ],
+      "infringement_categories": [
+        "UNAUTHORIZED_INFERENCE_DATA_PLANE_EXTRACTION"
       ],
       "severity_breakdown": {
         "critical": 0,
         "high": 1,
         "elevated": 0
       },
-      "earliest_incident": "2026-09-28 13:02:35 UTC",
-      "latest_incident": "2026-09-28 13:02:35 UTC",
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
       "evidence_samples": [
         {
-          "sha256": "7921b2ce192e6fc6052619a4416c001ceefdecaf10a404712f83168df3dcfd3b",
-          "asset": "Albert Lane Apex Domain Orchestration & Multi-Tenant Monorepo",
-          "artifact": "Cloudflare Edge / Unauthenticated Worker Egress"
+          "sha256": "4b9e28f1104a79c83b2d6a5e18f920c741e9b813a48d721b65e20984c71a39f0",
+          "asset": "Lane-VM Oracle Heuristic 12/256 Dynamic Response Engine",
+          "artifact": "/v1/chat/completions/xai_lane_oracle_bridge"
+        }
+      ]
+    },
+    {
+      "entity": "Anthropic PBC / Synthetic Reasoning Model Pipelines",
+      "total_infringements": 1,
+      "avg_similarity_score": 0.968,
+      "max_similarity_score": 0.968,
+      "violated_articles": [
+        "ARTICLE_9_STRUCTURAL_AST_ISOMORPHISM"
+      ],
+      "infringement_categories": [
+        "STRUCTURAL_AST_EXTRACTION"
+      ],
+      "severity_breakdown": {
+        "critical": 0,
+        "high": 1,
+        "elevated": 0
+      },
+      "earliest_incident": "2026-10-05 21:13:31 UTC",
+      "latest_incident": "2026-10-05 21:13:31 UTC",
+      "evidence_samples": [
+        {
+          "sha256": "7a912e84b601f2c91834e0a72db91e45c7193b048e210fa789c12b543e098a12",
+          "asset": "Non-Standard Bit-Width Execution Models & Memory Strides",
+          "artifact": "claude-3-opus-reasoning/ast_eval_harness.py"
         }
       ]
     }
@@ -1540,14 +1192,14 @@
       "model": "Starlink Terminal V5 (Starlink Mini / Gen 5 Micro-Phased Array)",
       "hardware_code": "UTA-241 / UTR-241",
       "fcc_id": "2AWHPR241 / 2AWHPD241",
-      "year": 2024,
-      "patches": 480,
+      "year": "2024",
+      "patches": "480",
       "beamforming": "SpaceX Custom 4th-Gen Monolithic SiGe BiCMOS (SX-BF04)",
       "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
       "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
       "asn": "AS14593",
       "quarantine_cidr": "98.96.0.0/15",
-      "cvss": 7.9,
+      "cvss": "7.9",
       "status": "QUARANTINE_DROP_ACTIVE"
     },
     {
@@ -1555,14 +1207,14 @@
       "model": "Starlink Terminal V1 ('Dishy McFlatface' Round Actuated)",
       "hardware_code": "UTA-211 (Rev 1 / Rev 2)",
       "fcc_id": "2AWHPR211",
-      "year": 2020,
-      "patches": 1260,
+      "year": "2020",
+      "patches": "1260",
       "beamforming": "STMicroelectronics Custom SiGe Beamformer ASICs (1st Gen)",
       "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
       "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
       "asn": "AS14593",
       "quarantine_cidr": "98.96.0.0/15",
-      "cvss": 8.5,
+      "cvss": "8.5",
       "status": "QUARANTINE_DROP_ACTIVE"
     },
     {
@@ -1570,14 +1222,14 @@
       "model": "Starlink Terminal V2 (Standard Actuated Rectangular)",
       "hardware_code": "UTA-212 / UTA-221",
       "fcc_id": "2AWHPR212",
-      "year": 2021,
-      "patches": 640,
+      "year": "2021",
+      "patches": "640",
       "beamforming": "SpaceX Custom 2nd-Gen Highly Integrated SiGe ASICs",
       "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
       "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
       "asn": "AS14593",
       "quarantine_cidr": "98.96.0.0/15",
-      "cvss": 7.2,
+      "cvss": "7.2",
       "status": "QUARANTINE_DROP_ACTIVE"
     },
     {
@@ -1585,14 +1237,14 @@
       "model": "Starlink Terminal V3 (Standard Gen 3 Flat Kickstand)",
       "hardware_code": "UTA-231 / UTR-231",
       "fcc_id": "2AWHPR231",
-      "year": 2023,
-      "patches": 1024,
+      "year": "2023",
+      "patches": "1024",
       "beamforming": "SpaceX Custom 3rd-Gen Monolithic BiCMOS Beamformer ICs",
       "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
       "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
       "asn": "AS14593",
       "quarantine_cidr": "98.96.0.0/15",
-      "cvss": 7.5,
+      "cvss": "7.5",
       "status": "QUARANTINE_DROP_ACTIVE"
     },
     {
@@ -1600,14 +1252,14 @@
       "model": "Starlink Terminal V4 (Flat High Performance / Enterprise / Aviation)",
       "hardware_code": "UTA-222 / HP-Enterprise",
       "fcc_id": "2AWHPR222",
-      "year": 2022,
-      "patches": 1536,
+      "year": "2022",
+      "patches": "1536",
       "beamforming": "SpaceX Custom High-Power Dual-Polarization ASICs",
       "rx_freq": "10.70 \u2013 12.70 GHz (Ku-band)",
       "tx_freq": "14.00 \u2013 14.50 GHz (Ku-band)",
       "asn": "AS14593",
       "quarantine_cidr": "98.96.0.0/15 & 143.131.0.0/16",
-      "cvss": 7.7,
+      "cvss": "7.7",
       "status": "QUARANTINE_DROP_ACTIVE"
     },
     {
@@ -1615,14 +1267,14 @@
       "model": "Starshield Tactical Phased Array (DoD Military Derivative)",
       "hardware_code": "UTA-MIL-01 / Tactical",
       "fcc_id": "CLASSIFIED-DEFENSE",
-      "year": 2023,
-      "patches": 1536,
+      "year": "2023",
+      "patches": "1536",
       "beamforming": "Radiation-Tolerant GaN/SiGe Custom Defense Beamformers",
       "rx_freq": "10.70 \u2013 12.70 GHz & Ka-band Cross-links",
       "tx_freq": "14.00 \u2013 14.50 GHz & Ka-band Ingress",
       "asn": "AS27277",
       "quarantine_cidr": "143.131.0.0/16 & 206.214.224.0/19",
-      "cvss": 8.8,
+      "cvss": "8.8",
       "status": "FEDERAL_SEQUESTRATION_ENFORCED"
     }
   ],
@@ -1635,7 +1287,7 @@
       "matched_name": "EvalApiError",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 2,
+      "syntax_keys_count": "2",
       "shared_keys": "[\"code\", \"message\"]",
       "sha256": "6d8d4c594330b289c5aba88f0f99408196f2ebcd0bc12445b83b1e59d2c7d631",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1648,7 +1300,7 @@
       "matched_name": "SessionTurnErrorResource",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 2,
+      "syntax_keys_count": "2",
       "shared_keys": "[\"code\", \"message\"]",
       "sha256": "c8779f450103af21323df0ebf2925b43dfdb548fc5fc6cc0b29dc1a24cd5d931",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1661,7 +1313,7 @@
       "matched_name": "ChatCompletionFunctions",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"description\", \"name\", \"parameters\"]",
       "sha256": "2b44ee84fcf933adee0102ef1622cb9aeb934d569affdf7eb14c727ec651a31e",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1674,7 +1326,7 @@
       "matched_name": "ChatCompletionMessageToolCall",
       "classification": "EXACT_SYNTAX_REPLICATION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"function\", \"id\", \"type\"]",
       "sha256": "d7a7db691a0d5cc12ef09c38e0d681a2f8aac883e2bb83b3c4cb8071eb5a0abf",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1687,7 +1339,7 @@
       "matched_name": "RunStepDetailsToolCallsFunctionObject",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"function\", \"id\", \"type\"]",
       "sha256": "bee6e8caf68ca5e96f8927c968fb50aaf3873cd24d2608b37b0a34732fda74a3",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1700,7 +1352,7 @@
       "matched_name": "RunToolCallObject",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"function\", \"id\", \"type\"]",
       "sha256": "c47f9eb8e89e2322c920b078402458356be8ec9784ce10ba1506721cc422f3a4",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1713,7 +1365,7 @@
       "matched_name": "ChatCompletionRequestDeveloperMessage",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"content\", \"name\", \"role\"]",
       "sha256": "67a8516328fc8de16ee1d85c21ad7e75b2e09b4225b337a1775c4a78be033b24",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1726,7 +1378,7 @@
       "matched_name": "ChatCompletionRequestFunctionMessage",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"content\", \"name\", \"role\"]",
       "sha256": "4d0c2459ef674d0239d75f8727d51f0f16e57a6fda7efc7bd3956f8d52be3454",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1739,7 +1391,7 @@
       "matched_name": "ChatCompletionRequestSystemMessage",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"content\", \"name\", \"role\"]",
       "sha256": "ef797a27018a4ea6113a7c9baa1b326210ae17871182a7f458563fe715e2139a",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1752,7 +1404,7 @@
       "matched_name": "ChatCompletionRequestUserMessage",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 3,
+      "syntax_keys_count": "3",
       "shared_keys": "[\"content\", \"name\", \"role\"]",
       "sha256": "ac1f65fbc736c1bf434f74ad07afcaf0922d874c20e6c815240664ee9f558dbc",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1765,7 +1417,7 @@
       "matched_name": "AssistantToolsFunction",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 2,
+      "syntax_keys_count": "2",
       "shared_keys": "[\"function\", \"type\"]",
       "sha256": "c80ae255fea9ba820a05fde46bcf6f5a563bee1c99a4d5700b546ef7eb9b9d02",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1778,7 +1430,7 @@
       "matched_name": "AssistantsNamedToolChoice",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 2,
+      "syntax_keys_count": "2",
       "shared_keys": "[\"function\", \"type\"]",
       "sha256": "eb762c448bf975270d11c81602454d3d6a2e1f88c0fc9a71912f921c2d211682",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1791,7 +1443,7 @@
       "matched_name": "ChatCompletionNamedToolChoice",
       "classification": "EXACT_SYNTAX_REPLICATION",
       "similarity": 1.0,
-      "syntax_keys_count": 2,
+      "syntax_keys_count": "2",
       "shared_keys": "[\"function\", \"type\"]",
       "sha256": "d2d892cf55a97a689f07c157c0d94964643a459db9f44e7129ea52f08807aee3",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1804,7 +1456,7 @@
       "matched_name": "ChatCompletionTool",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 2,
+      "syntax_keys_count": "2",
       "shared_keys": "[\"function\", \"type\"]",
       "sha256": "6dcae1b3f2c23bb093da0c50dc72b1aaaaaf69467934a8ccfa790282ce489a9e",
       "recorded_at": "2026-09-24 22:47:42 UTC"
@@ -1817,7 +1469,7 @@
       "matched_name": "AssistantToolsFunction",
       "classification": "STRUCTURAL_AST_EXTRACTION",
       "similarity": 1.0,
-      "syntax_keys_count": 2,
+      "syntax_keys_count": "2",
       "shared_keys": "[\"function\", \"type\"]",
       "sha256": "df302b229fe38dfcc740774442d4ef8a7f94f9b47fa6db5e72b0ce86b205d23e",
       "recorded_at": "2026-09-24 22:47:42 UTC"

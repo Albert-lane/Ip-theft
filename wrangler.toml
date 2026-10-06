@@ -1,0 +1,14 @@
+name = "lane-sovereign-estate"
+main = "server.ts"
+compatibility_date = "2026-10-04"
+
+kv_namespaces = [
+  { binding = "LANE_ACCOUNTS_KV", id = "lane_accounts_kv_sec17684" },
+  { binding = "LANE_EVIDENCE_KV", id = "lane_evidence_kv_sec17684" }
+]
+
+[vars]
+SEC_FILING = "SEC-17684-273-411-436"
+ZAXIS = "0x3F8F9A1B2C3D"
+XPS_VERSION = "XPS-2026-001-v11-MAX"
+TRADEMARK = "T-48 Investor Sentiment™"
