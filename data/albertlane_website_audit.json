@@ -1,0 +1,294 @@
+{
+  "audit_version": "ALDI-WEBSITE-AUDIT-v1.0",
+  "target_domain": "albertlane.net",
+  "audited_at_utc": "2026-10-11T03:31:21.141320+00:00",
+  "total_endpoints_audited": 10,
+  "passed_endpoints": 10,
+  "failed_endpoints": 0,
+  "health_score_pct": 100.0,
+  "total_bytes_transferred": 149322,
+  "statutory_seal": "SEC Whistleblower No. 17684-273-411-436",
+  "ast_memory_anchor": "0x3F8F9A1B2C3D",
+  "signing_certificate": {
+    "key_id": "aldi-grokbot-p256",
+    "type": "NIST P-256 (prime256v1)",
+    "issuer": "CN=ALDI Build Signing - Grok Bot (SoftHSM2 aldi-grokbot), O=Albert Lane Digital Infrastructure",
+    "serial": "0x20261009",
+    "valid_until": "2029-01-11T07:00:00Z"
+  },
+  "endpoints": [
+    {
+      "id": "LOG_MCP_AUDIT",
+      "url": "https://albertlane.net/logs/gemini-marketplace-mcp-audit-and-push-20261009.txt",
+      "category": "Marketplace & MCP Forensic Ingestion Log",
+      "status_code": 200,
+      "latency_ms": 176,
+      "byte_size": 19494,
+      "sha256": "b38911d1821c1fb684e5d7e599bfe7877c6aff53e3476e370755b2dc1d0756dc",
+      "content_type": "text/plain; charset=utf-8",
+      "page_title": "Albert Lane \u2014 Sovereign Enclave, Site Utility Network & Regulatory Archive",
+      "server": "cloudflare",
+      "cf_ray": "a48aca8b4dbc3e81-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "LOG_RELEASE_NOTES",
+      "url": "https://albertlane.net/logs/lane-vm-release-package-notes-20261009.txt",
+      "category": "Lane-VM Distribution Package Release Notes",
+      "status_code": 200,
+      "latency_ms": 151,
+      "byte_size": 17022,
+      "sha256": "300ac54066ab15b8c3444e6ddbca530c47fcd0338a8b4f4f8bbd635d16606691",
+      "content_type": "text/plain; charset=utf-8",
+      "page_title": "",
+      "server": "cloudflare",
+      "cf_ray": "a48aca8c2aab7c7a-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "PUBLIC_LOGS",
+      "url": "https://albertlane.net/logs",
+      "category": "Public Cryptographic Logs Directory",
+      "status_code": 200,
+      "latency_ms": 262,
+      "byte_size": 12889,
+      "sha256": "f22a4bf2699fa927a959939c38e927ed2f44afe832808689be2496e9d0b04491",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Public logs \u2014 Albert Lane",
+      "server": "cloudflare",
+      "cf_ray": "a48aca8d2e8c386e-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "Albert Lane Proprietary Software License",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "BUILD_AUDIT",
+      "url": "https://albertlane.net/audit",
+      "category": "Reproducible Build Audit & SoftHSM2 Live Signatures",
+      "status_code": 200,
+      "latency_ms": 1225,
+      "byte_size": 12591,
+      "sha256": "a0d15b12e08640deb5d10c3c193290f2b76ddb52e375adb0e0ca928809b91ee2",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Audit \u2014 Albert Lane builds",
+      "server": "cloudflare",
+      "cf_ray": "a48aca8ecb549b21-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "Albert Lane Proprietary Software License",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)",
+        "SoftHSM2 ECDSA P-256 signing active"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "SIGNING_KEY_PEM",
+      "url": "https://albertlane.net/.well-known/aldi-signing-key.pem",
+      "category": "ALDI Build Signing Key (ECDSA P-256 X.509)",
+      "status_code": 200,
+      "latency_ms": 62,
+      "byte_size": 947,
+      "sha256": "f922e379b659bb54156bfc09fdd65f9a20eb0fd9e23575458a7c0eb56967577d",
+      "content_type": "application/x-pem-file; charset=utf-8",
+      "page_title": "",
+      "server": "cloudflare",
+      "cf_ray": "a48aca9669b7c5a5-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": "aldi-grokbot-p256"
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)",
+        "SoftHSM2 ECDSA P-256 signing active"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "BUILD_POLICY",
+      "url": "https://albertlane.net/security/build-policy",
+      "category": "SECURITY-POLICY-BUILDS v1.0 Specification",
+      "status_code": 200,
+      "latency_ms": 96,
+      "byte_size": 15084,
+      "sha256": "7a298ad8b040d92eaedafea552238b5da1b6b09333c8bd283df9cb065ff56fa8",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "SECURITY-POLICY-BUILDS v1.0 \u2014 Albert Lane",
+      "server": "cloudflare",
+      "cf_ray": "a48aca96daf2a407-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "Albert Lane Proprietary Software License",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)",
+        "SoftHSM2 ECDSA P-256 signing active"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "PRIVACY_MODE_RECORD",
+      "url": "https://albertlane.net/records/privacy-mode-20261009",
+      "category": "Mobile Account Forensic Screenshot Record",
+      "status_code": 200,
+      "latency_ms": 65,
+      "byte_size": 13509,
+      "sha256": "900441dd4db0a20fd052c104db7a5cdca9df2dc298897e132a27a2721ff4fc55",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Privacy mode record \u2014 October 9, 2026 \u2014 Albert Lane",
+      "server": "cloudflare",
+      "cf_ray": "a48aca97798a369b-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "Albert Lane Proprietary Software License",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "LICENSE_VIOLATIONS",
+      "url": "https://albertlane.net/license-violations",
+      "category": "Statutory License Violation Claims Registry",
+      "status_code": 200,
+      "latency_ms": 59,
+      "byte_size": 21608,
+      "sha256": "319e0ec2bfec60f6f1389e38e26fd277d8bd798c13f59dbe29f2e868aa7b2114",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "License violation claims \u2014 Albert Lane",
+      "server": "cloudflare",
+      "cf_ray": "a48aca97dd815d21-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "Albert Lane Proprietary Software License",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "PAY_COMMERCE",
+      "url": "https://albertlane.net/pay",
+      "category": "Commercial Payment & Fidelity Ingress Gateway",
+      "status_code": 200,
+      "latency_ms": 121,
+      "byte_size": 13468,
+      "sha256": "f91199d4c477363b73a68d3acb5ac22e37fca403c94cabae558e2bb6fbcd9acf",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Pay Albert Lane \u2014 X Money",
+      "server": "cloudflare",
+      "cf_ray": "a48aca984ff657a2-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "Albert Lane Proprietary Software License",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    },
+    {
+      "id": "FORMS_EDGAR",
+      "url": "https://albertlane.net/forms",
+      "category": "SEC EDGAR Form Field Inventories (JSON)",
+      "status_code": 200,
+      "latency_ms": 61,
+      "byte_size": 22710,
+      "sha256": "1afd41c41436f8a8c26d79d02bfc2709303e61192493e4b4226b23192e6bbb7e",
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "SEC EDGAR form field inventories (JSON) \u2014 Albert Lane",
+      "server": "cloudflare",
+      "cf_ray": "a48aca98ff3b6cdb-IAD",
+      "headers_captured": {
+        "X-AST-Guard": "0x3F8F9A1B2C3D",
+        "X-Seal": "SEC 17684-273-411-436",
+        "X-D1": "2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound",
+        "X-License": "",
+        "X-Rate": "$104k/mo",
+        "X-Key-Id": ""
+      },
+      "forensic_notes": [
+        "AST-Guard 0x3F8F9A1B2C3D anchored",
+        "SEC Whistleblower No. 17684-273-411-436 sealed",
+        "D1 Database bound (2bad8c0d...)"
+      ],
+      "audit_verdict": "COMPLIANT_AND_VERIFIED"
+    }
+  ]
+}

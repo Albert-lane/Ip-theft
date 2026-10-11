@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Albert's Z-Axis Core - Mobile Adapted</title>
+<style>
+  :root {
+    --bg: #000000;
+    --text: #F3F3F3;
+    --accent: #FF3366;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+    width: 100vw;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+
+  #scene {
+    width: 100vw;
+    height: 100dvh;
+    perspective: 1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+
+  #z-axis-watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.8rem;
+    color: var(--accent);
+    z-index: 9999;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #orbital-pivot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transform-style: preserve-3d;
+    transform: rotateX(20deg) rotateY(0deg);
+  }
+
+  .z-module {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    margin-top: -100px;
+    margin-left: -125px;
+    border: 2px solid var(--accent);
+    padding: 1.5rem;
+    background: var(--bg);
+    box-shadow: 15px 15px 0px 0px var(--accent);
+    cursor: crosshair;
+    backface-visibility: hidden;
+  }
+
+  .z-module:hover {
+    background: var(--accent);
+    color: var(--bg);
+    box-shadow: 15px 15px 0px 0px var(--text);
+  }
+
+  #core { transform: rotateY(0deg) translateZ(350px); }
+  #node-alpha { transform: rotateY(90deg) translateZ(350px); }
+  #node-beta { transform: rotateY(180deg) translateZ(350px); }
+  #node-gamma { transform: rotateY(270deg) translateZ(350px); }
+
+  .data-stream {
+    font-size: 0.85rem;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+
+  .touch-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 20vw;
+    z-index: 5000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0.4;
+    user-select: none;
+  }
+  #nav-left { left: 0; }
+  #nav-right { right: 0; }
+
+  @keyframes percussive-snap {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+
+  .percussive-strike {
+    animation: percussive-snap 50ms step-end;
+  }
+
+  .dos-active {
+    background-color: var(--accent) !important;
+    color: var(--bg) !important;
+  }
+</style>
+</head>
+<body>
+
+<div id="z-axis-watermark">Z-Axis Spatial Framework © Albert</div>
+
+<div class="touch-nav" id="nav-left">&lt;</div>
+<div class="touch-nav" id="nav-right">&gt;</div>
+
+<div id="orbital-pivot">
+  <div class="z-module" id="core">
+    <h2>CORE_</h2>
+    <div class="data-stream" id="stream-core">Awaiting payload...</div>
+  </div>
+  <div class="z-module" id="node-alpha">
+    <h2>NODE_ALPHA</h2>
+    <div class="data-stream" id="stream-alpha">Standby...</div>
+  </div>
+  <div class="z-module" id="node-beta">
+    <h2>NODE_BETA</h2>
+    <div class="data-stream" id="stream-beta">Standby...</div>
+  </div>
+  <div class="z-module" id="node-gamma">
+    <h2>NODE_GAMMA</h2>
+    <div class="data-stream" id="stream-gamma">Standby...</div>
+  </div>
+</div>
+
+<script>
+  const SecurityCore = {
+    init() {
+      this.preventIframe();
+      this.detectDevTools();
+      this.blockRightClick();
+    },
+    triggerDoS(reason) {
+      document.body.classList.add('dos-active');
+      document.body.innerHTML = `<h1 style="text-align:center; margin-top:20%; font-size: 2.2rem;">DENIAL OF SERVICE<br>EXPLOITING PARTY (EP/STD) DETECTED</h1><p style="text-align:center;">VECTOR: ${reason}<br>Z-AXIS IP PROTECTED.</p>`;
+      localStorage.clear();
+      sessionStorage.clear();
+      throw new Error("Execution Halted.");
+    },
+    preventIframe() {
+      try {
+        if (window.top !== window.self && !window.location.ancestorOrigins?.contains(window.location.origin)) {
+          // Allow internal embedding
+        }
+      } catch (e) {
+        // internal fallback
+      }
+    },
+    blockRightClick() {
+      document.addEventListener('contextmenu', e => {
+        if (e.pointerType === 'touch' || e.button === 0) {
+          e.preventDefault();
+          return;
+        }
+        e.preventDefault();
+      });
+    },
+    detectDevTools() {
+      const threshold = 160;
+      setInterval(() => {
+        if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) return;
+        const widthDelta = window.outerWidth - window.innerWidth;
+        const heightDelta = window.outerHeight - window.innerHeight;
+        if (widthDelta > threshold || heightDelta > threshold) {
+          // Warning state
+        }
+      }, 500);
+    }
+  };
+
+  const OrbitalEngine = {
+    currentAngle: 0,
+    pivot: document.getElementById('orbital-pivot'),
+    init() {
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === 'd') this.rotate(-90);
+        if (e.key === 'ArrowLeft' || e.key === 'a') this.rotate(90);
+      });
+
+      document.getElementById('nav-left').addEventListener('click', () => this.rotate(90));
+      document.getElementById('nav-right').addEventListener('click', () => this.rotate(-90));
+
+      let touchStartX = 0;
+      window.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+
+      window.addEventListener('touchend', e => {
+        const touchEndX = e.changedTouches[0].screenX;
+        const diff = touchEndX - touchStartX;
+        if (Math.abs(diff) > 40) {
+          if (diff < 0) this.rotate(-90);
+          else this.rotate(90);
+        }
+      }, { passive: true });
+    },
+    rotate(degrees) {
+      this.currentAngle += degrees;
+      this.pivot.style.transition = 'transform 50ms step-end';
+      this.pivot.style.transform = `rotateY(${this.currentAngle}deg)`;
+      this.strikeAll();
+    },
+    strikeAll() {
+      document.querySelectorAll('.z-module').forEach(mod => {
+        mod.classList.remove('percussive-strike');
+        void mod.offsetWidth;
+        mod.classList.add('percussive-strike');
+      });
+    }
+  };
+
+  const DataInjector = {
+    streams: {
+      core: document.getElementById('stream-core'),
+      alpha: document.getElementById('stream-alpha'),
+      beta: document.getElementById('stream-beta'),
+      gamma: document.getElementById('stream-gamma')
+    },
+    init() {
+      setInterval(() => this.injectRaw(), 2000);
+    },
+    injectRaw() {
+      const timestamp = new Date().toISOString();
+      const mockHash = Math.random().toString(36).substring(2, 15).toUpperCase();
+      
+      this.streams.core.innerText = `SYS_TIME: ${timestamp}\nSTATUS: ONLINE\nANCHOR: 0x3F8F9A1B2C3D`;
+      this.streams.alpha.innerText = `PACKET_HASH: ${mockHash}\nROUTING: SECURE\nCURSOR_POOL: ACTIVE`;
+      this.streams.beta.innerText = `IP_TRACER: ACTIVE\nNULL_ROUTING: 0\nVIOLATIONS: AUDITED`;
+      this.streams.gamma.innerText = `Z-AXIS: SYNCHRONIZED\nG-CODE: ENFORCED\nPHI: 2.7142`;
+      
+      OrbitalEngine.strikeAll();
+    }
+  };
+
+  SecurityCore.init();
+  OrbitalEngine.init();
+  DataInjector.init();
+</script>
+
+</body>
+</html>

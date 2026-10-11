@@ -1,0 +1,11 @@
+{
+  "deliveryStatus": "HTTP_401",
+  "httpCode": 401,
+  "endpoint": "https://api.albertlane.net/v1/provenance",
+  "payloadSha256": "5e554f5708c9454f2a719e06609db6108262ebd3451433e4d0f93871fbea08b7",
+  "hmacSignature": "4fa0c8722828f3a4a5649a439d526626e8e522e5c5d2e8e1556e5ad780cb5adb",
+  "mcelRecordIndex": 12,
+  "mcelEntryHash": "45dfd8c9c27bb4e0a3b893e5b264732e64bd683116a8c438cd2772b6d85ce720",
+  "timestamp": "2026-10-11T02:30:20.347450+00:00",
+  "response": "{\n  \"ok\": false,\n  \"error\": \"session malformed\",\n  \"license\": \"Albert Lane Proprietary Software License\",\n  \"provenance\": {\n    \"owner\": \"Albert Lane\",\n    \"license\": \"Albert Lane Proprietary Software License\",\n    \"license_url\": \"https://albertlane.net/license\",\n    \"sec_seal\": \"SEC 17684-273-411-436\",\n    \"ast_guard\": \"0x3F8F9A1B2C3D\",\n    \"d1\": \"2bad8c0d-5c28-4f16-9c60-6bd48fb24a24\",\n    \"source_sha256\": \"a8a29805a957495a96c85dc6cd6e3dbffeff64f693b334d718f4c6706a0b17ff\",\n    \"nature\": \"stays true to its "
+}

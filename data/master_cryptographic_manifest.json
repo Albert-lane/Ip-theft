@@ -14,7 +14,7 @@
     "table_breakdown": [
       {
         "table_name": "ast_entities",
-        "record_count": 126342,
+        "record_count": 227594,
         "sample_proof_sha256": "9270292a1cc2cf450cec8ea687afe9f67bc0b25620a161504e7e984faaf8dcf6",
         "accounting_status": "VERIFIED_ACTIVE"
       },
@@ -217,5 +217,30 @@
     "requirements_txt": "VERIFIED_PINNED",
     "requirements_lock": "VERIFIED_SHA256_PINNED",
     "package_json_license": "VERIFIED_PROPRIETARY"
+  },
+  "deployment_packages": {
+    "tarball": {
+      "file": "albert-lane-sovereign-enclave.tar.gz",
+      "sha256": "7392640181e88fe9092d1b60113967ff5064cbc98bec28f57c4cc546452bc106",
+      "size_bytes": 21484433,
+      "api_url": "https://api.albertlane.net/albert-lane-sovereign-enclave.tar.gz",
+      "local_route": "/albert-lane-sovereign-enclave.tar.gz"
+    },
+    "seven_zip": {
+      "file": "albert-lane-sovereign-enclave.7z",
+      "sha256": "b0a842076791eba1b2094111dab5993b863a1aadd745229109923c291d5c25fa",
+      "size_bytes": 10980868,
+      "api_url": "https://api.albertlane.net/albert-lane-sovereign-enclave.7z",
+      "local_route": "/albert-lane-sovereign-enclave.7z"
+    },
+    "zip": {
+      "file": "albert-lane-sovereign-enclave.zip",
+      "sha256": "dec1e6b3e4a6dce2f085ac98d47095ec986ea1feafb2ffff03b9044c6c3eb894",
+      "size_bytes": 22533167,
+      "api_url": "https://api.albertlane.net/albert-lane-sovereign-enclave.zip",
+      "local_route": "/albert-lane-sovereign-enclave.zip"
+    },
+    "preservation_status": "ORIGINALS_FULLY_PRESERVED_IMMUTABLE",
+    "packaged_at": "2026-10-09T03:34:17Z"
   }
 }

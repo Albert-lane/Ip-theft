@@ -462,13 +462,12 @@ def main():
     print("[*] Performing Cross-Corpus AST Jaccard & Syntactic Isomorphism Analysis...")
 
     # Load OpenAI schemas from DB
-    c.execute("SELECT schema_name, properties_count, ast_json_tree FROM openai_corpus_schemas;")
+    c.execute("SELECT schema_name, properties_count, ast_keys FROM openai_corpus_schemas;")
     oai_rows = c.fetchall()
     oai_dict = {}
-    for name, cnt, tree_raw in oai_rows:
+    for name, cnt, keys_raw in oai_rows:
         try:
-            tree = json.loads(tree_raw)
-            keys = extract_keys_from_schema(tree)
+            keys = set(json.loads(keys_raw)) if keys_raw else set()
             if keys:
                 oai_dict[name] = keys
         except Exception:

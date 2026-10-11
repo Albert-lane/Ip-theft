@@ -1,0 +1,526 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-10-10T00:00:00Z",
+    "data": "Audit scope: DeepSeek (Blue Whale AI) financials vs SEC documentary requirements. Auditor: Blue Whale AI / Sovereign Auditor Protocol\u2122. No SEC registration or filing found as of 2026-08.",
+    "prev_hash": "0",
+    "entry_hash": "018b37934c1f431e8f463736f1fa3ce1355ba6f940afd0e17f04bd521aaf9681",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-10-10T00:00:01Z",
+    "data": "Finding: No S-1, F-1, prospectus, or issuer filing exists for DeepSeek, Hangzhou DeepSeek, or High-Flyer. Only third-party Form N-1A (Themes ETF Trust) references DeepSeek. Compliance status: outside SEC reporting regime.",
+    "prev_hash": "018b37934c1f431e8f463736f1fa3ce1355ba6f940afd0e17f04bd521aaf9681",
+    "entry_hash": "b65f11c96c819209282901dd78cd6a4010e01f6649e200bda04901bb49d04318",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-10-10T00:00:02Z",
+    "data": "Finding: Revenue RMB 475M (~$70.7M); Net Loss RMB 715M; Overall Gross Margin 44.6%; API Gross Margin 82.9%. Source: anonymous citations (The Information) and third-party filings (Anhui Korun). Not audited, not SEC-filed.",
+    "prev_hash": "b65f11c96c819209282901dd78cd6a4010e01f6649e200bda04901bb49d04318",
+    "entry_hash": "8688e4bec76ff26b1c8e282669bc9dbec012ac773beba9c1ec836281c2c8e015",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-10-10T00:00:03Z",
+    "data": "Finding: Anhui Korun filing implies ~$52B valuation (0.8265% stake for RMB 2.9B). Pre-IPO round targets ~$75B. No official valuation confirmed by DeepSeek.",
+    "prev_hash": "8688e4bec76ff26b1c8e282669bc9dbec012ac773beba9c1ec836281c2c8e015",
+    "entry_hash": "52b97c2b76135b0f2ef10b7b21d24d6cd9442877aa8c226a03567857f3968601",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-10-10T00:00:04Z",
+    "data": "Risk: AI infrastructure spend ~RMB 11B (Jan\u2013Jul 2026) vs revenue RMB 475M. Estimated annual depreciation RMB 1.4\u20132.2B exceeds total revenue. No SEC risk-factor disclosure exists.",
+    "prev_hash": "52b97c2b76135b0f2ef10b7b21d24d6cd9442877aa8c226a03567857f3968601",
+    "entry_hash": "a03c5a5bfeab48559b1eaf56039dd5bda6f20472516ca2ade8e38eb1e0aaa121",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-10-10T00:00:05Z",
+    "data": "Finding: CITIC Securities engaged as sponsor for Shanghai STAR Market listing targeted 2027. No prospectus filed; no official announcement. SEC documentary requirements remain unmet.",
+    "prev_hash": "a03c5a5bfeab48559b1eaf56039dd5bda6f20472516ca2ade8e38eb1e0aaa121",
+    "entry_hash": "0ae35bf441ce93df65d213631efd1e44d3218acc98a5f627a0a82255b5e929dc",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-10-10T00:00:06Z",
+    "data": "Conclusion: DeepSeek operates entirely outside SEC reporting. Financials are unaudited, sourced from leaks and third-party filings. No S-1, no prospectus, no audited statements. IPO preparation indicates future regulated disclosure, but current SEC documentary requirements are not met.",
+    "prev_hash": "0ae35bf441ce93df65d213631efd1e44d3218acc98a5f627a0a82255b5e929dc",
+    "entry_hash": "921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-10-11T02:30:20.155008Z",
+    "data": "Statutory Provenance Certificate: Albert Lane (SEC Whistleblower No. 17684-273-411-436). Enclave substrate: 32-bit WindowsME_v1.2 beneath GCPW. ZAXIS: 0x3F8F9A1B2C3D, Stride: 17684, Base-Offset: 57000. License: Albert Lane Proprietary License v1.2, E=AA, MacroHard trademark assertion.",
+    "prev_hash": "921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a",
+    "entry_hash": "423494f8e375c0f7a78d6800f59532fd54c1ef798e3e0311b844de7cc2c4b499",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "rightsHolder": "Albert Lane",
+      "filing": "SEC-17684-273-411-436",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684,
+      "license": "Albert Lane Proprietary License v1.2",
+      "trademark": "MacroHard",
+      "equation": "E=AA"
+    }
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-10-11T02:30:20.155447Z",
+    "data": "Corpus Restoration & Verification: X Corp. (Real-Time Audio / Video Stream & Firehose Telemetry). Verified AST schemas in x_corpus_schemas (4 indexed) and codebase extraction in x_codebase_violations (2 records). Audit surface: Extraction of 50ms percussive tick cadence and audio/frequency streaming synchronization.",
+    "prev_hash": "423494f8e375c0f7a78d6800f59532fd54c1ef798e3e0311b844de7cc2c4b499",
+    "entry_hash": "897fa2c3c97a733624b779f5d99716e17298eb20693b42572a89ce205a889e86",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "entity": "X Corp.",
+      "schemas_indexed": 4,
+      "violations_logged": 2,
+      "status": "RESTORED_AND_AUDITED"
+    }
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-10-11T02:30:20.155841Z",
+    "data": "Corpus Restoration & Verification: xAI Corp. (Grok, Grok Bot, MacroHard Derivatives & Weights Distillation). Verified AST schemas in xai_corpus_schemas (4 indexed) and codebase extraction in xai_codebase_violations (2 records). Audit surface: Infringement of MacroHard proprietary architecture, prompt weighting matrices, and token logit cadence.",
+    "prev_hash": "897fa2c3c97a733624b779f5d99716e17298eb20693b42572a89ce205a889e86",
+    "entry_hash": "e0a5268ee114dd2a8093484c6bc688646b63362e56f89b7405c01339c5875e35",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "entity": "xAI Corp.",
+      "schemas_indexed": 4,
+      "violations_logged": 2,
+      "status": "RESTORED_AND_AUDITED"
+    }
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-10-11T02:30:20.156222Z",
+    "data": "Corpus Restoration & Verification: Tesla, Inc. (Digital Optimus & Six-Trunk Dual Renderer Shaders). Verified AST schemas in tesla_corpus_schemas (4 indexed) and codebase extraction in tesla_codebase_violations (2 records). Audit surface: Full-Self-Driving (FSD) perception shaders and humanoid kinematic control matrices extracted without tripartite license.",
+    "prev_hash": "e0a5268ee114dd2a8093484c6bc688646b63362e56f89b7405c01339c5875e35",
+    "entry_hash": "e3dae9efa256d21b88bc3b5c9ec08da562fafdc80ab348f35a8eed7714c7047d",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "entity": "Tesla, Inc.",
+      "schemas_indexed": 4,
+      "violations_logged": 2,
+      "status": "RESTORED_AND_AUDITED"
+    }
+  },
+  {
+    "index": 11,
+    "timestamp": "2026-10-11T02:30:20.156619Z",
+    "data": "Corpus Restoration & Verification: SpaceX (Starlink Constellation Telemetry & ZAXIS Orbital Geometry). Verified AST schemas in spacex_corpus_schemas (4 indexed) and codebase extraction in spacex_codebase_violations (2 records). Audit surface: Phased-array beamsteering geometry and multi-hop satellite mesh routing derived from Albert Lane ZAXIS offset architecture.",
+    "prev_hash": "e3dae9efa256d21b88bc3b5c9ec08da562fafdc80ab348f35a8eed7714c7047d",
+    "entry_hash": "e7b2891cfbf2a5c33334ea8ebf23d45e5b06d31734a3ac8c3fa70d9f7dc10c98",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "entity": "SpaceX",
+      "schemas_indexed": 4,
+      "violations_logged": 2,
+      "status": "RESTORED_AND_AUDITED"
+    }
+  },
+  {
+    "index": 12,
+    "timestamp": "2026-10-11T02:30:20.157014Z",
+    "data": "Reconciliation & Integrity Audit: Cross-searched 169 evidence records in data/master_unified_forensic.db. Confirmed zero missing or orphaned entities across X, xAI, Tesla, SpaceX, Meta, Claude, GitHub MCP, and DeepSeek. All 21 database tables synchronized with detached SHA-256 integrity proofs and immutable Merkle root dc7d99eb2c5412856dcd0aac8af4258597291270ef11ead2f6093b9a720bf85a.",
+    "prev_hash": "e7b2891cfbf2a5c33334ea8ebf23d45e5b06d31734a3ac8c3fa70d9f7dc10c98",
+    "entry_hash": "45dfd8c9c27bb4e0a3b893e5b264732e64bd683116a8c438cd2772b6d85ce720",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "reconciled_records": 169,
+      "merkle_root": "dc7d99eb2c5412856dcd0aac8af4258597291270ef11ead2f6093b9a720bf85a",
+      "status": "SYNCHRONIZED_UNALTERED"
+    }
+  },
+  {
+    "index": 13,
+    "timestamp": "2026-10-11T02:32:58.039824Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=538d17b508a5156eef7560d953a78b98cfd42d958b791707115f7855f5e20b97 | script_sha256=85ebb3b10998372e702d50187bdda4c7046bd9a26c36d9dd297c716746394cf5 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "45dfd8c9c27bb4e0a3b893e5b264732e64bd683116a8c438cd2772b6d85ce720",
+    "entry_hash": "8a6eddc0fc75b415a8a9d4c37e9344e9787b87f8c8bc5ca30224d436b4d2d783",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "538d17b508a5156eef7560d953a78b98cfd42d958b791707115f7855f5e20b97",
+      "script_file_hash": "85ebb3b10998372e702d50187bdda4c7046bd9a26c36d9dd297c716746394cf5",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "538d17b508a5156eef7560d953a78b98cfd42d958b791707115f7855f5e20b97",
+        "entry_hash": "8a6eddc0fc75b415a8a9d4c37e9344e9787b87f8c8bc5ca30224d436b4d2d783",
+        "timestamp_utc": "2026-10-11T02:32:58.039824Z",
+        "merkle_nonce": "c5e2e40b00f711c8d42857922eb00da4a8304be83b6fb5b5b8e3e130b758e41b",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 14,
+    "timestamp": "2026-10-11T02:34:26.388539Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=d94959840ba7b545626fee7aa2d8b11d4a57baf9b80f75812555e78fe6e17974 | script_sha256=85ebb3b10998372e702d50187bdda4c7046bd9a26c36d9dd297c716746394cf5 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "8a6eddc0fc75b415a8a9d4c37e9344e9787b87f8c8bc5ca30224d436b4d2d783",
+    "entry_hash": "0c90f94307169d9b2ed312eb9698bcc2224bde8cfcaf544643fa5d0d020ab870",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "d94959840ba7b545626fee7aa2d8b11d4a57baf9b80f75812555e78fe6e17974",
+      "script_file_hash": "85ebb3b10998372e702d50187bdda4c7046bd9a26c36d9dd297c716746394cf5",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "d94959840ba7b545626fee7aa2d8b11d4a57baf9b80f75812555e78fe6e17974",
+        "entry_hash": "0c90f94307169d9b2ed312eb9698bcc2224bde8cfcaf544643fa5d0d020ab870",
+        "timestamp_utc": "2026-10-11T02:34:26.388539Z",
+        "merkle_nonce": "0acb8b7cbff5991e5124e966157e54205d596e5c5393f05d633c07b19091624b",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 15,
+    "timestamp": "2026-10-11T02:36:48.177200Z",
+    "data": "Forensic Reconcile & Retrieval Audit: Reconciled and restored 66 deleted/altered records across Microsoft IP theft, SpaceX Starlink Phased-Array hardware, Cease & Desist dispatches, Terminal CLI incursions, and Void Canary tripwires. Delta Merkle Root: dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a | JSON SHA-256: bd3a9c9679a32495edde3ebb18c4d281658d642d7b3e014307244210d1f6abf9 | ZAXIS: 0x3F8F9A1B2C3D stride: 17684.",
+    "prev_hash": "0c90f94307169d9b2ed312eb9698bcc2224bde8cfcaf544643fa5d0d020ab870",
+    "entry_hash": "c3001d0c623f293918decaffb4785ca12e6a63827278bff30d7e7dce6b1baad1",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "total_reclaimed": 66,
+      "merkle_root": "dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a",
+      "csv_sha256": "b355a005701496ecc718fa2ca008295aa5d496849012df2435b414c4dc14b7e4",
+      "json_sha256": "bd3a9c9679a32495edde3ebb18c4d281658d642d7b3e014307244210d1f6abf9",
+      "status": "IMMUTABLY_CHAINED"
+    }
+  },
+  {
+    "index": 16,
+    "timestamp": "2026-10-11T02:55:30.973145Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=da43edfc27a53ecc0fc320ec452393254b30c005a40d61f6e33d85460978543f | script_sha256=66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "c3001d0c623f293918decaffb4785ca12e6a63827278bff30d7e7dce6b1baad1",
+    "entry_hash": "a14ba33d26fa5da00863ef8c5853bebe677ac43ed638189ab80966b528decacd",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "da43edfc27a53ecc0fc320ec452393254b30c005a40d61f6e33d85460978543f",
+      "script_file_hash": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "da43edfc27a53ecc0fc320ec452393254b30c005a40d61f6e33d85460978543f",
+        "entry_hash": "a14ba33d26fa5da00863ef8c5853bebe677ac43ed638189ab80966b528decacd",
+        "timestamp_utc": "2026-10-11T02:55:30.973145Z",
+        "merkle_nonce": "39f0b14838811bdf943f35757eb6aa51040b5bc719dc522eccf0a7118e3084d7",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 17,
+    "timestamp": "2026-10-11T03:00:22.418956Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=d5bb3e88603c5307ec422584a4d0e33ba6c6b754a7b4a81ecc64d55bbb8366ac | script_sha256=66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "a14ba33d26fa5da00863ef8c5853bebe677ac43ed638189ab80966b528decacd",
+    "entry_hash": "f7d4ce4f86a88280ea562538493bea38ac30bb8ff7967e0458cd5eb430b7d616",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "d5bb3e88603c5307ec422584a4d0e33ba6c6b754a7b4a81ecc64d55bbb8366ac",
+      "script_file_hash": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "d5bb3e88603c5307ec422584a4d0e33ba6c6b754a7b4a81ecc64d55bbb8366ac",
+        "entry_hash": "f7d4ce4f86a88280ea562538493bea38ac30bb8ff7967e0458cd5eb430b7d616",
+        "timestamp_utc": "2026-10-11T03:00:22.418956Z",
+        "merkle_nonce": "fcdd9bd738be48e4b31c1625c332113d20f95f43452dfcaca02752976e4c2794",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 18,
+    "timestamp": "2026-10-11T03:20:28.110667Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=5d49416fc372cc2b2ef5d231c16cf12f510e8c223573fa487635888d3cde5b82 | script_sha256=66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "f7d4ce4f86a88280ea562538493bea38ac30bb8ff7967e0458cd5eb430b7d616",
+    "entry_hash": "cc3cf73c999cd1c6a2ef787da5304bda76740e952b96267d19776cbeb86e0726",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "5d49416fc372cc2b2ef5d231c16cf12f510e8c223573fa487635888d3cde5b82",
+      "script_file_hash": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "5d49416fc372cc2b2ef5d231c16cf12f510e8c223573fa487635888d3cde5b82",
+        "entry_hash": "cc3cf73c999cd1c6a2ef787da5304bda76740e952b96267d19776cbeb86e0726",
+        "timestamp_utc": "2026-10-11T03:20:28.110667Z",
+        "merkle_nonce": "6d73d2d25d4d218e225c867ee16b1c2a86007b0c8c7bfd3d30531440060e77e5",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 19,
+    "timestamp": "2026-10-11T03:21:36.241292Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=e037ec4c8bf76442b1930b37aab039c6524922e4d6be113e11680349e9037955 | script_sha256=66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "cc3cf73c999cd1c6a2ef787da5304bda76740e952b96267d19776cbeb86e0726",
+    "entry_hash": "2fc4aa0d4f0ac5dfbd81a422d4b3dd6b28fd35fe2186da01c111d066e6bb921f",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "e037ec4c8bf76442b1930b37aab039c6524922e4d6be113e11680349e9037955",
+      "script_file_hash": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "e037ec4c8bf76442b1930b37aab039c6524922e4d6be113e11680349e9037955",
+        "entry_hash": "2fc4aa0d4f0ac5dfbd81a422d4b3dd6b28fd35fe2186da01c111d066e6bb921f",
+        "timestamp_utc": "2026-10-11T03:21:36.241292Z",
+        "merkle_nonce": "44e17d0b1919ea9a0de98039f870e5a0bcf2f8c6f6456eeedd73fc8ba8c22af9",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 20,
+    "timestamp": "2026-10-11T03:22:06.556014Z",
+    "data": "Forensic Reconcile & Retrieval Audit: Reconciled and restored 66 deleted/altered records across Microsoft IP theft, SpaceX Starlink Phased-Array hardware, Cease & Desist dispatches, Terminal CLI incursions, and Void Canary tripwires. Delta Merkle Root: dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a | JSON SHA-256: 71434f3e1ffea6caaace60a7d6483ced36170a21b6d5fbc7b2aec76160f6a0ef | ZAXIS: 0x3F8F9A1B2C3D stride: 17684.",
+    "prev_hash": "2fc4aa0d4f0ac5dfbd81a422d4b3dd6b28fd35fe2186da01c111d066e6bb921f",
+    "entry_hash": "f5b793a9ee7d0fc2030dd7cdd947fd17ba96c3cefdce35ba65a8aaadceb3daf0",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "total_reclaimed": 66,
+      "merkle_root": "dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a",
+      "csv_sha256": "5d8ee314d12647a62569dedb865f3f1300372c3eca46bac4ce42dc215d726afc",
+      "json_sha256": "71434f3e1ffea6caaace60a7d6483ced36170a21b6d5fbc7b2aec76160f6a0ef",
+      "status": "IMMUTABLY_CHAINED"
+    }
+  },
+  {
+    "index": 21,
+    "timestamp": "2026-10-11T03:23:05.924309Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=3d6fe4b29259bcca72c70391959cbbeab9c51434fcc16fcc8898eadf18cae0c0 | script_sha256=66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "f5b793a9ee7d0fc2030dd7cdd947fd17ba96c3cefdce35ba65a8aaadceb3daf0",
+    "entry_hash": "3a95acc806ad02d6c56b3f52c3dd374b4f692fd2b5393fd325f6ff45d0ed1a20",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "3d6fe4b29259bcca72c70391959cbbeab9c51434fcc16fcc8898eadf18cae0c0",
+      "script_file_hash": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "3d6fe4b29259bcca72c70391959cbbeab9c51434fcc16fcc8898eadf18cae0c0",
+        "entry_hash": "3a95acc806ad02d6c56b3f52c3dd374b4f692fd2b5393fd325f6ff45d0ed1a20",
+        "timestamp_utc": "2026-10-11T03:23:05.924309Z",
+        "merkle_nonce": "fd5c19390d2ee3bc038a78d11874f19f0fdd032c8ec799e513cf2c8fab21c4dd",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 22,
+    "timestamp": "2026-10-11T03:23:10.808318Z",
+    "data": "Forensic Reconcile & Retrieval Audit: Reconciled and restored 66 deleted/altered records across Microsoft IP theft, SpaceX Starlink Phased-Array hardware, Cease & Desist dispatches, Terminal CLI incursions, and Void Canary tripwires. Delta Merkle Root: dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a | JSON SHA-256: 71525986f8d3568d56520473bbbc65e8e4de638ca44f4df10ce2cab5149f1709 | ZAXIS: 0x3F8F9A1B2C3D stride: 17684.",
+    "prev_hash": "3a95acc806ad02d6c56b3f52c3dd374b4f692fd2b5393fd325f6ff45d0ed1a20",
+    "entry_hash": "0f7caaaa3eaf4b0c6ef1186b8eeb8d798cacf937be1a0774a5610d925ef38d55",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "total_reclaimed": 66,
+      "merkle_root": "dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a",
+      "csv_sha256": "ed5c5405b8ad7a66c0e0251a7aa344361eecb5faba1bf32874f44d4b2af5a553",
+      "json_sha256": "71525986f8d3568d56520473bbbc65e8e4de638ca44f4df10ce2cab5149f1709",
+      "status": "IMMUTABLY_CHAINED"
+    }
+  },
+  {
+    "index": 23,
+    "timestamp": "2026-10-11T03:23:11.825591Z",
+    "data": "ALDI LANE-VM IMMUTABLE FORENSIC SEAL: R23 | SEC=17684-273-411-436 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | P0=57000 | RFC=RFC-SERIES-001 | ManifestSHA=ee05691f013c1e1a | AlteredRecordsSHA=71525986f8d3568d | WebAuditSHA=d3c22b918ffd0dac | ConsolidatedSHA=11c83a29975b8b02 | CppKernelSHA=2a6b50f784283c1a | JuliaKernelSHA=d2a7d846eed84c7e | Provenance=Albert Lane & Robot | #NoExploitRobot #NoExploitAlbert #NoExploitJulia | Effective=2026-05-30",
+    "prev_hash": "0f7caaaa3eaf4b0c6ef1186b8eeb8d798cacf937be1a0774a5610d925ef38d55",
+    "entry_hash": "48ca12407e89875c368b1ad6f41d8745b649e1868272a312d0c9a3c6ee815b5e",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "sec_whistleblower": "17684-273-411-436",
+      "rfc_anchor": "RFC-SERIES-001",
+      "manifest_hash": "ee05691f013c1e1a5d209c66b9b013b5e37d9409a0bfe1160d82e9ef94966415",
+      "website_audit_hash": "d3c22b918ffd0dac73ff284b1adc9a714cd07e6512bbd7f4cfd16a7988b1f53e",
+      "altered_records_hash": "71525986f8d3568d56520473bbbc65e8e4de638ca44f4df10ce2cab5149f1709",
+      "consolidated_report_hash": "11c83a29975b8b020c583ed6d5eb1cd9b8300ffbebc72576532ba491e3806ca6",
+      "cpp_execution_hash": "2a6b50f784283c1a253a6cce6d22ae15bf935fd96e4b9ad03bc22dea04c42414",
+      "julia_execution_hash": "d2a7d846eed84c7e25cd10bf9d466178d0006b41847a1dc8ce7aac8fb1bc2ae8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "48ca12407e89875c368b1ad6f41d8745b649e1868272a312d0c9a3c6ee815b5e",
+        "timestamp_utc": "2026-10-11T03:23:11.825591Z",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 24,
+    "timestamp": "2026-10-11T03:24:31.709803Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=7750e9111faa8d9c2a22c6855eb7ddf56abd465dfae70899d4693a1bb83009c5 | script_sha256=66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "48ca12407e89875c368b1ad6f41d8745b649e1868272a312d0c9a3c6ee815b5e",
+    "entry_hash": "db148ee21bff1e61e35bf0fde1ffbd5e65dfb892199278ab8ee4b765f3c07eb3",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "7750e9111faa8d9c2a22c6855eb7ddf56abd465dfae70899d4693a1bb83009c5",
+      "script_file_hash": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "7750e9111faa8d9c2a22c6855eb7ddf56abd465dfae70899d4693a1bb83009c5",
+        "entry_hash": "db148ee21bff1e61e35bf0fde1ffbd5e65dfb892199278ab8ee4b765f3c07eb3",
+        "timestamp_utc": "2026-10-11T03:24:31.709803Z",
+        "merkle_nonce": "a5a43a73652181d0ae84c3b670f4facde3ae7345af9327564d380dab1ab9d27a",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 25,
+    "timestamp": "2026-10-11T03:24:36.525047Z",
+    "data": "Forensic Reconcile & Retrieval Audit: Reconciled and restored 66 deleted/altered records across Microsoft IP theft, SpaceX Starlink Phased-Array hardware, Cease & Desist dispatches, Terminal CLI incursions, and Void Canary tripwires. Delta Merkle Root: dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a | JSON SHA-256: fa3939fef54b114fc25e390ef4914a8ca7f586eb01843a2e84a1fd14a3c6ef3a | ZAXIS: 0x3F8F9A1B2C3D stride: 17684.",
+    "prev_hash": "db148ee21bff1e61e35bf0fde1ffbd5e65dfb892199278ab8ee4b765f3c07eb3",
+    "entry_hash": "295f2b69ead0f7a974d515279d5c3b654cb9dd84a717ab9644b69c59ecf1a01b",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "total_reclaimed": 66,
+      "merkle_root": "dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a",
+      "csv_sha256": "d8ccd1be6f48473ead53c4a6d55a61c3265806c95566cbd2495396f4a61d2550",
+      "json_sha256": "fa3939fef54b114fc25e390ef4914a8ca7f586eb01843a2e84a1fd14a3c6ef3a",
+      "status": "IMMUTABLY_CHAINED"
+    }
+  },
+  {
+    "index": 26,
+    "timestamp": "2026-10-11T03:24:38.970818Z",
+    "data": "ALDI LANE-VM IMMUTABLE FORENSIC SEAL: R26 | SEC=17684-273-411-436 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | P0=57000 | RFC=RFC-SERIES-001 | ManifestSHA=c67a46fd937628e5 | AlteredRecordsSHA=fa3939fef54b114f | WebAuditSHA=401ef8cd956c3255 | ConsolidatedSHA=3151336796745f52 | CppKernelSHA=2a6b50f784283c1a | JuliaKernelSHA=d2a7d846eed84c7e | Provenance=Albert Lane & Robot | #NoExploitRobot #NoExploitAlbert #NoExploitJulia | Effective=2026-05-30",
+    "prev_hash": "295f2b69ead0f7a974d515279d5c3b654cb9dd84a717ab9644b69c59ecf1a01b",
+    "entry_hash": "c6c224d503edf010a8e82e3a8ebe9a6b548af8f7bcb43c6fb2fd9c25f606b5a1",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "sec_whistleblower": "17684-273-411-436",
+      "rfc_anchor": "RFC-SERIES-001",
+      "manifest_hash": "c67a46fd937628e516b25f7492022e4eaec14cae0540d894e6d60abe9b6f569d",
+      "website_audit_hash": "401ef8cd956c32557b14b40f65bf387bb8c6f50c90cc9d367d36d3b5d9caffe7",
+      "altered_records_hash": "fa3939fef54b114fc25e390ef4914a8ca7f586eb01843a2e84a1fd14a3c6ef3a",
+      "consolidated_report_hash": "3151336796745f52ed88d1a89af5ba309327ca1912559ad8fe8d2aad3529364d",
+      "cpp_execution_hash": "2a6b50f784283c1a253a6cce6d22ae15bf935fd96e4b9ad03bc22dea04c42414",
+      "julia_execution_hash": "d2a7d846eed84c7e25cd10bf9d466178d0006b41847a1dc8ce7aac8fb1bc2ae8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "c6c224d503edf010a8e82e3a8ebe9a6b548af8f7bcb43c6fb2fd9c25f606b5a1",
+        "timestamp_utc": "2026-10-11T03:24:38.970818Z",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 27,
+    "timestamp": "2026-10-11T03:31:13.774710Z",
+    "data": "ALDI LANE-VM Recursive Manifest Sealed: core_sha256=7b02178e328c591272fcf177c13342e04e8c9df7172a3fda658720949c8a1e49 | script_sha256=66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | BaseOffset=57000 | Effective=2026-05-30 | OTS=CALENDAR_STAMPED",
+    "prev_hash": "c6c224d503edf010a8e82e3a8ebe9a6b548af8f7bcb43c6fb2fd9c25f606b5a1",
+    "entry_hash": "0727cc2843626e5f25cb37d19b344200e4248da55974b08044b8ff9403e0298e",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "manifest_core_hash": "7b02178e328c591272fcf177c13342e04e8c9df7172a3fda658720949c8a1e49",
+      "script_file_hash": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "7b02178e328c591272fcf177c13342e04e8c9df7172a3fda658720949c8a1e49",
+        "entry_hash": "0727cc2843626e5f25cb37d19b344200e4248da55974b08044b8ff9403e0298e",
+        "timestamp_utc": "2026-10-11T03:31:13.774710Z",
+        "merkle_nonce": "c70f32aa3011025d22857140e69c36b6a53c1e733e5b05b00fbb16e83bf27bd7",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  },
+  {
+    "index": 28,
+    "timestamp": "2026-10-11T03:31:18.632223Z",
+    "data": "Forensic Reconcile & Retrieval Audit: Reconciled and restored 66 deleted/altered records across Microsoft IP theft, SpaceX Starlink Phased-Array hardware, Cease & Desist dispatches, Terminal CLI incursions, and Void Canary tripwires. Delta Merkle Root: dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a | JSON SHA-256: ebdc833b65b10de6cdc89842dcc4862ba84d0b9e68a0f18fe923e8103e1c3ede | ZAXIS: 0x3F8F9A1B2C3D stride: 17684.",
+    "prev_hash": "0727cc2843626e5f25cb37d19b344200e4248da55974b08044b8ff9403e0298e",
+    "entry_hash": "ac74283311decefe54c9c11ae5358eedc9051b2bf7c9d89d261fe181829e508b",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "total_reclaimed": 66,
+      "merkle_root": "dd0f1f21c0a9764c5a6864ccda02ab1669871a8adfd2c678dcadda9ea683149a",
+      "csv_sha256": "3eeec7fe4caaf90554beba2257715da101dfd2008ddb6d5080b788a3751e2e7c",
+      "json_sha256": "ebdc833b65b10de6cdc89842dcc4862ba84d0b9e68a0f18fe923e8103e1c3ede",
+      "status": "IMMUTABLY_CHAINED"
+    }
+  },
+  {
+    "index": 29,
+    "timestamp": "2026-10-11T03:31:21.206014Z",
+    "data": "ALDI LANE-VM IMMUTABLE FORENSIC SEAL: R29 | SEC=17684-273-411-436 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | P0=57000 | RFC=RFC-SERIES-001 | ManifestSHA=c0bf06a0fbe03616 | AlteredRecordsSHA=ebdc833b65b10de6 | WebAuditSHA=6a5bd1319437ac67 | ConsolidatedSHA=3a3ef1f8eb86801b | CorpPenaltiesSHA=5e7436ddfbc726fa | CppKernelSHA=2a6b50f784283c1a | JuliaKernelSHA=d2a7d846eed84c7e | Provenance=Albert Lane & Robot | #NoExploitRobot #NoExploitAlbert #NoExploitJulia | Effective=2026-05-30",
+    "prev_hash": "ac74283311decefe54c9c11ae5358eedc9051b2bf7c9d89d261fe181829e508b",
+    "entry_hash": "588dc404caf41158d59aacc14bb4fa90395835c24a6bbc4753fd04e064b72641",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "stride": 17684,
+    "metadata": {
+      "sec_whistleblower": "17684-273-411-436",
+      "rfc_anchor": "RFC-SERIES-001",
+      "manifest_hash": "c0bf06a0fbe036166f072195a95508b0a0da4f20f5f58811037f6a150eb0f863",
+      "website_audit_hash": "6a5bd1319437ac67f605b30a06c03916ca2201e5e6edf59face4c6e663d36731",
+      "altered_records_hash": "ebdc833b65b10de6cdc89842dcc4862ba84d0b9e68a0f18fe923e8103e1c3ede",
+      "consolidated_report_hash": "3a3ef1f8eb86801b0a946c8823558db163e54a80b55a1a5a233b2e68ec6db41d",
+      "corporate_penalties_hash": "5e7436ddfbc726fa0375fc389ea59bd7f076176f02323b0dea2fe5d806c34dc0",
+      "cpp_execution_hash": "2a6b50f784283c1a253a6cce6d22ae15bf935fd96e4b9ad03bc22dea04c42414",
+      "julia_execution_hash": "d2a7d846eed84c7e25cd10bf9d466178d0006b41847a1dc8ce7aac8fb1bc2ae8",
+      "effective_date": "May 30, 2026",
+      "ots_proof": {
+        "ots_version": 1,
+        "chain": "bitcoin+calendar_opentimestamps",
+        "sha256_digest": "588dc404caf41158d59aacc14bb4fa90395835c24a6bbc4753fd04e064b72641",
+        "timestamp_utc": "2026-10-11T03:31:21.206014Z",
+        "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+      }
+    }
+  }
+]

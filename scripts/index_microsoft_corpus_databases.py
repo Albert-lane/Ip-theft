@@ -113,13 +113,14 @@ def main():
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS microsoft_derivative_schemas (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        ms_service TEXT,
+        service_name TEXT,
         schema_name TEXT,
+        schema_type TEXT,
         properties_count INTEGER,
-        properties_list TEXT,
-        schema_sha256 TEXT,
-        sec_provenance_binding TEXT,
-        ingested_at TEXT
+        required_properties TEXT,
+        ast_keys TEXT,
+        sha256 TEXT,
+        math_proof_hash TEXT
     );
     """)
 

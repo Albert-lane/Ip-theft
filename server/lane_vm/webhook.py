@@ -106,6 +106,22 @@ TARGET_CONFIGS: Dict[str, Dict[str, Any]] = {
             "X-Substrate": WINDOWSME_SUBSTRATE,
             "Content-Type": "application/json"
         }
+    },
+    "albertlane_api": {
+        "id": "albertlane_api",
+        "name": "Albert Lane Apex API (api.albertlane.net)",
+        "default_url": os.getenv("ALBERT_LANE_API_URL", "https://api.albertlane.net/v1/provenance"),
+        "entity_key": "Albert Lane Sovereign Apex Infrastructure (albertlane.net)",
+        "asn": "AS13335 (Cloudflare Apex Mesh / Sovereign Gate)",
+        "headers": {
+            "User-Agent": "Lane-VM-Terminal/1.2.4 (api.albertlane.net)",
+            "X-Albert-Lane-SEC-HMAC": SEC_HMAC,
+            "X-Lane-VM-ZAxis": ZAXIS_HEX,
+            "X-License": PROPRIETARY_LICENSE,
+            "X-Apex-Domain": "albertlane.net",
+            "X-Provenance-Authority": "Albert Lane",
+            "Content-Type": "application/json"
+        }
     }
 }
 
@@ -320,6 +336,20 @@ class LaneVmWebhookDispatcher:
                     return json.load(f)
             return {"error": "hourly_recursive_sync_manifest.json not found"}
 
+        elif payload_type in ("provenance", "website_provenance", "website"):
+            p = os.path.join(DATA_DIR, "website_provenance.json")
+            if os.path.exists(p):
+                with open(p, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            return {
+                "website": "albertlane.net",
+                "api": "api.albertlane.net",
+                "authority": "Albert Lane",
+                "secFiling": SEC_HMAC,
+                "zaxisAnchor": ZAXIS_HEX,
+                "status": "PROVENANCE_CERTIFIED"
+            }
+
         return {
             "title": "Lane-VM Universal Webhook Broadcast",
             "authority": "Albert Lane",
@@ -520,10 +550,10 @@ def main():
         description="Lane-VM Enterprise Webhook Engine on C++ Python Terminal (X, SpaceX, Meta, nVidia, Apple)"
     )
     parser.add_argument("--dispatch", action="store_true", help="Dispatch data by webhook")
-    parser.add_argument("--target", default="all", choices=["x", "spacex", "meta", "nvidia", "apple", "all"],
-                        help="Target entity (x, spacex, meta, nvidia, apple, or all)")
+    parser.add_argument("--target", default="all", choices=["x", "spacex", "meta", "nvidia", "apple", "albertlane_api", "all"],
+                        help="Target entity (x, spacex, meta, nvidia, apple, albertlane_api, or all)")
     parser.add_argument("--type", default="violations",
-                        choices=["violations", "cease_and_desist", "starlink", "corpus", "manifest", "custom"],
+                        choices=["violations", "cease_and_desist", "starlink", "corpus", "manifest", "provenance", "custom"],
                         help="Payload preset type")
     parser.add_argument("--payload", help="Custom JSON payload string or file path")
     parser.add_argument("--url", help="Override destination webhook URL")

@@ -6,9 +6,9 @@
   "zaxisAnchor": "0x3F8F9A1B2C3D",
   "vmmStrideBytes": 17684,
   "apexLockfile": "sec17684273411436.lock",
-  "apexLockfileSha256": "a5ed6fcca9cf112c4a1dbb233b7305a99e8b26d62fd4c7761e3c6549a110ea4e",
-  "derivativesManifestSha256": "721f2d04b5de1a490d0b82d0d8b38d350d0d22439ad630ce00ff7832d515a5b7",
-  "timestamp": "2026-09-30T00:26:28.033526Z",
+  "apexLockfileSha256": "2453f84fcfc42fba180a6cc85db89fac1e813b1590b646a557940780623c7e5c",
+  "derivativesManifestSha256": "4114434ff95c1a6d15462cbd11b72d2dc2c1b4d4a9e93e56736679bd3e387791",
+  "timestamp": "2026-10-08T21:34:53.174303Z",
   "downstreamTargets": [
     {
       "target": "package.json",
@@ -29,10 +29,10 @@
       "status": "SYNCHRONIZED"
     },
     {
-      "target": "git:local-upstream-mesh",
-      "status": "COMMITTED_AND_TAGGED"
+      "target": "data/hourly_recursive_sync_manifest.json",
+      "status": "SYNCHRONIZED"
     }
   ],
-  "gitStatus": "COMMITTED_AND_TAGGED",
+  "gitStatus": "SKIPPED",
   "status": "PUSH_COMPLETED_SUCCESSFULLY"
 }

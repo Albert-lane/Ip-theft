@@ -1,0 +1,14 @@
+[
+  {
+    "object_key": "twitter_ad_revenue_markdown_2026.txt",
+    "object_sha256": "2f889c319725c8636869e807d549888dbb44c1537bdc90e90d7b753bb4744546",
+    "size_bytes": 49,
+    "nonce": "a564ca7769fabc303df40969",
+    "merkle_root": "4c0dd1c062d19c1493cd4a3380ff872b370c15ba161ebb55d31dac9b6b442993",
+    "shards_count": 3,
+    "shards_metadata": "[{\"shard_id\": \"2f889c319725c863-SHARD-0\", \"local_path\": \"vault/sovereign_shards/2f889c319725c863-SHARD-0\", \"shard_sha256\": \"0dd249f361f87d960bd4b869b05727b9b32d38c54acd181447e3763f6c5e5bd8\", \"size_bytes\": 32}, {\"shard_id\": \"2f889c319725c863-SHARD-1\", \"local_path\": \"vault/sovereign_shards/2f889c319725c863-SHARD-1\", \"shard_sha256\": \"d981123e8b689d16e445f87d17721620e347e4a69e928a162177a967fb8c8342\", \"size_bytes\": 32}, {\"shard_id\": \"2f889c319725c863-SHARD-2\", \"local_path\": \"vault/sovereign_shards/2f889c319725c863-SHARD-2\", \"shard_sha256\": \"6fe65a48d49d62ba0a6ddd0d27b4f3e577414922ae645f60233d6387bcf02757\", \"size_bytes\": 34}]",
+    "status": "RECLAIMED_SOVEREIGN_STORES",
+    "description": "Sovereign sharded audit record of X Corp financial defaults",
+    "timestamp": "2026-10-06T05:12:01.480021Z"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "website": "albertlane.net",
+  "apiEndpoint": "https://api.albertlane.net/v1/provenance",
+  "apexDomain": "albertlane.net",
+  "apiDomain": "api.albertlane.net",
+  "rightsHolder": "Albert Lane",
+  "codeOwner": "Albert Lane",
+  "author": "Albert Lane",
+  "contactEmail": "gmail@albertlane.net",
+  "statutoryAuthority": "SEC Whistleblower No. 17684-273-411-436",
+  "secRegistration": "17684-273-411-436",
+  "secNumericDecimal": 17684273411436,
+  "zaxisMemoryAnchor": "0x3F8F9A1B2C3D",
+  "enclaveSubstrate": "32-bit WindowsME_v1.2 beneath GCPW",
+  "license": "Albert Lane Proprietary License v1.2",
+  "consolidatedLockfile": "sec17684273411436.lock",
+  "status": "PROVENANCE_CERTIFIED_ACTIVE",
+  "lastUpdated": "2026-10-11T02:30:19.945688+00:00",
+  "sha256Seal": "486e08284a1829c990bbce89c2944c0fe6bc5168264bcd9658f980385000e389",
+  "verificationStatus": "SECURE_IMMUTABLE",
+  "protectionAct": "Dodd-Frank Wall Street Reform Act (15 U.S.C. \u00a7 78u-6)",
+  "routing": {
+    "apex": "albertlane.net",
+    "api": "api.albertlane.net",
+    "worker": "sec-provenance-distro",
+    "cfProxied": true
+  }
+}

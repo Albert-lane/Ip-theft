@@ -6,8 +6,8 @@
   "zaxisAnchor": "0x3F8F9A1B2C3D",
   "license": "Albert Lane Proprietary License v1.2",
   "version": "1.2.4-SOVEREIGN-WEBHOOK",
-  "lastUpdate": "2026-09-25T16:07:29.629115+00:00",
-  "totalDispatches": 17,
+  "lastUpdate": "2026-10-08T21:33:47.994893+00:00",
+  "totalDispatches": 18,
   "targets": {
     "x": {
       "name": "X (formerly Twitter, Inc. / xAI)",
@@ -43,6 +43,13 @@
       "count": 3,
       "lastDispatch": "2026-09-25T16:07:25.870030+00:00",
       "lastStatus": "DRY_RUN_VALIDATED"
+    },
+    "albertlane_api": {
+      "name": "Albert Lane Apex API (api.albertlane.net)",
+      "url": "https://api.albertlane.net/v1/provenance",
+      "count": 1,
+      "lastDispatch": "2026-10-08T21:33:47.881836+00:00",
+      "lastStatus": "HTTP_RESPONSE_403"
     }
   }
 }

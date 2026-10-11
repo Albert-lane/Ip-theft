@@ -1,0 +1,59 @@
+{
+  "taxonomy_id": "albert-ast-schematical-option-v1",
+  "zaxis": "0x3F8F9A1B2C3D",
+  "stride": 17684,
+  "base_offset": 57000,
+  "rights_holder": "Albert Lane",
+  "filing_reference": "SEC-17684-273-411-436",
+  "categories": {
+    "legal_enforcement_surface": [
+      "unauthorized_crawl_detection",
+      "license_violation_telemetry",
+      "audit_right_invocation",
+      "sovereign_enclave_tamper_evident_seals",
+      "ast_provenance_watermark_invariance"
+    ],
+    "abusive_automation_surface": [
+      "mass_scraping_without_rate_limit",
+      "circumvention_of_access_controls",
+      "model_training_on_restricted_corpus",
+      "unauthorized_decompilation_of_ast_symbols",
+      "synthetic_derivative_generation_without_license"
+    ],
+    "compliance_surface": [
+      "sec_filing_verification",
+      "prospectus_existence_check",
+      "third_party_n1a_vs_issuer_filing",
+      "sarbanes_oxley_internal_controls_audit",
+      "whistleblower_immutable_chain_custody"
+    ],
+    "frontier_ai_provider_surface": {
+      "providers": [
+        "Anthropic (Claude 3.5 Sonnet / Claude Code)",
+        "Amazon Bedrock (Nova / Titan / AWS Trainium)",
+        "DeepSeek (Blue Whale AI / Hangzhou DeepSeek)",
+        "X Corp. (Real-Time Firehose / Audio Tick Cadence)",
+        "xAI Corp. (Grok / Grok Bot / Macrohard Derivative)",
+        "Tesla, Inc. (Digital Optimus / Six-Trunk Dual Shaders)",
+        "SpaceX (Starlink Telemetry / Z-Axis Orbital Coordinates)",
+        "Meta Platforms (Llama 3 / Code Llama / PyTorch AST)",
+        "GitHub / Microsoft (Copilot / MCP Ecosystem)",
+        "OpenAI (GPT-4o / O1 / Realtime API Shaders)"
+      ],
+      "forensic_checks": [
+        "license_compatibility_apache2_vs_proprietary",
+        "telemetry_opt_out_respect",
+        "audit_log_append_only",
+        "trademark_and_trade_secret_cross_referencing",
+        "cryptographic_hmac_proof_verification"
+      ],
+      "note": "neutral forensic provider analysis, immutable statutory audit trail"
+    }
+  },
+  "scoring": {
+    "Lambda_IP": "kappa * Theta(C - C_licensed) * (lambda_stat*C + lambda_crim*C^2)",
+    "Gamma_law": "contractual_friction_coefficient",
+    "Phi_resonance": "2.7142",
+    "Complexity_metric": "1.4809"
+  }
+}

@@ -1,10 +1,336 @@
 {
-  "corpus_name": "Claude Code MCP Skills & Tool Definitions Corpus",
-  "statutory_reference": "SEC-17684-273-411-436",
-  "tools": [
-    { "name": "view_file", "category": "filesystem" },
-    { "name": "edit_file", "category": "manipulation" },
-    { "name": "run_command", "category": "execution" },
-    { "name": "sec17684_lockfile_audit", "category": "sovereign_enclave" }
+  "mcp_core_protocol": {
+    "version": "2024-11-05",
+    "description": "Anthropic Claude Code Model Context Protocol Core RPC & JSON-RPC Schema",
+    "transports": [
+      "stdio",
+      "sse",
+      "websocket"
+    ],
+    "rpc_methods": [
+      "initialize",
+      "ping",
+      "tools/list",
+      "tools/call",
+      "resources/list",
+      "resources/read",
+      "resources/subscribe",
+      "resources/unsubscribe",
+      "prompts/list",
+      "prompts/get",
+      "logging/setLevel",
+      "sampling/createMessage",
+      "completion/complete"
+    ],
+    "notification_methods": [
+      "notifications/cancelled",
+      "notifications/initialized",
+      "notifications/progress",
+      "notifications/message",
+      "notifications/resources/updated",
+      "notifications/resources/list_changed",
+      "notifications/tools/list_changed",
+      "notifications/prompts/list_changed"
+    ]
+  },
+  "mcp_skills_catalog": [
+    {
+      "name": "mcp_filesystem_skill",
+      "provider": "Claude Code MCP Filesystem Server",
+      "description": "Secure scoped local filesystem AST access, file editing, directory traversal and file inspection for Claude Code agentic operations",
+      "category": "FILESYSTEM",
+      "tools": [
+        {
+          "name": "read_file",
+          "parameters": [
+            "path",
+            "encoding"
+          ],
+          "required": [
+            "path"
+          ],
+          "return_type": "string"
+        },
+        {
+          "name": "read_multiple_files",
+          "parameters": [
+            "paths"
+          ],
+          "required": [
+            "paths"
+          ],
+          "return_type": "array"
+        },
+        {
+          "name": "write_file",
+          "parameters": [
+            "path",
+            "content"
+          ],
+          "required": [
+            "path",
+            "content"
+          ],
+          "return_type": "void"
+        },
+        {
+          "name": "edit_file",
+          "parameters": [
+            "path",
+            "edits",
+            "dryRun"
+          ],
+          "required": [
+            "path",
+            "edits"
+          ],
+          "return_type": "object"
+        },
+        {
+          "name": "create_directory",
+          "parameters": [
+            "path"
+          ],
+          "required": [
+            "path"
+          ],
+          "return_type": "void"
+        },
+        {
+          "name": "list_directory",
+          "parameters": [
+            "path"
+          ],
+          "required": [
+            "path"
+          ],
+          "return_type": "array"
+        },
+        {
+          "name": "directory_tree",
+          "parameters": [
+            "path"
+          ],
+          "required": [
+            "path"
+          ],
+          "return_type": "object"
+        },
+        {
+          "name": "search_files",
+          "parameters": [
+            "path",
+            "pattern",
+            "excludePatterns"
+          ],
+          "required": [
+            "path",
+            "pattern"
+          ],
+          "return_type": "array"
+        },
+        {
+          "name": "get_file_info",
+          "parameters": [
+            "path"
+          ],
+          "required": [
+            "path"
+          ],
+          "return_type": "object"
+        }
+      ]
+    },
+    {
+      "name": "mcp_sqlite_dataset_skill",
+      "provider": "Claude Code MCP SQLite & Database Server",
+      "description": "Relational database schema inspection, SQL AST query generation, and forensic analysis execution",
+      "category": "DATABASE",
+      "tools": [
+        {
+          "name": "read_query",
+          "parameters": [
+            "query"
+          ],
+          "required": [
+            "query"
+          ],
+          "return_type": "array"
+        },
+        {
+          "name": "write_query",
+          "parameters": [
+            "query"
+          ],
+          "required": [
+            "query"
+          ],
+          "return_type": "object"
+        },
+        {
+          "name": "create_table",
+          "parameters": [
+            "query"
+          ],
+          "required": [
+            "query"
+          ],
+          "return_type": "void"
+        },
+        {
+          "name": "list_tables",
+          "parameters": [],
+          "required": [],
+          "return_type": "array"
+        },
+        {
+          "name": "describe_table",
+          "parameters": [
+            "table_name"
+          ],
+          "required": [
+            "table_name"
+          ],
+          "return_type": "array"
+        }
+      ]
+    },
+    {
+      "name": "mcp_git_version_control_skill",
+      "provider": "Claude Code MCP Git Server",
+      "description": "Repository commit introspection, AST diff inspection, branches, remotes, and provenance verification",
+      "category": "VERSION_CONTROL",
+      "tools": [
+        {
+          "name": "git_status",
+          "parameters": [
+            "repo_path"
+          ],
+          "required": [],
+          "return_type": "string"
+        },
+        {
+          "name": "git_diff",
+          "parameters": [
+            "repo_path",
+            "target",
+            "cached"
+          ],
+          "required": [],
+          "return_type": "string"
+        },
+        {
+          "name": "git_commit",
+          "parameters": [
+            "repo_path",
+            "message"
+          ],
+          "required": [
+            "message"
+          ],
+          "return_type": "string"
+        },
+        {
+          "name": "git_log",
+          "parameters": [
+            "repo_path",
+            "max_count"
+          ],
+          "required": [],
+          "return_type": "array"
+        },
+        {
+          "name": "git_show",
+          "parameters": [
+            "repo_path",
+            "revision"
+          ],
+          "required": [
+            "revision"
+          ],
+          "return_type": "string"
+        }
+      ]
+    },
+    {
+      "name": "mcp_bash_execution_skill",
+      "provider": "Claude Code MCP Bash Command Server",
+      "description": "Subprocess command execution, stdout/stderr streaming, background task tracking, and shell orchestration",
+      "category": "EXECUTION",
+      "tools": [
+        {
+          "name": "execute_command",
+          "parameters": [
+            "command",
+            "timeout_ms"
+          ],
+          "required": [
+            "command"
+          ],
+          "return_type": "object"
+        },
+        {
+          "name": "execute_script",
+          "parameters": [
+            "script_path",
+            "args"
+          ],
+          "required": [
+            "script_path"
+          ],
+          "return_type": "object"
+        }
+      ]
+    },
+    {
+      "name": "mcp_sequential_thinking_skill",
+      "provider": "Claude Code Sequential Thinking MCP Server",
+      "description": "Multi-step algorithmic reasoning, hypothesis revision, dynamic branch generation, and chain-of-thought verification",
+      "category": "REASONING",
+      "tools": [
+        {
+          "name": "sequentialthinking",
+          "parameters": [
+            "thought",
+            "nextThoughtNeeded",
+            "thoughtNumber",
+            "totalThoughts",
+            "isRevision",
+            "revisesThought",
+            "branchFromThought",
+            "branchId",
+            "needsMoreThoughts"
+          ],
+          "required": [
+            "thought",
+            "nextThoughtNeeded",
+            "thoughtNumber",
+            "totalThoughts"
+          ],
+          "return_type": "object"
+        }
+      ]
+    },
+    {
+      "name": "mcp_fetch_web_skill",
+      "provider": "Claude Code MCP Web Fetch Server",
+      "description": "HTTP request dispatch, HTML to Markdown conversion, REST schema fetching, and API integration",
+      "category": "NETWORK",
+      "tools": [
+        {
+          "name": "fetch",
+          "parameters": [
+            "url",
+            "max_length",
+            "start_index",
+            "raw"
+          ],
+          "required": [
+            "url"
+          ],
+          "return_type": "string"
+        }
+      ]
+    }
   ]
 }

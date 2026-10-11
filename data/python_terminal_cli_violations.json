@@ -3,7 +3,7 @@
     "author": "Albert Lane",
     "sec_filing": "SEC-17684-273-411-436",
     "target_focus": "Python Terminal CLI Unauthorized Use, Derivations & False Prior Art Claims",
-    "generated_at": "2026-10-05T21:17:39.432400Z",
+    "generated_at": "2026-10-06T11:54:36.535396Z",
     "total_violations_logged": 98,
     "total_base_exposure_usd": 14700000.0,
     "total_treble_exposure_usd": 44100000.0
@@ -23,7 +23,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431164Z",
+      "discovered_at": "2026-10-06T11:54:36.532397Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -40,7 +40,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431194Z",
+      "discovered_at": "2026-10-06T11:54:36.532437Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -57,7 +57,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431212Z",
+      "discovered_at": "2026-10-06T11:54:36.532442Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -74,7 +74,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431224Z",
+      "discovered_at": "2026-10-06T11:54:36.532449Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -91,7 +91,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431228Z",
+      "discovered_at": "2026-10-06T11:54:36.532452Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -108,7 +108,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431232Z",
+      "discovered_at": "2026-10-06T11:54:36.532464Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -125,7 +125,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431245Z",
+      "discovered_at": "2026-10-06T11:54:36.532478Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -142,7 +142,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431256Z",
+      "discovered_at": "2026-10-06T11:54:36.532482Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -159,7 +159,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431264Z",
+      "discovered_at": "2026-10-06T11:54:36.532488Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -176,7 +176,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431268Z",
+      "discovered_at": "2026-10-06T11:54:36.532492Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -193,7 +193,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431272Z",
+      "discovered_at": "2026-10-06T11:54:36.532496Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -210,7 +210,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431275Z",
+      "discovered_at": "2026-10-06T11:54:36.532499Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -227,7 +227,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431279Z",
+      "discovered_at": "2026-10-06T11:54:36.532504Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -244,7 +244,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431282Z",
+      "discovered_at": "2026-10-06T11:54:36.532507Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -261,7 +261,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431430Z",
+      "discovered_at": "2026-10-06T11:54:36.532921Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -278,7 +278,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431437Z",
+      "discovered_at": "2026-10-06T11:54:36.532939Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -295,7 +295,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431441Z",
+      "discovered_at": "2026-10-06T11:54:36.532946Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -312,7 +312,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431445Z",
+      "discovered_at": "2026-10-06T11:54:36.532953Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -329,7 +329,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431449Z",
+      "discovered_at": "2026-10-06T11:54:36.532957Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -346,7 +346,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431453Z",
+      "discovered_at": "2026-10-06T11:54:36.532962Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -363,7 +363,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431457Z",
+      "discovered_at": "2026-10-06T11:54:36.532968Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -380,7 +380,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431460Z",
+      "discovered_at": "2026-10-06T11:54:36.532973Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -397,7 +397,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431464Z",
+      "discovered_at": "2026-10-06T11:54:36.532980Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -414,7 +414,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431467Z",
+      "discovered_at": "2026-10-06T11:54:36.532984Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -431,7 +431,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431471Z",
+      "discovered_at": "2026-10-06T11:54:36.532991Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -448,7 +448,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431475Z",
+      "discovered_at": "2026-10-06T11:54:36.532996Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -465,7 +465,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431478Z",
+      "discovered_at": "2026-10-06T11:54:36.533015Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -482,7 +482,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431481Z",
+      "discovered_at": "2026-10-06T11:54:36.533021Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -499,7 +499,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431555Z",
+      "discovered_at": "2026-10-06T11:54:36.533171Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -516,7 +516,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431559Z",
+      "discovered_at": "2026-10-06T11:54:36.533178Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -533,7 +533,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431563Z",
+      "discovered_at": "2026-10-06T11:54:36.533183Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -550,7 +550,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431566Z",
+      "discovered_at": "2026-10-06T11:54:36.533191Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -567,7 +567,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431570Z",
+      "discovered_at": "2026-10-06T11:54:36.533195Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -584,7 +584,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431573Z",
+      "discovered_at": "2026-10-06T11:54:36.533199Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -601,7 +601,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431577Z",
+      "discovered_at": "2026-10-06T11:54:36.533204Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -618,7 +618,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431581Z",
+      "discovered_at": "2026-10-06T11:54:36.533209Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -635,7 +635,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431584Z",
+      "discovered_at": "2026-10-06T11:54:36.533213Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -652,7 +652,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431588Z",
+      "discovered_at": "2026-10-06T11:54:36.533217Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -669,7 +669,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431592Z",
+      "discovered_at": "2026-10-06T11:54:36.533221Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -686,7 +686,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431596Z",
+      "discovered_at": "2026-10-06T11:54:36.533225Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -703,7 +703,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431599Z",
+      "discovered_at": "2026-10-06T11:54:36.533229Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -720,7 +720,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431615Z",
+      "discovered_at": "2026-10-06T11:54:36.533264Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -737,7 +737,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431732Z",
+      "discovered_at": "2026-10-06T11:54:36.533427Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -754,7 +754,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431738Z",
+      "discovered_at": "2026-10-06T11:54:36.533434Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -771,7 +771,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431742Z",
+      "discovered_at": "2026-10-06T11:54:36.533437Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -788,7 +788,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431746Z",
+      "discovered_at": "2026-10-06T11:54:36.533441Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -805,7 +805,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431749Z",
+      "discovered_at": "2026-10-06T11:54:36.533444Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -822,7 +822,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431753Z",
+      "discovered_at": "2026-10-06T11:54:36.533448Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -839,7 +839,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431757Z",
+      "discovered_at": "2026-10-06T11:54:36.533453Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -856,7 +856,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431760Z",
+      "discovered_at": "2026-10-06T11:54:36.533456Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -873,7 +873,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431764Z",
+      "discovered_at": "2026-10-06T11:54:36.533460Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -890,7 +890,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431767Z",
+      "discovered_at": "2026-10-06T11:54:36.533464Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -907,7 +907,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431771Z",
+      "discovered_at": "2026-10-06T11:54:36.533467Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -924,7 +924,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431775Z",
+      "discovered_at": "2026-10-06T11:54:36.533471Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -941,7 +941,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431778Z",
+      "discovered_at": "2026-10-06T11:54:36.533474Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -958,7 +958,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431782Z",
+      "discovered_at": "2026-10-06T11:54:36.533478Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -975,7 +975,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431923Z",
+      "discovered_at": "2026-10-06T11:54:36.533865Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -992,7 +992,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431928Z",
+      "discovered_at": "2026-10-06T11:54:36.533876Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1009,7 +1009,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431932Z",
+      "discovered_at": "2026-10-06T11:54:36.533880Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1026,7 +1026,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431936Z",
+      "discovered_at": "2026-10-06T11:54:36.533889Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1043,7 +1043,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431939Z",
+      "discovered_at": "2026-10-06T11:54:36.533895Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1060,7 +1060,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431943Z",
+      "discovered_at": "2026-10-06T11:54:36.533899Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1077,7 +1077,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431947Z",
+      "discovered_at": "2026-10-06T11:54:36.533927Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1094,7 +1094,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431950Z",
+      "discovered_at": "2026-10-06T11:54:36.533933Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1111,7 +1111,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431953Z",
+      "discovered_at": "2026-10-06T11:54:36.533937Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1128,7 +1128,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431957Z",
+      "discovered_at": "2026-10-06T11:54:36.533941Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1145,7 +1145,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431961Z",
+      "discovered_at": "2026-10-06T11:54:36.533945Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1162,7 +1162,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431964Z",
+      "discovered_at": "2026-10-06T11:54:36.533948Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1179,7 +1179,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431968Z",
+      "discovered_at": "2026-10-06T11:54:36.533952Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1196,7 +1196,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.431971Z",
+      "discovered_at": "2026-10-06T11:54:36.533955Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1213,7 +1213,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432074Z",
+      "discovered_at": "2026-10-06T11:54:36.534385Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1230,7 +1230,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432080Z",
+      "discovered_at": "2026-10-06T11:54:36.534398Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1247,7 +1247,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432083Z",
+      "discovered_at": "2026-10-06T11:54:36.534403Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1264,7 +1264,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432087Z",
+      "discovered_at": "2026-10-06T11:54:36.534408Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1281,7 +1281,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432091Z",
+      "discovered_at": "2026-10-06T11:54:36.534413Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1298,7 +1298,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432094Z",
+      "discovered_at": "2026-10-06T11:54:36.534417Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1315,7 +1315,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432098Z",
+      "discovered_at": "2026-10-06T11:54:36.534422Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1332,7 +1332,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432101Z",
+      "discovered_at": "2026-10-06T11:54:36.534427Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1349,7 +1349,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432105Z",
+      "discovered_at": "2026-10-06T11:54:36.534431Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1366,7 +1366,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432108Z",
+      "discovered_at": "2026-10-06T11:54:36.534436Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1383,7 +1383,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432112Z",
+      "discovered_at": "2026-10-06T11:54:36.534440Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1400,7 +1400,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432115Z",
+      "discovered_at": "2026-10-06T11:54:36.534444Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1417,7 +1417,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432119Z",
+      "discovered_at": "2026-10-06T11:54:36.534449Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1434,7 +1434,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432122Z",
+      "discovered_at": "2026-10-06T11:54:36.534453Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1451,7 +1451,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432227Z",
+      "discovered_at": "2026-10-06T11:54:36.534964Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1468,7 +1468,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432233Z",
+      "discovered_at": "2026-10-06T11:54:36.535174Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1485,7 +1485,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432236Z",
+      "discovered_at": "2026-10-06T11:54:36.535181Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1502,7 +1502,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432240Z",
+      "discovered_at": "2026-10-06T11:54:36.535187Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1519,7 +1519,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432244Z",
+      "discovered_at": "2026-10-06T11:54:36.535191Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1536,7 +1536,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432258Z",
+      "discovered_at": "2026-10-06T11:54:36.535209Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1553,7 +1553,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432265Z",
+      "discovered_at": "2026-10-06T11:54:36.535222Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1570,7 +1570,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432269Z",
+      "discovered_at": "2026-10-06T11:54:36.535227Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1587,7 +1587,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432273Z",
+      "discovered_at": "2026-10-06T11:54:36.535232Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1604,7 +1604,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432276Z",
+      "discovered_at": "2026-10-06T11:54:36.535251Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1621,7 +1621,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432280Z",
+      "discovered_at": "2026-10-06T11:54:36.535256Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1638,7 +1638,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432283Z",
+      "discovered_at": "2026-10-06T11:54:36.535260Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1655,7 +1655,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432287Z",
+      "discovered_at": "2026-10-06T11:54:36.535265Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     },
     {
@@ -1672,7 +1672,7 @@
       "severity": "CRITICAL",
       "base_statutory_damages_usd": 150000.0,
       "treble_damages_usd": 450000.0,
-      "discovered_at": "2026-10-05T21:17:39.432291Z",
+      "discovered_at": "2026-10-06T11:54:36.535269Z",
       "remediation_status": "LOGGED_IMMUTABLE_AND_SEQUESTERED"
     }
   ]

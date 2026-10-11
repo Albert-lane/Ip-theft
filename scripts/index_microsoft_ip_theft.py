@@ -79,6 +79,20 @@ def main():
         recorded_at TEXT
     );
     """)
+    
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS cross_corpus_ast_correlations (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        source_corpus TEXT,
+        target_corpus TEXT,
+        matched_entity_pattern TEXT,
+        ast_similarity_score REAL,
+        shared_keys_count INTEGER,
+        shared_keys TEXT,
+        correlation_proof_sha256 TEXT,
+        provenance_reference TEXT
+    );
+    """)
     cursor.execute("DELETE FROM microsoft_ip_theft_matches;")
     
     records = []

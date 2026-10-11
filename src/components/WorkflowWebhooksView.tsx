@@ -171,6 +171,7 @@ export const WorkflowWebhooksView: React.FC = () => {
   };
 
   const targetList = [
+    { id: 'albertlane_api', label: 'Albert Lane API', sub: 'api.albertlane.net', asn: 'AS-ALBERTLANE', icon: '🌐' },
     { id: 'x', label: 'X', sub: 'xAI / Twitter', asn: 'AS13414', icon: '𝕏' },
     { id: 'spacex', label: 'SpaceX', sub: 'Starlink Fleet', asn: 'AS14593', icon: '🚀' },
     { id: 'meta', label: 'Meta', sub: 'Workplace & Graph', asn: 'AS32934', icon: '∞' },
@@ -336,6 +337,7 @@ export const WorkflowWebhooksView: React.FC = () => {
                 onChange={(e) => setSelectedPayloadType(e.target.value)}
                 className="w-full text-xs bg-white border border-slate-300 rounded-lg px-3 py-2 text-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-500 font-medium"
               >
+                <option value="provenance">Website Provenance (albertlane.net & api.albertlane.net)</option>
                 <option value="violations">Aggregate License Violations (28 Entities)</option>
                 <option value="cease_and_desist">Automated Cease & Desist Notice (Markdown)</option>
                 <option value="starlink">SpaceX / Starlink Terminal Network Audit</option>

@@ -1,0 +1,2 @@
+object_key,object_sha256,size_bytes,nonce,merkle_root,shards_count,status,description,timestamp
+"twitter_ad_revenue_markdown_2026.txt","2f889c319725c8636869e807d549888dbb44c1537bdc90e90d7b753bb4744546",49,"a564ca7769fabc303df40969","4c0dd1c062d19c1493cd4a3380ff872b370c15ba161ebb55d31dac9b6b442993",3,"RECLAIMED_SOVEREIGN_STORES","Sovereign sharded audit record of X Corp financial defaults","2026-10-06T05:12:01.480021Z"

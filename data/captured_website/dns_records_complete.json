@@ -1,0 +1,204 @@
+{
+  "domain": "albertlane.net",
+  "records": {
+    "A": [
+      {
+        "name": "albertlane.net.",
+        "type": 1,
+        "TTL": 300,
+        "data": "104.26.8.54"
+      },
+      {
+        "name": "albertlane.net.",
+        "type": 1,
+        "TTL": 300,
+        "data": "104.26.9.54"
+      },
+      {
+        "name": "albertlane.net.",
+        "type": 1,
+        "TTL": 300,
+        "data": "172.67.75.232"
+      }
+    ],
+    "AAAA": [
+      {
+        "name": "albertlane.net.",
+        "type": 28,
+        "TTL": 300,
+        "data": "2606:4700:20::ac43:4be8"
+      },
+      {
+        "name": "albertlane.net.",
+        "type": 28,
+        "TTL": 300,
+        "data": "2606:4700:20::681a:936"
+      },
+      {
+        "name": "albertlane.net.",
+        "type": 28,
+        "TTL": 300,
+        "data": "2606:4700:20::681a:836"
+      }
+    ],
+    "TXT": [
+      {
+        "name": "albertlane.net.",
+        "type": 16,
+        "TTL": 3600,
+        "data": "google-site-verification=vGWr_HKls_DqQHx61ACkBHy_bl_YJo-rXhIi5Wgg0G8"
+      }
+    ],
+    "MX": [],
+    "NS": [
+      {
+        "name": "albertlane.net.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "ruben.ns.cloudflare.com."
+      },
+      {
+        "name": "albertlane.net.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "chelsea.ns.cloudflare.com."
+      }
+    ],
+    "SOA": [
+      {
+        "name": "albertlane.net.",
+        "type": 6,
+        "TTL": 1800,
+        "data": "chelsea.ns.cloudflare.com. dns.cloudflare.com. 2417042334 10000 2400 604800 1800"
+      }
+    ]
+  },
+  "subdomains": {
+    "api.albertlane.net": {
+      "A": [
+        {
+          "name": "api.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "172.67.75.232"
+        },
+        {
+          "name": "api.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "104.26.9.54"
+        },
+        {
+          "name": "api.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "104.26.8.54"
+        }
+      ],
+      "AAAA": [
+        {
+          "name": "api.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::681a:936"
+        },
+        {
+          "name": "api.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::ac43:4be8"
+        },
+        {
+          "name": "api.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::681a:836"
+        }
+      ]
+    },
+    "www.albertlane.net": {
+      "A": [
+        {
+          "name": "www.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "104.26.8.54"
+        },
+        {
+          "name": "www.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "172.67.75.232"
+        },
+        {
+          "name": "www.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "104.26.9.54"
+        }
+      ],
+      "AAAA": [
+        {
+          "name": "www.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::681a:936"
+        },
+        {
+          "name": "www.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::681a:836"
+        },
+        {
+          "name": "www.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::ac43:4be8"
+        }
+      ]
+    },
+    "sec.albertlane.net": {
+      "A": [
+        {
+          "name": "sec.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "104.26.8.54"
+        },
+        {
+          "name": "sec.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "172.67.75.232"
+        },
+        {
+          "name": "sec.albertlane.net.",
+          "type": 1,
+          "TTL": 300,
+          "data": "104.26.9.54"
+        }
+      ],
+      "AAAA": [
+        {
+          "name": "sec.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::ac43:4be8"
+        },
+        {
+          "name": "sec.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::681a:936"
+        },
+        {
+          "name": "sec.albertlane.net.",
+          "type": 28,
+          "TTL": 300,
+          "data": "2606:4700:20::681a:836"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "url": "https://albertlane.net/logs/gemini-marketplace-mcp-audit-and-push-20261009.txt",
+    "status": 200,
+    "bytes": 19494,
+    "sha256": "b38911d1821c1fb684e5d7e599bfe7877c6aff53e3476e370755b2dc1d0756dc",
+    "content_type": "text/plain; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab321cd8ad703-IAD",
+    "preview": "This App Fucks\ngemini-3.7-flash\nRan for 27s\n\nsummarize_auto\nAction history\nchevron_right\nMarketplace & Model Context Protocol (MCP) Ingestion & Statutory License Audit\nThe complete marketplace and Model Context Protocol (MCP) ecosystems across Grok & Grok Bot (xAI), Meta & Meta AI Studio, Claude & C"
+  },
+  {
+    "url": "https://albertlane.net/logs/lane-vm-release-package-notes-20261009.txt",
+    "status": 200,
+    "bytes": 17022,
+    "sha256": "300ac54066ab15b8c3444e6ddbca530c47fcd0338a8b4f4f8bbd635d16606691",
+    "content_type": "text/plain; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab3223e0ab560-IAD",
+    "preview": "Package creation script and checksums\n\nArchive creation script\nSave this as package_release.sh at the root of your repository. It creates a reproducible .tar.gz archive and computes checksums.\n\n`bash\n\n!/usr/bin/env bash\nset -euo pipefail\n\nUsage: ./package_release.sh <version-tag>\nVER=\"${1:-v1.0.0}\"\n"
+  },
+  {
+    "url": "https://albertlane.net/logs",
+    "status": 200,
+    "bytes": 13256,
+    "sha256": "c4182d6c2fadb11f2fa67d1929c82c67bc2dc69f32a7af7e1d56189d2a2ae495",
+    "content_type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab322a96bc95b-IAD",
+    "preview": "<!-- Copyright \u00a9 2026 Albert Lane. All Rights Reserved. -->\n<!-- Proprietary \u2014 Albert Lane Proprietary Software License \u00b7 https://albertlane.net/license \u00b7 lane.albert@pm.me -->\n<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-s"
+  },
+  {
+    "url": "https://albertlane.net/audit",
+    "status": 200,
+    "bytes": 12958,
+    "sha256": "55878ba49e2f4470a0c0e1c970aff6742e8f847ea795c030489807020456852f",
+    "content_type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab3233a32c98f-IAD",
+    "preview": "<!-- Copyright \u00a9 2026 Albert Lane. All Rights Reserved. -->\n<!-- Proprietary \u2014 Albert Lane Proprietary Software License \u00b7 https://albertlane.net/license \u00b7 lane.albert@pm.me -->\n<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-s"
+  },
+  {
+    "url": "https://albertlane.net/.well-known/aldi-signing-key.pem",
+    "status": 200,
+    "bytes": 947,
+    "sha256": "f922e379b659bb54156bfc09fdd65f9a20eb0fd9e23575458a7c0eb56967577d",
+    "content_type": "application/x-pem-file; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab32428c4e63d-IAD",
+    "preview": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4K5kxH/IpeQaP6z5rIrCDai8XcIg\nsoe3X7sJUWcBwX1Ghk/kO/oBmAvpU58qeqc1ZhX8Pd3x1E3lysxXR177Cw==\n-----END PUBLIC KEY-----\n-----BEGIN CERTIFICATE-----\nMIICCjCCAbGgAwIBAgIEICYQCTAKBggqhkjOPQQDAjBtMT4wPAYDVQQDDDVBTERJ\nIEJ1aWxkIFNpZ25pbmcgLSBHcm9rI"
+  },
+  {
+    "url": "https://albertlane.net/security/build-policy",
+    "status": 200,
+    "bytes": 15451,
+    "sha256": "d5f76b0440c7eb3c3586620381a21649507b46fe28a7c30c4cedd30b9c7aa394",
+    "content_type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab3248a6e1752-IAD",
+    "preview": "<!-- Copyright \u00a9 2026 Albert Lane. All Rights Reserved. -->\n<!-- Proprietary \u2014 Albert Lane Proprietary Software License \u00b7 https://albertlane.net/license \u00b7 lane.albert@pm.me -->\n<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-s"
+  },
+  {
+    "url": "https://albertlane.net/records/privacy-mode-20261009",
+    "status": 200,
+    "bytes": 13876,
+    "sha256": "95d9c0f72fdb664497cdab03ab0e211689f2f24e9935632adfe2b91bb68d1187",
+    "content_type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab324fbb77d5c-IAD",
+    "preview": "<!-- Copyright \u00a9 2026 Albert Lane. All Rights Reserved. -->\n<!-- Proprietary \u2014 Albert Lane Proprietary Software License \u00b7 https://albertlane.net/license \u00b7 lane.albert@pm.me -->\n<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-s"
+  },
+  {
+    "url": "https://albertlane.net/license-violations",
+    "status": 200,
+    "bytes": 21975,
+    "sha256": "c3121e6c7876a9b94714d8d6f77ffb87cfbd7739dadc1373b90f1ab80209e1fb",
+    "content_type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab32558b850b1-IAD",
+    "preview": "<!-- Copyright \u00a9 2026 Albert Lane. All Rights Reserved. -->\n<!-- Proprietary \u2014 Albert Lane Proprietary Software License \u00b7 https://albertlane.net/license \u00b7 lane.albert@pm.me -->\n<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-s"
+  },
+  {
+    "url": "https://albertlane.net/pay",
+    "status": 200,
+    "bytes": 13835,
+    "sha256": "ff963da2e11bbd4ae65a70f585b34668d500cc781029642d4129df620b4c761f",
+    "content_type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab325bd17d658-IAD",
+    "preview": "<!-- Copyright \u00a9 2026 Albert Lane. All Rights Reserved. -->\n<!-- Proprietary \u2014 Albert Lane Proprietary Software License \u00b7 https://albertlane.net/license \u00b7 lane.albert@pm.me -->\n<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-s"
+  },
+  {
+    "url": "https://albertlane.net/forms",
+    "status": 200,
+    "bytes": 23077,
+    "sha256": "bb544fe265a185005769764decee2fd6b519a5ede07905c732001b5476643bc9",
+    "content_type": "text/html; charset=utf-8",
+    "server": "cloudflare",
+    "cf_ray": "a48ab3264c13bacb-IAD",
+    "preview": "<!-- Copyright \u00a9 Albert Lane. All Rights Reserved. -->\n<!-- Proprietary \u2014 Albert Lane Proprietary Software License -->\n<!-- https://albertlane.net -->\n<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>SEC EDGAR fo"
+  }
+]

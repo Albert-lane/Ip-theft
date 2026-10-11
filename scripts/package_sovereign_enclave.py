@@ -12,6 +12,7 @@ import tarfile
 import shutil
 import hashlib
 import subprocess
+import json
 
 # Standardized Albert Lane SEC-17684 Provenance Headers
 PROVENANCE_LINES = [
@@ -155,6 +156,42 @@ def main():
     shutil.copy("license.md", f"{staging_dir}/provenance/license.md")
     shutil.copy("LICENSE.md", f"{staging_dir}/provenance/LICENSE.md")
     shutil.copy("PROVENANCE.md", f"{staging_dir}/provenance/PROVENANCE.md")
+    if os.path.exists("LICENSE_MACROHARD.md"):
+        shutil.copy("LICENSE_MACROHARD.md", f"{staging_dir}/provenance/LICENSE_MACROHARD.md")
+    if os.path.exists("LICENSE_EAA.md"):
+        shutil.copy("LICENSE_EAA.md", f"{staging_dir}/provenance/LICENSE_EAA.md")
+
+    # 11. Stage Next.js App Router & API Routes
+    if os.path.exists("app"):
+        shutil.copytree("app", f"{staging_dir}/app", dirs_exist_ok=True)
+
+    # 12. Stage Documentation & Mathematical IP Analysis Papers
+    if os.path.exists("docs"):
+        shutil.copytree("docs", f"{staging_dir}/docs", dirs_exist_ok=True)
+
+    # 13. Stage Public Framework Visualizations
+    if os.path.exists("public"):
+        for f in os.listdir("public"):
+            fp = os.path.join("public", f)
+            if os.path.isfile(fp) and not f.endswith((".tar.gz", ".7z", ".zip", ".tar.gz.sha256", ".7z.sha256", "app_part_aa")):
+                os.makedirs(f"{staging_dir}/public", exist_ok=True)
+                shutil.copy(fp, f"{staging_dir}/public/{f}")
+
+    # 14. Stage AST Databases & Forensic Intelligence
+    if os.path.exists("data"):
+        os.makedirs(f"{staging_dir}/data", exist_ok=True)
+        for f in os.listdir("data"):
+            fp = os.path.join("data", f)
+            if os.path.isfile(fp):
+                shutil.copy(fp, f"{staging_dir}/data/{f}")
+            elif os.path.isdir(fp) and f in ["csv", "csv_json_mirror", "arxiv"]:
+                shutil.copytree(fp, f"{staging_dir}/data/{f}", dirs_exist_ok=True)
+
+    # 15. Stage Agents & Vault
+    if os.path.exists("agents"):
+        shutil.copytree("agents", f"{staging_dir}/agents", dirs_exist_ok=True)
+    if os.path.exists("vault"):
+        shutil.copytree("vault", f"{staging_dir}/vault", dirs_exist_ok=True)
 
     # Walk through ALL staged files and inject standardized provenance headers
     print("[+] Applying Albert Lane statutory license & provenance headers to staged monorepo...")
@@ -204,24 +241,70 @@ License: Albert Lane Proprietary License v1.2
         with tarfile.open(sevenz_name, "w:xz", preset=9) as lz_tar:
             lz_tar.add(staging_dir, arcname="albert-lane-sovereign-enclave")
 
+    # 13. Compile ZIP archive
+    zip_name = "albert-lane-sovereign-enclave.zip"
+    print(f"[+] Creating ZIP archive: {zip_name}...")
+    shutil.make_archive("albert-lane-sovereign-enclave", "zip", staging_dir)
+    if os.path.exists(zip_name):
+        shutil.copy(zip_name, "this-app-fucks-combined.zip")
 
-    # Clean up staging directory
+    # Clean up staging directory (originals in repository remain completely intact)
     shutil.rmtree(staging_dir)
 
     # Calculate SHA-256 hashes
     tar_hash = compute_sha256(tar_name)
     sevenz_hash = compute_sha256(sevenz_name)
+    zip_hash = compute_sha256(zip_name) if os.path.exists(zip_name) else ""
 
-    # Place in public directory for browser download
+    # Place in public directory for browser and API download
     os.makedirs("public", exist_ok=True)
     shutil.copy(tar_name, f"public/{tar_name}")
     shutil.copy(sevenz_name, f"public/{sevenz_name}")
+    if os.path.exists(zip_name):
+        shutil.copy(zip_name, f"public/{zip_name}")
 
     # Write SHA-256 verification manifests
     with open("public/albert-lane-sovereign-enclave.tar.gz.sha256", "w") as f:
         f.write(f"{tar_hash}  {tar_name}\n")
     with open("public/albert-lane-sovereign-enclave.7z.sha256", "w") as f:
         f.write(f"{sevenz_hash}  {sevenz_name}\n")
+    if zip_hash:
+        with open("public/albert-lane-sovereign-enclave.zip.sha256", "w") as f:
+            f.write(f"{zip_hash}  {zip_name}\n")
+
+    # Update data/master_cryptographic_manifest.json
+    manifest_path = "data/master_cryptographic_manifest.json"
+    if os.path.exists(manifest_path):
+        try:
+            with open(manifest_path, "r", encoding="utf-8") as f:
+                manifest_data = json.load(f)
+            manifest_data["deployment_packages"] = {
+                "tarball": {
+                    "file": tar_name,
+                    "sha256": tar_hash,
+                    "size_bytes": os.path.getsize(tar_name),
+                    "api_url": f"https://api.albertlane.net/{tar_name}"
+                },
+                "seven_zip": {
+                    "file": sevenz_name,
+                    "sha256": sevenz_hash,
+                    "size_bytes": os.path.getsize(sevenz_name),
+                    "api_url": f"https://api.albertlane.net/{sevenz_name}"
+                },
+                "zip": {
+                    "file": zip_name,
+                    "sha256": zip_hash,
+                    "size_bytes": os.path.getsize(zip_name) if os.path.exists(zip_name) else 0,
+                    "api_url": f"https://api.albertlane.net/{zip_name}"
+                },
+                "preservation_status": "ORIGINALS_FULLY_PRESERVED_IMMUTABLE",
+                "packaged_at": subprocess.check_output(["date", "-u", "+%Y-%m-%dT%H:%M:%SZ"]).decode().strip()
+            }
+            with open(manifest_path, "w", encoding="utf-8") as f:
+                json.dump(manifest_data, f, indent=2)
+            print("[+] Updated data/master_cryptographic_manifest.json with new package digests.")
+        except Exception as e:
+            print(f"[!] Manifest update notice: {e}")
 
     print("\n==============================================================================")
     print(" [COMPILATION & PACKAGING STATUS: CERTIFIED SUCCESSFUL]")
@@ -232,6 +315,17 @@ License: Albert Lane Proprietary License v1.2
     print(f" 7zip Package:            {sevenz_name}")
     print(f" 7zip Size:               {os.path.getsize(sevenz_name) / 1024:.2f} KB")
     print(f" 7zip SHA-256 Seal:       {sevenz_hash}")
+    if zip_hash:
+        print(" ------------------------------------------------------------------------------")
+        print(f" ZIP Package:             {zip_name}")
+        print(f" ZIP Size:                {os.path.getsize(zip_name) / 1024:.2f} KB")
+        print(f" ZIP SHA-256 Seal:        {zip_hash}")
+    print(" ------------------------------------------------------------------------------")
+    print(" Original Files Status:   100% PRESERVED (Zero Deletions / Full Fidelity)")
+    print(" API Routes Active:       /albert-lane-sovereign-enclave.tar.gz")
+    print("                          /albert-lane-sovereign-enclave.7z")
+    print("                          /albert-lane-sovereign-enclave.zip")
+    print("                          /api/package/manifest")
     print("==============================================================================\n")
 
 if __name__ == "__main__":

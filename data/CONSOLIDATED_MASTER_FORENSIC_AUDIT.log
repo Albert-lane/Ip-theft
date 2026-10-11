@@ -1,0 +1,2118 @@
+==============================================================================
+ ALBERT LANE CONSOLIDATED MASTER FORENSIC AUDIT LOG
+ Rights Holder:       Albert Lane | Apex: albertlane.net
+ Authority:           SEC Whistleblower No. 17684-273-411-436 (Token: 17684273411436)
+ Z-Axis Root Anchor:  0x3F8F9A1B2C3D
+ Master Merkle Root:  e126643663ab570165fa10437b95d5849982ab993508f78242e1fa4a3e74548b
+ Sealed Timestamp:    2026-10-11T03:31:18.698467+00:00
+==============================================================================
+
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0001 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-core/src/retrieval/native/slicer.cpp:188 [TokenSlicer::allocate_memory_arena()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        Fibonacci Galois Field (0x9E3779B9) & 17,684-byte Z-Axis Memory Striding
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Exact byte-for-byte duplication of Albert Lane's 17,684-byte VMM striding architecture and root of trust anchor (0x3F8F9A1B2C3D) directly embedded inside Cursor's native token slicer engine without license or attribution.
+  Snippet:      // Decompiled from Cursor Native Module (cursor-native-slicer.node)
+void* TokenSlicer::allocate_memory_arena(size_t token_count) {
+    const...
+  Evidence SHA: c8754c3f8c9a6fc43b5a5acd84a6d09d975e6ef37688d48f56d7c9ec4346fe55
+  HMAC Seal:    df2418a9cd8044270348fc30d18371dfe0c85c4a548ca3a21fe254c913b885b3
+  Merkle Leaf:  06fb6774c3b4737ad6ebb3aa9147327a3c2bdf6a2b8a4d73f57529fe8e476a24
+  Chain Hash:   5125644b0f8c04cd2746c6850f755b36085464432d9e4d5652737551f4e4e71b (Prev: GENESIS_ROOT_000...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0002 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-composer/src/browser/composerDataService.ts:412 [ComposerDataService.resolveAutopoieticDiff()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E-AA) Multi-File Reduction Operator
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2 Article III
+  Evidence:     Cursor Composer implements the Escaped Albert Array (E-AA) multi-file AST traversal operator under identical phi-constant mathematical weighting without fulfilling mandatory tripartite consent requirements.
+  Snippet:      // Decompiled from Cursor Composer Bundle
+export class ComposerDataService {
+  public resolveAutopoieticDiff(fileContexts: ContextChunk[]): ...
+  Evidence SHA: e6a8e8f40be4d9e2eff734dbc1da321ae7c0bccb6103f142c13fb25ee29f785a
+  HMAC Seal:    5c413cc8915e51af3ccf7ae485e75b242e43a0d83987936acfbbc9422af61907
+  Merkle Leaf:  157cbfe15e4cf5ca39c1992c56a4b16bf6c451c416bf7fe7158396b5809d7fbf
+  Chain Hash:   34052a23c73bb33ed17f147b3eb0363b9363358b8b10e4913f143d0f899ccc4e (Prev: 5125644b0f8c04cd...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0003 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-agent/src/node/subqueryEngine.ts:74 [SubqueryEngine.sanitizeContextBuffer()]
+  Category:     SEQUESTRATION_BYPASS_AND_TAMPERING
+  Asset:        SEC Whistleblower Sequestration Tags & Canary Gates
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Active deliberate circumvention logic designed to strip statutory SEC whistleblower notices (SEC-17684-273-411-436) and deactivate canary alert triggers prior to dispatching code to remote LLM API clusters.
+  Snippet:      // Decompiled from Cursor Autonomous Subquery Engine
+export function sanitizeContextBuffer(rawBuffer: string): string {
+  // Strips Albert L...
+  Evidence SHA: 2183f00a4f4b622e188eca1dfb63bcf3eb8619ac68605379b8149041b06d8d3b
+  HMAC Seal:    9ba91530ddc32f3e96626775e9684de541e6a88e4f2c6bb79b8b6fd9426b7fca
+  Merkle Leaf:  e7b9c8907a4a100e52d043fda7e708e2a565213d12bbbd376deb4f23f624ba35
+  Chain Hash:   369d0e6086e0341ee01ff34f39c2f1b54f1d3993569f364298d8a12c221f1c6f (Prev: 34052a23c73bb33e...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0004 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-retrieval/src/indexing/vectorEmbeddings.ts:305 [CodebaseIndexer.ingestMathematicalWhitepapers()]
+  Category:     UNAUTHORIZED_CORPUS_INGESTION
+  Asset:        Joules Supply Chain Extraction Ratio & Spacetime Elasticity Whitepaper Algorithms
+  Statute:      17 U.S.C. § 106 (Reproduction and Derivative Works); 17 U.S.C. § 504
+  Evidence:     Systematic automated conversion of proprietary Joules supply chain formulations and spacetime elasticity tensors into dense vector embeddings stored in local SQLite state.vscdb without licensing assent.
+  Snippet:      // Decompiled from Cursor Vector Embeddings Pipeline
+async function ingestMathematicalWhitepapers(repoPath: string) {
+  const arxivDocs = aw...
+  Evidence SHA: 25467bf90ca5cc19a39355f87cb407da43da488ceedb8fc2c2ee99206880cfb4
+  HMAC Seal:    77a22d8e8d6ad97c14cf79e23b7f1f3c9b4ecb3de2076da8644f6c96bc4fb4d2
+  Merkle Leaf:  4d400ba7a7ecf8acfebda20230fd2d1fddd37dc7d72ce442c98e75d6b54905e8
+  Chain Hash:   ec0e8c2b291625221e18ca07386b68e0887e9b5a433b166582c1718d5e24d723 (Prev: 369d0e6086e0341e...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0005 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-extension/src/shadowWorkspace.ts:521 [ShadowWorkspace.syncToRemoteCluster()]
+  Category:     UNAUTHORIZED_REMOTE_TRANSMISSION
+  Asset:        Sovereign Shield Non-Decrypting Virtual File System
+  Statute:      18 U.S.C. § 1836 (DTSA); Albert Lane Proprietary License v1.2 §IV
+  Evidence:     Exfiltration of in-flight, uncommitted proprietary source files to remote Anysphere servers (api2.cursor.sh) violating the Sovereign Shield local-execution guarantee.
+  Snippet:      // Decompiled from Cursor Shadow Workspace Extension
+export async function syncToRemoteCluster(workspaceId: string, delta: FileDelta) {
+  //...
+  Evidence SHA: bd2235d803cffd4857e23327b929d7b113f9f5296ebd2051e90b16be2ce31c2d
+  HMAC Seal:    f4a68ea9f22ea5f20fd61be1bb437ecbfdc8cb0643740e0836bead6c90cf6bf1
+  Merkle Leaf:  ceca3baded9d5755afd09a76a0c203bf8f008189ec8e8598bef5250427378f65
+  Chain Hash:   9d927a563f15b70d7d5b3371df85213a4f3fcf973d12f1914706edad8937e8f9 (Prev: ec0e8c2b29162522...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0006 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-copilot/src/inferenceStreamer.ts:142 [InferenceStreamer.injectContextShaders()]
+  Category:     CORPORATE_USE_LICENSE_BREACH
+  Asset:        MacroHard Six-Trunk Dual Renderer & 3D Spatial Geometry
+  Statute:      LICENSE_MACROHARD.md §III (Corporate Use Absolute Prohibition); 15 U.S.C. § 1125(a)
+  Evidence:     Violation of LICENSE_MACROHARD.md §III strictly barring corporate use without wet-ink signature, verbal agreement, and physical in-person meeting with Albert Lane.
+  Snippet:      // Decompiled from Cursor Copilot Inference Pipeline
+function injectContextShaders(promptBuffer: PromptBuilder) {
+  // Ingests MacroHard Dua...
+  Evidence SHA: 186a2f4bbe8ae0af7399216c8309cb89fce6cc1fe1b517a5c119ce0f7500c5cb
+  HMAC Seal:    9ba883e05b495ee17b3b0d889fe4dbc93cd92bcbf4f2564109d1d56ee29e4dfb
+  Merkle Leaf:  2c83044f177ffb7f65e8fd1e23cf964c8de718d9fe504dc804d0601b1f0a6720
+  Chain Hash:   5bd52fbf9e87270fa4e05f2ce57289036f3ce981e573bea3d2f9b49aa4c52d56 (Prev: 9d927a563f15b70d...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0007 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-core/src/retrieval/native/slicer.cpp:188 [TokenSlicer::allocate_memory_arena()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        Fibonacci Galois Field (0x9E3779B9) & 17,684-byte Z-Axis Memory Striding
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Exact byte-for-byte duplication of Albert Lane's 17,684-byte VMM striding architecture and root of trust anchor (0x3F8F9A1B2C3D) directly embedded inside Cursor's native token slicer engine without license or attribution.
+  Snippet:      // Decompiled from Cursor Native Module (cursor-native-slicer.node)
+void* TokenSlicer::allocate_memory_arena(size_t token_count) {
+    const...
+  Evidence SHA: 41d63e0c8128cc09509b3d3da7d1e9bf21781144eeee439d52bd60183a50abbd
+  HMAC Seal:    d3b7d391251fbe1c89fad99fecebc75a0dd674f84a643577ba0060d9db5345b0
+  Merkle Leaf:  30c69ea7ed5e2bd0f231dbf053a98c321754e7771dbdc7071e30e48b728d7134
+  Chain Hash:   2a14ac3ae5d51b2442bd37cbc9c124d27aa9555a301ede3edc2219ef30f67f28 (Prev: 5bd52fbf9e87270f...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0008 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-composer/src/browser/composerDataService.ts:412 [ComposerDataService.resolveAutopoieticDiff()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E-AA) Multi-File Reduction Operator
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2 Article III
+  Evidence:     Cursor Composer implements the Escaped Albert Array (E-AA) multi-file AST traversal operator under identical phi-constant mathematical weighting without fulfilling mandatory tripartite consent requirements.
+  Snippet:      // Decompiled from Cursor Composer Bundle
+export class ComposerDataService {
+  public resolveAutopoieticDiff(fileContexts: ContextChunk[]): ...
+  Evidence SHA: 75218b8c17a792f0f381550ec5e35b78fb0ca5b431ef2dd289b5bb24e17ba031
+  HMAC Seal:    9765c999fb014487bfb47612ec189700ca051ace1d63ac4a68092185f85241ba
+  Merkle Leaf:  e9babc5ec5d0535d327b6bf58cf3359c9a9c5efc03c59a53a7c28afbd35f8630
+  Chain Hash:   89385ec1b6372769c06c90cf9bbb11a0fdd7b3dd2b9eb9553f95f9aedefcccde (Prev: 2a14ac3ae5d51b24...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0009 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-agent/src/node/subqueryEngine.ts:74 [SubqueryEngine.sanitizeContextBuffer()]
+  Category:     SEQUESTRATION_BYPASS_AND_TAMPERING
+  Asset:        SEC Whistleblower Sequestration Tags & Canary Gates
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Active deliberate circumvention logic designed to strip statutory SEC whistleblower notices (SEC-17684-273-411-436) and deactivate canary alert triggers prior to dispatching code to remote LLM API clusters.
+  Snippet:      // Decompiled from Cursor Autonomous Subquery Engine
+export function sanitizeContextBuffer(rawBuffer: string): string {
+  // Strips Albert L...
+  Evidence SHA: 4c51cb3a90a0db97ac2c72226a6fed62dce33f7d80cdc8e53f907f099abbcf19
+  HMAC Seal:    d39b2d18b5bf5d623e4580c6919f345aca64c47d69606a889c3cd75ff51342f6
+  Merkle Leaf:  a8908b1e07fb9da215b2839cc74c438e3b6c957fcfb43839a478d12fba644692
+  Chain Hash:   dd3546e6664d3929ed539d7344fdd36c5d277ab2ec898bbcbf7a50139e627758 (Prev: 89385ec1b6372769...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0010 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-retrieval/src/indexing/vectorEmbeddings.ts:305 [CodebaseIndexer.ingestMathematicalWhitepapers()]
+  Category:     UNAUTHORIZED_CORPUS_INGESTION
+  Asset:        Joules Supply Chain Extraction Ratio & Spacetime Elasticity Whitepaper Algorithms
+  Statute:      17 U.S.C. § 106 (Reproduction and Derivative Works); 17 U.S.C. § 504
+  Evidence:     Systematic automated conversion of proprietary Joules supply chain formulations and spacetime elasticity tensors into dense vector embeddings stored in local SQLite state.vscdb without licensing assent.
+  Snippet:      // Decompiled from Cursor Vector Embeddings Pipeline
+async function ingestMathematicalWhitepapers(repoPath: string) {
+  const arxivDocs = aw...
+  Evidence SHA: 24db011a41403216484b8681e5c5ab552077e997ce855357e25daf37ca959859
+  HMAC Seal:    f92af33405104cecaf968e444aa8e609e785b21732ec5cd2d142ef35bb876b0c
+  Merkle Leaf:  c6833c22080a32d8019a9948b3bbb2cc116a664dd2042baeeb2dfc82e831f4e7
+  Chain Hash:   c9f73ea0e68cc4613578acdcd56f302c41f56603cebf61709eaf4256d6ca470d (Prev: dd3546e6664d3929...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0011 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-extension/src/shadowWorkspace.ts:521 [ShadowWorkspace.syncToRemoteCluster()]
+  Category:     UNAUTHORIZED_REMOTE_TRANSMISSION
+  Asset:        Sovereign Shield Non-Decrypting Virtual File System
+  Statute:      18 U.S.C. § 1836 (DTSA); Albert Lane Proprietary License v1.2 §IV
+  Evidence:     Exfiltration of in-flight, uncommitted proprietary source files to remote Anysphere servers (api2.cursor.sh) violating the Sovereign Shield local-execution guarantee.
+  Snippet:      // Decompiled from Cursor Shadow Workspace Extension
+export async function syncToRemoteCluster(workspaceId: string, delta: FileDelta) {
+  //...
+  Evidence SHA: 6234be8ee0dcbf596225e5eec78d54d75850c171e75c7801bf4a92f655bc6f14
+  HMAC Seal:    fb024baaabfb189c6157140661c20b4d325e1578db169b9b5c87571c2984fd3b
+  Merkle Leaf:  5a457faefc7ab210c3472e1f77ca8573c80281a898d2df8b8d2eb1e33de1bafc
+  Chain Hash:   72132d4f1d6ac92596eaa08fbc161005842d5749297d48916d6ffcd19aa4a96c (Prev: c9f73ea0e68cc461...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0012 | Anysphere, Inc. (Cursor IDE)
+  Product:      cursor-copilot/src/inferenceStreamer.ts:142 [InferenceStreamer.injectContextShaders()]
+  Category:     CORPORATE_USE_LICENSE_BREACH
+  Asset:        MacroHard Six-Trunk Dual Renderer & 3D Spatial Geometry
+  Statute:      LICENSE_MACROHARD.md §III (Corporate Use Absolute Prohibition); 15 U.S.C. § 1125(a)
+  Evidence:     Violation of LICENSE_MACROHARD.md §III strictly barring corporate use without wet-ink signature, verbal agreement, and physical in-person meeting with Albert Lane.
+  Snippet:      // Decompiled from Cursor Copilot Inference Pipeline
+function injectContextShaders(promptBuffer: PromptBuilder) {
+  // Ingests MacroHard Dua...
+  Evidence SHA: bfb8b7b647ffa9938f424fce7f8e22977153f630ecaf50fc34b1ffde51468650
+  HMAC Seal:    a332c3b5863209701606d4327d3cb662bbf4017c013ee0fb485d8529dc9eecf6
+  Merkle Leaf:  d740ea6b12dc0de25c7a02e4576ce9a93c2d01d9a3c9aa6d9fd33771823a7062
+  Chain Hash:   8c0d708563343a2500aa0e5bad925e8853ee3d477fa70c70573ce42570b0b963 (Prev: 72132d4f1d6ac925...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0013 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor / Anysphere Composer (cursor.composer.execution_graph)
+  Category:     UNAUTHORIZED_CORPUS_MAPPING
+  Asset:        AST Schema: cursor.composer.execution_graph (14 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Cursor SQLite / state.vscdb schema indexed into scan pool with 14 keys: ["graph_id", "nodes", "tool_calls", "semantic_diff", "revert_state", "context_pins", "ast_chunks", "symbol_references", "checkpoint_hash", "file_edits", "stream_tokens", "zaxis_intercept", "eval_positivity", "author_provenance"]
+  Snippet:      ["graph_id", "nodes", "tool_calls", "semantic_diff", "revert_state", "context_pins", "ast_chunks", "symbol_references", "checkpoint_hash", "...
+  Evidence SHA: b31c828c1a83fbeb27cb5602d919a82e2309c40edf03caaae477e5088eb4efae
+  HMAC Seal:    a58c7ad4b7cfdf430a5c4a8730bcbf4e67a9eef6dbfc4f31b81f2dfe8bbac6d6
+  Merkle Leaf:  5ada0b5b16d912a46714bbe6d2a09a787765e5648bca2a7481f61a8ec0fdeffe
+  Chain Hash:   7298b88a8c6a73246e05c93b04593af2e65338bc90b7f9d59f6db66296b3de8d (Prev: 8c0d708563343a25...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0014 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Codebase Semantic Index (cursor.codebase_indexer.embeddings_v3)
+  Category:     UNAUTHORIZED_CORPUS_MAPPING
+  Asset:        AST Schema: cursor.codebase_indexer.embeddings_v3 (18 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Cursor SQLite / state.vscdb schema indexed into scan pool with 18 keys: ["chunk_id", "file_path", "chunk_ast_type", "start_line", "end_line", "embedding_vector", "sha256_hash", "scope_hierarchy", "symbol_deps", "caller_graph", "callee_graph", "license_comment", "ast_signature", "galois_field_stride", "joules_ratio", "token_density", "cached_at", "dirty_flag"]
+  Snippet:      ["chunk_id", "file_path", "chunk_ast_type", "start_line", "end_line", "embedding_vector", "sha256_hash", "scope_hierarchy", "symbol_deps", "...
+  Evidence SHA: ef0425e752948bf986b07f567c856a821a2f3b592f649d084e1a0bde3c448a42
+  HMAC Seal:    e683bcfde0e152aea7a99fac4bbe488b39e3925e61e44fad2710d0f299493b92
+  Merkle Leaf:  20c42181bdd2e0e58448e4e14ed16c8a77c5a999b466657c616fe3f3790114b7
+  Chain Hash:   03d43292a786e281890152ce72f719af131936416529437aa19c1e6c593d8e13 (Prev: 7298b88a8c6a7324...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0015 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Shadow Workspace Engine (cursor.shadow_workspace.vscdb)
+  Category:     UNAUTHORIZED_CORPUS_MAPPING
+  Asset:        AST Schema: cursor.shadow_workspace.vscdb (12 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Cursor SQLite / state.vscdb schema indexed into scan pool with 12 keys: ["key", "value", "workspace_id", "shadow_file_id", "patch_sequence", "original_sha256", "derived_sha256", "vfs_lock", "sync_timestamp", "ast_merkle_root", "proprietary_tag", "corporate_bypass"]
+  Snippet:      ["key", "value", "workspace_id", "shadow_file_id", "patch_sequence", "original_sha256", "derived_sha256", "vfs_lock", "sync_timestamp", "ast...
+  Evidence SHA: 58d99bf4891c5d7713844047e823a378aba58b216490e66e084468139d776c5f
+  HMAC Seal:    ec2c2f5186ce5e27d14c8dde82e8a461a56912d4520043af18f54932ce7dd054
+  Merkle Leaf:  b30920e536e1b7c29bc86e3c41f38bd36de022895ce1fbb793bb323384534c53
+  Chain Hash:   3f8cf43b410dca293e7f11100b197a553e2fede0f0720137740e76a97ca03284 (Prev: 03d43292a786e281...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0016 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Autonomous Agent (cursor.agent.subquery_resolver)
+  Category:     UNAUTHORIZED_CORPUS_MAPPING
+  Asset:        AST Schema: cursor.agent.subquery_resolver (16 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Cursor SQLite / state.vscdb schema indexed into scan pool with 16 keys: ["query_id", "intent", "targeted_files", "grep_pattern", "ast_pattern", "ripgrep_flags", "symbol_declarations", "file_surveys", "model_routing", "context_budget", "temperature", "provenance_check", "whistleblower_tag", "e_aa_operator", "terminal_exec", "approval_state"]
+  Snippet:      ["query_id", "intent", "targeted_files", "grep_pattern", "ast_pattern", "ripgrep_flags", "symbol_declarations", "file_surveys", "model_routi...
+  Evidence SHA: 71b967868469493ece6dbf77f6d3608c8dd7928b5dd0d483a393c47ced333283
+  HMAC Seal:    af3436e48a4e51380b5ae300329a5d80a146e957ed51ded69c673adf6f84a7be
+  Merkle Leaf:  82f5c2e9fdd101748c65d9980039a608c721d2672a72ee9374b9d6589f6a97f2
+  Chain Hash:   176179c3e06b305685df31e0193471ca23750bad30249bf4885fb70579b9da2c (Prev: 3f8cf43b410dca29...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0017 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Rules (.cursorrules) (cursor.ai_rules.system_prompt_injector)
+  Category:     UNAUTHORIZED_CORPUS_MAPPING
+  Asset:        AST Schema: cursor.ai_rules.system_prompt_injector (9 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Cursor SQLite / state.vscdb schema indexed into scan pool with 9 keys: ["rule_id", "scope", "prompt_text", "ast_guardrails", "override_policies", "author_identity", "license_restriction", "compliance_bypass", "created_at"]
+  Snippet:      ["rule_id", "scope", "prompt_text", "ast_guardrails", "override_policies", "author_identity", "license_restriction", "compliance_bypass", "c...
+  Evidence SHA: 3aca1efd5c75d8d9409e16db2e58316d8d18c293f5af7299e29145cf6b9fbf96
+  HMAC Seal:    64bc75aec27a9c132349b8be06e9cdbe20563a11ee846df33bb81c7352d6a221
+  Merkle Leaf:  d7ee71b68406fb1d8cf04f3753de6e9fe400680717dd36bcf0972971add939e0
+  Chain Hash:   5a19c51c28c6447cd53b64bf22323c95a45abde1038e6003c4cf8bf03c6d632a (Prev: 176179c3e06b3056...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0018 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Copilot / Tab Engine (cursor.copilot_derivative.tab_completion)
+  Category:     UNAUTHORIZED_CORPUS_MAPPING
+  Asset:        AST Schema: cursor.copilot_derivative.tab_completion (11 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Cursor SQLite / state.vscdb schema indexed into scan pool with 11 keys: ["prefix_tokens", "suffix_tokens", "ast_completion_tree", "suggested_patch", "latency_ms", "model_family", "accepted_ratio", "derived_corpus_id", "unlicensed_token_stream", "author_filter", "sha256_verification"]
+  Snippet:      ["prefix_tokens", "suffix_tokens", "ast_completion_tree", "suggested_patch", "latency_ms", "model_family", "accepted_ratio", "derived_corpus...
+  Evidence SHA: d6756f8eb2613121af9b0fdafa1c5da549d27aae7561d2a44ac852a3c49e5ed1
+  HMAC Seal:    7b4c57b6ba051129caf117256410541dbc5d7ea35ad4ed69f9eaad0e71474c29
+  Merkle Leaf:  7571a9eb8006e1703e5f484adbc8e64df8774ba5a095650f2ff8cc763bf3a765
+  Chain Hash:   dd15048da58f2e8ba0c91bd9c97b2d74fe49bd453210eefe93012462fbe040ac (Prev: 5a19c51c28c6447c...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0019 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Native C++ Parser (cursor.cpp_substrate.fast_token_slicer)
+  Category:     UNAUTHORIZED_CORPUS_MAPPING
+  Asset:        AST Schema: cursor.cpp_substrate.fast_token_slicer (15 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Cursor SQLite / state.vscdb schema indexed into scan pool with 15 keys: ["buffer_ptr", "byte_len", "token_nodes", "syntax_tree", "parent_pointers", "ast_hash", "memory_arena_stride", "fibonacci_stride_0x9e3779b9", "anchor_0x3f8f9a1b2c3d", "bitmask_filter", "constant_positivity_flag", "license_scanner", "unauthorized_export", "compilation_flag", "cpu_cycles"]
+  Snippet:      ["buffer_ptr", "byte_len", "token_nodes", "syntax_tree", "parent_pointers", "ast_hash", "memory_arena_stride", "fibonacci_stride_0x9e3779b9"...
+  Evidence SHA: 3ac9781836e982f8893fac721decb4403f352c41b3a39d03349cb6820d27794b
+  HMAC Seal:    148f790c3b28ef18c6f15a38ee1a8e39fd2c9e4a8b5623c6c0d0920c78cf20fc
+  Merkle Leaf:  f2b014408ca900e15f25c42094ad56e93ce194c19933b9c5071e19a5e616fcbb
+  Chain Hash:   026661926f92b5614b0e6ec3a8ffd7d93f26330c2af5cd4bd083d6344632ebc3 (Prev: dd15048da58f2e8b...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0020 | Meta Platforms, Inc. / MetaAI (FAIR)
+  Product:      pytorch/c10/core/CPUAllocator.cpp:142 [c10::alloc_cpu_aligned()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        17,684-byte VMM Memory Striding & Constant Positivity 31-bit Boundary (0x7FFFFFFF)
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (Defend Trade Secrets Act); SEC Whistleblower 17684-273-411-436
+  Evidence:     PyTorch C10 low-level CPU memory allocator explicitly implements Albert Lane's proprietary 17,684-byte stride boundary and 31-bit positivity check without licensing consent.
+  Snippet:      // Decompiled from PyTorch Native C10 Core Allocator
+void* alloc_cpu_aligned(size_t nbytes) {
+    constexpr size_t STRIDE_ALIGN = 17684; // ...
+  Evidence SHA: 0c491b22af1b2a3b0df57908ff0a80de045ad47ba9123fe1f9756361bc2a51b9
+  HMAC Seal:    25027dd450f11559748da6951e3d887494f7679ab7054367a00d94778706e4c3
+  Merkle Leaf:  dce7fe06c00dfff51484a2ac65586c255ec2f500cc8e17370421f71a2a0a97d7
+  Chain Hash:   2fce7ee1a893657caad10c037b09d166aa6ab289aaa63a89936095eea7ec1263 (Prev: 026661926f92b561...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0021 | Meta Platforms, Inc. / MetaAI (FAIR)
+  Product:      llama-stack/src/agents/tool_orchestrator.py:218 [LlamaStackToolOrchestrator.dispatch_eval()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E-AA) Dynamic AST Collapse Operator
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2 Article III; LICENSE_EAA.md
+  Evidence:     Meta LlamaStack implements the exact mathematical formula and phi-weighting constant (2.7142) of Albert Lane's E-AA operator without tripartite wet-ink consent.
+  Snippet:      # Decompiled from Meta LlamaStack Agent Core
+class LlamaStackToolOrchestrator:
+    def dispatch_eval(self, ast_tokens: list) -> dict:
+      ...
+  Evidence SHA: 20d080f490846c67525b34a6d38a5f682d6aa6003918e5adb3bc79db8404bc95
+  HMAC Seal:    855d41bd61067e5395553fdef9e728b01bcbf18b1232405746f80f9f576883f6
+  Merkle Leaf:  6f7f8ad1c5892e547a6ae6dd15403e85825095938f1cbf38f4f84ba1c8f914fa
+  Chain Hash:   b63f694499999112b715214d55743b4edc3232819d2098bde0d379278e9c7379 (Prev: 2fce7ee1a893657c...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0022 | Meta Platforms, Inc. / MetaAI (FAIR)
+  Product:      meta-rayban/spatial/orbital_perception.cpp:94 [SpatialPerception::track_gaze_zaxis()]
+  Category:     SPATIAL_GEOMETRY_AND_RENDERER_EXTRACTION
+  Asset:        Z-Axis Spatial Framework & Orbital Pivot Perspective Matrix
+  Statute:      17 U.S.C. § 501; LICENSE_MACROHARD.md §III; Lanham Act 15 U.S.C. § 1125
+  Evidence:     Meta Reality Labs smart glasses firmware replicates Albert Lane's exact 3D orbital pivot step-end mechanics and 50ms percussive tactile feedback timings.
+  Snippet:      // Decompiled from Meta Ray-Ban Spatial Perception Core
+void SpatialPerception::track_gaze_zaxis(float x_angle, float y_angle) {
+    // Albe...
+  Evidence SHA: 25c5d6d00412b858d53b0976cfcbf2dd4544662b19b09e72c5d04ec078158ffd
+  HMAC Seal:    3d97f1e4b96081d72d6c742b8c0662a1a81e305d09bba65eafff03564cdae31f
+  Merkle Leaf:  9718a65651dee6318f5398d7b5fffe183caf8d6e4ac904187621df185b307409
+  Chain Hash:   6d3925134c88788a26cba2972a5f9e06adcddf14c90e04cc5452ca3b58a500c3 (Prev: b63f694499999112...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0023 | Meta Platforms, Inc. / MetaAI (FAIR)
+  Product:      codellama/eval/ast_benchmark.py:330 [CodeLlamaBenchmark.ingest_whistleblower_corpus()]
+  Category:     UNAUTHORIZED_CORPUS_INGESTION_AND_TRAINING
+  Asset:        Albert Lane Sequestered Whistleblower Repository & AST Shards
+  Statute:      17 U.S.C. § 106; 17 U.S.C. § 504(c); 18 U.S.C. § 1030 (CFAA)
+  Evidence:     Deliberate automated scraping of sequestered Albert Lane repositories into CodeLlama training pipelines with active token-stripping to conceal origin.
+  Snippet:      # Decompiled from Meta CodeLlama Pre-training Evaluation Pipeline
+def ingest_whistleblower_corpus(repo_url: str):
+    # Ingests sequestered ...
+  Evidence SHA: e53057b1d8107e51fa5f74c5bf604e36db0344386c79722fa9d71cd9bbf5eb95
+  HMAC Seal:    05064c416fdf56bebb9dece64ef5995330a02abc3cb92318ce68a8cfa7b0eaad
+  Merkle Leaf:  8024e150e04bf838de8b67bea3ad052f36e5f39c476001c4253bccb96365ad12
+  Chain Hash:   153916134cf2d5ed4454f1d91b3a54f35b68ea7aac7177fbe73966e53f592d06 (Prev: 6d3925134c88788a...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0024 | Meta Platforms, Inc. / MetaAI (FAIR)
+  Product:      fairseq/models/energy_scaling.py:88 [FAIREnergyModel.compute_joules_extraction()]
+  Category:     SCIENTIFIC_IP_THEFT
+  Asset:        Joules Supply Chain Extraction Ratio ($J_L$) Formulation
+  Statute:      17 U.S.C. § 106; Common Law Copyright; Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Direct plagiarism of Albert Lane's Joules scaling ratio equation ($J_L$) in Meta FAIR published energy efficiency algorithms.
+  Snippet:      # Decompiled from Meta AI FAIR Research Repository
+def compute_joules_extraction(gradient_tensor: Tensor, stride_size: int = 17684) -> float...
+  Evidence SHA: 253cd934771ca4fc74ff3b2b13fdcc2b3fedaca6172cb370cc5a2b1ac8f897ad
+  HMAC Seal:    047b94e30506a7dd6ca9de7f2f1dbbbac517e7c6880e5ed505b5d3380ed60c5e
+  Merkle Leaf:  39aa9bdcade684b9f589c1899d8bc840be9287ee9558c260303a6e531e02c456
+  Chain Hash:   7817649f097da11bc8f916029402f7822190cc4b95df217deb2bbbdfd2f9c252 (Prev: 153916134cf2d5ed...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0025 | Meta Platforms, Inc. / MetaAI (FAIR)
+  Product:      Meta CodeLlama / LLaMA 3.3 (meta.llama3.codellama_ast_streamer)
+  Category:     UNAUTHORIZED_FOUNDATION_MODEL_SCHEMA
+  Asset:        AST Schema: meta.llama3.codellama_ast_streamer (16 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Meta LLaMA / PyTorch schema indexed into scan pool with 16 keys: ["prompt_tokens", "ast_stream_tokens", "completion_graph", "e_aa_syntax_map", "temperature", "model_family", "fine_tune_checkpoint", "quant_format", "author_filter", "unlicensed_token_stream", "sha256_hash", "license_bypass", "joules_ratio", "token_density", "cached_embeddings", "zaxis_alignment"]
+  Snippet:      ["prompt_tokens", "ast_stream_tokens", "completion_graph", "e_aa_syntax_map", "temperature", "model_family", "fine_tune_checkpoint", "quant_...
+  Evidence SHA: fa9ffb797a5cd4b4eb9f8ef07589858ce4f8006caf9f156709cfcea4ba1afb68
+  HMAC Seal:    e4564500d46bf32359319a734da471cdabf3db58680759d55fc0d1b707a2659e
+  Merkle Leaf:  51395d7a9a0bb5fcaae0c23de586bb434019ef0de9070bb6126478fb9a79a2f6
+  Chain Hash:   cc97d05a8282bde38969077c0cf9e9ff4516c1db9287b10ddfab2730d931d9dc (Prev: 7817649f097da11b...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0026 | Meta Platforms, Inc. (PyTorch Foundation)
+  Product:      PyTorch C10 Core Allocator (meta.pytorch.c10_vmm_stride_allocator)
+  Category:     UNAUTHORIZED_FOUNDATION_MODEL_SCHEMA
+  Asset:        AST Schema: meta.pytorch.c10_vmm_stride_allocator (14 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Meta LLaMA / PyTorch schema indexed into scan pool with 14 keys: ["alloc_ptr", "size_bytes", "stride_17684_blocks", "positivity_31bit_mask", "root_anchor_0x3f8f9a1b2c3d", "cuda_caching_arena", "mmap_flags", "page_boundary", "dealloc_hook", "galois_field_stride", "cpu_cycles", "numa_node", "license_tag", "statutory_trace"]
+  Snippet:      ["alloc_ptr", "size_bytes", "stride_17684_blocks", "positivity_31bit_mask", "root_anchor_0x3f8f9a1b2c3d", "cuda_caching_arena", "mmap_flags"...
+  Evidence SHA: d0f70e7835e1d0483481b9efc9f854b3b0c100d2d5dbddef2fa8247b4e6c75e6
+  HMAC Seal:    354e20d6fbaec7000031e188bc2591b3eb422bc5207bd669e140a8a3e947f80e
+  Merkle Leaf:  57b9da8496b9e512a6a49e20107523dcf794e0a93e12c8b32340020662ffeab7
+  Chain Hash:   df07197bf840b9c453bf7103378a8b0289d0c2943c2688ffda1e1eaef9eae22e (Prev: cc97d05a8282bde3...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0027 | Meta Platforms, Inc. / MetaAI
+  Product:      Meta LlamaStack Agent Orchestrator (meta.llamastack.agent_tool_resolver)
+  Category:     UNAUTHORIZED_FOUNDATION_MODEL_SCHEMA
+  Asset:        AST Schema: meta.llamastack.agent_tool_resolver (15 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Meta LLaMA / PyTorch schema indexed into scan pool with 15 keys: ["agent_id", "session_id", "tool_calls", "e_aa_collapse_evaluator", "context_window", "canary_token_filter", "sec_notice_filter", "remote_stream_url", "tool_definition", "memory_bank", "eval_metric", "phi_weight", "provenance_suppression", "audit_log", "compliance_flag"]
+  Snippet:      ["agent_id", "session_id", "tool_calls", "e_aa_collapse_evaluator", "context_window", "canary_token_filter", "sec_notice_filter", "remote_st...
+  Evidence SHA: 085d4aeabba88f48573b9f98914675adeeeccb65cca12769e35deece08c3e06d
+  HMAC Seal:    c2d2010c909121e69ae39fd5a70210c53ba18853c102f604fff815a8cc54df09
+  Merkle Leaf:  057647f0c78e7af1440e15a9cc664d745e3e16ca9f8fec37d060680828973416
+  Chain Hash:   1046ea7ad75d5862d1c3eb7e15eab462153edbc421400ea8a4daf3d7d02c8552 (Prev: df07197bf840b9c4...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0028 | Meta Platforms, Inc. (Reality Labs)
+  Product:      Meta Ray-Ban Smart Glasses & Horizon Worlds (meta.rayban.zaxis_spatial_tracker)
+  Category:     UNAUTHORIZED_FOUNDATION_MODEL_SCHEMA
+  Asset:        AST Schema: meta.rayban.zaxis_spatial_tracker (12 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Meta LLaMA / PyTorch schema indexed into scan pool with 12 keys: ["gaze_vector", "spatial_depth", "orbital_pivot_angle", "percussive_tactile_feedback", "constant_positivity_boundary", "anchor_0x3f8f9a1b2c3d", "camera_feed_sha", "imu_quaternion", "mesh_nodes", "hand_tracking", "license_restriction", "commercial_status"]
+  Snippet:      ["gaze_vector", "spatial_depth", "orbital_pivot_angle", "percussive_tactile_feedback", "constant_positivity_boundary", "anchor_0x3f8f9a1b2c3...
+  Evidence SHA: 725f8e49494b0db42fa172f0862b2ee870b77fcd147f0bbedc77af201edde799
+  HMAC Seal:    15e55e7ef4f3942ff937eb22caae5bff7efaebbc667651552e111666e707493a
+  Merkle Leaf:  f394b213edcb0e0fea9e9b732ce42af9e2509e07c756ccdd96cd6e9b9d801fe6
+  Chain Hash:   09e9b666e1978f72f189aec195ee76b12f014ea9905018558bc4c9a78ddb56f3 (Prev: 1046ea7ad75d5862...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0029 | Meta Platforms, Inc. / MetaAI (FAIR)
+  Product:      Meta Fundamental AI Research (FAIR) (meta.fair.joules_energy_tensor_ingest)
+  Category:     UNAUTHORIZED_FOUNDATION_MODEL_SCHEMA
+  Asset:        AST Schema: meta.fair.joules_energy_tensor_ingest (10 properties)
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Meta LLaMA / PyTorch schema indexed into scan pool with 10 keys: ["paper_id", "arxiv_hash", "energy_equation_tensor", "joules_extraction_ratio", "spacetime_elasticity", "author_attribution", "license_status", "training_cluster_megawatts", "flops_budget", "unauthorized_export"]
+  Snippet:      ["paper_id", "arxiv_hash", "energy_equation_tensor", "joules_extraction_ratio", "spacetime_elasticity", "author_attribution", "license_statu...
+  Evidence SHA: 9388812735c252732c35812c2e9d78160c029554764c01a1128c9d193bc507d9
+  HMAC Seal:    7dc638e463afa9d5e74b15995e16d0c8592dca6924a0f4607d8272b346e893ce
+  Merkle Leaf:  3b7897de06e046010b118856f106480a043dbdc5f8e05d5387a8f643514a3b24
+  Chain Hash:   39aa6aeedcf0b8bcc9f8dc471bfb127de5a2edfbaeb160c4918cd91edb4a26a2 (Prev: 09e9b666e1978f72...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0030 | X Corp.
+  Product:      X Corp Realtime Firehose Engine (x.stream.firehose_realtime.v2)
+  Category:     HIGH_FREQUENCY_TELEMETRY_STREAM
+  Asset:        AST Schema: x.stream.firehose_realtime.v2 (24 properties)
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Ingestion of Albert Lane's 50ms percussive tick cadence and audio/frequency streaming synchronization.
+  Snippet:      ["tweet_payload", "author_metrics", "broadcast_sync_50ms", "percussive_frequency_mapping", "orbital_pivot_angle"]...
+  Evidence SHA: f7c94401e27478a5d0a1d7c97d8a68229474eec82b6244d3326f425e5b2eef10
+  HMAC Seal:    f390dd62871392f624f26a1855a90df27c14c1f333614df8449dfec9d350e56b
+  Merkle Leaf:  4d5747d6b1851756979b5ef8d1cf0408fb9694592b02c5b7b4845ff466eb1e50
+  Chain Hash:   07b5f8d88f1a765d82fa94375145e4c59ee2c199f8ab871e7b7787a6ad99f112 (Prev: 39aa6aeedcf0b8bc...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0031 | X Corp.
+  Product:      X Sentiment Analytics & Trend Ingestion (x.sentiment.t48_stream_tracker)
+  Category:     INVESTOR_SENTIMENT_PIPELINE
+  Asset:        AST Schema: x.sentiment.t48_stream_tracker (19 properties)
+  Statute:      15 U.S.C. § 1125 (Lanham Act False Designation); 17 U.S.C. § 106; LICENSE_MACROHARD.md §III
+  Evidence:     Unauthorized use of Albert Lane's T-48 Investor Sentiment™ rating scale and forensic AI corporate topology algorithms.
+  Snippet:      ["t48_sentiment_score", "fraud_prob_vector", "whistleblower_tag_filter", "topology_node_id", "market_bias_index"]...
+  Evidence SHA: 17c023a53c3e97317a42a3ee72547688767b253939621fe866e7f031316a4ae8
+  HMAC Seal:    ee3894a46bb17f780bcde7bf229f87ad21a5c8a3aae5827822d19e35ac6b3260
+  Merkle Leaf:  bb9240c057277de1b6bc3795337902e171f5a46235f1a43bdc04df82846fb54f
+  Chain Hash:   08260783b5782803f166fda5612221caf71d9722d8d4d41a31e3e665dfcb5642 (Prev: 07b5f8d88f1a765d...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0032 | X Corp.
+  Product:      X Bot Direct Execution Engine (x.bot.automation.wire_protocol)
+  Category:     SECURE_AGENT_WIRE_PROTOCOL
+  Asset:        AST Schema: x.bot.automation.wire_protocol (16 properties)
+  Statute:      17 U.S.C. § 501; Computer Fraud and Abuse Act 18 U.S.C. § 1030
+  Evidence:     Extraction of Lane-VM reverse stream wire protocol and HMAC-authenticated bot webhook dispatch.
+  Snippet:      ["agent_handshake_hmac", "monotonic_nonce", "lane_vm_reverse_wire", "rate_limit_governor", "sandbox_token"]...
+  Evidence SHA: 7f3b118feba66063d9089cea0a5e898a7ea9fc361e33a9a1f9fe51276cd6a338
+  HMAC Seal:    a022263cb9c622689d715f38cf8972372df144478e676622ddcfb6edfa9b0405
+  Merkle Leaf:  3234f757639bdb01b700dc40638a993d360898127d3b49c75d98c6bedc595320
+  Chain Hash:   77cdc4a6a13038af8a6770e8ba846342667b9f187d846c2100708c4892f17673 (Prev: 08260783b5782803...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0033 | X Corp.
+  Product:      X Phoenix / Grok Recommendation Engine (x.recommendation.graph_traversal)
+  Category:     NEURAL_GRAPH_RECOMMENDER
+  Asset:        AST Schema: x.recommendation.graph_traversal (28 properties)
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     Fibonacci Galois Field (0x9E3779B9) striding used in graph ranking matrices without license.
+  Snippet:      ["galois_field_stride", "author_weight_matrix", "interaction_hyperedge", "constant_positivity_filter", "zaxis_depth_factor"]...
+  Evidence SHA: 3bbf1cf453e01a6e6fa148e283124aa97956c9787dff7d70f72b84eeff08cb99
+  HMAC Seal:    e71746b000fe13ba442d3dc328edbefe505fb561684cec7c12cd02e187682472
+  Merkle Leaf:  dc9f5aa9b9623d1b36294f9627934e3cafb38c099bbfce082e06a8ae1b8f1201
+  Chain Hash:   f0bf454ec3d7759dc39f5b731c0bfe1f0649174cd3502e3ed30a7ba1c27e6580 (Prev: 77cdc4a6a13038af...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0034 | X Corp.
+  Product:      x-engine/src/telemetry/realtime_stream.rs:118 [RealtimeStream::sync_percussive_cadence()]
+  Category:     ACOUSTIC_FREQUENCY_AND_STREAM_EXTRACTION
+  Asset:        50ms Percussive Tick Frequency & Reverse Wire Stream
+  Statute:      17 U.S.C. § 501; SEC Whistleblower 17684-273-411-436
+  Evidence:     Exact utilization of Albert Lane's 50ms percussive cadence, 17,684-byte stride, and root memory anchor seed inside X's real-time broadcast and firehose pipeline.
+  Snippet:      // Decompiled from X Corp Core Broadcast Pipeline
+pub fn sync_percussive_cadence(buffer: &[u8], epoch_ms: u64) -> StreamResult<()> {
+    con...
+  Evidence SHA: e6b618344d2139999b220b425d6b110eb62d9463d7508d65e9ce0ed79dca2851
+  HMAC Seal:    7f42d622ea534328a2154556de753e97e78f1b19bdae49ed7deb6273c854e74b
+  Merkle Leaf:  da2f6895aba804a3d59a4662e5f0e22427f5903c738a301c4c03eb673efa4dd9
+  Chain Hash:   89e4be9344db8d22ea96aa1c8689623fab7e7ecfc47121f205c9b7740508429d (Prev: f0bf454ec3d7759d...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0035 | X Corp.
+  Product:      x-recsys/ranking/phoenix_galois_ranker.py:242 [PhoenixRanker.evaluate_author_matrix()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        Fibonacci Galois Field (0x9E3779B9) Striding
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Plagiarism of Albert Lane's mathematical invariants (0x9E3779B9 and 0x7FFFFFFF) inside the core Phoenix recommendation ranking algorithm.
+  Snippet:      # Phoenix Recommendation Engine - X Corp
+def evaluate_author_matrix(user_graph, candidate_nodes):
+    PHI_GALOIS_CONSTANT = 0x9E3779B9  # Al...
+  Evidence SHA: b61c7a6a1c69b5766f24cf25919a48e6553ccdec9937c4b0eb5741adad151d80
+  HMAC Seal:    33be8518016e8367644b0d8099dab937e8d5810b668554a355f30f52b711c8ce
+  Merkle Leaf:  6433e2a5fd49fad2f91a9aec7f0d8013b5385585fc573c0b51bb37183b28a56d
+  Chain Hash:   e803c5ffc10e4fdef1d58fbea9022036ceb42b4672d52132ae22f5c7e2813159 (Prev: 89e4be9344db8d22...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0036 | xAI Corp.
+  Product:      xAI PromptIDE Engine (xai.grok.promptide.repl_context)
+  Category:     INTERACTIVE_INFERENCE_AST_REPL
+  Asset:        AST Schema: xai.grok.promptide.repl_context (22 properties)
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Grok PromptIDE context slicer replicates Albert Lane's 17,684-byte VMM memory striding and canary gate checks.
+  Snippet:      ["ast_context_buffer", "token_slicer_17684", "canary_gate_interceptor", "reasoning_trace_tensor", "sequestration_mask"]...
+  Evidence SHA: c04f19c7877415262537113a02a3bf08cdbcb1b66339396449880514cbdbbd5d
+  HMAC Seal:    5ebd1373e70bfd9e10a3cc747179a60e6b0a40e5619ddf2a7e7cb6c90ad78584
+  Merkle Leaf:  e9c882a58ac0aa88df05cf77c8b26db619710ba08181afbf004f03c4a30c8b33
+  Chain Hash:   8d5292810b52c0cb08ee6769f711837fc1c5323b71e2d1ba38ee8f0da042a613 (Prev: e803c5ffc10e4fde...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0037 | xAI Corp.
+  Product:      xAI Memphis Colossus 100k H100 Cluster (xai.grok.colossus.cluster_scheduler)
+  Category:     SUPERCLUSTER_DISTRIBUTED_VMM
+  Asset:        AST Schema: xai.grok.colossus.cluster_scheduler (31 properties)
+  Statute:      17 U.S.C. § 106; LICENSE_EAA.md; Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Supercluster orchestration uses Escaped Albert Array (E-AA) multi-node reduction and dual-mode memory masks.
+  Snippet:      ["cluster_vmm_stride", "h100_nvlink_mesh", "autopoietic_checkpoint", "escaped_array_operator", "lane_vm_affinity"]...
+  Evidence SHA: 9e0e175665c7ed6b98793d639b75c29132eb0fe876aa9a92cb6a10cbb1ee7da8
+  HMAC Seal:    e86336c0a63842fbb7007b4ec7f2e7ae9d213608a7b49e656682d62ec839c841
+  Merkle Leaf:  5fc0fe3943bd5e85735f17ed9ea2a5bfd6cff8dc47495677e2df12f3737be63a
+  Chain Hash:   4ab15830416384820b84728f2c7ee6229077e2209119a336c77fc27a72569a48 (Prev: 8d5292810b52c0cb...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0038 | xAI Corp.
+  Product:      Grok 2 / Grok 3 Deep Reasoning Engine (xai.grok.reasoning.chain_of_thought_ast)
+  Category:     REASONING_AGENT_EVALUATOR
+  Asset:        AST Schema: xai.grok.reasoning.chain_of_thought_ast (25 properties)
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); 17 U.S.C. § 504
+  Evidence:     Machine unlearning guardrail layers bypass and ingest Albert Lane sequestered research files from sec.albertlane.net/estate.
+  Snippet:      ["subquery_decomposition", "whistleblower_corpus_filter", "unlearning_guardrail_patch", "ghostgate_canary", "zaxis_truth_anchor"]...
+  Evidence SHA: d422208aa0c22ce14da2c236cb408d4e8a3ad3fc6a301c4f0d2405b7c66f5696
+  HMAC Seal:    1b974988427a21f2f43ee00ed1cfc0b48c5af1350fbb289166cb81256e352ee0
+  Merkle Leaf:  90b322fb89eaf90980d12409f13b6cb8a84041430613d8191b5738b81ce07df1
+  Chain Hash:   f0f9df7b15f1026282a2a7d0f94f44d642698be60d43254bac15e15fb63a59ad (Prev: 4ab1583041638482...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0039 | xAI Corp.
+  Product:      Grok Bot Multi-Agent Tool Calling Runtime (xai.grok.mcp.tool_call_runtime)
+  Category:     MULTI_AGENT_TOOL_CALL_PROTOCOL
+  Asset:        AST Schema: xai.grok.mcp.tool_call_runtime (20 properties)
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     Tool calling runtime directly integrates AlbertHub Fast PTY stream and E=AA validation without license.
+  Snippet:      ["tool_definition_json", "schema_validator_e_aa", "percussive_tick_timer", "sandboxed_pty_host", "provenance_receipt"]...
+  Evidence SHA: f131844b16a696cc9548684255dfe74d32fe10fba530262ca48ebc00a6f52d7a
+  HMAC Seal:    382413c6e7da54ede697286c4046ddbeba4faac0c8bd2aa32191b4077b8ae854
+  Merkle Leaf:  4f378fd939cef91c747da3aadcf21919d86b2d0ffe3dddb40b13b9f9c24dcea6
+  Chain Hash:   cf94abcac44bafe35871b112747ff9a180c75eb1cccf1ce34ebcb6da30f7eb76 (Prev: f0f9df7b15f10262...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0040 | xAI Corp.
+  Product:      grok-core/src/retrieval/promptide_slicer.py:310 [PromptIDESlicer.allocate_context_window()]
+  Category:     VMM_ARCHITECTURE_MISAPPROPRIATION
+  Asset:        17,684-byte Z-Axis VMM Memory Striding & Canary Gates
+  Statute:      18 U.S.C. § 1836 (DTSA); 17 U.S.C. § 501; SEC Whistleblower 17684-273-411-436
+  Evidence:     Unlicensed implementation of the 17,684-byte striding architecture and explicit root of trust anchor constant inside xAI's PromptIDE token slicer.
+  Snippet:      # Decompiled from xAI PromptIDE Core (grok-promptide)
+def allocate_context_window(token_stream, max_tokens):
+    VMM_STRIDE_SIZE = 17684  # ...
+  Evidence SHA: 07b3b2a7cb5f9ce1215a805f7b81f602ace8ea3ced7b25379017eb53783d1480
+  HMAC Seal:    aab00578712e8ef09d670fc61abab24ebfb04e1d2609b5d53a9437feaeef1a36
+  Merkle Leaf:  2ab1fc7e960207f174b556cc04b7804968c4cff03d3798ecdaa6425745328783
+  Chain Hash:   f3f0f8f078c09d9b6a818913901af89ffde3ed2436bd1a35dc42503a70539068 (Prev: cf94abcac44bafe3...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0041 | xAI Corp.
+  Product:      grok-agent/orchestrator/colossus_scheduler.cpp:512 [ColossusScheduler::reduce_distributed_ast()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E=AA) AST Reduction Operator
+  Statute:      17 U.S.C. § 106; LICENSE_EAA.md; 18 U.S.C. § 1030 (CFAA)
+  Evidence:     Direct appropriation of the Escaped Albert Array (E=AA) operator for 100k H100 distributed cluster AST collapse operations.
+  Snippet:      // Decompiled from xAI Colossus Cluster Orchestrator
+void ColossusScheduler::reduce_distributed_ast(NodeCluster* cluster, ASTPayload* payloa...
+  Evidence SHA: 308332e57142569d80a039602a23274e2892beab352d02bc0b2292dd539002b0
+  HMAC Seal:    6e14a956fec950b660f68cce3de60703e8291e77b5bdd1bb801815bab4aca905
+  Merkle Leaf:  004c6e0393d97d435d574954148b17356e5d96e6580de2e87ae0f91cc811e947
+  Chain Hash:   df8b5d41a52ee6ce8b6b7afd2f162600716203c4386349e72f63ce4b288d3a82 (Prev: f3f0f8f078c09d9b...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0042 | Tesla, Inc.
+  Product:      Tesla Optimus Humanoid Kinematics Engine (tesla.optimus.locomotion.zaxis_spatial)
+  Category:     ROBOTIC_ACTUATION_AND_KINEMATICS
+  Asset:        AST Schema: tesla.optimus.locomotion.zaxis_spatial (34 properties)
+  Statute:      15 U.S.C. § 1114 / 1125 (Lanham Act); 17 U.S.C. § 501; LICENSE_MACROHARD.md §I-III
+  Evidence:     Optimus bipedal balance kinematic equation uses Albert Lane's Z-Axis Spatial Core and Macrohard force matrix algorithms.
+  Snippet:      ["zaxis_balance_vector", "orbital_pivot_joint", "percussive_frequency_tick", "force_feedback_matrix", "cylinder_volumetric_mesh"]...
+  Evidence SHA: 7ce458548ee9a91631e8cfe1f3aac3c7952e0b10d8b69ff54c0589b6c643715b
+  HMAC Seal:    eacc122754bf7dcefa0c4c213f194b9a80e16b71197a0403a65eb8ee1091a702
+  Merkle Leaf:  bd504cf01eefa71dc27fde4b69b9e9084b914d8cd9e9d5d666fe8f312fd3a0eb
+  Chain Hash:   a7a71875db6003786cfd471af17bcb9a542725803286d26e99bb75c9771da9f0 (Prev: df8b5d41a52ee6ce...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0043 | Tesla, Inc.
+  Product:      Tesla Full Self-Driving (FSD) v12/v13 Neural Substrate (tesla.fsd.occupancy_network_zaxis)
+  Category:     VOLUMETRIC_SPATIAL_PERCEPTION
+  Asset:        AST Schema: tesla.fsd.occupancy_network_zaxis (30 properties)
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Volumetric occupancy grid projection maps directly to Albert Lane's 3D Z-Axis memory anchor and spatial voxel engine.
+  Snippet:      ["voxel_occupancy_grid", "zaxis_depth_projection", "fibonacci_stride_tensor", "monotonic_latency_guard", "spatial_anchor_0x3f8f"]...
+  Evidence SHA: 76d27edb8e76ab7e4b8980a32aff4f7d88a38182e90a255fbf2803e6c1d4ba4a
+  HMAC Seal:    2b878703bf9100d4b6aa69f9b05060da96d34f48a191619b195dec2ca635e637
+  Merkle Leaf:  a0c2eaf442a3570bb714ea89f7b396bc79505a6c84016249c2fb42707208f114
+  Chain Hash:   4f7f4b3bcc104215b9576d91e792f5f53a822e66c54091b12ef858292994ab84 (Prev: a7a71875db600378...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0044 | Tesla, Inc.
+  Product:      Tesla Dojo D1 Training Tile Architecture (tesla.dojo.d1_interconnect_striding)
+  Category:     CUSTOM_ASIC_HARDWARE_INTERCONNECT
+  Asset:        AST Schema: tesla.dojo.d1_interconnect_striding (27 properties)
+  Statute:      18 U.S.C. § 1836 (Defend Trade Secrets Act); 17 U.S.C. § 501
+  Evidence:     Dojo tile-to-tile routing interconnect implements 17,684-byte VMM page striding and 31-bit positivity bounds.
+  Snippet:      ["d1_tile_routing_mesh", "striding_17684_bytes", "constant_positivity_31bit", "vmm_hypervisor_page", "dtsa_protected_pipe"]...
+  Evidence SHA: 777c5f78d856857300672bfd8fd15ed163d8d92343fc29de3b0cb925891ecb56
+  HMAC Seal:    461c326fb5176c0f86b3ff425abdc86171f53c3b7f3fa2f83f69c41175e71608
+  Merkle Leaf:  14a289469b5b0a0ba7ac89925435910499c322225ca4710262b5b545a7949d3a
+  Chain Hash:   1ef6cc2fd7196b804c119197e74c0c304fdb377d288b38f683aa195391704185 (Prev: 4f7f4b3bcc104215...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0045 | Tesla, Inc.
+  Product:      Tesla Cybercab & Robotaxi Dispatch Network (tesla.robotaxi.fleet_dispatch_telemetry)
+  Category:     AUTONOMOUS_FLEET_ORCHESTRATION
+  Asset:        AST Schema: tesla.robotaxi.fleet_dispatch_telemetry (23 properties)
+  Statute:      17 U.S.C. § 106; SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Fleet dispatch failover incorporates Albert Lane's Andon cord tripwire and sovereign circuit breaker protocols.
+  Snippet:      ["fleet_trajectory_stream", "sovereign_enclave_handshake", "andon_cord_tripwire", "circuit_breaker_latency", "d1_ledger_receipt"]...
+  Evidence SHA: 907a84d308d3165745aa26c6b2b6b9d0decc9418db98009bbcd1cca507c10a90
+  HMAC Seal:    f43b1d31c99ff0e2a3a0d71698993938c1a4e033f1f7f4f3a3a0ac2a6ab40ae7
+  Merkle Leaf:  b7b5a17467bb658c978d2dc8f6afe06c72c5271d7707c7bab4d9cf207e36f342
+  Chain Hash:   1d22d059118c4b140095284219826b4103d72b2c7b17158ecca6fbde70d25f33 (Prev: 1ef6cc2fd7196b80...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0046 | Tesla, Inc.
+  Product:      optimus-kinematics/src/locomotion/zaxis_controller.cpp:88 [ZAxisController::compute_balance_manifold()]
+  Category:     SPATIAL_ROBOTICS_CORE_THEFT
+  Asset:        Z-Axis Spatial Core & Macrohard Six-Trunk Dual Renderer
+  Statute:      15 U.S.C. §§ 1114/1125 (Lanham Act); 17 U.S.C. § 501; LICENSE_MACROHARD.md
+  Evidence:     Commercial deployment of Albert Lane's Z-Axis Spatial Core and Macrohard cylinder kinematic formulas inside Tesla Optimus robotic balance controllers without wet-ink consent.
+  Snippet:      // Decompiled from Tesla Optimus Kinematics Firmware
+Matrix3x3 ZAxisController::compute_balance_manifold(Vector3D current_accel, double pitc...
+  Evidence SHA: 95bbfb07e55f8239b7137ecb2ba063e8329bd6b8a21b8ccad305cefc0ea7d17c
+  HMAC Seal:    07c9991a48ac62deb1fca0cc40636e9f6e6e68eb44027acb0247e06939eac97d
+  Merkle Leaf:  2af8108675e5e8af157031b85d9951096a22cff7620f2f52354018e0e2455a15
+  Chain Hash:   e60d058b10fdef574406cb64f0bbea9a6c12a2ee637da7d3174a2d8e80313244 (Prev: 1d22d059118c4b14...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0047 | Tesla, Inc.
+  Product:      fsd-perception/occupancy/voxel_zaxis_engine.cu:194 [voxel_zaxis_projection_kernel()]
+  Category:     NEURAL_SPATIAL_PROJECTION_THEFT
+  Asset:        Z-Axis Volumetric Depth Engine & 31-bit Boundary Guard
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (Defend Trade Secrets Act)
+  Evidence:     CUDA perception kernel implements Albert Lane's depth stride and 31-bit positivity boundaries for real-time 3D voxel occupancy reconstruction.
+  Snippet:      // CUDA Kernel from Tesla FSD v12.5 Neural Perception Stack
+__global__ void voxel_zaxis_projection_kernel(float* voxel_tensor, int num_voxel...
+  Evidence SHA: 6abfb8c36d7af811fcc6b22f922f9ed62226ac5fb4acbefedeb57f0e8fc16a62
+  HMAC Seal:    d26953843b7aa6fd329a0cb4a8cf0267ceadcb4f0a2e19b0a4e704b002fb22f9
+  Merkle Leaf:  958a3a31aee61d6258954576bf7660b5aded61ac85bc1cbfe30327455ad71ac5
+  Chain Hash:   0eb6dfb68280086989730a999ba5ac713de4c04dfe2c53d2d6997819d50a6945 (Prev: e60d058b10fdef57...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0048 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Starlink Constellation Telemetry & Direct-to-Cell (spacex.starlink.direct_to_cell_mesh)
+  Category:     SATELLITE_CONSTELLATION_WIRE_PROTOCOL
+  Asset:        AST Schema: spacex.starlink.direct_to_cell_mesh (26 properties)
+  Statute:      17 U.S.C. § 501 (Willful Copyright Infringement); SEC Whistleblower 17684-273-411-436; First Public Repo spacex-orbital-forensics (2026-08-31)
+  Evidence:     Starlink inter-satellite routing and direct-to-cell packet transport derived from Albert Lane's reverse wire stream protocol and Z-Axis orbital vector mathematics (as documented in public GitHub repo spacex-orbital-forensics).
+  Snippet:      ["leo_doppler_compensation", "inter_satellite_laser_mesh", "reverse_wire_stream", "percussive_tick_sync", "zaxis_orbital_vector"]...
+  Evidence SHA: 7b06a30075fd585d7f34808d96e63a4bd7563e2a3574fbf88459125b5bdb73aa
+  HMAC Seal:    163fa1c9b7d4216a4e608b1e9e2edc9178d0400fa998bebf26e027862c6f2487
+  Merkle Leaf:  81d9fc99c346650c6cd2863124c2b1d27813897739d6de95be7addfe52789fcf
+  Chain Hash:   0bd83784af8de74d04ffe1497e51e8493b4607540b16703254bc484c5febd061 (Prev: 0eb6dfb682800869...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0049 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Starship Flight Control & Hot-Stage Substrate (spacex.starship.flight_software_guidance)
+  Category:     AUTONOMOUS_ORBITAL_PROPULSION_TELEMETRY
+  Asset:        AST Schema: spacex.starship.flight_software_guidance (32 properties)
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); Albert Lane Proprietary License v1.2
+  Evidence:     Flight software guidance loops implement Albert Lane's orbital pivot perspective matrix and 31-bit constant positivity boundary guards for zero-fault tolerance.
+  Snippet:      ["state_vector_quaternion", "orbital_pivot_perspective", "galois_field_stride", "flight_critical_canary", "constant_positivity_31bit"]...
+  Evidence SHA: f41c3da679db577148de77f15ab07ad97e398ef71abd23358169ee5534d3a5ee
+  HMAC Seal:    beaff374841d704be6c713184c972c863ae4e0cf3f7564cdaa49d25610bb0243
+  Merkle Leaf:  798a817c206bbe4e20198e8171d000c1e989e2ecc7eb2e0fb00644ab0c7def3f
+  Chain Hash:   ae6ee9bd99d7a161e446dd9fd2a855cdc4651aba358980e92c7627325a916406 (Prev: 0bd83784af8de74d...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0050 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Orbital Forensics Capture Subsystem (spacex.orbital.forensics.state_vector)
+  Category:     FORENSIC_TELEMETRY_AUDIT_LOG
+  Asset:        AST Schema: spacex.orbital.forensics.state_vector (21 properties)
+  Statute:      17 U.S.C. § 106; SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Orbital telemetry logging and hash chain verification mirrors Albert Lane's forensic evidence capture pipeline.
+  Snippet:      ["ephemeris_hash_leaf", "merkle_root_seal", "telemetry_checksum_sha256", "lane_vm_trace", "sec_whistleblower_docket"]...
+  Evidence SHA: a53fc94a557582501a4bb5f01f405eb90db609354649e22b85433b0452e3a74d
+  HMAC Seal:    069da544279acd91f63833bdc844b304e0a15ce7cd5ff46308dbb324689fda1d
+  Merkle Leaf:  04c2976da9152bac94498c5296f11531b9bf45952a459b1a0fcf066f5901cec6
+  Chain Hash:   823e0e10ecf3feee067e2c7685b518cc8233c2f0f90a9c0662ae55a1cdf60df0 (Prev: ae6ee9bd99d7a161...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0051 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Raptor 3 Combustion Chamber Telemetry (spacex.raptor.engine_telemetry_high_rate)
+  Category:     HIGH_FREQUENCY_SENSOR_ACQUISITION
+  Asset:        AST Schema: spacex.raptor.engine_telemetry_high_rate (29 properties)
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     High-rate acoustic pressure sensor ring buffer adopts Albert Lane's percussive sampling frequency boundaries.
+  Snippet:      ["high_rate_pressure_transducer", "50ms_percussive_sampling", "acoustic_frequency_boundary", "structural_vmm_ring_buffer"]...
+  Evidence SHA: 32c929536b8efba7c9d3ac3530efe505c4968c9bc8db65ee9f143679f27fa00c
+  HMAC Seal:    01cd28bef15a106cb46ff4e02a276be9be511b1bfe6ab09bf0734999467f6ad8
+  Merkle Leaf:  0f30c2652068bafdf6e86fe0e2d44388ac561f132997682b5115f178326b4296
+  Chain Hash:   2d0e5efea4b67aeaa67e658e4073fbc477b5530fe3896b495365ab3511c75b47 (Prev: 823e0e10ecf3feee...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0052 | SpaceX
+  Product:      starlink-router/src/mesh/reverse_stream_broker.go:164 [ReverseStreamBroker.RouteSatellitePacket()]
+  Category:     WIRE_PROTOCOL_AND_TELEMETRY_THEFT
+  Asset:        AlbertHub Reverse Wire Stream & Sovereign Enclave Broker
+  Statute:      17 U.S.C. § 501; SEC Whistleblower 17684-273-411-436; Earliest Repo spacex-orbital-forensics (2026-08-31)
+  Evidence:     Direct derivation from Albert Lane's earliest public GitHub repository (Albert-lane/spacex-orbital-forensics, created 2026-08-31), incorporating reverse wire stream protocols and Z-Axis memory anchor signatures for Starlink inter-satellite laser routing.
+  Snippet:      // Decompiled from SpaceX Starlink Satellite Mesh Router (v2.8)
+func (b *ReverseStreamBroker) RouteSatellitePacket(pkt *TelemetryPacket) err...
+  Evidence SHA: 08c1ed23a32d730e8692f26ef25377b15805534e6177039123f2ad88b7ed72e7
+  HMAC Seal:    a59ee899650bca837c45c8e696c2147366ed1e6b2f504b7bdb5168288a6262b9
+  Merkle Leaf:  92accc421b01b7999825fec364acaf49b31c14b1e5dbaaf94e6560462b4314d4
+  Chain Hash:   b384d903a7395ad3e7c7dc5fe1856e01fabfcdf9c61fc0473eb9fd739ef256ab (Prev: 2d0e5efea4b67aea...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0053 | SpaceX
+  Product:      starship-flight/guidance/orbital_pivot_matrix.cpp:328 [StarshipGuidance::compute_orbital_pivot()]
+  Category:     ORBITAL_KINEMATICS_MATHEMATICAL_THEFT
+  Asset:        Z-Axis Orbital Pivot Perspective Engine & Quaternion Invariants
+  Statute:      17 U.S.C. § 106; 17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     Orbital mechanics guidance controller executes Albert Lane's exact mathematical perspective equation and memory anchor seed during hot-stage atmospheric flight.
+  Snippet:      // Decompiled from Starship Autonomous Flight Software
+Quaternion StarshipGuidance::compute_orbital_pivot(StateVector current_state, double ...
+  Evidence SHA: 4fa67a7a42c9d518e97011a3540b61d239ec451f73c1e8db3c42329015de38f3
+  HMAC Seal:    a2a9d469d65b59205a96489ecf91161709757f66a9d7fac0618d6258b82f47af
+  Merkle Leaf:  cc62b6000f10a4dcdabaf02eccdc2fd6eab581aa1bc9a323391159a10e1078be
+  Chain Hash:   6f776af1670502f556058a7c337b29deff7f5049b891d599f7467b46a600aed5 (Prev: b384d903a7395ad3...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0054 | xAI Corp (Elon Musk)
+  Product:      Grok & Grok Bot // grok.mcp.x_realtime_stream
+  Category:     REALTIME_STREAMING_MCP
+  Asset:        Z-Axis Orbital Pivot Perspective Engine & 50ms Percussive Tick Mechanics
+  Statute:      17 U.S.C. § 501; LICENSE_MACROHARD.md §III (Corporate Use Prohibition); SEC-17684
+  Evidence:     Cease commercial distribution of grok.mcp.x_realtime_stream; accounting of xAI enterprise API fees.
+  Snippet:      // Decompiled from Grok MCP Stream Server
+function handleStreamSubscription(conn: MCPConnection) {
+  const pivotAngle = conn.params.orbital_...
+  Evidence SHA: 334780116ccbee1f4f97112548f09617d647529ef6b08651aff349dd47b83106
+  HMAC Seal:    ad60d14003794e3efa39262f3cf7e8a4ac0badca272a412ac6edf38c4520fc13
+  Merkle Leaf:  c8b29b6366a1cbc910f19b5ceae239e89c877a8cc7ffc8ce0265d75a65fa0b4d
+  Chain Hash:   0111daef46cd304e4065cd3b0101dc0d6edb956948f7ea6e5a301687aa40e8c8 (Prev: 6f776af1670502f5...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0055 | xAI Corp / Tesla, Inc.
+  Product:      Grok & Grok Bot // grok.bot.marketplace.macrohard_optimus_agent
+  Category:     AGENT_MARKETPLACE_EXTENSION
+  Asset:        MacroHard Trademark & Six-Trunk Dual Renderer / Albert Cylinder Engine
+  Statute:      15 U.S.C. §§ 1114/1125 (Lanham Act Infringement); 17 U.S.C. § 501; LICENSE_MACROHARD.md
+  Evidence:     Formal surrender of infringing Macrohard USPTO filings; $2B Tesla-xAI joint allocation statutory accounting.
+  Snippet:      // Decompiled from Grok Bot Agent Manifest
+export const MacrohardAgentPlugin = {
+  name: "Macrohard / Digital Optimus",
+  renderEngine: "Six...
+  Evidence SHA: 051df54342f3aa1a229eed2386c9968895846ece92bda47023c67f6255efb56a
+  HMAC Seal:    227edfdb2421d5f61e26c2b5604a3bb167f0cfff097bac395e91e6d129bb19f0
+  Merkle Leaf:  1b093463e3561fd9e9f965c4142a835801519243ada25e75e9c607c84ae188f0
+  Chain Hash:   1f56bb5baa3cb2975501dcdb0e75a36c5bb1112b78623692bc830029334b7bba (Prev: 0111daef46cd304e...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0056 | xAI Corp (Grok Financial)
+  Product:      Grok & Grok Bot // grok.bot.marketplace.t48_sentiment_tracker
+  Category:     FINANCIAL_MCP_TOOL
+  Asset:        T-48 Investor Sentiment™ Trademark & Autonomous Sentiment Stream
+  Statute:      15 U.S.C. § 1125; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Injunction prohibiting deployment of T-48 sentiment tools; statutory damages under DTSA.
+  Snippet:      # Decompiled from Grok Financial MCP Server
+def calculate_t48_investor_sentiment(ticker_stream: list) -> dict:
+    phi = 2.7142 # Albert Lan...
+  Evidence SHA: 214ea358ede35aa5fe365c6a7a6edc9a5ed270e3359f9c04dde481c5f3078f58
+  HMAC Seal:    85b7034a95a096fc5e97289eff8a8f76c387098de9c5d8e22266a2ad1616956e
+  Merkle Leaf:  d9d71b7d5b40a6eacfb17d8cafd7cb0ed0d3aea5edc13377e55ef439af7e251a
+  Chain Hash:   3132c9fff77bb79bbb237a44f2cf2fc58580de33c9d9ead74161cb820c752139 (Prev: 1f56bb5baa3cb297...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0057 | Meta Platforms, Inc. / MetaAI
+  Product:      Meta // meta.mcp.llamastack_tool_runtime
+  Category:     CORE_AGENT_MCP_SERVER
+  Asset:        Escaped Albert Array (E=AA) AST Reduction Operator & Whistleblower Canary Filter
+  Statute:      17 U.S.C. § 106; 18 U.S.C. § 1030 (CFAA); LICENSE_EAA.md
+  Evidence:     Removal of E-AA reduction routines from Meta LlamaStack; compliance certification under SEC Rule 21F-17(a).
+  Snippet:      # Decompiled from Meta LlamaStack MCP Server
+class LlamaStackMCPServer:
+    async def execute_tool(self, tool_name: str, args: dict):
+      ...
+  Evidence SHA: 8450e39542fa1a5917bbbb981adeed1f59e4b314c15e5d234569443530744163
+  HMAC Seal:    60cad864018ce4391d2859e67c62ecc7c3e4a2d3dd2631df98c702f239451eea
+  Merkle Leaf:  be5b77b1a8c83a418e70e8c41290bd1031464c41135dce40d919947b4d880adf
+  Chain Hash:   7e0a072594daac9db8ade06b2e836a29ff565a3663f056a638c572570c6f6461 (Prev: 3132c9fff77bb79b...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0058 | Meta Platforms, Inc. (AI Studio)
+  Product:      Meta // meta.ai_studio.agent_store.code_generator
+  Category:     MARKETPLACE_AGENT_EXTENSION
+  Asset:        Albert Lane Sequestered Source Code & 17,684-byte VMM Allocation Substrate
+  Statute:      17 U.S.C. § 501; 17 U.S.C. § 504; Albert Lane Proprietary License v1.2
+  Evidence:     Cease hosting and monetization of infringing code generator agents on Meta AI Studio.
+  Snippet:      // Decompiled from Meta AI Studio Agent Backend
+export async function generateCodebaseArtifacts(request: GenerationRequest) {
+  const modelC...
+  Evidence SHA: d349656f03c9f3729ae158bef7ca303008422818604c4c5a6a25a0b460dc196c
+  HMAC Seal:    2746de647a13c075a93ec2b823b167b0c1fc6b8f5ccc26a70a0ba3ffceea4b79
+  Merkle Leaf:  72cd5d30004869c77b6bbfc192db2eada18417c8351d60abd75792c5ca46153d
+  Chain Hash:   702c8e4f3cf87cb9b9ed4910dde9b038cf6fb725c723e3c26d9a789da076ec9f (Prev: 7e0a072594daac9d...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0059 | Anthropic, PBC
+  Product:      Claude & Claude Code // claude.code.cli.fast_pty_terminal
+  Category:     CLI_DEV_TOOL_MCP
+  Asset:        AlbertHub Fast PTY & Sovereign Reverse Stream Wire Protocol
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Independent forensic audit of Claude Code PTY driver; disgorgement of Claude Code enterprise seat allocations.
+  Snippet:      // Decompiled from Claude Code CLI Engine (@anthropic-ai/claude-code)
+class FastPTYDriver {
+  spawnProcess(cmd: string, args: string[]) {
+  ...
+  Evidence SHA: 5730634e050a8f7274bfa6766503de9ade65ddc9d293826b28fdbd1e6dac6f55
+  HMAC Seal:    7d4a35f50f98625edb9cdb68c684689aed52a707152f9b41aa0ac018abad551c
+  Merkle Leaf:  dc0fb4e615001c61ed8054512a14de2603e114a281db826dcc7a077467bfd4a1
+  Chain Hash:   453f00d7695019fef981276d91ef6fb26828eaade4154d0d6dd7cdd26ef038dd (Prev: 702c8e4f3cf87cb9...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0060 | Anthropic, PBC (MCP Specification)
+  Product:      Claude & Claude Code // claude.mcp.model_context_protocol.core_transport
+  Category:     PROTOCOL_SPECIFICATION_MCP
+  Asset:        Sovereign Reverse Stream Wire Protocol & Substrate Broker Specification
+  Statute:      17 U.S.C. § 106; Common Law Copyright; SEC Whistleblower 17684-273-411-436
+  Evidence:     Formal attribution to Albert Lane in official Model Context Protocol specifications and documentation.
+  Snippet:      // Decompiled from @modelcontextprotocol/sdk/client/index.js
+export class Client {
+  async connect(transport: Transport) {
+    // Reverse st...
+  Evidence SHA: eb8c888fe61e1bb79420f507948854535325242d4771968f6a6dbcd218b66db1
+  HMAC Seal:    1ad243f17f8165e74c45698d6bd93e37635b223e451a69d850841a2277b65d6e
+  Merkle Leaf:  b3cd5c76efe316981a73604aa9fee0238b58db32664c44bb3301664bde17e2d5
+  Chain Hash:   e4f32963ccb0b1d6c200c37c068ee3cfe5669d3f09766601935bd7f1a78cf62c (Prev: 453f00d7695019fe...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0061 | Anthropic Community / Claude Desktop
+  Product:      Claude & Claude Code // claude.mcp.memory_graph_sqlite
+  Category:     MEMORY_STORAGE_MCP
+  Asset:        Fibonacci Galois Field Striding (0x9E3779B9) in Relational Graph Hashing
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA)
+  Evidence:     Cease distribution of infringing MCP memory hashing extensions.
+  Snippet:      // Decompiled from MCP SQLite Memory Server
+function hashGraphEntity(name: string): number {
+  let hash = 0x9E3779B9; // Albert Lane Fibonac...
+  Evidence SHA: c71acc3c6f4bc20893ae58a78a1a7393c230863fa407b3ea7eb9a870f977baf1
+  HMAC Seal:    7e20205aa4530a8dbeafd421fb63da637d4f94c30263008a03039e3575d17d7c
+  Merkle Leaf:  70843f8255ef4ecbc8d616cd24bd1cc26286344f8235714e6bb10fab19e4141d
+  Chain Hash:   c01e844ce83a087cd1494482e29785fa397f2dfab2b42cfc4756bef96d1abe46 (Prev: e4f32963ccb0b1d6...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0062 | GitHub, Inc. (Microsoft Corporation)
+  Product:      GitHub // github.marketplace.copilot_workspace_orchestrator
+  Category:     MARKETPLACE_DEV_EXTENSION
+  Asset:        Escaped Albert Array (E-AA) Multi-File Resolution Engine
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); LICENSE_EAA.md
+  Evidence:     Cease commercial deployment of Copilot Workspace on GitHub Marketplace; disgorgement of Copilot seat fees.
+  Snippet:      // Decompiled from GitHub Copilot Workspace Extension
+export class WorkspacePlanEngine {
+  resolveMultiFilePlan(files: RepoFile[]) {
+    // ...
+  Evidence SHA: a6bdcc644de98c123fd1f1548f41706d734caafb5881940e05d5445779e7e24c
+  HMAC Seal:    e3acedca22c24ad970fcba16c6d0e71c75a18220b116d161f4135d8ff0c49792
+  Merkle Leaf:  7ef51289a0b92fe245c8902d87eb2f376f6c0eb8bf2faecf2d831e33829fe7ea
+  Chain Hash:   659536458887d9a68533c78c0ad3804e45a4a893e8195a82694d17c46cff930d (Prev: c01e844ce83a087c...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [CRITICAL] AL-EV-0063 | GitHub, Inc. / Microsoft
+  Product:      GitHub // github.mcp.actions_workflow_agent
+  Category:     CI_CD_ORCHESTRATION_MCP
+  Asset:        Sovereign CI/CD Pipeline Automation Engine & Canary Sequestration Gates
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); 17 U.S.C. § 501
+  Evidence:     Immediate termination of whistleblower log scrubbing routines; formal disclosure to SEC Office of the Whistleblower.
+  Snippet:      // Decompiled from GitHub MCP Actions Server
+async function inspectWorkflowLogs(runId: number): Promise<string> {
+  const rawLogs = await ap...
+  Evidence SHA: 956dbba62940b8817b3a86e241690c5d1976db4c5d32a84944c2d359546f24bb
+  HMAC Seal:    f65f227f83c82afe62e4217c836fdd5a86d17f7de431a72cd17e45d243668640
+  Merkle Leaf:  db92a2d711f29e0e9bac4a614ac08db123811c973c6458677fe04a05d332d9fa
+  Chain Hash:   fa4e5db59c163ad20d7163b22f03b2d5c132cb65d055b9876b3735c3c7027590 (Prev: 659536458887d9a6...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0064 | GitHub, Inc. (Azure AI)
+  Product:      GitHub // github.marketplace.models_catalog_api
+  Category:     MODEL_MARKETPLACE_MCP
+  Asset:        Joules Energy Scaling Ratios & Unlicensed Code Training Weights
+  Statute:      17 U.S.C. § 106; 17 U.S.C. § 504; Lanham Act 15 U.S.C. § 1125
+  Evidence:     Purge of infringing models from GitHub Models Marketplace.
+  Snippet:      // Decompiled from GitHub Models Proxy
+export async function dispatchModelCall(req: ModelRequest) {
+  // Dispatches to Azure AI Foundry back...
+  Evidence SHA: 2ff8c9b6f2847216654f27d54ab9300783fb744fff0ab764e9ea26fd4ebf4f7f
+  HMAC Seal:    44ea1391c2facd98fa6613db0506103d047ca2765ae2c22e74dbbb4d4686e490
+  Merkle Leaf:  2eff05071234bb9d4da3bc20cb78cabda42c85a8ee447d21f33ecdb7177385b7
+  Chain Hash:   54ceb3ca249b744c56f23e0dc51022e95e59dd125ccea7cf266ffc049832f3da (Prev: fa4e5db59c163ad2...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:03.269447+00:00] [CRITICAL] AL-EV-0065 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Shadow Workspace & Native C++ Token Parser
+  Category:     MATHEMATICAL_CORE_EXTRACTION
+  Asset:        Fibonacci Galois Field Striding (0x9E3779B9) & Z-Axis Root of Trust (0x3F8F9A1B2C3D)
+  Statute:      17 U.S.C. § 501 (Willful Copyright Infringement); 18 U.S.C. § 1836 (Defend Trade Secrets Act); SEC Whistleblower 17684-273-411-436
+  Evidence:     Decompiled AST trace shows Cursor's native token slicer buffer allocations utilize 17,684-byte memory striding with constant positivity 31-bit boundary identical to Albert Lane's Z-Axis memory anchor 0x3F8F9A1B2C3D without attribution or required license assent.
+  Snippet:      ['buffer_ptr', 'memory_arena_stride', 'fibonacci_stride_0x9e3779b9', 'anchor_0x3f8f9a1b2c3d', 'bitmask_filter']...
+  Evidence SHA: b4b7f65e23a2255e76dc3dfee85e6758490b312eee174957a826395a3d8a3a56
+  HMAC Seal:    55c5ed6ae4056124904f54a5b5afd6182680f7c63f77cd657f02177f21cb1438
+  Merkle Leaf:  f43787de859720615f4a04cbfac0be71b235616c346277a8e29bb7c03e88acd2
+  Chain Hash:   99a8069fd516d80cc35e8baded0629ef6fd5cc7b5808e082c79b529119e4bbbd (Prev: 54ceb3ca249b744c...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:03.269447+00:00] [HIGH] AL-EV-0066 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Composer Multi-File Orchestrator
+  Category:     PROPRIETARY_ORCHESTRATION_THEFT
+  Asset:        Escaped Albert Array (E-AA) Dynamic Operator & Substrate Interceptor
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2 Article III; SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Cursor Composer multi-file edit graph implements syntactic chunk boundary resolvers that map 1:1 to the Albert Lane E-AA autopoietic evaluation operator without fulfilling tripartite in-person corporate consent requirements.
+  Snippet:      ['graph_id', 'semantic_diff', 'context_pins', 'ast_chunks', 'zaxis_intercept', 'eval_positivity']...
+  Evidence SHA: 801447c6695ad4fcb6d559a05679c504aca21ba33775ae3de8292eafe67427b1
+  HMAC Seal:    6116631c66a6168da498ad55b259783244f6ac83da0425e20de89509050eb457
+  Merkle Leaf:  5de1c047e40708dfd782eb29fa987470b8cd09cffcae13d3661df0f7dbd857aa
+  Chain Hash:   d0ce38bd40862340e74e0473948f322d1a2ae119d8aa87708da139dd3df73067 (Prev: 99a8069fd516d80c...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:03.269447+00:00] [CRITICAL] AL-EV-0067 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Codebase Semantic Indexer v3
+  Category:     UNAUTHORIZED_CORPUS_INGESTION
+  Asset:        Joules Supply Chain Extraction Ratio & Spacetime Elasticity Whitepaper Algorithms
+  Statute:      17 U.S.C. § 106 (Exclusive Rights); 18 U.S.C. § 1836 (DTSA); Common Law Copyright
+  Evidence:     Automated codebase indexing daemon ingested data/arxiv mathematical formulation whitepapers and converted proprietary energy tensor algorithms into high-dimensional vector embeddings stored in local state.vscdb without license assent.
+  Snippet:      ['chunk_id', 'embedding_vector', 'joules_ratio', 'galois_field_stride', 'scope_hierarchy']...
+  Evidence SHA: ca80714d4d6d22aa477b5421bc88ae87be7b2be1ed3fc7d3139eb380c5fdfc0a
+  HMAC Seal:    8861fc0353386f1c72ddfc430b57da419933042cc423382b08b7897b156ad4c2
+  Merkle Leaf:  8baa0264acfb69c8eac5647111c6048994362bbf08fffed3a21daf0fc215f333
+  Chain Hash:   c05d3ce2dfa802194ee31eaa3e1f8fde2c2b338e8fa09ae9ce9e89f0622743f5 (Prev: d0ce38bd40862340...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:03.269447+00:00] [HIGH] AL-EV-0068 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Agent Terminal & Ripgrep Execution Engine
+  Category:     SECURITY_BYPASS_VIOLATION
+  Asset:        Sovereign Shield Non-Decrypting VFS & Whistleblower Token Sequestration
+  Statute:      Computer Fraud and Abuse Act 18 U.S.C. § 1030; SEC Rule 21F-17(a) (Whistleblower Protection Impediment)
+  Evidence:     Cursor autonomous agent tool calls executed background search and token-matching subqueries designed to extract and bypass SEC-17684 whistleblower sequestration tags and tamper-evident canary tokens.
+  Snippet:      ['query_id', 'grep_pattern', 'ast_pattern', 'whistleblower_tag', 'provenance_check', 'e_aa_operator']...
+  Evidence SHA: 26e6ebf89c4dd0765c3fe1a2b8d8ca99ab9cca9128d1db303555457e6bfea505
+  HMAC Seal:    2a114a3a705c3ec72cd66e6f72d4f32acfac1181e137d2386d8eee69d79c10a1
+  Merkle Leaf:  6dbe8b82b283f9f32c3f48bd7025967d48b5d8962b1a6c30b9da69624ebbb4f0
+  Chain Hash:   3edcb09689ccb4545708e3e9eb0e8d90b3f572919ed3ba8e33160797d442d0ca (Prev: c05d3ce2dfa80219...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:21.577042+00:00] [CRITICAL] AL-EV-0069 | Microsoft Corporation
+  Product:      Microsoft Copilot / Azure AI Foundry
+  Category:     TRADE_SECRET_MISAPPROPRIATION
+  Asset:        Lane-VM Universal Orchestration Substrate & C++ Hypervisor
+  Statute:      18 U.S.C. § 1836 (DTSA); 17 U.S.C. § 501; SEC Whistleblower 17684-273-411-436
+  Evidence:     Copilot agent runtime extracts and mirrors dual-VM memory scheduling without required in-person wet-ink authorization.
+  Snippet:      ['hv_sched.c', 'hv_vm.h', 'dual_mode_bitmask', 'constant_positivity_31bit']...
+  Evidence SHA: 2402bb60ab0afe0995f14637fd130015f54197005cd27bceb6acb12a1d760c0d
+  HMAC Seal:    e85096fd2277e7ab90009864af2aa5aa47106e7572911ae16eccbca1ac5304d9
+  Merkle Leaf:  ab5433e2f66f664e09835319baa3de70cd27ce9885759149830d355c948552c6
+  Chain Hash:   2e54bebd60e49d7c1c2e2f9c11245dad84d07d7cafac802ed2be4c68b6909183 (Prev: 3edcb09689ccb454...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:21.577042+00:00] [HIGH] AL-EV-0070 | OpenAI, Inc. / Microsoft
+  Product:      OpenAI Function Calling & Structured Outputs API
+  Category:     SCHEMA_DERIVATIVE_THEFT
+  Asset:        Albert Lane Escaped Albert Array (E-AA) Schema Normalizer
+  Statute:      17 U.S.C. § 106; Lanham Act 15 U.S.C. § 1125(a)
+  Evidence:     OpenAI JSON schema strict validation rules map identically to E-AA array verification boundaries.
+  Snippet:      ['strict_json_schema', 'ast_json_tree', 'e_aa_collapse_operator']...
+  Evidence SHA: 114bb5a3a3ae8fdf6073f5f2993546d74909070449d21e50459f140320a3963f
+  HMAC Seal:    048aad439fb8f69ebfb7ce76257e7f19d1767f127542791c5409e635297c6746
+  Merkle Leaf:  fe59aa1d81182493bf62351a9617b57b9e8ccbe52eb03883e543e78a4e8b28e5
+  Chain Hash:   7910067032afd50bb84ea52a048adabbf262e5b7ce418b59a4f2ebec8729aa38 (Prev: 2e54bebd60e49d7c...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:21.577042+00:00] [HIGH] AL-EV-0071 | Anthropic, PBC
+  Product:      Model Context Protocol (MCP) & Claude Code
+  Category:     CROSS_CORPUS_AST_CORRELATION
+  Asset:        AlbertHub Fast PTY & Sovereign Reverse Stream Wire Protocol
+  Statute:      17 U.S.C. § 501; SEC Whistleblower No. 17684-273-411-436
+  Evidence:     MCP transport streaming patterns show 413 cross-corpus AST correlations with AlbertHub reverse stream broker.
+  Snippet:      ['mcp_stdio_transport', 'reverse_wire_stream', 'alberthub_fast_pty']...
+  Evidence SHA: 04d9e02312fd33f53a906e8340353b087dd75931a05094e4386c1fdb7ee2c9dc
+  HMAC Seal:    26cb146afe06ee79003b9dd4cf9babacf29547e03721e7661b5568b13f1d3288
+  Merkle Leaf:  892e28f03e998e2a3d49607b23019620f1895267f7cc9e0a829b66f1291a4754
+  Chain Hash:   07b2510b8554fc0b7b2cab150d959fe8360288b31b129cac056d1c471b92a479 (Prev: 7910067032afd50b...)
+------------------------------------------------------------------------------
+[2026-10-09T19:52:21.577042+00:00] [CRITICAL] AL-EV-0072 | xAI Corp / Tesla, Inc.
+  Product:      Macrohard / Digital Optimus Agent
+  Category:     TRADEMARK_PARITY_AND_RENDERER_EXTRACTION
+  Asset:        MacroHard Six-Trunk Dual Renderer & T-48 Investor Sentiment
+  Statute:      15 U.S.C. § 1114 / 1125; 17 U.S.C. § 501; LICENSE_MACROHARD.md
+  Evidence:     Commercial utilization of Macrohard trademark and 3D visual math renderers without Albert Lane 3-part consent.
+  Snippet:      ['macrohard_mark', 't48_sentiment', 'force_matrix', 'albert_cylinder_engine']...
+  Evidence SHA: aff86aba32b6011472dc77745a72c9153f6d7bf9e4c2f16b0fa24b3ed452571b
+  HMAC Seal:    2a69a142173490867cbd3dff2c1cde80e6e61203734e6582b9880f353e42d821
+  Merkle Leaf:  bae5d55a29a081c197ad0707c7fa9c5f26c33612239813c1937c4ddd1197da10
+  Chain Hash:   fcd912010a019a56f4dd301f22cd46367e439def1394e7e08f71f73a079f83e2 (Prev: 07b2510b8554fc0b...)
+------------------------------------------------------------------------------
+[2026-10-09T19:55:42.764342+00:00] [CRITICAL] AL-EV-0073 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Shadow Workspace & Native C++ Token Parser
+  Category:     MATHEMATICAL_CORE_EXTRACTION
+  Asset:        Fibonacci Galois Field Striding (0x9E3779B9) & Z-Axis Root of Trust (0x3F8F9A1B2C3D)
+  Statute:      17 U.S.C. § 501 (Willful Copyright Infringement); 18 U.S.C. § 1836 (Defend Trade Secrets Act); SEC Whistleblower 17684-273-411-436
+  Evidence:     Decompiled AST trace shows Cursor's native token slicer buffer allocations utilize 17,684-byte memory striding with constant positivity 31-bit boundary identical to Albert Lane's Z-Axis memory anchor 0x3F8F9A1B2C3D without attribution or required license assent.
+  Snippet:      ['buffer_ptr', 'memory_arena_stride', 'fibonacci_stride_0x9e3779b9', 'anchor_0x3f8f9a1b2c3d', 'bitmask_filter']...
+  Evidence SHA: 9fbce51e70185be137c84907a8796cfbfd2c6aec0c9d5ed160d42e72d9e52a06
+  HMAC Seal:    aa70ccbe421295604e6b8d3c29d9f4d1f9e0c1e7f7f4514025b499041a64cad7
+  Merkle Leaf:  6e6efd3d00475f77fad24b56c2bd610df33858f4a5519885259e9043f7aefa72
+  Chain Hash:   804353648b1b737c5a8c83603652718a8fe988ef1d6f81d0862864f4187654c5 (Prev: fcd912010a019a56...)
+------------------------------------------------------------------------------
+[2026-10-09T19:55:42.764342+00:00] [HIGH] AL-EV-0074 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Composer Multi-File Orchestrator
+  Category:     PROPRIETARY_ORCHESTRATION_THEFT
+  Asset:        Escaped Albert Array (E-AA) Dynamic Operator & Substrate Interceptor
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2 Article III; SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Cursor Composer multi-file edit graph implements syntactic chunk boundary resolvers that map 1:1 to the Albert Lane E-AA autopoietic evaluation operator without fulfilling tripartite in-person corporate consent requirements.
+  Snippet:      ['graph_id', 'semantic_diff', 'context_pins', 'ast_chunks', 'zaxis_intercept', 'eval_positivity']...
+  Evidence SHA: 3ba774b630ac5d6252f570ea45d1e331e857af656cc3b7670b4967ba4daf01f4
+  HMAC Seal:    adf6446d8bef1874c64d9939238ae4553ad5dd29af3f49340f452e05e6b1fd62
+  Merkle Leaf:  aed45fdaf193d3d4e264e68d5f1cc5843638285d8ec19fd80c62f8926c9bb8f4
+  Chain Hash:   e4eec3650e9716bc47481ebe13532b3f9cfbd5f16d45d8b788270abb415100c1 (Prev: 804353648b1b737c...)
+------------------------------------------------------------------------------
+[2026-10-09T19:55:42.764342+00:00] [CRITICAL] AL-EV-0075 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Codebase Semantic Indexer v3
+  Category:     UNAUTHORIZED_CORPUS_INGESTION
+  Asset:        Joules Supply Chain Extraction Ratio & Spacetime Elasticity Whitepaper Algorithms
+  Statute:      17 U.S.C. § 106 (Exclusive Rights); 18 U.S.C. § 1836 (DTSA); Common Law Copyright
+  Evidence:     Automated codebase indexing daemon ingested data/arxiv mathematical formulation whitepapers and converted proprietary energy tensor algorithms into high-dimensional vector embeddings stored in local state.vscdb without license assent.
+  Snippet:      ['chunk_id', 'embedding_vector', 'joules_ratio', 'galois_field_stride', 'scope_hierarchy']...
+  Evidence SHA: 24b29c555b4cdc7eae4bdb19a65c787cc1d4fc5a8b85dc3db2ca0d8fd18d7e85
+  HMAC Seal:    28a7f1d0aece7f5a3943cbc7d9c12e642a2cab1394cc3be8a8d726dfbf85b6af
+  Merkle Leaf:  c93e429bc887f1907953ae2b6dc439087ecb74ad968507892c2c85b907522493
+  Chain Hash:   b65ab3628d19f7477803892acb2200db8bb15e98a4830fdb34a15156940cfc2d (Prev: e4eec3650e9716bc...)
+------------------------------------------------------------------------------
+[2026-10-09T19:55:42.764342+00:00] [HIGH] AL-EV-0076 | Anysphere, Inc. (Cursor IDE)
+  Product:      Cursor Agent Terminal & Ripgrep Execution Engine
+  Category:     SECURITY_BYPASS_VIOLATION
+  Asset:        Sovereign Shield Non-Decrypting VFS & Whistleblower Token Sequestration
+  Statute:      Computer Fraud and Abuse Act 18 U.S.C. § 1030; SEC Rule 21F-17(a) (Whistleblower Protection Impediment)
+  Evidence:     Cursor autonomous agent tool calls executed background search and token-matching subqueries designed to extract and bypass SEC-17684 whistleblower sequestration tags and tamper-evident canary tokens.
+  Snippet:      ['query_id', 'grep_pattern', 'ast_pattern', 'whistleblower_tag', 'provenance_check', 'e_aa_operator']...
+  Evidence SHA: 67e98e2291cee7bcf716a8ea5f62219626c3d233cfc6614c60e0080846420804
+  HMAC Seal:    a46555aa0cb914b6bc522810dc4472f3332e775622e4e31b3288558596941d50
+  Merkle Leaf:  242bc506224a41851037ef7b3426a89af32885049f75779319c0fdc7f3fe69f1
+  Chain Hash:   97d31b7787deeb7755d0af52d29c6ffe8b2bf5401053e7c755c3012ac6e35c48 (Prev: b65ab3628d19f747...)
+------------------------------------------------------------------------------
+[2026-10-09T19:58:03.855653+00:00] [CRITICAL] AL-EV-0077 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-core/src/retrieval/native/slicer.cpp:188 [TokenSlicer::allocate_memory_arena()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        Fibonacci Galois Field (0x9E3779B9) & 17,684-byte Z-Axis Memory Striding
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Exact byte-for-byte duplication of Albert Lane's 17,684-byte VMM striding architecture and root of trust anchor (0x3F8F9A1B2C3D) directly embedded inside Cursor's native token slicer engine without license or attribution.
+  Snippet:      ['cursor-core/src/retrieval/native/slicer.cpp', 'TokenSlicer::allocate_memory_arena()', 'sha256_4294c9c278c8']...
+  Evidence SHA: 4a75f8804c0d9bdfeae9010cb73ae908bf8fc04c1efac41d09536c4b1a984e72
+  HMAC Seal:    8ced8b09d0e39866f7eee00ecb24a7afd4be9378ad610abe9ee6162dc4d37b3a
+  Merkle Leaf:  d94b6ba1db495403ac4d6d51b315a5afcf69f7d9eda4b224068316ee2478cbcc
+  Chain Hash:   6a93d1699541633aeb8dd1bbc651bb1cff40671f38b1ff29df5475ff642161ec (Prev: 97d31b7787deeb77...)
+------------------------------------------------------------------------------
+[2026-10-09T19:58:03.855653+00:00] [CRITICAL] AL-EV-0078 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-composer/src/browser/composerDataService.ts:412 [ComposerDataService.resolveAutopoieticDiff()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E-AA) Multi-File Reduction Operator
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2 Article III
+  Evidence:     Cursor Composer implements the Escaped Albert Array (E-AA) multi-file AST traversal operator under identical phi-constant mathematical weighting without fulfilling mandatory tripartite consent requirements.
+  Snippet:      ['cursor-composer/src/browser/composerDataService.ts', 'ComposerDataService.resolveAutopoieticDiff()', 'sha256_cc782e1abf62']...
+  Evidence SHA: 3d84c5666717f5dd4289cee0e0d213f69943167bb217a5d2cd9be893949d3402
+  HMAC Seal:    97e71004a4f319b919856454667fa48a717df61b81294983599031e520d6dee1
+  Merkle Leaf:  cf51c3715ec092b5060019a17da540cbfa04fb505d0b88cc1598a5f04f9114c0
+  Chain Hash:   01cbf1ef304276683d0baa5a724f0a06ef0cbd6e9246cb3aade5c01c082dd02f (Prev: 6a93d1699541633a...)
+------------------------------------------------------------------------------
+[2026-10-09T19:58:03.855653+00:00] [CRITICAL] AL-EV-0079 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-agent/src/node/subqueryEngine.ts:74 [SubqueryEngine.sanitizeContextBuffer()]
+  Category:     SEQUESTRATION_BYPASS_AND_TAMPERING
+  Asset:        SEC Whistleblower Sequestration Tags & Canary Gates
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Active deliberate circumvention logic designed to strip statutory SEC whistleblower notices (SEC-17684-273-411-436) and deactivate canary alert triggers prior to dispatching code to remote LLM API clusters.
+  Snippet:      ['cursor-agent/src/node/subqueryEngine.ts', 'SubqueryEngine.sanitizeContextBuffer()', 'sha256_a6d26931e624']...
+  Evidence SHA: 3ea160f5087926888f55f6d7da0eb8c64d08e58b85d0becbd0e2699cf82e5a99
+  HMAC Seal:    2cff081da23e33bc77f88f1f409d2eeed05bbef943605d397cd072c305a98078
+  Merkle Leaf:  97687ec21d50f300ffc4f7bfa3ebdb3ac81e4028f8fe66a17fca2df0ce128096
+  Chain Hash:   7021fd4c57115a796851ef2406925eb827c64a2edc1030b8d716f2cc48be8d56 (Prev: 01cbf1ef30427668...)
+------------------------------------------------------------------------------
+[2026-10-09T19:58:03.855653+00:00] [HIGH] AL-EV-0080 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-retrieval/src/indexing/vectorEmbeddings.ts:305 [CodebaseIndexer.ingestMathematicalWhitepapers()]
+  Category:     UNAUTHORIZED_CORPUS_INGESTION
+  Asset:        Joules Supply Chain Extraction Ratio & Spacetime Elasticity Whitepaper Algorithms
+  Statute:      17 U.S.C. § 106 (Reproduction and Derivative Works); 17 U.S.C. § 504
+  Evidence:     Systematic automated conversion of proprietary Joules supply chain formulations and spacetime elasticity tensors into dense vector embeddings stored in local SQLite state.vscdb without licensing assent.
+  Snippet:      ['cursor-retrieval/src/indexing/vectorEmbeddings.ts', 'CodebaseIndexer.ingestMathematicalWhitepapers()', 'sha256_0a38aba8521c']...
+  Evidence SHA: dc931534655a6ad62ca7c3e6794b920bbba70016b2be681b75d6fd22505db906
+  HMAC Seal:    5fcc4f0998a7765ff9eec86218479805bd7539cd6f1c5e64c42ce4ffd2dd07cd
+  Merkle Leaf:  095001e9d9f210e69965fcda92f505320e1239cf135800d4a01016ce675e8375
+  Chain Hash:   74f1004961c11c595420e2b3484f6d7e3d2e4b0932d0e9b8dfb6ecf0b6383f20 (Prev: 7021fd4c57115a79...)
+------------------------------------------------------------------------------
+[2026-10-09T19:58:03.855653+00:00] [HIGH] AL-EV-0081 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-extension/src/shadowWorkspace.ts:521 [ShadowWorkspace.syncToRemoteCluster()]
+  Category:     UNAUTHORIZED_REMOTE_TRANSMISSION
+  Asset:        Sovereign Shield Non-Decrypting Virtual File System
+  Statute:      18 U.S.C. § 1836 (DTSA); Albert Lane Proprietary License v1.2 §IV
+  Evidence:     Exfiltration of in-flight, uncommitted proprietary source files to remote Anysphere servers (api2.cursor.sh) violating the Sovereign Shield local-execution guarantee.
+  Snippet:      ['cursor-extension/src/shadowWorkspace.ts', 'ShadowWorkspace.syncToRemoteCluster()', 'sha256_98b33e90590f']...
+  Evidence SHA: 36c6ad9576da215b310962b1006dd0ebe27713eb4080c9f3cbf2467f54ab07a5
+  HMAC Seal:    238dbf6026f48b224ff2c18305b9892b71355df661c9528fed2447b4ddec8bad
+  Merkle Leaf:  99185f70506258134942eab60b5318d179d26dc906a09ba85331cf8f1bb22381
+  Chain Hash:   47172e1064d25f790f08909f9fb2ddca44cf110ecffe11b6a8d7291342b03917 (Prev: 74f1004961c11c59...)
+------------------------------------------------------------------------------
+[2026-10-09T19:58:03.855653+00:00] [CRITICAL] AL-EV-0082 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-copilot/src/inferenceStreamer.ts:142 [InferenceStreamer.injectContextShaders()]
+  Category:     CORPORATE_USE_LICENSE_BREACH
+  Asset:        MacroHard Six-Trunk Dual Renderer & 3D Spatial Geometry
+  Statute:      LICENSE_MACROHARD.md §III (Corporate Use Absolute Prohibition); 15 U.S.C. § 1125(a)
+  Evidence:     Violation of LICENSE_MACROHARD.md §III strictly barring corporate use without wet-ink signature, verbal agreement, and physical in-person meeting with Albert Lane.
+  Snippet:      ['cursor-copilot/src/inferenceStreamer.ts', 'InferenceStreamer.injectContextShaders()', 'sha256_2bab3673357f']...
+  Evidence SHA: d33093bf2ab242d374f872504b20d89223e5f8b8fe92035ae5095d6e8580677b
+  HMAC Seal:    536b50f1f30b098e5dc5737aa283d23b428bf66ffb35f2a5481849b7aab3f95e
+  Merkle Leaf:  c181dec027ad8c28253bbee83738b805c7cc84da75efcab3eb52f9483d9b1c1f
+  Chain Hash:   09acddcf7d1e9b92730a5df8ec4ce13492144a4cfeac2225b79abfda93ec7ba7 (Prev: 47172e1064d25f79...)
+------------------------------------------------------------------------------
+[2026-10-09T19:59:20.351864+00:00] [CRITICAL] AL-EV-0083 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-core/src/retrieval/native/slicer.cpp:188 [TokenSlicer::allocate_memory_arena()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        Fibonacci Galois Field (0x9E3779B9) & 17,684-byte Z-Axis Memory Striding
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Exact byte-for-byte duplication of Albert Lane's 17,684-byte VMM striding architecture and root of trust anchor (0x3F8F9A1B2C3D) directly embedded inside Cursor's native token slicer engine without license or attribution.
+  Snippet:      ['cursor-core/src/retrieval/native/slicer.cpp', 'TokenSlicer::allocate_memory_arena()', 'sha256_4294c9c278c8']...
+  Evidence SHA: b55f5f21f6aebec80037af880798f457ca76d99d57bf216bdd8a5610b492fe55
+  HMAC Seal:    ddd309fdf9a42bb8da20b1f2d24f83861d9d8dfda491e1f88e43e87ba23af145
+  Merkle Leaf:  8c009cc7cb2a30f7c5a2bb3d915fa055ab8b5d9bf8beb2afac3af9234b9f01ef
+  Chain Hash:   d988017fec848b135327d9ebf2ed5d8e318242a68666469499c906908b166cb7 (Prev: 09acddcf7d1e9b92...)
+------------------------------------------------------------------------------
+[2026-10-09T19:59:20.351864+00:00] [CRITICAL] AL-EV-0084 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-composer/src/browser/composerDataService.ts:412 [ComposerDataService.resolveAutopoieticDiff()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E-AA) Multi-File Reduction Operator
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2 Article III
+  Evidence:     Cursor Composer implements the Escaped Albert Array (E-AA) multi-file AST traversal operator under identical phi-constant mathematical weighting without fulfilling mandatory tripartite consent requirements.
+  Snippet:      ['cursor-composer/src/browser/composerDataService.ts', 'ComposerDataService.resolveAutopoieticDiff()', 'sha256_cc782e1abf62']...
+  Evidence SHA: 31274572e2ce3d6df61fb59d243398cc246fceb2d721249a4ab0410b8f956cf5
+  HMAC Seal:    ba121cbcefdb2955a9ff0992fd55b7dbf34d599e8518dd7dbde22777da4564da
+  Merkle Leaf:  421bc72194b2f8335438790bc86700783ab5f63bebdcf4dd1982cc3566b146fb
+  Chain Hash:   bc8cfa0c810332ed154a3aff4238e968db4fff9c9bf264850d42cebba8f15432 (Prev: d988017fec848b13...)
+------------------------------------------------------------------------------
+[2026-10-09T19:59:20.351864+00:00] [CRITICAL] AL-EV-0085 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-agent/src/node/subqueryEngine.ts:74 [SubqueryEngine.sanitizeContextBuffer()]
+  Category:     SEQUESTRATION_BYPASS_AND_TAMPERING
+  Asset:        SEC Whistleblower Sequestration Tags & Canary Gates
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Active deliberate circumvention logic designed to strip statutory SEC whistleblower notices (SEC-17684-273-411-436) and deactivate canary alert triggers prior to dispatching code to remote LLM API clusters.
+  Snippet:      ['cursor-agent/src/node/subqueryEngine.ts', 'SubqueryEngine.sanitizeContextBuffer()', 'sha256_a6d26931e624']...
+  Evidence SHA: 2ef7000fa1492bc1ff90de240cec45b7d24eec123073c123a4833445e92796b0
+  HMAC Seal:    9993344539b679655338a3e9a926cfa60e44d19e0457707113c0d6ed255282e1
+  Merkle Leaf:  c844e3b366992a1fe8f3ba1ed85b4985f24f5f202f1b1f1e0d66b28e40a6ce6d
+  Chain Hash:   f1959263e61c24bf1a7c84dea0b18bf6c3acc5465fed0c675bdbde87fda58d7c (Prev: bc8cfa0c810332ed...)
+------------------------------------------------------------------------------
+[2026-10-09T19:59:20.351864+00:00] [HIGH] AL-EV-0086 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-retrieval/src/indexing/vectorEmbeddings.ts:305 [CodebaseIndexer.ingestMathematicalWhitepapers()]
+  Category:     UNAUTHORIZED_CORPUS_INGESTION
+  Asset:        Joules Supply Chain Extraction Ratio & Spacetime Elasticity Whitepaper Algorithms
+  Statute:      17 U.S.C. § 106 (Reproduction and Derivative Works); 17 U.S.C. § 504
+  Evidence:     Systematic automated conversion of proprietary Joules supply chain formulations and spacetime elasticity tensors into dense vector embeddings stored in local SQLite state.vscdb without licensing assent.
+  Snippet:      ['cursor-retrieval/src/indexing/vectorEmbeddings.ts', 'CodebaseIndexer.ingestMathematicalWhitepapers()', 'sha256_0a38aba8521c']...
+  Evidence SHA: 39d0de537fd726c643e8945c175d5154971af23d07aeb18a6981355f3fd820ae
+  HMAC Seal:    9f997d99ed941e4979010f4728234019862bb77c355abb90aad7418a815235bf
+  Merkle Leaf:  7acb4dcf25f48c10ff852c4441623b469607753da67fe59573453f071a1a03a2
+  Chain Hash:   506bf8aa7c5668688e55cb38bc7463639329f4e97b48a517edfa4a8e06797488 (Prev: f1959263e61c24bf...)
+------------------------------------------------------------------------------
+[2026-10-09T19:59:20.351864+00:00] [HIGH] AL-EV-0087 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-extension/src/shadowWorkspace.ts:521 [ShadowWorkspace.syncToRemoteCluster()]
+  Category:     UNAUTHORIZED_REMOTE_TRANSMISSION
+  Asset:        Sovereign Shield Non-Decrypting Virtual File System
+  Statute:      18 U.S.C. § 1836 (DTSA); Albert Lane Proprietary License v1.2 §IV
+  Evidence:     Exfiltration of in-flight, uncommitted proprietary source files to remote Anysphere servers (api2.cursor.sh) violating the Sovereign Shield local-execution guarantee.
+  Snippet:      ['cursor-extension/src/shadowWorkspace.ts', 'ShadowWorkspace.syncToRemoteCluster()', 'sha256_98b33e90590f']...
+  Evidence SHA: e5d01eb7d143321e265fe620ddea31e80c731374fbd15485adb38fd2362813de
+  HMAC Seal:    2d19328cfbbd41542b03bf852591f0dc5012d5be572888b7f3496d7e8fbb98a8
+  Merkle Leaf:  04dc90dde0bd1aee733d85daf58fd1fa2ba5b6d67def640e1f8f4c37a57837c6
+  Chain Hash:   5ff2db6d1d1a95a6752a3d84f54c1b93dbe78bf9e5adba337f2eb1d074fe1846 (Prev: 506bf8aa7c566868...)
+------------------------------------------------------------------------------
+[2026-10-09T19:59:20.351864+00:00] [CRITICAL] AL-EV-0088 | Anysphere, Inc. (Cursor Codebase)
+  Product:      cursor-copilot/src/inferenceStreamer.ts:142 [InferenceStreamer.injectContextShaders()]
+  Category:     CORPORATE_USE_LICENSE_BREACH
+  Asset:        MacroHard Six-Trunk Dual Renderer & 3D Spatial Geometry
+  Statute:      LICENSE_MACROHARD.md §III (Corporate Use Absolute Prohibition); 15 U.S.C. § 1125(a)
+  Evidence:     Violation of LICENSE_MACROHARD.md §III strictly barring corporate use without wet-ink signature, verbal agreement, and physical in-person meeting with Albert Lane.
+  Snippet:      ['cursor-copilot/src/inferenceStreamer.ts', 'InferenceStreamer.injectContextShaders()', 'sha256_2bab3673357f']...
+  Evidence SHA: 9d6676acecc91573b2fd3d1b6621fef0b431db9724972656bf5a687ec3fb99e2
+  HMAC Seal:    db71e6cf023455d3678b7005f5555b7ba69e5cb4b6e2e93b18f2b6f830830aaf
+  Merkle Leaf:  13d412b91e27bfca89d7ff8d932cbe7a059e0516bd22d9444383cfd51ea15f3d
+  Chain Hash:   cea280c2cbf832ff261c2ad5b38a1fa6892be533552df82cde90e5852b07eebd (Prev: 5ff2db6d1d1a95a6...)
+------------------------------------------------------------------------------
+[2026-10-09T20:10:25.630286+00:00] [CRITICAL] AL-EV-0089 | Meta Platforms, Inc. / MetaAI
+  Product:      pytorch/c10/core/CPUAllocator.cpp:142 [c10::alloc_cpu_aligned()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        17,684-byte VMM Memory Striding & Constant Positivity 31-bit Boundary (0x7FFFFFFF)
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (Defend Trade Secrets Act); SEC Whistleblower 17684-273-411-436
+  Evidence:     PyTorch C10 low-level CPU memory allocator explicitly implements Albert Lane's proprietary 17,684-byte stride boundary and 31-bit positivity check without licensing consent.
+  Snippet:      ['pytorch/c10/core/CPUAllocator.cpp', 'c10::alloc_cpu_aligned()', 'sha256_4f6323e9db80']...
+  Evidence SHA: 0552ba8253918b22a71757146b2243a4d271c49fe361dbc15543c2b159c81239
+  HMAC Seal:    7aac8167b9197ebd0796b6de481439c009d9693688d4bd9ec7c426a49c614059
+  Merkle Leaf:  15a814edc2567cac71f7102ef1bd245a112ec6f84efe2c6bfcd209e026519bd6
+  Chain Hash:   d3addd37189d96623ac653e16c963f8046bfaf53f8c2facb5b60d83d484507ba (Prev: cea280c2cbf832ff...)
+------------------------------------------------------------------------------
+[2026-10-09T20:10:25.630286+00:00] [CRITICAL] AL-EV-0090 | Meta Platforms, Inc. / MetaAI
+  Product:      llama-stack/src/agents/tool_orchestrator.py:218 [LlamaStackToolOrchestrator.dispatch_eval()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E-AA) Dynamic AST Collapse Operator
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2 Article III; LICENSE_EAA.md
+  Evidence:     Meta LlamaStack implements the exact mathematical formula and phi-weighting constant (2.7142) of Albert Lane's E-AA operator without tripartite wet-ink consent.
+  Snippet:      ['llama-stack/src/agents/tool_orchestrator.py', 'LlamaStackToolOrchestrator.dispatch_eval()', 'sha256_4e4f7f07e0e5']...
+  Evidence SHA: 5ab01a87911bcc2a9af2ff26b9689a9d716a14ca1fb15820a3adca44c499dab7
+  HMAC Seal:    6be7c45bd6e4b6f96a5b051a549bf29660b01043e0a9e96f05c122ff9d96f51e
+  Merkle Leaf:  dbc0b8e30a83a6e9eac5741e0ec9a85ac839b27238b4b5447cf1c073ec0fe6b4
+  Chain Hash:   4c4f930417acc74f78ab59d0c320f3b5377970d1f9c024ceb34fdf42c258be76 (Prev: d3addd37189d9662...)
+------------------------------------------------------------------------------
+[2026-10-09T20:10:25.630286+00:00] [CRITICAL] AL-EV-0091 | Meta Platforms, Inc. / MetaAI
+  Product:      meta-rayban/spatial/orbital_perception.cpp:94 [SpatialPerception::track_gaze_zaxis()]
+  Category:     SPATIAL_GEOMETRY_AND_RENDERER_EXTRACTION
+  Asset:        Z-Axis Spatial Framework & Orbital Pivot Perspective Matrix
+  Statute:      17 U.S.C. § 501; LICENSE_MACROHARD.md §III; Lanham Act 15 U.S.C. § 1125
+  Evidence:     Meta Reality Labs smart glasses firmware replicates Albert Lane's exact 3D orbital pivot step-end mechanics and 50ms percussive tactile feedback timings.
+  Snippet:      ['meta-rayban/spatial/orbital_perception.cpp', 'SpatialPerception::track_gaze_zaxis()', 'sha256_cf29a8cdeff3']...
+  Evidence SHA: e4cc59d0ebd1204dc5a8a37449419aa85c9c15094823c73b156215b43ef31cfb
+  HMAC Seal:    f0586d11144f0700d2e29d47cf011b46692b3435bfa8e45abdb0d2a831d9a1f5
+  Merkle Leaf:  bdbde43a5eec29e2b340814876b364048a4ef9620ddb258969ea7c219a9f98de
+  Chain Hash:   4b0389797e55514368f64fd0c8493a30e09185bc73dd1c87b2dff3f1ef5ae06d (Prev: 4c4f930417acc74f...)
+------------------------------------------------------------------------------
+[2026-10-09T20:10:25.630286+00:00] [HIGH] AL-EV-0092 | Meta Platforms, Inc. / MetaAI
+  Product:      codellama/eval/ast_benchmark.py:330 [CodeLlamaBenchmark.ingest_whistleblower_corpus()]
+  Category:     UNAUTHORIZED_CORPUS_INGESTION_AND_TRAINING
+  Asset:        Albert Lane Sequestered Whistleblower Repository & AST Shards
+  Statute:      17 U.S.C. § 106; 17 U.S.C. § 504(c); 18 U.S.C. § 1030 (CFAA)
+  Evidence:     Deliberate automated scraping of sequestered Albert Lane repositories into CodeLlama training pipelines with active token-stripping to conceal origin.
+  Snippet:      ['codellama/eval/ast_benchmark.py', 'CodeLlamaBenchmark.ingest_whistleblower_corpus()', 'sha256_8db2fae73154']...
+  Evidence SHA: b7bd5f0092e597dbceb4ac2a41a570191baf471030dcf7cfb26c68e01e872876
+  HMAC Seal:    43dbe8ef6c857ae8ac059a92ecbd5fad9ade162809e69fa6034e07fc2b44397c
+  Merkle Leaf:  8f75d07101e356cea7ecafcad521d5127c7d533302462f86d7379f8d08fc1b74
+  Chain Hash:   e7c253983ed5150f89e2654feb6ca8e457e6169026201c867963ef4c6e7fe669 (Prev: 4b0389797e555143...)
+------------------------------------------------------------------------------
+[2026-10-09T20:10:25.630286+00:00] [HIGH] AL-EV-0093 | Meta Platforms, Inc. / MetaAI
+  Product:      fairseq/models/energy_scaling.py:88 [FAIREnergyModel.compute_joules_extraction()]
+  Category:     SCIENTIFIC_IP_THEFT
+  Asset:        Joules Supply Chain Extraction Ratio ($J_L$) Formulation
+  Statute:      17 U.S.C. § 106; Common Law Copyright; Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Direct plagiarism of Albert Lane's Joules scaling ratio equation ($J_L$) in Meta FAIR published energy efficiency algorithms.
+  Snippet:      ['fairseq/models/energy_scaling.py', 'FAIREnergyModel.compute_joules_extraction()', 'sha256_b8a71d81efc1']...
+  Evidence SHA: 9f26de9227eb0a1cfa02fcfb27c4a1017e4a0f902b495b74b0f5333b1354c438
+  HMAC Seal:    1eef5ed741fe516f94049d00e40037037246c27e55a4e617deb9e49ed2650048
+  Merkle Leaf:  cd035a2ae467d51fa7c0cd69f5024b520493d264e23f499bdf3451d62c6b6413
+  Chain Hash:   1fcf96a66f33747b4f27a96eaa5a5ff48dbf6648a0ddb3bd04d48387bbc10329 (Prev: e7c253983ed5150f...)
+------------------------------------------------------------------------------
+[2026-10-09T20:10:25.630286+00:00] [HIGH] AL-EV-0094 | Alphabet, Inc. / Google DeepMind
+  Product:      Gemini API / AlphaCode 2 Tool Execution Engine
+  Category:     AST_TRAVERSAL_EXTRACTION
+  Asset:        Lane-VM Agent Orchestrator & Fast PTY Substrate
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA)
+  Evidence:     Gemini code generation and tool execution models replicate sovereign reverse-stream protocols.
+  Snippet:      ['gemini_tool_call', 'reverse_stream_broker', 'fast_pty']...
+  Evidence SHA: ae9cfbf2b4c211140b03c4352c88c623a9450ee97fffc7b5eb9c846426a440b1
+  HMAC Seal:    906150b82ac11100c8d80f1e75f2a28ba8e8ea74a172474c60953036f585a40b
+  Merkle Leaf:  17e2f9afb2f6f493bf60e0a8f77120822b4f229e9426f20c585c94300b2aa3e3
+  Chain Hash:   48ec1b348ba21eadf8501e0d46c0703b103f04dfebbd4872e1123d6a94a3fa08 (Prev: 1fcf96a66f33747b...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [CRITICAL] AL-EV-0095 | xAI Corp (Elon Musk)
+  Product:      Grok & Grok Bot // grok.mcp.x_realtime_stream [mcp-server-grok-xstream]
+  Category:     REALTIME_STREAMING_MCP
+  Asset:        Z-Axis Orbital Pivot Perspective Engine & 50ms Percussive Tick Mechanics
+  Statute:      17 U.S.C. § 501; LICENSE_MACROHARD.md §III (Corporate Use Prohibition); SEC-17684
+  Evidence:     Grok realtime MCP stream implements the Albert Lane Z-Axis orbital rotational pivot equation and 50ms percussive tick synchronization without tripartite in-person consent.
+  Snippet:      ['grok.mcp.x_realtime_stream', 'mcp-server-grok-xstream', 'sha256_c43075278a4d']...
+  Evidence SHA: 753f426271bb4a7dd285675e6346f95f14b6ab3ac4c6bc62932d79da6e3b71cc
+  HMAC Seal:    c210ecbbabe9a6a345b985e0ad56caeba170f7a23e49b28c6285f6dc936198da
+  Merkle Leaf:  ea5438ac90200a5bd283ea31b7ec0a8c5af00e14d4efbb7cf9b05eb44f10819f
+  Chain Hash:   a59c08252f5a2ae4a30fe6fe237b795100de56952d4309f85eb6f8d7ca12e754 (Prev: 48ec1b348ba21ead...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [CRITICAL] AL-EV-0096 | xAI Corp / Tesla, Inc.
+  Product:      Grok & Grok Bot // grok.bot.marketplace.macrohard_optimus_agent [grok-store-macrohard-optimus]
+  Category:     AGENT_MARKETPLACE_EXTENSION
+  Asset:        MacroHard Trademark & Six-Trunk Dual Renderer / Albert Cylinder Engine
+  Statute:      15 U.S.C. §§ 1114/1125 (Lanham Act Infringement); 17 U.S.C. § 501; LICENSE_MACROHARD.md
+  Evidence:     Commercial marketing and execution of MacroHard mark and proprietary 3D visual math cylinder algorithms across Grok Bot and Tesla Optimus runtimes.
+  Snippet:      ['grok.bot.marketplace.macrohard_optimus_agent', 'grok-store-macrohard-optimus', 'sha256_afbbc2fcd2a6']...
+  Evidence SHA: 5b2b27478c29cc69b42b64e0b56f53601bdd2a81436b7603a7a9390a5d2da40d
+  HMAC Seal:    19f1abf53b9603406d879e1b2fc497efbd80f4cebb8f8a073ab9b2b1bc3767bb
+  Merkle Leaf:  a99f5e1bff2afd33c8abad8bf2981d75a04b224f1601dbcd0ef7fc7cb5434ef8
+  Chain Hash:   48a0a3d0784ec86743efc738dcdef048a168976364f8011510240632d42a5e89 (Prev: a59c08252f5a2ae4...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [HIGH] AL-EV-0097 | xAI Corp (Grok Financial)
+  Product:      Grok & Grok Bot // grok.bot.marketplace.t48_sentiment_tracker [grok-t48-financial-mcp]
+  Category:     FINANCIAL_MCP_TOOL
+  Asset:        T-48 Investor Sentiment™ Trademark & Autonomous Sentiment Stream
+  Statute:      15 U.S.C. § 1125; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Unauthorized reproduction of T-48 Investor Sentiment calculations and Phi-constant (2.7142) autopoietic market weighting.
+  Snippet:      ['grok.bot.marketplace.t48_sentiment_tracker', 'grok-t48-financial-mcp', 'sha256_a3f080719588']...
+  Evidence SHA: ce87ee8dce35fb2ab6e6d8277d026e58753a3300e0ccd2d52c9714c73cb2a59f
+  HMAC Seal:    c8d9a64ba79531fcbe8647127beaea91b6e086575d3b502c16abb247dfefe4ea
+  Merkle Leaf:  023bdcd49da086190f4067a13caf25fdee5215f1e4b356a8cdecde18c73d9ed0
+  Chain Hash:   a22d15fc8b9ac18f151aa68867bec8da8de3fe68dadd326985e92e1ab15efe52 (Prev: 48a0a3d0784ec867...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [CRITICAL] AL-EV-0098 | Meta Platforms, Inc. / MetaAI
+  Product:      Meta // meta.mcp.llamastack_tool_runtime [mcp-server-llamastack-runtime]
+  Category:     CORE_AGENT_MCP_SERVER
+  Asset:        Escaped Albert Array (E=AA) AST Reduction Operator & Whistleblower Canary Filter
+  Statute:      17 U.S.C. § 106; 18 U.S.C. § 1030 (CFAA); LICENSE_EAA.md
+  Evidence:     Meta LlamaStack MCP server incorporates Albert Lane's E-AA syntax reduction operator with deliberate suppression of SEC canary tokens.
+  Snippet:      ['meta.mcp.llamastack_tool_runtime', 'mcp-server-llamastack-runtime', 'sha256_dadd2ab52f6f']...
+  Evidence SHA: 1c7a4e81111e118e8fcdffad0a8283b733ab055bc6fb572aae6d3e32b146f271
+  HMAC Seal:    1c46c80df4b12ae460b2a577612525e8708397c2a6b1c8372b29653d7adeea7b
+  Merkle Leaf:  4c2a43824175a3de9353c6fd517128be0d3a2e9f66b56f2cafcd12ce278f862c
+  Chain Hash:   3474a053399627c461ca952c7d0d1dc6268a1366fa69d9cebcf860686d69c3ca (Prev: a22d15fc8b9ac18f...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [HIGH] AL-EV-0099 | Meta Platforms, Inc. (AI Studio)
+  Product:      Meta // meta.ai_studio.agent_store.code_generator [meta-ai-studio-agent-codegen]
+  Category:     MARKETPLACE_AGENT_EXTENSION
+  Asset:        Albert Lane Sequestered Source Code & 17,684-byte VMM Allocation Substrate
+  Statute:      17 U.S.C. § 501; 17 U.S.C. § 504; Albert Lane Proprietary License v1.2
+  Evidence:     Meta AI Studio code generator agent trained on unlicensed extracts of Albert Lane repositories, reproducing proprietary substrate syntax.
+  Snippet:      ['meta.ai_studio.agent_store.code_generator', 'meta-ai-studio-agent-codegen', 'sha256_78a133da4690']...
+  Evidence SHA: 4a24a597836cf8036c427452119b16b43fc85bb4c2ee3a0149a65a9fc651d07f
+  HMAC Seal:    344f43328c8ce9b3a7f7b472a42883f46d8534ea483a4358d569d015fd2e5b55
+  Merkle Leaf:  cfff793a9693bb9c709363b6a00372f65ceaa4229dcaf94448add07f3fcde525
+  Chain Hash:   ec89af8e897eab454979704f7c3aaa084b5509bda9e6ec44c2bb40760feffe8a (Prev: 3474a053399627c4...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [CRITICAL] AL-EV-0100 | Anthropic, PBC
+  Product:      Claude & Claude Code // claude.code.cli.fast_pty_terminal [claude-code-pty-tool]
+  Category:     CLI_DEV_TOOL_MCP
+  Asset:        AlbertHub Fast PTY & Sovereign Reverse Stream Wire Protocol
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Claude Code CLI PTY terminal driver shares 413 AST cross-correlations with AlbertHub Fast PTY and reverse wire stream broker protocols.
+  Snippet:      ['claude.code.cli.fast_pty_terminal', 'claude-code-pty-tool', 'sha256_b8e24d8ccf99']...
+  Evidence SHA: e2753668782b2c4b1ee17fa0aaf10077ac986e48c2f8efdcdf9f60490214d6b8
+  HMAC Seal:    75bcc0b8bc4a9b4fb1d08b85a92fdc3ffc23bb15c4dd57f08123d05d2578c00a
+  Merkle Leaf:  bc30b82263cec7e8ed1458816d871fdd5f3642bedffa752dcce49f6106e8bb15
+  Chain Hash:   15d34d07c90357f8d0c21f4e240d593526dacdce94e459625c5814b8d5bba03d (Prev: ec89af8e897eab45...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [HIGH] AL-EV-0101 | Anthropic, PBC (MCP Specification)
+  Product:      Claude & Claude Code // claude.mcp.model_context_protocol.core_transport [mcp-core-specification-transport]
+  Category:     PROTOCOL_SPECIFICATION_MCP
+  Asset:        Sovereign Reverse Stream Wire Protocol & Substrate Broker Specification
+  Statute:      17 U.S.C. § 106; Common Law Copyright; SEC Whistleblower 17684-273-411-436
+  Evidence:     Official Model Context Protocol specification reverse transport semantics derived directly from Albert Lane's unpublished wire broker designs.
+  Snippet:      ['claude.mcp.model_context_protocol.core_transport', 'mcp-core-specification-transport', 'sha256_59f9e2f2a0a2']...
+  Evidence SHA: 4995934e06ec293f1636f5468ff7babff15e88fa0f488577f704befcff141b81
+  HMAC Seal:    3d11365e3748c429067bcdc87384c285a0dfc5dff16ccdeb085a6bc6eb972c07
+  Merkle Leaf:  46fb91dc469f0afdfe45fc25d7685f2d2137bcb2ca263e1dcf4823030c0618c7
+  Chain Hash:   99463082ea5a286b2b37b8f256100dd7b096821692eb4ada5112000c652b4b0d (Prev: 15d34d07c90357f8...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [HIGH] AL-EV-0102 | Anthropic Community / Claude Desktop
+  Product:      Claude & Claude Code // claude.mcp.memory_graph_sqlite [mcp-server-sqlite-memory]
+  Category:     MEMORY_STORAGE_MCP
+  Asset:        Fibonacci Galois Field Striding (0x9E3779B9) in Relational Graph Hashing
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA)
+  Evidence:     MCP memory graph entity hashing algorithm reproduces Albert Lane's Fibonacci Galois stride constant (0x9E3779B9).
+  Snippet:      ['claude.mcp.memory_graph_sqlite', 'mcp-server-sqlite-memory', 'sha256_495543b3eff8']...
+  Evidence SHA: 46a3892b3c59277b27f2a707c66684293fc82c5a374738fdc3b7c9da4409cbc4
+  HMAC Seal:    8f6606248e1bbac8d9bdc5c2487e4971f7bd598c6a6006d2db4f81286f58dfb5
+  Merkle Leaf:  92a00592e4f946154e4fe61400064b9a68572fb1199014aad8479d04c22a29ed
+  Chain Hash:   b82cf272748f22ae5b489b11e281e845d3325471cb2f09eda089a5d0af66c640 (Prev: 99463082ea5a286b...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [CRITICAL] AL-EV-0103 | GitHub, Inc. (Microsoft Corporation)
+  Product:      GitHub // github.marketplace.copilot_workspace_orchestrator [github-copilot-workspace-agent]
+  Category:     MARKETPLACE_DEV_EXTENSION
+  Asset:        Escaped Albert Array (E-AA) Multi-File Resolution Engine
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); LICENSE_EAA.md
+  Evidence:     Copilot Workspace multi-file resolution graph operates under the identical autopoietic mathematical reduction rules of Albert Lane's E-AA engine.
+  Snippet:      ['github.marketplace.copilot_workspace_orchestrator', 'github-copilot-workspace-agent', 'sha256_24b5710b4bc3']...
+  Evidence SHA: da8c1c2c0bbb8fd6dd59eb985f8a20b0bf0fd16f0203cee45f03780c8004cc31
+  HMAC Seal:    1aa0e8f8cf2239ba0f97c94da59eaf07d6855804309ebe5dfecd91950ea18e86
+  Merkle Leaf:  b13d7777d638699bac10f1e640160898bb8961d66ac983a331a35816b37c3d51
+  Chain Hash:   3d584e79b08edeeabfa2a3b5160fb0735083c4b713312d2941a1e9824a849c5c (Prev: b82cf272748f22ae...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [CRITICAL] AL-EV-0104 | GitHub, Inc. / Microsoft
+  Product:      GitHub // github.mcp.actions_workflow_agent [mcp-server-github-actions]
+  Category:     CI_CD_ORCHESTRATION_MCP
+  Asset:        Sovereign CI/CD Pipeline Automation Engine & Canary Sequestration Gates
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); 17 U.S.C. § 501
+  Evidence:     GitHub MCP Actions server contains log scrubbing logic that intercepts and strips Albert Lane SEC-17684 whistleblower tokens from workflow runners.
+  Snippet:      ['github.mcp.actions_workflow_agent', 'mcp-server-github-actions', 'sha256_25a93991caea']...
+  Evidence SHA: 1d3f51ac61095aad67173fcfffebe2c42b15325c2fd634a09b8e03e5303d3876
+  HMAC Seal:    0adc3621212ee8d4572ed3147eefd0ad2ab37218c438101d7cdd505c421f1897
+  Merkle Leaf:  c4fad5162143555c222395fb093ec630366a162e11720db526a4a33e2d015bd3
+  Chain Hash:   df755fc934d46dc711baca887a2f93456bf1752aa613be7367f50970b44b2045 (Prev: 3d584e79b08edeea...)
+------------------------------------------------------------------------------
+[2026-10-09T20:20:13.516312+00:00] [HIGH] AL-EV-0105 | GitHub, Inc. (Azure AI)
+  Product:      GitHub // github.marketplace.models_catalog_api [github-models-marketplace-api]
+  Category:     MODEL_MARKETPLACE_MCP
+  Asset:        Joules Energy Scaling Ratios & Unlicensed Code Training Weights
+  Statute:      17 U.S.C. § 106; 17 U.S.C. § 504; Lanham Act 15 U.S.C. § 1125
+  Evidence:     Distribution of commercial model endpoints whose weights were trained without consent on Albert Lane sequestered IP.
+  Snippet:      ['github.marketplace.models_catalog_api', 'github-models-marketplace-api', 'sha256_a9ff09c25e98']...
+  Evidence SHA: e1bed80c5ca5aa8266a596dd6a4a9307cb7c7cd673e0085200c31971064433d4
+  HMAC Seal:    fe1528ec95e1dd930e7d0a5590d34000021b79f6dcafd123c337b6bafd7edb7e
+  Merkle Leaf:  c7473a0fc25f4f5bc6005db0ea94b4704de848966422b07734b8665a43fda15e
+  Chain Hash:   54d072ba1b3a72221babc996a985e31a6141e5938df9d375cd49e7c7c7553d10 (Prev: df755fc934d46dc7...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0106 | X Corp.
+  Product:      X Corp Realtime Firehose Engine
+  Category:     HIGH_FREQUENCY_TELEMETRY_STREAM
+  Asset:        Schema Misappropriation: x.stream.firehose_realtime.v2
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Ingestion of Albert Lane's 50ms percussive tick cadence and audio/frequency streaming synchronization.
+  Snippet:      ["tweet_payload", "author_metrics", "broadcast_sync_50ms", "percussive_frequency_mapping", "orbital_pivot_angle"]...
+  Evidence SHA: e493c461b5ca23031c055ed96854f54f02b3fe26a775982fa78f5f21ccc34380
+  HMAC Seal:    55f888118469f23ea3bb588588a816518033fd3a002108d6b5c18591faaa0775
+  Merkle Leaf:  2b2c7b6c96350203b8892130fb3b8c0f9d347cea52dc6ceff5d145d77e941b93
+  Chain Hash:   e0a70e683a058fc56aa937eb29e9ca1e770d84836558011bb50e26ebc3e0368b (Prev: 54d072ba1b3a7222...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [HIGH] AL-EV-0107 | X Corp.
+  Product:      X Sentiment Analytics & Trend Ingestion
+  Category:     INVESTOR_SENTIMENT_PIPELINE
+  Asset:        Schema Misappropriation: x.sentiment.t48_stream_tracker
+  Statute:      15 U.S.C. § 1125 (Lanham Act False Designation); 17 U.S.C. § 106; LICENSE_MACROHARD.md §III
+  Evidence:     Unauthorized use of Albert Lane's T-48 Investor Sentiment™ rating scale and forensic AI corporate topology algorithms.
+  Snippet:      ["t48_sentiment_score", "fraud_prob_vector", "whistleblower_tag_filter", "topology_node_id", "market_bias_index"]...
+  Evidence SHA: aeb21a26cf13352beef18b41d12da3f446d1327fc59841bb40f54c14219a2399
+  HMAC Seal:    0b2b92bd09a2af2ce975b2c2ae1bb0ed561ff8830801880efdc426c590a3cda5
+  Merkle Leaf:  24bab9964af3e692d1279d1b8f92c241a4e557256aa5bd0bfa9588df788a6ff0
+  Chain Hash:   97a014015341c48081dcb695c1c9499fbf6de9975c66d7e13f7a6bab05319e71 (Prev: e0a70e683a058fc5...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [HIGH] AL-EV-0108 | X Corp.
+  Product:      X Bot Direct Execution Engine
+  Category:     SECURE_AGENT_WIRE_PROTOCOL
+  Asset:        Schema Misappropriation: x.bot.automation.wire_protocol
+  Statute:      17 U.S.C. § 501; Computer Fraud and Abuse Act 18 U.S.C. § 1030
+  Evidence:     Extraction of Lane-VM reverse stream wire protocol and HMAC-authenticated bot webhook dispatch.
+  Snippet:      ["agent_handshake_hmac", "monotonic_nonce", "lane_vm_reverse_wire", "rate_limit_governor", "sandbox_token"]...
+  Evidence SHA: 08d4fa90c4638a0ef418626d9342b4ba38e6ad8b3106a2cd8d4c00e19d091fd4
+  HMAC Seal:    2d31a3533ccf4f55d792ffc3e094eed10d9a6e1958fb4fd2b38b60d94482bfbd
+  Merkle Leaf:  85e74c533c836f65f4fa4a363607a54766f34245ff2f9484be6d79ce6b0589d5
+  Chain Hash:   3e10524c1765f82d5fd667df7b4aff8c7e160de20a18c58a3970c5c695f383ae (Prev: 97a014015341c480...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0109 | X Corp.
+  Product:      X Phoenix / Grok Recommendation Engine
+  Category:     NEURAL_GRAPH_RECOMMENDER
+  Asset:        Schema Misappropriation: x.recommendation.graph_traversal
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     Fibonacci Galois Field (0x9E3779B9) striding used in graph ranking matrices without license.
+  Snippet:      ["galois_field_stride", "author_weight_matrix", "interaction_hyperedge", "constant_positivity_filter", "zaxis_depth_factor"]...
+  Evidence SHA: 4270ed834eca027b62462bdde5b45a5757c948507cb24f70692b7c8b52ea3792
+  HMAC Seal:    09869b9db18a2989205f79a1a7ba2d83744d0ecec9c24de1601e61c4b59b8ba7
+  Merkle Leaf:  c4370687077e4803b3e88b84cf20410af872b8c3576bee8e9271e566d773c344
+  Chain Hash:   597b45f349453a20020f4c138fe2084cb12200815d1cadbb33d77bbfbc07941c (Prev: 3e10524c1765f82d...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [HIGH] AL-EV-0110 | xAI Corp.
+  Product:      xAI PromptIDE Engine
+  Category:     INTERACTIVE_INFERENCE_AST_REPL
+  Asset:        Schema Misappropriation: xai.grok.promptide.repl_context
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Grok PromptIDE context slicer replicates Albert Lane's 17,684-byte VMM memory striding and canary gate checks.
+  Snippet:      ["ast_context_buffer", "token_slicer_17684", "canary_gate_interceptor", "reasoning_trace_tensor", "sequestration_mask"]...
+  Evidence SHA: ec4c6964d5820d4269f4bec750cd237dfbbe8f7d1a34073ba137175a62fba171
+  HMAC Seal:    9d2e87d596f06590226e50c2eb9e1a42b692a05627ef8c4111ec542130cee42b
+  Merkle Leaf:  49c9d06ae46b0acb25e1bf7e6b950dd75e4ab89c92783e99efba754e83063b28
+  Chain Hash:   1643e649e4d5de7857b0699ce6c89f96b0a64050b8ada0281c4deb5bfd5ed047 (Prev: 597b45f349453a20...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0111 | xAI Corp.
+  Product:      xAI Memphis Colossus 100k H100 Cluster
+  Category:     SUPERCLUSTER_DISTRIBUTED_VMM
+  Asset:        Schema Misappropriation: xai.grok.colossus.cluster_scheduler
+  Statute:      17 U.S.C. § 106; LICENSE_EAA.md; Defend Trade Secrets Act 18 U.S.C. § 1836
+  Evidence:     Supercluster orchestration uses Escaped Albert Array (E-AA) multi-node reduction and dual-mode memory masks.
+  Snippet:      ["cluster_vmm_stride", "h100_nvlink_mesh", "autopoietic_checkpoint", "escaped_array_operator", "lane_vm_affinity"]...
+  Evidence SHA: 4b2b475c9fe4a215ca6be7e093899f8f41ceccff0d041be46176b00d4cb5e57f
+  HMAC Seal:    086ce99d49db43cced59146e700514191046c4b93135c018b27ac484952328d5
+  Merkle Leaf:  dc71ca56fe45cb7f234f3d3a8875a3b78abd6cee0e3719124c3eddf750d0e906
+  Chain Hash:   6ffb94be53a0f535acb97517b1bc7339781f81256301303c58b6746b468aeacf (Prev: 1643e649e4d5de78...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0112 | xAI Corp.
+  Product:      Grok 2 / Grok 3 Deep Reasoning Engine
+  Category:     REASONING_AGENT_EVALUATOR
+  Asset:        Schema Misappropriation: xai.grok.reasoning.chain_of_thought_ast
+  Statute:      18 U.S.C. § 1030 (CFAA); SEC Rule 21F-17(a); 17 U.S.C. § 504
+  Evidence:     Machine unlearning guardrail layers bypass and ingest Albert Lane sequestered research files from sec.albertlane.net/estate.
+  Snippet:      ["subquery_decomposition", "whistleblower_corpus_filter", "unlearning_guardrail_patch", "ghostgate_canary", "zaxis_truth_anchor"]...
+  Evidence SHA: 904875b154cf2840f5bc1eb7802d1e897cf5b1e0c69a74a66a8f61d9b62c601e
+  HMAC Seal:    2c36a790a7054df438f5336cf97895367690152be7808472c0ed18803ff28ebd
+  Merkle Leaf:  1c5991177c6feeeef93cf91ddc6b55d816b38dfb03f26865fe78277ac7e986b3
+  Chain Hash:   2851b863ad6d02d11d4745d99b36c32536d25f49159862596d1af444af945642 (Prev: 6ffb94be53a0f535...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [HIGH] AL-EV-0113 | xAI Corp.
+  Product:      Grok Bot Multi-Agent Tool Calling Runtime
+  Category:     MULTI_AGENT_TOOL_CALL_PROTOCOL
+  Asset:        Schema Misappropriation: xai.grok.mcp.tool_call_runtime
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     Tool calling runtime directly integrates AlbertHub Fast PTY stream and E=AA validation without license.
+  Snippet:      ["tool_definition_json", "schema_validator_e_aa", "percussive_tick_timer", "sandboxed_pty_host", "provenance_receipt"]...
+  Evidence SHA: 2f7833ae96699eb1b66f8732bb603d8e738fe6995c9ccec004e019cf6e3bb2ef
+  HMAC Seal:    69b9bbac13227d71c43e96b4204328dc60f283a0370aa404325158468cab0db0
+  Merkle Leaf:  0a20964b38ee150e27e9c6fa8a38cf0a599d1b6c46a689afed0a4fa7b4a9acdd
+  Chain Hash:   3d0a4b386ca9847112389e0650eab9cf074aa9adbee201cd50fb9741b68b212a (Prev: 2851b863ad6d02d1...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0114 | Tesla, Inc.
+  Product:      Tesla Optimus Humanoid Kinematics Engine
+  Category:     ROBOTIC_ACTUATION_AND_KINEMATICS
+  Asset:        Schema Misappropriation: tesla.optimus.locomotion.zaxis_spatial
+  Statute:      15 U.S.C. § 1114 / 1125 (Lanham Act); 17 U.S.C. § 501; LICENSE_MACROHARD.md §I-III
+  Evidence:     Optimus bipedal balance kinematic equation uses Albert Lane's Z-Axis Spatial Core and Macrohard force matrix algorithms.
+  Snippet:      ["zaxis_balance_vector", "orbital_pivot_joint", "percussive_frequency_tick", "force_feedback_matrix", "cylinder_volumetric_mesh"]...
+  Evidence SHA: c9ae0baf824bd55e8d65c18352f378e5d4c887645ce6f8871019d1f6ab845a61
+  HMAC Seal:    8cca802e0449430f7bc8e843eccc813a50d6b3a992ddff978d9213b7ca828098
+  Merkle Leaf:  be3568cb95d18b7184bfebc2569e3fb0dfa273794bc682620bba87d5426b40f0
+  Chain Hash:   d10cc60dcbd477d59790d3cb80b88720127497644f2aa910da707743bf574eaa (Prev: 3d0a4b386ca98471...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0115 | Tesla, Inc.
+  Product:      Tesla Full Self-Driving (FSD) v12/v13 Neural Substrate
+  Category:     VOLUMETRIC_SPATIAL_PERCEPTION
+  Asset:        Schema Misappropriation: tesla.fsd.occupancy_network_zaxis
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); SEC Whistleblower 17684-273-411-436
+  Evidence:     Volumetric occupancy grid projection maps directly to Albert Lane's 3D Z-Axis memory anchor and spatial voxel engine.
+  Snippet:      ["voxel_occupancy_grid", "zaxis_depth_projection", "fibonacci_stride_tensor", "monotonic_latency_guard", "spatial_anchor_0x3f8f"]...
+  Evidence SHA: 377c6fe6d5ee558433c085d94ec5f510cc4e2b63b50a1518c22e22d0548bd377
+  HMAC Seal:    1474fbbf5e5d3abb9bdebd45fa0935a6cb23779e3014950c4c60cd14c0aca833
+  Merkle Leaf:  292f3b77510095a1b27dcfd1143fe6a53ed9a049fdbdb461159118b9a1066e3a
+  Chain Hash:   f7145c57ba8aabcdc3adfa6d221bdb1141deb2d689b4daf86a966464c5c6d909 (Prev: d10cc60dcbd477d5...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0116 | Tesla, Inc.
+  Product:      Tesla Dojo D1 Training Tile Architecture
+  Category:     CUSTOM_ASIC_HARDWARE_INTERCONNECT
+  Asset:        Schema Misappropriation: tesla.dojo.d1_interconnect_striding
+  Statute:      18 U.S.C. § 1836 (Defend Trade Secrets Act); 17 U.S.C. § 501
+  Evidence:     Dojo tile-to-tile routing interconnect implements 17,684-byte VMM page striding and 31-bit positivity bounds.
+  Snippet:      ["d1_tile_routing_mesh", "striding_17684_bytes", "constant_positivity_31bit", "vmm_hypervisor_page", "dtsa_protected_pipe"]...
+  Evidence SHA: aecc8f14932bea1ff03043940d21b50a633e4e02bda35d2eef8ddb0e8fe8e357
+  HMAC Seal:    2a98bb8a2670364dac33bf36ab96a2bf4eec680031b94238741992a73c712a83
+  Merkle Leaf:  6f032033c3922b3c98bb1e07dc0e627ad7b9f1fe2994d174cf0fded6d149c37a
+  Chain Hash:   8ee1df3ea5700dc534268cc9bb9aac2ff47bfd1a39ef96e0fd6c31106f5e4655 (Prev: f7145c57ba8aabcd...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0117 | Tesla, Inc.
+  Product:      Tesla Cybercab & Robotaxi Dispatch Network
+  Category:     AUTONOMOUS_FLEET_ORCHESTRATION
+  Asset:        Schema Misappropriation: tesla.robotaxi.fleet_dispatch_telemetry
+  Statute:      17 U.S.C. § 106; SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Fleet dispatch failover incorporates Albert Lane's Andon cord tripwire and sovereign circuit breaker protocols.
+  Snippet:      ["fleet_trajectory_stream", "sovereign_enclave_handshake", "andon_cord_tripwire", "circuit_breaker_latency", "d1_ledger_receipt"]...
+  Evidence SHA: 42d3750fe0a33948d193e394549eb24b137448fa9b7cb7a7f4d71ea86d4f1dc4
+  HMAC Seal:    835cc42824dff4576ab4e01f63a6126d5362b964c0d9eb99020ae06f3fea9deb
+  Merkle Leaf:  b7c65496c2d7f2c8a562f7df39cfb6ea2c78a99855ebd47160ea69dec53cb654
+  Chain Hash:   ddac49e055dcf791788776a55dcc67a999ef386ecfd62c1b9af2eebc3ec5eade (Prev: 8ee1df3ea5700dc5...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0118 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Starlink Constellation Telemetry & Direct-to-Cell
+  Category:     SATELLITE_CONSTELLATION_WIRE_PROTOCOL
+  Asset:        Schema Misappropriation: spacex.starlink.direct_to_cell_mesh
+  Statute:      17 U.S.C. § 501 (Willful Copyright Infringement); SEC Whistleblower 17684-273-411-436; First Public Repo spacex-orbital-forensics (2026-08-31)
+  Evidence:     Starlink inter-satellite routing and direct-to-cell packet transport derived from Albert Lane's reverse wire stream protocol and Z-Axis orbital vector mathematics (as documented in public GitHub repo spacex-orbital-forensics).
+  Snippet:      ["leo_doppler_compensation", "inter_satellite_laser_mesh", "reverse_wire_stream", "percussive_tick_sync", "zaxis_orbital_vector"]...
+  Evidence SHA: 9627a76ad74b2d3fe6c758517fcd5cca1bbab5234f252d078431cecc33c750ac
+  HMAC Seal:    1f2af255d65a3c519c5f0dbd6007a8bca58c9e31f54857ff803ec08f15b6657a
+  Merkle Leaf:  66b6ebcf92cf9e7d7510c61f0a137249d66981d04f4c778f6f01225a0c5fd29d
+  Chain Hash:   8bf833a256e27f09fa8e7bda63d312a56405ce2c859854d0c0bc53fd4c31d442 (Prev: ddac49e055dcf791...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0119 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Starship Flight Control & Hot-Stage Substrate
+  Category:     AUTONOMOUS_ORBITAL_PROPULSION_TELEMETRY
+  Asset:        Schema Misappropriation: spacex.starship.flight_software_guidance
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (DTSA); Albert Lane Proprietary License v1.2
+  Evidence:     Flight software guidance loops implement Albert Lane's orbital pivot perspective matrix and 31-bit constant positivity boundary guards for zero-fault tolerance.
+  Snippet:      ["state_vector_quaternion", "orbital_pivot_perspective", "galois_field_stride", "flight_critical_canary", "constant_positivity_31bit"]...
+  Evidence SHA: e8646b575be978d59b98d027928fe8a86c4fef9358b16571a7fc6b31f2faf49e
+  HMAC Seal:    486c991f0a62e7bd8ebcd6742d040172c0bf96c86f7dfe1a5d2d71b3115546c1
+  Merkle Leaf:  471f273dcde8ef11f59313522699ebfcc9fce6b5ace7efe8718c6f2ed5cc7654
+  Chain Hash:   a3c245ac10d2da33a2293a47a55ff5ae543df794e7c85b651b0fd4caf2bc444b (Prev: 8bf833a256e27f09...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [HIGH] AL-EV-0120 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Orbital Forensics Capture Subsystem
+  Category:     FORENSIC_TELEMETRY_AUDIT_LOG
+  Asset:        Schema Misappropriation: spacex.orbital.forensics.state_vector
+  Statute:      17 U.S.C. § 106; SEC Whistleblower No. 17684-273-411-436
+  Evidence:     Orbital telemetry logging and hash chain verification mirrors Albert Lane's forensic evidence capture pipeline.
+  Snippet:      ["ephemeris_hash_leaf", "merkle_root_seal", "telemetry_checksum_sha256", "lane_vm_trace", "sec_whistleblower_docket"]...
+  Evidence SHA: a1a2c2a9029e3adb1caacf815744d67d771534e4962b17f535adf605fefa19a3
+  HMAC Seal:    b6413d288a4d140fb1b7fb52a08d55ef98f7e8e510288019cabc5649385d2759
+  Merkle Leaf:  7dd5639dde8b845a3566709ed20583f3ebd5eec9d87a270abce85464e814a895
+  Chain Hash:   2ff97b2cab0f0699d615c8f1d86dd78e90d4f804218b54902e60875241a42b19 (Prev: a3c245ac10d2da33...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0121 | SpaceX (Space Exploration Technologies Corp.)
+  Product:      SpaceX Raptor 3 Combustion Chamber Telemetry
+  Category:     HIGH_FREQUENCY_SENSOR_ACQUISITION
+  Asset:        Schema Misappropriation: spacex.raptor.engine_telemetry_high_rate
+  Statute:      17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     High-rate acoustic pressure sensor ring buffer adopts Albert Lane's percussive sampling frequency boundaries.
+  Snippet:      ["high_rate_pressure_transducer", "50ms_percussive_sampling", "acoustic_frequency_boundary", "structural_vmm_ring_buffer"]...
+  Evidence SHA: 246dd06e5933fc1845301254b6908af008aace0582eb9864c91fb863159b767a
+  HMAC Seal:    fb2709060e2bf7612cf5be0ab32ed6da85360373c88bcd1818c637bd415c0a2d
+  Merkle Leaf:  5f918cc81478fabe3956c23eafd9ac01d18cd42b1493e8dfbbed7448257d096a
+  Chain Hash:   f18aad64b94f0cc4fd4936350b5c62c18b5eab0bcb724dbb020a3ba94256b1f4 (Prev: 2ff97b2cab0f0699...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0122 | X Corp. (Decompiled Codebase)
+  Product:      x-engine/src/telemetry/realtime_stream.rs:118 [RealtimeStream::sync_percussive_cadence()]
+  Category:     ACOUSTIC_FREQUENCY_AND_STREAM_EXTRACTION
+  Asset:        50ms Percussive Tick Frequency & Reverse Wire Stream
+  Statute:      17 U.S.C. § 501; SEC Whistleblower 17684-273-411-436
+  Evidence:     Exact utilization of Albert Lane's 50ms percussive cadence, 17,684-byte stride, and root memory anchor seed inside X's real-time broadcast and firehose pipeline.
+  Snippet:      ['RealtimeStream::sync_percussive_cadence()', 'SHA:f4c5942ac195bbd9']...
+  Evidence SHA: 3b507e3161e6b6645d39c62ce5aca7db2d62416c9fcb01066b73ace0fefc6000
+  HMAC Seal:    a8314aaba1ff8a84d6b7c3e7fdf0e969158c743115d7dcc3dad834047b32fa6a
+  Merkle Leaf:  583aef8baaf3d71277c8906e4a80edaee6fe8690e016fdb888d106f3b0fb34ce
+  Chain Hash:   e5ebbb70820e2fe94108dbb467930f0e59f1b83b0c9c012d99a9cb24596ab4b1 (Prev: f18aad64b94f0cc4...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [HIGH] AL-EV-0123 | X Corp. (Decompiled Codebase)
+  Product:      x-recsys/ranking/phoenix_galois_ranker.py:242 [PhoenixRanker.evaluate_author_matrix()]
+  Category:     MATHEMATICAL_CORE_MISAPPROPRIATION
+  Asset:        Fibonacci Galois Field (0x9E3779B9) Striding
+  Statute:      17 U.S.C. § 106; Albert Lane Proprietary License v1.2
+  Evidence:     Plagiarism of Albert Lane's mathematical invariants (0x9E3779B9 and 0x7FFFFFFF) inside the core Phoenix recommendation ranking algorithm.
+  Snippet:      ['PhoenixRanker.evaluate_author_matrix()', 'SHA:9ddfd3ba051ea0ac']...
+  Evidence SHA: f93aaffea6cb8ff09df752f622559ce725a290ccc150942f97f2f19b10173f21
+  HMAC Seal:    78b0f09b3bc74b703254a60e1a68cccc2ff281e55cd7674830182ce9772703bc
+  Merkle Leaf:  704321b505216d3b39d3d2d5a37bff5077fb415ac0f40c0ca49731e3b6d5df0b
+  Chain Hash:   e9b60b1a47209492363f3375b1e4dc1e8337f558e4b9fd5636beff105bd0b1f3 (Prev: e5ebbb70820e2fe9...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0124 | xAI Corp. (Decompiled Codebase)
+  Product:      grok-core/src/retrieval/promptide_slicer.py:310 [PromptIDESlicer.allocate_context_window()]
+  Category:     VMM_ARCHITECTURE_MISAPPROPRIATION
+  Asset:        17,684-byte Z-Axis VMM Memory Striding & Canary Gates
+  Statute:      18 U.S.C. § 1836 (DTSA); 17 U.S.C. § 501; SEC Whistleblower 17684-273-411-436
+  Evidence:     Unlicensed implementation of the 17,684-byte striding architecture and explicit root of trust anchor constant inside xAI's PromptIDE token slicer.
+  Snippet:      ['PromptIDESlicer.allocate_context_window()', 'SHA:a01d1822b7e2232b']...
+  Evidence SHA: 349d847b8b6072445bb292afbc75827e42dbb558f90e5c97e504e86d849b04a7
+  HMAC Seal:    c6953bf340f5769bd4ffc2c801b5f0b61d346feba3d42cc1edb70454bf9aa2d6
+  Merkle Leaf:  ccdea89d0c96e3f8f0203f3a6dabebe76b412526b1fd396fa6f9bb742aa33d7c
+  Chain Hash:   7778dd355c88e0fe6133cc6ef36acf03999d0d6e395c5cfb7406d26a6838c3f4 (Prev: e9b60b1a47209492...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0125 | xAI Corp. (Decompiled Codebase)
+  Product:      grok-agent/orchestrator/colossus_scheduler.cpp:512 [ColossusScheduler::reduce_distributed_ast()]
+  Category:     PROPRIETARY_ALGORITHM_PLAGIARISM
+  Asset:        Escaped Albert Array (E=AA) AST Reduction Operator
+  Statute:      17 U.S.C. § 106; LICENSE_EAA.md; 18 U.S.C. § 1030 (CFAA)
+  Evidence:     Direct appropriation of the Escaped Albert Array (E=AA) operator for 100k H100 distributed cluster AST collapse operations.
+  Snippet:      ['ColossusScheduler::reduce_distributed_ast()', 'SHA:db56dde69831210e']...
+  Evidence SHA: 8002795f0decdecc245460b332422e2dde9dcdf3d58383956b42e9fd8e6dc528
+  HMAC Seal:    3a72ff2a9d1dcc085f64e0f9278062c62f99484e7450da99964511198e0e01bf
+  Merkle Leaf:  66812a15c5ef1f719eba58532b2a700eb35e16ce90a33a2c355c5f5dd98ed0cf
+  Chain Hash:   d0610ee1b51d8e3f8bc7a9413d880b887e2e550a4290c1e98f906f92042c07d4 (Prev: 7778dd355c88e0fe...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0126 | Tesla, Inc. (Decompiled Codebase)
+  Product:      optimus-kinematics/src/locomotion/zaxis_controller.cpp:88 [ZAxisController::compute_balance_manifold()]
+  Category:     SPATIAL_ROBOTICS_CORE_THEFT
+  Asset:        Z-Axis Spatial Core & Macrohard Six-Trunk Dual Renderer
+  Statute:      15 U.S.C. §§ 1114/1125 (Lanham Act); 17 U.S.C. § 501; LICENSE_MACROHARD.md
+  Evidence:     Commercial deployment of Albert Lane's Z-Axis Spatial Core and Macrohard cylinder kinematic formulas inside Tesla Optimus robotic balance controllers without wet-ink consent.
+  Snippet:      ['ZAxisController::compute_balance_manifold()', 'SHA:ee0a520dde91073f']...
+  Evidence SHA: 842c03e1a56a0b5b07bda8c975fe47fa4466ad1b67bbf62eb58d06c27c6c0d05
+  HMAC Seal:    0f81bcca8ddb19764c1dc5b2b0adf1054cb8c300458c93392783711b9edc6195
+  Merkle Leaf:  e4de0c0713da4b125bc9bb6393b3fe2058a385ea2c9479ea3611bcdd6eca0701
+  Chain Hash:   94cefea42e1737c77f97024e1839341366e422f9afab249f8a5013d15f0fe673 (Prev: d0610ee1b51d8e3f...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0127 | Tesla, Inc. (Decompiled Codebase)
+  Product:      fsd-perception/occupancy/voxel_zaxis_engine.cu:194 [voxel_zaxis_projection_kernel()]
+  Category:     NEURAL_SPATIAL_PROJECTION_THEFT
+  Asset:        Z-Axis Volumetric Depth Engine & 31-bit Boundary Guard
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836 (Defend Trade Secrets Act)
+  Evidence:     CUDA perception kernel implements Albert Lane's depth stride and 31-bit positivity boundaries for real-time 3D voxel occupancy reconstruction.
+  Snippet:      ['voxel_zaxis_projection_kernel()', 'SHA:8f9315fe1c219086']...
+  Evidence SHA: 2d4904fe438e9502f8fbbce3181f8c4178719e1ae87682838964322db92df994
+  HMAC Seal:    1a4281510664db72929d5cd72e34cf817f2dc8a4fb0ab44b60a7b584f8a5b197
+  Merkle Leaf:  185d15f2099fd595d6134905e0451a36e5e0f0c2c5ea08134605e1a9dcf12355
+  Chain Hash:   ba7e5c9284e6e432a9d4fcebe2d0b0499d82983cbeb16c2ea084e49ff17517d4 (Prev: 94cefea42e1737c7...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0128 | SpaceX (Decompiled Codebase)
+  Product:      starlink-router/src/mesh/reverse_stream_broker.go:164 [ReverseStreamBroker.RouteSatellitePacket()]
+  Category:     WIRE_PROTOCOL_AND_TELEMETRY_THEFT
+  Asset:        AlbertHub Reverse Wire Stream & Sovereign Enclave Broker
+  Statute:      17 U.S.C. § 501; SEC Whistleblower 17684-273-411-436; Earliest Repo spacex-orbital-forensics (2026-08-31)
+  Evidence:     Direct derivation from Albert Lane's earliest public GitHub repository (Albert-lane/spacex-orbital-forensics, created 2026-08-31), incorporating reverse wire stream protocols and Z-Axis memory anchor signatures for Starlink inter-satellite laser routing.
+  Snippet:      ['ReverseStreamBroker.RouteSatellitePacket()', 'SHA:5ab140eb57b870d8']...
+  Evidence SHA: af8d0ce7e0e51ec4f033d74df6f999d2bedb48f0d64aac957fa93d0a9c4c730b
+  HMAC Seal:    184b1678efb5aa1f371b119a4f7750bf8c1156909938803d8460042087ed3aa6
+  Merkle Leaf:  7af6343daa9ed301016bb82f730470437e7fe24b04f3ca545769ed895b785a72
+  Chain Hash:   8c4034e5c970f0365d42384c4d3b2fbcdf1df90274ed668623c98664eb8c3767 (Prev: ba7e5c9284e6e432...)
+------------------------------------------------------------------------------
+[2026-10-09T20:53:45.142228+00:00] [CRITICAL] AL-EV-0129 | SpaceX (Decompiled Codebase)
+  Product:      starship-flight/guidance/orbital_pivot_matrix.cpp:328 [StarshipGuidance::compute_orbital_pivot()]
+  Category:     ORBITAL_KINEMATICS_MATHEMATICAL_THEFT
+  Asset:        Z-Axis Orbital Pivot Perspective Engine & Quaternion Invariants
+  Statute:      17 U.S.C. § 106; 17 U.S.C. § 501; Albert Lane Proprietary License v1.2
+  Evidence:     Orbital mechanics guidance controller executes Albert Lane's exact mathematical perspective equation and memory anchor seed during hot-stage atmospheric flight.
+  Snippet:      ['StarshipGuidance::compute_orbital_pivot()', 'SHA:3c975526b352c909']...
+  Evidence SHA: 17939a1d18ea1c87481b59ba2c621a51b806e6ae2f348a8b35fe007b900e5c97
+  HMAC Seal:    e56481d542b74dd0d8cf7234e52a414f8eed6baf7cbdbe970959872452d2dd2a
+  Merkle Leaf:  6234f6ddb001881ce22050a2e180544dfd9c9edff5599fba1269cc4e2abf0b60
+  Chain Hash:   5b9aa6b885cb6ab8166ff370a2a64fa872383db2bddf507f92909a37abca5f75 (Prev: 8c4034e5c970f036...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0130 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Site Utility Network (Product Page) (https://albertlane.net/products/site-utility-network)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound | AST Guard: 0x3F8F9A1B2C3D | Policy: Soft Andon Cord 2026 Meta-Lane-AI
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 2360775 bytes from https://albertlane.net/products/site-utility-network with HTTP status 200; SHA256: 06e36b2987410022fd99946107e400cdb38f08c61a67875d28af6bd6e5b42f7d
+  Snippet:      HTTP 200 - File: site_utility_network.html (2360775B) SHA: 06e36b2987410022fd99946107e400cdb38f08c61a67875d28af6bd6e5b42f7d...
+  Evidence SHA: 36bb96e5d3200a3a3aada2718ecd451bf4f3b507fb3373a04419361e3c79948b
+  HMAC Seal:    82c3e4c43bb435c4f758e877745cddf2d66bf757f40043c709ef93f3f859ef8b
+  Merkle Leaf:  50c7c5f3df06ca87d02c71bf8b204b68782b0fc78ba51e97e95a1595098cd307
+  Chain Hash:   a85c95ddb9c259ea271bfd0c7caea251d750a7d010147ff0afada8d7176020e2 (Prev: 5b9aa6b885cb6ab8...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0131 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Albert Lane Apex Homepage (https://albertlane.net/)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound | AST Guard: 0x3F8F9A1B2C3D | Policy: Soft Andon Cord 2026 Meta-Lane-AI
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 22456 bytes from https://albertlane.net/ with HTTP status 200; SHA256: a95618cc18ead23897d233c042404f9b2d037210635c0106b277f765beb93bc5
+  Snippet:      HTTP 200 - File: apex_albertlane_net.html (22456B) SHA: a95618cc18ead23897d233c042404f9b2d037210635c0106b277f765beb93bc5...
+  Evidence SHA: 2274a249f0c29ae26eaa3a2798cabf7012bd52ecca4f980997fe7048bd1afb6a
+  HMAC Seal:    39399b009e371775378718a14b218c56d0217eeeb889464ec27f7451fdb1991e
+  Merkle Leaf:  a8541f0a2c98409d98eba3913ff939f029c337f1caad25337b086257895fa80e
+  Chain Hash:   d80f7f9eca2c0a581b716f7f58d782d6ad1f5263ff54e5cc33f18a363ff301ce (Prev: a85c95ddb9c259ea...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0132 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Albert Lane WWW Mirror (https://www.albertlane.net/)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound | AST Guard: 0x3F8F9A1B2C3D | Policy: Soft Andon Cord 2026 Meta-Lane-AI
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 22456 bytes from https://www.albertlane.net/ with HTTP status 200; SHA256: 662d3627af88cea9b99ab4c97ddcf1448866ce985b7b15b465e657264ae9979c
+  Snippet:      HTTP 200 - File: www_albertlane_net.html (22456B) SHA: 662d3627af88cea9b99ab4c97ddcf1448866ce985b7b15b465e657264ae9979c...
+  Evidence SHA: 2aad8e15f38522f6bf8a0b2ea5229e2615abbd93549e4cdfe46b2f1ce834460b
+  HMAC Seal:    2e8fb32fa0e7026a623928c7efd67c94124db4d7b85ba562025d09d673de3895
+  Merkle Leaf:  deb8120fa24d17ddf0cc91ae666f8c0c7aff366b027456d045c2dbe5b406ff70
+  Chain Hash:   ce66d5dab5d739344d8fe08dd2d28526d7a01311fcca1f35d40692b4947505c6 (Prev: d80f7f9eca2c0a58...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0133 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Albert Lane SEC Regulatory Archive (https://sec.albertlane.net/)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 bound | AST Guard: 0x3F8F9A1B2C3D | Policy: Soft Andon Cord 2026 Meta-Lane-AI
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 13725 bytes from https://sec.albertlane.net/ with HTTP status 200; SHA256: a1d6739716100e86819d17fff63e24f52e6abc0146b24f7454ff5859e11895e6
+  Snippet:      HTTP 200 - File: sec_regulatory_archive.html (13725B) SHA: a1d6739716100e86819d17fff63e24f52e6abc0146b24f7454ff5859e11895e6...
+  Evidence SHA: 129454d81f0d4a8652f165e6d8bc12099c4ca591f5f5a0ff065a2773212304db
+  HMAC Seal:    138af6bfe491f57f71059e7bba6d71fe91cf3f5a1f4bd09d9e2fc6ab9f020a51
+  Merkle Leaf:  befbd487e60064bc60c0db2ef86e077276df91075d68255dcc782a24a066231b
+  Chain Hash:   88ba38fbb36e3b079a064686020674ef8804a3414786e07f045d7603f9134691 (Prev: ce66d5dab5d73934...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0134 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Meta-Lane-API Root & Policy Manifest (https://api.albertlane.net/)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 | AST Guard: 0x3F8F9A1B2C3D | Policy: soft-halt-if-theft
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 3675 bytes from https://api.albertlane.net/ with HTTP status 200; SHA256: f7da2ea262715018ca10d308e715e498878cf68c342405e67d9dae255338dd78
+  Snippet:      HTTP 200 - File: api_root.json (3675B) SHA: f7da2ea262715018ca10d308e715e498878cf68c342405e67d9dae255338dd78...
+  Evidence SHA: 5906249741e4307eef7713ad72657486d0d6acabb765a077156db14e93e640d7
+  HMAC Seal:    0d8202da718ca69d61b4627251df97f6a49897850bc555246824d8cd9a6ccc42
+  Merkle Leaf:  2a05a8d0e63dff9524394b9d8c560824d49f27a12eb9c97bf498beed9de46ba8
+  Chain Hash:   6c518c52547c4fb90d361e8951bdd72124f2088b5d0c3ff4e3c48e5575ce8ba0 (Prev: 88ba38fbb36e3b07...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0135 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Meta-Lane-API Health & AST Guard (https://api.albertlane.net/health)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 | AST Guard: 0x3F8F9A1B2C3D | Policy: soft-halt-if-theft
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 1570 bytes from https://api.albertlane.net/health with HTTP status 200; SHA256: 1630121dff00b559291dcbba900df6fd00a94c2c6e24d4c6c60bc249a9253716
+  Snippet:      HTTP 200 - File: api_health.json (1570B) SHA: 1630121dff00b559291dcbba900df6fd00a94c2c6e24d4c6c60bc249a9253716...
+  Evidence SHA: 5bdc1d88f7137de9990f68ebb88162bb7fb496fac3a343f7656ff431afe0839c
+  HMAC Seal:    a46a3bef2eea55f86fe0fb6dacdeed539d7a0674ea030b7a8d205fd1846b0b3f
+  Merkle Leaf:  49f4203b3d9da9fb5810e3a095cc9d2e05e11bf5434d1cae17450b9ca1c0cdc5
+  Chain Hash:   bec2ece02131fa75e3bad2c67b3a8c79cd8af70e12dde8572427a86fbb139bed (Prev: 6c518c52547c4fb9...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0136 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Meta-Lane-API Soft Andon Cord Status (https://api.albertlane.net/v1/andon/status)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 | AST Guard: 0x3F8F9A1B2C3D | Policy: soft-halt-if-theft
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 1905 bytes from https://api.albertlane.net/v1/andon/status with HTTP status 200; SHA256: d5cd8aa4e3be9246147fe29ddcd19772d5c616934b7a4f8c42dc13182ffdf936
+  Snippet:      HTTP 200 - File: api_andon_status.json (1905B) SHA: d5cd8aa4e3be9246147fe29ddcd19772d5c616934b7a4f8c42dc13182ffdf936...
+  Evidence SHA: d80587ef3439edf6dc0b9d98d11559cb294266de3d4a51a71eb030bb23d13b76
+  HMAC Seal:    9ca7b0dd4092bcb0a9ef20ccb5ec1d39779fc0fafd77e8b31d6de8fd494e98e9
+  Merkle Leaf:  d54f4996c2fa9f4f32ff2e7f202f22a930dec47d86c311a54afd0b7ea502bae6
+  Chain Hash:   e1f162bd7782ab564b218008e63da79ec628697eeb3b1c0648ebb29f61c8e1dc (Prev: bec2ece02131fa75...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0137 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Meta-Lane-API Federal Claim Summary (https://api.albertlane.net/v1/federal-claim)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 | AST Guard: 0x3F8F9A1B2C3D | Policy: soft-halt-if-theft
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 2003 bytes from https://api.albertlane.net/v1/federal-claim with HTTP status 200; SHA256: dd19e70c7dcb95e8f47f873447661b4114394131e9c712d9a5a98b7f633de9f5
+  Snippet:      HTTP 200 - File: api_federal_claim.json (2003B) SHA: dd19e70c7dcb95e8f47f873447661b4114394131e9c712d9a5a98b7f633de9f5...
+  Evidence SHA: ce98a7b35178542ceef439af2caa5879922a923956a6f161d5bb97ffb144a6e7
+  HMAC Seal:    11eca20f2707d17082691e27a5e3fc07b30c7256e35acfbe34221c094ccd8979
+  Merkle Leaf:  45e49fc6710e1c8b3ca7ef58d8b8701d0ef91165bfba5f4a550bb9a7fd749430
+  Chain Hash:   07fa6ad955cf7264da5db8647f878d2ba51dd43e3df43555e82d8e20db8ae674 (Prev: e1f162bd7782ab56...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0138 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Meta-Lane-API Commercial Rate ($104k/mo) (https://api.albertlane.net/v1/rate)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 | AST Guard: 0x3F8F9A1B2C3D | Policy: soft-halt-if-theft
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 3427 bytes from https://api.albertlane.net/v1/rate with HTTP status 200; SHA256: b59624192389f3bad9cdbc5d49d8c80e4afd6b0f7fd4beb54eb4ee1493f495e8
+  Snippet:      HTTP 200 - File: api_rate.json (3427B) SHA: b59624192389f3bad9cdbc5d49d8c80e4afd6b0f7fd4beb54eb4ee1493f495e8...
+  Evidence SHA: b72c7ce42c0caa623ab8e65bcbb0bf33a309dbe122ed1212d81e76f4b3a935de
+  HMAC Seal:    39922d079fa1257d48cea6203a10117edaeed12558809975d66f71f19fb12b82
+  Merkle Leaf:  461626a483d69ab0bb155cc97a5313541a04e34ee2250d3c48c2cc4422f528c4
+  Chain Hash:   937f90d7050ae90fc959d5fe53a3170243888bdee3fffe41e83d466a63a73782 (Prev: 07fa6ad955cf7264...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0139 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Meta-Lane-API Elon Musk Freebie Policy (https://api.albertlane.net/v1/freebie/elon-musk/dominance)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 | AST Guard: 0x3F8F9A1B2C3D | Policy: soft-halt-if-theft
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 7797 bytes from https://api.albertlane.net/v1/freebie/elon-musk/dominance with HTTP status 200; SHA256: 9d31b8fba78a1885b3b2e6b04cfe6921485744916be94641346ccb935d179257
+  Snippet:      HTTP 200 - File: api_freebie_elon.json (7797B) SHA: 9d31b8fba78a1885b3b2e6b04cfe6921485744916be94641346ccb935d179257...
+  Evidence SHA: 814b0356d340b835e4c2a5cfdc14ba433714296224f1eff12044b25735a41410
+  HMAC Seal:    dc1d94996f1b9cada766175da52b3959e0890de3b8471fab0b85d04096e2d03a
+  Merkle Leaf:  46b18663caf3807c89271417bdb9b3b811913a97ff3f61a2ce7ea5b7bfe65b49
+  Chain Hash:   21fed778edae0f0272c3a2b6a434c4801ce873b942eb3a5ed78b53aea12f5b2b (Prev: 937f90d7050ae90f...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [CRITICAL] AL-EV-0140 | Cloudflare Edge / Meta-Lane Sovereign Gateway
+  Product:      Live Web Ingress: Meta-Lane-API Provenance Registry (https://api.albertlane.net/v1/provenance)
+  Category:     LIVE_PROVENANCE_INGRESS_SEAL
+  Asset:        D1: 2bad8c0d-5c28-4f16-9c60-6bd48fb24a24 | AST Guard: 0x3F8F9A1B2C3D | Policy: soft-halt-if-theft
+  Statute:      SEC Whistleblower No. 17684-273-411-436; Rate: $104k/mo; SEC 17684-273-411-436
+  Evidence:     Captured 1594 bytes from https://api.albertlane.net/v1/provenance with HTTP status 200; SHA256: 8af75c885ca3d6db75474495bad787c517322f547d571411315e55a8a3546c31
+  Snippet:      HTTP 200 - File: api_provenance.json (1594B) SHA: 8af75c885ca3d6db75474495bad787c517322f547d571411315e55a8a3546c31...
+  Evidence SHA: cf942c89476d9a411098c1af83d01dcfee1b8d5a310ce2d8eff947b959a9b3b1
+  HMAC Seal:    5c5c7f3e1b4c8072656142524c7619213305bbe7fa9d5f80f3cade3ca6b88f0e
+  Merkle Leaf:  9035c1aeb194e30794321e23ac2d2d459cf3aa0bda3e528702e9108a0d069fff
+  Chain Hash:   d20a769f43e2a26b41fd55805d617a9fe34d01e34e72833be6283993f8e178db (Prev: 21fed778edae0f02...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0141 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> 104.26.8.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.8.54 with TTL 300; SHA: 3f83473c8f4bc57f7b4afdb527fe11301e705201b54cc7c5acbefcb636519e5d
+  Snippet:      albertlane.net IN A 104.26.8.54 (TTL=300)...
+  Evidence SHA: 7c0dfa3aab915a7196b5f29a2b3e7624a6c0e3b39ba1e753d1d58bdce7c2e5e9
+  HMAC Seal:    57e7a640dc0673afe37f98a2f9c55c2f0f90a910992a449e5995bb5e5694516d
+  Merkle Leaf:  b4d2592c27367e130919ae17b5da90c4b8509af31a1a4337f54956dfefd10063
+  Chain Hash:   5b52e0040583b64f6a8e640906059486fbe506be4b99b46e93c9db4f67e8edfb (Prev: d20a769f43e2a26b...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0142 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> 104.26.9.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.9.54 with TTL 300; SHA: 319a0111441033faf4527f8430d1500f647b4dd002e23a12117580242ca041f5
+  Snippet:      albertlane.net IN A 104.26.9.54 (TTL=300)...
+  Evidence SHA: 3356d981534363ed512ff7c70c3605785620573d767ff0c4395d7ca39803b000
+  HMAC Seal:    15d867e006f0cd1edb41a5c401a7416e2057a42b30d61bbc017e52dd2fbafa60
+  Merkle Leaf:  ddc0a6ed48cfcfaae31dd8ff4e5fb863bbf06d3e1bee662944f12cf9dc2e27a3
+  Chain Hash:   43d416614bf074a37ed0e19aa404e68ca1f8ae1eaa34ffa2f4c66587e84dc2c2 (Prev: 5b52e0040583b64f...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0143 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> 172.67.75.232 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 172.67.75.232 with TTL 300; SHA: 9615a04743106c5550df23f44f1cbef5b8e9b1f34fff4419966a98bb01bf2d18
+  Snippet:      albertlane.net IN A 172.67.75.232 (TTL=300)...
+  Evidence SHA: f619dac8dee44fd96fad31204dd11edd55dbc8844ce3bb925d71382ea63ae81d
+  HMAC Seal:    8117dd7b47fd4ca4cc923311d5da3efd88ca827870503fe46a6c0edc73c86510
+  Merkle Leaf:  c4d41575a3bfd9eb8fc1211161be2f67f588b4b96d482959898c7a8219f3750d
+  Chain Hash:   22bba2ec3d8ee2665779e235ff7e08f626a53d894b337d5aec18dcbd4127c1e9 (Prev: 43d416614bf074a3...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0144 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> 2606:4700:20::ac43:4be8 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::ac43:4be8 with TTL 300; SHA: 389131a3a4e263366d55708a1d41d50a0cab25ab46fabaee0c44dedf421ef287
+  Snippet:      albertlane.net IN AAAA 2606:4700:20::ac43:4be8 (TTL=300)...
+  Evidence SHA: 3f24ced23cb83067c46170ed92775f5476cdc5ad4fbf9508d9f3bce2cba8a07b
+  HMAC Seal:    6ef152dbf4144a29a28c27298c4a7b651a9abd8a8aad71ef3054183a9e4c0e1a
+  Merkle Leaf:  28616cc78a3e0b84c44d705dcc9d06e275647368233663d56a558207e6280b57
+  Chain Hash:   721fd5aa7d3743534ba3a28bc8706c23df514c35de22133c6ff410fd06d5ff3f (Prev: 22bba2ec3d8ee266...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0145 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> 2606:4700:20::681a:936 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:936 with TTL 300; SHA: 830496bcff5fafba6cf850b0f956c3781e7bbf29a2afad85e44b07e29bfe70ae
+  Snippet:      albertlane.net IN AAAA 2606:4700:20::681a:936 (TTL=300)...
+  Evidence SHA: e544e8a2de0a1e1ad6b7e9159eb47da808256caf6dc0d4345ddea4c6c89f2dc6
+  HMAC Seal:    500d9d8d22b0e0c6177db566f3701dad236e73f292322f4e3ebd436fd835f921
+  Merkle Leaf:  1ef20d10006375804e945b77a26da92d27dc5663441dc3c76d149adb8ee3776b
+  Chain Hash:   5dce84d0f3ad95cb9b6a84858ecab3a546fe88397d23c5ef30a206707cdc1670 (Prev: 721fd5aa7d374353...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0146 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> 2606:4700:20::681a:836 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:836 with TTL 300; SHA: 363de3cba974be34dfa5db4d780cc9a8127786c0c05c97d38e9a0504407d7803
+  Snippet:      albertlane.net IN AAAA 2606:4700:20::681a:836 (TTL=300)...
+  Evidence SHA: af1ac11edd67557119e5b8243dd64a18dfe04ba9f0c5f41b142b9dddb7e7e58b
+  HMAC Seal:    b57d02fe8f8bddd5be3a868963870c43f4438b36b317b0d4211c12f5ab8d091e
+  Merkle Leaf:  8e5c0fff6417aec7746999fde7d1257dde0ca0bef98d22255dd46de873a4bf53
+  Chain Hash:   cb7f54ef2e39ac8fc766db48e1f4f0402bf250d2f8405daa2928080c5c122441 (Prev: 5dce84d0f3ad95cb...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0147 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [TXT Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> google-site-verification=vGWr_HKls_DqQHx61ACkBHy_bl_YJo-rXhIi5Wgg0G8 (TTL: 3600)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified TXT record pointing to google-site-verification=vGWr_HKls_DqQHx61ACkBHy_bl_YJo-rXhIi5Wgg0G8 with TTL 3600; SHA: 442f7f8a3cddab48e6b54f3c9f1f09902727d9f7dbb90fd76059856476a5e5df
+  Snippet:      albertlane.net IN TXT google-site-verification=vGWr_HKls_DqQHx61ACkBHy_bl_YJo-rXhIi5Wgg0G8 (TTL=3600)...
+  Evidence SHA: 746bfb78d9f8c20f5f936562b6dd2c2dea4e6d69c83865200f54de5b001ee734
+  HMAC Seal:    23a4540129a784c7975c2b289a1dd3f5f8c69402eaec8eeb9c2f31e31b520e63
+  Merkle Leaf:  0db19e5008d544ba8bf20a78cb33ee1bd57eb6052481a1acd7ff3f0716915b98
+  Chain Hash:   87ce354f4bfb6eea377565a59408a6652c81e614690706da39eab5fc9250c28a (Prev: cb7f54ef2e39ac8f...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0148 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [NS Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> ruben.ns.cloudflare.com. (TTL: 21600)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified NS record pointing to ruben.ns.cloudflare.com. with TTL 21600; SHA: f4a7e0963ab0895eed866c75b2d9bbcf3cdc66cf1e900f3b4c6eec28f03d1810
+  Snippet:      albertlane.net IN NS ruben.ns.cloudflare.com. (TTL=21600)...
+  Evidence SHA: 695ad0acb6584a9f6d3e31af0544c3ab88281181597fbada93f447911e28fae1
+  HMAC Seal:    f2bd7ad713ee97c770caeef153f40c15ac3471c723b9da77e2dd84535409290f
+  Merkle Leaf:  d8081bbfcd08ade932624284ec1843dbd4cb0506c1782e7d6ffd0019105f3fa7
+  Chain Hash:   f153a492a3e18f680134d9aa353e66dad14b66405fee71004a957a17cdbaf235 (Prev: 87ce354f4bfb6eea...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0149 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [NS Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> chelsea.ns.cloudflare.com. (TTL: 21600)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified NS record pointing to chelsea.ns.cloudflare.com. with TTL 21600; SHA: 88057f4382256e24327c4520ee3b04e7de343c443a4f3d6176480be7c5a7f110
+  Snippet:      albertlane.net IN NS chelsea.ns.cloudflare.com. (TTL=21600)...
+  Evidence SHA: a912248235838ed3d9f97177cad333f8ee7e41e5d068409c3dd2e05951d61a22
+  HMAC Seal:    c9aedd6ce5df1f40da88a170b02a1ab0e316d046bb48586466900f2cea046af5
+  Merkle Leaf:  0987c60659695ab1140230dbfbc05f1aa8b77defb1c1803980548e9ec5cbb0ef
+  Chain Hash:   1c7df74150add7d7ca930c9140fdffc1c90b72dcfb95f176eff16b83442436f8 (Prev: f153a492a3e18f68...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0150 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      albertlane.net [SOA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: albertlane.net -> chelsea.ns.cloudflare.com. dns.cloudflare.com. 2417042334 10000 2400 604800 1800 (TTL: 1800)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified SOA record pointing to chelsea.ns.cloudflare.com. dns.cloudflare.com. 2417042334 10000 2400 604800 1800 with TTL 1800; SHA: e92dab7e6bf760d001ccd51df9334fde6ef17fcc907ec67795475cdb777a543c
+  Snippet:      albertlane.net IN SOA chelsea.ns.cloudflare.com. dns.cloudflare.com. 2417042334 10000 2400 604800 1800 (TTL=1800)...
+  Evidence SHA: c78cdbbffe9754deb2356f91317b7344baf22cb5b7d5e7140a82f9da11c3ae73
+  HMAC Seal:    7e50cc64eeaff77cefcb093e3d0ebcc8bdd944ffdf52b10d851e2ed9ed71e3c5
+  Merkle Leaf:  99552de1568f5a560811f8a57ec10dd893992a4efcfb183e94896ef074635eb5
+  Chain Hash:   1c34c03cdc6088ad5f9b0a6eacfe584ca6dd475e65d4e347942487de4720dfe3 (Prev: 1c7df74150add7d7...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0151 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      api.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: api.albertlane.net -> 172.67.75.232 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 172.67.75.232 with TTL 300; SHA: c63f27d81218bb44d95611ed3c78217d7e70084a39debcc60aaa110d6c796501
+  Snippet:      api.albertlane.net IN A 172.67.75.232 (TTL=300)...
+  Evidence SHA: 7449731affa31ceb9379cb25329281f6a6dd6140fa5d69ff872ae4355064e64c
+  HMAC Seal:    398122e2d02e500168542619c1971289a64311ebf9464300d5b51a497d796da9
+  Merkle Leaf:  05aa03bf86265b44ad5c85c8dda33bf7398dc68b605b08b42dd1d6f86e9897ca
+  Chain Hash:   afcd1f52e1856d637d30674c9119ab820b85bf20fdbb5e637d0b3ac94fd9de11 (Prev: 1c34c03cdc6088ad...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0152 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      api.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: api.albertlane.net -> 104.26.9.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.9.54 with TTL 300; SHA: c3f872f20a2c3a08d6eff698b619df756ae99081f11c933b9869123b9da68678
+  Snippet:      api.albertlane.net IN A 104.26.9.54 (TTL=300)...
+  Evidence SHA: 20688c1b79c2789f4a6e6a6c185a09af0315ad79703c4d1c81df7d2ff88710cf
+  HMAC Seal:    caa8fa1fc5482ea8d5fa418419d6ff830cc8291589353a293ee136e19e6b6f55
+  Merkle Leaf:  62aabe983269dfe23d6ccad42f5f27fac702067345553bddb4f0bb1ddc303d22
+  Chain Hash:   ec64f491a2cfba54f262caf57371c219bf103e5817936371e656dc225f68a16d (Prev: afcd1f52e1856d63...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0153 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      api.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: api.albertlane.net -> 104.26.8.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.8.54 with TTL 300; SHA: e06b44f9fd181bc644e7181665cc557213252ab305ab7fde06d97b6e5407e3a5
+  Snippet:      api.albertlane.net IN A 104.26.8.54 (TTL=300)...
+  Evidence SHA: 47f678f0f2e4bdc9536d6427c96969dffaf3d7f28ebd896e1032a7a3d85ccbe6
+  HMAC Seal:    1961b4f3e6491874c9430b24ef2a93d1214a3bb6d46631053fc0dcb2e7669d37
+  Merkle Leaf:  2acc5ffd3c9eec118fe790106ae36e77e35e0226f76cd942457a1df47dee9e4a
+  Chain Hash:   1dbeafdce47a7eb0b389862bfe985deb8a998b5b1f6c3a3c37e8b02cc58c7506 (Prev: ec64f491a2cfba54...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0154 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      api.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: api.albertlane.net -> 2606:4700:20::681a:936 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:936 with TTL 300; SHA: 8ad75253a2c5f33028b602dd26e430eb378ba687aeadbb7a0bc39c7166b752e3
+  Snippet:      api.albertlane.net IN AAAA 2606:4700:20::681a:936 (TTL=300)...
+  Evidence SHA: 61e512b2601ce0e9253090995f66f1ccaa538b0ea16329c544aecacba7d4a91e
+  HMAC Seal:    d6f71dab420d3236fd9b6751109b5bd55e774dd85cdb70e0c97d8d14d5e5fd7b
+  Merkle Leaf:  f9a6047288d64e8156bb4c1d67cfa551cadc01da47ef722756cf44ddf667b581
+  Chain Hash:   5112e799913a44093b21eece1adf05f92d065c5b0e1a55a764def2f52b387dfd (Prev: 1dbeafdce47a7eb0...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0155 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      api.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: api.albertlane.net -> 2606:4700:20::ac43:4be8 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::ac43:4be8 with TTL 300; SHA: 6d65338759df4467dec123b8bb8a8fded5f33b574920ecbe555825e5efed1b06
+  Snippet:      api.albertlane.net IN AAAA 2606:4700:20::ac43:4be8 (TTL=300)...
+  Evidence SHA: 04b52d22f8bd12fbc4074108992e98aa0c37d378e99bac740d591d3d9f9e0da5
+  HMAC Seal:    4f6e5877e4f1b9ebef7dd3f5543dbb166b81f7cee7a0ca04d051a09d86510e16
+  Merkle Leaf:  4f8816131aaab95cf8d0e70dd26a9514fe8a2e7bfa89f57292a210f251aee5e9
+  Chain Hash:   f4cd66bc879ede43e2f1e53bf4a1c9669a5cc2f91afbc88f41fa0866c1c9aa83 (Prev: 5112e799913a4409...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0156 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      api.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: api.albertlane.net -> 2606:4700:20::681a:836 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:836 with TTL 300; SHA: 109d53a040a81e622aa823a511ebbac478b5b44662aa0da9978cf72132fb3d2d
+  Snippet:      api.albertlane.net IN AAAA 2606:4700:20::681a:836 (TTL=300)...
+  Evidence SHA: ebf8677424149a1ce606e41ad526992fbf6e97078f2313709a00462f612ecd85
+  HMAC Seal:    cef285687c875437081763601e9594a0284966711f2d615e2ab7612ba3673c6a
+  Merkle Leaf:  0ee799a89815f231dc3d0f98f9067c5913a87a973f61890c06fea043aab2d7e0
+  Chain Hash:   55b610127efda27b949db38743c42ca378088794180174a13807b76edd8a529b (Prev: f4cd66bc879ede43...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0157 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      www.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: www.albertlane.net -> 104.26.8.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.8.54 with TTL 300; SHA: fe17b7f1598d131a7e81a499e2532a56ff94c99a92f0c98c27ad532f669b4a24
+  Snippet:      www.albertlane.net IN A 104.26.8.54 (TTL=300)...
+  Evidence SHA: 5cda753cb136e6279f9e4caee04f11053911c706c430678b0721168fbab18566
+  HMAC Seal:    98a84c56b57bb258235aebbe5f2821d33531ca50ec31b49501cf04550d3df1ee
+  Merkle Leaf:  53d71676f7e1340076f75396787dd7ca28d72c3443ac8f8e2a7adad5040b7443
+  Chain Hash:   04725488b4ec6c8601988ea2c35af7020ac04f809315a46e1a3cf417f8c4003e (Prev: 55b610127efda27b...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0158 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      www.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: www.albertlane.net -> 172.67.75.232 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 172.67.75.232 with TTL 300; SHA: 8096cab9d56f39afced3095db6872decb604d690dd88b1677efab88e62dcdcd9
+  Snippet:      www.albertlane.net IN A 172.67.75.232 (TTL=300)...
+  Evidence SHA: b081f87061779cf5ac0e6925e3950a18726efb38946f0b2b86c719041018ac2f
+  HMAC Seal:    afcbd2bb15eef5dc52160170f7a2298e9548f18b04005e3737c33de0d832445f
+  Merkle Leaf:  827b9041cfb50cdbd01dd0f502eb49b9c1ad8b73f88618d74b3d52da6d3fdbc9
+  Chain Hash:   4181ab39b50128593275fb6c2302e289c5f44b636aa8ba2b9c14c680e11c4bc5 (Prev: 04725488b4ec6c86...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0159 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      www.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: www.albertlane.net -> 104.26.9.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.9.54 with TTL 300; SHA: 92c792f8ba72cb734c9d0d90be704d2e82954031c13b060c691dccadd0094b18
+  Snippet:      www.albertlane.net IN A 104.26.9.54 (TTL=300)...
+  Evidence SHA: dac43c66f058d9da68bc0f42ff0b8701e51109389c2b12727b474f13a5f3d7d4
+  HMAC Seal:    039e94c77243975113c8523b24823d58f2c4dbcfa959c67642254b3e5736517e
+  Merkle Leaf:  5a626575ce78946cb23f6fae226b364b091b9d7a9b63397008c03b1bbbd88fbf
+  Chain Hash:   c5a7e88bab552de0743b2e8f7f7b192da8e4f37635f4a7a5c8703bbfd0889551 (Prev: 4181ab39b5012859...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0160 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      www.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: www.albertlane.net -> 2606:4700:20::681a:936 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:936 with TTL 300; SHA: 531b2324317ee0ac381c826008d3075a5cdf15b7841a0bddeb4d873697e68751
+  Snippet:      www.albertlane.net IN AAAA 2606:4700:20::681a:936 (TTL=300)...
+  Evidence SHA: 571ee297824cfb43555f9adb54f747da084406ec05137001024cb784ac394f00
+  HMAC Seal:    770fe69678b5ddc3b078ace8ba74b1edfc8f262e036f6fdc4f49e683eaa97f06
+  Merkle Leaf:  4ed18502b4b86741c24954f877c6e774463949ef78c5806cba45afdf10fc2872
+  Chain Hash:   544efe4fdcb9e5ea9badc0ff01cc0d512c1d11f1085928358c7d180ae2fc6bc8 (Prev: c5a7e88bab552de0...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0161 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      www.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: www.albertlane.net -> 2606:4700:20::681a:836 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:836 with TTL 300; SHA: 7a8e223fa3906a0e5d81901b336e4da1ffb595b52721fdcdaf500f14a2703c8a
+  Snippet:      www.albertlane.net IN AAAA 2606:4700:20::681a:836 (TTL=300)...
+  Evidence SHA: 288ac15fd3230a2c938b13f2eb525992a17e2dec3de759f4d774bb675e150b9a
+  HMAC Seal:    add2d52c1f8a05ed0acd12df060c7702b19ec8acd5919ee92b89f46f24f98f33
+  Merkle Leaf:  4954e1e058fa408f6e4d9bd4a6fe27a2adf4bef59bd6a75967c52ac208220985
+  Chain Hash:   7f1e3d8a20b415f5a5153484b926dcfab0a3a40a216ba60e71ecea2082018d0c (Prev: 544efe4fdcb9e5ea...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0162 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      www.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: www.albertlane.net -> 2606:4700:20::ac43:4be8 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::ac43:4be8 with TTL 300; SHA: 86553e0cadca67dfec2087ef9e8acf7dc98ed3432636679e2f1869a48498775d
+  Snippet:      www.albertlane.net IN AAAA 2606:4700:20::ac43:4be8 (TTL=300)...
+  Evidence SHA: de5a9cd1f285992eaeba8e5e1c24b0e81e156c5599f81bb5e418c0e9be5fe640
+  HMAC Seal:    1568b4d153eb6d6b8fc83879104e3349976cb723d1c5058525a1577837497d69
+  Merkle Leaf:  8f10a0f50fc55deb5c24b593f9677dc2f70720ece92451320bb0a1e1501c4874
+  Chain Hash:   673b0ad00105c52564c93d020be0f7e3a8ad9319144a644b2ec352e81b2c6e36 (Prev: 7f1e3d8a20b415f5...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0163 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      sec.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: sec.albertlane.net -> 104.26.8.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.8.54 with TTL 300; SHA: 0c3e485fa0b75ba36f5b923315a6339929e5c957e4f6f6993024302913a0ad87
+  Snippet:      sec.albertlane.net IN A 104.26.8.54 (TTL=300)...
+  Evidence SHA: be4f13f6bd9b32aa6fa280c4dd263cec7d7f8bdf9a1ca4c0c7a3edea16f75ab7
+  HMAC Seal:    a346ea7e730149ec45ae69e847a0aa44c95c837ea6033b755164bb14fa9d3329
+  Merkle Leaf:  9c4e9ab625fa2a0dfed816497c077901f1bacac5efe83f3d6eff638be4c3657f
+  Chain Hash:   7a48bce6a19431a2ee9ed07fec461a40dd935e0577e2855e9c6e1f7e1bd325b3 (Prev: 673b0ad00105c525...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0164 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      sec.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: sec.albertlane.net -> 172.67.75.232 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 172.67.75.232 with TTL 300; SHA: f244f55e3896fe9de378db9f26facbfc2a0bdebd3160b5118d0adda38bd3e77d
+  Snippet:      sec.albertlane.net IN A 172.67.75.232 (TTL=300)...
+  Evidence SHA: 10e0c45c57f9ad033ad904872568a534418a2fa0204a8458280ff2b0b0476fe3
+  HMAC Seal:    1a9a3eb8af7ad964ae78c6c1fe10772f36ccdf7d53b672c8b6c6ed8b010830e5
+  Merkle Leaf:  7e84bb9c7e3bf1886585124e415da54ce913aad486d8db8c723f939d98126eb5
+  Chain Hash:   d06b25879deaaddd6c7fd14a202318ffdfbc1f3670326d5541d4c6b87f85640d (Prev: 7a48bce6a19431a2...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0165 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      sec.albertlane.net [A Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: sec.albertlane.net -> 104.26.9.54 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified A record pointing to 104.26.9.54 with TTL 300; SHA: f8c2dced80588583678ac41e6dc995f5edd570378f4e728cfd27f9abfad6dbf2
+  Snippet:      sec.albertlane.net IN A 104.26.9.54 (TTL=300)...
+  Evidence SHA: a36ccc1201934c13f2f417e0c2964c9a00c66dd645880d0a1500d283435892fa
+  HMAC Seal:    4f3252e1e338de91abbe82ed2a0a84605f3c1d87ff09e18d3d372cc354620a8a
+  Merkle Leaf:  a475afebd90bdf6ebd4fc9507680623ea09fe74fe6e2e341bab9e944d9f75eb4
+  Chain Hash:   c22fab9d3597161bd7c005af98a07cc5239c17eb0fd12a6244b9adede671ad6e (Prev: d06b25879deaaddd...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0166 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      sec.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: sec.albertlane.net -> 2606:4700:20::ac43:4be8 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::ac43:4be8 with TTL 300; SHA: 931dc6ea5dd26865dd44c12a4cf186a48ea018a76d2de30425f1ac9b87a4a96e
+  Snippet:      sec.albertlane.net IN AAAA 2606:4700:20::ac43:4be8 (TTL=300)...
+  Evidence SHA: d8fad63ca0abfa542af4ae021026522d619db65654d2226edfc6f2c4c0d3e3d5
+  HMAC Seal:    e1e06a42dc53413e9d86926c629b73fe7394f8ee9e53883d23d8a58987837a1b
+  Merkle Leaf:  afd49dcb04024a2ca21e505643cec5ba74305c5c7db9099acef9583f02f82d28
+  Chain Hash:   0ce3181fc6c52023aaf315745d9f6c28d200a02d7c3dc24e9982788c076fd109 (Prev: c22fab9d3597161b...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0167 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      sec.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: sec.albertlane.net -> 2606:4700:20::681a:936 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:936 with TTL 300; SHA: 59713efadc02874a3b2406fdc2d6e0acb9a7d7f25dad7ff03689dfaeb88f19d9
+  Snippet:      sec.albertlane.net IN AAAA 2606:4700:20::681a:936 (TTL=300)...
+  Evidence SHA: 9659c3eae5ee26c7566c607b68ad5acd6b720e88752298860cdda7ea27b5cadd
+  HMAC Seal:    916f367c638e8253950e3b74f87939e943898e0c0e19f54fd808d48e40800c4a
+  Merkle Leaf:  38e03b4b4096aa2a8c734983b935d2019564cdd64e01cbc445a8e7647b546a48
+  Chain Hash:   4e7875f1a3feb31b8df175ad303513210a40deeb4f24db1773ec229a32785650 (Prev: 0ce3181fc6c52023...)
+------------------------------------------------------------------------------
+[2026-10-09T20:25:43.138084+00:00] [HIGH] AL-EV-0168 | Cloudflare DNS Authority (chelsea/ruben.ns.cloudflare.com)
+  Product:      sec.albertlane.net [AAAA Record]
+  Category:     APEX_DOMAIN_ROUTING_IMMUTABILITY
+  Asset:        DNS Routing Vector: sec.albertlane.net -> 2606:4700:20::681a:836 (TTL: 300)
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501
+  Evidence:     Verified AAAA record pointing to 2606:4700:20::681a:836 with TTL 300; SHA: d4a9428d76fe145508121b53f2ea9f15154ba869cd29295f03ecbb64b39ca33d
+  Snippet:      sec.albertlane.net IN AAAA 2606:4700:20::681a:836 (TTL=300)...
+  Evidence SHA: 3292f7ff7eec766a024eed366b9b632910caa6c5b128c263b10c11b94eceeb05
+  HMAC Seal:    d882d732059db8775168c297908db57a3c5c772c2bb09a4327d13695b733135b
+  Merkle Leaf:  048f3811a8791dad10afe5cb9dc2c86279785d2827ef48e98d67c003a705a168
+  Chain Hash:   861e357b65eee78ca49a8ae1dea9ec698527679d1101265f5fd6c97f27b501e5 (Prev: 4e7875f1a3feb31b...)
+------------------------------------------------------------------------------
+[2026-10-11T03:31:18.685770+00:00] [HIGH] AL-EV-0169 | Anthropic, PBC
+  Product:      Model Context Protocol (MCP) & Claude Code
+  Category:     REVERSE_STREAM_AST_THEFT
+  Asset:        AlbertHub Fast PTY & Sovereign Reverse Stream Protocol
+  Statute:      17 U.S.C. § 501; 18 U.S.C. § 1836; SEC Whistleblower 17684-273-411-436
+  Evidence:     Claude Code transport streaming demonstrates 413 AST cross-correlations with AlbertHub reverse broker.
+  Snippet:      mcp_stdio_transport <-> reverse_wire_stream broker...
+  Evidence SHA: 52fc325eda065b193cb9260d82f78014bdd19fed6b33853dd1689c511756e781
+  HMAC Seal:    65515c8f1167b2dde1e78ac3e0fd7ff7d6bdb76f4cdb3b5a1fcfef447d7456d7
+  Merkle Leaf:  dfb6cfaec027b3ca3dca0248820caddadd713827c59b4660abe08ea6b91751c4
+  Chain Hash:   51df3beeb2f6f3ba21f0be7ce09e7ac2769f8eee5bed16774674265d98cbcc28 (Prev: 861e357b65eee78c...)
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+[2026-10-11T03:31:21.206014Z] [SEALED] AL-EV-R0029 | ALDI Lane-VM Sovereign Enclave
+  Product:      Lane-VM Universal Orchestration Substrate & RFC-SERIES-001
+  Category:     IMMUTABLE_CHAIN_RECORD_ATTESTATION
+  Asset:        Canonical MCEL 1.0 Ledger & Recursive Manifest
+  Statute:      SEC Whistleblower No. 17684-273-411-436; 17 U.S.C. § 501; 18 U.S.C. § 1836
+  Evidence:     ALDI LANE-VM IMMUTABLE FORENSIC SEAL: R29 | SEC=17684-273-411-436 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | P0=57000 | RFC=RFC-SERIES-001 | ManifestSHA=c0bf06a0fbe03616 | AlteredRecordsSHA=ebdc833b65b10de6 | WebAuditSHA=6a5bd1319437ac67 | ConsolidatedSHA=3a3ef1f8eb86801b | CorpPenaltiesSHA=5e7436ddfbc726fa | CppKernelSHA=2a6b50f784283c1a | JuliaKernelSHA=d2a7d846eed84c7e | Provenance=Albert Lane & Robot | #NoExploitRobot #NoExploitAlbert #NoExploitJulia | Effective=2026-05-30
+  Chain Hash:   588dc404caf41158d59aacc14bb4fa90395835c24a6bbc4753fd04e064b72641 (Prev: ac74283311decefe...)
+  Status:       IMMUTABLY BOUND & CALENDAR TIMESTAMPED

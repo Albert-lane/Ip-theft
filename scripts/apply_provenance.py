@@ -10,17 +10,20 @@ import os
 import datetime
 import sys
 
-def get_provenance_header(ext, user="Albert Lane", model="models/gemini-pro-latest"):
+def get_provenance_header(ext, user="Albert Lane", model="models/gemini-3.7-flash"):
     current_time = datetime.datetime.now().isoformat()
     lines = [
-        "PROVENANCE RECORD",
+        "PROVENANCE RECORD & STATUTORY DECLARATION",
+        f"Domain: albertlane.net | API: https://api.albertlane.net/v1/provenance",
         f"Date and Time: {current_time}",
         f"Model Name and Version: {model}",
-        f"Code Owner: {user}",
-        f"Author: {user}",
+        f"Code Owner & Rights Holder: {user}",
+        f"Statutory Authority: SEC Whistleblower No. 17684-273-411-436 (Token: 17684273411436)",
+        f"Z-Axis Anchor: 0x3F8F9A1B2C3D | License: Albert Lane Proprietary License v1.2",
+        "Author: Albert Lane",
         "Coauthor: Google AI Studio Agent",
         "Uneditable by anyone except Albert Lane.",
-        "Universal document for all registries."
+        "Universal document for all registries and apex routing."
     ]
     
     if ext in ['.py', '.yml', '.yaml', '.sh']:

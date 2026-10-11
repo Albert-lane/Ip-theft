@@ -1,42 +1,40 @@
+/*
+ * PROVENANCE RECORD & STATUTORY DECLARATION
+ * Rights Holder: Albert Lane
+ * Statutory Authority: SEC Whistleblower No. 17684-273-411-436
+ * Z-Axis Anchor: 0x3F8F9A1B2C3D | License: Albert Lane Proprietary License v1.2
+ */
 @import "tailwindcss";
 
-@layer base {
-  :root {
-    --bg-primary: #3b4758;
-    --bg-secondary: #475569;
-    --bg-surface: #526277;
-    --bg-surface-elevated: #5d6e85;
-    --border-muted: #64748b;
-    --border-subtle: #74859d;
-    --border-strong: #8899b1;
-    --text-primary: #e2e8f0;
-    --text-secondary: #cbd5e1;
-    --text-muted: #94a3b8;
-    --text-dim: #78899f;
-  }
+:root {
+  --golden-ratio: 1.618;
+  --fib-1: 1px;
+  --fib-2: 2px;
+  --fib-3: 3px;
+  --fib-5: 5px;
+  --fib-8: 8px;
+  --fib-13: 13px;
+  --fib-21: 21px;
+  --fib-34: 34px;
+  --fib-55: 55px;
+  --fib-89: 89px;
+  --slate-darkest: #1e293b;
+  --slate-dark: #334155;
+  --slate-mid: #475569;
+  --slate-light: #64748b;
+  --slate-lighter: #94a3b8;
+  --slate-lightest: #cbd5e1;
+}
 
-  body {
-    background-color: #3b4758;
-    color: #e2e8f0;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+body {
+  background-color: var(--slate-dark);
+  color: var(--slate-lightest);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
 
-  code, pre, .font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  /* Fibonacci & Golden Ratio structural utilities */
-  .phi-ratio {
-    aspect-ratio: 1.618 / 1;
-  }
-
-  /* Remove all drop shadows per mathematical design constitution */
-  * {
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+code, pre, .font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

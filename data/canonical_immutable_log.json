@@ -1,0 +1,35 @@
+{
+  "index": 18,
+  "timestamp": "2026-10-11T03:20:16.000000Z",
+  "data": "ALDI LANE-VM Immutable Seal v2.0-speculative: R6=921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a -> R7=4903d2de45279d3af09e667f258d0bc8929f18a79b3eba697daa4ce38937fd97 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | P0=57000 | SEC=17684-273-411-436 | RFC=RFC-SERIES-001 | Modes=GROUND_31/APEX_7 | Checksum=0xEDB88320",
+  "prev_hash": "4903d2de45279d3af09e667f258d0bc8929f18a79b3eba697daa4ce38937fd97",
+  "entry_hash": "644a0b1f1e94f5c045071d1e07441cb31a00e01fa356f74bff7287801db0875f",
+  "zaxis": "0x3F8F9A1B2C3D",
+  "stride": 17684,
+  "base_offset_P0": 57000,
+  "sec_whistleblower": "17684-273-411-436",
+  "manifest_version": "2.0-speculative-cache-sealed",
+  "rfc": "RFC-SERIES-001",
+  "verification": {
+    "R6": "921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a",
+    "R7_prev": "921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a",
+    "R7": "4903d2de45279d3af09e667f258d0bc8929f18a79b3eba697daa4ce38937fd97",
+    "continuity": "100% UNBROKEN"
+  },
+  "metadata": {
+    "core_sha256": "761eda357f9113b646ad7abd7748be6499fa5890bfced5fd522f3781b0ec218e",
+    "script_hashes": {
+      "recursive-manifest.json.py": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+      "lane_vm_series.cpp": "c514d2ff11114f9e90fbef306826b66d78d6b321fd29015229fa6bbec4a8ba42",
+      "lane_vm_series.jl": "1c424ba8269396917fea2de7016590790cd91cc0c731e5005952da112ed24c22"
+    },
+    "ots_proof": {
+      "ots_version": 1,
+      "chain": "bitcoin+calendar_opentimestamps",
+      "sha256_digest": "761eda357f9113b646ad7abd7748be6499fa5890bfced5fd522f3781b0ec218e",
+      "entry_hash": "644a0b1f1e94f5c045071d1e07441cb31a00e01fa356f74bff7287801db0875f",
+      "timestamp_utc": "2026-10-11T03:20:16.000000Z",
+      "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+    }
+  }
+}

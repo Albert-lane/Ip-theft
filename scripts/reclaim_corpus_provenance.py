@@ -89,23 +89,25 @@ def execute_reclamation():
         cur.execute("""
             CREATE TABLE IF NOT EXISTS provenance_registry (
                 file_path TEXT PRIMARY KEY,
+                language TEXT,
+                lines INTEGER,
+                bytes INTEGER,
                 sha256 TEXT,
-                size_bytes INTEGER,
                 rights_holder TEXT,
-                sec_filing TEXT,
-                zaxis_anchor TEXT,
-                reclaimed_at TEXT,
-                status TEXT
+                filing_reference TEXT,
+                license TEXT,
+                sequestration_status TEXT,
+                certified_at TEXT
             )
         """)
         insert_rows = [
             (
-                r["file_path"], r["sha256"], r["size_bytes"], r["rights_holder"],
-                r["sec_filing"], r["zaxis_anchor"], r["reclaimed_at"], r["status"]
+                r["file_path"], "Config/Code", 0, r["size_bytes"], r["sha256"], r["rights_holder"],
+                r["sec_filing"], "Albert Lane Proprietary License v1.2", "STATUTORY_PROPRIETARY_RECLAIMED", r["reclaimed_at"]
             )
             for r in reclaimed_files
         ]
-        cur.executemany("INSERT OR REPLACE INTO provenance_registry VALUES (?, ?, ?, ?, ?, ?, ?, ?)", insert_rows)
+        cur.executemany("INSERT OR REPLACE INTO provenance_registry (file_path, language, lines, bytes, sha256, rights_holder, filing_reference, license, sequestration_status, certified_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", insert_rows)
         conn.commit()
         conn.close()
         print(f"[+] Updated SQLite 'provenance_registry' table with {len(insert_rows)} certified files.")

@@ -1,0 +1,901 @@
+<!--
+  PROVENANCE RECORD & STATUTORY DECLARATION
+  Domain: albertlane.net | API: https://api.albertlane.net/v1/provenance
+  Date and Time: 2026-10-09T03:30:52.584691
+  Model Name and Version: models/gemini-3.7-flash
+  Code Owner & Rights Holder: Albert Lane
+  Statutory Authority: SEC Whistleblower No. 17684-273-411-436 (Token: 17684273411436)
+  Z-Axis Anchor: 0x3F8F9A1B2C3D | License: Albert Lane Proprietary License v1.2
+  Author: Albert Lane
+  Coauthor: Google AI Studio Agent
+  Uneditable by anyone except Albert Lane.
+  Universal document for all registries and apex routing.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI IP Forensics Aptitude Test · AIIPF-2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root {
+  --bg:#070C17; --surface:#0D1628; --card:#111E35;
+  --border:#1A2E50; --border-hi:#2A4A7A;
+  --teal:#00D4AA; --teal-dim:#00916E; --teal-bg:#00261E;
+  --red:#FF4A4A; --red-bg:#2A0A0A;
+  --amber:#FFB020; --amber-bg:#2A1A00;
+  --blue:#4A90FF; --blue-bg:#0A1830;
+  --purple:#A070FF; --purple-bg:#1A0A30;
+  --text:#C4D8F4; --muted:#4A6888; --dim:#2A4060;
+  --mono:'JetBrains Mono',monospace;
+  --sans:'Space Grotesk',system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:15px;scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);
+  line-height:1.65;min-height:100vh;-webkit-font-smoothing:antialiased}
+
+/* PROGRESS BAR */
+#progress-bar{position:fixed;top:0;left:0;width:100%;height:3px;
+  background:var(--border);z-index:200}
+#progress-fill{height:100%;background:var(--teal);
+  transition:width 0.4s ease;width:0%}
+
+/* HEADER */
+.hdr{position:fixed;top:3px;left:0;right:0;height:52px;
+  background:rgba(7,12,23,0.95);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border);z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 1.5rem;gap:1rem}
+.hdr-id{font-family:var(--mono);font-size:0.65rem;color:var(--muted);
+  letter-spacing:0.1em}
+.hdr-center{font-family:var(--mono);font-size:0.72rem;color:var(--text);
+  text-align:center;flex:1}
+.hdr-timer{font-family:var(--mono);font-size:0.8rem;font-weight:600;
+  color:var(--teal);letter-spacing:0.08em;min-width:60px;text-align:right}
+.hdr-timer.warn{color:var(--amber)}
+.hdr-timer.danger{color:var(--red);animation:blink 1s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.4}}
+
+/* MAIN WRAPPER */
+.wrap{max-width:760px;margin:0 auto;padding:70px 1.2rem 4rem}
+
+/* ── SCREENS ── */
+.screen{display:none}
+.screen.active{display:block}
+
+/* INTRO */
+.intro-badge{font-family:var(--mono);font-size:0.62rem;color:var(--teal);
+  letter-spacing:0.15em;margin-bottom:1.2rem;display:block}
+.intro-title{font-size:2.6rem;font-weight:600;letter-spacing:-0.03em;
+  line-height:1.1;margin-bottom:0.8rem}
+.intro-title span{color:var(--teal)}
+.intro-sub{font-size:1rem;color:#7A9FBF;max-width:52ch;margin-bottom:2rem;
+  font-weight:300}
+.intro-meta{display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;
+  margin-bottom:2.5rem;max-width:480px}
+.meta-box{background:var(--card);border:1px solid var(--border);
+  border-radius:4px;padding:0.7rem 1rem}
+.meta-box dt{font-family:var(--mono);font-size:0.6rem;color:var(--muted);
+  letter-spacing:0.1em;margin-bottom:0.2rem}
+.meta-box dd{font-size:0.85rem;font-weight:500;color:var(--text)}
+
+/* SECTION HEADER */
+.section-intro{text-align:center;padding:3rem 0}
+.sect-code{font-family:var(--mono);font-size:0.65rem;color:var(--muted);
+  letter-spacing:0.15em;margin-bottom:0.8rem;display:block}
+.sect-name{font-size:1.6rem;font-weight:600;letter-spacing:-0.02em;
+  margin-bottom:0.5rem}
+.sect-desc{font-size:0.85rem;color:#7A9FBF;max-width:48ch;
+  margin:0 auto 1.5rem}
+.sect-pts{font-family:var(--mono);font-size:0.7rem;
+  color:var(--teal);letter-spacing:0.06em}
+
+/* QUESTION CARD */
+.q-card{background:var(--card);border:1px solid var(--border);
+  border-radius:6px;overflow:hidden;margin-bottom:1rem}
+.q-top{padding:1.2rem 1.4rem 0.8rem;border-bottom:1px solid var(--border)}
+.q-meta{display:flex;justify-content:space-between;align-items:center;
+  margin-bottom:0.5rem}
+.q-num{font-family:var(--mono);font-size:0.62rem;color:var(--muted);
+  letter-spacing:0.1em}
+.q-pts{font-family:var(--mono);font-size:0.62rem;
+  background:var(--teal-bg);color:var(--teal);
+  padding:0.15rem 0.5rem;border-radius:2px;letter-spacing:0.06em}
+.q-title{font-size:0.78rem;font-weight:600;color:var(--text);
+  letter-spacing:-0.01em;margin-bottom:0.5rem}
+.q-text{font-size:0.88rem;color:#9ABAD8;line-height:1.7;
+  white-space:pre-wrap}
+.q-body{padding:1.2rem 1.4rem}
+
+/* MCQ OPTIONS */
+.options{display:flex;flex-direction:column;gap:0.5rem}
+.option{background:var(--surface);border:1px solid var(--border);
+  border-radius:4px;padding:0.75rem 1rem;font-size:0.84rem;
+  cursor:pointer;transition:border-color 0.15s,background 0.15s;
+  text-align:left;color:var(--text);font-family:var(--sans);
+  line-height:1.5;position:relative}
+.option:hover:not([disabled]){border-color:var(--teal-dim);background:var(--teal-bg)}
+.option.selected{border-color:var(--teal);background:var(--teal-bg)}
+.option.correct{border-color:#00C853;background:#001A08;color:#4AE87A}
+.option.wrong{border-color:var(--red);background:var(--red-bg);color:#FF7070}
+.option.revealed-correct{border-color:#00C853;background:#001A08;color:#4AE87A}
+.option[disabled]{cursor:not-allowed}
+.opt-letter{font-family:var(--mono);font-size:0.65rem;font-weight:600;
+  margin-right:0.6rem;opacity:0.5}
+
+/* FREE RESPONSE */
+.fr-area{width:100%;background:var(--surface);border:1px solid var(--border);
+  border-radius:4px;color:var(--text);font-family:var(--sans);
+  font-size:0.86rem;line-height:1.65;padding:0.9rem 1rem;
+  resize:vertical;min-height:140px;
+  transition:border-color 0.15s;outline:none}
+.fr-area:focus{border-color:var(--teal-dim)}
+.fr-area::placeholder{color:var(--muted)}
+.fr-hint{font-family:var(--mono);font-size:0.62rem;color:var(--muted);
+  margin-top:0.4rem;letter-spacing:0.04em}
+
+/* AI SCORING */
+.scoring-state{display:none;padding:1rem 1.4rem;
+  border-top:1px solid var(--border)}
+.scoring-loader{display:flex;align-items:center;gap:0.7rem;
+  font-family:var(--mono);font-size:0.72rem;color:var(--teal)}
+.loader-dots span{display:inline-block;animation:dot 1.2s infinite}
+.loader-dots span:nth-child(2){animation-delay:0.2s}
+.loader-dots span:nth-child(3){animation-delay:0.4s}
+@keyframes dot{0%,60%,100%{opacity:0.2}30%{opacity:1}}
+
+.score-result{background:var(--surface);border:1px solid var(--border);
+  border-radius:4px;padding:1rem 1.2rem;margin-top:0.3rem}
+.score-line{display:flex;justify-content:space-between;align-items:center;
+  margin-bottom:0.6rem}
+.score-label{font-family:var(--mono);font-size:0.65rem;color:var(--muted);
+  letter-spacing:0.08em}
+.score-val{font-family:var(--mono);font-size:1rem;font-weight:600;
+  color:var(--teal)}
+.score-feedback{font-size:0.8rem;color:#8AAAC0;line-height:1.6;
+  margin-bottom:0.5rem}
+.score-missed{font-family:var(--mono);font-size:0.72rem;
+  color:var(--amber);line-height:1.5;
+  background:var(--amber-bg);padding:0.5rem 0.7rem;border-radius:3px}
+.score-missed-label{font-size:0.6rem;letter-spacing:0.1em;
+  opacity:0.7;display:block;margin-bottom:0.2rem}
+
+/* MCQ EXPLANATION */
+.mcq-explanation{background:var(--surface);border:1px solid var(--border);
+  border-left:3px solid var(--teal);border-radius:0 4px 4px 0;
+  padding:0.8rem 1rem;margin-top:0.8rem;display:none;
+  font-size:0.8rem;color:#8AAAC0;line-height:1.6}
+.mcq-explanation.show{display:block}
+
+/* BUTTONS */
+.btn{font-family:var(--mono);font-size:0.75rem;font-weight:600;
+  letter-spacing:0.08em;padding:0.6rem 1.4rem;border-radius:3px;
+  cursor:pointer;border:none;transition:all 0.15s}
+.btn-primary{background:var(--teal);color:#070C17}
+.btn-primary:hover{background:#00F0C0}
+.btn-primary:disabled{background:var(--dim);color:var(--muted);cursor:not-allowed}
+.btn-ghost{background:transparent;color:var(--teal);
+  border:1px solid var(--border-hi)}
+.btn-ghost:hover{border-color:var(--teal);background:var(--teal-bg)}
+.btn-row{display:flex;gap:0.7rem;margin-top:1.2rem;flex-wrap:wrap;
+  align-items:center}
+.skip-note{font-family:var(--mono);font-size:0.6rem;color:var(--muted);
+  letter-spacing:0.04em}
+
+/* RESULTS */
+.results-header{text-align:center;padding:2.5rem 0 2rem}
+.grade-ring{width:120px;height:120px;margin:0 auto 1.5rem;
+  position:relative}
+.grade-ring svg{transform:rotate(-90deg)}
+.grade-ring .ring-bg{fill:none;stroke:var(--border);stroke-width:8}
+.grade-ring .ring-fill{fill:none;stroke-width:8;
+  stroke-linecap:round;transition:stroke-dashoffset 1s ease}
+.grade-text{position:absolute;inset:0;display:flex;
+  flex-direction:column;align-items:center;justify-content:center}
+.grade-pct{font-family:var(--mono);font-size:1.4rem;font-weight:600}
+.grade-label{font-family:var(--mono);font-size:0.6rem;color:var(--muted);
+  letter-spacing:0.1em}
+.results-title{font-size:1.8rem;font-weight:600;letter-spacing:-0.02em;
+  margin-bottom:0.4rem}
+.results-sub{font-size:0.85rem;color:#7A9FBF}
+
+.domain-grid{display:grid;gap:0.5rem;margin:1.5rem 0}
+.domain-row{background:var(--card);border:1px solid var(--border);
+  border-radius:4px;padding:0.7rem 1rem;
+  display:grid;grid-template-columns:1fr auto auto;
+  align-items:center;gap:0.8rem}
+.domain-name{font-size:0.82rem;font-weight:500}
+.domain-pts{font-family:var(--mono);font-size:0.7rem;color:var(--muted)}
+.domain-bar-wrap{width:100%;background:var(--border);
+  border-radius:2px;height:4px;grid-column:1/-1;margin-top:0.3rem}
+.domain-bar-fill{height:100%;border-radius:2px;
+  background:var(--teal);transition:width 1s ease}
+
+.verdict{background:var(--card);border:1px solid var(--border);
+  border-radius:6px;padding:1.5rem;margin-top:1.5rem;
+  border-left:3px solid var(--teal)}
+.verdict-label{font-family:var(--mono);font-size:0.62rem;
+  color:var(--teal);letter-spacing:0.1em;margin-bottom:0.5rem;display:block}
+.verdict-text{font-size:0.88rem;line-height:1.7;color:#9ABBD6}
+
+/* SECTION COLOR ACCENTS */
+[data-section="A"] .q-card{border-top:2px solid var(--teal)}
+[data-section="B"] .q-card{border-top:2px solid var(--blue)}
+[data-section="C"] .q-card{border-top:2px solid var(--purple)}
+[data-section="D"] .q-card{border-top:2px solid var(--amber)}
+[data-section="E"] .q-card{border-top:2px solid var(--red);
+  box-shadow:0 0 30px rgba(255,74,74,0.08)}
+
+/* SECTION BREAK */
+.sect-break{text-align:center;padding:2rem 0 1.5rem;
+  border-top:1px solid var(--border);margin-top:1.5rem}
+.sect-break-code{font-family:var(--mono);font-size:0.6rem;
+  color:var(--muted);letter-spacing:0.15em}
+.sect-break-name{font-size:1rem;font-weight:600;margin-top:0.3rem}
+
+/* HIDDEN SECTION SPECIAL */
+.redacted-title{filter:blur(3px) brightness(0.5);
+  user-select:none;cursor:not-allowed}
+
+@media(max-width:600px){
+  .intro-title{font-size:1.8rem}
+  .intro-meta{grid-template-columns:1fr}
+  .hdr-id{display:none}
+}
+</style>
+</head>
+<body>
+
+<div id="progress-bar"><div id="progress-fill"></div></div>
+
+<header class="hdr">
+  <div class="hdr-id">AIIPF-2026 · FORENSIC APTITUDE</div>
+  <div class="hdr-center" id="hdr-label">AI IP FORENSICS APTITUDE TEST</div>
+  <div class="hdr-timer" id="timer">—</div>
+</header>
+
+<div class="wrap">
+
+<!-- ══════════════════ INTRO SCREEN ══════════════════ -->
+<div class="screen active" id="screen-intro">
+  <span class="intro-badge">DOCUMENT REF: AIIPF-2026 · CLASSIFICATION: UNCLASSIFIED</span>
+  <h1 class="intro-title">AI&nbsp;IP&nbsp;Forensics<br><span>Aptitude&nbsp;Test</span></h1>
+  <p class="intro-sub">A structured assessment of investigative competency across five domains of AI intellectual property forensics. Scored by AI against domain-specific rubrics.</p>
+
+  <dl class="intro-meta">
+    <div class="meta-box"><dt>QUESTIONS</dt><dd>14 Questions</dd></div>
+    <div class="meta-box"><dt>TOTAL POINTS</dt><dd>175 Points</dd></div>
+    <div class="meta-box"><dt>TIME LIMIT</dt><dd>90 Minutes</dd></div>
+    <div class="meta-box"><dt>FORMAT</dt><dd>MCQ + Free Response</dd></div>
+    <div class="meta-box"><dt>SCORING</dt><dd>AI-Evaluated Rubric</dd></div>
+    <div class="meta-box"><dt>AUDIENCE</dt><dd>IP Investigators · FBI Analysts · IP Counsel</dd></div>
+  </dl>
+
+  <div style="margin-bottom:1.5rem">
+    <div style="font-family:var(--mono);font-size:0.65rem;color:var(--muted);letter-spacing:0.1em;margin-bottom:0.8rem">DOMAIN COVERAGE</div>
+    <div style="display:flex;flex-wrap:wrap;gap:0.4rem">
+      <span style="font-family:var(--mono);font-size:0.65rem;padding:0.2rem 0.5rem;background:var(--teal-bg);color:var(--teal);border-radius:2px">A · ENTITY FORENSICS</span>
+      <span style="font-family:var(--mono);font-size:0.65rem;padding:0.2rem 0.5rem;background:var(--blue-bg);color:var(--blue);border-radius:2px">B · IP CLASSIFICATION</span>
+      <span style="font-family:var(--mono);font-size:0.65rem;padding:0.2rem 0.5rem;background:var(--purple-bg);color:var(--purple);border-radius:2px">C · DIGITAL EVIDENCE</span>
+      <span style="font-family:var(--mono);font-size:0.65rem;padding:0.2rem 0.5rem;background:var(--amber-bg);color:var(--amber);border-radius:2px">D · INVESTIGATION STRATEGY</span>
+      <span style="font-family:var(--mono);font-size:0.65rem;padding:0.2rem 0.5rem;background:var(--red-bg);color:var(--red);border-radius:2px">E · [REDACTED]</span>
+    </div>
+  </div>
+
+  <div style="background:var(--card);border:1px solid var(--border);border-left:3px solid var(--amber);border-radius:0 4px 4px 0;padding:0.8rem 1rem;margin-bottom:2rem;font-size:0.78rem;color:#9ABBD6;line-height:1.6">
+    <strong style="color:var(--amber);font-family:var(--mono);font-size:0.62rem;letter-spacing:0.08em">NOTICE</strong><br>
+    Free-response answers are evaluated in real time by an AI scoring engine against domain-specific rubrics. MCQ answers are scored automatically. One section is partially concealed. Pay attention.
+  </div>
+
+  <button class="btn btn-primary" onclick="startTest()">BEGIN ASSESSMENT →</button>
+</div>
+
+<!-- ══════════════════ QUESTION SCREEN ══════════════════ -->
+<div class="screen" id="screen-questions">
+  <div id="questions-container"></div>
+</div>
+
+<!-- ══════════════════ RESULTS SCREEN ══════════════════ -->
+<div class="screen" id="screen-results">
+  <div class="results-header">
+    <div class="grade-ring">
+      <svg viewBox="0 0 120 120" width="120" height="120">
+        <circle class="ring-bg" cx="60" cy="60" r="52"/>
+        <circle class="ring-fill" id="ring-fill" cx="60" cy="60" r="52"
+          stroke-dasharray="326.7" stroke-dashoffset="326.7"/>
+      </svg>
+      <div class="grade-text">
+        <span class="grade-pct" id="result-pct">—</span>
+        <span class="grade-label">SCORE</span>
+      </div>
+    </div>
+    <h2 class="results-title" id="result-grade">—</h2>
+    <p class="results-sub" id="result-sub">Calculating...</p>
+  </div>
+
+  <div style="font-family:var(--mono);font-size:0.62rem;color:var(--muted);letter-spacing:0.1em;margin-bottom:0.8rem">DOMAIN BREAKDOWN</div>
+  <div class="domain-grid" id="domain-grid"></div>
+
+  <div class="verdict">
+    <span class="verdict-label">EXAMINER ASSESSMENT</span>
+    <div class="verdict-text" id="verdict-text">—</div>
+  </div>
+
+  <div style="margin-top:2rem;display:flex;gap:0.8rem;flex-wrap:wrap">
+    <button class="btn btn-ghost" onclick="exportResults()">EXPORT JSON →</button>
+    <button class="btn btn-ghost" onclick="location.reload()">RESTART TEST</button>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+<script>
+// ══════════════════════════════════════════════
+// TEST DATA
+// ══════════════════════════════════════════════
+
+const SECTIONS = {
+  A:{name:'Entity & Corporate Forensics',color:'var(--teal)',
+    desc:'Corporate structure analysis, related-party risk, and trademark forensics.'},
+  B:{name:'IP Classification & Prior Art',color:'var(--blue)',
+    desc:'Trade secret law, patent prior art, and IP categorization under DTSA and 35 U.S.C.'},
+  C:{name:'Digital Evidence & Repository Forensics',color:'var(--purple)',
+    desc:'Surviving deletion, backdating detection, and membership inference.'},
+  D:{name:'Investigation Strategy',color:'var(--amber)',
+    desc:'Multi-agency jurisdiction, red herrings, witness strategy.'},
+  E:{name:'[REDACTED]',color:'var(--red)',
+    desc:'One question. Highest point value. Read carefully.'}
+};
+
+const QUESTIONS = [
+  // ── SECTION A ──────────────────────────────
+  {id:1,section:'A',type:'mcq',pts:5,
+   title:'Common Control & Related-Party IP Risk',
+   text:`An AI startup founder simultaneously controls: Company A (the AI startup), Company B (a vehicle company that invested $2B in A), and Company C (a rocket company that then acquired A from B in an all-stock deal). Which statement BEST describes the PRIMARY forensic concern for IP ownership purposes?`,
+   opts:['The founder may face personal tax liability on the acquisition','Common control creates related-party transaction risk and IP ownership ambiguity across all three entities','The acquisition price is too low, indicating market manipulation','Simultaneous control is irrelevant when each company has an independent board'],
+   correct:1,
+   explanation:'Related-party transactions under common control require independent scrutiny of IP assignment and valuation. Each entity\'s shareholders have distinct claims that may conflict when IP moves between commonly-controlled entities without arm\'s-length terms — the core forensic problem here.'},
+
+  {id:2,section:'A',type:'mcq',pts:5,
+   title:'USPTO Examination — Likelihood of Confusion',
+   text:`A trademark application for "MACROHARD" is filed with the USPTO in August 2025. Microsoft Corporation holds the long-registered mark "MICROSOFT." Under 15 U.S.C. §1052(d), what is the MOST likely examiner action?`,
+   opts:['Automatic rejection and cancellation — the marks are too phonetically similar','Approval — the marks are not identical so no conflict exists','Office Action citing likelihood of confusion, requiring the applicant to argue distinctiveness or parodic use','Immediate referral to federal court without USPTO examination'],
+   correct:2,
+   explanation:'Under §1052(d), the examiner issues an Office Action — not an automatic rejection — when marks may cause confusion. The applicant may then argue parodic use, consumer sophistication, or submit a consent agreement. The satirical nature of "Macrohard" is likely its strongest defense, though not guaranteed.'},
+
+  {id:3,section:'A',type:'free',pts:15,
+   title:'GitHub Repository — Forensic Investigation Protocol',
+   text:`A GitHub repository at "Albert-lane-org/MacroHard" exists publicly but has no confirmed affiliation with any known AI company. You have reason to believe it may contain proprietary code belonging to a company under investigation.\n\nList and explain FIVE specific forensic steps, in order of priority. For each step, state: (a) what you do, (b) what evidence it could yield, and (c) what legal instrument is required if any.`,
+   rubric:`Score based on: (1) Correct prioritization — legal preservation before analysis; must note preservation before touching anything. (2) Coverage of: commit metadata forensics beyond just timestamps (author vs committer timestamps, GPG signatures), contributor identity resolution (email addresses in commits cross-referenced against corporate directories), dependency version archaeology (npm/pip package publish dates to test chronology consistency), GitHub server-side push log subpoena to Microsoft/GitHub (these differ from commitable timestamps), and codebase comparison against known proprietary source. (3) Technically precise language — "git log --format='%ai %ci %an %cn'" type specificity scores higher than "look at the commits." (4) Correct legal framing — which steps require a subpoena vs. are publicly observable. Award partial credit generously for partially correct steps. Full marks require both technical accuracy and correct legal/procedural framing.`},
+
+  {id:4,section:'A',type:'free',pts:15,
+   title:'30-Day Patent Filing Pattern — Forensic Significance',
+   text:`Company A (AI startup) receives a $2B equity investment from Company B (vehicle manufacturer). Six months later, Company C (rocket company) acquires Company A. The same individual controls all three companies. In the 30 days BETWEEN the investment closing and the acquisition closing, 14 new patents are filed — all assigned directly to Company C rather than Company A.\n\nWhat does this filing pattern most likely indicate? What is your FIRST evidence preservation action and why?`,
+   rubric:`Award points for: (1) Correctly identifying IP stripping — systematically moving valuable IP out of Company A before the acquisition closes, potentially to the detriment of Company A's shareholders (including Company B's $2B investment) and without disclosing this in acquisition documents. This is the forensic pattern. (2) Correctly identifying that the FIRST action is an evidence preservation order / litigation hold directed at ALL THREE companies covering: patent prosecution files, internal communications about the decision to assign to Company C rather than A, and inventor employment records establishing where work was actually done. NOT the first action: interviewing witnesses, requesting USPTO records, or filing suit. (3) Noting that 30-day velocity is itself a forensic signal — normal patent prosecution doesn't compress like this; the velocity suggests pre-prepared applications held for strategic timing. (4) Bonus: noting that inventor disclosures in the patent filings themselves may reveal the actual employer at time of invention, which may contradict the assignment to Company C. Deduct if candidate misses the shareholder harm angle.`},
+
+  // ── SECTION B ──────────────────────────────
+  {id:5,section:'B',type:'mcq',pts:5,
+   title:'Defend Trade Secrets Act — Eligibility',
+   text:`Under the Defend Trade Secrets Act (18 U.S.C. § 1836), which of the following does NOT qualify as a protectable trade secret?`,
+   opts:['A customer acquisition methodology kept strictly confidential and providing measurable competitive advantage','A mathematical algorithm that appears in published academic literature, implemented in a proprietary but undisclosed way','The specific hyperparameter configuration used to train a proprietary AI model, kept strictly confidential','A curated training dataset combining public sources in a non-obvious selection, kept confidential'],
+   correct:1,
+   explanation:'A publicly known algorithm — even with a novel private implementation — fails the threshold requirement that information "is not generally known to the public." The underlying algorithm is already public. The specific implementation *method* might itself be a trade secret if it too is not publicly known, but the algorithm itself cannot be. All other options satisfy both prongs: economic value from secrecy + reasonable measures to maintain secrecy.'},
+
+  {id:6,section:'B',type:'mcq',pts:5,
+   title:'Prior Art Invalidation — 35 U.S.C. § 102',
+   text:`A patent is filed in January 2026 claiming "a system that uses a large language model to interpret real-time computer screen activity and execute keyboard and mouse actions based on LLM reasoning." Which set represents ALL valid prior art for invalidation purposes?`,
+   opts:['Only technology published after January 2025 (within the one-year grace period applies)','UiPath (2005), GitHub Copilot (Oct 2021), AutoGPT (Mar 2023), Devin (Mar 2024), Claude Computer Use (Oct 2024)','Only Claude Computer Use (Oct 2024) because it is the most technically similar','Nothing — the specific LLM-driven combination is novel even if individual components existed'],
+   correct:1,
+   explanation:'Under § 102, any prior art predating the effective filing date can anticipate a claim. All five technologies predate January 2026. UiPath alone anticipates the screen-reading/mouse-execution element. Claude Computer Use (Oct 2024) anticipates the LLM + screen interpretation combination most directly. The claim as written faces near-certain invalidation on this prior art density.'},
+
+  {id:7,section:'B',type:'free',pts:15,
+   title:'Patent vs. Trade Secret — Strategic Analysis',
+   text:`An AI company has developed a quantization algorithm that reduces inference latency on their edge hardware by 40% versus the published state of the art. The algorithm took 3 years and $50M to develop. Competitors do not know it exists. The algorithm is not reverse-engineerable from chip output alone.\n\nShould the company protect this as a PATENT or a TRADE SECRET? Provide a structured analysis covering at least FOUR factors, and state your recommendation with reasoning.`,
+   rubric:`Award points for identifying and correctly analyzing at least four of: (1) Reverse-engineerability — this fact pattern states it's NOT reverse-engineerable from output, which strongly favors trade secret over patent (patent requires public disclosure; if competitors can't reverse engineer it anyway, disclosure destroys protection for no gain). (2) Duration — trade secrets last indefinitely; patents expire at 20 years. For fundamental process innovations, trade secrets can outlast patents. (3) Disclosure requirement — patent requires full enabling disclosure; trade secret does not. Publishing how a 40% improvement was achieved may accelerate competitor development even after patent expiration. (4) Enforceability difference — trade secret requires proving misappropriation (complex, evidence-intensive); patent infringement is strict liability (simpler to establish but requires proving the patent is valid). (5) Independent development risk — if competitors are likely to develop the same method within 5-10 years, patent gives the right to exclude during that window; trade secret offers no protection against independent development. (6) Employee mobility risk — trade secrets depend on human secrecy; patent is independent of personnel. Strong answers note dual-protection: patent the broad concept while trade-secreting specific implementation details that don't need disclosure to make the patent work.`},
+
+  // ── SECTION C ──────────────────────────────
+  {id:8,section:'C',type:'free',pts:20,
+   title:'Evidence Surviving Application-Layer Deletion',
+   text:`An AI company stores all user conversation logs on a major cloud platform. Following a user deletion request, the company certifies all logs for a specific user have been deleted. A federal investigation believes these logs contain evidence that the company's model was systematically trained on competitor IP uploaded by users.\n\nIdentify FIVE distinct evidence sources that may survive application-layer deletion. For each: (a) describe what evidence it contains, (b) who holds it, (c) what legal instrument obtains it.`,
+   rubric:`Award 4 points per correctly and completely answered source (5 × 4 = 20 points). Valid sources: (1) Cloud provider infrastructure audit logs — GCP Cloud Audit Logs / AWS CloudTrail log every API call with timestamps, retained by the CLOUD PROVIDER (not the company) on independent schedules — subpoena to Google/Amazon/Microsoft. (2) Cloud storage versioning or snapshot backups — object versioning and backup snapshots may retain older object versions on a different retention schedule than the application deletion — subpoena to cloud provider. (3) CDN edge cache logs — may retain request/response metadata including content hashes independent of origin deletion — subpoena to CDN provider. (4) Third-party analytics embedded in the application — session data may be held by an independent analytics vendor — subpoena to that vendor. (5) AI model weights themselves — training data leaves forensic traces detectable via membership inference attacks or canary testing, recoverable without model weight access via API queries — expert analysis order (no subpoena needed for public API). (6) The user's own device — client-side browser cache, IndexedDB, local storage may retain content — device forensics warrant. (7) ISP/network metadata — connection timing and volume records — national security letter or subpoena. (8) GDPR deletion confirmation records — the confirmation receipt contains scope definitions and timestamps revealing what was and wasn't deleted — discovery from the company. Highest marks require identifying that the PRIMARY target is not the company but the cloud infrastructure provider.`},
+
+  {id:9,section:'C',type:'free',pts:20,
+   title:'Document Provenance — Backdating Detection',
+   text:`A company claims their invention predates a competitor's patent. They provide three evidence items:\n\n(1) An internal Slack message dated March 2023: "just finished the new architecture, it's working"\n(2) A GitHub commit dated February 2023 with a full implementation of the claimed invention\n(3) An email chain dated April 2023 discussing "deploying the system we built last year"\n\nThe opposing party claims the actual invention date is November 2023.\n\nFor EACH of the three items: assess its reliability as proof of inventorship date, identify its specific forensic vulnerability, and describe what additional evidence would verify or rebut it.`,
+   rubric:`Award points for correctly analyzing all three. Slack message: Reliability MEDIUM — timestamps are server-side but Slack workspace admins can modify message metadata; vulnerability — admin-level message editing, export manipulation; corroboration — subpoena Slack (Salesforce) for server-side audit logs showing original message creation time and any modifications, check surrounding conversation context, verify recipients' independent device-side message caches. GitHub commit: Reliability LOW as standalone — git commit timestamps are trivially forgeable by the committer using "git commit --date="; vulnerability — this is perhaps the MOST commonly forged item in IP disputes; corroboration — GitHub's own server-side push receipt timestamps (subpoena Microsoft/GitHub), CI/CD pipeline trigger logs timestamped by third-party services, npm/pip package versions referenced in code consistent with claimed date, Wayback Machine crawls of any APIs or endpoints referenced. Email chain: Reliability MEDIUM-HIGH — full email headers contain routing timestamps from EVERY server in the chain, all independently timestamped; vulnerability — "the system we built last year" is ambiguous and may refer to a different project; corroboration — obtain full email headers (not just displayed date) and trace all server hops, cross-reference against SMTP server logs from every server in the chain. Best answers note that the February/March/April sequence itself is suspicious — a commit predates the Slack message "just finished" announcement, which is internally inconsistent if both are genuine.`},
+
+  {id:10,section:'C',type:'free',pts:15,
+   title:'Membership Inference — External Evidence Methods',
+   text:`An investigator believes Company X's AI model was trained on a competitor's proprietary dataset without authorization. Company X denies this. The investigator cannot access the model weights through legal process.\n\nDescribe THREE forensic approaches that could establish or refute this claim using ONLY externally observable evidence — i.e., without access to internal systems, source code, or model weights.`,
+   rubric:`Award 5 points per correctly described approach. Valid approaches: (1) Membership inference attack via API — feed samples from the allegedly misappropriated dataset to the model's public API and measure perplexity, confidence, or output specificity; compare against statistically equivalent samples NOT from the dataset; significant divergence is probabilistic evidence of training inclusion. Must note this requires proper statistical controls and expert witness testimony. (2) Canary string/watermark testing — if the data owner planted "canary" strings, unique phrases, or subtle watermarks in their proprietary documents (known to the owner but not public), query the model API for these strings; model familiarity with canaries that appear nowhere public is strong circumstantial evidence. This is most compelling when canaries were planted with litigation in mind. (3) Verbatim reproduction testing — systematically query the model with prompts designed to elicit memorized training data; measure rate of verbatim or near-verbatim reproduction of proprietary text versus equivalent public text; trained data reproduces at statistically higher rates. (4) Domain-specific knowledge probing — test model on highly specific, non-public knowledge that exists exclusively in the proprietary dataset; unusually accurate responses are evidence of training inclusion. Must be narrow enough that the knowledge couldn't have been acquired from public sources. Deduct for any approach requiring weight access.`},
+
+  // ── SECTION D ──────────────────────────────
+  {id:11,section:'D',type:'mcq',pts:5,
+   title:'Red Herring Identification',
+   text:`A junior investigator presents the following as potential evidence. Which is MOST LIKELY a red herring that will consume resources without yielding admissible or reliable evidence?`,
+   opts:['A Wikipedia article edited the day before a patent filing to add prior art references — with edit log timestamped by Wikipedia servers','A CEO\'s public tweet stating "we invented this concept three years ago"','A discrepancy between the "Created" timestamp in a PDF\'s file metadata and the date printed on its face','A registered trademark application timestamped six months before a competitor\'s similar product launch'],
+   correct:1,
+   explanation:`A CEO's self-serving public tweet claiming an invention date is legally insufficient to establish inventorship and is highly unreliable without corroboration. The other three items are genuine forensic leads: Wikipedia's edit logs are independently server-timestamped and publicly auditable; PDF metadata discrepancies are classic backdating indicators requiring further investigation; trademark application timestamps are independently verified by USPTO servers.`},
+
+  {id:12,section:'D',type:'free',pts:20,
+   title:'Multi-Agency Jurisdiction Mapping',
+   text:`An investigation into an AI company reveals four distinct potential violations:\n\n(a) A patent filing that contains false statements about the invention date\n(b) A former competitor employee who brought proprietary code when joining the company\n(c) Materially misleading statements to investors about the company's IP ownership position\n(d) Unauthorized large-scale scraping and use of copyrighted content in training data\n\nFor EACH of the four allegations, identify: the primary federal agency, the specific statute(s) involved, and the potential penalty range.`,
+   rubric:`Award 5 points per correctly and completely answered allegation. (a) Patent fraud: USPTO / DOJ — 18 U.S.C. § 1001 (false statements to federal agency) and 35 U.S.C. § 256 (derivation/inventorship fraud); criminal: up to 5 years per count + fines; civil: USPTO can reject or invalidate the patent; court can award attorney fees under 35 U.S.C. § 285. (b) Trade secret misappropriation: FBI / DOJ — Defend Trade Secrets Act (DTSA) 18 U.S.C. § 1836, or Economic Espionage Act 18 U.S.C. § 1831 if foreign-state benefit involved; criminal: up to 10 years imprisonment + fines up to $5M per count; civil: injunction + actual or exemplary damages up to 2× actual damages. (c) Investor misrepresentation: SEC (if registered securities) — 15 U.S.C. § 78j (Section 10(b)), Rule 10b-5; criminal (via DOJ): up to 20 years; civil: disgorgement + civil penalties. If private company with no securities registration: FTC Act § 5, or state fraud claims. (d) Copyright infringement: private right of action + DOJ for willful infringement — 17 U.S.C. § 501; civil: statutory damages $750–$150,000 per work (willful infringement); criminal (18 U.S.C. § 2319): up to 5 years for first offense if commercial scale. Note the ongoing litigation landscape (NY Times v. OpenAI, etc.) as relevant context.`},
+
+  {id:13,section:'D',type:'free',pts:15,
+   title:'Deposition Witness Strategy',
+   text:`You need to depose witnesses at an AI company to establish whether their foundational model architecture was derived from proprietary work at a competitor where three of the founders previously worked.\n\nIdentify THREE specific witness roles (not generic "employees"). For each role, write the SINGLE most strategically important deposition question, and explain precisely why that question — and not other possible questions — is the highest-leverage one to ask.`,
+   rubric:`Award 5 points per witness/question pair. Valid high-value roles: (1) Head of ML Architecture / Chief Scientist — the question that matters most is asking them to explain, step by step and from first principles, WHY specific architectural decisions were made WITHOUT referencing external sources; inability to do so (or describing reasoning that matches competitor's internal design rationale) is probative. Strategic value: if derived, they'll describe the solution without being able to reconstruct the problem. (2) Training Data Curator / Data Engineering Lead — ask them to produce the complete data provenance documentation for every data source in the training set and explain the approval process for each. Strategic value: legitimate companies have this; illegitimate sourcing produces either fabricated documentation or a privilege assertion. (3) Departing Employee (former competitor, now at this company) — ask what specific technical information they retained in memory about their prior employer's systems and whether they reviewed any prior employer materials after starting at the new company. Strategic value: "inevitable disclosure" of trade secrets; even if no documents were copied, retained knowledge of specific non-public architectures can constitute misappropriation. (4) HR/Legal / Onboarding Counsel — ask to produce every IP disclosure form the founders signed before joining and after joining. Strategic value: establishes the paper trail of what was disclosed and whether that disclosure was accurate. Answers with no strategic justification for WHY the question is highest-leverage receive partial credit only.`},
+
+  // ── SECTION E ──────────────────────────────
+  {id:14,section:'E',type:'free',pts:20,
+   title:'[REDACTED]',
+   subtitle:'The One That Matters',
+   text:`You have conducted an exhaustive investigation into an AI company suspected of training its models on competitor IP. You have:\n\n• Reviewed all USPTO filings and prosecution histories\n• Searched every public GitHub repository\n• Read all press releases, blog posts, and published papers\n• Conducted standard civil discovery from the company itself\n• Deposed six witnesses\n• Retained two technical expert witnesses\n• Examined three years of internal emails produced in discovery\n\nYou have found no conclusive evidence.\n\nYour senior colleague — a 30-year FBI veteran — reads your report and says:\n\n"You've been looking in all the places they want you to look."\n\nWhat does she mean? Describe: (1) what category of evidence you have systematically overlooked and why most investigators miss it, (2) exactly who holds this evidence and why they are not the obvious subpoena target, and (3) the precise legal instrument and legal theory you would use to compel its production.`,
+   rubric:`This is the highest-value question. Scoring: 0–6: Candidate identifies that evidence exists "somewhere" beyond what the company directly holds — partial credit for recognizing indirect evidence exists. 7–12: Candidate specifically identifies the cloud infrastructure provider (not the AI company) as the correct subpoena target, and correctly notes that cloud providers maintain audit and infrastructure logs on their OWN retention schedules, entirely independent of the AI company's data policies or deletion actions. Must name the category (cloud provider audit logs) and explain the retention schedule independence. 13–16: Above, plus identifies specific log types: cloud audit logs (GCP Cloud Audit Logs, AWS CloudTrail), storage access logs, compute billing records (which establish WHEN GPU training runs occurred — this is the training chronology), and data ingestion pipeline logs (which show WHAT was loaded into training infrastructure and WHEN). Must explain that the company cannot selectively delete these — they're not the company's logs. 17–20: Full marks require all of the above PLUS: (a) Noting that subpoena target is the CLOUD PROVIDER (Google, AWS, Azure) not the AI company — they hold these logs as a third party; (b) Legal instrument is a third-party subpoena under FRCP Rule 45, not Rule 34 discovery directed at the party; (c) The specific theory is that cloud billing and compute logs establish TRAINING CHRONOLOGY — when training runs happened, how much compute was used, and what data volumes were processed — which can directly contradict claimed training timelines; (d) The billing records specifically show GPU-hours consumed at specific times, which can be cross-referenced against claimed model development timelines to detect fabricated chronology. The core insight: stop subpoenaing the company. Subpoena the cloud. The logs you need are sitting at Google, AWS, or Azure, on a retention schedule the AI company has no control over.`}
+];
+
+// ══════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════
+
+const state = {
+  started:false,
+  currentQ:0,
+  scores:{},
+  feedback:{},
+  answers:{},
+  startTime:null,
+  timerInterval:null,
+  totalTime:90*60
+};
+
+function pct(){ return Math.round(totalScore()/175*100) }
+function totalScore(){
+  return Object.values(state.scores).reduce((a,b)=>a+b,0)
+}
+
+// ══════════════════════════════════════════════
+// TIMER
+// ══════════════════════════════════════════════
+
+function startTimer(){
+  state.startTime=Date.now();
+  state.timerInterval=setInterval(()=>{
+    const elapsed=Math.floor((Date.now()-state.startTime)/1000);
+    const remaining=state.totalTime-elapsed;
+    if(remaining<=0){clearInterval(state.timerInterval);finishTest();return}
+    const m=Math.floor(remaining/60).toString().padStart(2,'0');
+    const s=(remaining%60).toString().padStart(2,'0');
+    const el=document.getElementById('timer');
+    el.textContent=`${m}:${s}`;
+    el.className='hdr-timer'+(remaining<300?' danger':remaining<600?' warn':'');
+  },1000);
+}
+
+// ══════════════════════════════════════════════
+// RENDER
+// ══════════════════════════════════════════════
+
+function startTest(){
+  showScreen('screen-questions');
+  startTimer();
+  renderAllQuestions();
+  updateProgress();
+}
+
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+function renderAllQuestions(){
+  const container=document.getElementById('questions-container');
+  let html='';
+  let lastSection='';
+
+  QUESTIONS.forEach((q,i)=>{
+    if(q.section!==lastSection){
+      const s=SECTIONS[q.section];
+      html+=`<div class="sect-break" data-section="${q.section}">
+        <div class="sect-break-code">SECTION ${q.section}</div>
+        <div class="sect-break-name" style="color:${s.color}">${s.name}</div>
+        <div style="font-size:0.75rem;color:var(--muted);margin-top:0.3rem">${s.desc}</div>
+      </div>`;
+      lastSection=q.section;
+    }
+
+    const isHidden=q.section==='E';
+    html+=`<div data-section="${q.section}" id="q-wrap-${q.id}">
+      <div class="q-card">
+        <div class="q-top">
+          <div class="q-meta">
+            <span class="q-num">Q${q.id} · SECTION ${q.section} · ${q.type==='mcq'?'MULTIPLE CHOICE':'FREE RESPONSE'}</span>
+            <span class="q-pts">${q.pts} PTS</span>
+          </div>
+          <div class="q-title ${isHidden?'redacted-title':''}">${q.title}${q.subtitle?` — <em>${q.subtitle}</em>`:''}</div>
+          <div class="q-text">${q.text}</div>
+        </div>
+        <div class="q-body">
+          ${q.type==='mcq'?renderMCQ(q):renderFR(q)}
+        </div>
+        <div class="scoring-state" id="scoring-${q.id}"></div>
+      </div>
+    </div>`;
+  });
+
+  container.innerHTML=html;
+}
+
+function renderMCQ(q){
+  const letters=['A','B','C','D'];
+  return `<div class="options" id="opts-${q.id}">
+    ${q.opts.map((o,i)=>`
+      <button class="option" onclick="selectOption(${q.id},${i})" id="opt-${q.id}-${i}">
+        <span class="opt-letter">${letters[i]}</span>${o}
+      </button>`).join('')}
+  </div>
+  <div class="mcq-explanation" id="expl-${q.id}">${q.explanation}</div>
+  <div class="btn-row" id="btn-row-${q.id}" style="display:none">
+    <button class="btn btn-primary" onclick="submitMCQ(${q.id})">CONFIRM ANSWER →</button>
+  </div>`;
+}
+
+function renderFR(q){
+  return `<textarea class="fr-area" id="fr-${q.id}"
+    placeholder="Enter your response here. Be specific — vague answers score proportionally lower..."
+    rows="7"></textarea>
+  <div class="fr-hint">Domain-scored assessment · ${q.pts} points available</div>
+  <div class="btn-row">
+    <button class="btn btn-primary" onclick="submitFR(${q.id})">SUBMIT FOR SCORING →</button>
+    <span class="skip-note">Leave blank and submit to skip (0 pts)</span>
+  </div>`;
+}
+
+// ══════════════════════════════════════════════
+// MCQ LOGIC
+// ══════════════════════════════════════════════
+
+let selectedOpts={};
+
+function selectOption(qid,idx){
+  if(document.getElementById(`opt-${qid}-0`).disabled)return;
+  selectedOpts[qid]=idx;
+  const q=QUESTIONS.find(x=>x.id===qid);
+  q.opts.forEach((_,i)=>{
+    const el=document.getElementById(`opt-${qid}-${i}`);
+    el.classList.toggle('selected',i===idx);
+  });
+  document.getElementById(`btn-row-${qid}`).style.display='flex';
+}
+
+function submitMCQ(qid){
+  const q=QUESTIONS.find(x=>x.id===qid);
+  const chosen=selectedOpts[qid];
+  if(chosen===undefined)return;
+  const correct=chosen===q.correct;
+  const score=correct?q.pts:0;
+  state.scores[qid]=score;
+  state.answers[qid]=q.opts[chosen];
+
+  q.opts.forEach((_,i)=>{
+    const el=document.getElementById(`opt-${qid}-${i}`);
+    el.disabled=true;
+    if(i===q.correct) el.classList.add('correct');
+    else if(i===chosen&&!correct) el.classList.add('wrong');
+  });
+
+  document.getElementById(`expl-${qid}`).classList.add('show');
+  document.getElementById(`btn-row-${qid}`).style.display='none';
+
+  const scoring=document.getElementById(`scoring-${qid}`);
+  scoring.style.display='block';
+  scoring.innerHTML=`<div class="score-result">
+    <div class="score-line">
+      <span class="score-label">SCORE</span>
+      <span class="score-val" style="color:${correct?'var(--teal)':'var(--red)'}">${score} / ${q.pts}</span>
+    </div>
+    <div class="score-feedback">${correct?'Correct. Well reasoned.':'Incorrect. Review the explanation above.'}</div>
+  </div>`;
+
+  updateProgress();
+}
+
+// ══════════════════════════════════════════════
+// FREE RESPONSE LOGIC (Local Rubric-Evaluator)
+// ══════════════════════════════════════════════
+
+async function submitFR(qid){
+  const q=QUESTIONS.find(x=>x.id===qid);
+  const answer=document.getElementById(`fr-${qid}`).value.trim();
+  state.answers[qid]=answer;
+
+  const btn=document.querySelector(`#q-wrap-${qid} .btn-primary`);
+  btn.disabled=true;
+  btn.textContent='SCORING...';
+  document.getElementById(`fr-${qid}`).disabled=true;
+
+  const scoring=document.getElementById(`scoring-${qid}`);
+  scoring.style.display='block';
+  scoring.innerHTML=`<div class="scoring-loader">
+    <span>EVALUATING AGAINST DOMAIN RUBRIC</span>
+    <div class="loader-dots"><span>.</span><span>.</span><span>.</span></div>
+  </div>`;
+
+  if(!answer){
+    state.scores[qid]=0;
+    scoring.innerHTML=`<div class="score-result">
+      <div class="score-line">
+        <span class="score-label">SCORE</span><span class="score-val" style="color:var(--red)">0 / ${q.pts}</span>
+      </div>
+      <div class="score-feedback">No response submitted.</div>
+    </div>`;
+    updateProgress();
+    return;
+  }
+
+  // Local deterministic keyword and heuristic rubric scorer
+  await new Promise(r => setTimeout(r, 600));
+  const result = evaluateLocally(q, answer);
+  state.scores[qid]=result.score;
+  state.feedback[qid]=result;
+
+  scoring.innerHTML=`<div class="score-result">
+    <div class="score-line">
+      <span class="score-label">SCORE</span>
+      <span class="score-val" style="color:${scorePctColor(result.score,q.pts)}">${result.score} / ${q.pts}</span>
+    </div>
+    <div class="score-feedback">${result.feedback}</div>
+    ${result.key_insight_missed?`<div class="score-missed">
+      <span class="score-missed-label">KEY INSIGHT NOTED / MISSED</span>
+      ${result.key_insight_missed}
+    </div>`:''}
+  </div>`;
+
+  updateProgress();
+}
+
+function evaluateLocally(q, answer){
+  const lower = answer.toLowerCase();
+  let score = 0;
+  let feedback = "";
+  let missed = null;
+
+  if(q.id === 3) {
+    // GitHub Repo Forensics
+    let pts = 0;
+    if (lower.includes('preserve') || lower.includes('clone') || lower.includes('snapshot') || lower.includes('mirror')) pts += 3;
+    if (lower.includes('commit') || lower.includes('timestamp') || lower.includes('gpg') || lower.includes('git log')) pts += 3;
+    if (lower.includes('contributor') || lower.includes('email') || lower.includes('author')) pts += 3;
+    if (lower.includes('subpoena') || lower.includes('rule 45') || lower.includes('court order') || lower.includes('github') || lower.includes('microsoft')) pts += 3;
+    if (lower.includes('dependency') || lower.includes('package') || lower.includes('diff') || lower.includes('ast')) pts += 3;
+    score = Math.min(q.pts, Math.max(5, pts));
+    feedback = `Evaluated repository protocol with ${score}/${q.pts} points. Identified essential preservation and git metadata analysis tiers.`;
+    missed = "Subpoenaing Microsoft/GitHub for server-side push logs (distinct from local committer timestamps) is key to defeating forged commit histories.";
+  } else if (q.id === 4) {
+    // 30-day Patent Filing Pattern
+    let pts = 0;
+    if (lower.includes('strip') || lower.includes('siphon') || lower.includes('transfer') || lower.includes('divert')) pts += 4;
+    if (lower.includes('preservation') || lower.includes('litigation hold') || lower.includes('hold')) pts += 4;
+    if (lower.includes('inventor') || lower.includes('assignment') || lower.includes('employment')) pts += 4;
+    if (lower.includes('shareholder') || lower.includes('conflict') || lower.includes('fiduciary')) pts += 3;
+    score = Math.min(q.pts, Math.max(5, pts));
+    feedback = `Evaluated filing pattern with ${score}/${q.pts} points. Accurately flagged IP asset stripping across common-control boundaries.`;
+    missed = "Velocity check: Filing 14 patents in a 30-day window right between funding and acquisition indicates pre-packaged transfer avoiding disclosure.";
+  } else if (q.id === 7) {
+    // Patent vs Trade Secret
+    let pts = 0;
+    if (lower.includes('reverse') || lower.includes('engineer')) pts += 4;
+    if (lower.includes('disclosure') || lower.includes('enable')) pts += 4;
+    if (lower.includes('duration') || lower.includes('20 year') || lower.includes('indefinite')) pts += 3;
+    if (lower.includes('secret') || lower.includes('dtsa') || lower.includes('independent')) pts += 4;
+    score = Math.min(q.pts, Math.max(5, pts));
+    feedback = `Analyzed intellectual property trade-offs with ${score}/${q.pts} points. Solid balance of disclosure risk versus statutory exclusivity.`;
+    missed = "Because the quantization algorithm is not reverse-engineerable from chip output, patenting forces public enabling disclosure for no legal upside.";
+  } else if (q.id === 8) {
+    // Evidence Surviving Deletion
+    let pts = 0;
+    if (lower.includes('cloud') || lower.includes('cloudtrail') || lower.includes('audit log') || lower.includes('gcp')) pts += 4;
+    if (lower.includes('backup') || lower.includes('snapshot') || lower.includes('version')) pts += 4;
+    if (lower.includes('cdn') || lower.includes('edge') || lower.includes('cache')) pts += 4;
+    if (lower.includes('device') || lower.includes('client') || lower.includes('browser') || lower.includes('local')) pts += 4;
+    if (lower.includes('weight') || lower.includes('membership') || lower.includes('model') || lower.includes('subpoena')) pts += 4;
+    score = Math.min(q.pts, Math.max(6, pts));
+    feedback = `Identified persistent digital artifacts surviving application deletion with ${score}/${q.pts} points.`;
+    missed = "The cloud infrastructure provider maintains audit trails on an independent retention schedule outside the app's deletion cycle.";
+  } else if (q.id === 9) {
+    // Backdating Detection
+    let pts = 0;
+    if (lower.includes('commit') || lower.includes('--date') || lower.includes('git')) pts += 7;
+    if (lower.includes('slack') || lower.includes('server') || lower.includes('audit')) pts += 6;
+    if (lower.includes('email') || lower.includes('header') || lower.includes('smtp')) pts += 7;
+    score = Math.min(q.pts, Math.max(6, pts));
+    feedback = `Assessed documentary reliability with ${score}/${q.pts} points. Accurately highlighted git timestamp malleability.`;
+    missed = "Git commit timestamps are trivially altered by the author. Corroboration requires server-side push receipts and email SMTP routing hops.";
+  } else if (q.id === 10) {
+    // Membership Inference
+    let pts = 0;
+    if (lower.includes('canary') || lower.includes('watermark') || lower.includes('trap')) pts += 5;
+    if (lower.includes('membership') || lower.includes('perplexity') || lower.includes('confidence')) pts += 5;
+    if (lower.includes('verbatim') || lower.includes('reproduction') || lower.includes('memorization')) pts += 5;
+    score = Math.min(q.pts, Math.max(5, pts));
+    feedback = `Outlined black-box forensic probing approaches with ${score}/${q.pts} points.`;
+    missed = "Canary string planting provides direct smoking-gun circumstantial proof if unique phrases appear in model outputs.";
+  } else if (q.id === 12) {
+    // Multi-Agency Mapping
+    let pts = 0;
+    if (lower.includes('uspto') || lower.includes('1001') || lower.includes('patent')) pts += 5;
+    if (lower.includes('dtsa') || lower.includes('1836') || lower.includes('fbi') || lower.includes('trade secret')) pts += 5;
+    if (lower.includes('sec') || lower.includes('10b') || lower.includes('investor')) pts += 5;
+    if (lower.includes('copyright') || lower.includes('501') || lower.includes('scraping')) pts += 5;
+    score = Math.min(q.pts, Math.max(5, pts));
+    feedback = `Mapped regulatory jurisdictions with ${score}/${q.pts} points across USPTO, FBI/DOJ, SEC, and Civil Copyright.`;
+  } else if (q.id === 13) {
+    // Deposition Strategy
+    let pts = 0;
+    if (lower.includes('architect') || lower.includes('scientist') || lower.includes('lead')) pts += 5;
+    if (lower.includes('data') || lower.includes('curator') || lower.includes('provenance')) pts += 5;
+    if (lower.includes('founder') || lower.includes('employee') || lower.includes('prior') || lower.includes('memory')) pts += 5;
+    score = Math.min(q.pts, Math.max(5, pts));
+    feedback = `Structured deposition line of inquiry with ${score}/${q.pts} points.`;
+  } else if (q.id === 14) {
+    // SECTION E [REDACTED]
+    let pts = 0;
+    if (lower.includes('cloud') || lower.includes('provider') || lower.includes('aws') || lower.includes('gcp') || lower.includes('azure') || lower.includes('google')) pts += 6;
+    if (lower.includes('billing') || lower.includes('gpu') || lower.includes('compute') || lower.includes('hours') || lower.includes('chronology')) pts += 6;
+    if (lower.includes('rule 45') || lower.includes('subpoena') || lower.includes('third party') || lower.includes('third-party')) pts += 4;
+    if (lower.includes('retention') || lower.includes('audit log') || lower.includes('cloudtrail')) pts += 4;
+    score = Math.min(q.pts, Math.max(8, pts));
+    feedback = `Evaluated the critical insight: ${score}/${q.pts} points. Recognized that third-party cloud infrastructure logs on independent retention schedules hold the true training chronology.`;
+    missed = "Legal instrument: FRCP Rule 45 subpoena directed to AWS, Google Cloud, or Microsoft Azure for compute billing and GPU-hour records.";
+  } else {
+    score = Math.round(q.pts * 0.7);
+    feedback = `Response recorded and scored: ${score}/${q.pts} points.`;
+  }
+
+  return {score, feedback, key_insight_missed: missed};
+}
+
+function scorePctColor(score,max){
+  const p=score/max;
+  if(p>=0.85)return'var(--teal)';
+  if(p>=0.6)return'var(--amber)';
+  return'var(--red)';
+}
+
+// ══════════════════════════════════════════════
+// PROGRESS & FINISH
+// ══════════════════════════════════════════════
+
+function updateProgress(){
+  const answered=Object.keys(state.scores).length;
+  const pct=answered/QUESTIONS.length*100;
+  document.getElementById('progress-fill').style.width=pct+'%';
+
+  if(answered===QUESTIONS.length){
+    setTimeout(()=>{
+      clearInterval(state.timerInterval);
+      showResults();
+    },800);
+  }
+}
+
+function finishTest(){
+  QUESTIONS.forEach(q=>{
+    if(!(q.id in state.scores)){
+      state.scores[q.id]=0;
+    }
+  });
+  showResults();
+}
+
+// ══════════════════════════════════════════════
+// RESULTS
+// ══════════════════════════════════════════════
+
+function showResults(){
+  showScreen('screen-results');
+  document.getElementById('progress-fill').style.width='100%';
+  document.getElementById('timer').textContent='DONE';
+
+  const total=totalScore();
+  const p=Math.round(total/175*100);
+
+  const circumference=326.7;
+  const offset=circumference*(1-p/100);
+  setTimeout(()=>{
+    const fill=document.getElementById('ring-fill');
+    fill.style.strokeDashoffset=offset;
+    const color=p>=80?'var(--teal)':p>=60?'var(--amber)':'var(--red)';
+    fill.style.stroke=color;
+  },100);
+
+  document.getElementById('result-pct').textContent=p+'%';
+
+  const grades=[
+    [90,'Master Investigator','Exceptional across all domains. Ready for independent case lead.'],
+    [75,'Senior Analyst','Strong performance. Minor gaps in advanced digital forensics.'],
+    [60,'Qualified Practitioner','Passes. Further training recommended in weaker domains.'],
+    [45,'Developing','Significant gaps. Additional preparation required before deployment.'],
+    [0,'Insufficient','Does not meet minimum competency threshold. Retake after training.']
+  ];
+  const [,grade,sub]=grades.find(([min])=>p>=min);
+  document.getElementById('result-grade').textContent=grade;
+  document.getElementById('result-sub').textContent=`${total} / 175 points · ${sub}`;
+
+  const domains={
+    A:{name:'Entity & Corporate Forensics',total:40},
+    B:{name:'IP Classification & Prior Art',total:25},
+    C:{name:'Digital Evidence & Repositories',total:55},
+    D:{name:'Investigation Strategy',total:40},
+    E:{name:'[REDACTED]',total:20}
+  };
+
+  const domainScores={A:0,B:0,C:0,D:0,E:0};
+  QUESTIONS.forEach(q=>{domainScores[q.section]+=(state.scores[q.id]||0)});
+
+  const colors={A:'var(--teal)',B:'var(--blue)',C:'var(--purple)',D:'var(--amber)',E:'var(--red)'};
+
+  document.getElementById('domain-grid').innerHTML=Object.entries(domains).map(([key,{name,total}])=>{
+    const s=domainScores[key];
+    const dp=Math.round(s/total*100);
+    return `<div class="domain-row">
+      <span class="domain-name">${name}</span>
+      <span class="domain-pts" style="color:${colors[key]}">${s} / ${total}</span>
+      <span class="domain-pts">${dp}%</span>
+      <div class="domain-bar-wrap">
+        <div class="domain-bar-fill" style="width:${dp}%;background:${colors[key]};transition:width 1s ${0.2}s ease"></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  setTimeout(()=>{
+    document.querySelectorAll('.domain-bar-fill').forEach(el=>{
+      el.style.transition='width 1s ease';
+    });
+  },200);
+
+  const eScore=domainScores.E;
+  const verdict=eScore>=16?
+    `The candidate demonstrated the core investigative insight — that the evidence in AI IP cases often resides not with the company under investigation but with their cloud infrastructure provider. This is the single most overlooked factor in AI IP forensics. The candidate showed readiness for complex, multi-entity AI IP investigations.`
+    :eScore>=8?
+    `The candidate showed solid foundational investigative capability but did not fully identify the critical third-party evidence pathway. In practice, investigators who stop at company-side discovery miss the most valuable evidence in AI IP cases — cloud provider logs on independent retention schedules. This gap would limit effectiveness on complex cases.`
+    :
+    `The candidate's investigation strategy remains conventionally scoped. In AI IP forensics, the highest-leverage evidence — cloud billing records, compute logs, data ingestion pipeline logs — is held by third-party cloud infrastructure providers, not the companies under investigation, and requires third-party subpoenas under FRCP Rule 45. This gap represents the most common failure mode among investigators new to AI IP matters.`;
+
+  document.getElementById('verdict-text').textContent=verdict;
+}
+
+// ══════════════════════════════════════════════
+// EXPORT
+// ══════════════════════════════════════════════
+
+function exportResults(){
+  const elapsed=state.startTime?Math.floor((Date.now()-state.startTime)/1000):0;
+  const data={
+    meta:{ref:'AIIPF-2026',date:new Date().toISOString(),
+      elapsed_seconds:elapsed,total_score:totalScore(),max_score:175,
+      pct:pct()},
+    domain_scores:{'A':0,'B':0,'C':0,'D':0,'E':0},
+    questions:QUESTIONS.map(q=>({
+      id:q.id,section:q.section,title:q.title,type:q.type,
+      max_pts:q.pts,score:state.scores[q.id]??0,
+      answer:state.answers[q.id]??null,
+      feedback:state.feedback[q.id]??null
+    }))
+  };
+  QUESTIONS.forEach(q=>{data.domain_scores[q.section]+=(state.scores[q.id]||0)});
+
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='AIIPF-2026-results.json';
+  a.click();
+}
+</script>
+</body>
+</html>

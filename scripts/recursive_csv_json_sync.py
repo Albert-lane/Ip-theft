@@ -169,7 +169,31 @@ class RecursiveCsvJsonSynchronizer:
         cursor = conn.cursor()
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name = ?", (table_name,))
         if not cursor.fetchone():
-            return 0
+            # Dynamically create the table based on CSV headers
+            try:
+                with open(csv_path, 'r', encoding='utf-8', errors='replace') as f:
+                    reader = csv.reader(f)
+                    headers = next(reader, None)
+                if headers:
+                    cols = []
+                    for h in headers:
+                        if h == 'id':
+                            cols.append('"id" INTEGER PRIMARY KEY')
+                        elif h in ('ast_similarity_score', 'structural_similarity_score'):
+                            cols.append(f'"{h}" REAL')
+                        elif h in ('properties_count', 'parameters_count', 'lines', 'bytes', 'size_bytes', 'file_count', 'total_schemas_count', 'total_endpoints_count', 'total_ast_nodes_count', 'total_packages'):
+                            cols.append(f'"{h}" INTEGER')
+                        else:
+                            cols.append(f'"{h}" TEXT')
+                    
+                    cols_str = ", ".join(cols)
+                    create_sql = f'CREATE TABLE IF NOT EXISTS "{table_name}" ({cols_str})'
+                    cursor.execute(create_sql)
+                    conn.commit()
+                    log(f"Dynamically created SQLite table '{table_name}' from CSV headers.")
+            except Exception as ce:
+                log(f"Error dynamically creating table '{table_name}': {ce}")
+                return 0
 
         # Read table columns
         cursor.execute(f'PRAGMA table_info("{table_name}")')
@@ -279,12 +303,22 @@ class RecursiveCsvJsonSynchronizer:
         modified_json = []
 
         # Check modifications
+        conn_check = sqlite3.connect(self.db_path)
+        cur_check = conn_check.cursor()
         for fpath in csv_files:
             rel = os.path.relpath(fpath, WORKSPACE_ROOT)
             sha = self.compute_file_sha256(fpath)
-            if file_sigs.get(rel) != sha:
+            basename = os.path.basename(fpath)
+            table_name = CSV_TABLE_MAP.get(basename)
+            table_exists = False
+            if table_name:
+                cur_check.execute("SELECT name FROM sqlite_master WHERE type='table' AND name = ?", (table_name,))
+                table_exists = cur_check.fetchone() is not None
+            
+            if file_sigs.get(rel) != sha or not table_exists:
                 modified_csv.append(fpath)
                 file_sigs[rel] = sha
+        conn_check.close()
 
         for fpath in json_files:
             rel = os.path.relpath(fpath, WORKSPACE_ROOT)

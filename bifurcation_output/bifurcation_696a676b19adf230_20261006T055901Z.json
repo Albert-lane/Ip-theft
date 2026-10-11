@@ -1,0 +1,96 @@
+{
+  "X-Provenance-Owner": "Albert_Lane",
+  "X-SEC-Ref": "17684-273-411-436",
+  "X-Session-ID": "696a676b19adf230",
+  "X-Timestamp-UTC": "2026-10-06T05:59:01.761811Z",
+  "X-Attribution-Hash": "e737db6caff600d306a8a869b46889b2b26245bae2294b5d78ff920443c80e87",
+  "X-Engine-Version": "1.0.0",
+  "X-Architecture": "Centrifugal_Compute_Topology",
+  "payload": {
+    "session_id": "696a676b19adf230",
+    "atom": "The Centrifugal Compute Topology produces daughter insights at the vortex boundary",
+    "timestamp_utc": "2026-10-06T05:59:01.761524Z",
+    "context_docs": [],
+    "topology": {
+      "N0": 3,
+      "R0": 1.0,
+      "r_eddy": 0.5773502691896258,
+      "N_edge": 6,
+      "bifurcation_index": 0.86,
+      "bifurcation_occurred": false
+    },
+    "node_outputs": {
+      "NODE_0_claude": {
+        "node_id": "NODE_0",
+        "phase_deg": 0.0,
+        "mode": "FORENSIC_ADVERSARIAL",
+        "core_claims": [
+          "[DRY RUN CLAIM A]",
+          "[DRY RUN CLAIM B]"
+        ],
+        "novel_surfaces": [
+          "[DRY RUN SURFACE]"
+        ],
+        "failure_modes": [
+          "[DRY RUN FAILURE MODE]"
+        ],
+        "boundary_signals": [
+          "[DRY RUN BOUNDARY]"
+        ],
+        "provenance_hash": "dry_run",
+        "raw_text": "{\"node_id\": \"NODE_0\", \"phase_deg\": 0.0, \"mode\": \"FORENSIC_ADVERSARIAL\", \"core_claims\": [\"[DRY RUN CLAIM A]\", \"[DRY RUN CLAIM B]\"], \"novel_surfaces\": [\"[DRY RUN SURFACE]\"], \"failure_modes\": [\"[DRY RUN FAILURE MODE]\"], \"boundary_signals\": [\"[DRY RUN BOUNDARY]\"], \"provenance_hash\": \"dry_run\"}"
+      },
+      "NODE_1_gemini": {
+        "node_id": "NODE_1",
+        "phase_deg": 120.0,
+        "mode": "GENERATIVE_EXPANSIVE",
+        "core_claims": [
+          "[DRY RUN CLAIM C]",
+          "[DRY RUN CLAIM D]"
+        ],
+        "novel_surfaces": [
+          "[DRY RUN SURFACE G]"
+        ],
+        "failure_modes": [
+          "[DRY RUN FAILURE G]"
+        ],
+        "boundary_signals": [
+          "[DRY RUN BOUNDARY]"
+        ],
+        "provenance_hash": "dry_run",
+        "raw_text": "{\"node_id\": \"NODE_1\", \"phase_deg\": 120.0, \"mode\": \"GENERATIVE_EXPANSIVE\", \"core_claims\": [\"[DRY RUN CLAIM C]\", \"[DRY RUN CLAIM D]\"], \"novel_surfaces\": [\"[DRY RUN SURFACE G]\"], \"failure_modes\": [\"[DRY RUN FAILURE G]\"], \"boundary_signals\": [\"[DRY RUN BOUNDARY]\"], \"provenance_hash\": \"dry_run\"}"
+      },
+      "NODE_2_synthesis": {
+        "node_id": "NODE_2",
+        "phase_deg": 240.0,
+        "mode": "SYNTHESIS_ARBITRATION",
+        "n1_daughter_claims": [
+          "[DRY RUN N1 DAUGHTER \u2014 novel synthesis]"
+        ],
+        "vortex_boundary": [
+          "[DRY RUN BOUNDARY]"
+        ],
+        "perimeter_field": [
+          "[DRY RUN CONTRADICTION]"
+        ],
+        "bifurcation_index": 0.86,
+        "bifurcation_occurred": false,
+        "n1_summary": "[DRY RUN: N1 daughter summary here]",
+        "provenance_hash": "dry_run",
+        "raw_text": "{\"node_id\": \"NODE_2\", \"phase_deg\": 240.0, \"mode\": \"SYNTHESIS_ARBITRATION\", \"n1_daughter_claims\": [\"[DRY RUN N1 DAUGHTER \\u2014 novel synthesis]\"], \"vortex_boundary\": [\"[DRY RUN BOUNDARY]\"], \"perimeter_field\": [\"[DRY RUN CONTRADICTION]\"], \"bifurcation_index\": 1.15, \"bifurcation_occurred\": true, \"n1_summary\": \"[DRY RUN: N1 daughter summary here]\", \"provenance_hash\": \"dry_run\"}"
+      }
+    },
+    "n1_output": {
+      "daughter_claims": [
+        "[DRY RUN N1 DAUGHTER \u2014 novel synthesis]"
+      ],
+      "vortex_boundary": [
+        "[DRY RUN BOUNDARY]"
+      ],
+      "perimeter_field": [
+        "[DRY RUN CONTRADICTION]"
+      ],
+      "n1_summary": "[DRY RUN: N1 daughter summary here]"
+    }
+  }
+}

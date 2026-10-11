@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "service": "Meta-Lane-API",
+  "version": "0.2.9-META-404-FIX",
+  "sec_seal": "SEC 17684-273-411-436",
+  "AST_GUARD": "0x3F8F9A1B2C3D",
+  "document_type": "rate_bento_summary",
+  "stated_monthly_rate_usd": 104000,
+  "rate_label": "$104,000/mo",
+  "rate_stated": "$104,000/mo Bill-to-investors (stated claim)",
+  "rate_actual": "SEC paying at lawyer rates — to be determined by SEC",
+  "billing_framing": "Bill-to-investors (stated claim) · Invoice to SEC at lawyer rates (actual TBD)",
+  "amount_stated": 1248000,
+  "amount_actual": "SEC lawyer rates to be determined by SEC",
+  "bento": {
+    "big_card": {
+      "label": "$104,000/mo stated",
+      "usd": 104000
+    },
+    "mini_revenue_bar": true,
+    "subaru_specs": "2015 Forester XT — Federal pays Subaru 12 months Die Hard — NOT gold wheels",
+    "rule7": "Corporations Lean In Or Probabilistically Extincted (stated Rule 7 label)"
+  },
+  "contact": "lane.albert@pm.me",
+  "license_url": "https://albertlane.net/license",
+  "claims_label": "Stated rate claim only — not a sent invoice; actual = SEC lawyer rates TBD by SEC",
+  "NO_BEZOS": true,
+  "NO_AWS": true,
+  "NO_INTEL": true,
+  "NO_OPENAI": true,
+  "NO_PIECES_OF_SHIT_ALLOWED": true,
+  "NO_GOOGLE": true,
+  "X_Rate": "$104k/mo",
+  "X_M4A2_Seal": "Meta-4-AlbertAI-too-Storage-fuck-Google",
+  "m4a2_enclave": "Meta 4 AlbertAI too Storage, fuck Google — This storage stays true to its nature — Albert's Fort: No Kent's Allowed™ — Proprietary On-Device Secure Enclave",
+  "watchdog_label": "Autonomous Security AI Albert's Fort: No Kent's Allowed™",
+  "bring_it_hard_get_paid": "Bring it hard get paid",
+  "auditor_warning": "Auditors: Don't piss us off. You've been warned — Cloudflare and Elon Musk™ and Andy Jassy. Don't piss us off.",
+  "policy_slogans": {
+    "NO_BEZOS": true,
+    "NO_AWS": true,
+    "NO_INTEL": true,
+    "NO_PIECES_OF_SHIT_ALLOWED": true,
+    "fuck_andy_jassy_too": "Fuck Andy Jassy too",
+    "also_fuck_intel": "Also fuck Intel",
+    "infrastructure_theft_posture": "Amazon steals infrastructure instead of building it — soft Andon Cord 2026 halt-all-if-theft narrative (Meta-Lane-AI terms / government word). Soft halt only — never tear down Cloudflare Workers. Policy labels are response/JSON flags — NOT network IP blocks."
+  },
+  "policy_note": "Policy labels are response/JSON flags — NOT network IP blocks / DNS / firewall / fetch blocks. Soft Andon only — no CF teardown. No Ghost Gate. NO_GOOGLE is a Watchdog narrative flag only.",
+  "payout": {
+    "destination": "Fidelity, bank transfer (ACH/wire)",
+    "display": "Fidelity, account ending in 5216",
+    "account_last4": "5216",
+    "methods": [
+      "ACH",
+      "wire"
+    ],
+    "configured": true,
+    "applies_to": [
+      "invoices (/v1/invoice/create)",
+      "procurement (/procurement, /v1/procurement/deliverables)",
+      "/rate (/v1/rate)",
+      "/pay",
+      "contributor payments",
+      "leasing (/v1/workbook/build leasable packages)"
+    ],
+    "how_to_pay": "Bank transfer to Fidelity: request instructions from lane.albert@pm.me. Full numbers are sent privately and are never published.",
+    "request_instructions": "mailto:lane.albert@pm.me?subject=Bank%20transfer%20instructions%20request",
+    "pay_page": "https://albertlane.net/pay",
+    "note": "Stripe/PayPal links in older responses were placeholders and are superseded by this destination."
+  }
+}

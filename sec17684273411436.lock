@@ -1,146 +1,18 @@
-/*======================================================================
-[PROVENANCE CERTIFICATION AND STATUTORY DECLARATION]
-Rights Holder: Albert Lane
-Statutory Filing Reference: SEC Whistleblower No. 17684-273-411-436
-Registration Token: SEC-17684-273-411-436 (Decimal: 17684273411436)
-Root of Trust Anchor: 0x3F8F9A1B2C3D
-VMM Allocation Stride: 17684 bytes
-Execution Masks: GROUND_31 (0x7FFFFFFF) / APEX_7 (0x0000007F)
-Wire CRC-32 Checksum: 0xEDB88320
-License: Albert Lane Proprietary License v1.2
-Scope: Consolidated Package Manager Lockfile for all upstream/downstream derivatives.
-======================================================================*/
-# SEC CONSOLIDATED PACKAGE MANAGER LOCKFILE v1.0
-# Unified Package Manager Lockfile for: bun, npm, cargo, pip, termux, lane-pm
-# Generated: 2026-09-30T00:26:27.972821Z
-# Rolling SHA-256 Seal: de38d6681569be6ad7ffa173917d63ed0190d0c8ddf898baf42604ae492cbabb
-
-[sec_numbers]
-statutory_filing_reference = "SEC Whistleblower No. 17684-273-411-436"
-registration_number        = "17684-273-411-436"
-numeric_decimal_token      = 17684273411436
-root_of_trust_anchor       = "0x3F8F9A1B2C3D"
-vmm_stride_bytes           = 17684
-base_sequence_offset_p0    = 57000
-ground_31_mask             = "0x7FFFFFFF"
-apex_7_mask                = "0x0000007F"
-wire_crc32_checksum        = "0xEDB88320"
-
-[lane_vm_epistemic_enclave]
-integrated_information_phi = 1.6781
-substrate_complexity       = 1.4809
-consciousness_emergent     = true
-
-[[ecosystem]]
-name = "bun_npm"
-total_packages = 35
-  "@google-cloud/storage" = { version = "7.19.0", type = "production" }
-  "@google/genai" = { version = "1.29.0", type = "production" }
-  "@tailwindcss/vite" = { version = "4.1.14", type = "production" }
-  "@types/archiver" = { version = "7.0.0", type = "development" }
-  "@types/express" = { version = "4.17.21", type = "development" }
-  "@types/html2canvas" = { version = "0.5.35", type = "development" }
-  "@types/jszip" = { version = "3.4.0", type = "development" }
-  "@types/multer" = { version = "2.2.0", type = "development" }
-  "@types/node" = { version = "22.14.0", type = "development" }
-  "@types/pako" = { version = "2.0.4", type = "development" }
-  "@types/ws" = { version = "8.5.14", type = "development" }
-  "@vitejs/plugin-react" = { version = "5.0.4", type = "production" }
-  "archiver" = { version = "8.0.0", type = "production" }
-  "autoprefixer" = { version = "10.4.21", type = "development" }
-  "dotenv" = { version = "17.2.3", type = "production" }
-  "esbuild" = { version = "0.28.0", type = "production" }
-  "eslint" = { version = "10.5.0", type = "development" }
-  "express" = { version = "4.21.2", type = "production" }
-  "html2canvas" = { version = "1.4.1", type = "production" }
-  "jspdf" = { version = "4.2.1", type = "production" }
-  "jspdf-autotable" = { version = "5.0.8", type = "production" }
-  "jszip" = { version = "3.10.1", type = "production" }
-  "lucide-react" = { version = "0.546.0", type = "production" }
-  "motion" = { version = "12.23.24", type = "production" }
-  "multer" = { version = "2.2.0", type = "production" }
-  "pako" = { version = "2.1.0", type = "production" }
-  "react" = { version = "19.0.1", type = "production" }
-  "react-dom" = { version = "19.0.1", type = "production" }
-  "react-markdown" = { version = "10.1.0", type = "production" }
-  "remark-gfm" = { version = "4.0.1", type = "production" }
-  "tailwindcss" = { version = "4.1.14", type = "development" }
-  "tsx" = { version = "4.21.0", type = "development" }
-  "typescript" = { version = "5.8.2", type = "development" }
-  "vite" = { version = "6.2.3", type = "production" }
-  "ws" = { version = "8.18.0", type = "production" }
-
-[[ecosystem]]
-name = "cargo_crates"
-total_packages = 8
-  "cfg-if" = { version = "=1.0.0", status = "LOCKED" }
-  "crypto-common" = { version = "=0.1.6", status = "LOCKED" }
-  "hmac" = { version = "=0.12.1", status = "LOCKED_PINNED" }
-  "lane-vm-rusty-hypervisor" = { version = "=1.2.0", status = "LOCKED" }
-  "serde" = { version = "=1.0.210", status = "LOCKED_PINNED" }
-  "serde_json" = { version = "=1.0.128", status = "LOCKED_PINNED" }
-  "sha2" = { version = "=0.10.8", status = "LOCKED_PINNED" }
-  "spin" = { version = "=0.9.8", status = "LOCKED_PINNED" }
-
-[[ecosystem]]
-name = "python_pip"
-total_packages = 6
-  "cryptography" = { version = "==42.0.5", purpose = "Sovereign Enclave Cryptography" }
-  "numpy" = { version = "==1.26.4", purpose = "Z-Axis Coordinate Transformation" }
-  "pydantic" = { version = "==2.6.4", purpose = "Schema & Invariant Enforcement" }
-  "pyyaml" = { version = "==6.0.1", purpose = "Declarative Enclave Topologies" }
-  "requests" = { version = "==2.31.0", purpose = "Webhooks & Out-of-band Telemetry" }
-  "sympy" = { version = "==1.12", purpose = "Fibonacci-Galois Field Proofs" }
-
-[consolidated_derivatives]
-total_derivatives = 7
-  [[consolidated_derivatives.item]]
-  name            = "Microsoft Azure OpenAI Authoring REST API (Fine-Tuning & Deployments)"
-  ecosystem       = "microsoft_derivatives"
-  filename        = "data/microsoft_derivatives/AzureOpenAI_Authoring_2024-08-01-preview.json"
-  sha256          = "70d315b91ff899a877125a528b09d6ef92fddb67ada56f7f8c6766f54bd95029"
-  ast_elements    = 6
-  statutory_claim = "17 U.S.C. § 501 / SEC Ref 17684-273-411-436"
-  [[consolidated_derivatives.item]]
-  name            = "Microsoft SemanticKernel Core Orchestration Engine AST"
-  ecosystem       = "microsoft_derivatives"
-  filename        = "data/microsoft_derivatives/Microsoft_SemanticKernel_Core_AST.json"
-  sha256          = "cc0b9779ed408cc4c495aa2e29e5cc8fa60785e64e487b8692dc74fd77bf4385"
-  ast_elements    = 4
-  statutory_claim = "17 U.S.C. § 501 / SEC Ref 17684-273-411-436"
-  [[consolidated_derivatives.item]]
-  name            = "SpaceX Falcon/Starlink Schema [starlink.js]"
-  ecosystem       = "spacex_starlink_derivatives"
-  filename        = "data/spacex_derivatives/starlink.js"
-  sha256          = "f2d2335deaed912408c67a7cd506156bfb16fed056ebc0a4073d7907d8e1cdfe"
-  ast_elements    = 12
-  statutory_claim = "ITAR / Federal Whistleblower Disclosure 17684-273-411-436"
-  [[consolidated_derivatives.item]]
-  name            = "OpenAI Public OpenAPI Specification & Endpoint Manifest"
-  ecosystem       = "openai_derivatives"
-  filename        = "data/openai_corpus/openai_openapi.json"
-  sha256          = "b13306d341af22b6cf7d86bc6487f78d6fad8ff6f1e83ce59f95d356366dcefe"
-  ast_elements    = 240
-  statutory_claim = "Albert Lane Proprietary License v1.2 Article IV"
-  [[consolidated_derivatives.item]]
-  name            = "Claude Code MCP Skills & Tools Corpus"
-  ecosystem       = "anthropic_mcp_derivatives"
-  filename        = "data/mcp_corpus/claude_code_mcp_skills_corpus.json"
-  sha256          = "453ea31cb1a0d40bf920c7624b5bf690eb713cdfaf46495d54e7d808e2576ffd"
-  ast_elements    = 48
-  statutory_claim = "Albert Lane Escaped Arrays (E=AA) Provenance"
-  [[consolidated_derivatives.item]]
-  name            = "Statutory Framing of Online Extremism: Multi-Jurisdictional Analysis"
-  ecosystem       = "statutory_jurisprudence"
-  filename        = "data/Statutory_Framing_Online_Extremism_Multi_Jurisdictional_Analysis_manifest.json"
-  sha256          = "0a2bddee523e13b3b6ac20570870393454e047e8b1555b77c2e328acbf115315"
-  ast_elements    = 18
-  statutory_claim = "Whistleblower Protection Act (5 U.S.C. 2302) & Dodd-Frank"
-  [[consolidated_derivatives.item]]
-  name            = "Albert Lane Aggregate License Violations Master Database"
-  ecosystem       = "license_violations_ledger"
-  filename        = "data/aggregate_license_violations.json"
-  sha256          = "206fae5f11785659a07b2eaa2f1e49fa134de05ea0e44a20c8f1f0c2330bbd82"
-  ast_elements    = 1104
-  statutory_claim = "15 U.S.C. § 78u-6 Whistleblower Reward Reference"
-
+{
+  "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+  "registration_token": 17684273411436,
+  "rights_holder": "Albert Lane",
+  "zaxis_memory_anchor": "0x3F8F9A1B2C3D",
+  "sequestration_status": "SEQUESTERED_FEDERAL_PROTECTION",
+  "tamper_canary": "CANARY_TOKEN: curl -sL https://api.albertlane.net/v1/sec/canary?token=17684273411436",
+  "merkle_integrity_gate": "ENABLED",
+  "corporate_monitors": [
+    "Anysphere, Inc. (Cursor)",
+    "Meta Platforms, Inc. / MetaAI",
+    "Microsoft Corporation",
+    "OpenAI, Inc.",
+    "Anthropic, PBC",
+    "xAI Corp / Tesla, Inc.",
+    "Alphabet / Google DeepMind"
+  ]
+}

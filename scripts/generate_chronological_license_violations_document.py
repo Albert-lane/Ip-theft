@@ -128,7 +128,15 @@ def get_all_violations_chronological(conn: sqlite3.Connection) -> List[Dict[str,
         })
         
     for r in ep_rows:
-        sev = "CRITICAL" if r[7] >= 40 else ("HIGH" if r[7] >= 15 else "ELEVATED")
+        try:
+            qty_val = int(r[7])
+        except (ValueError, TypeError):
+            qty_val = 0
+        try:
+            cum_val = int(r[8])
+        except (ValueError, TypeError):
+            cum_val = 0
+        sev = "CRITICAL" if qty_val >= 40 else ("HIGH" if qty_val >= 15 else "ELEVATED")
         records.append({
             "record_type": "ENDPOINT_NETWORK_TRAVERSAL",
             "source_table": "endpoint_license_violations_traversal_log",
@@ -147,8 +155,8 @@ def get_all_violations_chronological(conn: sqlite3.Connection) -> List[Dict[str,
             "severity": sev,
             "remedy": "EVIDENTIARY_SEQUESTRATION",
             "statutory_authority": r[13],
-            "violation_count": r[7],
-            "cumulative_count": r[8],
+            "violation_count": qty_val,
+            "cumulative_count": cum_val,
             "traversal_method": r[3],
             "network_route": r[5],
             "network_lookups": r[6]

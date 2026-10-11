@@ -1,0 +1,9 @@
+{
+  "ots_version": 1,
+  "chain": "bitcoin+calendar_opentimestamps",
+  "sha256_digest": "7b02178e328c591272fcf177c13342e04e8c9df7172a3fda658720949c8a1e49",
+  "entry_hash": "0727cc2843626e5f25cb37d19b344200e4248da55974b08044b8ff9403e0298e",
+  "timestamp_utc": "2026-10-11T03:31:13.774710Z",
+  "merkle_nonce": "c70f32aa3011025d22857140e69c36b6a53c1e733e5b05b00fbb16e83bf27bd7",
+  "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+}

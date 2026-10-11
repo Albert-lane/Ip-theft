@@ -31,6 +31,23 @@ export const CloudflareZoneManager: React.FC = () => {
   const [selectedTab, setSelectedTab] = useState<'DNS' | 'SSL' | 'EDGE_WORKERS'>('DNS');
   const [newRecordName, setNewRecordName] = useState('');
   const [newRecordContent, setNewRecordContent] = useState('');
+  const [isPushing, setIsPushing] = useState(false);
+  const [pushReceipt, setPushReceipt] = useState<any | null>(null);
+
+  const handlePushProvenance = async () => {
+    setIsPushing(true);
+    try {
+      const res = await fetch('/api/provenance/push', { method: 'POST' });
+      if (res.ok) {
+        const data = await res.json();
+        setPushReceipt(data.receipt);
+      }
+    } catch (err) {
+      console.error('Failed to push provenance:', err);
+    } finally {
+      setIsPushing(false);
+    }
+  };
 
   const handleAddRecord = () => {
     if (!newRecordName || !newRecordContent) return;
@@ -96,6 +113,33 @@ export const CloudflareZoneManager: React.FC = () => {
             }`}
           >
             WORKERS ROUTING
+          </button>
+        </div>
+      </div>
+
+      {/* Website Provenance Action Bar */}
+      <div className="bg-[#384353] border-b border-[#64748b] px-[13px] py-[8px] flex flex-wrap items-center justify-between gap-3 text-[10px] font-mono">
+        <div className="flex items-center gap-2">
+          <span className="text-[#38bdf8] font-bold">WEBSITE PROVENANCE:</span>
+          <span className="text-[#f1f5f9]">albertlane.net</span>
+          <span className="text-[#94a3b8]">&bull;</span>
+          <span className="text-[#94a3b8]">API Edge:</span>
+          <span className="text-[#a7f3d0]">api.albertlane.net</span>
+          <span className="text-[#94a3b8]">&bull;</span>
+          <span className="text-[#cbd5e1]">SEC-17684-273-411-436</span>
+        </div>
+        <div className="flex items-center gap-2">
+          {pushReceipt && (
+            <span className="text-[9px] text-[#4ade80] border border-[#22c55e]/40 px-2 py-0.5 bg-[#14532d]/40">
+              ✓ PUSHED: {pushReceipt.deliveryStatus} ({pushReceipt.deliveryId?.slice(0, 16)}...)
+            </span>
+          )}
+          <button
+            onClick={handlePushProvenance}
+            disabled={isPushing}
+            className="px-3 py-1 bg-[#0284c7] hover:bg-[#0369a1] text-white border border-[#38bdf8] font-semibold tracking-wider text-[9px] uppercase transition-colors"
+          >
+            {isPushing ? 'PUSHING TO API...' : 'PUSH TO API (api.albertlane.net)'}
           </button>
         </div>
       </div>

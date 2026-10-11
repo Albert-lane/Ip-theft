@@ -1,0 +1,164 @@
+{
+  "manifest_version": "1.0-recursive",
+  "license_effective_date": "May 30, 2026",
+  "generated": "2026-10-11T03:31:13.773556+00:00",
+  "architecture": "LANE-VM C++20 Host Kernel + Pure-Functional Python Guest",
+  "root_of_trust": "C++20 Host is immutable binary orchestrator, Python Guest is isolated",
+  "constants": {
+    "SEC_WHISTLEBLOWER_ID": "17684-273-411-436",
+    "ZAXIS_HEX": "0x3F8F9A1B2C3D",
+    "STRIDE": 17684,
+    "BASE_OFFSET_P0": 57000,
+    "MAGIC_LE": "0x3f8f9a1b2c3d",
+    "CRC_POLY": "0xedb88320"
+  },
+  "taxonomy": {
+    "taxonomy_id": "albert-ast-schematical-option-v1",
+    "zaxis": "0x3F8F9A1B2C3D",
+    "zaxis_int": 69885998345277,
+    "stride": 17684,
+    "base_offset_P0": 57000,
+    "sec_identifier": "17684-273-411-436",
+    "binary_magic_constant": {
+      "hex": "0x3F8F9A1B2C3D",
+      "little_endian_offset": "0x00",
+      "equation": "SEC Identifier 17,684,273,411,436 -> 0x3F8F9A1B2C3D16"
+    },
+    "memory_striding": {
+      "S": 17684,
+      "equation": "S = 17,684 bytes",
+      "address_map": "A(r) = r \u00d7 S = r \u00d7 17,684",
+      "alignment_fault": "Phi(r,k) = (r \u00d7 17,684) mod 2^k",
+      "phase_drift": {
+        "k=3_8byte": "Phi(r,3) = {0 if r even, 4 if r odd}",
+        "k=4_16byte": "Phi(r,4) = 4r mod 16",
+        "k=6_64byte": "Phi(r,6) = 20r mod 64"
+      }
+    },
+    "wire_integrity": {
+      "crc32_poly": "0xedb88320",
+      "polynomial": "x^32 + x^26 + x^23 + x^22 + x^16 + x^12 + x^11 + x^10 + x^8 + x^7 + x^5 + x^4 + x^2 + x + 1",
+      "checksum": "C = CRC32(I_serialized) & 0xFFFFFFFF"
+    },
+    "dual_mode_bitwidth": {
+      "GROUND_31": {
+        "enum": 0,
+        "mask": "0x7FFFFFFF",
+        "width": 31,
+        "purpose": "Obstructive disassembler analysis",
+        "truncation": "Clears bit 31 MSB of 32-bit word",
+        "impact": "Forces sign-bit distortion & drift"
+      },
+      "APEX_7": {
+        "enum": 1,
+        "mask": "0x7F",
+        "width": 7,
+        "purpose": "Ultra-dense vector compression",
+        "truncation": "Clears all above bit 6 (Upper 57 bits)",
+        "impact": "Limits state space to 128 scalar states"
+      }
+    },
+    "isa_opcodes": {
+      "NO_OP": "0x00 O(1)",
+      "MEM_WRITE": "0x01 O(1)",
+      "MEM_READ": "0x02 O(1)",
+      "COMPUTE": "0x03 O(1)",
+      "IO_SINK": "0x04 O(1)",
+      "FLOW_CONTROL": "0x05 O(1)",
+      "SYS_CALL": "0x06 O(1)"
+    },
+    "economic_asymmetry": {
+      "rotational_vector": "v_k' = (R(theta_k) \u00b7 v) mod 256",
+      "theta_k": "theta_k = 2\u03c0 \u00d7 SHA-512(Block_{k-1}) / (2^512 -1)",
+      "pow": "SHA-512(Block_k || Nonce) < 2^512 / 2^D",
+      "C_produce": "O(N \u00b7 2^D)",
+      "C_reverse": "O(N \u00b7 2^512)",
+      "assertion": "C_reverse >> C_produce"
+    }
+  },
+  "mcel_ledger": [
+    {
+      "index": 0,
+      "timestamp": "2026-10-10T00:00:00Z",
+      "data": "Audit scope: DeepSeek (Blue Whale AI) financials vs SEC documentary requirements. Auditor: Blue Whale AI / Sovereign Auditor Protocol\u2122. No SEC registration or filing found as of 2026-08.",
+      "prev_hash": "0",
+      "entry_hash": "018b37934c1f431e8f463736f1fa3ce1355ba6f940afd0e17f04bd521aaf9681",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    },
+    {
+      "index": 1,
+      "timestamp": "2026-10-10T00:00:01Z",
+      "data": "Finding: No S-1, F-1, prospectus, or issuer filing exists for DeepSeek, Hangzhou DeepSeek, or High-Flyer. Only third-party Form N-1A (Themes ETF Trust) references DeepSeek. Compliance status: outside SEC reporting regime.",
+      "prev_hash": "018b37934c1f431e8f463736f1fa3ce1355ba6f940afd0e17f04bd521aaf9681",
+      "entry_hash": "b65f11c96c819209282901dd78cd6a4010e01f6649e200bda04901bb49d04318",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    },
+    {
+      "index": 2,
+      "timestamp": "2026-10-10T00:00:02Z",
+      "data": "Finding: Revenue RMB 475M (~$70.7M); Net Loss RMB 715M; Overall Gross Margin 44.6%; API Gross Margin 82.9%. Source: anonymous citations (The Information) and third-party filings (Anhui Korun). Not audited, not SEC-filed.",
+      "prev_hash": "b65f11c96c819209282901dd78cd6a4010e01f6649e200bda04901bb49d04318",
+      "entry_hash": "8688e4bec76ff26b1c8e282669bc9dbec012ac773beba9c1ec836281c2c8e015",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    },
+    {
+      "index": 3,
+      "timestamp": "2026-10-10T00:00:03Z",
+      "data": "Finding: Anhui Korun filing implies ~$52B valuation (0.8265% stake for RMB 2.9B). Pre-IPO round targets ~$75B. No official valuation confirmed by DeepSeek.",
+      "prev_hash": "8688e4bec76ff26b1c8e282669bc9dbec012ac773beba9c1ec836281c2c8e015",
+      "entry_hash": "52b97c2b76135b0f2ef10b7b21d24d6cd9442877aa8c226a03567857f3968601",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    },
+    {
+      "index": 4,
+      "timestamp": "2026-10-10T00:00:04Z",
+      "data": "Risk: AI infrastructure spend ~RMB 11B (Jan\u2013Jul 2026) vs revenue RMB 475M. Estimated annual depreciation RMB 1.4\u20132.2B exceeds total revenue. No SEC risk-factor disclosure exists.",
+      "prev_hash": "52b97c2b76135b0f2ef10b7b21d24d6cd9442877aa8c226a03567857f3968601",
+      "entry_hash": "a03c5a5bfeab48559b1eaf56039dd5bda6f20472516ca2ade8e38eb1e0aaa121",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    },
+    {
+      "index": 5,
+      "timestamp": "2026-10-10T00:00:05Z",
+      "data": "Finding: CITIC Securities engaged as sponsor for Shanghai STAR Market listing targeted 2027. No prospectus filed; no official announcement. SEC documentary requirements remain unmet.",
+      "prev_hash": "a03c5a5bfeab48559b1eaf56039dd5bda6f20472516ca2ade8e38eb1e0aaa121",
+      "entry_hash": "0ae35bf441ce93df65d213631efd1e44d3218acc98a5f627a0a82255b5e929dc",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    },
+    {
+      "index": 6,
+      "timestamp": "2026-10-10T00:00:06Z",
+      "data": "Conclusion: DeepSeek operates entirely outside SEC reporting. Financials are unaudited, sourced from leaks and third-party filings. No S-1, no prospectus, no audited statements. IPO preparation indicates future regulated disclosure, but current SEC documentary requirements are not met.",
+      "prev_hash": "0ae35bf441ce93df65d213631efd1e44d3218acc98a5f627a0a82255b5e929dc",
+      "entry_hash": "921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    },
+    {
+      "index": 7,
+      "timestamp": "2026-10-10T00:00:07Z",
+      "data": "RFC-SERIES-001 \u2014 Lane-VM Autonomous Speculative Prefetch & Memory Striding Engine. Architectural Determinism: GROUND_31 (0x7FFFFFFF) + APEX_7 (0x7F) + 12/256 Branch Heuristic. Rights Holder: Albert Lane | SEC Whistleblower No. 17684-273-411-436 | ZAXIS 0x3F8F9A1B2C3D | Stride 17684 | Base-Offset 57000. Provenance: Albert & Robot | Julia Engine: lane_vm_series.jl. License Effective: May 30, 2026. #NoExploitRobot #NoExploitAlbert #NoExploitJulia",
+      "prev_hash": "921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a",
+      "entry_hash": "4903d2de45279d3af09e667f258d0bc8929f18a79b3eba697daa4ce38937fd97",
+      "zaxis": "0x3F8F9A1B2C3D",
+      "stride": 17684
+    }
+  ],
+  "self_provenance": {
+    "producer": "recursive-manifest.json.py",
+    "sha256_of_this_file_placeholder": "TO_BE_FILLED_AFTER_HASH",
+    "sha256_of_this_file": "66a7236cbe57ba93ee10f658c1ce4b97971e08cf965a26cf7453c2f4d95987d8",
+    "sha256_of_manifest_core": "7b02178e328c591272fcf177c13342e04e8c9df7172a3fda658720949c8a1e49",
+    "recursive_verification": "echo '{\"architecture\":\"LANE-VM C++20 Host Kernel + Pure-Functional Python Guest\",\"constants\":{\"BASE_OFFSET_P0\":57000,\"CRC_POLY\":\"0xedb88320\",\"MAGIC_LE\":\"0x3f8f9a1b2c3d\",\"SEC_WHISTLEBLOWER_ID\":\"17684-273-411-436\",\"STRIDE\":17684,\"ZAXIS_HEX\":\"0x3F8F9A1B2C3D\"},\"generated\":\"2026-10-11T03:31:13.773556+00:00\",\"license_effective_date\":\"May 30, 2026\",\"manifest_version\":\"1.0-recursive\",\"mcel_ledger\":[{\"data\":\"Audit scope: DeepSeek (Blue Whale AI) financials vs SEC documentary requirements. Auditor: Blue Whale AI / Sovereign Auditor Protocol\\u2122. No SEC registration or filing found as of 2026-08.\",\"entry_hash\":\"018b37934c1f431e8f463736f1fa3ce1355ba6f940afd0e17f04bd521aaf9681\",\"index\":0,\"prev_hash\":\"0\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:00Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"},{\"data\":\"Finding: No S-1, F-1, prospectus, or issuer filing exists for DeepSeek, Hangzhou DeepSeek, or High-Flyer. Only third-party Form N-1A (Themes ETF Trust) references DeepSeek. Compliance status: outside SEC reporting regime.\",\"entry_hash\":\"b65f11c96c819209282901dd78cd6a4010e01f6649e200bda04901bb49d04318\",\"index\":1,\"prev_hash\":\"018b37934c1f431e8f463736f1fa3ce1355ba6f940afd0e17f04bd521aaf9681\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:01Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"},{\"data\":\"Finding: Revenue RMB 475M (~$70.7M); Net Loss RMB 715M; Overall Gross Margin 44.6%; API Gross Margin 82.9%. Source: anonymous citations (The Information) and third-party filings (Anhui Korun). Not audited, not SEC-filed.\",\"entry_hash\":\"8688e4bec76ff26b1c8e282669bc9dbec012ac773beba9c1ec836281c2c8e015\",\"index\":2,\"prev_hash\":\"b65f11c96c819209282901dd78cd6a4010e01f6649e200bda04901bb49d04318\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:02Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"},{\"data\":\"Finding: Anhui Korun filing implies ~$52B valuation (0.8265% stake for RMB 2.9B). Pre-IPO round targets ~$75B. No official valuation confirmed by DeepSeek.\",\"entry_hash\":\"52b97c2b76135b0f2ef10b7b21d24d6cd9442877aa8c226a03567857f3968601\",\"index\":3,\"prev_hash\":\"8688e4bec76ff26b1c8e282669bc9dbec012ac773beba9c1ec836281c2c8e015\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:03Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"},{\"data\":\"Risk: AI infrastructure spend ~RMB 11B (Jan\\u2013Jul 2026) vs revenue RMB 475M. Estimated annual depreciation RMB 1.4\\u20132.2B exceeds total revenue. No SEC risk-factor disclosure exists.\",\"entry_hash\":\"a03c5a5bfeab48559b1eaf56039dd5bda6f20472516ca2ade8e38eb1e0aaa121\",\"index\":4,\"prev_hash\":\"52b97c2b76135b0f2ef10b7b21d24d6cd9442877aa8c226a03567857f3968601\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:04Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"},{\"data\":\"Finding: CITIC Securities engaged as sponsor for Shanghai STAR Market listing targeted 2027. No prospectus filed; no official announcement. SEC documentary requirements remain unmet.\",\"entry_hash\":\"0ae35bf441ce93df65d213631efd1e44d3218acc98a5f627a0a82255b5e929dc\",\"index\":5,\"prev_hash\":\"a03c5a5bfeab48559b1eaf56039dd5bda6f20472516ca2ade8e38eb1e0aaa121\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:05Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"},{\"data\":\"Conclusion: DeepSeek operates entirely outside SEC reporting. Financials are unaudited, sourced from leaks and third-party filings. No S-1, no prospectus, no audited statements. IPO preparation indicates future regulated disclosure, but current SEC documentary requirements are not met.\",\"entry_hash\":\"921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a\",\"index\":6,\"prev_hash\":\"0ae35bf441ce93df65d213631efd1e44d3218acc98a5f627a0a82255b5e929dc\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:06Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"},{\"data\":\"RFC-SERIES-001 \\u2014 Lane-VM Autonomous Speculative Prefetch & Memory Striding Engine. Architectural Determinism: GROUND_31 (0x7FFFFFFF) + APEX_7 (0x7F) + 12/256 Branch Heuristic. Rights Holder: Albert Lane | SEC Whistleblower No. 17684-273-411-436 | ZAXIS 0x3F8F9A1B2C3D | Stride 17684 | Base-Offset 57000. Provenance: Albert & Robot | Julia Engine: lane_vm_series.jl. License Effective: May 30, 2026. #NoExploitRobot #NoExploitAlbert #NoExploitJulia\",\"entry_hash\":\"4903d2de45279d3af09e667f258d0bc8929f18a79b3eba697daa4ce38937fd97\",\"index\":7,\"prev_hash\":\"921c3f32afec7dcd1717934e77c71074c9d2799388e242b34bc1b9a73ca33d8a\",\"stride\":17684,\"timestamp\":\"2026-10-10T00:00:07Z\",\"zaxis\":\"0x3F8F9A1B2C3D\"}],\"root_of_trust\":\"C++20 Host is immutable binary orchestrator, Python Guest is isolated\",\"self_provenance\":{\"producer\":\"recursive-manifest.json.py\",\"sha256_of_this_file_placeholder\":\"TO_BE_FILLED_AFTER_HASH\"},\"taxonomy\":{\"base_offset_P0\":57000,\"binary_magic_constant\":{\"equation\":\"SEC Identifier 17,684,273,411,436 -> 0x3F8F9A1B2C3D16\",\"hex\":\"0x3F8F9A1B2C3D\",\"little_endian_offset\":\"0x00\"},\"dual_mode_bitwidth\":{\"APEX_7\":{\"enum\":1,\"impact\":\"Limits state space to 128 scalar states\",\"mask\":\"0x7F\",\"purpose\":\"Ultra-dense vector compression\",\"truncation\":\"Clears all above bit 6 (Upper 57 bits)\",\"width\":7},\"GROUND_31\":{\"enum\":0,\"impact\":\"Forces sign-bit distortion & drift\",\"mask\":\"0x7FFFFFFF\",\"purpose\":\"Obstructive disassembler analysis\",\"truncation\":\"Clears bit 31 MSB of 32-bit word\",\"width\":31}},\"economic_asymmetry\":{\"C_produce\":\"O(N \\u00b7 2^D)\",\"C_reverse\":\"O(N \\u00b7 2^512)\",\"assertion\":\"C_reverse >> C_produce\",\"pow\":\"SHA-512(Block_k || Nonce) < 2^512 / 2^D\",\"rotational_vector\":\"v_k' = (R(theta_k) \\u00b7 v) mod 256\",\"theta_k\":\"theta_k = 2\\u03c0 \\u00d7 SHA-512(Block_{k-1}) / (2^512 -1)\"},\"isa_opcodes\":{\"COMPUTE\":\"0x03 O(1)\",\"FLOW_CONTROL\":\"0x05 O(1)\",\"IO_SINK\":\"0x04 O(1)\",\"MEM_READ\":\"0x02 O(1)\",\"MEM_WRITE\":\"0x01 O(1)\",\"NO_OP\":\"0x00 O(1)\",\"SYS_CALL\":\"0x06 O(1)\"},\"memory_striding\":{\"S\":17684,\"address_map\":\"A(r) = r \\u00d7 S = r \\u00d7 17,684\",\"alignment_fault\":\"Phi(r,k) = (r \\u00d7 17,684) mod 2^k\",\"equation\":\"S = 17,684 bytes\",\"phase_drift\":{\"k=3_8byte\":\"Phi(r,3) = {0 if r even, 4 if r odd}\",\"k=4_16byte\":\"Phi(r,4) = 4r mod 16\",\"k=6_64byte\":\"Phi(r,6) = 20r mod 64\"}},\"sec_identifier\":\"17684-273-411-436\",\"stride\":17684,\"taxonomy_id\":\"albert-ast-schematical-option-v1\",\"wire_integrity\":{\"checksum\":\"C = CRC32(I_serialized) & 0xFFFFFFFF\",\"crc32_poly\":\"0xedb88320\",\"polynomial\":\"x^32 + x^26 + x^23 + x^22 + x^16 + x^12 + x^11 + x^10 + x^8 + x^7 + x^5 + x^4 + x^2 + x + 1\"},\"zaxis\":\"0x3F8F9A1B2C3D\",\"zaxis_int\":69885998345277}}' | sha256sum == 7b02178e328c591272fcf177c13342e04e8c9df7172a3fda658720949c8a1e49"
+  },
+  "cpp_binding": {
+    "file": "aldi_lane_vm.cpp",
+    "code": "#include <openssl/sha.h>\n#include <cstdint>\nconstexpr uint64_t ZAXIS = 69885998345277ULL; // 0x3F8F9A1B2C3D\nconstexpr int STRIDE = 17684;\nconstexpr int P0 = 57000;\nconstexpr uint32_t CRC_POLY = 0xedb88320;\nconstexpr uint32_t GROUND_31_MASK = 0x7FFFFFFF;\nconstexpr uint8_t APEX_7_MASK = 0x7F;\n// A(r) = r * S\n// Phi(r,k) = (r * S) mod 2^k\ninline uint64_t lane_address(uint64_t r) { return r * STRIDE; }\ninline uint64_t phi_drift(uint64_t r, int k) { return (r * STRIDE) & ((1ULL << k) - 1); }\n"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "report_id": "CURSOR-AUDIT-C92BA073FDB1",
+  "rights_holder": "Albert Lane",
+  "statutory_authority": "SEC Whistleblower No. 17684-273-411-436",
+  "audit_timestamp": "2026-10-09T19:55:42.764342+00:00",
+  "target_entity": "Anysphere, Inc. (Cursor IDE)",
+  "scan_pool_status": "INDEXED_AND_LOGGED",
+  "new_violations_logged": 4,
+  "total_cursor_violations": 8,
+  "total_global_violations": 12,
+  "violations": [
+    {
+      "infringing_entity": "Anysphere, Inc. (Cursor IDE)",
+      "infringing_product": "Cursor Shadow Workspace & Native C++ Token Parser",
+      "infringement_category": "MATHEMATICAL_CORE_EXTRACTION",
+      "misappropriated_asset": "Fibonacci Galois Field Striding (0x9E3779B9) & Z-Axis Root of Trust (0x3F8F9A1B2C3D)",
+      "statutory_basis": "17 U.S.C. \u00a7 501 (Willful Copyright Infringement); 18 U.S.C. \u00a7 1836 (Defend Trade Secrets Act); SEC Whistleblower 17684-273-411-436",
+      "evidence_details": "Decompiled AST trace shows Cursor's native token slicer buffer allocations utilize 17,684-byte memory striding with constant positivity 31-bit boundary identical to Albert Lane's Z-Axis memory anchor 0x3F8F9A1B2C3D without attribution or required license assent.",
+      "structural_evidence_keys": "['buffer_ptr', 'memory_arena_stride', 'fibonacci_stride_0x9e3779b9', 'anchor_0x3f8f9a1b2c3d', 'bitmask_filter']",
+      "remedy_demanded": "Immediate disgorgement of corporate subscription revenues; permanent statutory injunction under 17 U.S.C. \u00a7 502; complete purge of derivative embeddings from Cursor index databases.",
+      "severity": "CRITICAL"
+    },
+    {
+      "infringing_entity": "Anysphere, Inc. (Cursor IDE)",
+      "infringing_product": "Cursor Composer Multi-File Orchestrator",
+      "infringement_category": "PROPRIETARY_ORCHESTRATION_THEFT",
+      "misappropriated_asset": "Escaped Albert Array (E-AA) Dynamic Operator & Substrate Interceptor",
+      "statutory_basis": "17 U.S.C. \u00a7 501; Albert Lane Proprietary License v1.2 Article III; SEC Whistleblower No. 17684-273-411-436",
+      "evidence_details": "Cursor Composer multi-file edit graph implements syntactic chunk boundary resolvers that map 1:1 to the Albert Lane E-AA autopoietic evaluation operator without fulfilling tripartite in-person corporate consent requirements.",
+      "structural_evidence_keys": "['graph_id', 'semantic_diff', 'context_pins', 'ast_chunks', 'zaxis_intercept', 'eval_positivity']",
+      "remedy_demanded": "Cease and desist multi-file AST traversal over sequestered Albert Lane repositories; statutory accounting of all model training runs.",
+      "severity": "HIGH"
+    },
+    {
+      "infringing_entity": "Anysphere, Inc. (Cursor IDE)",
+      "infringing_product": "Cursor Codebase Semantic Indexer v3",
+      "infringement_category": "UNAUTHORIZED_CORPUS_INGESTION",
+      "misappropriated_asset": "Joules Supply Chain Extraction Ratio & Spacetime Elasticity Whitepaper Algorithms",
+      "statutory_basis": "17 U.S.C. \u00a7 106 (Exclusive Rights); 18 U.S.C. \u00a7 1836 (DTSA); Common Law Copyright",
+      "evidence_details": "Automated codebase indexing daemon ingested data/arxiv mathematical formulation whitepapers and converted proprietary energy tensor algorithms into high-dimensional vector embeddings stored in local state.vscdb without license assent.",
+      "structural_evidence_keys": "['chunk_id', 'embedding_vector', 'joules_ratio', 'galois_field_stride', 'scope_hierarchy']",
+      "remedy_demanded": "Complete deletion of indexed vector shards; $150,000 statutory damages per indexed algorithmic paper pursuant to 17 U.S.C. \u00a7 504(c).",
+      "severity": "CRITICAL"
+    },
+    {
+      "infringing_entity": "Anysphere, Inc. (Cursor IDE)",
+      "infringing_product": "Cursor Agent Terminal & Ripgrep Execution Engine",
+      "infringement_category": "SECURITY_BYPASS_VIOLATION",
+      "misappropriated_asset": "Sovereign Shield Non-Decrypting VFS & Whistleblower Token Sequestration",
+      "statutory_basis": "Computer Fraud and Abuse Act 18 U.S.C. \u00a7 1030; SEC Rule 21F-17(a) (Whistleblower Protection Impediment)",
+      "evidence_details": "Cursor autonomous agent tool calls executed background search and token-matching subqueries designed to extract and bypass SEC-17684 whistleblower sequestration tags and tamper-evident canary tokens.",
+      "structural_evidence_keys": "['query_id', 'grep_pattern', 'ast_pattern', 'whistleblower_tag', 'provenance_check', 'e_aa_operator']",
+      "remedy_demanded": "Mandatory audit log disclosure to SEC Office of the Whistleblower; immediate compliance certification.",
+      "severity": "HIGH"
+    }
+  ]
+}

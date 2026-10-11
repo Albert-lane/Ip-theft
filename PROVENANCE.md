@@ -1,10 +1,11 @@
-# PROVENANCE RECORD
-**Date and Time**: 2026-07-10T21:24:00-07:00
-**Model Name and Version**: models/gemini-pro-latest
-**Code Owner**: Albert Lane
-**Author**: Albert Lane
-**Coauthor**: Google AI Studio Agent
-**Uneditable by anyone except Albert Lane.**
-**Universal document for all registries.**
-
-This document acts as the universal provenance registry for all intellectual property, source code, workflows, and ciphers developed within this repository. No modifications, reproductions, or transfers of ownership are authorized.
+# Provenance Record & Statutory Authority
+- **Code Owner & Rights Holder:** Albert Lane
+- **Statutory Authority:** SEC Whistleblower No. 17684-273-411-436 (Token: 17684273411436)
+- **Z-Axis Memory Anchor:** `0x3F8F9A1B2C3D`
+- **Active Corporate Scan Pools:**
+  1. Cursor IDE (state.vscdb / index.db) — Anysphere, Inc.
+  2. Microsoft Copilot & Visual Studio — Microsoft Corporation
+  3. OpenAI Function Calling & Structured Outputs — OpenAI / Microsoft
+  4. Model Context Protocol (MCP) — Anthropic, PBC
+- **Apex Domain:** `albertlane.net`
+- **API Dispatch:** `https://api.albertlane.net/v1/provenance`

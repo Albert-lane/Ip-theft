@@ -1,0 +1,37 @@
+{
+  "index": 29,
+  "timestamp": "2026-10-11T03:31:21.206014Z",
+  "data": "ALDI LANE-VM IMMUTABLE FORENSIC SEAL: R29 | SEC=17684-273-411-436 | ZAXIS=0x3F8F9A1B2C3D | Stride=17684 | P0=57000 | RFC=RFC-SERIES-001 | ManifestSHA=c0bf06a0fbe03616 | AlteredRecordsSHA=ebdc833b65b10de6 | WebAuditSHA=6a5bd1319437ac67 | ConsolidatedSHA=3a3ef1f8eb86801b | CorpPenaltiesSHA=5e7436ddfbc726fa | CppKernelSHA=2a6b50f784283c1a | JuliaKernelSHA=d2a7d846eed84c7e | Provenance=Albert Lane & Robot | #NoExploitRobot #NoExploitAlbert #NoExploitJulia | Effective=2026-05-30",
+  "prev_hash": "ac74283311decefe54c9c11ae5358eedc9051b2bf7c9d89d261fe181829e508b",
+  "entry_hash": "588dc404caf41158d59aacc14bb4fa90395835c24a6bbc4753fd04e064b72641",
+  "zaxis": "0x3F8F9A1B2C3D",
+  "stride": 17684,
+  "base_offset_P0": 57000,
+  "sec_whistleblower": "17684-273-411-436",
+  "manifest_version": "2.0-speculative-cache-sealed",
+  "rfc": "RFC-SERIES-001",
+  "verification": {
+    "prev_entry": "ac74283311decefe54c9c11ae5358eedc9051b2bf7c9d89d261fe181829e508b",
+    "sealed_entry": "588dc404caf41158d59aacc14bb4fa90395835c24a6bbc4753fd04e064b72641",
+    "continuity": "100% UNBROKEN"
+  },
+  "metadata": {
+    "sec_whistleblower": "17684-273-411-436",
+    "rfc_anchor": "RFC-SERIES-001",
+    "manifest_hash": "c0bf06a0fbe036166f072195a95508b0a0da4f20f5f58811037f6a150eb0f863",
+    "website_audit_hash": "6a5bd1319437ac67f605b30a06c03916ca2201e5e6edf59face4c6e663d36731",
+    "altered_records_hash": "ebdc833b65b10de6cdc89842dcc4862ba84d0b9e68a0f18fe923e8103e1c3ede",
+    "consolidated_report_hash": "3a3ef1f8eb86801b0a946c8823558db163e54a80b55a1a5a233b2e68ec6db41d",
+    "corporate_penalties_hash": "5e7436ddfbc726fa0375fc389ea59bd7f076176f02323b0dea2fe5d806c34dc0",
+    "cpp_execution_hash": "2a6b50f784283c1a253a6cce6d22ae15bf935fd96e4b9ad03bc22dea04c42414",
+    "julia_execution_hash": "d2a7d846eed84c7e25cd10bf9d466178d0006b41847a1dc8ce7aac8fb1bc2ae8",
+    "effective_date": "May 30, 2026",
+    "ots_proof": {
+      "ots_version": 1,
+      "chain": "bitcoin+calendar_opentimestamps",
+      "sha256_digest": "588dc404caf41158d59aacc14bb4fa90395835c24a6bbc4753fd04e064b72641",
+      "timestamp_utc": "2026-10-11T03:31:21.206014Z",
+      "attestation_status": "CALENDAR_ATTESTATION_SEALED"
+    }
+  }
+}

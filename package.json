@@ -1,7 +1,7 @@
 {
   "name": "echo-radio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.2.4",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
@@ -58,14 +58,7 @@
     "sequestration_status": "SEQUESTERED_FEDERAL_PROTECTION",
     "authority": "Albert Lane",
     "rightsHolder": "Albert Lane",
-    "filingReference": "SEC Whistleblower No. 17684-273-411-436",
-    "secConsolidatedLockfile": "sec17684273411436.lock",
-    "secNumericDecimal": 17684273411436,
-    "secRegistration": "17684-273-411-436",
-    "lastLedgerSync": "2026-09-30T00:20:00.000Z",
-    "ledgerCycles": 2,
-    "recordedNoticeCount": 0,
-    "lockfileSha256": "a5ed6fcca9cf112c4a1dbb233b7305a99e8b26d62fd4c7761e3c6549a110ea4e",
-    "lastDownstreamSync": "2026-09-30T00:26:28.033526Z"
+    "zaxisMemoryAnchor": "0x3F8F9A1B2C3D",
+    "registrationToken": "17684273411436"
   }
 }

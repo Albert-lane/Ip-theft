@@ -34,7 +34,7 @@ def main():
     cursor = conn.cursor()
 
     # 1. Update files table in SQLite
-    cursor.execute("SELECT id, path FROM files;")
+    cursor.execute("SELECT id, file_path FROM files;")
     files_in_db = cursor.fetchall()
     
     certified_ids = []
@@ -50,7 +50,7 @@ def main():
                 pass
                 
     if certified_ids:
-        cursor.executemany("UPDATE files SET certified = 1 WHERE id = ?;", [(i,) for i in certified_ids])
+        cursor.executemany("UPDATE files SET provenance_certified = '100%_SEC_CERTIFIED' WHERE id = ?;", [(i,) for i in certified_ids])
         conn.commit()
     print(f"[+] Updated files table: {len(certified_ids)} files certified in DB.")
 
@@ -105,6 +105,19 @@ def main():
     print(f"[+] Populated provenance_registry table with {len(prov_rows)} certified items.")
 
     # 3. Populate api_corpus_derivatives
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS api_corpus_derivatives (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        source_corpus TEXT,
+        entity_path TEXT,
+        schema_type TEXT,
+        sha256 TEXT,
+        ast_nodes_count INTEGER,
+        keys_extracted TEXT,
+        timestamp TEXT,
+        cryptographic_certainty TEXT
+    );
+    """)
     cursor.execute("DELETE FROM api_corpus_derivatives;")
     api_derivatives = []
     
@@ -231,6 +244,17 @@ def main():
     print(f"[+] Populated api_corpus_derivatives table with {len(api_derivatives)} derivatives.")
 
     # 4. Insert new sovereign_vault_seal record
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS sovereign_vault_seal (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        rights_holder TEXT,
+        filing_reference TEXT,
+        license TEXT,
+        sealed_at TEXT,
+        total_entities INTEGER,
+        tamper_hash TEXT
+    );
+    """)
     cursor.execute("SELECT count(*) FROM ast_entities;")
     total_entities = cursor.fetchone()[0]
     tamper_hash = hashlib.sha256(f"{RIGHTS_HOLDER}:{FILING_REF}:{total_entities}:{len(prov_rows)}:{TIMESTAMP}".encode("utf-8")).hexdigest()
@@ -296,7 +320,8 @@ def main():
         "data/csv/cross_corpus_ast_correlations.csv",
         "data/csv/microsoft_marketable_derivatives.csv",
         "data/csv/spacex_code_derivatives.csv",
-        "data/csv/ip_defense_blocklist.csv"
+        "data/csv/ip_defense_blocklist.csv",
+        "data/website_provenance.json"
     ]
 
     manifest_artifacts = []
